@@ -20,7 +20,7 @@ site_dir: "site/" # where to publish to
 theme:
   name: material
   language: en
-  custom_dir: docs/overrides/
+  # custom_dir: docs/overrides/
   logo: https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Reverse.svg
   favicon: assets/favicon.ico
   icon:
@@ -95,9 +95,9 @@ extra: # version:
       link: https://reddit.com/r/ultralytics
 
 extra_css:
-  - stylesheets/style.css
+  - https://raw.githubusercontent.com/ultralytics/ultralytics/refs/heads/main/docs/overrides/stylesheets/style.css
 extra_javascript:
-  - javascript/extra.js
+  - https://raw.githubusercontent.com/ultralytics/ultralytics/refs/heads/main/docs/overrides/javascript/extra.js
 
 markdown_extensions:
   - admonition
@@ -136,33 +136,29 @@ validation:
 
 # Primary navigation ---------------------------------------------------------------------------------------------------
 nav:
-  - Home:
-      - Home: index.md
-      - Introduction: introduction.md
-  - Mission, Vision, and Values:
-      - Mission, Vision, and Values: mission-vision-values/index.md
-  - Company Guidelines:
-      - Company Guidelines: company-guidelines/index.md
-  - Team Roles and Responsibilities:
-      - Team Overview: team-roles/index.md
+  - Home: index.md
+  - Intro: introduction.md
+  - Mission & Values: mission-vision-values/index.md
+  - Guidelines: company-guidelines/index.md
+  - Team Roles:
+      - Overview: team-roles/index.md
       - Specific Roles: team-roles/specific-roles.md
-  - Workflows and Processes:
+  - Workflows:
       - Development: workflows/development.md
-      - Product Development: workflows/product-development.md
-      - CI and Testing: workflows/ci-testing.md
+      - Product Dev: workflows/product-development.md
+      - CI/Testing: workflows/ci-testing.md
       - Documentation: workflows/documentation.md
-  - Contributions and Community:
+  - Community:
       - How to Contribute: contributions/how-to-contribute.md
-      - Community Engagement: contributions/community-engagement.md
-  - Tools and Resources:
-      - Developer Tools: tools/developer-tools.md
-      - Learning Resources: tools/learning-resources.md
-  - Company Goals and OKRs:
+      - Engagement: contributions/community-engagement.md
+  - Resources:
+      - Dev Tools: tools/developer-tools.md
+      - Learning: tools/learning-resources.md
+  - Goals & OKRs:
       - Company Goals: goals/company-goals.md
       - OKRs: goals/okrs.md
-  - Frequently Asked Questions:
-      - FAQ: faq/index.md
-  - Legal and Licensing:
+  - FAQ: faq/index.md
+  - Legal:
       - Licenses: legal/licenses.md
       - Privacy Policy: legal/privacy-policy.md
 
