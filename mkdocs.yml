@@ -136,7 +136,32 @@ validation:
 
 # Primary navigation ---------------------------------------------------------------------------------------------------
 nav:
-  - Home: index.md
+  - Home:
+      - Home: index.md
+      - Intro: introduction.md
+      - Mission & Values: mission-vision-values/index.md
+      - Guidelines: company-guidelines/index.md
+      - Team Roles:
+          - Overview: team-roles/index.md
+          - Specific Roles: team-roles/specific-roles.md
+      - Workflows:
+          - Development: workflows/development.md
+          - Product Dev: workflows/product-development.md
+          - CI/Testing: workflows/ci-testing.md
+          - Documentation: workflows/documentation.md
+      - Community:
+          - How to Contribute: contributions/how-to-contribute.md
+          - Engagement: contributions/community-engagement.md
+      - Resources:
+          - Dev Tools: tools/developer-tools.md
+          - Learning: tools/learning-resources.md
+      - Goals & OKRs:
+          - Company Goals: goals/company-goals.md
+          - OKRs: goals/okrs.md
+      - FAQ: faq/index.md
+      - Legal:
+          - Licenses: legal/licenses.md
+          - Privacy Policy: legal/privacy-policy.md
   - Intro: introduction.md
   - Mission & Values: mission-vision-values/index.md
   - Guidelines: company-guidelines/index.md
