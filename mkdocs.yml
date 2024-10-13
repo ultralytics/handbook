@@ -139,8 +139,10 @@ nav:
   - Home:
       - Home: index.md
       - Intro: introduction.md
-      - Mission & Values: mission-vision-values/index.md
-      - Guidelines: company-guidelines/index.md
+      - Mission & Values:
+          - mission-vision-values/index.md
+      - Guidelines:
+          - company-guidelines/index.md
       - Team Roles:
           - Overview: team-roles/index.md
           - Specific Roles: team-roles/specific-roles.md
@@ -158,13 +160,15 @@ nav:
       - Goals & OKRs:
           - Company Goals: goals/company-goals.md
           - OKRs: goals/okrs.md
-      - FAQ: faq/index.md
+      - FAQ:
+          - faq/index.md
       - Legal:
           - Licenses: legal/licenses.md
           - Privacy Policy: legal/privacy-policy.md
-  - Intro: introduction.md
-  - Mission & Values: mission-vision-values/index.md
-  - Guidelines: company-guidelines/index.md
+  - Mission & Values:
+      - mission-vision-values/index.md
+  - Guidelines:
+      - company-guidelines/index.md
   - Team Roles:
       - Overview: team-roles/index.md
       - Specific Roles: team-roles/specific-roles.md
@@ -182,7 +186,8 @@ nav:
   - Goals & OKRs:
       - Company Goals: goals/company-goals.md
       - OKRs: goals/okrs.md
-  - FAQ: faq/index.md
+  - FAQ:
+      - faq/index.md
   - Legal:
       - Licenses: legal/licenses.md
       - Privacy Policy: legal/privacy-policy.md
