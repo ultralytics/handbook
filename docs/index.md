@@ -9,43 +9,51 @@ Whether you’re here to learn about our mission, contribute to our open-source 
 ## 📜 Table of Contents
 
 1. [Introduction](introduction.md)
-   - About Ultralytics
-   - Purpose of the Handbook
+
+    - About Ultralytics
+    - Purpose of the Handbook
 
 2. [Mission, Vision, and Values](mission-vision-values.md)
-   - Our Mission
-   - Our Vision
-   - Core Values
+
+    - Our Mission
+    - Our Vision
+    - Core Values
 
 3. [Company Guidelines](company-guidelines.md)
-   - Code of Conduct
-   - Inclusion and Diversity
-   - Workplace Policies
+
+    - Code of Conduct
+    - Inclusion and Diversity
+    - Workplace Policies
 
 4. [Team Roles and Responsibilities](team-roles.md)
-   - Team Structure
-   - Responsibilities
-   - Collaboration Guidelines
+
+    - Team Structure
+    - Responsibilities
+    - Collaboration Guidelines
 
 5. [Workflows and Processes](workflows-processes.md)
-   - Development Process
-   - Product Development
-   - Continuous Integration and Testing
-   - Documentation Guidelines
+
+    - Development Process
+    - Product Development
+    - Continuous Integration and Testing
+    - Documentation Guidelines
 
 6. [Contributions and Community](contributions-community.md)
-   - How to Contribute
-   - Community Engagement
-   - Acknowledgments
+
+    - How to Contribute
+    - Community Engagement
+    - Acknowledgments
 
 7. [Tools and Resources](tools-resources.md)
-   - Developer Tools
-   - Learning Resources
-   - Style Guides
+
+    - Developer Tools
+    - Learning Resources
+    - Style Guides
 
 8. [Company Goals and OKRs](company-goals.md)
-   - Short-term Goals
-   - Long-term Objectives
+
+    - Short-term Goals
+    - Long-term Objectives
 
 9. [Frequently Asked Questions](faq.md)
 
