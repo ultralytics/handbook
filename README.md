@@ -1,98 +1,132 @@
+<br>
 <a href="https://ultralytics.com" target="_blank"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
-# 🛠 Ultralytics Python Project Template
+# 📚 Ultralytics Handbook
 
-This repository serves as the template for Python projects at [Ultralytics](https://www.ultralytics.com/). It encapsulates best practices, standard configurations, and essential project structures, streamlining the initiation process for new Python projects. By leveraging this template, developers at Ultralytics can ensure consistency and adherence to quality standards across all Python-based software developments.
+The Ultralytics Handbook is your guide to our mission, vision, values, and practices, providing key insights and resources to align with Ultralytics' core principles. This repository is built and maintained directly from the **Handbook repo**, reflecting the latest updates.
 
-[![Ultralytics Actions](https://github.com/ultralytics/template/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/template/actions/workflows/format.yml) <a href="https://ultralytics.com/discord"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://reddit.com/r/ultralytics"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
+[![pages-build-deployment](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment)
+[![Check Broken links](https://github.com/ultralytics/handbook/actions/workflows/links.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/links.yml)
+[![Ultralytics Actions](https://github.com/ultralytics/handbook/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/format.yml)
 
-## 🗂 Repository Structure
+<a href="https://ultralytics.com/discord"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://reddit.com/r/ultralytics"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
 
-The repository is meticulously organized to offer intuitive navigation and a clear understanding of the project components:
+## 🛠️ Installation
 
-- `src/` or `your_package_name/`: Contains the source code of the Python package, organized in modules and packages.
-- `tests/`: Dedicated to unit tests and integration tests, facilitating continuous testing practices.
-- `docs/`: (Optional) Houses project documentation, typically managed with tools like Sphinx.
-- `requirements.txt` or `Pipfile`: Lists all necessary Python package dependencies.
-- `.gitignore`: Configured to exclude unnecessary files from Git tracking.
-- `LICENSE`: Specifies the open-source license under which the project is released.
-- `.github/workflows/`: Contains GitHub Actions workflows for CI/CD processes.
-- `.pre-commit-config.yaml`: (Optional) Pre-commit hooks configuration for maintaining code quality.
-- `Dockerfile`: (Optional) For containerizing the project environment.
-- `environment.yml`: (Optional, for Conda users) Manages Conda environment dependencies.
-- `setup.py`: (Optional, if using PyPI) Details for packaging and distributing the project.
-- Linting and formatting configuration files (like `.flake8`, `.pylintrc`, `pyproject.toml`).
+[![PyPI - Version](https://img.shields.io/pypi/v/ultralytics?logo=pypi&logoColor=white)](https://pypi.org/project/ultralytics/)
+[![Downloads](https://static.pepy.tech/badge/ultralytics)](https://pepy.tech/project/ultralytics)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ultralytics?logo=python&logoColor=gold)](https://pypi.org/project/ultralytics/)
 
+To install the ultralytics package in developer mode, ensure you have Git and Python 3 installed on your system. Then, follow these steps:
+
+1. Clone the ultralytics repository to your local machine using Git:
+
+   ```bash
+   git clone https://github.com/ultralytics/ultralytics.git
+   ```
+
+2. Navigate to the cloned repository's root directory:
+
+   ```bash
+   cd ultralytics
+   ```
+
+3. Install the package in developer mode using pip (or pip3 for Python 3):
+
+   ```bash
+   pip install -e '.[dev]'
+   ```
+
+- This command installs the ultralytics package along with all development dependencies, allowing you to modify the package code and have the changes immediately reflected in your Python environment.
+
+## 🚀 Building and Serving Locally
+
+The `mkdocs serve` command builds and serves a local version of your MkDocs documentation, ideal for development and testing:
+
+```bash
+mkdocs serve
 ```
-your-project/
-│
-├── your_package_name/
-│   ├── __init__.py
-│   ├── module1.py
-│   ├── module2.py
-│   └── ...
-│
-├── tests/
-│   ├── __init__.py
-│   ├── test_module1.py
-│   └── ...
-│
-├── docs/
-│   └── ...
-│
-├── pyproject.toml
-└── README.md
-```
 
-### Source Code in `src/` or `your_package_name/` Directory 📂
+- #### Command Breakdown:
 
-The `src/` or `your_package_name/` directory is the heart of your project, containing the Python code that constitutes your package. This structure encourages clean imports and testing practices.
+    - `mkdocs` is the main MkDocs command-line interface.
+    - `serve` is the subcommand to build and locally serve your documentation.
 
-### Testing with the `tests/` Directory 🧪
+- 🧐 Note:
 
-The `tests/` directory is crucial for maintaining the reliability and robustness of your code. It should include comprehensive tests that cover various aspects of your package.
+    - Grasp changes to the docs in real-time as `mkdocs serve` supports live reloading.
+    - To stop the local server, press `CTRL+C`.
 
-### Documentation in `docs/` Directory 📚
+## 🌍 Building and Serving Multi-Language
 
-For projects requiring extensive documentation, the `docs/` directory serves as the go-to place. It's typically set up with Sphinx for generating high-quality documentation.
+Supporting multi-language documentation? Follow these steps:
 
-## ➕ Starting a New Project
+1. Stage all new language \*.md files with Git:
 
-To kickstart a new Python project with this template:
+   ```bash
+   git add docs/**/*.md -f
+   ```
 
-1. **Create Your New Repository**: Use this template to generate a new repository for your project.
-2. **Customize the Template**: Tailor the template files like `requirements.txt`, `.pre-commit-config.yaml`, and GitHub workflow YAMLs to suit your project's needs.
-3. **Develop Your Package**: Begin adding your code into the `src/` or `your_package_name/` directory and corresponding tests in the `tests/` directory.
-4. **Document Your Project**: Update the README and, if necessary, add documentation to the `docs/` directory.
-5. **Continuous Integration**: Leverage the pre-configured GitHub Actions for automated testing and other CI/CD processes.
+2. Build all languages to the `/site` folder, ensuring relevant root-level files are present:
 
-## 🔧 Utilizing the Template
+   ```bash
+   # Clear existing /site directory
+   rm -rf site
 
-For Ultralytics team members and contributors:
+   # Loop through each language config file and build
+   mkdocs build -f docs/mkdocs.yml
+   for file in docs/mkdocs_*.yml; do
+     echo "Building MkDocs site with $file"
+     mkdocs build -f "$file"
+   done
+   ```
 
-- Clone the template repository to get started on a new Python project.
-- Update the `README.md` to reflect your project's specifics.
-- Remove or modify any optional components (like `Dockerfile`, `environment.yml`) based on the project's requirements.
+3. To preview your site, initiate a simple HTTP server:
 
-With this template, Ultralytics aims to foster a culture of excellence and uniformity in Python software development, ensuring that each project is built on a solid foundation of industry standards and organizational best practices.
+   ```bash
+   cd site
+   python -m http.server
+   # Open in your preferred browser
+   ```
+
+- 🖥️ Access the live site at `http://localhost:8000`.
+
+## 📤 Deploying Your Documentation Site
+
+Choose a hosting provider and deployment method for your MkDocs documentation:
+
+- Configure `mkdocs.yml` with deployment settings.
+- Use `mkdocs deploy` to build and deploy your site.
+
+* ### GitHub Pages Deployment Example:
+  ```bash
+  mkdocs gh-deploy
+  ```
+
+- Update the "Custom domain" in your repository's settings for a personalized URL.
+
+![196814117-fc16e711-d2be-4722-9536-b7c6d78fd167](https://user-images.githubusercontent.com/26833433/210150206-9e86dcd7-10af-43e4-9eb2-9518b3799eac.png)
+
+- For detailed deployment guidance, consult the [MkDocs documentation](https://www.mkdocs.org/user-guide/deploying-your-docs/).
 
 ## 💡 Contribute
 
-Ultralytics thrives on community collaboration; we immensely value your involvement! We urge you to peruse our [Contributing Guide](https://docs.ultralytics.com/help/contributing) for detailed insights on how you can participate. Don't forget to share your feedback with us by contributing to our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A heartfelt thank you 🙏 goes out to everyone who has already contributed!
+We value community contributions and feedback to continuously improve the Ultralytics Handbook. For guidelines on contributing, please refer to the [Contributing Guide](https://docs.ultralytics.com/help/contributing).
 
-<a href="https://github.com/ultralytics/yolov5/graphs/contributors">
-<img width="100%" src="https://github.com/ultralytics/assets/raw/main/im/image-contributors.png" alt="Ultralytics open-source contributors"></a>
+<!-- Pictorial representation of our dedicated contributor community -->
 
-## 📄 License
+![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)
 
-Ultralytics presents two distinct licensing paths to accommodate a variety of scenarios:
+## 📜 License
 
-- **AGPL-3.0 License**: This official [OSI-approved](https://opensource.org/license) open-source license is perfectly aligned with the goals of students, enthusiasts, and researchers who believe in the virtues of open collaboration and shared wisdom. Details are available in the [LICENSE](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) document.
-- **Enterprise License**: Tailored for commercial deployment, this license authorizes the unfettered integration of Ultralytics software and AI models within commercial goods and services, without the copyleft stipulations of AGPL-3.0. Should your use case demand an enterprise solution, direct your inquiries to [Ultralytics Licensing](https://www.ultralytics.com/license).
+The Ultralytics Handbook is licensed under the following options:
 
-## 📮 Contact
+- **AGPL-3.0 License**: Suitable for academic and collaborative work. See the [LICENSE](https://github.com/ultralytics/handbook/blob/main/LICENSE) file for details.
+- **Enterprise License**: Ideal for commercial use, integrating Ultralytics' solutions into proprietary products. Visit [Ultralytics Licensing](https://www.ultralytics.com/license) for more details.
 
-For bugs or feature suggestions pertaining to Ultralytics, please lodge an issue via [GitHub Issues](https://github.com/ultralytics/template/issues). You're also invited to participate in our [Discord](https://discord.com/invite/ultralytics) community to engage in discussions and seek advice!
+## ✉️ Contact
+
+For bug reports or feature requests, please use [GitHub Issues](https://github.com/ultralytics/handbook/issues). You can also engage with the Ultralytics team and community on [Discord](https://discord.com/invite/ultralytics).
 
 <br>
 <div align="center">
