@@ -20,7 +20,7 @@ site_dir: "site/" # where to publish to
 theme:
   name: material
   language: en
-  # custom_dir: docs/overrides/
+  custom_dir: docs/overrides/
   logo: https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Reverse.svg
   favicon: assets/favicon.ico
   icon:
@@ -95,9 +95,9 @@ extra: # version:
       link: https://reddit.com/r/ultralytics
 
 extra_css:
-  - https://raw.githubusercontent.com/ultralytics/ultralytics/refs/heads/main/docs/overrides/stylesheets/style.css
+  - stylesheets/style.css
 extra_javascript:
-  - https://raw.githubusercontent.com/ultralytics/ultralytics/refs/heads/main/docs/overrides/javascript/extra.js
+  - javascript/extra.js
 
 markdown_extensions:
   - admonition
