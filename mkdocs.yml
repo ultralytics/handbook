@@ -166,7 +166,6 @@ nav:
       - Licenses: legal/licenses.md
       - Privacy Policy: legal/privacy-policy.md
 
-
 # Plugins including 301 redirects navigation ---------------------------------------------------------------------------
 plugins:
   - search:
