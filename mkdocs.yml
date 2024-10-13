@@ -1,0 +1,201 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+# Configuration file for building the Ultralytics YOLO documentation site using MkDocs.
+# Provides settings to control site metadata, customize the appearance using the
+# Material theme, define the navigation structure, and enable various plugins.
+
+# Site metadata
+site_name: Ultralytics Handbook
+site_description: A guide to Ultralytics' mission, vision, values, and practices, providing key insights and resources for aligning with our goals.
+site_url: https://handbook.ultralytics.com
+site_author: Ultralytics
+repo_url: https://github.com/ultralytics/handbook
+edit_uri: https://github.com/ultralytics/handbook/tree/main/docs/
+repo_name: ultralytics/handbook
+remote_name: https://github.com/ultralytics/handbook
+docs_dir: "docs/" # where to find the markdown files
+site_dir: "site/" # where to publish to
+
+# Theme customization
+theme:
+  name: material
+  language: en
+  # custom_dir: docs/overrides/
+  logo: https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Reverse.svg
+  favicon: assets/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+  # font:  # disabled for faster page load times
+  #  text: Helvetica
+  #  code: Roboto Mono
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - content.action.edit
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.prune
+    - navigation.footer
+    - navigation.tracking
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.indexes
+    - navigation.sections # navigation.expand or navigation.sections
+    - content.tabs.link # all code tabs change simultaneously
+
+# Customization
+copyright: <a href="https://ultralytics.com" target="_blank">© 2024 Ultralytics Inc.</a> All rights reserved.
+extra: # version:
+  #   provider: mike  #  version drop-down menu
+  robots: robots.txt
+  analytics:
+    provider: google
+    property: G-2M5EHKC0BH
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ultralytics
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/ultralytics/
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/ultralytics
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/ultralytics?sub_confirmation=1
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/ultralytics/ultralytics/
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/ultralytics/
+    - icon: fontawesome/brands/discord
+      link: https://ultralytics.com/discord
+    - icon: fontawesome/brands/reddit
+      link: https://reddit.com/r/ultralytics
+
+extra_css:
+  - https://raw.githubusercontent.com/ultralytics/ultralytics/refs/heads/main/docs/overrides/stylesheets/style.css
+extra_javascript:
+  - https://raw.githubusercontent.com/ultralytics/ultralytics/refs/heads/main/docs/overrides/javascript/extra.js
+
+markdown_extensions:
+  - admonition
+  - md_in_html
+  - tables
+  - attr_list
+  - def_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.snippets:
+      base_path: ./
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# Validation settings https://www.mkdocs.org/user-guide/configuration/#validation
+validation:
+  nav:
+    omitted_files: info
+    not_found: warn
+    absolute_links: info
+  links:
+    absolute_links: relative_to_docs
+    anchors: warn
+    unrecognized_links: warn
+
+# Primary navigation ---------------------------------------------------------------------------------------------------
+nav:
+  - Home:
+      - Home: index.md
+      - Intro: introduction.md
+      - Mission & Values: mission-vision-values/index.md
+      - Guidelines: company-guidelines/index.md
+      - Team Roles:
+          - Overview: team-roles/index.md
+          - Specific Roles: team-roles/specific-roles.md
+      - Workflows:
+          - Development: workflows/development.md
+          - Product Dev: workflows/product-development.md
+          - CI/Testing: workflows/ci-testing.md
+          - Documentation: workflows/documentation.md
+      - Community:
+          - How to Contribute: contributions/how-to-contribute.md
+          - Engagement: contributions/community-engagement.md
+      - Resources:
+          - Dev Tools: tools/developer-tools.md
+          - Learning: tools/learning-resources.md
+      - Goals & OKRs:
+          - Company Goals: goals/company-goals.md
+          - OKRs: goals/okrs.md
+      - FAQ: faq/index.md
+      - Legal:
+          - Licenses: legal/licenses.md
+          - Privacy Policy: legal/privacy-policy.md
+  - Intro: introduction.md
+  - Mission & Values: mission-vision-values/index.md
+  - Guidelines: company-guidelines/index.md
+  - Team Roles:
+      - Overview: team-roles/index.md
+      - Specific Roles: team-roles/specific-roles.md
+  - Workflows:
+      - Development: workflows/development.md
+      - Product Dev: workflows/product-development.md
+      - CI/Testing: workflows/ci-testing.md
+      - Documentation: workflows/documentation.md
+  - Community:
+      - How to Contribute: contributions/how-to-contribute.md
+      - Engagement: contributions/community-engagement.md
+  - Resources:
+      - Dev Tools: tools/developer-tools.md
+      - Learning: tools/learning-resources.md
+  - Goals & OKRs:
+      - Company Goals: goals/company-goals.md
+      - OKRs: goals/okrs.md
+  - FAQ: faq/index.md
+  - Legal:
+      - Licenses: legal/licenses.md
+      - Privacy Policy: legal/privacy-policy.md
+
+# Plugins including 301 redirects navigation ---------------------------------------------------------------------------
+plugins:
+  - search:
+      lang: en
+  - ultralytics:
+      add_desc: False
+      add_image: True
+      add_authors: True
+      add_json_ld: True
+      add_share_buttons: True
+      add_css: False
+      default_image: https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png
