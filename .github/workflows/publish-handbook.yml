@@ -3,9 +3,11 @@
 name: Publish Handbook to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
-      - main  # Set this to your default branch name
+      - updates
+      - main
 
 jobs:
   deploy:
