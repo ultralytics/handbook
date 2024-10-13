@@ -72,10 +72,10 @@ theme:
 copyright: <a href="https://ultralytics.com" target="_blank">© 2024 Ultralytics Inc.</a> All rights reserved.
 extra: # version:
   #   provider: mike  #  version drop-down menu
-  robots: robots.txt
-  analytics:
-    provider: google
-    property: G-2M5EHKC0BH
+  # robots: robots.txt
+  # analytics:
+  #   provider: google
+  #   property: G-2M5EHKC0BH
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ultralytics
