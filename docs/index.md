@@ -9,55 +9,46 @@ Whether you’re here to learn about our mission, contribute to our open-source 
 ## 📜 Table of Contents
 
 1. [Introduction](introduction.md)
+   - About Ultralytics
+   - Purpose of the Handbook
 
-    - About Ultralytics
-    - Purpose of the Handbook
+2. [Mission, Vision, and Values](mission-vision-values/index.md)
+   - Our Mission
+   - Our Vision
+   - Core Values
 
-2. [Mission, Vision, and Values](mission-vision-values.md)
+3. [Company Guidelines](company-guidelines/index.md)
+   - Code of Conduct
+   - Inclusion and Diversity
+   - Workplace Policies
 
-    - Our Mission
-    - Our Vision
-    - Core Values
+4. [Team Roles and Responsibilities](team-roles/index.md)
+   - Team Overview
+   - Specific Roles
 
-3. [Company Guidelines](company-guidelines.md)
+5. [Workflows and Processes](workflows/development.md)
+   - Development Process
+   - Product Development
+   - Continuous Integration and Testing
+   - Documentation Guidelines
 
-    - Code of Conduct
-    - Inclusion and Diversity
-    - Workplace Policies
+6. [Contributions and Community](contributions/how-to-contribute.md)
+   - How to Contribute
+   - Community Engagement
+   - Acknowledgments
 
-4. [Team Roles and Responsibilities](team-roles.md)
+7. [Tools and Resources](tools/developer-tools.md)
+   - Developer Tools
+   - Learning Resources
+   - Style Guides
 
-    - Team Structure
-    - Responsibilities
-    - Collaboration Guidelines
+8. [Company Goals and OKRs](goals/company-goals.md)
+   - Company Goals
+   - OKRs
 
-5. [Workflows and Processes](workflows-processes.md)
+9. [Frequently Asked Questions](faq/index.md)
 
-    - Development Process
-    - Product Development
-    - Continuous Integration and Testing
-    - Documentation Guidelines
-
-6. [Contributions and Community](contributions-community.md)
-
-    - How to Contribute
-    - Community Engagement
-    - Acknowledgments
-
-7. [Tools and Resources](tools-resources.md)
-
-    - Developer Tools
-    - Learning Resources
-    - Style Guides
-
-8. [Company Goals and OKRs](company-goals.md)
-
-    - Short-term Goals
-    - Long-term Objectives
-
-9. [Frequently Asked Questions](faq.md)
-
-10. [Legal and Licensing](legal-licensing.md)
+10. [Legal and Licensing](legal/licenses.md)
     - Licenses
     - Privacy Policy
 
