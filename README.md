@@ -3,7 +3,9 @@
 
 # 📚 Ultralytics Handbook
 
-Welcome to the **Ultralytics Handbook**, your comprehensive resource for understanding our mission, vision, values, and internal practices. This Handbook serves as a living document, offering essential insights and guidance on how Ultralytics operates and what drives our work. Built and maintained in the **Handbook repository**, it reflects the most up-to-date information, deployed via GitHub Pages to [handbook.ultralytics.com](https://handbook.ultralytics.com).
+Welcome to the **Ultralytics Handbook repository**, the source for all the content that forms the official [Ultralytics Handbook](https://handbook.ultralytics.com). This repository contains Markdown files that outline our **mission, vision, values, and internal practices**, and is designed to provide clarity on how Ultralytics operates. The Handbook is built using **MkDocs Material** and is continuously updated to reflect the latest company guidelines. It is deployed via GitHub Pages to [https://handbook.ultralytics.com](https://handbook.ultralytics.com).
+
+This Handbook serves as a **living document**—evolving as Ultralytics grows—and is intended to align team members, contributors, and the community with the principles that drive our work. Whether you're new to Ultralytics or a long-standing team member, this Handbook is here to guide you through everything from company philosophy to detailed workflows and processes.
 
 [![pages-build-deployment](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment)
 [![Check Broken links](https://github.com/ultralytics/handbook/actions/workflows/links.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/links.yml)
