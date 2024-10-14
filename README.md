@@ -5,13 +5,13 @@
 
 Welcome to the **Ultralytics Handbook repository**, the source for all the content that forms the official [Ultralytics Handbook](https://handbook.ultralytics.com). This repository contains Markdown files that outline our **mission, vision, values, and internal practices**, and is designed to provide clarity on how Ultralytics operates. The Handbook is built using **MkDocs Material** and is continuously updated to reflect the latest company guidelines. It is deployed via GitHub Pages to [https://handbook.ultralytics.com](https://handbook.ultralytics.com).
 
-This Handbook serves as a **living document**—evolving as Ultralytics grows—and is intended to align team members, contributors, and the community with the principles that drive our work. Whether you're new to Ultralytics or a long-standing team member, this Handbook is here to guide you through everything from company philosophy to detailed workflows and processes.
-
 [![pages-build-deployment](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment)
 [![Check Broken links](https://github.com/ultralytics/handbook/actions/workflows/links.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/links.yml)
 [![Ultralytics Actions](https://github.com/ultralytics/handbook/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/format.yml)
 
 <a href="https://discord.com/invite/ultralytics"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com/"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://reddit.com/r/ultralytics"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
+
+This Handbook serves as a **living document**—evolving as Ultralytics grows—and is intended to align team members, contributors, and the community with the principles that drive our work. Whether you're new to Ultralytics or a long-standing team member, this Handbook is here to guide you through everything from company philosophy to detailed workflows and processes.
 
 ## 🛠️ Installation
 
