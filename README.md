@@ -77,7 +77,6 @@ The Ultralytics Handbook is available under the following licenses:
 For any issues, bug reports, or feature requests, please use [GitHub Issues](https://github.com/ultralytics/handbook/issues). You can also join the conversation on [Discord](https://discord.com/invite/ultralytics) to engage with the Ultralytics community and team.
 
 <br>
-
 <div align="center">
   <a href="https://github.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-github.png" width="3%" alt="Ultralytics GitHub"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
