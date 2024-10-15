@@ -3,7 +3,7 @@
 
 # 📚 Ultralytics Handbook
 
-Welcome to the **Ultralytics Handbook repository**, the source for all the content that forms the official [Ultralytics Handbook](https://handbook.ultralytics.com). This repository contains Markdown files that outline our **mission, vision, values, and internal practices**, and is designed to provide clarity on how Ultralytics operates. The Handbook is built using **MkDocs Material** and is continuously updated to reflect the latest company guidelines. It is deployed via GitHub Pages to [https://handbook.ultralytics.com](https://handbook.ultralytics.com).
+Welcome to the **Ultralytics Handbook repository**, the source for all the content that forms the official [Ultralytics Handbook](https://handbook.ultralytics.com/). This repository contains Markdown files that outline our **mission, vision, values, and internal practices**, and is designed to provide clarity on how Ultralytics operates. The Handbook is built using **MkDocs Material** and is continuously updated to reflect the latest company guidelines. It is deployed via GitHub Pages to [https://handbook.ultralytics.com](https://handbook.ultralytics.com/).
 
 [![pages-build-deployment](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment)
 [![Check Broken links](https://github.com/ultralytics/handbook/actions/workflows/links.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/links.yml)
@@ -55,7 +55,7 @@ To deploy the Handbook to GitHub Pages or any other hosting platform:
 mkdocs gh-deploy
 ```
 
-For a custom domain, update the "Custom domain" settings in your GitHub repository to use [handbook.ultralytics.com](https://handbook.ultralytics.com).
+For a custom domain, update the "Custom domain" settings in your GitHub repository to use [handbook.ultralytics.com](https://handbook.ultralytics.com/).
 
 ![Deployment Example](https://user-images.githubusercontent.com/26833433/210150206-9e86dcd7-10af-43e4-9eb2-9518b3799eac.png)
 
