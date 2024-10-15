@@ -20,32 +20,15 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-
-      - name: Cache dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
+          cache: "pip" # caching pip dependencies
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install black mkdocs-material mkdocs-ultralytics-plugin
 
-      - name: Build site
-        run: mkdocs build
-
       - name: Deploy to GitHub Pages
         run: |
           git config --global user.name 'UltralyticsAssistant'
           git config --global user.email 'web@ultralytics.com'
-          git fetch origin gh-pages
-          git checkout --track origin/gh-pages || git checkout -b gh-pages
-          git rm -rf .
-          mv site/* .
-          rm -rf site
-          git add .
-          git commit -m "Deploy handbook to GitHub Pages"
-          git push origin gh-pages
+          mkdocs gh-deploy
