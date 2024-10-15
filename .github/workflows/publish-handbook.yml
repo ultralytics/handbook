@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - main
+      - updates
 
 jobs:
   deploy:
@@ -34,5 +35,5 @@ jobs:
         run: |
           git config --global user.name 'UltralyticsAssistant'
           git config --global user.email 'web@ultralytics.com'
-          git fetch origin gh-pages
+          git pull
           mkdocs gh-deploy
