@@ -24,13 +24,13 @@ build-backend = "setuptools.build_meta"
 
 # Project settings -----------------------------------------------------------------------------------------------------
 [project]
-name = "template"  # Required
+name = "handbook"  # Required
 dynamic = ["version"]
-description = "Ultralytics Template Python Package"  # Optional
+description = "Ultralytics Handbook"  # Optional
 readme = "README.md"  # Optional
 requires-python = ">=3.8"
 license = { file = "LICENSE" }
-keywords = ["Ultralytics", "Template"]  # Optional
+keywords = ["Ultralytics", "Handbook"]  # Optional
 authors = [
     { name = "Glenn Jocher", email = "glenn.jocher@ultralytics.com" } # Optional
 ]
@@ -57,9 +57,18 @@ classifiers = [# Optional, for a list of valid classifiers, see https://pypi.org
 ]
 
 # Required dependencies ------------------------------------------------------------------------------------------------
-dependencies = [# Optional
-    "ultralytics",
-    "numpy",
+dependencies = [
+    "ipython",
+    "pytest",
+    "pytest-cov",
+    "coverage[toml]",
+    "mkdocs>=1.6.0",
+    "mkdocs-material>=9.5.9",
+    "mkdocstrings[python]",
+    "mkdocs-jupyter", # notebooks
+    "mkdocs-redirects", # 301 redirects
+    "mkdocs-ultralytics-plugin>=0.1.8", # for meta descriptions and images, dates and authors
+    "mkdocs-macros-plugin>=1.0.5"  # duplicating content (i.e. export tables) in multiple places
 ]
 
 # Optional dependencies ------------------------------------------------------------------------------------------------
@@ -68,21 +77,22 @@ tests = ["pytest"]
 
 [project.urls]  # Optional
 "Homepage" = "https://ultralytics.com"
-"Source" = "https://github.com/ultralytics/template"
+"Source" = "https://github.com/ultralytics/handbook"
 "Documentation" = "https://docs.ultralytics.com"
-"Bug Reports" = "https://github.com/ultralytics/template/issues"
-"Changelog" = "https://github.com/ultralytics/template/releases"
+"Handbook" = "https://handbook.ultralytics.com"
+"Bug Reports" = "https://github.com/ultralytics/handbook/issues"
+"Changelog" = "https://github.com/ultralytics/handbook/releases"
 
 # [project.scripts]  # Optional
 # sample = "sample:main"  # executes the function `main` from this package when "sample" is called.
 
 # Tools settings -------------------------------------------------------------------------------------------------------
 [tool.setuptools]  # configuration specific to the `setuptools` build backend.
-packages = { find = { where = ["."], include = ["template", "template.*"] } }
+packages = { find = { where = ["."], include = ["handbook", "handbook.*"] } }
 package-data = { "sample" = ["*.yaml"] }
 
 [tool.setuptools.dynamic]
-version = { attr = "template.__version__" }
+version = { attr = "handbook.__version__" }
 
 [tool.ruff]
 line-length = 120
