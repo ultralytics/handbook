@@ -1,22 +1,22 @@
 // Light/Dark Mode -----------------------------------------------------------------------------------------------------
 const applyTheme = (isDark) => {
- document.body.setAttribute(
-   "data-md-color-scheme",
-   isDark ? "slate" : "default",
- );
- document.body.setAttribute(
-   "data-md-color-primary",
-   isDark ? "black" : "indigo",
- );
+  document.body.setAttribute(
+    "data-md-color-scheme",
+    isDark ? "slate" : "default",
+  );
+  document.body.setAttribute(
+    "data-md-color-primary",
+    isDark ? "black" : "indigo",
+  );
 };
 
 // Check and apply auto theme
 const checkAutoTheme = () => {
- const palette = JSON.parse(localStorage.getItem(".__palette") || "{}");
+  const palette = JSON.parse(localStorage.getItem(".__palette") || "{}");
 
- if (palette.index === 0) {
-   applyTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
- }
+  if (palette.index === 0) {
+    applyTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
+  }
 };
 
 // Event listeners for theme changes
@@ -28,38 +28,38 @@ checkAutoTheme();
 
 // Auto theme input listener
 document.addEventListener("DOMContentLoaded", () => {
- const autoThemeInput = document.getElementById("__palette_1");
- autoThemeInput?.addEventListener("click", () => {
-   if (autoThemeInput.checked) setTimeout(checkAutoTheme);
- });
+  const autoThemeInput = document.getElementById("__palette_1");
+  autoThemeInput?.addEventListener("click", () => {
+    if (autoThemeInput.checked) setTimeout(checkAutoTheme);
+  });
 });
 
 // Inkeep --------------------------------------------------------------------------------------------------------------
 document.addEventListener("DOMContentLoaded", () => {
- const enableSearchBar = true;
+  const enableSearchBar = true;
 
- const inkeepScript = document.createElement("script");
- inkeepScript.src = "https://unpkg.com/@inkeep/uikit-js@0.3.18/dist/embed.js";
- inkeepScript.type = "module";
- inkeepScript.defer = true;
- document.head.appendChild(inkeepScript);
+  const inkeepScript = document.createElement("script");
+  inkeepScript.src = "https://unpkg.com/@inkeep/uikit-js@0.3.18/dist/embed.js";
+  inkeepScript.type = "module";
+  inkeepScript.defer = true;
+  document.head.appendChild(inkeepScript);
 
- if (enableSearchBar) {
-   const containerDiv = document.createElement("div");
-   containerDiv.style.transform = "scale(0.7)";
-   containerDiv.style.transformOrigin = "left center";
+  if (enableSearchBar) {
+    const containerDiv = document.createElement("div");
+    containerDiv.style.transform = "scale(0.7)";
+    containerDiv.style.transformOrigin = "left center";
 
-   const inkeepDiv = document.createElement("div");
-   inkeepDiv.id = "inkeepSearchBar";
-   containerDiv.appendChild(inkeepDiv);
+    const inkeepDiv = document.createElement("div");
+    inkeepDiv.id = "inkeepSearchBar";
+    containerDiv.appendChild(inkeepDiv);
 
-   const headerElement = document.querySelector(".md-header__inner");
-   const searchContainer = headerElement.querySelector(".md-header__source");
+    const headerElement = document.querySelector(".md-header__inner");
+    const searchContainer = headerElement.querySelector(".md-header__source");
 
-   if (headerElement && searchContainer) {
-     headerElement.insertBefore(containerDiv, searchContainer);
-   }
- }
+    if (headerElement && searchContainer) {
+      headerElement.insertBefore(containerDiv, searchContainer);
+    }
+  }
 
   // configure and initialize the widget
   const addInkeepWidget = (componentType, targetElementId) => {
