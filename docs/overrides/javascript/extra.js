@@ -77,7 +77,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const containerDiv = document.createElement("div");
   containerDiv.style.transform = "scale(0.7)";
   containerDiv.style.transformOrigin = "left center";
-  containerDiv.style.marginRight = "-80px";
 
   // Inkeep search bar
   const inkeepDiv = document.createElement("div");
