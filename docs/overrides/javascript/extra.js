@@ -1,4 +1,4 @@
-// Apply theme based on user preference
+// Light/Dark Mode -----------------------------------------------------------------------------------------------------
 const applyTheme = (isDark) => {
   document.body.setAttribute(
     "data-md-color-scheme",
@@ -12,24 +12,7 @@ const applyTheme = (isDark) => {
 
 // Check and apply auto theme
 const checkAutoTheme = () => {
-  const supportedLangCodes = [
-    "en",
-    "zh",
-    "ko",
-    "ja",
-    "ru",
-    "de",
-    "fr",
-    "es",
-    "pt",
-    "it",
-    "tr",
-    "vi",
-    "ar",
-  ];
-  const langCode = window.location.pathname.split("/")[1];
-  const localStorageKey = `${supportedLangCodes.includes(langCode) ? `/${langCode}` : ""}/.__palette`;
-  const palette = JSON.parse(localStorage.getItem(localStorageKey) || "{}");
+  const palette = JSON.parse(localStorage.getItem(".__palette") || "{}");
 
   if (palette.index === 0) {
     applyTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
@@ -51,39 +34,47 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Iframe navigation
-window.onhashchange = () => {
-  window.parent.postMessage(
-    {
-      type: "navigation",
-      hash:
-        window.location.pathname +
-        window.location.search +
-        window.location.hash,
-    },
-    "*",
-  );
-};
-
-// Add Inkeep button
-// Add Inkeep button
+// Inkeep --------------------------------------------------------------------------------------------------------------
 document.addEventListener("DOMContentLoaded", () => {
+  const enableSearchBar = true;
+
   const inkeepScript = document.createElement("script");
   inkeepScript.src = "https://unpkg.com/@inkeep/uikit-js@0.3.18/dist/embed.js";
   inkeepScript.type = "module";
   inkeepScript.defer = true;
   document.head.appendChild(inkeepScript);
-  // Configure and initialize the widget
-  const addInkeepWidget = () => {
+
+  if (enableSearchBar) {
+    const containerDiv = document.createElement("div");
+    containerDiv.style.transform = "scale(0.7)";
+    containerDiv.style.transformOrigin = "left center";
+
+    const inkeepDiv = document.createElement("div");
+    inkeepDiv.id = "inkeepSearchBar";
+    containerDiv.appendChild(inkeepDiv);
+
+    const headerElement = document.querySelector(".md-header__inner");
+    const searchContainer = headerElement.querySelector(".md-header__source");
+
+    if (headerElement && searchContainer) {
+      headerElement.insertBefore(containerDiv, searchContainer);
+    }
+  }
+
+  // configure and initialize the widget
+  const addInkeepWidget = (componentType, targetElementId) => {
     const inkeepWidget = Inkeep().embed({
-      componentType: "ChatButton",
+      componentType,
+      ...(componentType !== "ChatButton"
+        ? { targetElement: targetElementId }
+        : {}),
       colorModeSync: {
         observedElement: document.documentElement,
         isDarkModeCallback: (el) => {
           const currentTheme = el.getAttribute("data-color-mode");
           return currentTheme === "dark";
         },
-        colorModeAttribute: "data-color-mode",
+        colorModeAttribute: "data-color-mode-scheme",
       },
       properties: {
         chatButtonType: "PILL",
@@ -99,13 +90,12 @@ document.addEventListener("DOMContentLoaded", () => {
           theme: {
             stylesheetUrls: ["/stylesheets/style.css"],
           },
-          // ...optional settings
         },
         modalSettings: {
           // optional settings
         },
         searchSettings: {
-          // optional settings
+          placeholder: "Search",
         },
         aiChatSettings: {
           chatSubjectName: "Ultralytics",
@@ -144,6 +134,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
   inkeepScript.addEventListener("load", () => {
-    addInkeepWidget(); // initialize the widget
+    const widgetContainer = document.getElementById("inkeepSearchBar");
+
+    addInkeepWidget("ChatButton");
+    widgetContainer && addInkeepWidget("SearchBar", "#inkeepSearchBar");
   });
 });
