@@ -1,39 +1,22 @@
-// Apply theme based on user preference
+// Light/Dark Mode -----------------------------------------------------------------------------------------------------
 const applyTheme = (isDark) => {
-  document.body.setAttribute(
-    "data-md-color-scheme",
-    isDark ? "slate" : "default",
-  );
-  document.body.setAttribute(
-    "data-md-color-primary",
-    isDark ? "black" : "indigo",
-  );
+ document.body.setAttribute(
+   "data-md-color-scheme",
+   isDark ? "slate" : "default",
+ );
+ document.body.setAttribute(
+   "data-md-color-primary",
+   isDark ? "black" : "indigo",
+ );
 };
 
 // Check and apply auto theme
 const checkAutoTheme = () => {
-  const supportedLangCodes = [
-    "en",
-    "zh",
-    "ko",
-    "ja",
-    "ru",
-    "de",
-    "fr",
-    "es",
-    "pt",
-    "it",
-    "tr",
-    "vi",
-    "ar",
-  ];
-  const langCode = window.location.pathname.split("/")[1];
-  const localStorageKey = `${supportedLangCodes.includes(langCode) ? `/${langCode}` : ""}/.__palette`;
-  const palette = JSON.parse(localStorage.getItem(localStorageKey) || "{}");
+ const palette = JSON.parse(localStorage.getItem(".__palette") || "{}");
 
-  if (palette.index === 0) {
-    applyTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
-  }
+ if (palette.index === 0) {
+   applyTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
+ }
 };
 
 // Event listeners for theme changes
@@ -45,27 +28,13 @@ checkAutoTheme();
 
 // Auto theme input listener
 document.addEventListener("DOMContentLoaded", () => {
-  const autoThemeInput = document.getElementById("__palette_1");
-  autoThemeInput?.addEventListener("click", () => {
-    if (autoThemeInput.checked) setTimeout(checkAutoTheme);
-  });
+ const autoThemeInput = document.getElementById("__palette_1");
+ autoThemeInput?.addEventListener("click", () => {
+   if (autoThemeInput.checked) setTimeout(checkAutoTheme);
+ });
 });
 
-// Iframe navigation
-window.onhashchange = () => {
-  window.parent.postMessage(
-    {
-      type: "navigation",
-      hash:
-        window.location.pathname +
-        window.location.search +
-        window.location.hash,
-    },
-    "*",
-  );
-};
-
-// Add Inkeep button
+// Inkeep --------------------------------------------------------------------------------------------------------------
 document.addEventListener("DOMContentLoaded", () => {
   const inkeepScript = document.createElement("script");
   inkeepScript.src = "https://unpkg.com/@inkeep/uikit-js@0.3.18/dist/embed.js";
