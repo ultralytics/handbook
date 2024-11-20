@@ -1,12 +1,32 @@
 // Apply theme based on user preference
 const applyTheme = (isDark) => {
-  document.body.setAttribute("data-md-color-scheme", isDark ? "slate" : "default");
-  document.body.setAttribute("data-md-color-primary", isDark ? "black" : "indigo");
+  document.body.setAttribute(
+    "data-md-color-scheme",
+    isDark ? "slate" : "default",
+  );
+  document.body.setAttribute(
+    "data-md-color-primary",
+    isDark ? "black" : "indigo",
+  );
 };
 
 // Check and apply auto theme
 const checkAutoTheme = () => {
-  const supportedLangCodes = ["en", "zh", "ko", "ja", "ru", "de", "fr", "es", "pt", "it", "tr", "vi", "ar"];
+  const supportedLangCodes = [
+    "en",
+    "zh",
+    "ko",
+    "ja",
+    "ru",
+    "de",
+    "fr",
+    "es",
+    "pt",
+    "it",
+    "tr",
+    "vi",
+    "ar",
+  ];
   const langCode = window.location.pathname.split("/")[1];
   const localStorageKey = `${supportedLangCodes.includes(langCode) ? `/${langCode}` : ""}/.__palette`;
   const palette = JSON.parse(localStorage.getItem(localStorageKey) || "{}");
@@ -33,20 +53,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Iframe navigation
 window.onhashchange = () => {
-  window.parent.postMessage({
-    type: 'navigation',
-    hash: window.location.pathname + window.location.search + window.location.hash
-  }, '*');
+  window.parent.postMessage(
+    {
+      type: "navigation",
+      hash:
+        window.location.pathname +
+        window.location.search +
+        window.location.hash,
+    },
+    "*",
+  );
 };
 
 // Add Inkeep button
+// Add Inkeep button
 document.addEventListener("DOMContentLoaded", () => {
   const inkeepScript = document.createElement("script");
-  inkeepScript.src = "https://unpkg.com/@inkeep/uikit-js@0.3.11/dist/embed.js";
+  inkeepScript.src = "https://unpkg.com/@inkeep/uikit-js@0.3.18/dist/embed.js";
   inkeepScript.type = "module";
   inkeepScript.defer = true;
   document.head.appendChild(inkeepScript);
-
   // Configure and initialize the widget
   const addInkeepWidget = () => {
     const inkeepWidget = Inkeep().embed({
@@ -83,34 +109,35 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         aiChatSettings: {
           chatSubjectName: "Ultralytics",
-          botAvatarSrcUrl: "https://storage.googleapis.com/organization-image-assets/ultralytics-botAvatarSrcUrl-1729379860806.svg",
+          botAvatarSrcUrl:
+            "https://storage.googleapis.com/organization-image-assets/ultralytics-botAvatarSrcUrl-1729379860806.svg",
           quickQuestions: [
             "What's new in Ultralytics YOLO11?",
             "How can I get started with Ultralytics HUB?",
-            "How does Ultralytics Enterprise Licensing work?"
+            "How does Ultralytics Enterprise Licensing work?",
           ],
           getHelpCallToActions: [
             {
               name: "Ask on Ultralytics GitHub",
               url: "https://github.com/ultralytics/ultralytics",
               icon: {
-                builtIn: "FaGithub"
-              }
+                builtIn: "FaGithub",
+              },
             },
             {
               name: "Ask on Ultralytics Discourse",
               url: "https://community.ultralytics.com/",
               icon: {
-                builtIn: "FaDiscourse"
-              }
+                builtIn: "FaDiscourse",
+              },
             },
             {
               name: "Ask on Ultralytics Discord",
               url: "https://discord.com/invite/ultralytics",
               icon: {
-                builtIn: "FaDiscord"
-              }
-            }
+                builtIn: "FaDiscord",
+              },
+            },
           ],
         },
       },
