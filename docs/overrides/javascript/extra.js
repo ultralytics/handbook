@@ -73,14 +73,17 @@ document.addEventListener("DOMContentLoaded", () => {
   inkeepScript.defer = true;
   document.head.appendChild(inkeepScript);
 
-  // Create a new div for the Inkeep search bar
+  // Create div for Inkeep search bar
   const inkeepDiv = document.createElement("div");
   inkeepDiv.id = "inkeepSearchBar";
 
-  // Get the header element where you want to place the Inkeep search bar
-  const headerElement = document.querySelector("md_search");
-  if (headerElement) {
-    headerElement.appendChild(inkeepDiv);
+  // Get the header's inner container where search should go
+  const headerElement = document.querySelector(".md-header__inner");
+  const searchContainer = headerElement.querySelector(".md-header__source");
+
+  // Insert before the existing search container
+  if (headerElement && searchContainer) {
+    headerElement.insertBefore(inkeepDiv, searchContainer);
   }
 
   // configure and initialize the widget
