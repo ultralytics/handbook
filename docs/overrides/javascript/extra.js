@@ -66,7 +66,6 @@ window.onhashchange = () => {
 };
 
 // Add Inkeep button
-// Add Inkeep button
 document.addEventListener("DOMContentLoaded", () => {
   const inkeepScript = document.createElement("script");
   inkeepScript.src = "https://unpkg.com/@inkeep/uikit-js@0.3.18/dist/embed.js";
