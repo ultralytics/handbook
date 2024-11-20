@@ -73,17 +73,22 @@ document.addEventListener("DOMContentLoaded", () => {
   inkeepScript.defer = true;
   document.head.appendChild(inkeepScript);
 
-  // Create div for Inkeep search bar
+  // Container with scaling
+  const containerDiv = document.createElement("div");
+  containerDiv.style.transform = "scale(0.7)";
+  containerDiv.style.transformOrigin = "left center";
+  containerDiv.style.marginRight = "-80px";
+
+  // Inkeep search bar
   const inkeepDiv = document.createElement("div");
   inkeepDiv.id = "inkeepSearchBar";
+  containerDiv.appendChild(inkeepDiv);
 
-  // Get the header's inner container where search should go
   const headerElement = document.querySelector(".md-header__inner");
   const searchContainer = headerElement.querySelector(".md-header__source");
 
-  // Insert before the existing search container
   if (headerElement && searchContainer) {
-    headerElement.insertBefore(inkeepDiv, searchContainer);
+    headerElement.insertBefore(containerDiv, searchContainer);
   }
 
   // configure and initialize the widget
@@ -120,7 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
           // optional settings
         },
         searchSettings: {
-          // optional settings
+          placeholder: "Search",
         },
         aiChatSettings: {
           chatSubjectName: "Ultralytics",
