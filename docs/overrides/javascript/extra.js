@@ -72,17 +72,31 @@ document.addEventListener("DOMContentLoaded", () => {
   inkeepScript.type = "module";
   inkeepScript.defer = true;
   document.head.appendChild(inkeepScript);
-  // Configure and initialize the widget
-  const addInkeepWidget = () => {
+
+  // Create a new div for the Inkeep search bar
+  const inkeepDiv = document.createElement("div");
+  inkeepDiv.id = "inkeepSearchBar";
+
+  // Get the header element where you want to place the Inkeep search bar
+  const headerElement = document.querySelector("md_search");
+  if (headerElement) {
+    headerElement.appendChild(inkeepDiv);
+  }
+
+  // configure and initialize the widget
+  const addInkeepWidget = (componentType, targetElementId) => {
     const inkeepWidget = Inkeep().embed({
-      componentType: "ChatButton",
+      componentType,
+      ...(componentType !== "ChatButton"
+        ? { targetElement: targetElementId }
+        : {}),
       colorModeSync: {
         observedElement: document.documentElement,
         isDarkModeCallback: (el) => {
           const currentTheme = el.getAttribute("data-color-mode");
           return currentTheme === "dark";
         },
-        colorModeAttribute: "data-color-mode",
+        colorModeAttribute: "data-color-mode-scheme",
       },
       properties: {
         chatButtonType: "PILL",
@@ -98,7 +112,6 @@ document.addEventListener("DOMContentLoaded", () => {
           theme: {
             stylesheetUrls: ["/stylesheets/style.css"],
           },
-          // ...optional settings
         },
         modalSettings: {
           // optional settings
@@ -143,6 +156,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
   inkeepScript.addEventListener("load", () => {
-    addInkeepWidget(); // initialize the widget
+    const widgetContainer = document.getElementById("inkeepSearchBar");
+
+    addInkeepWidget("ChatButton");
+    widgetContainer && addInkeepWidget("SearchBar", "#inkeepSearchBar");
   });
 });
