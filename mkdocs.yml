@@ -71,6 +71,7 @@ theme:
 # Customization
 copyright: <a href="https://ultralytics.com" target="_blank">© 2024 Ultralytics Inc.</a> All rights reserved.
 extra: # version:
+  homepage: https://www.ultralytics.com/
   #   provider: mike  #  version drop-down menu
   # robots: robots.txt
   # analytics:
@@ -90,7 +91,7 @@ extra: # version:
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/ultralytics/
     - icon: fontawesome/brands/discord
-      link: https://ultralytics.com/discord
+      link: https://discord.com/invite/ultralytics
     - icon: fontawesome/brands/reddit
       link: https://reddit.com/r/ultralytics
 
