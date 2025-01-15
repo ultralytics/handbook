@@ -37,9 +37,9 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | William Beaven          | [william-beaven](https://github.com/william-beaven)           |
 | Abdelrahman Elgendy     | [AbdelrahmanEL-gendy](https://github.com/AbdelrahmanEL-gendy) |
 | Nuvola Ladi             | [NLadi](https://github.com/NLadi)                             |
-| Hans van de Broek          | [barnahans](https://github.com/barnahans)                     |
+| Hans van de Broek       | [barnahans](https://github.com/barnahans)                     |
 | Ivor Zhu                | [IvorZhu331](https://github.com/IvorZhu331)                   |
-| Marius Keiser                 | [Skillnoob](https://github.com/Skillnoob)                     |
+| Marius Keiser           | [Skillnoob](https://github.com/Skillnoob)                     |
 | Mohammed Yasin          | [Y-T-G](https://github.com/Y-T-G)                             |
 | Tasha Anthony           | [recruiter2002](https://github.com/recruiter2002)             |
 | Alexis Barou            | [LexBarou](https://github.com/LexBarou)                       |
