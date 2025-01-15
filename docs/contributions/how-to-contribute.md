@@ -11,39 +11,39 @@ Welcome to the Ultralytics contribution guide! We're excited to have you join ou
 
 Our open-source projects are maintained by a dedicated team of developers. Feel free to reach out to team members for guidance:
 
-| Employee Name | GitHub Profile |
-|--------------|----------------|
-| Paula Derrenger | [pderrenger](https://github.com/pderrenger) |
-| Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar) |
-| Wax | [sergiuwaxmann](https://github.com/sergiuwaxmann) |
-| Kirill | [Kverbitski](https://github.com/Kverbitski) |
-| Fatih Akyon | [fcakyon](https://github.com/fcakyon) |
-| Abrish | [asabri97](https://github.com/asabri97) |
-| Yogendra Singh | [yogendrasinghx](https://github.com/yogendrasinghx) |
-| Lakshantha Dissanayake | [lakshanthad](https://github.com/lakshanthad) |
-| Giovanni DZ | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics) |
-| Jing Qiu | [Laughing-q](https://github.com/Laughing-q) |
-| Burhan Qaddoumi | [Burhan-Q](https://github.com/Burhan-Q) |
-| Thomas | [chuang091](https://github.com/chuang091) |
-| Pablo Karnbaum | [pablokarnbaum](https://github.com/pablokarnbaum) |
-| Amir Roshanaei | [bitcodr](https://github.com/bitcodr) |
-| Glenn Jocher | [glenn-jocher](https://github.com/glenn-jocher) |
-| Francesco Mattioli | [ambitious-octopus](https://github.com/ambitious-octopus) |
-| Olga Krupskaia | [Krupskaya](https://github.com/Krupskaya) |
-| Jose Bondi | [joseUltra](https://github.com/joseUltra) |
-| Abirami Vina | [abirami-vina](https://github.com/abirami-vina) |
-| Nathan Yan | [CodCodingCode](https://github.com/CodCodingCode) |
-| Hannah Streif | [HannahStreif](https://github.com/HannahStreif) |
-| William Beaven | [william-beaven](https://github.com/william-beaven) |
-| Abdelrahman Elgendy | [AbdelrahmanEL-gendy](https://github.com/AbdelrahmanEL-gendy) |
-| Nuvola Ladi | [NLadi](https://github.com/NLadi) |
-| Hans | [barnahans](https://github.com/barnahans) |
-| Ivor Zhu | [IvorZhu331](https://github.com/IvorZhu331) |
-| Marius | [Skillnoob](https://github.com/Skillnoob) |
-| Mohammed Yasin | [Y-T-G](https://github.com/Y-T-G) |
-| Tasha Anthony | [recruiter2002](https://github.com/recruiter2002) |
-| Alexis Barou | [LexBarou](https://github.com/LexBarou) |
-| Nicolai Nielsen | [niconielsen32](https://github.com/niconielsen32) |
+| Employee Name           | GitHub Profile                                                |
+| ----------------------- | ------------------------------------------------------------- |
+| Paula Derrenger         | [pderrenger](https://github.com/pderrenger)                   |
+| Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar)             |
+| Wax                     | [sergiuwaxmann](https://github.com/sergiuwaxmann)             |
+| Kirill                  | [Kverbitski](https://github.com/Kverbitski)                   |
+| Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                         |
+| Abrish                  | [asabri97](https://github.com/asabri97)                       |
+| Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)           |
+| Lakshantha Dissanayake  | [lakshanthad](https://github.com/lakshanthad)                 |
+| Giovanni DZ             | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)   |
+| Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                   |
+| Burhan Qaddoumi         | [Burhan-Q](https://github.com/Burhan-Q)                       |
+| Thomas                  | [chuang091](https://github.com/chuang091)                     |
+| Pablo Karnbaum          | [pablokarnbaum](https://github.com/pablokarnbaum)             |
+| Amir Roshanaei          | [bitcodr](https://github.com/bitcodr)                         |
+| Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)               |
+| Francesco Mattioli      | [ambitious-octopus](https://github.com/ambitious-octopus)     |
+| Olga Krupskaia          | [Krupskaya](https://github.com/Krupskaya)                     |
+| Jose Bondi              | [joseUltra](https://github.com/joseUltra)                     |
+| Abirami Vina            | [abirami-vina](https://github.com/abirami-vina)               |
+| Nathan Yan              | [CodCodingCode](https://github.com/CodCodingCode)             |
+| Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)               |
+| William Beaven          | [william-beaven](https://github.com/william-beaven)           |
+| Abdelrahman Elgendy     | [AbdelrahmanEL-gendy](https://github.com/AbdelrahmanEL-gendy) |
+| Nuvola Ladi             | [NLadi](https://github.com/NLadi)                             |
+| Hans                    | [barnahans](https://github.com/barnahans)                     |
+| Ivor Zhu                | [IvorZhu331](https://github.com/IvorZhu331)                   |
+| Marius                  | [Skillnoob](https://github.com/Skillnoob)                     |
+| Mohammed Yasin          | [Y-T-G](https://github.com/Y-T-G)                             |
+| Tasha Anthony           | [recruiter2002](https://github.com/recruiter2002)             |
+| Alexis Barou            | [LexBarou](https://github.com/LexBarou)                       |
+| Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)             |
 
 ## Contribution Guidelines
 
