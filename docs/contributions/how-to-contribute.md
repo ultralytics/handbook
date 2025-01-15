@@ -44,7 +44,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Tasha Anthony           | [recruiter2002](https://github.com/recruiter2002)             |
 | Alexis Barou            | [LexBarou](https://github.com/LexBarou)                       |
 | Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)             |
-| Joey Tjon               | -                                                             |
+| Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                                                             |
 
 ## Contribution Guidelines
 
