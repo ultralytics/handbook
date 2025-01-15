@@ -15,7 +15,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | ----------------------- | ------------------------------------------------------------- |
 | Paula Derrenger         | [pderrenger](https://github.com/pderrenger)                   |
 | Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar)             |
-| Wax                     | [sergiuwaxmann](https://github.com/sergiuwaxmann)             |
+| Sergiu Waxmann          | [sergiuwaxmann](https://github.com/sergiuwaxmann)             |
 | Kirill                  | [Kverbitski](https://github.com/Kverbitski)                   |
 | Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                         |
 | Abrish                  | [asabri97](https://github.com/asabri97)                       |
