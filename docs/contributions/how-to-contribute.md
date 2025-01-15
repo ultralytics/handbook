@@ -1,36 +1,79 @@
 ---
-description: Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource.
-keywords: Ultralytics Handbook, coming soon, under construction, internal guide, mission, vision, values, workflows, open-source, AI guidelines
+description: Learn how to contribute to Ultralytics open-source projects and connect with our development team. Follow our guidelines to make meaningful contributions to our AI ecosystem.
+keywords: Ultralytics, open source, contribution guidelines, GitHub, development team, AI, machine learning, collaboration
 ---
 
 # How to Contribute
 
-## Handbook Under Construction 🏗️📖
+Welcome to the Ultralytics contribution guide! We're excited to have you join our community of developers and researchers working to advance AI technology. This guide will help you understand how to contribute effectively to our projects.
 
-Welcome to the [Ultralytics](https://www.ultralytics.com/) [Handbook](https://handbook.ultralytics.com/) "Under Construction" page! We are diligently crafting a comprehensive guide that will serve as your go-to resource for understanding our mission, vision, values, workflows, and company practices. This page is a preview of the detailed documentation and guidelines soon to be available.
+## Our Development Team
 
-## What to Expect from the Handbook 📘
+Our open-source projects are maintained by a dedicated team of developers. Feel free to reach out to team members for guidance:
 
-- **Mission and Values:** Learn what drives Ultralytics forward and how we aim to make a lasting impact.
-- **Operational Workflows:** Discover how we work internally, including development processes, team collaboration, and continuous improvement.
-- **Contribution Guidelines:** Get involved! Detailed instructions on how to contribute to our projects and be part of the Ultralytics community.
+| Employee Name | GitHub Profile |
+|--------------|----------------|
+| Paula Derrenger | [pderrenger](https://github.com/pderrenger) |
+| Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar) |
+| Wax | [sergiuwaxmann](https://github.com/sergiuwaxmann) |
+| Kirill | [Kverbitski](https://github.com/Kverbitski) |
+| Fatih Akyon | [fcakyon](https://github.com/fcakyon) |
+| Abrish | [asabri97](https://github.com/asabri97) |
+| Yogendra Singh | [yogendrasinghx](https://github.com/yogendrasinghx) |
+| Lakshantha Dissanayake | [lakshanthad](https://github.com/lakshanthad) |
+| Giovanni DZ | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics) |
+| Jing Qiu | [Laughing-q](https://github.com/Laughing-q) |
+| Burhan Qaddoumi | [Burhan-Q](https://github.com/Burhan-Q) |
+| Thomas | [chuang091](https://github.com/chuang091) |
+| Pablo Karnbaum | [pablokarnbaum](https://github.com/pablokarnbaum) |
+| Amir Roshanaei | [bitcodr](https://github.com/bitcodr) |
+| Glenn Jocher | [glenn-jocher](https://github.com/glenn-jocher) |
+| Francesco Mattioli | [ambitious-octopus](https://github.com/ambitious-octopus) |
+| Olga Krupskaia | [Krupskaya](https://github.com/Krupskaya) |
+| Jose Bondi | [joseUltra](https://github.com/joseUltra) |
+| Abirami Vina | [abirami-vina](https://github.com/abirami-vina) |
+| Nathan Yan | [CodCodingCode](https://github.com/CodCodingCode) |
+| Hannah Streif | [HannahStreif](https://github.com/HannahStreif) |
+| William Beaven | [william-beaven](https://github.com/william-beaven) |
+| Abdelrahman Elgendy | [AbdelrahmanEL-gendy](https://github.com/AbdelrahmanEL-gendy) |
+| Nuvola Ladi | [NLadi](https://github.com/NLadi) |
+| Hans | [barnahans](https://github.com/barnahans) |
+| Ivor Zhu | [IvorZhu331](https://github.com/IvorZhu331) |
+| Marius | [Skillnoob](https://github.com/Skillnoob) |
+| Mohammed Yasin | [Y-T-G](https://github.com/Y-T-G) |
+| Tasha Anthony | [recruiter2002](https://github.com/recruiter2002) |
+| Alexis Barou | [LexBarou](https://github.com/LexBarou) |
+| Nicolai Nielsen | [niconielsen32](https://github.com/niconielsen32) |
 
-## Stay Informed 🚧
+## Contribution Guidelines
 
-This placeholder page is just the start. Soon, you’ll have access to:
+For detailed contribution guidelines, please visit our [official documentation](https://docs.ultralytics.com/help/contribute). Here's a quick overview of the process:
 
-- **Internal Workflows:** Best practices for development, testing, and open-source contributions.
-- **Team Roles:** Detailed roles and responsibilities for team members and contributors.
-- **Collaboration Guidelines:** Clear guidance for collaborating on projects and contributing effectively.
+1. Fork the repository you want to contribute to
+2. Create a new branch for your feature or fix
+3. Follow our coding standards and documentation requirements
+4. Submit a pull request with a clear description of your changes
+5. Engage with reviewers and address any feedback
 
-## Be a Part of the Handbook 🗣️
+## Get Involved
 
-We value your input as we develop this resource. If you have suggestions or feedback, share your thoughts [here](https://www.ultralytics.com/survey).
+There are many ways to contribute to Ultralytics:
 
-## Thank You to Our Community 🌍
+- Code contributions via pull requests
+- Documentation improvements
+- Bug reports and feature requests
+- Community support and discussions
+- Testing and feedback on new features
 
-Your [contributions](https://docs.ultralytics.com/help/contributing/) and feedback drive us to keep improving and refining the way we work at Ultralytics. Stay tuned as we roll out the complete handbook to help you engage, contribute, and align with our mission and values.
+We welcome contributions from developers of all experience levels. If you're new to open source, our team members are here to help guide you through your first contribution.
 
----
+## Questions and Support
 
-Excited for the Ultralytics Handbook? Bookmark this page and be the first to explore our internal processes and principles as we continue to build and share our journey with you! 📖✨
+If you have questions about contributing, you can:
+
+- Open an issue on GitHub
+- Join our community discussions
+- Reach out to team members listed above
+- Check our [documentation](https://docs.ultralytics.com) for guides and tutorials
+
+Thank you for your interest in contributing to Ultralytics! Together, we're building the future of AI technology.
