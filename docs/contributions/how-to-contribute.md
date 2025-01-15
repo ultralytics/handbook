@@ -16,15 +16,15 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Paula Derrenger         | [pderrenger](https://github.com/pderrenger)                   |
 | Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar)             |
 | Sergiu Waxmann          | [sergiuwaxmann](https://github.com/sergiuwaxmann)             |
-| Kirill                  | [Kverbitski](https://github.com/Kverbitski)                   |
+| Kirill Viarbitski       | [Kverbitski](https://github.com/Kverbitski)                   |
 | Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                         |
-| Abrish                  | [asabri97](https://github.com/asabri97)                       |
+| Abrish Sabri            | [asabri97](https://github.com/asabri97)                       |
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)           |
 | Lakshantha Dissanayake  | [lakshanthad](https://github.com/lakshanthad)                 |
 | Giovanni DZ             | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)   |
 | Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                   |
 | Burhan Qaddoumi         | [Burhan-Q](https://github.com/Burhan-Q)                       |
-| Thomas                  | [chuang091](https://github.com/chuang091)                     |
+| Thomas Chuang           | [chuang091](https://github.com/chuang091)                     |
 | Pablo Karnbaum          | [pablokarnbaum](https://github.com/pablokarnbaum)             |
 | Amir Roshanaei          | [bitcodr](https://github.com/bitcodr)                         |
 | Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)               |
@@ -37,9 +37,9 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | William Beaven          | [william-beaven](https://github.com/william-beaven)           |
 | Abdelrahman Elgendy     | [AbdelrahmanEL-gendy](https://github.com/AbdelrahmanEL-gendy) |
 | Nuvola Ladi             | [NLadi](https://github.com/NLadi)                             |
-| Hans                    | [barnahans](https://github.com/barnahans)                     |
+| Hans van de Broek          | [barnahans](https://github.com/barnahans)                     |
 | Ivor Zhu                | [IvorZhu331](https://github.com/IvorZhu331)                   |
-| Marius                  | [Skillnoob](https://github.com/Skillnoob)                     |
+| Marius Keiser                 | [Skillnoob](https://github.com/Skillnoob)                     |
 | Mohammed Yasin          | [Y-T-G](https://github.com/Y-T-G)                             |
 | Tasha Anthony           | [recruiter2002](https://github.com/recruiter2002)             |
 | Alexis Barou            | [LexBarou](https://github.com/LexBarou)                       |
