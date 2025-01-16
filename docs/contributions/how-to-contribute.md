@@ -48,7 +48,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 
 ## Contribution Guidelines
 
-For detailed contribution guidelines, please visit our [official documentation](https://docs.ultralytics.com/help/contribute/). Here's a quick overview of the process:
+For detailed contribution guidelines, please visit our [official documentation](https://docs.ultralytics.com/help/contributing/). Here's a quick overview of the process:
 
 1. Fork the repository you want to contribute to
 2. Create a new branch for your feature or fix
