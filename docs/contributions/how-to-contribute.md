@@ -45,10 +45,8 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Alexis Barou            | [LexBarou](https://github.com/LexBarou)                       |
 | Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)             |
 | Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                   |
-| Jordan Cooper           | [JCoops1](https://github.com/JCoops1)                   |
-| Jake Qian               | [fengqianjake](https://github.com/fengqianjake)                   |
-
-
+| Jordan Cooper           | [JCoops1](https://github.com/JCoops1)                         |
+| Jake Qian               | [fengqianjake](https://github.com/fengqianjake)               |
 
 ## Contribution Guidelines
 
