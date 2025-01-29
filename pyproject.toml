@@ -48,6 +48,8 @@ classifiers = [# Optional, for a list of valid classifiers, see https://pypi.org
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Software Development",
     "Topic :: Scientific/Engineering",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
@@ -67,7 +69,7 @@ dependencies = [
     "mkdocstrings[python]",
     "mkdocs-jupyter", # notebooks
     "mkdocs-redirects", # 301 redirects
-    "mkdocs-ultralytics-plugin>=0.1.8", # for meta descriptions and images, dates and authors
+    "mkdocs-ultralytics-plugin>=0.1.16", # for meta descriptions and images, dates and authors
     "mkdocs-macros-plugin>=1.0.5"  # duplicating content (i.e. export tables) in multiple places
 ]
 
