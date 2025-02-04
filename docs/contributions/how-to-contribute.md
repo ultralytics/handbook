@@ -51,7 +51,6 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)           |
 | Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                           |
 
-
 ## Contribution Guidelines
 
 For detailed contribution guidelines, please visit our [official documentation](https://docs.ultralytics.com/help/contributing/). Here's a quick overview of the process:
