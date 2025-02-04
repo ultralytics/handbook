@@ -49,6 +49,8 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Thomas Chuang           | [chuang091](https://github.com/chuang091)                     |
 | William Beaven          | [william-beaven](https://github.com/william-beaven)           |
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)           |
+| Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                           |
+
 
 ## Contribution Guidelines
 
