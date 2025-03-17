@@ -54,4 +54,3 @@ Employees are encouraged to proactively manage departmental budgets responsibly:
 If you have questions or require assistance regarding financial processes or reimbursements, please reach out to your manager or contact the Finance team directly.
 
 Stay tuned as we continue to expand the Ultralytics Finance Handbook to support our growing organization effectively.
-

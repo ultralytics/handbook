@@ -20,7 +20,7 @@ This policy applies to all employees of [Ultralytics](https://www.ultralytics.co
 Employees traveling for business will receive a daily per diem allowance based on their destination to cover meals, incidental expenses, and all ground transportation costs. Only airfare is reimbursable separately. The following rates apply:
 
 | Office Location | Daily Per Diem Rate |
-|-----------------|---------------------|
+| --------------- | ------------------- |
 | Madrid          | $229.00 per day     |
 | London          | $284.50 per day     |
 | Shenzhen        | $186.00 per day     |
@@ -57,4 +57,3 @@ The daily per diem rates above are derived from the U.S. General Services Admini
 ## Exceptions
 
 Any exceptions to this policy must be pre-approved by your line manager prior to travel. Requests will be reviewed on a case-by-case basis.
-
