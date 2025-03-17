@@ -144,8 +144,9 @@ nav:
       - Intro: introduction.md
       - Mission & Values:
           - mission-vision-values/index.md
-      - Guidelines:
-          - company-guidelines/index.md
+      - Finance:
+          - finance/index.md
+          - finance/travel.md
       - Team Roles:
           - Overview: team-roles/index.md
           - Specific Roles: team-roles/specific-roles.md
@@ -170,8 +171,9 @@ nav:
           - Privacy Policy: legal/privacy-policy.md
   - Mission & Values:
       - mission-vision-values/index.md
-  - Guidelines:
-      - company-guidelines/index.md
+  - Finance:
+      - finance/index.md
+      - finance/travel.md
   - Team Roles:
       - Overview: team-roles/index.md
       - Specific Roles: team-roles/specific-roles.md
