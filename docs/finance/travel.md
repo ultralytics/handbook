@@ -3,35 +3,35 @@ description: Ultralytics Employee Travel Policy outlining per diem rates, respon
 keywords: Ultralytics, Employee Travel Policy, per diem rates, travel responsibilities, airfare, expense reporting, sustainability, business travel
 ---
 
-# Ultralytics Employee Travel Policy (2025)
+# Ultralytics Employee Travel Policy (2025) 🌐
 
-## Scope
+## Scope 📌
 
 This policy applies to all employees of [Ultralytics](https://www.ultralytics.com) who are required to travel for business purposes. Employees are responsible for making their own travel arrangements while adhering to the guidelines outlined in this policy.
 
-## Employee Responsibilities
+## Employee Responsibilities 📋
 
 - Travel must be business-critical, cost-effective, and approved by your manager prior to booking.
 - Expense claims must include a clear description of the business purpose.
 - Submit expenses promptly, ideally within the same fiscal quarter incurred.
 
-## Per Diem Rates
+## Per Diem Rates 💳
 
 Employees traveling for business will receive a daily per diem allowance based on their destination to cover meals, incidental expenses, and all ground transportation costs. Only airfare is reimbursable separately. The following rates apply for the full year of 2025 and will be updated on January 1st, 2026:
 
-| Travel Location | Daily Per Diem Rate |
-| --------------- | ------------------- |
-| Madrid          | $229.00 per day     |
-| London          | $284.50 per day     |
-| Shenzhen        | $186.00 per day     |
-| San Francisco   | $364.00 per day     |
-| San Jose        | $284.00 per day     |
-| Tokyo           | $243.00 per day     |
-| Shanghai        | $267.50 per day     |
-| Barcelona       | $174.00 per day     |
-| Lisbon          | $175.00 per day     |
+| Travel Location 🌍 | Daily Per Diem Rate 💰 |
+|--------------------|------------------------|
+| Madrid 🇪🇸          | $229.00 per day        |
+| London 🇬🇧          | $284.50 per day        |
+| Shenzhen 🇨🇳        | $186.00 per day        |
+| San Francisco 🇺🇸   | $364.00 per day        |
+| San Jose 🇺🇸        | $284.00 per day        |
+| Tokyo 🇯🇵           | $243.00 per day        |
+| Shanghai 🇨🇳        | $267.50 per day        |
+| Barcelona 🇪🇸       | $174.00 per day        |
+| Lisbon 🇵🇹          | $175.00 per day        |
 
-### Methodology
+### Methodology 📚
 
 The daily per diem rates are derived from the U.S. [General Services Administration (GSA)](https://www.gsa.gov/) and the U.S. [Department of State](https://www.state.gov/) published per diem rates, adjusted by a 50% reduction for OCONUS locations to reflect Ultralytics' size and budget considerations.
 
@@ -40,7 +40,7 @@ The daily per diem rates are derived from the U.S. [General Services Administrat
 
 Rates are reviewed annually and adjusted each January 1st based on updates published by these sources.
 
-## Travel Booking
+## Travel Booking 🛫
 
 - Employees are responsible for arranging their own travel, including flights, accommodation, and transportation.
 - Travel arrangements should be made in the most cost-effective manner while ensuring efficiency and convenience.
@@ -48,14 +48,14 @@ Rates are reviewed annually and adjusted each January 1st based on updates publi
 - Flights should ideally be booked at least 14 days in advance (domestic) and 21 days in advance (international).
 - Accommodation costs are included in the daily per diem rate and are not reimbursable separately.
 
-## Sustainability
+## Sustainability ♻️
 
 - Prioritize virtual meetings whenever possible to minimize environmental impact.
 
-## Expense Reporting
+## Expense Reporting 🧾
 
 - Receipts required for airfare reimbursements.
 
-## Exceptions
+## Exceptions ⚠️
 
 Any exceptions to this policy must be pre-approved by your line manager prior to travel. Requests will be reviewed on a case-by-case basis.
