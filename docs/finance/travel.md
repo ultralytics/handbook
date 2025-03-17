@@ -17,10 +17,10 @@ This policy applies to all employees of [Ultralytics](https://www.ultralytics.co
 
 ## Per Diem Rates
 
-Employees traveling for business will receive a daily per diem allowance based on their destination to cover meals, incidental expenses, and all ground transportation costs. Only airfare is reimbursable separately. The following rates apply:
+Employees traveling for business will receive a daily per diem allowance based on their destination to cover meals, incidental expenses, and all ground transportation costs. Only airfare is reimbursable separately. The following rates apply for the full year of 2025 and will be updated on January 1st, 2026:
 
-| Office Location | Daily Per Diem Rate |
-| --------------- | ------------------- |
+| Travel Location | Daily Per Diem Rate |
+|-----------------|---------------------|
 | Madrid          | $229.00 per day     |
 | London          | $284.50 per day     |
 | Shenzhen        | $186.00 per day     |
@@ -33,10 +33,12 @@ Employees traveling for business will receive a daily per diem allowance based o
 
 ### Methodology
 
-The daily per diem rates above are derived from the U.S. General Services Administration (GSA) and the U.S. Department of State published per diem rates, adjusted by a 50% reduction for OCONUS locations to reflect Ultralytics' size and budget considerations.
+The daily per diem rates are derived from the U.S. [General Services Administration (GSA)](https://www.gsa.gov/) and the U.S. [Department of State](https://www.state.gov/) published per diem rates, adjusted by a 50% reduction for OCONUS locations to reflect Ultralytics' size and budget considerations.
 
 - [GSA Per Diem Rates (CONUS)](https://www.gsa.gov/travel/plan-book/per-diem-rates)
 - [U.S. Department of State Per Diem Rates (OCONUS)](https://allowances.state.gov/web920/per_diem.asp)
+
+Rates are reviewed annually and adjusted each January 1st based on updates published by these sources.
 
 ## Travel Booking
 
