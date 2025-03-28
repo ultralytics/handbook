@@ -7,7 +7,7 @@ keywords: Ultralytics, Employee Travel Policy, per diem rates, travel responsibi
 
 ## Scope 📌
 
-This policy applies to all employees of [Ultralytics](https://www.ultralytics.com) who are required to travel for business purposes. Employees are responsible for making their own travel arrangements while adhering to the guidelines outlined in this policy.
+This policy applies to all employees of [Ultralytics](https://www.ultralytics.com/) who are required to travel for business purposes. Employees are responsible for making their own travel arrangements while adhering to the guidelines outlined in this policy.
 
 ## Employee Responsibilities 📋
 
