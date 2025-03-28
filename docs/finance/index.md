@@ -5,7 +5,7 @@ keywords: Ultralytics finance, finance handbook, expense reporting, reimbursemen
 
 # Ultralytics Finance Handbook 📘
 
-Welcome to the [Ultralytics](https://www.ultralytics.com) Finance Handbook. This resource provides clear guidelines for employees regarding financial processes, reimbursements, budgeting, and expense management.
+Welcome to the [Ultralytics](https://www.ultralytics.com/) Finance Handbook. This resource provides clear guidelines for employees regarding financial processes, reimbursements, budgeting, and expense management.
 
 ## Finance Overview 💡
 
