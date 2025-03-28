@@ -39,8 +39,8 @@ This starts a local web server with live reloading enabled. Any changes you make
 
 ### Key Details:
 
--   **`mkdocs`**: The primary command-line tool for interacting with MkDocs.
--   **`serve`**: Builds the site and runs a local server, watching for file changes.
+- **`mkdocs`**: The primary command-line tool for interacting with MkDocs.
+- **`serve`**: Builds the site and runs a local server, watching for file changes.
 
 To stop the server, press `CTRL+C` in your terminal.
 
@@ -71,8 +71,8 @@ We warmly welcome contributions to the Ultralytics Handbook! Your input, whether
 
 The Ultralytics Handbook is distributed under two licenses to accommodate different use cases:
 
--   **AGPL-3.0 License**: Ideal for academic research and open-source projects. See the [LICENSE](https://github.com/ultralytics/handbook/blob/main/LICENSE) file for full details.
--   **Enterprise License**: Designed for commercial applications requiring integration of Ultralytics software and AI models. Visit [Ultralytics Licensing](https://www.ultralytics.com/license) to learn more.
+- **AGPL-3.0 License**: Ideal for academic research and open-source projects. See the [LICENSE](https://github.com/ultralytics/handbook/blob/main/LICENSE) file for full details.
+- **Enterprise License**: Designed for commercial applications requiring integration of Ultralytics software and AI models. Visit [Ultralytics Licensing](https://www.ultralytics.com/license) to learn more.
 
 ## ✉️ Contact
 

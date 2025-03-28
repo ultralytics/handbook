@@ -6,8 +6,8 @@ Welcome to the `docs/` directory! This folder houses the source files for our pr
 
 ## 📝 Overview
 
--   **MkDocs Configuration:** The primary configuration file for MkDocs is `mkdocs.yml`, located in the repository root. This file dictates the documentation's structure, navigation, theme, and build settings.
--   **Documentation Files:** All documentation content is written in [Markdown](https://www.markdownguide.org/basic-syntax/) format (`.md` files). These files are organized within this `docs/` directory, mirroring the structure defined in `mkdocs.yml`. You can find the main Ultralytics documentation at [https://docs.ultralytics.com/](https://docs.ultralytics.com/).
+- **MkDocs Configuration:** The primary configuration file for MkDocs is `mkdocs.yml`, located in the repository root. This file dictates the documentation's structure, navigation, theme, and build settings.
+- **Documentation Files:** All documentation content is written in [Markdown](https://www.markdownguide.org/basic-syntax/) format (`.md` files). These files are organized within this `docs/` directory, mirroring the structure defined in `mkdocs.yml`. You can find the main Ultralytics documentation at [https://docs.ultralytics.com/](https://docs.ultralytics.com/).
 
 ## 🚀 Getting Started
 
