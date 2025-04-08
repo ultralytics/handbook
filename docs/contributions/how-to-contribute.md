@@ -34,6 +34,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Jordan Cooper           | [JCoops1](https://github.com/JCoops1)                         |
 | Jose Bondi              | [joseUltra](https://github.com/joseUltra)                     |
 | Kirill Viarbitski       | [Kverbitski](https://github.com/Kverbitski)                   |
+| Kiryl Oblikau           | [muknex](https://github.com/munknex)                          |
 | Lakshantha Dissanayake  | [lakshanthad](https://github.com/lakshanthad)                 |
 | Marius Keiser           | [Skillnoob](https://github.com/Skillnoob)                     |
 | Mohammed Yasin          | [Y-T-G](https://github.com/Y-T-G)                             |
