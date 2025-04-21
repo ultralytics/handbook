@@ -95,8 +95,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 color: #111F68;
               }
               /* Dark mode styling */
-              [data-md-color-scheme="slate"] .ikp-chat-button__button {
-                background-color: #1e2029;
+              [data-theme="dark"] .ikp-chat-button__button {
+                background-color: #40434f;
                 color: #ffffff;
               }
               .ikp-chat-button__container {
