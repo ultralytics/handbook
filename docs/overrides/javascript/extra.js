@@ -45,8 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Load the Inkeep script with updated CDN URL
   const inkeepScript = document.createElement("script");
-  inkeepScript.src =
-    "https://cdn.jsdelivr.net/npm/@inkeep/cxkit-js@0.5/dist/embed.js";
+  inkeepScript.src = "https://cdn.jsdelivr.net/npm/@inkeep/cxkit-js@0.5/dist/embed.js";
   inkeepScript.type = "module";
   inkeepScript.defer = true;
   document.head.appendChild(inkeepScript);
@@ -67,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
       headerElement.insertBefore(containerDiv, searchContainer);
     }
   }
-
+  
   // Configuration object for Inkeep
   const config = {
     baseSettings: {
@@ -81,8 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
           target: document.documentElement,
           attributes: ["data-color-mode-scheme"],
           isDarkMode: (attributes) => {
-            const currentTheme =
-              document.documentElement.getAttribute("data-color-mode");
+            const currentTheme = document.documentElement.getAttribute("data-color-mode");
             return currentTheme === "dark";
           },
         },
@@ -121,45 +119,46 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     aiChatSettings: {
       chatSubjectName: "Ultralytics",
-      aiAssistantAvatar:
-        "https://storage.googleapis.com/organization-image-assets/ultralytics-botAvatarSrcUrl-1729379860806.svg",
+      aiAssistantAvatar: "https://storage.googleapis.com/organization-image-assets/ultralytics-botAvatarSrcUrl-1729379860806.svg",
       exampleQuestions: [
         "What's new in Ultralytics YOLO11?",
         "How can I get started with Ultralytics HUB?",
         "How does Ultralytics Enterprise Licensing work?",
       ],
-      helpResources: [
-        {
-          name: "Ask on Ultralytics GitHub",
-          icon: {
-            builtIn: "FaGithub",
+      getHelpOptions: () => {
+        return [
+          {
+            name: "Ask on Ultralytics GitHub",
+            icon: {
+              builtIn: "FaGithub",
+            },
+            action: {
+              type: "open_link",
+              url: "https://github.com/ultralytics/ultralytics",
+            },
           },
-          action: {
-            type: "open_link",
-            url: "https://github.com/ultralytics/ultralytics",
+          {
+            name: "Ask on Ultralytics Discourse",
+            icon: {
+              builtIn: "FaDiscourse",
+            },
+            action: {
+              type: "open_link",
+              url: "https://community.ultralytics.com/",
+            },
           },
-        },
-        {
-          name: "Ask on Ultralytics Discourse",
-          icon: {
-            builtIn: "FaDiscourse",
+          {
+            name: "Ask on Ultralytics Discord",
+            icon: {
+              builtIn: "FaDiscord",
+            },
+            action: {
+              type: "open_link",
+              url: "https://discord.com/invite/ultralytics",
+            },
           },
-          action: {
-            type: "open_link",
-            url: "https://community.ultralytics.com/",
-          },
-        },
-        {
-          name: "Ask on Ultralytics Discord",
-          icon: {
-            builtIn: "FaDiscord",
-          },
-          action: {
-            type: "open_link",
-            url: "https://discord.com/invite/ultralytics",
-          },
-        },
-      ],
+        ];
+      },
     },
   };
 
