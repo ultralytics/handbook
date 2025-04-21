@@ -67,12 +67,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Check if dark mode is active
-  const isDarkMode = () => {
-    const scheme = document.body.getAttribute("data-md-color-scheme");
-    return scheme === "slate";
-  };
-
   // Configuration object for Inkeep
   const config = {
     baseSettings: {
@@ -83,12 +77,6 @@ document.addEventListener("DOMContentLoaded", () => {
       organizationDisplayName: "Ultralytics",
       colorMode: {
         enableSystem: true,
-        sync: {
-          target: document.body,
-          attributes: ["data-md-color-scheme"],
-          isDarkMode: (attributes) => attributes["data-md-color-scheme"] === "slate",
-          onChange: (mode) => console.log(`Inkeep color mode changed to: ${mode}`)
-        },
       },
       theme: {
         styles: [
