@@ -43,7 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const enableSearchBar = true;
 
-  // Load the Inkeep script with updated CDN URL
   const inkeepScript = document.createElement("script");
   inkeepScript.src =
     "https://cdn.jsdelivr.net/npm/@inkeep/cxkit-js@0.5/dist/embed.js";
@@ -68,6 +67,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  // Check if dark mode is active
+  const isDarkMode = () => {
+    const scheme = document.body.getAttribute("data-md-color-scheme");
+    return scheme === "slate";
+  };
+
   // Configuration object for Inkeep
   const config = {
     baseSettings: {
@@ -77,14 +82,12 @@ document.addEventListener("DOMContentLoaded", () => {
       primaryBrandColor: "#E1FF25",
       organizationDisplayName: "Ultralytics",
       colorMode: {
+        enableSystem: true,
         sync: {
-          target: document.documentElement,
-          attributes: ["data-color-mode-scheme"],
-          isDarkMode: (attributes) => {
-            const currentTheme =
-              document.documentElement.getAttribute("data-color-mode");
-            return currentTheme === "dark";
-          },
+          target: document.body,
+          attributes: ["data-md-color-scheme"],
+          isDarkMode: (attributes) => attributes["data-md-color-scheme"] === "slate",
+          onChange: (mode) => console.log(`Inkeep color mode changed to: ${mode}`)
         },
       },
       theme: {
@@ -98,13 +101,15 @@ document.addEventListener("DOMContentLoaded", () => {
             key: "chat-button",
             type: "style",
             value: `
+              /* Light mode styling */
               .ikp-chat-button__button {
                 background-color: #E1FF25;
                 color: #111F68;
               }
-              [data-theme="dark"] .ikp-chat-button__button {
-                background-color: #E1FF25;
-                color: #111F68;
+              /* Dark mode styling */
+              [data-md-color-scheme="slate"] .ikp-chat-button__button {
+                background-color: #1e2029;
+                color: #ffffff;
               }
               .ikp-chat-button__container {
                 position: fixed;
