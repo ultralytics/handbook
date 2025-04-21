@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const enableSearchBar = true;
 
+  // Load the Inkeep script with updated CDN URL
   const inkeepScript = document.createElement("script");
   inkeepScript.src =
     "https://cdn.jsdelivr.net/npm/@inkeep/cxkit-js@0.5/dist/embed.js";
@@ -127,26 +128,35 @@ document.addEventListener("DOMContentLoaded", () => {
         "How can I get started with Ultralytics HUB?",
         "How does Ultralytics Enterprise Licensing work?",
       ],
-      helpResources: [
+      getHelpOptions: [
         {
           name: "Ask on Ultralytics GitHub",
-          url: "https://github.com/ultralytics/ultralytics",
           icon: {
             builtIn: "FaGithub",
+          },
+          action: {
+            type: "open_link",
+            url: "https://github.com/ultralytics/ultralytics",
           },
         },
         {
           name: "Ask on Ultralytics Discourse",
-          url: "https://community.ultralytics.com/",
           icon: {
             builtIn: "FaDiscourse",
+          },
+          action: {
+            type: "open_link",
+            url: "https://community.ultralytics.com/",
           },
         },
         {
           name: "Ask on Ultralytics Discord",
-          url: "https://discord.com/invite/ultralytics",
           icon: {
             builtIn: "FaDiscord",
+          },
+          action: {
+            type: "open_link",
+            url: "https://discord.com/invite/ultralytics",
           },
         },
       ],
