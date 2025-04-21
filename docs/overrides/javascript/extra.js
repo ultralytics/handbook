@@ -44,7 +44,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const enableSearchBar = true;
 
   const inkeepScript = document.createElement("script");
-  inkeepScript.src = "https://cdn.jsdelivr.net/npm/@inkeep/cxkit-js@0.5/dist/embed.js";
+  inkeepScript.src =
+    "https://cdn.jsdelivr.net/npm/@inkeep/cxkit-js@0.5/dist/embed.js";
   inkeepScript.type = "module";
   inkeepScript.defer = true;
   document.head.appendChild(inkeepScript);
@@ -79,7 +80,8 @@ document.addEventListener("DOMContentLoaded", () => {
           target: document.documentElement,
           attributes: ["data-color-mode-scheme"],
           isDarkMode: (attributes) => {
-            const currentTheme = document.documentElement.getAttribute("data-color-mode");
+            const currentTheme =
+              document.documentElement.getAttribute("data-color-mode");
             return currentTheme === "dark";
           },
         },
@@ -118,7 +120,8 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     aiChatSettings: {
       chatSubjectName: "Ultralytics",
-      aiAssistantAvatar: "https://storage.googleapis.com/organization-image-assets/ultralytics-botAvatarSrcUrl-1729379860806.svg",
+      aiAssistantAvatar:
+        "https://storage.googleapis.com/organization-image-assets/ultralytics-botAvatarSrcUrl-1729379860806.svg",
       exampleQuestions: [
         "What's new in Ultralytics YOLO11?",
         "How can I get started with Ultralytics HUB?",
