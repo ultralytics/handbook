@@ -43,7 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const enableSearchBar = true;
 
-  // Load the Inkeep script with updated CDN URL
   const inkeepScript = document.createElement("script");
   inkeepScript.src =
     "https://cdn.jsdelivr.net/npm/@inkeep/cxkit-js@0.5/dist/embed.js";
@@ -77,15 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
       primaryBrandColor: "#E1FF25",
       organizationDisplayName: "Ultralytics",
       colorMode: {
-        sync: {
-          target: document.documentElement,
-          attributes: ["data-color-mode-scheme"],
-          isDarkMode: (attributes) => {
-            const currentTheme =
-              document.documentElement.getAttribute("data-color-mode");
-            return currentTheme === "dark";
-          },
-        },
+        enableSystem: true,
       },
       theme: {
         styles: [
@@ -98,13 +89,15 @@ document.addEventListener("DOMContentLoaded", () => {
             key: "chat-button",
             type: "style",
             value: `
+              /* Light mode styling */
               .ikp-chat-button__button {
                 background-color: #E1FF25;
                 color: #111F68;
               }
+              /* Dark mode styling */
               [data-theme="dark"] .ikp-chat-button__button {
-                background-color: #E1FF25;
-                color: #111F68;
+                background-color: #40434f;
+                color: #ffffff;
               }
               .ikp-chat-button__container {
                 position: fixed;
