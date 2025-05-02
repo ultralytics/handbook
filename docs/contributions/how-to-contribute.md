@@ -33,6 +33,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                   |
 | Jordan Cooper           | [JCoops1](https://github.com/JCoops1)                         |
 | Jose Bondi              | [joseUltra](https://github.com/joseUltra)                     |
+| Kasim Acikbas           | [kayselmecnun](https://github.com/kayselmecnun)               |
 | Kirill Viarbitski       | [Kverbitski](https://github.com/Kverbitski)                   |
 | Kiryl Oblikau           | [muknex](https://github.com/munknex)                          |
 | Kristian Sommer         | [sokrisba](https://github.com/sokrisba)                       |
