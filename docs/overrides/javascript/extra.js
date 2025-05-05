@@ -164,9 +164,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Fix missing trailing slash on language home pages
-document.addEventListener('DOMContentLoaded', () => {
+(function() {
   const path = window.location.pathname;
-  if (['/zh', '/ko', '/ja', '/ru', '/de', '/fr', '/it', '/es', '/pt', '/tr', '/vi', '/ar'].includes(path)) {
+  const langPaths = ['/zh','/ko','/ja','/ru','/de','/fr','/it','/es','/pt','/tr','/vi','/ar'];
+  
+  if (langPaths.includes(path) && !sessionStorage.getItem('redirected')) {
+    sessionStorage.setItem('redirected', 'true');
     window.location.href = path + '/' + window.location.search + window.location.hash;
   }
-});
+})();
