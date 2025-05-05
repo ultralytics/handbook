@@ -162,3 +162,11 @@ document.addEventListener("DOMContentLoaded", () => {
     widgetContainer && Inkeep.SearchBar("#inkeepSearchBar", config);
   });
 });
+
+// Fix missing trailing slash on language home pages
+document.addEventListener('DOMContentLoaded', () => {
+  const path = window.location.pathname;
+  if (['/zh', '/ko', '/ja', '/ru', '/de', '/fr', '/it', '/es', '/pt', '/tr', '/vi', '/ar'].includes(path)) {
+    window.location.href = path + '/' + window.location.search + window.location.hash;
+  }
+});
