@@ -164,11 +164,24 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Fix missing trailing slashes on language paths
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener("DOMContentLoaded", function () {
   const path = location.pathname;
-  const langs = ['zh','ko','ja','ru','de','fr','it','es','pt','tr','vi','ar'];
-  const isLangPath = langs.some(lang => path === '/' + lang);
-  if (isLangPath && !path.endsWith('/')) {
-    location.href = path + '/' + location.search + location.hash;
+  const langs = [
+    "zh",
+    "ko",
+    "ja",
+    "ru",
+    "de",
+    "fr",
+    "it",
+    "es",
+    "pt",
+    "tr",
+    "vi",
+    "ar",
+  ];
+  const isLangPath = langs.some((lang) => path === "/" + lang);
+  if (isLangPath && !path.endsWith("/")) {
+    location.href = path + "/" + location.search + location.hash;
   }
 });
