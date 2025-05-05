@@ -163,26 +163,25 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Fix missing trailing slash on language home pages
-if (!localStorage.getItem("redirected_" + location.pathname)) {
-  const p = location.pathname;
-  if (
-    [
-      "/zh",
-      "/ko",
-      "/ja",
-      "/ru",
-      "/de",
-      "/fr",
-      "/it",
-      "/es",
-      "/pt",
-      "/tr",
-      "/vi",
-      "/ar",
-    ].includes(p)
-  ) {
-    localStorage.setItem("redirected_" + p, "1");
-    location.replace(p + "/" + location.search + location.hash);
+// Fix missing trailing slashes on language paths
+document.addEventListener("DOMContentLoaded", function () {
+  const path = location.pathname;
+  const langs = [
+    "zh",
+    "ko",
+    "ja",
+    "ru",
+    "de",
+    "fr",
+    "it",
+    "es",
+    "pt",
+    "tr",
+    "vi",
+    "ar",
+  ];
+  const isLangPath = langs.some((lang) => path === "/" + lang);
+  if (isLangPath && !path.endsWith("/")) {
+    location.href = path + "/" + location.search + location.hash;
   }
-}
+});
