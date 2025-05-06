@@ -16,23 +16,18 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Abdelrahman Elgendy     | [AbdelrahmanEL-gendy](https://github.com/AbdelrahmanEL-gendy) |
 | Abrish Sabri            | [asabri97](https://github.com/asabri97)                       |
 | Abirami Vina            | [abirami-vina](https://github.com/abirami-vina)               |
-| Alexis Barou            | [LexBarou](https://github.com/LexBarou)                       |
 | Alexis Schutzger        | [picsalex](https://github.com/picsalex)                       |
 | Amir Roshanaei          | [bitcodr](https://github.com/bitcodr)                         |
 | Burhan Qaddoumi         | [Burhan-Q](https://github.com/Burhan-Q)                       |
-| Enrika Vyšniauskaitė    | [Enrikaa](https://github.com/Enrikaa)                         |
 | Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                         |
 | Francesco Mattioli      | [ambitious-octopus](https://github.com/ambitious-octopus)     |
 | Giovanni DZ             | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)   |
 | Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)               |
 | Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)               |
-| Hans van de Broek       | [barnahans](https://github.com/barnahans)                     |
-| Ivor Zhu                | [IvorZhu331](https://github.com/IvorZhu331)                   |
 | Jake Qian               | [fengqianjake](https://github.com/fengqianjake)               |
 | Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                   |
 | Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                   |
 | Jordan Cooper           | [JCoops1](https://github.com/JCoops1)                         |
-| Jose Bondi              | [joseUltra](https://github.com/joseUltra)                     |
 | Kasim Acikbas           | [kayselmecnun](https://github.com/kayselmecnun)               |
 | Kirill Viarbitski       | [Kverbitski](https://github.com/Kverbitski)                   |
 | Kiryl Oblikau           | [muknex](https://github.com/munknex)                          |
@@ -41,7 +36,6 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Marius Keiser           | [Skillnoob](https://github.com/Skillnoob)                     |
 | Mohammed Yasin          | [Y-T-G](https://github.com/Y-T-G)                             |
 | Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar)             |
-| Nathan Yan              | [CodCodingCode](https://github.com/CodCodingCode)             |
 | Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)             |
 | Nuvola Ladi             | [NLadi](https://github.com/NLadi)                             |
 | Olga Krupskaia          | [Krupskaya](https://github.com/Krupskaya)                     |
