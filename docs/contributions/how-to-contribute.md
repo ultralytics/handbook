@@ -54,6 +54,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)           |
 | Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                           |
 | Nikoloz Gabunia         | [NikolozULT](https://github.com/NikolozULT)                   |
+| Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                       |
 
 ## Contribution Guidelines
 
