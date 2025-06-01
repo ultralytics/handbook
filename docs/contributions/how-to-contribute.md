@@ -13,7 +13,6 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 
 | Employee Name           | GitHub Profile                                                |
 | ----------------------- | ------------------------------------------------------------- |
-| Abdelrahman Elgendy     | [AbdelrahmanEL-gendy](https://github.com/AbdelrahmanEL-gendy) |
 | Abrish Sabri            | [asabri97](https://github.com/asabri97)                       |
 | Abirami Vina            | [abirami-vina](https://github.com/abirami-vina)               |
 | Alexis Schutzger        | [picsalex](https://github.com/picsalex)                       |
@@ -42,7 +41,6 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Pablo Karnbaum          | [pablokarnbaum](https://github.com/pablokarnbaum)             |
 | Paula Derrenger         | [pderrenger](https://github.com/pderrenger)                   |
 | Sergiu Waxmann          | [sergiuwaxmann](https://github.com/sergiuwaxmann)             |
-| Tasha Anthony           | [recruiter2002](https://github.com/recruiter2002)             |
 | Thomas Chuang           | [chuang091](https://github.com/chuang091)                     |
 | William Beaven          | [william-beaven](https://github.com/william-beaven)           |
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)           |
