@@ -37,7 +37,6 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar)           |
 | Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)           |
 | Nuvola Ladi             | [NLadi](https://github.com/NLadi)                           |
-| Olga Krupskaia          | [Krupskaya](https://github.com/Krupskaya)                   |
 | Pablo Karnbaum          | [pablokarnbaum](https://github.com/pablokarnbaum)           |
 | Paula Derrenger         | [pderrenger](https://github.com/pderrenger)                 |
 | Sergiu Waxmann          | [sergiuwaxmann](https://github.com/sergiuwaxmann)           |
