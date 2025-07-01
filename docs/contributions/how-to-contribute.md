@@ -11,41 +11,42 @@ Welcome to the Ultralytics contribution guide! We're excited to have you join ou
 
 Our open-source projects are maintained by a dedicated team of developers. Feel free to reach out to team members for guidance:
 
-| Employee Name           | GitHub Profile                                              |
-| ----------------------- | ----------------------------------------------------------- |
-| Abrish Sabri            | [asabri97](https://github.com/asabri97)                     |
-| Abirami Vina            | [abirami-vina](https://github.com/abirami-vina)             |
-| Alexis Schutzger        | [picsalex](https://github.com/picsalex)                     |
-| Amir Roshanaei          | [bitcodr](https://github.com/bitcodr)                       |
-| Burhan Qaddoumi         | [Burhan-Q](https://github.com/Burhan-Q)                     |
-| Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                       |
-| Francesco Mattioli      | [ambitious-octopus](https://github.com/ambitious-octopus)   |
-| Giovanni DZ             | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics) |
-| Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)             |
-| Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)             |
-| Jake Qian               | [fengqianjake](https://github.com/fengqianjake)             |
-| Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                 |
-| Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                 |
-| Jordan Cooper           | [JCoops1](https://github.com/JCoops1)                       |
-| Kasim Acikbas           | [kayselmecnun](https://github.com/kayselmecnun)             |
-| Kirill Viarbitski       | [Kverbitski](https://github.com/Kverbitski)                 |
-| Kiryl Oblikau           | [muknex](https://github.com/munknex)                        |
-| Kristian Sommer         | [sokrisba](https://github.com/sokrisba)                     |
-| Lakshantha Dissanayake  | [lakshanthad](https://github.com/lakshanthad)               |
-| Marius Keiser           | [Skillnoob](https://github.com/Skillnoob)                   |
-| Mohammed Yasin          | [Y-T-G](https://github.com/Y-T-G)                           |
-| Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar)           |
-| Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)           |
-| Nuvola Ladi             | [NLadi](https://github.com/NLadi)                           |
-| Pablo Karnbaum          | [pablokarnbaum](https://github.com/pablokarnbaum)           |
-| Paula Derrenger         | [pderrenger](https://github.com/pderrenger)                 |
-| Sergiu Waxmann          | [sergiuwaxmann](https://github.com/sergiuwaxmann)           |
-| Thomas Chuang           | [chuang091](https://github.com/chuang091)                   |
-| William Beaven          | [william-beaven](https://github.com/william-beaven)         |
-| Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)         |
-| Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                         |
-| Nikoloz Gabunia         | [NikolozULT](https://github.com/NikolozULT)                 |
-| Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                     |
+| Employee Name           | GitHub Profile                                                |
+| ----------------------- | ------------------------------------------------------------- |
+| Abrish Sabri            | [asabri97](https://github.com/asabri97)                       |
+| Abirami Vina            | [abirami-vina](https://github.com/abirami-vina)               |
+| Alexis Schutzger        | [picsalex](https://github.com/picsalex)                       |
+| Amir Roshanaei          | [bitcodr](https://github.com/bitcodr)                         |
+| Burhan Qaddoumi         | [Burhan-Q](https://github.com/Burhan-Q)                       |
+| Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                         |
+| Francesco Mattioli      | [ambitious-octopus](https://github.com/ambitious-octopus)     |
+| Giovanni DZ             | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)   |
+| Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)               |
+| Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)               |
+| Jake Qian               | [fengqianjake](https://github.com/fengqianjake)               |
+| Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                   |
+| Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                   |
+| Jordan Cooper           | [JCoops1](https://github.com/JCoops1)                         |
+| Kasim Acikbas           | [kayselmecnun](https://github.com/kayselmecnun)               |
+| Kirill Viarbitski       | [Kverbitski](https://github.com/Kverbitski)                   |
+| Kiryl Oblikau           | [muknex](https://github.com/munknex)                          |
+| Kristian Sommer         | [sokrisba](https://github.com/sokrisba)                       |
+| Lakshantha Dissanayake  | [lakshanthad](https://github.com/lakshanthad)                 |
+| Marius Keiser           | [Skillnoob](https://github.com/Skillnoob)                     |
+| Mohammed Yasin          | [Y-T-G](https://github.com/Y-T-G)                             |
+| Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar)             |
+| Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)             |
+| Nuvola Ladi             | [NLadi](https://github.com/NLadi)                             |
+| Pablo Karnbaum          | [pablokarnbaum](https://github.com/pablokarnbaum)             |
+| Paula Derrenger         | [pderrenger](https://github.com/pderrenger)                   |
+| Prateek Bhatnagar       | [prateek-ultralytics](https://github.com/prateek-ultralytics) |
+| Sergiu Waxmann          | [sergiuwaxmann](https://github.com/sergiuwaxmann)             |
+| Thomas Chuang           | [chuang091](https://github.com/chuang091)                     |
+| William Beaven          | [william-beaven](https://github.com/william-beaven)           |
+| Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)           |
+| Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                           |
+| Nikoloz Gabunia         | [NikolozULT](https://github.com/NikolozULT)                   |
+| Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                       |
 
 ## Contribution Guidelines
 
