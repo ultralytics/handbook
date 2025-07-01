@@ -39,6 +39,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Nuvola Ladi             | [NLadi](https://github.com/NLadi)                           |
 | Pablo Karnbaum          | [pablokarnbaum](https://github.com/pablokarnbaum)           |
 | Paula Derrenger         | [pderrenger](https://github.com/pderrenger)                 |
+| Prateek Bhatnagar       | [prateek-ultralytics](https://github.com/prateek-ultralytics)|
 | Sergiu Waxmann          | [sergiuwaxmann](https://github.com/sergiuwaxmann)           |
 | Thomas Chuang           | [chuang091](https://github.com/chuang091)                   |
 | William Beaven          | [william-beaven](https://github.com/william-beaven)         |
