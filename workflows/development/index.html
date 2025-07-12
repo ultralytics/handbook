@@ -474,7 +474,7 @@
 <article class="md-content__inner md-typeset">
 <a class="md-content__button md-icon" href="https://github.com/ultralytics/handbook/tree/main/docs/workflows/development.md" rel="edit" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
-</a>
+</a><a class="md-content__button md-icon" href="javascript:void(0)" onclick="copyMarkdownForLLM(this); return false;" title="Copy page in Markdown format"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg></a>
 <h1 id="development">Development</h1>
 <h2 id="handbook-under-construction">Handbook Under Construction 🏗️📖</h2>
 <p>Welcome to the <a href="https://www.ultralytics.com/">Ultralytics</a> <a href="https://handbook.ultralytics.com/">Handbook</a> "Under Construction" page! We are diligently crafting a comprehensive guide that will serve as your go-to resource for understanding our mission, vision, values, workflows, and company practices. This page is a preview of the detailed documentation and guidelines soon to be available.</p>
@@ -502,10 +502,10 @@
 <div class="git-info">
 <div class="dates-container">
 <span class="date-item" title="This page was first created on October 13, 2024">
-<span class="hover-item">📅</span> Created 8 months ago
+<span class="hover-item">📅</span> Created 9 months ago
     </span>
 <span class="date-item" title="This page was last updated on October 14, 2024">
-<span class="hover-item">✏️</span> Updated 8 months ago
+<span class="hover-item">✏️</span> Updated 9 months ago
     </span>
 </div>
 <div class="authors-container">
@@ -613,5 +613,42 @@
 <script id="__config" type="application/json">{"base": "../..", "features": ["content.action.edit", "content.code.annotate", "content.code.copy", "content.tooltips", "search.highlight", "search.share", "search.suggest", "toc.follow", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.prune", "navigation.footer", "navigation.tracking", "navigation.instant", "navigation.instant.progress", "navigation.indexes", "navigation.sections", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
 <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>
 <script src="../../javascript/extra.js"></script>
-</body>
+<script>
+                    async function copyMarkdownForLLM(button) {
+                        const editBtn = document.querySelector('a[title="Edit this page"]');
+                        if (!editBtn) return;
+
+                        const originalHTML = button.innerHTML;
+                        const checkIcon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19L21 7l-1.41-1.41L9 16.17z"></path></svg>';
+
+                        // Handle both /blob/ and /tree/ in GitHub URLs
+                        let rawUrl = editBtn.href.replace('github.com', 'raw.githubusercontent.com');
+
+                        // Remove /blob/ or /tree/ from the URL
+                        rawUrl = rawUrl.replace('/blob/', '/').replace('/tree/', '/');
+
+                        try {
+                            const response = await fetch(rawUrl);
+                            let markdown = await response.text();
+
+                            // Remove YAML front matter if present
+                            if (markdown.startsWith('---')) {
+                                const frontMatterEnd = markdown.indexOf('\n---\n', 3);
+                                if (frontMatterEnd !== -1) {
+                                    markdown = markdown.substring(frontMatterEnd + 5).trim();
+                                }
+                            }
+
+                            const title = document.querySelector('h1')?.textContent || document.title;
+                            const content = `# ${title}\n\nSource: ${window.location.href}\n\n---\n\n${markdown}`;
+
+                            await navigator.clipboard.writeText(content);
+                            button.innerHTML = checkIcon + ' Copied!';
+                            setTimeout(() => { button.innerHTML = originalHTML; }, 2000);
+                        } catch (err) {
+                            button.innerHTML = '❌ Failed';
+                            setTimeout(() => { button.innerHTML = originalHTML; }, 2000);
+                        }
+                    }
+                    </script></body>
 </html>
