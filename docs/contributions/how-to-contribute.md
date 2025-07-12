@@ -47,7 +47,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                           |
 | Nikoloz Gabunia         | [NikolozULT](https://github.com/NikolozULT)                   |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                       |
-| Lynne Swan | [DubLynne](https://github.com/DubLynne) |
+| Lynne Swan              | [DubLynne](https://github.com/DubLynne)                       |
 
 ## Contribution Guidelines
 
