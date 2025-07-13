@@ -15,11 +15,9 @@ Ultralytics is committed to transparent financial practices that empower our emp
 
 Employees are expected to manage expenses responsibly and ethically, ensuring all expenditures are business-critical and compliant with company policy.
 
-### Remote Hardware Setup 🖥️🏠
+### Hardware Policy 🖥️
 
-- Employees joining Ultralytics remotely are eligible for a one-time hardware setup allowance of $500 to ensure they have the necessary equipment for productive remote work.
-- Eligible expenses include essential home-office items such as monitors, desks, chairs, webcams, headsets, and peripherals.
-- Receipts must be provided for reimbursement, clearly showing the items purchased and total amounts.
+All hardware equipment requests and procedures are covered under the comprehensive [Hardware Policy](../tools/hardware.md). This includes computer equipment, mobile devices, refresh cycles, and approval processes for all employees.
 
 ## Travel Policy ✈️🌎
 
