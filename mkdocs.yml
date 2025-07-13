@@ -165,7 +165,7 @@ nav:
           - finance/index.md
           - Travel: finance/travel.md
       - Tools:
-          - Overview: tools/equipment.md
+          - Overview: tools/index.md
           - Hardware: tools/hardware.md
           - Software: tools/software.md
       - Team Roles:
