@@ -40,7 +40,8 @@ To maintain security and compatibility, all software not included in the standar
 4.  **Purchase & Installation:** For paid software, follow the standard [reimbursement procedures](../finance/index.md#reimbursements). IT will provide installation support if needed.
 
 !!! warning "Prohibition of Unauthorized Software"
-The installation of any software that has not been approved through this process is strictly prohibited. This includes personal software on company devices, unlicensed or "cracked" applications, and any tool that could compromise system security.
+
+    The installation of any software that has not been approved through this process is strictly prohibited. This includes personal software on company devices, unlicensed or "cracked" applications, and any tool that could compromise system security.
 
 ## 4. Acceptable Use Policy 🛡️
 
