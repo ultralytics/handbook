@@ -9,7 +9,7 @@ function loadGiscus() {
 
   const script = document.createElement("script");
   script.src = "https://giscus.app/client.js";
-  script.setAttribute("data-repo", "ultralytics/ultralytics");
+  script.setAttribute("data-repo", "ultralytics/handbook");
   script.setAttribute("data-repo-id", "R_kgDOH-jzvQ");
   script.setAttribute("data-category", "Docs");
   script.setAttribute("data-category-id", "DIC_kwDOH-jzvc4CWLkL");
