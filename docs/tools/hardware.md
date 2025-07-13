@@ -48,13 +48,13 @@ Any hardware other than the two standard configurations requires **direct manage
 
 ### Standard Accessories
 
-All new hires receive **[AirPods Pro](https://www.apple.com/airpods-pro/)** for video conferencing and communication needs.
+All new hires receive **[AirPods Pros](https://www.apple.com/airpods-pro/)** for video conferencing and communication needs.
 
 ### Device Setup Requirements
 
 All new employees must:
 
-- Install **Rippling MDM** on their device before using it for work
+- Install **Rippling Mobile Device Management (MDM)** on their device before using it for work at https://www.rippling.com/device-management
 - Ensure all security and compliance policies are in place
 - Complete device setup according to IT security requirements
 
