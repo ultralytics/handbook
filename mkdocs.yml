@@ -104,39 +104,9 @@ extra: # version:
     - name: 🇨🇳 简体中文
       link: /zh/
       lang: zh
-    - name: 🇰🇷 한국어
-      link: /ko/
-      lang: ko
-    - name: 🇯🇵 日本語
-      link: /ja/
-      lang: ja
-    - name: 🇷🇺 Русский
-      link: /ru/
-      lang: ru
-    - name: 🇩🇪 Deutsch
-      link: /de/
-      lang: de
-    - name: 🇫🇷 Français
-      link: /fr/
-      lang: fr
     - name: 🇪🇸 Español
       link: /es/
       lang: es
-    - name: 🇵🇹 Português
-      link: /pt/
-      lang: pt
-    - name: 🇮🇹 Italiano
-      link: /it/
-      lang: it
-    - name: 🇹🇷 Türkçe
-      link: /tr/
-      lang: tr
-    - name: 🇻🇳 Tiếng Việt
-      link: /vi/
-      lang: vi
-    - name: 🇸🇦 العربية
-      link: /ar/
-      lang: ar
 
 extra_css:
   - stylesheets/style.css
