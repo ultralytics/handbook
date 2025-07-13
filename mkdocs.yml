@@ -74,7 +74,7 @@ copyright: <a href="https://www.ultralytics.com/" target="_blank">© 2025 Ultral
 extra: # version:
   homepage: https://www.ultralytics.com/
   #   provider: mike  #  version drop-down menu
-  robots: robots.txt
+  # robots: robots.txt
   # analytics:
   #   provider: google
   #   property: G-2M5EHKC0BH
