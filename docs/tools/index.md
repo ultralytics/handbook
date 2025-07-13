@@ -1,57 +1,58 @@
 ---
-description: Ultralytics Equipment Overview covering hardware and software policies for all employees.
-keywords: Ultralytics equipment, hardware policy, software policy, employee equipment overview
+description: Ultralytics Tools Overview covering hardware, software, and key procedures for all employees.
+keywords: Ultralytics tools, hardware policy, software policy, IT support, employee equipment
 ---
 
-# Equipment Overview 💻
+# Tools Overview 🛠️
 
-Welcome to the [Ultralytics](https://www.ultralytics.com/) Equipment section. This comprehensive guide covers all technology resources provided to employees.
+Welcome to the Ultralytics Tools section. This hub is your guide to the hardware, software, and digital services we use to build the future of AI. Our goal is to provide you with the best resources while maintaining a secure and efficient work environment.
 
-## Hardware Policy 🖥️
-
-Our [Hardware Policy](hardware.md) covers:
-
-- **Standard Equipment** - [MacBook Air](https://www.apple.com/macbook-air/) and [MacBook Pro](https://www.apple.com/macbook-pro/) configurations
-- **Hardware Refresh** - 2-year refresh cycle and approval processes
-- **Mobile Devices** - [iPad](https://www.apple.com/ipad/), [iPhone](https://www.apple.com/iphone/), and Android device policies
-- **Replacements** - [Apple Trade In](https://www.apple.com/trade-in/) process and reimbursement procedures
-- **Device Management** - Rippling MDM installation and security compliance requirements
-- **Care & Maintenance** - Employee responsibilities and reporting procedures
-
-## Software Policy 📱
-
-Our [Software Policy](software.md) covers:
-
-- **Standard Software** - Pre-installed applications and licensing
-- **New Software** - Approval processes and security requirements
-- **Acceptable Use** - Business vs personal use guidelines
-- **IT Support** - Help procedures and security policies
-
-## Quick Reference 🔍
-
-### New Hires
-
-- **Onsite:** Equipment provided at office
-- **Remote:** Order equipment, request reimbursement
-- **Standard:** [MacBook Air](https://www.apple.com/macbook-air/) + [AirPods Pro](https://www.apple.com/airpods-pro/)
-- **Setup:** Install Rippling MDM and complete security compliance
-
-### Existing Employees
-
-- **Refresh:** Every 2 years (automatic approval)
-- **Replacements:** [Apple Trade In](https://www.apple.com/trade-in/) process required
-- **Reimbursement:** New device price minus Apple trade-in value
-
-### Support Contacts
-
-- **Hardware Issues:** IT Support
-- **Reimbursements:** Finance Team
-- **Policy Questions:** Direct Manager
-
-## Questions and Support 🤝
-
-For detailed information, refer to the specific policy documents above or contact your direct manager.
+Below you'll find links to our core policies and a quick reference guide for common tasks.
 
 ---
 
-This equipment framework ensures consistent, secure, and cost-effective technology provisioning across our global organization. 🚀
+## Core Policies
+
+### [Hardware Policy](./hardware.md) 🖥️
+
+This policy covers the complete lifecycle of your physical devices, from acquisition to replacement. It ensures that equipment is provisioned fairly and managed securely.
+
+*   **Standard Equipment:** Details on MacBook Air and MacBook Pro configurations.
+*   **Refresh Cycle:** Guidelines on the 2-year refresh and upgrade process.
+*   **Replacements:** The required **Apple Trade-In** process for all upgrades.
+*   **Device Security:** Mandatory **Rippling MDM** installation for all devices.
+
+### [Software Policy](./software.md) 💾
+
+This policy governs the use of all applications and digital tools. It is designed to maximize productivity and collaboration while protecting the company from security and legal risks.
+
+*   **Standard Suite:** Information on pre-installed applications and licensing.
+*   **Requesting Software:** The approval process for acquiring new applications.
+*   **Acceptable Use:** Clear guidelines on business vs. personal use of software.
+*   **Security:** Requirements for passwords, data handling, and system updates.
+
+---
+
+## Quick Reference Guide ⚡
+
+This is a summary of the most common procedures. For full details, please refer to the specific policy pages.
+
+*   **New Equipment:** Standard issue for new hires is a **MacBook Air** and **AirPods Pro**. Remote employees order their own and submit for reimbursement.
+*   **Replacements & Upgrades:** You are eligible for a hardware refresh every **2 years**. The **Apple Trade-In** process is required for all replacements.
+*   **Reimbursement:** For replacements, the reimbursed amount is the **net cost** (new device price minus the Apple trade-in credit).
+*   **Mandatory Security:** All devices used for work (computers and mobile) **MUST** have **Rippling MDM** installed before use.
+
+---
+
+## Who to Contact 🤝
+
+> **For technical issues, device setup, or security questions:**
+> ➡️ **IT Support** at [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com) or in the **#it-support** Slack channel.
+
+> **For questions about purchases, reimbursements, or budgets:**
+> ➡️ The **Finance Team**.
+
+> **For policy exceptions, hardware approvals, or role-specific needs:**
+> ➡️ Your **Direct Manager**.
+
+This framework ensures our technology resources are managed consistently, securely, and effectively across our global organization. 🚀
