@@ -17,19 +17,19 @@ Below you'll find links to our core policies and a quick reference guide for com
 
 This policy covers the complete lifecycle of your physical devices, from acquisition to replacement. It ensures that equipment is provisioned fairly and managed securely.
 
-*   **Standard Equipment:** Details on MacBook Air and MacBook Pro configurations.
-*   **Refresh Cycle:** Guidelines on the 2-year refresh and upgrade process.
-*   **Replacements:** The required **Apple Trade-In** process for all upgrades.
-*   **Device Security:** Mandatory **Rippling MDM** installation for all devices.
+- **Standard Equipment:** Details on MacBook Air and MacBook Pro configurations.
+- **Refresh Cycle:** Guidelines on the 2-year refresh and upgrade process.
+- **Replacements:** The required **Apple Trade-In** process for all upgrades.
+- **Device Security:** Mandatory **Rippling MDM** installation for all devices.
 
 ### [Software Policy](./software.md) 💾
 
 This policy governs the use of all applications and digital tools. It is designed to maximize productivity and collaboration while protecting the company from security and legal risks.
 
-*   **Standard Suite:** Information on pre-installed applications and licensing.
-*   **Requesting Software:** The approval process for acquiring new applications.
-*   **Acceptable Use:** Clear guidelines on business vs. personal use of software.
-*   **Security:** Requirements for passwords, data handling, and system updates.
+- **Standard Suite:** Information on pre-installed applications and licensing.
+- **Requesting Software:** The approval process for acquiring new applications.
+- **Acceptable Use:** Clear guidelines on business vs. personal use of software.
+- **Security:** Requirements for passwords, data handling, and system updates.
 
 ---
 
@@ -37,10 +37,10 @@ This policy governs the use of all applications and digital tools. It is designe
 
 This is a summary of the most common procedures. For full details, please refer to the specific policy pages.
 
-*   **New Equipment:** Standard issue for new hires is a **MacBook Air** and **AirPods Pro**. Remote employees order their own and submit for reimbursement.
-*   **Replacements & Upgrades:** You are eligible for a hardware refresh every **2 years**. The **Apple Trade-In** process is required for all replacements.
-*   **Reimbursement:** For replacements, the reimbursed amount is the **net cost** (new device price minus the Apple trade-in credit).
-*   **Mandatory Security:** All devices used for work (computers and mobile) **MUST** have **Rippling MDM** installed before use.
+- **New Equipment:** Standard issue for new hires is a **MacBook Air** and **AirPods Pro**. Remote employees order their own and submit for reimbursement.
+- **Replacements & Upgrades:** You are eligible for a hardware refresh every **2 years**. The **Apple Trade-In** process is required for all replacements.
+- **Reimbursement:** For replacements, the reimbursed amount is the **net cost** (new device price minus the Apple trade-in credit).
+- **Mandatory Security:** All devices used for work (computers and mobile) **MUST** have **Rippling MDM** installed before use.
 
 ---
 
