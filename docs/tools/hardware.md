@@ -66,7 +66,8 @@ This process applies when replacing an existing device with a new one.
 6.  **Submit for Reimbursement:** The reimbursed amount will be the **net cost (new device price - Apple trade-in credit)**. You will not be reimbursed for the full price of the new device.
 
 !!! warning "Approval and Reimbursement Requirements"
-Your manager and the Finance team must see the **full order details** before approval. This includes both the new device price and the estimated trade-in credit for the old device.
+
+    Your manager and the Finance team must see the **full order details** before approval. This includes both the new device price and the estimated trade-in credit for the old device.
 
 ## 6. Mobile Device Policy 📱
 
@@ -105,7 +106,8 @@ All devices must adhere to company security requirements, which are enforced via
 *   **Remote Management:** The IT department has the ability to remotely lock or wipe company data from devices to protect information if a device is lost or stolen.
 
 !!! warning "Strict Compliance Enforcement"
-Devices that do not have Rippling MDM installed and configured correctly are not permitted for work use and will be blocked from accessing company resources.
+
+    Devices that do not have Rippling MDM installed and configured correctly are not permitted for work use and will be blocked from accessing company resources.
 
 ## 8. Bring Your Own Device (BYOD) Policy 🤝
 
