@@ -12,36 +12,44 @@ keywords: Ultralytics hardware policy, computer equipment, MacBook Air, MacBook 
 ## Standard Computer Equipment 🖥️
 
 ### Default Configuration
+
 **[MacBook Air (13", M4, 16GB RAM, 256GB Storage)](https://www.apple.com/macbook-air/)** - Standard for all employees
 
 ### Technical/Developer Configuration
+
 **[MacBook Pro (14", M4, 16GB RAM, 512GB Storage)](https://www.apple.com/macbook-pro/)** - Available for technical and developer employees
 
 !!! warning "Weight Consideration"
-    MacBook Pros are heavier than MacBook Airs and may not be suitable for employees who travel frequently.
+MacBook Pros are heavier than MacBook Airs and may not be suitable for employees who travel frequently.
 
 !!! warning "Keyboard Language"
-    Ensure you order the correct keyboard layout for your language when requesting equipment.
+Ensure you order the correct keyboard layout for your language when requesting equipment.
 
 ### Custom Configurations
+
 Any hardware other than the two standard configurations requires **direct manager approval**.
 
 ## New Hire Equipment Process 📦
 
 ### Onsite Employees
+
 - Receive computer equipment directly at office location
 - Equipment provided by company upon arrival
 
 ### Remote Employees
+
 - Must order approved equipment independently
 - Request reimbursement from Finance team with receipts
 - Follow standard [reimbursement procedures](../finance/index.md#reimbursements)
 
 ### Standard Accessories
+
 All new hires receive **[AirPods Pro](https://www.apple.com/airpods-pro/)** for video conferencing and communication needs.
 
 ### Device Setup Requirements
+
 All new employees must:
+
 - Install **Rippling MDM** on their device before using it for work
 - Ensure all security and compliance policies are in place
 - Complete device setup according to IT security requirements
@@ -58,20 +66,23 @@ All new employees must:
 6. **Reimbursement** - Amount will be **(new device price - Apple reimbursement for old device)**, NOT full device price
 
 !!! warning "Approval Requirements"
-    Manager/Finance approval must see the **full potential order** before approving, including both the new device price and the old device reimbursement amount from Apple.
+Manager/Finance approval must see the **full potential order** before approving, including both the new device price and the old device reimbursement amount from Apple.
 
 ### Refresh Cycle Guidelines
+
 - **2-year refresh cycle** - automatic approval for replacements
 - **Outside refresh window** - requires direct manager approval for replacements
 
 ## Mobile Device Policy 📱
 
 ### Eligibility
+
 - [iPads](https://www.apple.com/ipad/), [iPhones](https://www.apple.com/iphone/), and Android devices require **manager approval**
 - Not automatically provided to employees
 - Must demonstrate business necessity
 
 ### Approval Process
+
 1. Submit request to direct manager with business justification
 2. Manager approval required before purchase
 3. Employee purchases approved device
@@ -80,6 +91,7 @@ All new employees must:
 ## Device Management & Security 🔒
 
 ### Rippling MDM Requirement
+
 **All company devices must have Rippling MDM (Mobile Device Management) installed:**
 
 - **Computers** - MacBook Air and MacBook Pro devices
@@ -88,6 +100,7 @@ All new employees must:
 - **Mandatory Installation** - Required before device can be used for work purposes
 
 ### Security & Compliance Policies
+
 **All devices must comply with company security requirements:**
 
 - **Password Requirements** - Strong password policies enforced via MDM
@@ -97,19 +110,23 @@ All new employees must:
 - **Remote Management** - IT support can remotely manage and secure devices
 
 !!! warning "Compliance Requirement"
-    Devices without Rippling MDM installation and proper security policies will not be permitted for work use.
+Devices without Rippling MDM installation and proper security policies will not be permitted for work use.
 
 ## Care and Maintenance 🛠️
 
 ### Employee Responsibility
+
 Employees must:
+
 - Use equipment responsibly and professionally
 - Keep devices clean and protected
 - Install security updates promptly
 - Report issues immediately to IT support
 
 ### Reporting Damage or Loss
+
 **Immediate reporting required for:**
+
 - Physical damage to equipment
 - Lost or stolen devices
 - Malfunctioning hardware
