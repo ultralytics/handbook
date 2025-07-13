@@ -15,6 +15,7 @@ repo_name: ultralytics/handbook
 remote_name: https://github.com/ultralytics/handbook
 docs_dir: "docs/" # where to find the markdown files
 site_dir: "site/" # where to publish to
+use_directory_urls: true # don't display 'index.html' in slugs
 
 # Theme customization
 theme:
@@ -52,9 +53,6 @@ theme:
     - content.code.annotate
     - content.code.copy
     - content.tooltips
-    - search.highlight
-    - search.share
-    - search.suggest
     - toc.follow
     - navigation.top
     - navigation.tabs
@@ -67,6 +65,9 @@ theme:
     - navigation.indexes
     - navigation.sections # navigation.expand or navigation.sections
     - content.tabs.link # all code tabs change simultaneously
+    # - search.highlight
+    # - search.share
+    # - search.suggest
 
 # Customization
 copyright: <a href="https://www.ultralytics.com/" target="_blank">© 2025 Ultralytics Inc.</a> All rights reserved.
@@ -96,11 +97,23 @@ extra: # version:
       link: https://reddit.com/r/ultralytics
     - icon: fontawesome/brands/weixin
       link: https://weixin.qq.com/r/mp/LxckPDfEgWr_rXNf90I9
+  alternate:
+    - name: 🇬🇧 English
+      link: /
+      lang: en
+    - name: 🇨🇳 简体中文
+      link: /zh/
+      lang: zh
+    - name: 🇪🇸 Español
+      link: /es/
+      lang: es
 
 extra_css:
   - stylesheets/style.css
+
 extra_javascript:
   - javascript/extra.js
+  - javascript/giscus.js
 
 markdown_extensions:
   - admonition
@@ -138,6 +151,10 @@ validation:
     unrecognized_links: warn
 
 # Primary navigation ---------------------------------------------------------------------------------------------------
+not_in_nav: |
+  /compare
+  /macros
+
 nav:
   - Home:
       - Home: index.md
@@ -209,3 +226,4 @@ plugins:
       add_share_buttons: True
       add_css: False
       default_image: https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png
+      default_author: glenn.jocher@ultralytics.com
