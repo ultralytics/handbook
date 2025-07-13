@@ -21,11 +21,13 @@ keywords: Ultralytics hardware policy, computer equipment, MacBook Air, MacBook 
 
 **[MacBook Pro (14", M4, 16GB RAM, 512GB Storage)](https://www.apple.com/macbook-pro/)** - Available for technical and developer employees
 
-!!! warning "Weight Consideration"
-MacBook Pros are heavier than MacBook Airs and may not be suitable for employees who travel frequently.
+!!! note "Weight Consideration"
+
+    MacBook Pros are heavier than MacBook Airs and may not be suitable for employees who travel frequently.
 
 !!! warning "Keyboard Language"
-Ensure you order the correct keyboard layout for your language when requesting equipment.
+
+    Ensure you order the correct keyboard layout for your language when requesting equipment.
 
 ### Custom Configurations
 
