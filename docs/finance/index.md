@@ -15,7 +15,7 @@ Ultralytics is committed to transparent financial practices that empower our emp
 
 Employees are expected to manage expenses responsibly and ethically, ensuring all expenditures are business-critical and compliant with company policy.
 
-### Hardware Equipment 🖥️
+### Hardware Policy 🖥️
 
 All hardware equipment requests and procedures are covered under the comprehensive [Hardware Policy](../tools/hardware.md). This includes computer equipment, mobile devices, refresh cycles, and approval processes for all employees.
 
