@@ -41,14 +41,14 @@ Any hardware configuration other than the two standards listed above is consider
 
 ### Onsite Employees
 
-*   Your manager will coordinate with the IT department to have your equipment ready for you.
-*   You will receive your computer and accessories directly at your office location on your first day.
+- Your manager will coordinate with the IT department to have your equipment ready for you.
+- You will receive your computer and accessories directly at your office location on your first day.
 
 ### Remote Employees
 
-*   You must independently order your approved equipment configuration.
-*   Submit receipts to the Finance team for reimbursement by following the standard [reimbursement procedures](../finance/index.md#reimbursements).
-*   It is highly recommended to confirm the purchase details with your manager before ordering to ensure a smooth reimbursement process.
+- You must independently order your approved equipment configuration.
+- Submit receipts to the Finance team for reimbursement by following the standard [reimbursement procedures](../finance/index.md#reimbursements).
+- It is highly recommended to confirm the purchase details with your manager before ordering to ensure a smooth reimbursement process.
 
 ### Standard Accessories
 
@@ -73,11 +73,11 @@ This process applies when replacing an existing device with a new one.
 
 ### Eligibility and Justification
 
-*   Company-provided mobile devices like [iPads](https://www.apple.com/ipad/), [iPhones](https://www.apple.com/iphone/), or Android devices are not standard issue and require **manager approval**.
-*   You must demonstrate a clear business necessity for the device. Examples include:
-    *   Frequent travel requiring constant access to work apps and email.
-    *   On-call duties that necessitate immediate response capabilities.
-    *   Roles that require testing on specific mobile platforms.
+- Company-provided mobile devices like [iPads](https://www.apple.com/ipad/), [iPhones](https://www.apple.com/iphone/), or Android devices are not standard issue and require **manager approval**.
+- You must demonstrate a clear business necessity for the device. Examples include:
+    - Frequent travel requiring constant access to work apps and email.
+    - On-call duties that necessitate immediate response capabilities.
+    - Roles that require testing on specific mobile platforms.
 
 ### Approval and Purchase Process
 
@@ -91,19 +91,19 @@ This process applies when replacing an existing device with a new one.
 
 **All devices used for work, whether company-provided or personally owned (under BYOD), must have Rippling Mobile Device Management (MDM) installed.**
 
-*   **Applies To:** MacBook Air/Pro, iPads, iPhones, and Android devices.
-*   **Installation:** Employees are responsible for installing Rippling MDM from **[rippling.com/device-management](https://www.rippling.com/device-management)**.
-*   **Timing:** MDM must be installed **before** the device is used to access any company data or systems.
+- **Applies To:** MacBook Air/Pro, iPads, iPhones, and Android devices.
+- **Installation:** Employees are responsible for installing Rippling MDM from **[rippling.com/device-management](https://www.rippling.com/device-management)**.
+- **Timing:** MDM must be installed **before** the device is used to access any company data or systems.
 
 ### Security & Compliance Policies
 
 All devices must adhere to company security requirements, which are enforced via Rippling MDM:
 
-*   **Hard Drive Encryption:** Full disk encryption (e.g., FileVault) must be enabled.
-*   **Strong Passwords:** Devices must be protected with a strong password.
-*   **Automatic Updates:** Security updates must be enabled to run automatically.
-*   **Compliance Monitoring:** Devices are subject to regular compliance checks.
-*   **Remote Management:** The IT department has the ability to remotely lock or wipe company data from devices to protect information if a device is lost or stolen.
+- **Hard Drive Encryption:** Full disk encryption (e.g., FileVault) must be enabled.
+- **Strong Passwords:** Devices must be protected with a strong password.
+- **Automatic Updates:** Security updates must be enabled to run automatically.
+- **Compliance Monitoring:** Devices are subject to regular compliance checks.
+- **Remote Management:** The IT department has the ability to remotely lock or wipe company data from devices to protect information if a device is lost or stolen.
 
 !!! warning "Strict Compliance Enforcement"
 
@@ -113,27 +113,27 @@ All devices must adhere to company security requirements, which are enforced via
 
 While company-provided hardware is the standard, Ultralytics permits the use of personal devices for work in limited, pre-approved circumstances.
 
-*   **Approval Required:** Using a personal device for work requires explicit approval from your manager and the IT department.
-*   **MDM is Mandatory:** Any approved personal device **must** be enrolled in Rippling MDM. This allows the company to manage and secure its data without accessing your personal information.
-*   **Employee Responsibility:** You remain responsible for the care and maintenance of your own device.
+- **Approval Required:** Using a personal device for work requires explicit approval from your manager and the IT department.
+- **MDM is Mandatory:** Any approved personal device **must** be enrolled in Rippling MDM. This allows the company to manage and secure its data without accessing your personal information.
+- **Employee Responsibility:** You remain responsible for the care and maintenance of your own device.
 
 ## 9. Care, Maintenance, and Support 🛠️
 
 ### Employee Responsibility
 
-*   Use all company equipment professionally and responsibly.
-*   Keep devices physically protected and clean.
-*   Do not attempt to perform unauthorized repairs; contact IT support for all hardware issues.
-*   Install all required security updates promptly.
+- Use all company equipment professionally and responsibly.
+- Keep devices physically protected and clean.
+- Do not attempt to perform unauthorized repairs; contact IT support for all hardware issues.
+- Install all required security updates promptly.
 
 ### Reporting Damage or Loss
 
 **You must immediately report any of the following to IT Support at [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com):**
 
-*   Physical damage to equipment.
-*   A lost or stolen device.
-*   Any hardware malfunction.
-*   Suspected security incidents or viruses.
+- Physical damage to equipment.
+- A lost or stolen device.
+- Any hardware malfunction.
+- Suspected security incidents or viruses.
 
 ## 10. Hardware Ownership and Return 📋
 
@@ -145,17 +145,17 @@ All hardware purchased or reimbursed by Ultralytics is the property of the compa
 
 All company property must be returned upon your departure.
 
-*   **Onsite Employees:** Coordinate with your manager and the IT department to return all equipment on your last day.
-*   **Remote Employees:** The IT department will provide you with pre-paid shipping labels and instructions to return all equipment.
+- **Onsite Employees:** Coordinate with your manager and the IT department to return all equipment on your last day.
+- **Remote Employees:** The IT department will provide you with pre-paid shipping labels and instructions to return all equipment.
 
 ## 11. Reimbursement Process 💰
 
 All hardware purchases must follow the standard company reimbursement procedures.
 
-*   Submit all receipts to the Finance team via the appropriate channels.
-*   Include a clear description of the business purpose for the purchase.
-*   For detailed procedures, please reference the [Finance Handbook](../finance/index.md).
+- Submit all receipts to the Finance team via the appropriate channels.
+- Include a clear description of the business purpose for the purchase.
+- For detailed procedures, please reference the [Finance Handbook](../finance/index.md).
 
 ---
 
-*This policy ensures consistent, secure, and cost-effective hardware provisioning, empowering our global team to achieve its best work. 🚀*
+_This policy ensures consistent, secure, and cost-effective hardware provisioning, empowering our global team to achieve its best work. 🚀_
