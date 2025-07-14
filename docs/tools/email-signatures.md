@@ -5,11 +5,11 @@ keywords: Ultralytics email signatures, Google Workspace automation, Gmail signa
 
 # Email Signatures 📧
 
-
-
 ## 1. Official Signature Template
 
 All Ultralytics email signatures are automatically generated and updated using our Google Workspace automation. Here is the standard format:
+
+<img width="1920" alt="Ultralytics Email Screenshot" src="https://github.com/user-attachments/assets/28ffbab3-a8d3-4d95-8cc8-9768c92b1e4d" />
 
 ### Example
 
@@ -45,6 +45,8 @@ The signature automation performs the following actions:
 **ACTION REQUIRED:** Please check your Gmail Settings > General > Signature to ensure "My signature" is selected for both:
 *   FOR NEW EMAILS USE
 *   ON REPLY/FORWARD USE
+
+<img width="1920" alt="Ultralytics email signature setup" src="https://github.com/user-attachments/assets/bc169529-d39f-42fd-9450-72a085eb887d" />
 
 If you do not see your signature, please reload the Gmail tab in your browser.
 
