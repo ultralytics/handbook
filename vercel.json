@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "requirements.txt",
+      "use": "@vercel/python"
+    }
+  ],
+  "buildCommand": "mkdocs build",
+  "outputDirectory": "site",
+  "trailingSlash": true
+}
