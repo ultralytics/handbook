@@ -9,7 +9,7 @@ keywords: Ultralytics email signatures, Google Workspace automation, Gmail signa
 
 All Ultralytics email signatures are automatically generated and updated using our Google Workspace automation. Here is the standard format:
 
-<img width="1920" alt="Ultralytics Email Screenshot" src="https://github.com/user-attachments/assets/28ffbab3-a8d3-4d95-8cc8-9768c92b1e4d" />
+<img width="1920" alt="Ultralytics Email Signature" src="https://github.com/user-attachments/assets/c8add3bf-a06d-436c-99c8-0e605a9aa612" />
 
 ### Example
 
@@ -100,7 +100,7 @@ The signature automation performs the following actions:
 - FOR NEW EMAILS USE
 - ON REPLY/FORWARD USE
 
-<img width="1920" alt="Ultralytics email signature setup" src="https://github.com/user-attachments/assets/bc169529-d39f-42fd-9450-72a085eb887d" />
+<img width="1920" alt="Ultralytics Gmail Settings" src="https://github.com/user-attachments/assets/a4bee95f-793c-4cde-ae7b-526e7ebe0577" />
 
 !!! tip
 
