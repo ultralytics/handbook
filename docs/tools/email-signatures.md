@@ -62,13 +62,17 @@ The signature automation performs the following actions:
 
 <img width="1920" alt="Ultralytics email signature setup" src="https://github.com/user-attachments/assets/bc169529-d39f-42fd-9450-72a085eb887d" />
 
-If you do not see your signature, please reload the Gmail tab in your browser.
+!!! tip
+
+    If you do not see your signature, please reload the Gmail tab in your browser.
 
 ## 4. Legal Disclaimers ⚖️
 
 The legal disclaimer `div` shown in the HTML example is automatically appended to signatures for employees in sensitive roles (e.g., leadership, legal, sales) to ensure confidentiality and compliance. For all other positions, this disclaimer is optional.
 
-**Disclaimer text:** "This email and any attachments are confidential and intended solely for the addressee. Copying, forwarding, or distributing is strictly prohibited. If received in error, please delete immediately and notify the sender."
+!!! quote "Disclaimer text"
+
+    This email and any attachments are confidential and intended solely for the addressee. Copying, forwarding, or distributing is strictly prohibited. If received in error, please delete immediately and notify the sender."
 
 ## 5. Technical Implementation 🔧
 
