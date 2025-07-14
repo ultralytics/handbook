@@ -53,7 +53,8 @@ The above Gmail implementation is also available directly in HTML for other emai
         </td>
         <td style="vertical-align: middle; line-height: 1.25; color: #666">
             <span style="font-weight: bold; font-size: 15px; color: #333"
-                >Glenn Jocher</span><br />
+                >Glenn Jocher</span
+            ><br />
             Founder & CEO, Ultralytics<br />
             +1 123 456 7890<br />
             <a
