@@ -22,6 +22,15 @@ This policy covers the complete lifecycle of your physical devices, from acquisi
 - **Replacements:** The required **Apple Trade-In** process for all upgrades.
 - **Device Security:** Mandatory **Rippling MDM** installation for all devices.
 
+### [Email Signatures](./email-signatures.md) 📧
+
+This guide explains how company email signatures are standardized and automated. It ensures all communications maintain a consistent, professional appearance.
+
+- **Automation:** Signatures are updated automatically via Google Workspace.
+- **Template:** The standard format for all employee signatures.
+- **Legal Disclaimers:** Information on auto-appended confidentiality notices.
+- **Setup:** Instructions to ensure your signature is enabled correctly in Gmail.
+
 ### [Software Policy](./software.md) 💾
 
 This policy governs the use of all applications and digital tools. It is designed to maximize productivity and collaboration while protecting the company from security and legal risks.
