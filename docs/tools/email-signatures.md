@@ -43,27 +43,36 @@ The standard signature will appear in your email client as shown below.
 For manual setup in other email clients, use the HTML code below.
 
 ```html
-<table style="border: none; margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 13px">
-  <tr>
-    <td style="vertical-align: middle">
-      <img
-        src="https://lh3.googleusercontent.com/a/ACg8ocL27P7pVeDI5jgSam8g64HCBR1C_C1mbkBUZJ0rANJLrAk89fIC=s96-c"
-        width="75"
-        height="75"
-        style="border-radius: 50%; margin-right: 10px; object-fit: cover; display: block"
-      />
-    </td>
-    <td style="vertical-align: middle; line-height: 1.25; color: #666">
-      <span style="font-weight: bold; font-size: 15px; color: #333">Glenn Jocher</span><br />
-      Founder & CEO, Ultralytics<br />
-      +1 123 456 7890<br />
-      <a href="https://www.ultralytics.com" style="text-decoration: none; color: #666">ultralytics.com</a>
-    </td>
-  </tr>
+<table
+    style="border: none; margin: 0; padding: 0; font-family: Arial, sans-serif; font-size: 13px"
+>
+    <tr>
+        <td style="vertical-align: middle">
+            <img
+                src="https://lh3.googleusercontent.com/a/ACg8ocL27P7pVeDI5jgSam8g64HCBR1C_C1mbkBUZJ0rANJLrAk89fIC=s96-c"
+                width="75"
+                height="75"
+                style="border-radius: 50%; margin-right: 10px; object-fit: cover; display: block"
+            />
+        </td>
+        <td style="vertical-align: middle; line-height: 1.25; color: #666">
+            <span style="font-weight: bold; font-size: 15px; color: #333"
+                >Glenn Jocher</span
+            ><br />
+            Founder & CEO, Ultralytics<br />
+            +1 123 456 7890<br />
+            <a
+                href="https://www.ultralytics.com"
+                style="text-decoration: none; color: #666"
+                >ultralytics.com</a
+            >
+        </td>
+    </tr>
 </table>
 <div style="font-size: 11px; color: #999; padding-top: 8px">
-  This email and any attachments are confidential and intended solely for the addressee. Copying, forwarding, or
-  distributing is strictly prohibited. If received in error, please delete immediately and notify the sender.
+    This email and any attachments are confidential and intended solely for the
+    addressee. Copying, forwarding, or distributing is strictly prohibited. If
+    received in error, please delete immediately and notify the sender.
 </div>
 ```
 
