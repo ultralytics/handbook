@@ -168,6 +168,7 @@ nav:
           - Overview: tools/index.md
           - Hardware: tools/hardware.md
           - Software: tools/software.md
+          - Email Signatures: tools/email-signatures.md
       - Team Roles:
           - Overview: team-roles/index.md
           - Specific Roles: team-roles/specific-roles.md
@@ -196,6 +197,7 @@ nav:
       - Overview: tools/index.md
       - Hardware: tools/hardware.md
       - Software: tools/software.md
+      - Email Signatures: tools/email-signatures.md
   - Team Roles:
       - Overview: team-roles/index.md
       - Specific Roles: team-roles/specific-roles.md
