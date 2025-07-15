@@ -1,0 +1,7 @@
+{
+  "name": "handbook",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "python -m pip install -r requirements.txt && mkdocs build"
+  }
+}
