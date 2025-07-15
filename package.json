@@ -1,0 +1,7 @@
+{
+  "name": "handbook",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "python3 -m mkdocs build"
+  }
+}
