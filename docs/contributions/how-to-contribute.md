@@ -35,6 +35,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Marius Keiser           | [Skillnoob](https://github.com/Skillnoob)                     |
 | Mohammed Yasin          | [Y-T-G](https://github.com/Y-T-G)                             |
 | Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar)             |
+| Mykola Boiko            | [mykolaxboiko](https://github.com/mykolaxboiko)               |
 | Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)             |
 | Nuvola Ladi             | [NLadi](https://github.com/NLadi)                             |
 | Pablo Karnbaum          | [pablokarnbaum](https://github.com/pablokarnbaum)             |
