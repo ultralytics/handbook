@@ -29,7 +29,7 @@ jobs:
           enable-cache: false
           
       - name: Install dependencies
-        run: uv pip install --system requirements.txt
+        run: uv pip install --system -r requirements.txt
 
       - name: Deploy to GitHub Pages
         run: |
