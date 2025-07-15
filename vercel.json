@@ -1,5 +1,6 @@
 {
   "buildCommand": "npm run build",
+  "installCommand": "apt-get update && apt-get install -y git && npm install",
   "outputDirectory": "site",
   "trailingSlash": true
 }
