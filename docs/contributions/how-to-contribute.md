@@ -38,6 +38,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Mykola Boiko            | [mykolaxboiko](https://github.com/mykolaxboiko)               |
 | Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)             |
 | Nuvola Ladi             | [NLadi](https://github.com/NLadi)                             |
+| Onuralp Sezer           | [onuralpszr](https://github.com/onuralpszr)                   |
 | Pablo Karnbaum          | [pablokarnbaum](https://github.com/pablokarnbaum)             |
 | Paula Derrenger         | [pderrenger](https://github.com/pderrenger)                   |
 | Prateek Bhatnagar       | [prateek-ultralytics](https://github.com/prateek-ultralytics) |
@@ -50,6 +51,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Nikoloz Gabunia         | [NikolozULT](https://github.com/NikolozULT)                   |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                       |
 | Lynne Swan              | [DubLynne](https://github.com/DubLynne)                       |
+| Shuai (Louis) LYU       | [ShuaiLYU](https://github.com/ShuaiLYU)                       |
 
 ## Contribution Guidelines
 
