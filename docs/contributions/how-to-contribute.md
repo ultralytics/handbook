@@ -50,6 +50,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Nikoloz Gabunia         | [NikolozULT](https://github.com/NikolozULT)                   |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                       |
 | Lynne Swan              | [DubLynne](https://github.com/DubLynne)                       |
+| Shuai (Louis) LYU       | [ShuaiLYU](https://github.com/ShuaiLYU)                       |
 
 ## Contribution Guidelines
 
