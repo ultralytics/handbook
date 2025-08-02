@@ -20,7 +20,7 @@ This policy applies to all employees of [Ultralytics](https://www.ultralytics.co
 Employees traveling for business will receive a daily per diem allowance based on their destination to cover meals, incidental expenses, and all ground transportation costs. Only airfare is reimbursable separately. The following rates apply for the full year of 2025 and will be updated on January 1st, 2026:
 
 | Country               | City          | Per-Diem Rate |
-| --------------------- | ------------- |---------------|
+| --------------------- | ------------- | ------------- |
 | **China 🇨🇳**          | Beijing       | $187.50       |
 |                       | Shanghai      | $267.50       |
 |                       | Shenzhen      | $186.00       |
