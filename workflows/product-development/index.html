@@ -6,28 +6,28 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="A guide to Ultralytics' mission, vision, values, and practices, providing key insights and resources for aligning with our goals." name="description"/>
+<meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." name="description"/>
 <meta content="Ultralytics" name="author"/>
-<link href="https://handbook.ultralytics.com/introduction.html" rel="canonical"/>
-<link href="index.html" rel="prev"/>
-<link href="mission-vision-values/index.html" rel="next"/>
+<link href="https://handbook.ultralytics.com/workflows/product-development/" rel="canonical"/>
+<link href="../development/" rel="prev"/>
+<link href="../ci-testing/" rel="next"/>
 <link href="https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/logo/favicon-yolo.png" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.6.16" name="generator"/>
-<title>Introduction - Ultralytics Handbook</title>
-<link href="assets/stylesheets/main.7e37652d.min.css" rel="stylesheet"/>
-<link href="assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<title>Product Development - Ultralytics Handbook</title>
+<link href="../../assets/stylesheets/main.7e37652d.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-<link href="stylesheets/style.css" rel="stylesheet"/>
-<script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<meta content="Intro" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/introduction.html" property="og:url"/><meta content="Intro" property="og:title"/><meta content="" property="og:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/introduction.html" property="twitter:url"/><meta content="Intro" property="twitter:title"/><meta content="" property="twitter:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Intro", "image": ["https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"], "datePublished": "2024-10-13 22:11:52 +0200", "dateModified": "2024-10-13 22:11:52 +0200", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": ""}</script></head>
+<link href="../../stylesheets/style.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<meta content="Product Dev" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics Handbook, coming soon, under construction, internal guide, mission, vision, values, workflows, open-source, AI guidelines" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/workflows/product-development" property="og:url"/><meta content="Product Dev" property="og:title"/><meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." property="og:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/workflows/product-development" property="twitter:url"/><meta content="Product Dev" property="twitter:title"/><meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." property="twitter:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Product Dev", "image": ["https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"], "datePublished": "2024-10-13 22:11:52 +0200", "dateModified": "2024-10-14 03:20:52 +0200", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Explore the Ultralytics Handbook\u2014a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource."}</script></head>
 <body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#introduction">
+<a class="md-skip" href="#product-development">
           Skip to content
         </a>
 </div>
@@ -61,7 +61,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Intro
+              Product Dev
             
           </span>
 </div>
@@ -122,8 +122,8 @@
 <nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
 <div class="md-grid">
 <ul class="md-tabs__list">
-<li class="md-tabs__item md-tabs__item--active">
-<a class="md-tabs__link" href="index.html">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../..">
           
   
   
@@ -134,7 +134,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="mission-vision-values/index.html">
+<a class="md-tabs__link" href="../../mission-vision-values/">
           
   
   
@@ -145,7 +145,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="finance/index.html">
+<a class="md-tabs__link" href="../../finance/">
           
   
   
@@ -156,7 +156,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="tools/index.html">
+<a class="md-tabs__link" href="../../tools/">
           
   
   
@@ -167,7 +167,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="team-roles/index.html">
+<a class="md-tabs__link" href="../../team-roles/">
           
   
   
@@ -177,8 +177,8 @@
 
         </a>
 </li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="workflows/development.html">
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../development/">
           
   
   
@@ -189,7 +189,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="contributions/how-to-contribute.html">
+<a class="md-tabs__link" href="../../contributions/how-to-contribute/">
           
   
   
@@ -200,7 +200,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="goals/company-goals.html">
+<a class="md-tabs__link" href="../../goals/company-goals/">
           
   
   
@@ -211,7 +211,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="faq/index.html">
+<a class="md-tabs__link" href="../../faq/">
           
   
   
@@ -222,7 +222,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="legal/licenses.html">
+<a class="md-tabs__link" href="../../legal/licenses/">
           
   
   
@@ -260,37 +260,86 @@
 </a>
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="index.html">
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../..">
 <span class="md-ellipsis">
     Home
     
   </span>
+<span class="md-nav__icon md-icon"></span>
 </a>
-<label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="true" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_1">
-<span class="md-nav__icon md-icon"></span>
-            Home
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../mission-vision-values/">
 <span class="md-ellipsis">
-    Intro
+    Mission &amp; Values
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../finance/">
+<span class="md-ellipsis">
+    Finance
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../tools/">
+<span class="md-ellipsis">
+    Tools
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../team-roles/">
+<span class="md-ellipsis">
+    Team Roles
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+<span class="md-ellipsis">
+    Workflows
     
   </span>
 <span class="md-nav__icon md-icon"></span>
 </label>
-<a class="md-nav__link md-nav__link--active" href="introduction.html">
+<nav aria-expanded="true" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            Workflows
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../development/">
 <span class="md-ellipsis">
-    Intro
+    Development
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Product Dev
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    Product Dev
     
   </span>
 </a>
@@ -301,205 +350,45 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#about-ultralytics">
+<a class="md-nav__link" href="#handbook-under-construction">
 <span class="md-ellipsis">
-      About Ultralytics
+      Handbook Under Construction 🏗️📖
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#purpose-of-the-handbook">
+<a class="md-nav__link" href="#what-to-expect-from-the-handbook">
 <span class="md-ellipsis">
-      Purpose of the Handbook
+      What to Expect from the Handbook 📘
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#who-is-this-handbook-for">
+<a class="md-nav__link" href="#stay-informed">
 <span class="md-ellipsis">
-      Who is this Handbook For?
+      Stay Informed 🚧
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#how-to-use-the-handbook">
+<a class="md-nav__link" href="#be-a-part-of-the-handbook">
 <span class="md-ellipsis">
-      How to Use the Handbook
-    </span>
-</a>
-<nav aria-label="How to Use the Handbook" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#key-sections">
-<span class="md-ellipsis">
-      Key Sections
+      Be a Part of the Handbook 🗣️
     </span>
 </a>
 </li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_1_3" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="mission-vision-values/index.html">
-<span class="md-ellipsis">
-    Mission &amp; Values
-    
-  </span>
-</a>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_1_3_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_1_3">
-<span class="md-nav__icon md-icon"></span>
-            Mission &amp; Values
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_1_4" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="finance/index.html">
-<span class="md-ellipsis">
-    Finance
-    
-  </span>
-</a>
-<label class="md-nav__link" for="__nav_1_4" id="__nav_1_4_label" tabindex="">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_1_4_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_1_4">
-<span class="md-nav__icon md-icon"></span>
-            Finance
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="finance/travel.html">
+<a class="md-nav__link" href="#thank-you-to-our-community">
 <span class="md-ellipsis">
-    Travel
-    
-  </span>
+      Thank You to Our Community 🌍
+    </span>
 </a>
 </li>
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_1_5" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="tools/index.html">
-<span class="md-ellipsis">
-    Tools
-    
-  </span>
-</a>
-<label class="md-nav__link" for="__nav_1_5" id="__nav_1_5_label" tabindex="">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_1_5_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_1_5">
-<span class="md-nav__icon md-icon"></span>
-            Tools
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="tools/hardware.html">
-<span class="md-ellipsis">
-    Hardware
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="tools/software.html">
-<span class="md-ellipsis">
-    Software
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="tools/email-signatures.html">
-<span class="md-ellipsis">
-    Email Signatures
-    
-  </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_1_6" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="team-roles/index.html">
-<span class="md-ellipsis">
-    Team Roles
-    
-  </span>
-</a>
-<label class="md-nav__link" for="__nav_1_6" id="__nav_1_6_label" tabindex="">
-<span class="md-nav__icon md-icon"></span>
-</label>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_1_6_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_1_6">
-<span class="md-nav__icon md-icon"></span>
-            Team Roles
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="team-roles/specific-roles.html">
-<span class="md-ellipsis">
-    Specific Roles
-    
-  </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_1_7" type="checkbox"/>
-<label class="md-nav__link" for="__nav_1_7" id="__nav_1_7_label" tabindex="">
-<span class="md-ellipsis">
-    Workflows
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_1_7_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_1_7">
-<span class="md-nav__icon md-icon"></span>
-            Workflows
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="workflows/development.html">
-<span class="md-ellipsis">
-    Development
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="workflows/product-development.html">
-<span class="md-ellipsis">
-    Product Dev
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="workflows/ci-testing.html">
+<a class="md-nav__link" href="../ci-testing/">
 <span class="md-ellipsis">
     CI/Testing
     
@@ -507,7 +396,7 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="workflows/documentation.html">
+<a class="md-nav__link" href="../documentation/">
 <span class="md-ellipsis">
     Documentation
     
@@ -517,177 +406,8 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_1_8" type="checkbox"/>
-<label class="md-nav__link" for="__nav_1_8" id="__nav_1_8_label" tabindex="">
-<span class="md-ellipsis">
-    Community
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_1_8_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_1_8">
-<span class="md-nav__icon md-icon"></span>
-            Community
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="contributions/how-to-contribute.html">
-<span class="md-ellipsis">
-    How to Contribute
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="contributions/community-engagement.html">
-<span class="md-ellipsis">
-    Engagement
-    
-  </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_1_9" type="checkbox"/>
-<label class="md-nav__link" for="__nav_1_9" id="__nav_1_9_label" tabindex="">
-<span class="md-ellipsis">
-    Goals &amp; OKRs
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_1_9_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_1_9">
-<span class="md-nav__icon md-icon"></span>
-            Goals &amp; OKRs
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="goals/company-goals.html">
-<span class="md-ellipsis">
-    Company Goals
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="goals/okrs.html">
-<span class="md-ellipsis">
-    OKRs
-    
-  </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_1_10" type="checkbox"/>
-<div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="faq/index.html">
-<span class="md-ellipsis">
-    FAQ
-    
-  </span>
-</a>
-</div>
-<nav aria-expanded="false" aria-labelledby="__nav_1_10_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_1_10">
-<span class="md-nav__icon md-icon"></span>
-            FAQ
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_1_11" type="checkbox"/>
-<label class="md-nav__link" for="__nav_1_11" id="__nav_1_11_label" tabindex="">
-<span class="md-ellipsis">
-    Legal
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_1_11_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_1_11">
-<span class="md-nav__icon md-icon"></span>
-            Legal
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="legal/licenses.html">
-<span class="md-ellipsis">
-    Licenses
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="legal/privacy-policy.html">
-<span class="md-ellipsis">
-    Privacy Policy
-    
-  </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="mission-vision-values/index.html">
-<span class="md-ellipsis">
-    Mission &amp; Values
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="finance/index.html">
-<span class="md-ellipsis">
-    Finance
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="tools/index.html">
-<span class="md-ellipsis">
-    Tools
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="team-roles/index.html">
-<span class="md-ellipsis">
-    Team Roles
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="workflows/development.html">
-<span class="md-ellipsis">
-    Workflows
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="contributions/how-to-contribute.html">
+<a class="md-nav__link" href="../../contributions/how-to-contribute/">
 <span class="md-ellipsis">
     Community
     
@@ -696,7 +416,7 @@
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="goals/company-goals.html">
+<a class="md-nav__link" href="../../goals/company-goals/">
 <span class="md-ellipsis">
     Goals &amp; OKRs
     
@@ -705,7 +425,7 @@
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="faq/index.html">
+<a class="md-nav__link" href="../../faq/">
 <span class="md-ellipsis">
     FAQ
     
@@ -714,7 +434,7 @@
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="legal/licenses.html">
+<a class="md-nav__link" href="../../legal/licenses/">
 <span class="md-ellipsis">
     Legal
     
@@ -737,43 +457,39 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#about-ultralytics">
+<a class="md-nav__link" href="#handbook-under-construction">
 <span class="md-ellipsis">
-      About Ultralytics
+      Handbook Under Construction 🏗️📖
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#purpose-of-the-handbook">
+<a class="md-nav__link" href="#what-to-expect-from-the-handbook">
 <span class="md-ellipsis">
-      Purpose of the Handbook
+      What to Expect from the Handbook 📘
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#who-is-this-handbook-for">
+<a class="md-nav__link" href="#stay-informed">
 <span class="md-ellipsis">
-      Who is this Handbook For?
+      Stay Informed 🚧
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#how-to-use-the-handbook">
+<a class="md-nav__link" href="#be-a-part-of-the-handbook">
 <span class="md-ellipsis">
-      How to Use the Handbook
-    </span>
-</a>
-<nav aria-label="How to Use the Handbook" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#key-sections">
-<span class="md-ellipsis">
-      Key Sections
+      Be a Part of the Handbook 🗣️
     </span>
 </a>
 </li>
-</ul>
-</nav>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#thank-you-to-our-community">
+<span class="md-ellipsis">
+      Thank You to Our Community 🌍
+    </span>
+</a>
 </li>
 </ul>
 </nav>
@@ -782,38 +498,31 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/ultralytics/handbook/tree/main/docs/introduction.md" rel="edit" title="Edit this page">
+<a class="md-content__button md-icon" href="https://github.com/ultralytics/handbook/tree/main/docs/workflows/product-development.md" rel="edit" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
 </a><a class="md-content__button md-icon" href="javascript:void(0)" onclick="copyMarkdownForLLM(this); return false;" title="Copy page in Markdown format"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg></a>
-<h1 id="introduction">Introduction</h1>
-<p>Welcome to the Ultralytics Handbook! This handbook serves as a comprehensive guide to everything Ultralytics: our mission, vision, values, company guidelines, and workflows. Whether you’re a team member, contributor, or community member, this document is designed to align everyone with the principles and practices that drive our work.</p>
-<h2 id="about-ultralytics">About Ultralytics</h2>
-<p>Ultralytics is a world leader in artificial intelligence, committed to advancing the boundaries of AI and creating cutting-edge machine learning tools. Our work is focused on providing open-source solutions that empower individuals and organizations globally. By combining technical excellence with an unwavering commitment to our values, we aim to democratize AI and make it accessible to everyone, regardless of background or resources.</p>
-<h2 id="purpose-of-the-handbook">Purpose of the Handbook</h2>
-<p>This handbook was created to:</p>
+<h1 id="product-development">Product Development</h1>
+<h2 id="handbook-under-construction">Handbook Under Construction 🏗️📖</h2>
+<p>Welcome to the <a href="https://www.ultralytics.com/">Ultralytics</a> <a href="https://handbook.ultralytics.com/">Handbook</a> "Under Construction" page! We are diligently crafting a comprehensive guide that will serve as your go-to resource for understanding our mission, vision, values, workflows, and company practices. This page is a preview of the detailed documentation and guidelines soon to be available.</p>
+<h2 id="what-to-expect-from-the-handbook">What to Expect from the Handbook 📘</h2>
 <ul>
-<li>Provide clarity and consistency about how we work, collaborate, and contribute to our shared goals.</li>
-<li>Outline our core principles, mission, and vision, guiding every decision and action within the company.</li>
-<li>Offer practical guidance for team members, contributors, and collaborators on how to engage effectively with Ultralytics.</li>
+<li><strong>Mission and Values:</strong> Learn what drives Ultralytics forward and how we aim to make a lasting impact.</li>
+<li><strong>Operational Workflows:</strong> Discover how we work internally, including development processes, team collaboration, and continuous improvement.</li>
+<li><strong>Contribution Guidelines:</strong> Get involved! Detailed instructions on how to contribute to our projects and be part of the Ultralytics community.</li>
 </ul>
-<p>The handbook is designed to be a <strong>living document</strong> that will evolve with the company. It’s not just a set of rules but a reflection of our culture and how we collectively strive to make an impact through AI.</p>
-<h2 id="who-is-this-handbook-for">Who is this Handbook For?</h2>
-<p>This handbook is for:</p>
+<h2 id="stay-informed">Stay Informed 🚧</h2>
+<p>This placeholder page is just the start. Soon, you’ll have access to:</p>
 <ul>
-<li><strong>Ultralytics team members</strong>: To understand internal processes, workflows, and company culture.</li>
-<li><strong>Contributors and collaborators</strong>: To guide their contributions and participation in open-source projects.</li>
-<li><strong>The wider Ultralytics community</strong>: To align with our mission and values while interacting with Ultralytics projects and platforms.</li>
+<li><strong>Internal Workflows:</strong> Best practices for development, testing, and open-source contributions.</li>
+<li><strong>Team Roles:</strong> Detailed roles and responsibilities for team members and contributors.</li>
+<li><strong>Collaboration Guidelines:</strong> Clear guidance for collaborating on projects and contributing effectively.</li>
 </ul>
-<h2 id="how-to-use-the-handbook">How to Use the Handbook</h2>
-<p>The Ultralytics Handbook is divided into clear sections that cover everything from company philosophy to specific workflows. The <strong>Table of Contents</strong> on the home page provides a simple way to navigate through the different topics. Whether you're new to Ultralytics or looking to deepen your understanding of our practices, this handbook is here to help.</p>
-<h3 id="key-sections">Key Sections</h3>
-<ul>
-<li><strong>Mission, Vision, and Values</strong>: Understand the foundational principles that guide everything we do.</li>
-<li><strong>Workflows and Processes</strong>: Learn about the operational side of Ultralytics, including development and collaboration processes.</li>
-<li><strong>Contributions and Community</strong>: Discover how to contribute to our open-source projects and engage with the broader Ultralytics community.</li>
-</ul>
+<h2 id="be-a-part-of-the-handbook">Be a Part of the Handbook 🗣️</h2>
+<p>We value your input as we develop this resource. If you have suggestions or feedback, share your thoughts <a href="https://www.ultralytics.com/survey">here</a>.</p>
+<h2 id="thank-you-to-our-community">Thank You to Our Community 🌍</h2>
+<p>Your <a href="https://docs.ultralytics.com/help/contributing/">contributions</a> and feedback drive us to keep improving and refining the way we work at Ultralytics. Stay tuned as we roll out the complete handbook to help you engage, contribute, and align with our mission and values.</p>
 <hr/>
-<p>Thank you for being part of Ultralytics! Whether you're a new team member, an open-source contributor, or simply someone interested in AI, we hope this handbook provides you with the information and inspiration to contribute meaningfully to our shared goals.</p>
+<p>Excited for the Ultralytics Handbook? Bookmark this page and be the first to explore our internal processes and principles as we continue to build and share our journey with you! 📖✨</p>
 <!-- Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license -->
 <br/><br/>
 <div class="git-info">
@@ -821,19 +530,19 @@
 <span class="date-item" title="This page was first created on October 13, 2024">
 <span class="hover-item">📅</span> Created 9 months ago
     </span>
-<span class="date-item" title="This page was last updated on October 13, 2024">
+<span class="date-item" title="This page was last updated on October 14, 2024">
 <span class="hover-item">✏️</span> Updated 9 months ago
     </span>
 </div>
 <div class="authors-container">
-<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (1 change)">
+<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (2 changes)">
 <img alt="glenn-jocher" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/26833433?v=4&amp;s=96"/>
 </a>
 </div></div><div class="share-buttons">
-<button class="share-button hover-item" onclick="window.open('https://twitter.com/intent/tweet?url=https://handbook.ultralytics.com/introduction.html', 'TwitterShare', 'width=550,height=680,menubar=no,toolbar=no'); return false;">
+<button class="share-button hover-item" onclick="window.open('https://twitter.com/intent/tweet?url=https://handbook.ultralytics.com/workflows/product-development', 'TwitterShare', 'width=550,height=680,menubar=no,toolbar=no'); return false;">
 <i class="fa-brands fa-x-twitter"></i> Tweet
     </button>
-<button class="share-button hover-item linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?url=https://handbook.ultralytics.com/introduction.html', 'LinkedinShare', 'width=550,height=730,menubar=no,toolbar=no'); return false;">
+<button class="share-button hover-item linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?url=https://handbook.ultralytics.com/workflows/product-development', 'LinkedinShare', 'width=550,height=730,menubar=no,toolbar=no'); return false;">
 <i class="fa-brands fa-linkedin-in"></i> Share
     </button>
 </div>
@@ -850,7 +559,7 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: Home" class="md-footer__link md-footer__link--prev" href="index.html">
+<a aria-label="Previous: Development" class="md-footer__link md-footer__link--prev" href="../development/">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
 </div>
@@ -859,17 +568,17 @@
                 Previous
               </span>
 <div class="md-ellipsis">
-                Home
+                Development
               </div>
 </div>
 </a>
-<a aria-label="Next: Ultralytics Mission, Vision, &amp;amp; Values" class="md-footer__link md-footer__link--next" href="mission-vision-values/index.html">
+<a aria-label="Next: CI/Testing" class="md-footer__link md-footer__link--next" href="../ci-testing/">
 <div class="md-footer__title">
 <span class="md-footer__direction">
                 Next
               </span>
 <div class="md-ellipsis">
-                Ultralytics Mission, Vision, &amp; Values
+                CI/Testing
               </div>
 </div>
 <div class="md-footer__button md-icon">
@@ -927,10 +636,10 @@
 <div class="md-dialog__inner md-typeset"></div>
 </div>
 <div class="md-progress" data-md-component="progress" role="progressbar"></div>
-<script id="__config" type="application/json">{"base": ".", "features": ["content.action.edit", "content.code.annotate", "content.code.copy", "content.tooltips", "toc.follow", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.prune", "navigation.footer", "navigation.tracking", "navigation.instant", "navigation.instant.progress", "navigation.indexes", "navigation.sections", "content.tabs.link"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
-<script src="assets/javascripts/bundle.50899def.min.js"></script>
-<script src="javascript/extra.js"></script>
-<script src="javascript/giscus.js"></script>
+<script id="__config" type="application/json">{"base": "../..", "features": ["content.action.edit", "content.code.annotate", "content.code.copy", "content.tooltips", "toc.follow", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.prune", "navigation.footer", "navigation.tracking", "navigation.instant", "navigation.instant.progress", "navigation.indexes", "navigation.sections", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+<script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+<script src="../../javascript/extra.js"></script>
+<script src="../../javascript/giscus.js"></script>
 <script>
                     async function copyMarkdownForLLM(button) {
                         const editBtn = document.querySelector('a[title="Edit this page"]');

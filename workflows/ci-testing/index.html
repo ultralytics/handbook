@@ -6,28 +6,28 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Learn how to contribute to Ultralytics open-source projects and connect with our development team. Follow our guidelines to make meaningful contributions to our AI ecosystem." name="description"/>
+<meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." name="description"/>
 <meta content="Ultralytics" name="author"/>
-<link href="https://handbook.ultralytics.com/contributions/how-to-contribute.html" rel="canonical"/>
-<link href="../workflows/documentation.html" rel="prev"/>
-<link href="community-engagement.html" rel="next"/>
+<link href="https://handbook.ultralytics.com/workflows/ci-testing/" rel="canonical"/>
+<link href="../product-development/" rel="prev"/>
+<link href="../documentation/" rel="next"/>
 <link href="https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/logo/favicon-yolo.png" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.6.16" name="generator"/>
-<title>How to Contribute - Ultralytics Handbook</title>
-<link href="../assets/stylesheets/main.7e37652d.min.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<title>CI Testing - Ultralytics Handbook</title>
+<link href="../../assets/stylesheets/main.7e37652d.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-<link href="../stylesheets/style.css" rel="stylesheet"/>
-<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<meta content="How to Contribute" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics, open source, contribution guidelines, GitHub, development team, AI, machine learning, collaboration" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/contributions/how-to-contribute.html" property="og:url"/><meta content="How to Contribute" property="og:title"/><meta content="Learn how to contribute to Ultralytics open-source projects and connect with our development team. Follow our guidelines to make meaningful contributions to our AI ecosystem." property="og:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/contributions/how-to-contribute.html" property="twitter:url"/><meta content="How to Contribute" property="twitter:title"/><meta content="Learn how to contribute to Ultralytics open-source projects and connect with our development team. Follow our guidelines to make meaningful contributions to our AI ecosystem." property="twitter:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "How to Contribute", "image": ["https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"], "datePublished": "2024-10-13 22:11:52 +0200", "dateModified": "2025-08-01 19:50:49 +0800", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Learn how to contribute to Ultralytics open-source projects and connect with our development team. Follow our guidelines to make meaningful contributions to our AI ecosystem."}</script></head>
+<link href="../../stylesheets/style.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<meta content="CI/Testing" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics Handbook, coming soon, under construction, internal guide, mission, vision, values, workflows, open-source, AI guidelines" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/workflows/ci-testing" property="og:url"/><meta content="CI/Testing" property="og:title"/><meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." property="og:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/workflows/ci-testing" property="twitter:url"/><meta content="CI/Testing" property="twitter:title"/><meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." property="twitter:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "CI/Testing", "image": ["https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"], "datePublished": "2024-10-13 22:11:52 +0200", "dateModified": "2024-10-14 03:20:52 +0200", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Explore the Ultralytics Handbook\u2014a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource."}</script></head>
 <body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#how-to-contribute">
+<a class="md-skip" href="#ci-testing">
           Skip to content
         </a>
 </div>
@@ -61,7 +61,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              How to Contribute
+              CI/Testing
             
           </span>
 </div>
@@ -123,7 +123,7 @@
 <div class="md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../index.html">
+<a class="md-tabs__link" href="../..">
           
   
   
@@ -134,7 +134,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../mission-vision-values/index.html">
+<a class="md-tabs__link" href="../../mission-vision-values/">
           
   
   
@@ -145,7 +145,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../finance/index.html">
+<a class="md-tabs__link" href="../../finance/">
           
   
   
@@ -156,7 +156,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../tools/index.html">
+<a class="md-tabs__link" href="../../tools/">
           
   
   
@@ -167,7 +167,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../team-roles/index.html">
+<a class="md-tabs__link" href="../../team-roles/">
           
   
   
@@ -177,8 +177,8 @@
 
         </a>
 </li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../workflows/development.html">
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../development/">
           
   
   
@@ -188,8 +188,8 @@
 
         </a>
 </li>
-<li class="md-tabs__item md-tabs__item--active">
-<a class="md-tabs__link" href="how-to-contribute.html">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../contributions/how-to-contribute/">
           
   
   
@@ -200,7 +200,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../goals/company-goals.html">
+<a class="md-tabs__link" href="../../goals/company-goals/">
           
   
   
@@ -211,7 +211,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../faq/index.html">
+<a class="md-tabs__link" href="../../faq/">
           
   
   
@@ -222,7 +222,7 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../legal/licenses.html">
+<a class="md-tabs__link" href="../../legal/licenses/">
           
   
   
@@ -261,7 +261,7 @@
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../index.html">
+<a class="md-nav__link" href="../..">
 <span class="md-ellipsis">
     Home
     
@@ -270,7 +270,7 @@
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../mission-vision-values/index.html">
+<a class="md-nav__link" href="../../mission-vision-values/">
 <span class="md-ellipsis">
     Mission &amp; Values
     
@@ -279,7 +279,7 @@
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../finance/index.html">
+<a class="md-nav__link" href="../../finance/">
 <span class="md-ellipsis">
     Finance
     
@@ -288,7 +288,7 @@
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../tools/index.html">
+<a class="md-nav__link" href="../../tools/">
 <span class="md-ellipsis">
     Tools
     
@@ -297,7 +297,7 @@
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../team-roles/index.html">
+<a class="md-nav__link" href="../../team-roles/">
 <span class="md-ellipsis">
     Team Roles
     
@@ -305,42 +305,49 @@
 <span class="md-nav__icon md-icon"></span>
 </a>
 </li>
-<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../workflows/development.html">
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
 <span class="md-ellipsis">
     Workflows
     
   </span>
 <span class="md-nav__icon md-icon"></span>
-</a>
-</li>
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
-<label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
-<span class="md-ellipsis">
-    Community
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="true" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_7">
+<nav aria-expanded="true" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
 <span class="md-nav__icon md-icon"></span>
-            Community
+            Workflows
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../development/">
+<span class="md-ellipsis">
+    Development
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../product-development/">
+<span class="md-ellipsis">
+    Product Dev
+    
+  </span>
+</a>
+</li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
 <label class="md-nav__link md-nav__link--active" for="__toc">
 <span class="md-ellipsis">
-    How to Contribute
+    CI/Testing
     
   </span>
 <span class="md-nav__icon md-icon"></span>
 </label>
-<a class="md-nav__link md-nav__link--active" href="how-to-contribute.html">
+<a class="md-nav__link md-nav__link--active" href="./">
 <span class="md-ellipsis">
-    How to Contribute
+    CI/Testing
     
   </span>
 </a>
@@ -351,30 +358,37 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#our-development-team">
+<a class="md-nav__link" href="#handbook-under-construction">
 <span class="md-ellipsis">
-      Our Development Team
+      Handbook Under Construction 🏗️📖
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#contribution-guidelines">
+<a class="md-nav__link" href="#what-to-expect-from-the-handbook">
 <span class="md-ellipsis">
-      Contribution Guidelines
+      What to Expect from the Handbook 📘
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#get-involved">
+<a class="md-nav__link" href="#stay-informed">
 <span class="md-ellipsis">
-      Get Involved
+      Stay Informed 🚧
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#questions-and-support">
+<a class="md-nav__link" href="#be-a-part-of-the-handbook">
 <span class="md-ellipsis">
-      Questions and Support
+      Be a Part of the Handbook 🗣️
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#thank-you-to-our-community">
+<span class="md-ellipsis">
+      Thank You to Our Community 🌍
     </span>
 </a>
 </li>
@@ -382,9 +396,9 @@
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="community-engagement.html">
+<a class="md-nav__link" href="../documentation/">
 <span class="md-ellipsis">
-    Engagement
+    Documentation
     
   </span>
 </a>
@@ -393,7 +407,16 @@
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../goals/company-goals.html">
+<a class="md-nav__link" href="../../contributions/how-to-contribute/">
+<span class="md-ellipsis">
+    Community
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../goals/company-goals/">
 <span class="md-ellipsis">
     Goals &amp; OKRs
     
@@ -402,7 +425,7 @@
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../faq/index.html">
+<a class="md-nav__link" href="../../faq/">
 <span class="md-ellipsis">
     FAQ
     
@@ -411,7 +434,7 @@
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../legal/licenses.html">
+<a class="md-nav__link" href="../../legal/licenses/">
 <span class="md-ellipsis">
     Legal
     
@@ -434,30 +457,37 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#our-development-team">
+<a class="md-nav__link" href="#handbook-under-construction">
 <span class="md-ellipsis">
-      Our Development Team
+      Handbook Under Construction 🏗️📖
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#contribution-guidelines">
+<a class="md-nav__link" href="#what-to-expect-from-the-handbook">
 <span class="md-ellipsis">
-      Contribution Guidelines
+      What to Expect from the Handbook 📘
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#get-involved">
+<a class="md-nav__link" href="#stay-informed">
 <span class="md-ellipsis">
-      Get Involved
+      Stay Informed 🚧
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#questions-and-support">
+<a class="md-nav__link" href="#be-a-part-of-the-handbook">
 <span class="md-ellipsis">
-      Questions and Support
+      Be a Part of the Handbook 🗣️
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#thank-you-to-our-community">
+<span class="md-ellipsis">
+      Thank You to Our Community 🌍
     </span>
 </a>
 </li>
@@ -468,207 +498,31 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/ultralytics/handbook/tree/main/docs/contributions/how-to-contribute.md" rel="edit" title="Edit this page">
+<a class="md-content__button md-icon" href="https://github.com/ultralytics/handbook/tree/main/docs/workflows/ci-testing.md" rel="edit" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
 </a><a class="md-content__button md-icon" href="javascript:void(0)" onclick="copyMarkdownForLLM(this); return false;" title="Copy page in Markdown format"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg></a>
-<h1 id="how-to-contribute">How to Contribute</h1>
-<p>Welcome to the Ultralytics contribution guide! We're excited to have you join our community of developers and researchers working to advance AI technology. This guide will help you understand how to contribute effectively to our projects.</p>
-<h2 id="our-development-team">Our Development Team</h2>
-<p>Our open-source projects are maintained by a dedicated team of developers. Feel free to reach out to team members for guidance:</p>
-<table>
-<thead>
-<tr>
-<th>Employee Name</th>
-<th>GitHub Profile</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Abrish Sabri</td>
-<td><a href="https://github.com/asabri97">asabri97</a></td>
-</tr>
-<tr>
-<td>Abirami Vina</td>
-<td><a href="https://github.com/abirami-vina">abirami-vina</a></td>
-</tr>
-<tr>
-<td>Alexis Schutzger</td>
-<td><a href="https://github.com/picsalex">picsalex</a></td>
-</tr>
-<tr>
-<td>Amir Roshanaei</td>
-<td><a href="https://github.com/bitcodr">bitcodr</a></td>
-</tr>
-<tr>
-<td>Burhan Qaddoumi</td>
-<td><a href="https://github.com/Burhan-Q">Burhan-Q</a></td>
-</tr>
-<tr>
-<td>Fatih Akyon</td>
-<td><a href="https://github.com/fcakyon">fcakyon</a></td>
-</tr>
-<tr>
-<td>Francesco Mattioli</td>
-<td><a href="https://github.com/ambitious-octopus">ambitious-octopus</a></td>
-</tr>
-<tr>
-<td>Giovanni DZ</td>
-<td><a href="https://github.com/ggg-dz-ultralytics">ggg-dz-ultralytics</a></td>
-</tr>
-<tr>
-<td>Glenn Jocher</td>
-<td><a href="https://github.com/glenn-jocher">glenn-jocher</a></td>
-</tr>
-<tr>
-<td>Hannah Streif</td>
-<td><a href="https://github.com/HannahStreif">HannahStreif</a></td>
-</tr>
-<tr>
-<td>Jake Qian</td>
-<td><a href="https://github.com/fengqianjake">fengqianjake</a></td>
-</tr>
-<tr>
-<td>Jing Qiu</td>
-<td><a href="https://github.com/Laughing-q">Laughing-q</a></td>
-</tr>
-<tr>
-<td>Joey Tjon</td>
-<td><a href="https://github.com/NoCodeJoey">NoCodeJoey</a></td>
-</tr>
-<tr>
-<td>Jordan Cooper</td>
-<td><a href="https://github.com/JCoops1">JCoops1</a></td>
-</tr>
-<tr>
-<td>Kasim Acikbas</td>
-<td><a href="https://github.com/kayselmecnun">kayselmecnun</a></td>
-</tr>
-<tr>
-<td>Kirill Viarbitski</td>
-<td><a href="https://github.com/Kverbitski">Kverbitski</a></td>
-</tr>
-<tr>
-<td>Kiryl Oblikau</td>
-<td><a href="https://github.com/munknex">muknex</a></td>
-</tr>
-<tr>
-<td>Kristian Sommer</td>
-<td><a href="https://github.com/sokrisba">sokrisba</a></td>
-</tr>
-<tr>
-<td>Lakshantha Dissanayake</td>
-<td><a href="https://github.com/lakshanthad">lakshanthad</a></td>
-</tr>
-<tr>
-<td>Marius Keiser</td>
-<td><a href="https://github.com/Skillnoob">Skillnoob</a></td>
-</tr>
-<tr>
-<td>Mohammed Yasin</td>
-<td><a href="https://github.com/Y-T-G">Y-T-G</a></td>
-</tr>
-<tr>
-<td>Muhammad Rizwan Munawar</td>
-<td><a href="https://github.com/RizwanMunawar">RizwanMunawar</a></td>
-</tr>
-<tr>
-<td>Mykola Boiko</td>
-<td><a href="https://github.com/mykolaxboiko">mykolaxboiko</a></td>
-</tr>
-<tr>
-<td>Nicolai Nielsen</td>
-<td><a href="https://github.com/niconielsen32">niconielsen32</a></td>
-</tr>
-<tr>
-<td>Nuvola Ladi</td>
-<td><a href="https://github.com/NLadi">NLadi</a></td>
-</tr>
-<tr>
-<td>Onuralp Sezer</td>
-<td><a href="https://github.com/onuralpszr">onuralpszr</a></td>
-</tr>
-<tr>
-<td>Pablo Karnbaum</td>
-<td><a href="https://github.com/pablokarnbaum">pablokarnbaum</a></td>
-</tr>
-<tr>
-<td>Paula Derrenger</td>
-<td><a href="https://github.com/pderrenger">pderrenger</a></td>
-</tr>
-<tr>
-<td>Prateek Bhatnagar</td>
-<td><a href="https://github.com/prateek-ultralytics">prateek-ultralytics</a></td>
-</tr>
-<tr>
-<td>Rick</td>
-<td><a href="https://github.com/Bovey0809">Bovey0809</a></td>
-</tr>
-<tr>
-<td>Sergiu Waxmann</td>
-<td><a href="https://github.com/sergiuwaxmann">sergiuwaxmann</a></td>
-</tr>
-<tr>
-<td>Thomas Chuang</td>
-<td><a href="https://github.com/chuang091">chuang091</a></td>
-</tr>
-<tr>
-<td>William Beaven</td>
-<td><a href="https://github.com/william-beaven">william-beaven</a></td>
-</tr>
-<tr>
-<td>Yogendra Singh</td>
-<td><a href="https://github.com/yogendrasinghx">yogendrasinghx</a></td>
-</tr>
-<tr>
-<td>Tigran Hakobyan</td>
-<td><a href="https://github.com/tthakz">tthakz</a></td>
-</tr>
-<tr>
-<td>Nikoloz Gabunia</td>
-<td><a href="https://github.com/NikolozULT">NikolozULT</a></td>
-</tr>
-<tr>
-<td>Zinnia Pourdad</td>
-<td><a href="https://github.com/zinnialp">zinnialp</a></td>
-</tr>
-<tr>
-<td>Lynne Swan</td>
-<td><a href="https://github.com/DubLynne">DubLynne</a></td>
-</tr>
-<tr>
-<td>Shuai (Louis) LYU</td>
-<td><a href="https://github.com/ShuaiLYU">ShuaiLYU</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="contribution-guidelines">Contribution Guidelines</h2>
-<p>For detailed contribution guidelines, please visit our <a href="https://docs.ultralytics.com/help/contributing/">official documentation</a>. Here's a quick overview of the process:</p>
-<ol>
-<li>Fork the repository you want to contribute to</li>
-<li>Create a new branch for your feature or fix</li>
-<li>Follow our coding standards and documentation requirements</li>
-<li>Submit a pull request with a clear description of your changes</li>
-<li>Engage with reviewers and address any feedback</li>
-</ol>
-<h2 id="get-involved">Get Involved</h2>
-<p>There are many ways to contribute to Ultralytics:</p>
+<h1 id="ci-testing">CI Testing</h1>
+<h2 id="handbook-under-construction">Handbook Under Construction 🏗️📖</h2>
+<p>Welcome to the <a href="https://www.ultralytics.com/">Ultralytics</a> <a href="https://handbook.ultralytics.com/">Handbook</a> "Under Construction" page! We are diligently crafting a comprehensive guide that will serve as your go-to resource for understanding our mission, vision, values, workflows, and company practices. This page is a preview of the detailed documentation and guidelines soon to be available.</p>
+<h2 id="what-to-expect-from-the-handbook">What to Expect from the Handbook 📘</h2>
 <ul>
-<li>Code contributions via pull requests</li>
-<li>Documentation improvements</li>
-<li>Bug reports and feature requests</li>
-<li>Community support and discussions</li>
-<li>Testing and feedback on new features</li>
+<li><strong>Mission and Values:</strong> Learn what drives Ultralytics forward and how we aim to make a lasting impact.</li>
+<li><strong>Operational Workflows:</strong> Discover how we work internally, including development processes, team collaboration, and continuous improvement.</li>
+<li><strong>Contribution Guidelines:</strong> Get involved! Detailed instructions on how to contribute to our projects and be part of the Ultralytics community.</li>
 </ul>
-<p>We welcome contributions from developers of all experience levels. If you're new to open source, our team members are here to help guide you through your first contribution.</p>
-<h2 id="questions-and-support">Questions and Support</h2>
-<p>If you have questions about contributing, you can:</p>
+<h2 id="stay-informed">Stay Informed 🚧</h2>
+<p>This placeholder page is just the start. Soon, you’ll have access to:</p>
 <ul>
-<li>Open an issue on GitHub</li>
-<li>Join our community discussions</li>
-<li>Reach out to team members listed above</li>
-<li>Check our <a href="https://docs.ultralytics.com/">documentation</a> for guides and tutorials</li>
+<li><strong>Internal Workflows:</strong> Best practices for development, testing, and open-source contributions.</li>
+<li><strong>Team Roles:</strong> Detailed roles and responsibilities for team members and contributors.</li>
+<li><strong>Collaboration Guidelines:</strong> Clear guidance for collaborating on projects and contributing effectively.</li>
 </ul>
-<p>Thank you for your interest in contributing to Ultralytics! Together, we're building the future of AI technology.</p>
+<h2 id="be-a-part-of-the-handbook">Be a Part of the Handbook 🗣️</h2>
+<p>We value your input as we develop this resource. If you have suggestions or feedback, share your thoughts <a href="https://www.ultralytics.com/survey">here</a>.</p>
+<h2 id="thank-you-to-our-community">Thank You to Our Community 🌍</h2>
+<p>Your <a href="https://docs.ultralytics.com/help/contributing/">contributions</a> and feedback drive us to keep improving and refining the way we work at Ultralytics. Stay tuned as we roll out the complete handbook to help you engage, contribute, and align with our mission and values.</p>
+<hr/>
+<p>Excited for the Ultralytics Handbook? Bookmark this page and be the first to explore our internal processes and principles as we continue to build and share our journey with you! 📖✨</p>
 <!-- Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license -->
 <br/><br/>
 <div class="git-info">
@@ -676,58 +530,19 @@
 <span class="date-item" title="This page was first created on October 13, 2024">
 <span class="hover-item">📅</span> Created 9 months ago
     </span>
-<span class="date-item" title="This page was last updated on August 01, 2025">
-<span class="hover-item">✏️</span> Updated 0 days ago
+<span class="date-item" title="This page was last updated on October 14, 2024">
+<span class="hover-item">✏️</span> Updated 9 months ago
     </span>
 </div>
 <div class="authors-container">
-<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (6 changes)">
+<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (2 changes)">
 <img alt="glenn-jocher" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/26833433?v=4&amp;s=96"/>
 </a>
-<a class="author-link" href="https://github.com/RizwanMunawar" title="RizwanMunawar (3 changes)">
-<img alt="RizwanMunawar" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/62513924?v=4&amp;s=96"/>
-</a>
-<a class="author-link" href="https://github.com/pderrenger" title="pderrenger (2 changes)">
-<img alt="pderrenger" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/107626595?v=4&amp;s=96"/>
-</a>
-<a class="author-link" href="https://github.com/Bovey0809" title="Bovey0809 (1 change)">
-<img alt="Bovey0809" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/10627971?v=4&amp;s=96"/>
-</a>
-<a class="author-link" href="https://github.com/ShuaiLYU" title="ShuaiLYU (1 change)">
-<img alt="ShuaiLYU" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/31230805?v=4&amp;s=96"/>
-</a>
-<a class="author-link" href="https://github.com/onuralpszr" title="onuralpszr (1 change)">
-<img alt="onuralpszr" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/1688848?v=4&amp;s=96"/>
-</a>
-<a class="author-link" href="https://github.com/mykolaxboiko" title="mykolaxboiko (1 change)">
-<img alt="mykolaxboiko" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/220887649?v=4&amp;s=96"/>
-</a>
-<a class="author-link" href="https://github.com/prateek-ultralytics" title="prateek-ultralytics (1 change)">
-<img alt="prateek-ultralytics" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/218789871?v=4&amp;s=96"/>
-</a>
-<a class="author-link" href="https://github.com/zinnialp" title="zinnialp (1 change)">
-<img alt="zinnialp" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/210510978?v=4&amp;s=96"/>
-</a>
-<a class="author-link" href="https://github.com/NikolozULT" title="NikolozULT (1 change)">
-<img alt="NikolozULT" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/202614099?v=4&amp;s=96"/>
-</a>
-<a class="author-link" href="https://github.com/kayselmecnun" title="kayselmecnun (1 change)">
-<img alt="kayselmecnun" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/130417464?v=4&amp;s=96"/>
-</a>
-<a class="author-link" href="https://github.com/sokrisba" title="sokrisba (1 change)">
-<img alt="sokrisba" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/62523663?v=4&amp;s=96"/>
-</a>
-<a class="author-link" href="https://github.com/munknex" title="munknex (1 change)">
-<img alt="munknex" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/610872?v=4&amp;s=96"/>
-</a>
-<a class="author-link" href="https://github.com/tthakz" title="tthakz (1 change)">
-<img alt="tthakz" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/197762997?v=4&amp;s=96"/>
-</a>
 </div></div><div class="share-buttons">
-<button class="share-button hover-item" onclick="window.open('https://twitter.com/intent/tweet?url=https://handbook.ultralytics.com/contributions/how-to-contribute.html', 'TwitterShare', 'width=550,height=680,menubar=no,toolbar=no'); return false;">
+<button class="share-button hover-item" onclick="window.open('https://twitter.com/intent/tweet?url=https://handbook.ultralytics.com/workflows/ci-testing', 'TwitterShare', 'width=550,height=680,menubar=no,toolbar=no'); return false;">
 <i class="fa-brands fa-x-twitter"></i> Tweet
     </button>
-<button class="share-button hover-item linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?url=https://handbook.ultralytics.com/contributions/how-to-contribute.html', 'LinkedinShare', 'width=550,height=730,menubar=no,toolbar=no'); return false;">
+<button class="share-button hover-item linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?url=https://handbook.ultralytics.com/workflows/ci-testing', 'LinkedinShare', 'width=550,height=730,menubar=no,toolbar=no'); return false;">
 <i class="fa-brands fa-linkedin-in"></i> Share
     </button>
 </div>
@@ -744,7 +559,7 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: Documentation" class="md-footer__link md-footer__link--prev" href="../workflows/documentation.html">
+<a aria-label="Previous: Product Dev" class="md-footer__link md-footer__link--prev" href="../product-development/">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
 </div>
@@ -753,17 +568,17 @@
                 Previous
               </span>
 <div class="md-ellipsis">
-                Documentation
+                Product Dev
               </div>
 </div>
 </a>
-<a aria-label="Next: Engagement" class="md-footer__link md-footer__link--next" href="community-engagement.html">
+<a aria-label="Next: Documentation" class="md-footer__link md-footer__link--next" href="../documentation/">
 <div class="md-footer__title">
 <span class="md-footer__direction">
                 Next
               </span>
 <div class="md-ellipsis">
-                Engagement
+                Documentation
               </div>
 </div>
 <div class="md-footer__button md-icon">
@@ -821,10 +636,10 @@
 <div class="md-dialog__inner md-typeset"></div>
 </div>
 <div class="md-progress" data-md-component="progress" role="progressbar"></div>
-<script id="__config" type="application/json">{"base": "..", "features": ["content.action.edit", "content.code.annotate", "content.code.copy", "content.tooltips", "toc.follow", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.prune", "navigation.footer", "navigation.tracking", "navigation.instant", "navigation.instant.progress", "navigation.indexes", "navigation.sections", "content.tabs.link"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
-<script src="../assets/javascripts/bundle.50899def.min.js"></script>
-<script src="../javascript/extra.js"></script>
-<script src="../javascript/giscus.js"></script>
+<script id="__config" type="application/json">{"base": "../..", "features": ["content.action.edit", "content.code.annotate", "content.code.copy", "content.tooltips", "toc.follow", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.prune", "navigation.footer", "navigation.tracking", "navigation.instant", "navigation.instant.progress", "navigation.indexes", "navigation.sections", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+<script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+<script src="../../javascript/extra.js"></script>
+<script src="../../javascript/giscus.js"></script>
 <script>
                     async function copyMarkdownForLLM(button) {
                         const editBtn = document.querySelector('a[title="Edit this page"]');
