@@ -19,17 +19,35 @@ This policy applies to all employees of [Ultralytics](https://www.ultralytics.co
 
 Employees traveling for business will receive a daily per diem allowance based on their destination to cover meals, incidental expenses, and all ground transportation costs. Only airfare is reimbursable separately. The following rates apply for the full year of 2025 and will be updated on January 1st, 2026:
 
-| Travel Location 🌍 | Daily Per Diem Rate 💰 |
-| ------------------ | ---------------------- |
-| Madrid 🇪🇸          | $229.00 per day        |
-| London 🇬🇧          | $284.50 per day        |
-| Shenzhen 🇨🇳        | $186.00 per day        |
-| San Francisco 🇺🇸   | $364.00 per day        |
-| San Jose 🇺🇸        | $284.00 per day        |
-| Tokyo 🇯🇵           | $243.00 per day        |
-| Shanghai 🇨🇳        | $267.50 per day        |
-| Barcelona 🇪🇸       | $174.00 per day        |
-| Lisbon 🇵🇹          | $175.00 per day        |
+| Country/City | Daily Rate |
+| ------------ | ---------- |
+| **China 🇨🇳** | |
+| Beijing | $187.50 |
+| Shanghai | $267.50 |
+| Shenzhen | $186.00 |
+| **France 🇫🇷** | |
+| Paris | $330.00 |
+| **Hong Kong 🇭🇰** | |
+| Hong Kong | $267.50 |
+| **Japan 🇯🇵** | |
+| Tokyo | $243.00 |
+| **Netherlands 🇳🇱** | |
+| Amsterdam | $311.50 |
+| **Portugal 🇵🇹** | |
+| Lisbon | $189.00 |
+| **Singapore 🇸🇬** | |
+| Singapore | $227.00 |
+| **Spain 🇪🇸** | |
+| Barcelona | $213.00 |
+| Madrid | $229.00 |
+| Malaga | $205.00 |
+| **United Kingdom 🇬🇧** | |
+| London | $284.50 |
+| **United States 🇺🇸** | |
+| Denver | $153.50 |
+| New York | $164.50 |
+| San Francisco | $364.00 |
+| San Jose | $284.00 |
 
 ### Methodology 📚
 
