@@ -19,28 +19,28 @@ This policy applies to all employees of [Ultralytics](https://www.ultralytics.co
 
 Employees traveling for business will receive a daily per diem allowance based on their destination to cover meals, incidental expenses, and all ground transportation costs. Only airfare is reimbursable separately. The following rates apply for the full year of 2025 and will be updated on January 1st, 2026:
 
-| Country               | City          | 50 % Per-Diem Rate |
-| --------------------- | ------------- | ------------------ |
+| Country                 | City          | 50 % Per-Diem Rate |
+|-------------------------| ------------- | ------------------ |
 | **China 🇨🇳**          | Beijing       | $187.50            |
-|                       | Shanghai      | $267.50            |
-|                       | Shenzhen      | $186.00            |
+|                         | Shanghai      | $267.50            |
+|                         | Shenzhen      | $186.00            |
+|                         | Hong Kong     | $267.50            |
 | **France 🇫🇷**         | Paris         | $342.00            |
 | **Germany 🇩🇪**        | Berlin        | $208.00            |
-|                       | Munich        | $233.00            |
-| **Hong Kong 🇭🇰**      | Hong Kong     | $267.50            |
+|                         | Munich        | $233.00            |
 | **Italy 🇮🇹**          | Rome          | $334.00            |
 | **Japan 🇯🇵**          | Tokyo         | $261.50            |
 | **Netherlands 🇳🇱**    | Amsterdam     | $322.50            |
 | **Portugal 🇵🇹**       | Lisbon        | $196.00            |
 | **Singapore 🇸🇬**      | Singapore     | $227.00            |
 | **Spain 🇪🇸**          | Barcelona     | $220.50            |
-|                       | Madrid        | $256.00            |
-|                       | Malaga        | $212.50            |
+|                         | Madrid        | $256.00            |
+|                         | Malaga        | $212.50            |
 | **United Kingdom 🇬🇧** | London        | $299.00            |
 | **United States 🇺🇸**  | Denver        | $153.50            |
-|                       | New York      | $164.50            |
-|                       | San Francisco | $175.50            |
-|                       | San Jose      | $142.00            |
+|                         | New York      | $164.50            |
+|                         | San Francisco | $175.50            |
+|                         | San Jose      | $142.00            |
 
 ### Methodology 📚
 
