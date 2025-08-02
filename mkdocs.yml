@@ -13,7 +13,7 @@ repo_url: https://github.com/ultralytics/handbook
 edit_uri: https://github.com/ultralytics/handbook/tree/main/docs/
 repo_name: ultralytics/handbook
 remote_name: https://github.com/ultralytics/handbook
-docs_dir: "docs/" # where to find the markdown files
+docs_dir: "docs/" # where to find the Markdown files
 site_dir: "site/" # where to publish to
 use_directory_urls: true # don't display 'index.html' in slugs
 
@@ -26,7 +26,7 @@ theme:
   favicon: https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/logo/favicon-yolo.png
   icon:
     repo: fontawesome/brands/github
-  # font:  # disabled for faster page load times
+  # font: # disabled for faster page load times
   #  text: Helvetica
   #  code: Roboto Mono
   palette:
@@ -73,7 +73,7 @@ theme:
 copyright: <a href="https://www.ultralytics.com/" target="_blank">© 2025 Ultralytics Inc.</a> All rights reserved.
 extra: # version:
   homepage: https://www.ultralytics.com/
-  #   provider: mike  #  version drop-down menu
+  #   provider: mike # version drop-down menu
   # robots: robots.txt
   # analytics:
   #   provider: google
