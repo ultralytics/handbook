@@ -1,3 +1,4 @@
 mkdocs>=1.6.0
 mkdocs-material>=9.6.15
 mkdocs-ultralytics-plugin>=0.1.26
+click==8.2.1 # bug in 8.2.2 https://github.com/ultralytics/ultralytics/issues/21568

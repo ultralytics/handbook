@@ -66,7 +66,7 @@ dependencies = [
     "mkdocs>=1.6.0",
     "mkdocs-material>=9.6.15",
     "mkdocs-ultralytics-plugin>=0.1.26", # for meta descriptions and images, dates and authors
-    "mkdocs-macros-plugin>=1.0.5"  # duplicating content (i.e. export tables) in multiple places
+    "click==8.2.1" # bug in 8.2.2 https://github.com/ultralytics/ultralytics/issues/21568
 ]
 
 # Optional dependencies ------------------------------------------------------------------------------------------------

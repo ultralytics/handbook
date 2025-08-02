@@ -1,5 +1,6 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "site",
-  "trailingSlash": true
+  "trailingSlash": true,
+  "cleanUrls": true
 }
