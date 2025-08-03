@@ -25,7 +25,7 @@ jobs:
         website: [handbook.ultralytics.com]
     steps:
       - name: Download and install lychee
-        uses: lycheeverse/lychee-action@v2
+        run: cargo install lychee
 
       - name: Download Website
         run: |
