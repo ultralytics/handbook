@@ -25,9 +25,7 @@ jobs:
         website: [handbook.ultralytics.com]
     steps:
       - name: Download and install lychee
-        run: |
-          LYCHEE_URL=$(curl -s https://api.github.com/repos/lycheeverse/lychee/releases/latest | grep "browser_download_url" | grep "x86_64-unknown-linux-gnu.tar.gz" | cut -d '"' -f 4)
-          curl -L $LYCHEE_URL | tar xz -C /usr/local/bin
+        uses: lycheeverse/lychee-action@v2
 
       - name: Download Website
         run: |
