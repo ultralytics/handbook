@@ -74,7 +74,6 @@ jobs:
 
             rm -rf .lycheecache
             lychee \
-            --base-url 'https://${{ matrix.website }}' \
             --scheme 'https' \
             --timeout 60 \
             --insecure \
