@@ -25,8 +25,8 @@ jobs:
       matrix:
         website: [handbook.ultralytics.com]
     steps:
-      - name: Intall lychee
-        run: sudo apt install -y lychee
+      - name: Install lychee
+        run: sudo apt update && sudo apt install -y lychee
 
       - name: Download Website
         run: |
