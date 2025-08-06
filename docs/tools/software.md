@@ -12,6 +12,7 @@ This policy governs the acquisition, installation, and use of all software on co
 - **Security First:** The integrity of our data and systems is paramount.
 - **Legal Compliance:** We use only properly licensed and approved software.
 - **Productivity & Collaboration:** We standardize tools to ensure seamless collaboration across our global team.
+- we are learning how to do PRs
 
 ## 2. Standard Software Suite 💻
 
