@@ -4,6 +4,7 @@ keywords: Ultralytics hardware policy, computer equipment, MacBook Air, MacBook 
 ---
 
 # Hey test!
+
 # Hardware Policy 💻
 
 ![Ultralytics Hardware Policy](https://github.com/user-attachments/assets/d854e5c9-bf3a-45e5-979d-68d898d83f71)
