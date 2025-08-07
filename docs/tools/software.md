@@ -35,17 +35,19 @@ To maintain security and compatibility, all software not included in the standar
 **Note:** Some of the links in this section can only be accessed by Ultralytics team members.
 
 ### Approval & Installation Process
+
 1. **Manager Approval:** Before you start, check if the vendor already exists in our [Approved Vendor Database](https://www.notion.so/218fe6fef1c3804d9479f0d3dd78ca62?v=218fe6fef1c3819b804e000c8232e2c2&source=copy_link). Once you've confirmed this, send a software request to your direct manager, including a clear business justification and the cost, if any.
 2. **Submit Vendor Onboarding Request:** Your manager or any team member on the manager's behalf must submit the request via the [Vendor Onboarding Form](https://www.notion.so/218fe6fef1c38093a6cef5c63000dfaf?pvs=106). This is a mandatory step to understand potential risks from the tools we use.
 3. **Multi-Team Review:** The request will be reviewed by Legal and Security teams to ensure comprehensive evaluation before approval.
 4. **Final Approval:** Once the Legal and Security teams give their approval, your manager will provide the final sign-off. You can track progress and final sign-off status via this [Tracking Overview](https://www.notion.so/218fe6fef1c3804d9479f0d3dd78ca62?v=218fe6fef1c38004b5d9000c06a69134&source=copy_link).
-5.  **Purchase & Installation:** For paid software, follow the standard [reimbursement procedures](../finance/index.md#reimbursements).
+5. **Purchase & Installation:** For paid software, follow the standard [reimbursement procedures](../finance/index.md#reimbursements).
 
 !!! warning "Prohibition of Unauthorized Software"
 
     The installation of any software that has not been approved through this process is strictly prohibited. This includes personal software on company devices, unlicensed or "cracked" applications, and any tool that could compromise system security.
 
 ### Ongoing Vendor Management
+
 1. **Track Vendor Changes:** Monitor your approved vendors for any significant modifications that could impact security, finance, or compliance requirements.
 2. **Submit Change Request:** When updates occur, submit details via the [Vendor Change Form](https://www.notion.so/23ffe6fef1c380ee8e7ad4d73551e188?pvs=106). This ensures our Legal and Security team can assess any new risks. Key changes to report include security incidents, changes in data categories, vendor offboarding, changes in tool ownership, or price changes over $500/year.
 3. **Review Process:** The Security, Legal, and Finance teams will evaluate the changes to determine if additional approvals or actions are needed.
