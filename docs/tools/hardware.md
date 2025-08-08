@@ -92,7 +92,7 @@ This process applies when replacing an existing device with a new one.
 **All devices used for work, whether company-provided or personally owned (under BYOD), must have Rippling Mobile Device Management (MDM) installed.**
 
 - **Applies To:** MacBook Air/Pro, iPads, iPhones, and Android devices.
-- **Installation:** Employees are responsible for installing Rippling MDM from **[rippling.com/device-management](https://www.rippling.com/device-management)**.
+- **Installation:** Employees are responsible for installing Rippling MDM from **[app.rippling.com/enroll-device](https://app.rippling.com/enroll-device)**.
 - **Timing:** MDM must be installed **before** the device is used to access any company data or systems.
 
 ### Security & Compliance Policies
