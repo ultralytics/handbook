@@ -29,7 +29,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Jordan Cooper           | [JCoops1](https://github.com/JCoops1)                         |
 | Kasim Acikbas           | [kayselmecnun](https://github.com/kayselmecnun)               |
 | Kirill Viarbitski       | [Kverbitski](https://github.com/Kverbitski)                   |
-| Kiryl Oblikau           | [muknex](https://github.com/munknex)                          |
+| Kiryl Oblikau           | [munknex](https://github.com/munknex)                         |
 | Kristian Sommer         | [sokrisba](https://github.com/sokrisba)                       |
 | Lakshantha Dissanayake  | [lakshanthad](https://github.com/lakshanthad)                 |
 | Marius Keiser           | [Skillnoob](https://github.com/Skillnoob)                     |
@@ -52,6 +52,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                       |
 | Lynne Swan              | [DubLynne](https://github.com/DubLynne)                       |
 | Shuai (Louis) LYU       | [ShuaiLYU](https://github.com/ShuaiLYU)                       |
+| Abi Anderson            | [UltralyticsAbi](https://github.com/UltralyticsAbi)           |
 
 ## Contribution Guidelines
 
