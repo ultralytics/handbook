@@ -52,6 +52,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                       |
 | Lynne Swan              | [DubLynne](https://github.com/DubLynne)                       |
 | Shuai (Louis) LYU       | [ShuaiLYU](https://github.com/ShuaiLYU)                       |
+| Abi Anderson            | [UltralyticsAbi](https://github.com/UltralyticsAbi)           |
 
 ## Contribution Guidelines
 
