@@ -164,6 +164,7 @@ nav:
       - Finance:
           - finance/index.md
           - Travel: finance/travel.md
+          - Relocation: finance/relocation.md
       - Tools:
           - Overview: tools/index.md
           - Hardware: tools/hardware.md
@@ -193,6 +194,7 @@ nav:
   - Finance:
       - finance/index.md
       - Travel: finance/travel.md
+      - Relocation: finance/relocation.md
   - Tools:
       - Overview: tools/index.md
       - Hardware: tools/hardware.md

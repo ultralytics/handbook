@@ -28,6 +28,16 @@ Key points include:
 - **Per Diem 💳:** Covers all meals, ground transportation, and incidental expenses.
 - **Airfare ✈️:** Economy class flights only, reimbursable separately.
 
+## Relocation Policy 📍
+
+High-value employees approved for relocation to designated hub cities may be eligible for relocation compensation. Refer to the comprehensive [Ultralytics Employee Relocation Policy](../finance/relocation.md) for complete details.
+
+Key points include:
+
+- **Compensation 💰:** $6,000 flat one-time payment for approved relocations.
+- **Eligibility 🎯:** Limited to vital roles and business-critical moves.
+- **Hub Cities 🌎:** Payment available only for moves to Madrid, London, or Shenzhen.
+
 ## Reimbursements 💸
 
 - All reimbursement requests must include detailed receipts and a clear description of business purposes.
