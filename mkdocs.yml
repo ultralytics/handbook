@@ -1,6 +1,6 @@
 # Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 
-# Configuration file for building the Ultralytics YOLO documentation site using MkDocs.
+# Configuration file for building the Ultralytics Handbook documentation site using MkDocs.
 # Provides settings to control site metadata, customize the appearance using the
 # Material theme, define the navigation structure, and enable various plugins.
 
@@ -128,6 +128,10 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.details
   - pymdownx.superfences
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.inlinehilite
   - pymdownx.highlight:
       anchor_linenums: true
