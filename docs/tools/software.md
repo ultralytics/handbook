@@ -15,11 +15,11 @@ This policy governs the acquisition, installation, and use of all software on co
 
 ## 2. Standard Software Suite 💻
 
-All company-provided computers come with a standard suite of pre-installed and approved software to cover core business functions. This suite is managed by the IT department and includes the latest security updates.
+All company-provided computers come with a standard suite of pre-installed and approved software to cover core business functions and include the latest security updates.
 
 ### Core Application Categories
 
-While the specific application list is maintained by IT, the standard suite includes:
+While the specific application list is maintained by the Security team, the standard suite includes:
 
 - **Operating System:** The latest version of macOS.
 - **Productivity Suite:** Core applications for documents, spreadsheets, and presentations (e.g., Google Workspace, Microsoft Office).
@@ -28,20 +28,29 @@ While the specific application list is maintained by IT, the standard suite incl
 - **Web Browsers:** Approved browsers like Google Chrome with required security extensions.
 - **Technical Tools:** For developer and technical roles, this includes approved IDEs, code editors, and other development utilities.
 
-## 3. Requesting and Installing New Software 📥
+## 3. Software Approval & Vendor Lifecycle 📥
 
 To maintain security and compatibility, all software not included in the standard suite must be approved before installation.
 
+**Note:** Some of the links in this section can only be accessed by Ultralytics team members.
+
 ### Approval & Installation Process
 
-1.  **Submit Request:** Send a software request to your direct manager, including a clear business justification and the cost, if any.
-2.  **IT Security Review:** Your manager will forward the request to the IT department for a security and compatibility review. This step is mandatory to prevent vulnerabilities.
-3.  **Final Approval:** Once IT gives its approval, your manager will provide the final sign-off.
-4.  **Purchase & Installation:** For paid software, follow the standard [reimbursement procedures](../finance/index.md#reimbursements). IT will provide installation support if needed.
+1. **Manager Approval:** Before you start, check if the vendor already exists in our [Approved Vendor Database](https://www.notion.so/218fe6fef1c3804d9479f0d3dd78ca62?v=218fe6fef1c3819b804e000c8232e2c2&source=copy_link). Once you've confirmed this, send a software request to your direct manager, including a clear business justification and the cost, if any.
+2. **Submit Vendor Onboarding Request:** Your manager or any team member on the manager's behalf must submit the request via the [Vendor Onboarding Form](https://www.notion.so/218fe6fef1c38093a6cef5c63000dfaf?pvs=106). This is a mandatory step to understand potential risks from the tools we use.
+3. **Multi-Team Review:** The request will be reviewed by Legal and Security teams to ensure comprehensive evaluation before approval.
+4. **Final Approval:** Once the Legal and Security teams give their approval, your manager will provide the final sign-off. You can track progress and final sign-off status via this [Tracking Overview](https://www.notion.so/218fe6fef1c3804d9479f0d3dd78ca62?v=218fe6fef1c38004b5d9000c06a69134&source=copy_link).
+5. **Purchase & Installation:** For paid software, follow the standard [reimbursement procedures](../finance/index.md#reimbursements).
 
 !!! warning "Prohibition of Unauthorized Software"
 
     The installation of any software that has not been approved through this process is strictly prohibited. This includes personal software on company devices, unlicensed or "cracked" applications, and any tool that could compromise system security.
+
+### Ongoing Vendor Management
+
+1. **Track Vendor Changes:** Monitor your approved vendors for any significant modifications that could impact security, finance, or compliance requirements.
+2. **Submit Change Request:** When updates occur, submit details via the [Vendor Change Form](https://www.notion.so/23ffe6fef1c380ee8e7ad4d73551e188?pvs=106). This ensures our Legal and Security team can assess any new risks. Key changes to report include security incidents, changes in data categories, vendor offboarding, changes in tool ownership, or price changes over $500/year.
+3. **Review Process:** The Security, Legal, and Finance teams will evaluate the changes to determine if additional approvals or actions are needed.
 
 ## 4. Acceptable Use Policy 🛡️
 
@@ -78,7 +87,7 @@ Every employee shares the responsibility for protecting our digital assets.
 ### Data Security
 
 - **Handling Sensitive Data:** Use only company-approved applications and secure, encrypted channels for storing or transmitting confidential or sensitive information.
-- **Backups:** While IT manages system-level backups, you are responsible for ensuring your critical work files are saved to approved cloud storage solutions (e.g., Google Drive) and not just locally on your device.
+- **Backups:** You are responsible for ensuring your critical work files are saved to approved cloud storage solutions (e.g., Google Drive) and not just locally on your device.
 
 ### Password Management
 
@@ -89,14 +98,11 @@ Every employee shares the responsibility for protecting our digital assets.
 
 ### How to Get Help
 
-For all software-related issues, please contact IT Support through the official channels:
-
-- **Email:** [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com)
-- **Slack:** **#it-support**
+If you have any software-related issues, please reach out in the #it-support Slack channel.
 
 ### Service Level Agreements (SLAs)
 
-Our IT team prioritizes requests to ensure critical issues are handled swiftly.
+Our team prioritizes requests to ensure critical issues are handled swiftly.
 
 - **Critical (System-wide outage, security breach):** 1-hour response
 - **High (Individual unable to work):** 4-hour response
@@ -104,4 +110,4 @@ Our IT team prioritizes requests to ensure critical issues are handled swiftly.
 
 ---
 
-_This policy helps us maintain a secure, compliant, and productive software environment. For any questions, please contact your manager or the IT team._
+_This policy helps us maintain a secure, compliant, and productive software environment. For any questions, please contact your manager or the Security team._
