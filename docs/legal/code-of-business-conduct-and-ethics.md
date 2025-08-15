@@ -9,11 +9,11 @@ keywords: code of conduct, privacy, data protection, business ethics, company va
 
 Ultralytics operates globally through a hybrid model that combines remote work with shared office spaces across Europe, the UK, the US, and China. With team members working from diverse locations and cultures, we have created this Code of Business Conduct and Ethics to make sure everyone understands their responsibilities and maintains our high standards.
 
-Our mission is to move the world forward by first moving ourselves, continuously pushing the boundaries of AI through relentless execution, creating the world's best open-source solutions that benefit everyone equally, and empowering individuals to improve their lives and the lives of those around them. 
+Our mission is to move the world forward by first moving ourselves, continuously pushing the boundaries of AI through relentless execution, creating the world's best open-source solutions that benefit everyone equally, and empowering individuals to improve their lives and the lives of those around them.
 
-We believe the way we work matters just as much as what we build. At Ultralytics, five core values guide everything we do: Relentless Progress, Strive for Excellence, Actions Not Words, Act with Urgency, and Open Access to All. These values shape our culture, inform our decisions, and define how we collaborate and innovate. 
+We believe the way we work matters just as much as what we build. At Ultralytics, five core values guide everything we do: Relentless Progress, Strive for Excellence, Actions Not Words, Act with Urgency, and Open Access to All. These values shape our culture, inform our decisions, and define how we collaborate and innovate.
 
-By staying true to this [Mission and Values](https://handbook.ultralytics.com/mission-vision-values/), we ensure that our pursuit of technological advancement is grounded in integrity, inclusivity, and purpose. 
+By staying true to this [Mission and Values](https://handbook.ultralytics.com/mission-vision-values/), we ensure that our pursuit of technological advancement is grounded in integrity, inclusivity, and purpose.
 
 This Code establishes essential guidelines for ethical behavior and legal compliance. All team members, including employees (full-time or part-time), contractors, advisors, and partners worldwide, must adhere to this Code. While not comprehensive of all policies or laws, it provides minimum standards for conducting business responsibly. Everyone is expected to familiarize themselves with applicable laws and regulations in their area of operation.
 
@@ -32,9 +32,10 @@ We prohibit discrimination, harassment, or bullying in any form. Every team memb
 ### Workplace Safety and Security
 
 Everyone plays a role in maintaining a safe and secure workplace. We expect all team members to:
-* Follow security protocols, including proper badge usage and facility access procedures defined by  our workspace provider
-* Report unsafe conditions, situations, or accidents immediately
-* Report any acts of violence or threats toward persons or property without delay
+
+- Follow security protocols, including proper badge usage and facility access procedures defined by our workspace provider
+- Report unsafe conditions, situations, or accidents immediately
+- Report any acts of violence or threats toward persons or property without delay
 
 ### Substance Use Policy
 
@@ -56,7 +57,7 @@ We build relationships through professional excellence, not through excessive gi
 
 Document and disclose any gifts or entertainment that could appear to influence business decisions to the Legal Team. Report situations that make you uncomfortable or seem inappropriate.
 
-###  Fair Competition
+### Fair Competition
 
 Competition laws worldwide ensure healthy markets by preventing practices that harm fair competition and consumer choice. These regulations prohibit competitors from coordinating on pricing, sales terms, or dividing customers and markets between them.
 
@@ -66,11 +67,11 @@ Contact Legal Team immediately if you have questions about competition law requi
 
 ### Business Partner Selection
 
-When engaging business partners, consider how they align with our values and conduct their businesses. Who we do business with directly impacts our reputation and may have legal and business implications. 
+When engaging business partners, consider how they align with our values and conduct their businesses. Who we do business with directly impacts our reputation and may have legal and business implications.
 
 Conduct appropriate due diligence and only select parties you trust to represent Ultralytics well and share our commitment to ethical conduct. Be alert to red flags such as vague service descriptions, unusual payment requests, reluctance to provide compliance certifications, or a history of illegal or questionable conduct.
 
-###  Government and Public Sector Dealings
+### Government and Public Sector Dealings
 
 When Ultralytics conducts business with government entities, state-owned enterprises, or public international organizations, we must comply with strict anti-corruption laws. Under statutes like the U.S. Foreign Corrupt Practices Act, providing anything of value to government officials to secure business or favorable treatment constitutes a criminal offense.
 
@@ -78,7 +79,7 @@ Government officials include elected officials, candidates for public office, em
 
 In limited circumstances, with proper pre-approval, modest expenditures may be permissible when directly related to legitimate product demonstrations or service presentations. For example, a reasonable meal during a day-long product demonstration may be acceptable with advance authorization.
 
-Before offering any form of hospitality or benefit to government officials, consult with the Legal Team and your supervisor to ensure full compliance. 
+Before offering any form of hospitality or benefit to government officials, consult with the Legal Team and your supervisor to ensure full compliance.
 
 ### Insider Trading Prevention
 
@@ -120,7 +121,7 @@ We are committed to processing and protecting data according to applicable priva
 
 Confidential Information generated and gathered in Ultralytics' business plays a vital role in our operations, competitive position, and ability to innovate in the AI industry. "Confidential Information" encompasses any material that Ultralytics does not make or want to make publicly known at a given time.
 
-At a minimum, this information includes technical or scientific information about current and future AI services or research, non-public product roadmaps, customer data, usage analytics, business or marketing plans, financial data, personnel information, customer lists, and other non-public information that could benefit competitors or harm Ultralytics if disclosed. 
+At a minimum, this information includes technical or scientific information about current and future AI services or research, non-public product roadmaps, customer data, usage analytics, business or marketing plans, financial data, personnel information, customer lists, and other non-public information that could benefit competitors or harm Ultralytics if disclosed.
 
 You are expected to protect Ultralytics' Confidential Information and any trade secrets to which you may have access during your work, as outlined in your employment agreement and/or non-disclosure agreement. This responsibility applies while you work at Ultralytics and continues even after you leave the company.
 
@@ -158,25 +159,27 @@ When purchasing goods, services, or software tools for Ultralytics, act with int
 
 ### Honest Revenue Recording
 
-Record all sales transactions accurately and completely, reflecting the true nature of business agreements. Never manipulate or misrepresent revenue timing or amounts to meet targets or expectations. Ensure all sales have genuine customer commitments before recording revenue, and report any questionable transactions or pressure to inappropriately record sales. 
+Record all sales transactions accurately and completely, reflecting the true nature of business agreements. Never manipulate or misrepresent revenue timing or amounts to meet targets or expectations. Ensure all sales have genuine customer commitments before recording revenue, and report any questionable transactions or pressure to inappropriately record sales.
 
 ### Enhanced Responsibilities
 
 Our CEO, Finance, and Legal Teams carry heightened obligations to maintain organizational integrity and serve stakeholders effectively. These roles must foster a company-wide culture of accurate, comprehensive, and timely financial reporting. Key responsibilities include:
-* Maintaining honesty and integrity while avoiding conflicts of interest
-* Ensuring all information provided for stakeholder communications is complete, accurate, and timely
-* Staying current with relevant laws and regulations, seeking legal guidance when needed
-* Immediately reporting suspected violations to the Legal Team
-* Championing adherence to this Code throughout the organization
+
+- Maintaining honesty and integrity while avoiding conflicts of interest
+- Ensuring all information provided for stakeholder communications is complete, accurate, and timely
+- Staying current with relevant laws and regulations, seeking legal guidance when needed
+- Immediately reporting suspected violations to the Legal Team
+- Championing adherence to this Code throughout the organization
 
 ### Preventing Money Laundering
 
 Ultralytics strictly complies with anti-money laundering and counter-terrorism financing laws globally. Money laundering involves concealing illegal funds or making them appear legitimate. Watch for and report suspicious payment activities, including:
-* Large cash payment attempts
-* Payments involving parties not in the contract
-* Payment requests exceeding contract amounts
-* Payments in unauthorized currencies
-* Payments from suspicious or non-business accounts
+
+- Large cash payment attempts
+- Payments involving parties not in the contract
+- Payment requests exceeding contract amounts
+- Payments in unauthorized currencies
+- Payments from suspicious or non-business accounts
 
 ## Responsible Use of Ultralytics Resources 🛠️
 
@@ -196,7 +199,7 @@ There are certain things you shouldn’t do with Ultralytics resources. You’re
 
 ### Software Licensing and Intellectual Property
 
-Ultralytics respects intellectual property rights and software licensing seriously, and we expect everyone to do the same. Only use software that’s been properly licensed or approved, whether it’s commercial or open source. Using unauthorized software is illegal for both you and the company. If you're unsure about licensing for any tools you need, raise your question in the [#it-support](https://ultralytics-work.slack.com/archives/C099NHUEHD1) channel. 
+Ultralytics respects intellectual property rights and software licensing seriously, and we expect everyone to do the same. Only use software that’s been properly licensed or approved, whether it’s commercial or open source. Using unauthorized software is illegal for both you and the company. If you're unsure about licensing for any tools you need, raise your question in the [#it-support](https://ultralytics-work.slack.com/archives/C099NHUEHD1) channel.
 
 ### Copyright and Protected Materials
 
@@ -224,13 +227,12 @@ The first and often best step is to speak with your manager. They're usually wel
 
 ### How to Reach Us
 
-* 📧 **Email:** the Legal Team (this option is not anonymous) 
-* 🌐 **[Anonymous Form Reporting](https://docs.google.com/forms/d/e/1FAIpQLSdXE24kB5975eZZBJ_0t1E-w7TKlTCUFYpm_MvccXi9qvwJtQ/viewform)**
-* 📬 **By post:** 
-Judicial Way, Frederick 
-MD 21703
-United States
-
+- 📧 **Email:** the Legal Team (this option is not anonymous)
+- 🌐 **[Anonymous Form Reporting](https://docs.google.com/forms/d/e/1FAIpQLSdXE24kB5975eZZBJ_0t1E-w7TKlTCUFYpm_MvccXi9qvwJtQ/viewform)**
+- 📬 **By post:**
+  Judicial Way, Frederick
+  MD 21703
+  United States
 
 ### Anonymous Reporting
 
