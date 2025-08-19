@@ -250,7 +250,4 @@ Once a concern is reported, it will be reviewed and investigated by trained team
 
 Violations of our Code or any laws or regulations can lead to disciplinary actions. These will depend on the nature and seriousness of the situation and may include formal warnings, demotion, or dismissal. In some cases, legal consequences may also apply.
 
-
-
-
 my change
