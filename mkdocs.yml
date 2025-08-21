@@ -219,6 +219,7 @@ nav:
   - Legal:
       - Licenses: legal/licenses.md
       - Privacy Policy: legal/privacy-policy.md
+      - Code of Business Conduct and Ethics: legal/code-of-business-conduct-and-ethics.md
 
 # Plugins including 301 redirects navigation ---------------------------------------------------------------------------
 plugins:
