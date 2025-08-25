@@ -17,7 +17,7 @@ This Handbook serves as a **living document**, evolving alongside Ultralytics' g
 ## 🛠️ Installation
 
 [![PyPI - Version](https://img.shields.io/pypi/v/ultralytics?logo=pypi&logoColor=white)](https://pypi.org/project/ultralytics/)
-[![Downloads](https://static.pepy.tech/badge/ultralytics)](https://www.pepy.tech/projects/ultralytics)
+[![Downloads](https://static.pepy.tech/badge/ultralytics)](https://clickpy.clickhouse.com/dashboard/ultralytics)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ultralytics?logo=python&logoColor=gold)](https://pypi.org/project/ultralytics/)
 
 To install [MkDocs](https://www.mkdocs.org/) and the necessary dependencies for building and developing the Handbook site locally, use the [pip package manager](https://pip.pypa.io/en/stable/):

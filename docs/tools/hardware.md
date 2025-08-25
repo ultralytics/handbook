@@ -62,7 +62,7 @@ This process applies when replacing an existing device with a new one.
 2.  **Select Device:** Once approved, select your eligible device (MacBook Air or MacBook Pro, depending on your role).
 3.  **Order and Trade-In:** Order the new device directly from Apple. **You MUST select the option to trade in your existing device** and provide its serial number during the order process.
 4.  **Migrate Data:** Upon receiving your new device, migrate all data from your old device.
-5.  **Return Old Device:** **IMPORTANT:** Ship your old device back to Apple using the provided trade-in kit via the [Apple Trade In](https://www.apple.com/trade-in/) program.
+5.  **Return Old Device:** **IMPORTANT:** Ship your old device back to Apple using the provided trade-in kit via the [Apple Trade In](https://www.apple.com/shop/trade-in) program.
 6.  **Submit for Reimbursement:** The reimbursed amount will be the **net cost (new device price - Apple trade-in credit)**. You will not be reimbursed for the full price of the new device.
 
 !!! warning "Approval and Reimbursement Requirements"
