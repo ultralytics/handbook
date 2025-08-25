@@ -141,7 +141,7 @@ You may, under an authorized non-disclosure agreement, become aware of another c
 
 ### Incident Reporting and Support
 
-All security incidents must be reported immediately to security@ultralytics.com or [#compliance](https://ultralytics-work.slack.com/archives/C08EBUT9UCR) Slack channel. An incident includes any situation where protected data can be lost, stolen, compromised, or otherwise improperly handled, including attempts to gain unauthorized access to systems or data.
+All security incidents must be reported immediately to security@ultralytics.com or [#compliance](https://ultralytics-work.slack.com/?redir=%2Farchives%2FC08EBUT9UCR%3Fname%3DC08EBUT9UCR) Slack channel. An incident includes any situation where protected data can be lost, stolen, compromised, or otherwise improperly handled, including attempts to gain unauthorized access to systems or data.
 
 ## Financial Responsibility at Ultralytics 💳
 
@@ -199,11 +199,11 @@ There are certain things you shouldn’t do with Ultralytics resources. You’re
 
 ### Software Licensing and Intellectual Property
 
-Ultralytics respects intellectual property rights and software licensing seriously, and we expect everyone to do the same. Only use software that’s been properly licensed or approved, whether it’s commercial or open source. Using unauthorized software is illegal for both you and the company. If you're unsure about licensing for any tools you need, raise your question in the [#it-support](https://ultralytics-work.slack.com/archives/C099NHUEHD1) channel.
+Ultralytics respects intellectual property rights and software licensing seriously, and we expect everyone to do the same. Only use software that’s been properly licensed or approved, whether it’s commercial or open source. Using unauthorized software is illegal for both you and the company. If you're unsure about licensing for any tools you need, raise your question in the [#it-support](https://ultralytics-work.slack.com/?redir=%2Farchives%2FC099NHUEHD1%3Fname%3DC099NHUEHD1) channel.
 
 ### Copyright and Protected Materials
 
-Photos, videos, music, articles, white papers, and websites are usually protected by copyright, even if they’re online and easy to access. If you want to include this kind of content in a presentation, event, or marketing material, make sure you have the right permissions. If you're unsure, contact the [#it-support](https://ultralytics-work.slack.com/archives/C099NHUEHD1) channel for help. Our team can guide you to approved visual asset libraries within our authorised tools.
+Photos, videos, music, articles, white papers, and websites are usually protected by copyright, even if they’re online and easy to access. If you want to include this kind of content in a presentation, event, or marketing material, make sure you have the right permissions. If you're unsure, contact the [#it-support](https://ultralytics-work.slack.com/?redir=%2Farchives%2FC099NHUEHD1%3Fname%3DC099NHUEHD1) channel for help. Our team can guide you to approved visual asset libraries within our authorised tools.
 
 ### Privacy and Monitoring
 
