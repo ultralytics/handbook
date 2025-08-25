@@ -141,7 +141,7 @@ You may, under an authorized non-disclosure agreement, become aware of another c
 
 ### Incident Reporting and Support
 
-All security incidents must be reported immediately to security@ultralytics.com or [#compliance](https://ultralytics-work.slack.com/?redir=%2Farchives%2FC08EBUT9UCR%3Fname%3DC08EBUT9UCR) Slack channel. An incident includes any situation where protected data can be lost, stolen, compromised, or otherwise improperly handled, including attempts to gain unauthorized access to systems or data.
+All security incidents must be reported immediately to security@ultralytics.com or [#compliance](https://ultralytics-work.slack.com/archives/C08EBUT9UCR) Slack channel. An incident includes any situation where protected data can be lost, stolen, compromised, or otherwise improperly handled, including attempts to gain unauthorized access to systems or data.
 
 ## Financial Responsibility at Ultralytics 💳
 
