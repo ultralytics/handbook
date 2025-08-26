@@ -65,7 +65,7 @@ dependencies = [
     "coverage[toml]",
     "mkdocs>=1.6.0",
     "mkdocs-material>=9.6.15",
-    "mkdocs-ultralytics-plugin>=0.1.26", # for meta descriptions and images, dates and authors
+    "mkdocs-ultralytics-plugin>=0.1.29", # for meta descriptions and images, dates and authors
 ]
 
 # Optional dependencies ------------------------------------------------------------------------------------------------
