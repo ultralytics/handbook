@@ -164,8 +164,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Fix language switcher links
-(() => {
-  const fixLanguageLinks = () => {
+(function () {
+  function fixLanguageLinks() {
     const path = location.pathname;
     const links = document.querySelectorAll(".md-select__link");
     if (!links.length) return;
@@ -173,51 +173,47 @@ document.addEventListener("DOMContentLoaded", () => {
     const langs = [];
     let defaultLink = null;
 
-    // Extract language codes from dropdown links
-    for (const link of links) {
+    // Extract language codes
+    links.forEach((link) => {
       const href = link.getAttribute("href");
-      if (!href) continue;
+      if (!href) return;
 
       const url = new URL(href, location.origin);
       const match = url.pathname.match(/^\/([a-z]{2})\/?$/);
-      if (match) {
-        langs.push({ code: match[1], link });
-      } else if (url.pathname === "/" || url.pathname === "") {
-        defaultLink = link;
-      }
-    }
 
-    // Extract base path (return early if not on localized page)
+      if (match) langs.push({ code: match[1], link });
+      else if (url.pathname === "/" || url.pathname === "") defaultLink = link;
+    });
+
+    // Find current language and base path
     let basePath = path;
-    for (const { code } of langs) {
-      if (path.startsWith(`/${code}/`)) {
-        basePath = path.substring(code.length + 2); // +2 to skip both slashes
+    for (const lang of langs) {
+      if (path.startsWith("/" + lang.code + "/")) {
+        basePath = path.substring(lang.code.length + 1);
         break;
       }
     }
-    if (basePath === path) return;
 
-    // Update links with normalized paths
-    const normalizeUrl = (url) => url.replace(/\/+/g, "/");
-    langs.forEach(({ code, link }) => {
-      link.href = normalizeUrl(`${location.origin}/${code}${basePath}`);
-    });
-    if (defaultLink) {
-      defaultLink.href = normalizeUrl(`${location.origin}${basePath}`);
-    }
-  };
+    // Update links
+    langs.forEach(
+      (lang) => (lang.link.href = location.origin + "/" + lang.code + basePath),
+    );
+    if (defaultLink) defaultLink.href = location.origin + basePath;
+  }
 
+  // Run immediately
   fixLanguageLinks();
 
-  // Handle navigation changes
-  document$?.subscribe(() => setTimeout(fixLanguageLinks, 50)) ||
-    (() => {
-      let lastPath = location.pathname;
-      setInterval(() => {
-        if (location.pathname !== lastPath) {
-          lastPath = location.pathname;
-          setTimeout(fixLanguageLinks, 50);
-        }
-      }, 200);
-    })();
+  // Handle SPA navigation
+  if (typeof document$ !== "undefined") {
+    document$.subscribe(() => setTimeout(fixLanguageLinks, 50));
+  } else {
+    let lastPath = location.pathname;
+    setInterval(() => {
+      if (location.pathname !== lastPath) {
+        lastPath = location.pathname;
+        setTimeout(fixLanguageLinks, 50);
+      }
+    }, 200);
+  }
 })();
