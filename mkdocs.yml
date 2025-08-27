@@ -10,10 +10,10 @@ site_description: A guide to Ultralytics' mission, vision, values, and practices
 site_url: https://handbook.ultralytics.com
 site_author: Ultralytics
 repo_url: https://github.com/ultralytics/handbook
-edit_uri: https://github.com/ultralytics/handbook/tree/main/docs/
+edit_uri: https://github.com/ultralytics/handbook/tree/main/docs/en/
 repo_name: ultralytics/handbook
 remote_name: https://github.com/ultralytics/handbook
-docs_dir: "docs/" # where to find the Markdown files
+docs_dir: "docs/en/" # where to find the Markdown files
 site_dir: "site/" # where to publish to
 use_directory_urls: true # don't display 'index.html' in slugs
 
