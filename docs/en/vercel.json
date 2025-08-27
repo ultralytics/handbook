@@ -1,5 +1,6 @@
 {
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
     { "source": "/zh", "destination": "/zh/", "permanent": true },
     { "source": "/ko", "destination": "/ko/", "permanent": true },
     { "source": "/ja", "destination": "/ja/", "permanent": true },
@@ -11,5 +12,6 @@
     { "source": "/pt", "destination": "/pt/", "permanent": true },
     { "source": "/tr", "destination": "/tr/", "permanent": true },
     { "source": "/vi", "destination": "/vi/", "permanent": true },
-    { "source": "/ar", "destination": "/ar/", "permanent": true },
+    { "source": "/ar", "destination": "/ar/", "permanent": true }
+  ]
 }
