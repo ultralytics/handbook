@@ -19,7 +19,7 @@ This Code establishes essential guidelines for ethical behavior and legal compli
 
 Violations of applicable laws, company policies, or this Code can result in serious individual consequences, including disciplinary actions and dismissal. These violations also create significant risks for Ultralytics as a whole, potentially exposing the company to legal liability, reputational damage, and threats to our operational continuity.
 
-We trust you to exercise sound judgment and maintain the highest ethical standards in all business decisions. When facing uncertainty or ethical dilemmas, we encourage you to seek guidance and raise concerns promptly. For assistance or to report concerns, contact legal@ultralytics.com. Additional information on how to report concerns can be found in the final section, [Raising Concerns and Getting Help](##raising-concerns-and-getting-help-☎️).
+We trust you to exercise sound judgment and maintain the highest ethical standards in all business decisions. When facing uncertainty or ethical dilemmas, we encourage you to seek guidance and raise concerns promptly. For assistance or to report concerns, contact legal@ultralytics.com. Additional information on how to report concerns can be found in the final section, [Raising Concerns and Getting Help](#raising-concerns-and-getting-help-).
 
 ## Creating an Inclusive and Safe Workplace 🏡
 
