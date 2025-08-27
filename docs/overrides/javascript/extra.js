@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let basePath = path;
     for (const { code } of langs) {
       if (path.startsWith(`/${code}/`)) {
-        basePath = path.substring(code.length + 2); // +2 for both slashes
+        basePath = path.substring(code.length + 2); // +2 to skip both slashes
         break;
       }
     }
