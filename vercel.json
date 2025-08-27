@@ -1,5 +1,19 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "site",
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/zh", "destination": "/zh/", "permanent": true },
+    { "source": "/ko", "destination": "/ko/", "permanent": true },
+    { "source": "/ja", "destination": "/ja/", "permanent": true },
+    { "source": "/ru", "destination": "/ru/", "permanent": true },
+    { "source": "/de", "destination": "/de/", "permanent": true },
+    { "source": "/fr", "destination": "/fr/", "permanent": true },
+    { "source": "/it", "destination": "/it/", "permanent": true },
+    { "source": "/es", "destination": "/es/", "permanent": true },
+    { "source": "/pt", "destination": "/pt/", "permanent": true },
+    { "source": "/tr", "destination": "/tr/", "permanent": true },
+    { "source": "/vi", "destination": "/vi/", "permanent": true },
+    { "source": "/ar", "destination": "/ar/", "permanent": true }
+  ]
 }
