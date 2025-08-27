@@ -19,7 +19,7 @@ This Code establishes essential guidelines for ethical behavior and legal compli
 
 Violations of applicable laws, company policies, or this Code can result in serious individual consequences, including disciplinary actions and dismissal. These violations also create significant risks for Ultralytics as a whole, potentially exposing the company to legal liability, reputational damage, and threats to our operational continuity.
 
-We trust you to exercise sound judgment and maintain the highest ethical standards in all business decisions. When facing uncertainty or ethical dilemmas, we encourage you to seek guidance and raise concerns promptly. For assistance or to report concerns, contact legal@ultralytics.com. Additional information on how to report concerns can be found in the final section, [Raising Concerns and Getting Help](#raising-concerns-and-getting-help-).
+We trust you to exercise sound judgment and maintain the highest ethical standards in all business decisions. When facing uncertainty or ethical dilemmas, we encourage you to seek guidance and raise concerns promptly. For assistance or to report concerns, contact legal@ultralytics.com. Additional information on how to report concerns can be found in the final section, [Raising Concerns and Getting Help](#raising-concerns-and-getting-help).
 
 ## Creating an Inclusive and Safe Workplace 🏡
 
@@ -213,7 +213,7 @@ To keep our systems secure, ensure productivity, and protect sensitive informati
 
 Monitoring is done only when needed for legitimate business reasons such as security checks, compliance reviews, or to investigate potential misuse. We don’t monitor without cause, and we aim to be transparent about how we handle digital tools and data. To support these monitoring objectives, we deploy a mobile device management (MDM) solution to all devices that access company systems and data. For more details, refer to our approved [Hardware Policy](https://handbook.ultralytics.com/tools/hardware/).
 
-## Raising Concerns and Getting Help ☎️
+## Raising Concerns and Getting Help
 
 Living up to our Code of Conduct is something we all share. If something doesn’t seem right, you’re encouraged and expected to speak up. Whether it’s a potential breach of our values, a legal concern, or just something that feels ethically questionable, raising it early helps prevent bigger issues and shows our commitment to integrity and trust.
 
