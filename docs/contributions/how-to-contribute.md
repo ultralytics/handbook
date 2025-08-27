@@ -16,11 +16,10 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Abrish Sabri            | [asabri97](https://github.com/asabri97)                       |
 | Abirami Vina            | [abirami-vina](https://github.com/abirami-vina)               |
 | Alexis Schutzger        | [picsalex](https://github.com/picsalex)                       |
-| Amir Roshanaei          | [bitcodr](https://github.com/bitcodr)                         |
 | Burhan Qaddoumi         | [Burhan-Q](https://github.com/Burhan-Q)                       |
 | Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                         |
 | Francesco Mattioli      | [ambitious-octopus](https://github.com/ambitious-octopus)     |
-| Giovanni DZ             | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)   |
+| Giovanni Dal Zillio              | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)   |
 | Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)               |
 | Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)               |
 | Jake Qian               | [fengqianjake](https://github.com/fengqianjake)               |
@@ -48,7 +47,6 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | William Beaven          | [william-beaven](https://github.com/william-beaven)           |
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)           |
 | Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                           |
-| Nikoloz Gabunia         | [NikolozULT](https://github.com/NikolozULT)                   |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                       |
 | Lynne Swan              | [DubLynne](https://github.com/DubLynne)                       |
 | Shuai (Louis) LYU       | [ShuaiLYU](https://github.com/ShuaiLYU)                       |
