@@ -19,7 +19,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Burhan Qaddoumi         | [Burhan-Q](https://github.com/Burhan-Q)                       |
 | Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                         |
 | Francesco Mattioli      | [ambitious-octopus](https://github.com/ambitious-octopus)     |
-| Giovanni Dal Zillio              | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)   |
+| Giovanni Dal Zillio     | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)   |
 | Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)               |
 | Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)               |
 | Jake Qian               | [fengqianjake](https://github.com/fengqianjake)               |
