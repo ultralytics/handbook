@@ -2,7 +2,7 @@
   "buildCommand": "npm run build",
   "outputDirectory": "site",
   "trailingSlash": true,
-    "redirects": [
+  "redirects": [
     { "source": "/zh", "destination": "/zh/", "permanent": true },
     { "source": "/ko", "destination": "/ko/", "permanent": true },
     { "source": "/ja", "destination": "/ja/", "permanent": true },
