@@ -171,7 +171,7 @@ nav:
           - Software: tools/software.md
           - Email Signatures: tools/email-signatures.md
       - People:
-          - people/pto-policy.md            
+          - people/pto-policy.md
       - Team Roles:
           - Overview: team-roles/index.md
           - Specific Roles: team-roles/specific-roles.md
@@ -203,7 +203,7 @@ nav:
       - Software: tools/software.md
       - Email Signatures: tools/email-signatures.md
   - People:
-      - people/pto-policy.md     
+      - people/pto-policy.md
   - Team Roles:
       - Overview: team-roles/index.md
       - Specific Roles: team-roles/specific-roles.md
