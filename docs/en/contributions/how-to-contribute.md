@@ -48,7 +48,6 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)           |
 | Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                           |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                       |
-| Lynne Swan              | [DubLynne](https://github.com/DubLynne)                       |
 | Shuai (Louis) LYU       | [ShuaiLYU](https://github.com/ShuaiLYU)                       |
 | Abi Anderson            | [UltralyticsAbi](https://github.com/UltralyticsAbi)           |
 | Jin Xu                  | [laodouya](https://github.com/laodouya)                       |
