@@ -57,7 +57,7 @@ Our open-source projects are maintained by a dedicated team of developers. Feel 
 
 For detailed contribution guidelines, please visit our [official documentation](https://docs.ultralytics.com/help/contributing/). Here's a quick overview of the process:
 
-1. Fork the repository you want to contribute to
+1. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the repository you want to contribute to
 2. Create a new branch for your feature or fix
 3. Follow our coding standards and documentation requirements
 4. Submit a pull request with a clear description of your changes
