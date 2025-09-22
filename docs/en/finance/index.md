@@ -41,11 +41,13 @@ Key points include:
 ## Reimbursements 💸
 
 ### Upfront Reimbursement ($3,000.00+)
+
 - Submit expense request with cost estimate and business justification for approval
 - Receive payment before incurring expenses
 - Submit receipts after purchase for reconciliation
 
 ### Standard Reimbursement (Under $3,000.00)
+
 - All reimbursement requests must include detailed receipts and a clear description of business purposes
 - Submit reimbursement requests promptly, ideally within the same fiscal quarter in which expenses were incurred
 - Reimbursements are typically processed within 7 business days following submission and approval

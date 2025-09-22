@@ -18,11 +18,13 @@ This policy applies to all employees of [Ultralytics](https://www.ultralytics.co
 ## Reimbursement Procedures 💰
 
 ### Upfront Reimbursement ($3,000.00+)
+
 - Submit expense request with cost estimate and business justification
 - Receive approval and payment before incurring expenses
 - Submit receipts after travel for reconciliation
 
 ### Standard Reimbursement (Under $3,000.00)
+
 - Pay expenses personally during travel
 - Submit receipts after travel for reimbursement
 
