@@ -15,6 +15,19 @@ This policy applies to all employees of [Ultralytics](https://www.ultralytics.co
 - Expense claims must include a clear description of the business purpose.
 - Submit expenses promptly, ideally within the same fiscal quarter incurred.
 
+## Reimbursement Procedures 💰
+
+### Upfront Reimbursement ($3,000.00+)
+
+- Submit expense request with cost estimate and business justification
+- Receive approval and payment before incurring expenses
+- Submit receipts after travel for reconciliation
+
+### Standard Reimbursement (Under $3,000.00)
+
+- Pay expenses personally during travel
+- Submit receipts after travel for reimbursement
+
 ## Per Diem Rates 💳
 
 Employees traveling for business will receive a daily per diem allowance based on their destination to cover meals, incidental expenses, and all ground transportation costs. Only airfare is reimbursable separately. The following rates apply for the full year of 2025 and will be updated on January 1st, 2026:
@@ -65,7 +78,7 @@ Rates are reviewed annually and adjusted each January 1st based on updates publi
 
 ## Expense Reporting 🧾
 
-- Receipts required for airfare reimbursements.
+- Receipts required for all reimbursements.
 
 ## Exceptions ⚠️
 
