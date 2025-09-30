@@ -1,36 +1,92 @@
----
-description: Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource.
-keywords: Ultralytics Handbook, coming soon, under construction, internal guide, mission, vision, values, workflows, open-source, AI guidelines
----
+# Ultralytics Legal Team
 
-# Licenses
+## Our Mission
 
-## Handbook Under Construction 🏗️📖
+**We provide comprehensive legal support to drive positive outcomes for Ultralytics and our customers in the AI and computer vision technology space.**
 
-Welcome to the [Ultralytics](https://www.ultralytics.com/) [Handbook](https://handbook.ultralytics.com/) "Under Construction" page! We are diligently crafting a comprehensive guide that will serve as your go-to resource for understanding our mission, vision, values, workflows, and company practices. This page is a preview of the detailed documentation and guidelines soon to be available.
+**As your dedicated legal resource, we facilitate efficient and informed decision-making across all areas of the business, ensuring that compliance and innovation go hand in hand.**
 
-## What to Expect from the Handbook 📘
+## Legal Services & Responsibilities
 
-- **Mission and Values:** Learn what drives Ultralytics forward and how we aim to make a lasting impact.
-- **Operational Workflows:** Discover how we work internally, including development processes, team collaboration, and continuous improvement.
-- **Contribution Guidelines:** Get involved! Detailed instructions on how to contribute to our projects and be part of the Ultralytics community.
+### Commercial & Contracts
+- Drafting and negotiating customer agreements  
+- Supporting vendor procurement and contracts  
+- Partnership and licensing agreements  
+- Terms of service and user agreements  
+- Channel partner agreements  
 
-## Stay Informed 🚧
+### Corporate & Compliance
+- Corporate governance and board support  
+- Securities compliance and regulatory filings  
+- Policy development and implementation  
+- Ethics and compliance program oversight  
+- Risk assessment and mitigation  
 
-This placeholder page is just the start. Soon, you’ll have access to:
+### Employment Law
+- Employment contracts and agreements  
+- HR and workplace policy development  
+- Workplace compliance issues  
+- Disciplinary and termination support  
+- Labor law compliance  
 
-- **Internal Workflows:** Best practices for development, testing, and open-source contributions.
-- **Team Roles:** Detailed roles and responsibilities for team members and contributors.
-- **Collaboration Guidelines:** Clear guidance for collaborating on projects and contributing effectively.
+### Intellectual Property
+- Trademark registration and protection  
+- Copyright support  
+- Patent strategy and filing  
+- IP licensing and agreements  
+- Handling infringement issues and disputes  
 
-## Be a Part of the Handbook 🗣️
+### Privacy & Data Protection
+- Privacy policy development  
+- Data processing agreements  
+- GDPR and global privacy compliance  
+- Data breach response and incident support  
+- Vendor privacy and data protection assessments  
+- Privacy impact assessments (PIAs)  
+- Cross-border data transfer compliance  
+- Data retention and disposal policies  
 
-We value your input as we develop this resource. If you have suggestions or feedback, share your thoughts [here](https://www.ultralytics.com/survey).
+### Litigation & Disputes
+- Managing contract disputes  
+- Employment-related claims  
+- IP infringement matters  
+- Regulatory investigations  
+- General business litigation  
 
-## Thank You to Our Community 🌍
+## Contact Information
 
-Your [contributions](https://docs.ultralytics.com/help/contributing/) and feedback drive us to keep improving and refining the way we work at Ultralytics. Stay tuned as we roll out the complete handbook to help you engage, contribute, and align with our mission and values.
+### Legal Team Contacts
+- **Head of Legal**: William Beaven  
+- **Email**: [legal@ultralytics.com](mailto:legal@ultralytics.com)  
+- **Slack**: `#compliance` (for internal team members)  
 
----
+### Slack Guidelines
+- Use `#compliance` for legal matters and compliance guidance (tag `@legal-team` for same-day response)
+- Use `#sales` for contract reviews and sales-related legal questions 
 
-Excited for the Ultralytics Handbook? Bookmark this page and be the first to explore our internal processes and principles as we continue to build and share our journey with you! 📖✨
+### Priority Response (same-day)
+- Litigation or legal threats  
+- Regulatory investigations  
+- Data breaches or security incidents  
+- Employment terminations  
+- IP infringement claims  
+
+## Policies & Resources
+
+### Company Policies
+- [Code of Business Conduct & Ethics](https://handbook.ultralytics.com/legal/code-of-business-conduct-and-ethics/#consequences-of-violations)  
+- [GDPR Compliance Policy](https://app.vanta.com/c/ultralytics/employee/onboarding)  
+
+### Legal Documents
+- [Terms of Service](https://www.ultralytics.com/legal/terms-of-service)  
+- [Privacy Policy](https://www.ultralytics.com/legal/privacy)  
+- [Ultralytics Enterprise Software License Terms](https://www.ultralytics.com/legal/enterprise-software-license)  
+
+## Anonymous Reporting
+
+We encourage open communication, but if you need to raise a sensitive issue confidentially, we provide anonymous reporting channels.  
+
+- [Anonymous Form Reporting](https://docs.google.com/forms/d/e/1FAIpQLSdXE24kB5975eZZBJ_0t1E-w7TKlTCUFYpm_MvccXi9qvwJtQ/viewform)  
+- **By post:** Judicial Way, Frederick, MD 21703, United States  
+
+All reports are confidential and protected from retaliation.  
