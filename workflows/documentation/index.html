@@ -6,14 +6,14 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." name="description"/>
+<meta content="Ultralytics documentation workflow covering writing, building, and maintaining docs for YOLO11 and Ultralytics projects." name="description"/>
 <meta content="Ultralytics" name="author"/>
 <link href="https://handbook.ultralytics.com/workflows/documentation/" rel="canonical"/>
 <link href="../ci-testing/" rel="prev"/>
 <link href="../../contributions/how-to-contribute/" rel="next"/>
 <link href="https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/logo/favicon-yolo.png" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.6.21" name="generator"/>
-<title>Documentation - Ultralytics Handbook</title>
+<title>Documentation Workflow 📚 - Ultralytics Handbook</title>
 <link href="../../assets/stylesheets/main.2a3383ac.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -21,13 +21,13 @@
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="../../stylesheets/style.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<meta content="Documentation" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics Handbook, coming soon, under construction, internal guide, mission, vision, values, workflows, open-source, AI guidelines" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/workflows/documentation" property="og:url"/><meta content="Documentation" property="og:title"/><meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." property="og:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/workflows/documentation" property="twitter:url"/><meta content="Documentation" property="twitter:title"/><meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." property="twitter:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Documentation", "image": ["https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"], "datePublished": "2025-08-27 20:38:20 +0200", "dateModified": "2025-08-27 20:38:20 +0200", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Explore the Ultralytics Handbook\u2014a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource."}</script></head>
+<meta content="Documentation" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics, documentation, MkDocs, writing guides, YOLO11 docs, API documentation, tutorials" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/workflows/documentation" property="og:url"/><meta content="Documentation" property="og:title"/><meta content="Ultralytics documentation workflow covering writing, building, and maintaining docs for YOLO11 and Ultralytics projects." property="og:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/workflows/documentation" property="twitter:url"/><meta content="Documentation" property="twitter:title"/><meta content="Ultralytics documentation workflow covering writing, building, and maintaining docs for YOLO11 and Ultralytics projects." property="twitter:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Documentation", "image": ["https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"], "datePublished": "2025-08-27 20:38:20 +0200", "dateModified": "2025-10-01 18:51:36 +0100", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Ultralytics documentation workflow covering writing, building, and maintaining docs for YOLO11 and Ultralytics projects."}</script></head>
 <body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#documentation">
+<a class="md-skip" href="#documentation-workflow">
           Skip to content
         </a>
 </div>
@@ -366,37 +366,226 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#handbook-under-construction">
+<a class="md-nav__link" href="#documentation-structure">
 <span class="md-ellipsis">
-      Handbook Under Construction 🏗️📖
+      Documentation Structure 🗂️
+    </span>
+</a>
+<nav aria-label="Documentation Structure 🗂️" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#main-documentation-sites">
+<span class="md-ellipsis">
+      Main Documentation Sites
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#what-to-expect-from-the-handbook">
+<a class="md-nav__link" href="#repository-structure">
 <span class="md-ellipsis">
-      What to Expect from the Handbook 📘
+      Repository Structure
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#writing-documentation">
+<span class="md-ellipsis">
+      Writing Documentation ✍️
+    </span>
+</a>
+<nav aria-label="Writing Documentation ✍️" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#style-guide">
+<span class="md-ellipsis">
+      Style Guide
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#stay-informed">
+<a class="md-nav__link" href="#markdown-format">
 <span class="md-ellipsis">
-      Stay Informed 🚧
+      Markdown Format
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#be-a-part-of-the-handbook">
+<a class="md-nav__link" href="#key-points">
 <span class="md-ellipsis">
-      Be a Part of the Handbook 🗣️
+      Key points:
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#thank-you-to-our-community">
+<a class="md-nav__link" href="#images-and-media">
 <span class="md-ellipsis">
-      Thank You to Our Community 🌍
+      Images and Media
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#building-documentation">
+<span class="md-ellipsis">
+      Building Documentation 🔨
+    </span>
+</a>
+<nav aria-label="Building Documentation 🔨" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#local-development">
+<span class="md-ellipsis">
+      Local Development
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mkdocs-configuration">
+<span class="md-ellipsis">
+      MkDocs Configuration
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#api-documentation">
+<span class="md-ellipsis">
+      API Documentation 📖
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#adding-new-pages">
+<span class="md-ellipsis">
+      Adding New Pages 📄
+    </span>
+</a>
+<nav aria-label="Adding New Pages 📄" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1-create-markdown-file">
+<span class="md-ellipsis">
+      1. Create Markdown File
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2-update-navigation">
+<span class="md-ellipsis">
+      2. Update Navigation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#3-write-content">
+<span class="md-ellipsis">
+      3. Write Content
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#4-test-build">
+<span class="md-ellipsis">
+      4. Test Build
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#5-submit-pr">
+<span class="md-ellipsis">
+      5. Submit PR
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#translations">
+<span class="md-ellipsis">
+      Translations 🌐
+    </span>
+</a>
+<nav aria-label="Translations 🌐" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#adding-translations">
+<span class="md-ellipsis">
+      Adding Translations
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#translation-guidelines">
+<span class="md-ellipsis">
+      Translation Guidelines
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#documentation-ci">
+<span class="md-ellipsis">
+      Documentation CI 🤖
+    </span>
+</a>
+<nav aria-label="Documentation CI 🤖" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#fixing-build-errors">
+<span class="md-ellipsis">
+      Fixing Build Errors
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices">
+<span class="md-ellipsis">
+      Best Practices ✅
+    </span>
+</a>
+<nav aria-label="Best Practices ✅" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#content-organization">
+<span class="md-ellipsis">
+      Content Organization
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#maintenance">
+<span class="md-ellipsis">
+      Maintenance
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#accessibility">
+<span class="md-ellipsis">
+      Accessibility
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resources">
+<span class="md-ellipsis">
+      Resources 📚
     </span>
 </a>
 </li>
@@ -457,37 +646,226 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#handbook-under-construction">
+<a class="md-nav__link" href="#documentation-structure">
 <span class="md-ellipsis">
-      Handbook Under Construction 🏗️📖
+      Documentation Structure 🗂️
+    </span>
+</a>
+<nav aria-label="Documentation Structure 🗂️" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#main-documentation-sites">
+<span class="md-ellipsis">
+      Main Documentation Sites
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#what-to-expect-from-the-handbook">
+<a class="md-nav__link" href="#repository-structure">
 <span class="md-ellipsis">
-      What to Expect from the Handbook 📘
+      Repository Structure
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#writing-documentation">
+<span class="md-ellipsis">
+      Writing Documentation ✍️
+    </span>
+</a>
+<nav aria-label="Writing Documentation ✍️" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#style-guide">
+<span class="md-ellipsis">
+      Style Guide
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#stay-informed">
+<a class="md-nav__link" href="#markdown-format">
 <span class="md-ellipsis">
-      Stay Informed 🚧
+      Markdown Format
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#be-a-part-of-the-handbook">
+<a class="md-nav__link" href="#key-points">
 <span class="md-ellipsis">
-      Be a Part of the Handbook 🗣️
+      Key points:
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#thank-you-to-our-community">
+<a class="md-nav__link" href="#images-and-media">
 <span class="md-ellipsis">
-      Thank You to Our Community 🌍
+      Images and Media
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#building-documentation">
+<span class="md-ellipsis">
+      Building Documentation 🔨
+    </span>
+</a>
+<nav aria-label="Building Documentation 🔨" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#local-development">
+<span class="md-ellipsis">
+      Local Development
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mkdocs-configuration">
+<span class="md-ellipsis">
+      MkDocs Configuration
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#api-documentation">
+<span class="md-ellipsis">
+      API Documentation 📖
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#adding-new-pages">
+<span class="md-ellipsis">
+      Adding New Pages 📄
+    </span>
+</a>
+<nav aria-label="Adding New Pages 📄" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1-create-markdown-file">
+<span class="md-ellipsis">
+      1. Create Markdown File
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2-update-navigation">
+<span class="md-ellipsis">
+      2. Update Navigation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#3-write-content">
+<span class="md-ellipsis">
+      3. Write Content
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#4-test-build">
+<span class="md-ellipsis">
+      4. Test Build
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#5-submit-pr">
+<span class="md-ellipsis">
+      5. Submit PR
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#translations">
+<span class="md-ellipsis">
+      Translations 🌐
+    </span>
+</a>
+<nav aria-label="Translations 🌐" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#adding-translations">
+<span class="md-ellipsis">
+      Adding Translations
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#translation-guidelines">
+<span class="md-ellipsis">
+      Translation Guidelines
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#documentation-ci">
+<span class="md-ellipsis">
+      Documentation CI 🤖
+    </span>
+</a>
+<nav aria-label="Documentation CI 🤖" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#fixing-build-errors">
+<span class="md-ellipsis">
+      Fixing Build Errors
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices">
+<span class="md-ellipsis">
+      Best Practices ✅
+    </span>
+</a>
+<nav aria-label="Best Practices ✅" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#content-organization">
+<span class="md-ellipsis">
+      Content Organization
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#maintenance">
+<span class="md-ellipsis">
+      Maintenance
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#accessibility">
+<span class="md-ellipsis">
+      Accessibility
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resources">
+<span class="md-ellipsis">
+      Resources 📚
     </span>
 </a>
 </li>
@@ -501,28 +879,215 @@
 <a class="md-content__button md-icon" href="https://github.com/ultralytics/handbook/tree/main/docs/en/workflows/documentation.md" rel="edit" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
 </a><a class="md-content__button md-icon" href="javascript:void(0)" onclick="copyMarkdownForLLM(this); return false;" title="Copy page in Markdown format"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg></a>
-<h1 id="documentation">Documentation</h1>
-<h2 id="handbook-under-construction">Handbook Under Construction 🏗️📖</h2>
-<p>Welcome to the <a href="https://www.ultralytics.com/">Ultralytics</a> <a href="https://handbook.ultralytics.com/">Handbook</a> "Under Construction" page! We are diligently crafting a comprehensive guide that will serve as your go-to resource for understanding our mission, vision, values, workflows, and company practices. This page is a preview of the detailed documentation and guidelines soon to be available.</p>
-<h2 id="what-to-expect-from-the-handbook">What to Expect from the Handbook 📘</h2>
+<h1 id="documentation-workflow">Documentation Workflow 📚</h1>
+<p>This guide covers writing, building, and maintaining documentation for <a href="https://www.ultralytics.com/">Ultralytics</a> projects.</p>
+<h2 id="documentation-structure">Documentation Structure 🗂️</h2>
+<h3 id="main-documentation-sites">Main Documentation Sites</h3>
 <ul>
-<li><strong>Mission and Values:</strong> Learn what drives Ultralytics forward and how we aim to make a lasting impact.</li>
-<li><strong>Operational Workflows:</strong> Discover how we work internally, including development processes, team collaboration, and continuous improvement.</li>
-<li><strong>Contribution Guidelines:</strong> Get involved! Detailed instructions on how to contribute to our projects and be part of the Ultralytics community.</li>
+<li><strong><a href="https://docs.ultralytics.com">docs.ultralytics.com</a></strong> - YOLO11 technical documentation</li>
+<li><strong><a href="https://handbook.ultralytics.com">handbook.ultralytics.com</a></strong> - Company handbook (this site)</li>
 </ul>
-<h2 id="stay-informed">Stay Informed 🚧</h2>
-<p>This placeholder page is just the start. Soon, you’ll have access to:</p>
+<h3 id="repository-structure">Repository Structure</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>docs/
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>├── en/              # English docs
+<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>│   ├── index.md     # Homepage
+<a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a>│   ├── guides/      # User guides
+<a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a>│   ├── tasks/       # Task-specific docs
+<a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a>│   ├── models/      # Model documentation
+<a href="#__codelineno-0-7" id="__codelineno-0-7" name="__codelineno-0-7"></a>│   └── reference/   # API reference
+<a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a>├── zh/              # Chinese translations
+<a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a>└── overrides/       # Theme customizations
+</code></pre></div>
+<h2 id="writing-documentation">Writing Documentation ✍️</h2>
+<h3 id="style-guide">Style Guide</h3>
 <ul>
-<li><strong>Internal Workflows:</strong> Best practices for development, testing, and open-source contributions.</li>
-<li><strong>Team Roles:</strong> Detailed roles and responsibilities for team members and contributors.</li>
-<li><strong>Collaboration Guidelines:</strong> Clear guidance for collaborating on projects and contributing effectively.</li>
+<li><strong>Clear and concise</strong>: Get to the point quickly</li>
+<li><strong>Active voice</strong>: "Train the model" not "The model is trained"</li>
+<li><strong>Code examples</strong>: Show working code for every concept</li>
+<li><strong>Visual aids</strong>: Use images/diagrams where helpful</li>
+<li><strong>Consistent formatting</strong>: Follow existing page structures</li>
 </ul>
-<h2 id="be-a-part-of-the-handbook">Be a Part of the Handbook 🗣️</h2>
-<p>We value your input as we develop this resource. If you have suggestions or feedback, share your thoughts <a href="https://www.ultralytics.com/survey">here</a>.</p>
-<h2 id="thank-you-to-our-community">Thank You to Our Community 🌍</h2>
-<p>Your <a href="https://docs.ultralytics.com/help/contributing/">contributions</a> and feedback drive us to keep improving and refining the way we work at Ultralytics. Stay tuned as we roll out the complete handbook to help you engage, contribute, and align with our mission and values.</p>
-<hr/>
-<p>Excited for the Ultralytics Handbook? Bookmark this page and be the first to explore our internal processes and principles as we continue to build and share our journey with you! 📖✨</p>
+<h3 id="markdown-format">Markdown Format</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>---
+<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a>description: Brief page description for SEO
+<a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="gu">keywords: relevant, keywords, for, search</span>
+<a href="#__codelineno-1-4" id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="gu">---</span>
+<a href="#__codelineno-1-5" id="__codelineno-1-5" name="__codelineno-1-5"></a>
+<a href="#__codelineno-1-6" id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="gh"># Page Title</span>
+<a href="#__codelineno-1-7" id="__codelineno-1-7" name="__codelineno-1-7"></a>
+<a href="#__codelineno-1-8" id="__codelineno-1-8" name="__codelineno-1-8"></a>Brief introduction explaining what this page covers.
+<a href="#__codelineno-1-9" id="__codelineno-1-9" name="__codelineno-1-9"></a>
+<a href="#__codelineno-1-10" id="__codelineno-1-10" name="__codelineno-1-10"></a><span class="gu">## Section Heading</span>
+<a href="#__codelineno-1-11" id="__codelineno-1-11" name="__codelineno-1-11"></a>
+<a href="#__codelineno-1-12" id="__codelineno-1-12" name="__codelineno-1-12"></a>Content with examples:
+<a href="#__codelineno-1-13" id="__codelineno-1-13" name="__codelineno-1-13"></a>
+<a href="#__codelineno-1-14" id="__codelineno-1-14" name="__codelineno-1-14"></a><span class="sb">```python</span>
+<a href="#__codelineno-1-15" id="__codelineno-1-15" name="__codelineno-1-15"></a><span class="kn">from</span><span class="w"> </span><span class="nn">ultralytics</span><span class="w"> </span><span class="kn">import</span> <span class="n">YOLO</span>
+<a href="#__codelineno-1-16" id="__codelineno-1-16" name="__codelineno-1-16"></a>
+<a href="#__codelineno-1-17" id="__codelineno-1-17" name="__codelineno-1-17"></a><span class="n">model</span> <span class="o">=</span> <span class="n">YOLO</span><span class="p">(</span><span class="s2">"yolo11n.pt"</span><span class="p">)</span>
+<a href="#__codelineno-1-18" id="__codelineno-1-18" name="__codelineno-1-18"></a><span class="n">results</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="s2">"image.jpg"</span><span class="p">)</span>
+<a href="#__codelineno-1-19" id="__codelineno-1-19" name="__codelineno-1-19"></a><span class="sb">```</span>
+</code></pre></div>
+<h3 id="key-points">Key points:</h3>
+<ul>
+<li>Use bullet points for lists</li>
+<li>Keep paragraphs short</li>
+<li>Include links to related pages</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>### Code Examples
+<a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a>
+<a href="#__codelineno-2-3" id="__codelineno-2-3" name="__codelineno-2-3"></a>- **Minimal**: Show only relevant code
+<a href="#__codelineno-2-4" id="__codelineno-2-4" name="__codelineno-2-4"></a>- **Runnable**: Examples should work copy-paste
+<a href="#__codelineno-2-5" id="__codelineno-2-5" name="__codelineno-2-5"></a>- **Commented**: Explain non-obvious parts
+<a href="#__codelineno-2-6" id="__codelineno-2-6" name="__codelineno-2-6"></a>- **Tested**: Verify examples work with current version
+<a href="#__codelineno-2-7" id="__codelineno-2-7" name="__codelineno-2-7"></a>
+<a href="#__codelineno-2-8" id="__codelineno-2-8" name="__codelineno-2-8"></a>```python
+<a href="#__codelineno-2-9" id="__codelineno-2-9" name="__codelineno-2-9"></a>from ultralytics import YOLO
+<a href="#__codelineno-2-10" id="__codelineno-2-10" name="__codelineno-2-10"></a>
+<a href="#__codelineno-2-11" id="__codelineno-2-11" name="__codelineno-2-11"></a># Load pretrained model
+<a href="#__codelineno-2-12" id="__codelineno-2-12" name="__codelineno-2-12"></a>model = YOLO("yolo11n.pt")
+<a href="#__codelineno-2-13" id="__codelineno-2-13" name="__codelineno-2-13"></a>
+<a href="#__codelineno-2-14" id="__codelineno-2-14" name="__codelineno-2-14"></a># Train on custom data
+<a href="#__codelineno-2-15" id="__codelineno-2-15" name="__codelineno-2-15"></a>results = model.train(data="coco8.yaml", epochs=3)
+</code></pre></div>
+<h3 id="images-and-media">Images and Media</h3>
+<p>Store in repository or use CDN:</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a>![<span class="nt">Alt text</span>](<span class="na">https://path/to/image.png</span>)
+</code></pre></div>
+<p>Keep image sizes reasonable (&lt;500KB when possible).</p>
+<h2 id="building-documentation">Building Documentation 🔨</h2>
+<h3 id="local-development">Local Development</h3>
+<p>Install dependencies:</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a>pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span><span class="s2">".[docs]"</span>
+</code></pre></div>
+<p>Build and serve locally:</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-5-1" id="__codelineno-5-1" name="__codelineno-5-1"></a>mkdocs<span class="w"> </span>serve
+</code></pre></div>
+<p>Visit <code>http://127.0.0.1:8000</code> to preview.</p>
+<h3 id="mkdocs-configuration">MkDocs Configuration</h3>
+<p>Main config in <code>mkdocs.yml</code>:</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-6-1" id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="nt">site_name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Ultralytics Docs</span>
+<a href="#__codelineno-6-2" id="__codelineno-6-2" name="__codelineno-6-2"></a><span class="nt">theme</span><span class="p">:</span>
+<a href="#__codelineno-6-3" id="__codelineno-6-3" name="__codelineno-6-3"></a><span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">material</span>
+<a href="#__codelineno-6-4" id="__codelineno-6-4" name="__codelineno-6-4"></a><span class="w">    </span><span class="nt">palette</span><span class="p">:</span>
+<a href="#__codelineno-6-5" id="__codelineno-6-5" name="__codelineno-6-5"></a><span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">scheme</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">slate</span>
+<a href="#__codelineno-6-6" id="__codelineno-6-6" name="__codelineno-6-6"></a><span class="nt">plugins</span><span class="p">:</span>
+<a href="#__codelineno-6-7" id="__codelineno-6-7" name="__codelineno-6-7"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">search</span>
+<a href="#__codelineno-6-8" id="__codelineno-6-8" name="__codelineno-6-8"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ultralytics</span>
+</code></pre></div>
+<h2 id="api-documentation">API Documentation 📖</h2>
+<p>API reference is auto-generated from docstrings:</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-7-1" id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">train</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">epochs</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">batch</span><span class="o">=</span><span class="mi">16</span><span class="p">):</span>
+<a href="#__codelineno-7-2" id="__codelineno-7-2" name="__codelineno-7-2"></a><span class="w">    </span><span class="sd">"""</span>
+<a href="#__codelineno-7-3" id="__codelineno-7-3" name="__codelineno-7-3"></a><span class="sd">    Train the model on a dataset.</span>
+<a href="#__codelineno-7-4" id="__codelineno-7-4" name="__codelineno-7-4"></a>
+<a href="#__codelineno-7-5" id="__codelineno-7-5" name="__codelineno-7-5"></a><span class="sd">    Args:</span>
+<a href="#__codelineno-7-6" id="__codelineno-7-6" name="__codelineno-7-6"></a><span class="sd">        data (str): Path to data YAML file</span>
+<a href="#__codelineno-7-7" id="__codelineno-7-7" name="__codelineno-7-7"></a><span class="sd">        epochs (int): Number of training epochs</span>
+<a href="#__codelineno-7-8" id="__codelineno-7-8" name="__codelineno-7-8"></a><span class="sd">        batch (int): Batch size</span>
+<a href="#__codelineno-7-9" id="__codelineno-7-9" name="__codelineno-7-9"></a>
+<a href="#__codelineno-7-10" id="__codelineno-7-10" name="__codelineno-7-10"></a><span class="sd">    Returns:</span>
+<a href="#__codelineno-7-11" id="__codelineno-7-11" name="__codelineno-7-11"></a><span class="sd">        (Results): Training results</span>
+<a href="#__codelineno-7-12" id="__codelineno-7-12" name="__codelineno-7-12"></a>
+<a href="#__codelineno-7-13" id="__codelineno-7-13" name="__codelineno-7-13"></a><span class="sd">    Examples:</span>
+<a href="#__codelineno-7-14" id="__codelineno-7-14" name="__codelineno-7-14"></a><span class="sd">        ```python</span>
+<a href="#__codelineno-7-15" id="__codelineno-7-15" name="__codelineno-7-15"></a><span class="sd">        model = YOLO("yolo11n.pt")</span>
+<a href="#__codelineno-7-16" id="__codelineno-7-16" name="__codelineno-7-16"></a><span class="sd">        results = model.train(data="coco8.yaml", epochs=100)</span>
+<a href="#__codelineno-7-17" id="__codelineno-7-17" name="__codelineno-7-17"></a><span class="sd">        ```</span>
+<a href="#__codelineno-7-18" id="__codelineno-7-18" name="__codelineno-7-18"></a><span class="sd">    """</span>
+</code></pre></div>
+<p>Key elements:</p>
+<ul>
+<li><strong>Brief description</strong>: One-line summary</li>
+<li><strong>Args</strong>: Parameter descriptions with types</li>
+<li><strong>Returns</strong>: Return value description</li>
+<li><strong>Examples</strong>: Working code example</li>
+</ul>
+<h2 id="adding-new-pages">Adding New Pages 📄</h2>
+<h3 id="1-create-markdown-file">1. Create Markdown File</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-8-1" id="__codelineno-8-1" name="__codelineno-8-1"></a><span class="c1"># Create new guide</span>
+<a href="#__codelineno-8-2" id="__codelineno-8-2" name="__codelineno-8-2"></a>touch<span class="w"> </span>docs/en/guides/new-guide.md
+</code></pre></div>
+<h3 id="2-update-navigation">2. Update Navigation</h3>
+<p>Edit <code>mkdocs.yml</code>:</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-9-1" id="__codelineno-9-1" name="__codelineno-9-1"></a><span class="nt">nav</span><span class="p">:</span>
+<a href="#__codelineno-9-2" id="__codelineno-9-2" name="__codelineno-9-2"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">Home</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">index.md</span>
+<a href="#__codelineno-9-3" id="__codelineno-9-3" name="__codelineno-9-3"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">Guides</span><span class="p">:</span>
+<a href="#__codelineno-9-4" id="__codelineno-9-4" name="__codelineno-9-4"></a><span class="w">          </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">New Guide</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">guides/new-guide.md</span>
+</code></pre></div>
+<h3 id="3-write-content">3. Write Content</h3>
+<p>Follow style guide and include examples.</p>
+<h3 id="4-test-build">4. Test Build</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-10-1" id="__codelineno-10-1" name="__codelineno-10-1"></a>mkdocs<span class="w"> </span>serve
+</code></pre></div>
+<h3 id="5-submit-pr">5. Submit PR</h3>
+<p>Follow <a href="../development/">development workflow</a> for PR process.</p>
+<h2 id="translations">Translations 🌐</h2>
+<h3 id="adding-translations">Adding Translations</h3>
+<ol>
+<li>Copy English version to language directory:</li>
+</ol>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-11-1" id="__codelineno-11-1" name="__codelineno-11-1"></a>cp<span class="w"> </span>docs/en/page.md<span class="w"> </span>docs/zh/page.md
+</code></pre></div>
+<ol>
+<li>
+<p>Translate content, keep code examples in English</p>
+</li>
+<li>
+<p>Update <code>mkdocs.yml</code> alternate links</p>
+</li>
+</ol>
+<h3 id="translation-guidelines">Translation Guidelines</h3>
+<ul>
+<li>Keep technical terms in English (YOLO, mAP, FPS)</li>
+<li>Translate descriptions and explanations</li>
+<li>Maintain same structure as English version</li>
+<li>Update translations when English version changes</li>
+</ul>
+<h2 id="documentation-ci">Documentation CI 🤖</h2>
+<p>CI automatically:</p>
+<ul>
+<li>Builds documentation on every PR</li>
+<li>Checks for broken links</li>
+<li>Validates markdown formatting</li>
+<li>Deploys to production on merge to main</li>
+</ul>
+<h3 id="fixing-build-errors">Fixing Build Errors</h3>
+<p>Common issues:</p>
+<ul>
+<li><strong>Broken links</strong>: Fix or remove invalid links</li>
+<li><strong>Missing images</strong>: Add images or update paths</li>
+<li><strong>Invalid YAML</strong>: Fix frontmatter syntax</li>
+<li><strong>Plugin errors</strong>: Check plugin configuration</li>
+</ul>
+<h2 id="best-practices">Best Practices ✅</h2>
+<h3 id="content-organization">Content Organization</h3>
+<ul>
+<li><strong>Logical structure</strong>: Group related content</li>
+<li><strong>Progressive disclosure</strong>: Simple → advanced</li>
+<li><strong>Cross-linking</strong>: Link to related pages</li>
+<li><strong>Search optimization</strong>: Use clear titles and descriptions</li>
+</ul>
+<h3 id="maintenance">Maintenance</h3>
+<ul>
+<li><strong>Keep current</strong>: Update for new features</li>
+<li><strong>Remove outdated</strong>: Delete deprecated content</li>
+<li><strong>Check links</strong>: Fix broken links regularly</li>
+<li><strong>User feedback</strong>: Address common questions</li>
+</ul>
+<h3 id="accessibility">Accessibility</h3>
+<ul>
+<li><strong>Alt text</strong>: Describe images for screen readers</li>
+<li><strong>Clear headings</strong>: Use proper heading hierarchy</li>
+<li><strong>Plain language</strong>: Avoid jargon when possible</li>
+<li><strong>Code contrast</strong>: Ensure code blocks are readable</li>
+</ul>
+<h2 id="resources">Resources 📚</h2>
+<ul>
+<li><a href="https://www.mkdocs.org/">MkDocs Documentation</a> - Static site generator</li>
+<li><a href="https://squidfunk.github.io/mkdocs-material/">Material Theme</a> - Theme documentation</li>
+<li><a href="https://www.markdownguide.org/">Markdown Guide</a> - Markdown syntax reference</li>
+</ul>
 <!-- Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license -->
 <br/><br/>
 <div class="git-info">
@@ -530,12 +1095,12 @@
 <span class="date-item" title="This page was first created on August 27, 2025">
 <span class="hover-item">📅</span> Created 1 month ago
     </span>
-<span class="date-item" title="This page was last updated on August 27, 2025">
-<span class="hover-item">✏️</span> Updated 1 month ago
+<span class="date-item" title="This page was last updated on October 01, 2025">
+<span class="hover-item">✏️</span> Updated 0 days ago
     </span>
 </div>
 <div class="authors-container">
-<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (1 change)">
+<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (2 changes)">
 <img alt="glenn-jocher" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/26833433?v=4&amp;s=96"/>
 </a>
 </div></div><div class="share-buttons">

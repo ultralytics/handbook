@@ -6,14 +6,14 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." name="description"/>
+<meta content="Ultralytics product development workflow covering feature planning, development cycles, release process, and product management for YOLO11." name="description"/>
 <meta content="Ultralytics" name="author"/>
 <link href="https://handbook.ultralytics.com/workflows/product-development/" rel="canonical"/>
 <link href="../development/" rel="prev"/>
 <link href="../ci-testing/" rel="next"/>
 <link href="https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/logo/favicon-yolo.png" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.6.21" name="generator"/>
-<title>Product Development - Ultralytics Handbook</title>
+<title>Product Development Workflow 🚀 - Ultralytics Handbook</title>
 <link href="../../assets/stylesheets/main.2a3383ac.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -21,13 +21,13 @@
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="../../stylesheets/style.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<meta content="Product Dev" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics Handbook, coming soon, under construction, internal guide, mission, vision, values, workflows, open-source, AI guidelines" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/workflows/product-development" property="og:url"/><meta content="Product Dev" property="og:title"/><meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." property="og:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/workflows/product-development" property="twitter:url"/><meta content="Product Dev" property="twitter:title"/><meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." property="twitter:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Product Dev", "image": ["https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"], "datePublished": "2025-08-27 20:38:20 +0200", "dateModified": "2025-08-27 20:38:20 +0200", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Explore the Ultralytics Handbook\u2014a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource."}</script></head>
+<meta content="Product Dev" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics, product development, feature planning, release process, YOLO11, product management, roadmap" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/workflows/product-development" property="og:url"/><meta content="Product Dev" property="og:title"/><meta content="Ultralytics product development workflow covering feature planning, development cycles, release process, and product management for YOLO11." property="og:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/workflows/product-development" property="twitter:url"/><meta content="Product Dev" property="twitter:title"/><meta content="Ultralytics product development workflow covering feature planning, development cycles, release process, and product management for YOLO11." property="twitter:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Product Dev", "image": ["https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"], "datePublished": "2025-08-27 20:38:20 +0200", "dateModified": "2025-10-01 18:51:36 +0100", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Ultralytics product development workflow covering feature planning, development cycles, release process, and product management for YOLO11."}</script></head>
 <body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#product-development">
+<a class="md-skip" href="#product-development-workflow">
           Skip to content
         </a>
 </div>
@@ -350,37 +350,272 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#handbook-under-construction">
+<a class="md-nav__link" href="#product-philosophy">
 <span class="md-ellipsis">
-      Handbook Under Construction 🏗️📖
+      Product Philosophy 🎯
+    </span>
+</a>
+<nav aria-label="Product Philosophy 🎯" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#core-principles">
+<span class="md-ellipsis">
+      Core Principles
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#what-to-expect-from-the-handbook">
+<a class="md-nav__link" href="#development-values">
 <span class="md-ellipsis">
-      What to Expect from the Handbook 📘
+      Development Values
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#feature-development-lifecycle">
+<span class="md-ellipsis">
+      Feature Development Lifecycle 🔄
+    </span>
+</a>
+<nav aria-label="Feature Development Lifecycle 🔄" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1-discovery-planning">
+<span class="md-ellipsis">
+      1. Discovery &amp; Planning
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#stay-informed">
+<a class="md-nav__link" href="#2-design-specification">
 <span class="md-ellipsis">
-      Stay Informed 🚧
+      2. Design &amp; Specification
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#be-a-part-of-the-handbook">
+<a class="md-nav__link" href="#3-implementation">
 <span class="md-ellipsis">
-      Be a Part of the Handbook 🗣️
+      3. Implementation
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#thank-you-to-our-community">
+<a class="md-nav__link" href="#4-review-iteration">
 <span class="md-ellipsis">
-      Thank You to Our Community 🌍
+      4. Review &amp; Iteration
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#5-release">
+<span class="md-ellipsis">
+      5. Release
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#release-process">
+<span class="md-ellipsis">
+      Release Process 📦
+    </span>
+</a>
+<nav aria-label="Release Process 📦" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#versioning">
+<span class="md-ellipsis">
+      Versioning
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#release-schedule">
+<span class="md-ellipsis">
+      Release Schedule
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#release-checklist">
+<span class="md-ellipsis">
+      Release Checklist
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#hotfix-process">
+<span class="md-ellipsis">
+      Hotfix Process
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#feature-prioritization">
+<span class="md-ellipsis">
+      Feature Prioritization 📊
+    </span>
+</a>
+<nav aria-label="Feature Prioritization 📊" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#high-priority">
+<span class="md-ellipsis">
+      High Priority
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#medium-priority">
+<span class="md-ellipsis">
+      Medium Priority
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#low-priority">
+<span class="md-ellipsis">
+      Low Priority
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deprioritized">
+<span class="md-ellipsis">
+      Deprioritized
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#metrics-success">
+<span class="md-ellipsis">
+      Metrics &amp; Success 📈
+    </span>
+</a>
+<nav aria-label="Metrics &amp; Success 📈" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#key-metrics">
+<span class="md-ellipsis">
+      Key Metrics
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#feature-success-criteria">
+<span class="md-ellipsis">
+      Feature Success Criteria
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#communication">
+<span class="md-ellipsis">
+      Communication 💬
+    </span>
+</a>
+<nav aria-label="Communication 💬" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#internal">
+<span class="md-ellipsis">
+      Internal
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#external">
+<span class="md-ellipsis">
+      External
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#product-roadmap">
+<span class="md-ellipsis">
+      Product Roadmap 🗺️
+    </span>
+</a>
+<nav aria-label="Product Roadmap 🗺️" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#current-focus">
+<span class="md-ellipsis">
+      Current Focus
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#upcoming-areas">
+<span class="md-ellipsis">
+      Upcoming Areas
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#long-term-vision">
+<span class="md-ellipsis">
+      Long-term Vision
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices">
+<span class="md-ellipsis">
+      Best Practices ✅
+    </span>
+</a>
+<nav aria-label="Best Practices ✅" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#feature-development">
+<span class="md-ellipsis">
+      Feature Development
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#release-management">
+<span class="md-ellipsis">
+      Release Management
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#community-engagement">
+<span class="md-ellipsis">
+      Community Engagement
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resources">
+<span class="md-ellipsis">
+      Resources 📚
     </span>
 </a>
 </li>
@@ -457,37 +692,272 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#handbook-under-construction">
+<a class="md-nav__link" href="#product-philosophy">
 <span class="md-ellipsis">
-      Handbook Under Construction 🏗️📖
+      Product Philosophy 🎯
+    </span>
+</a>
+<nav aria-label="Product Philosophy 🎯" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#core-principles">
+<span class="md-ellipsis">
+      Core Principles
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#what-to-expect-from-the-handbook">
+<a class="md-nav__link" href="#development-values">
 <span class="md-ellipsis">
-      What to Expect from the Handbook 📘
+      Development Values
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#feature-development-lifecycle">
+<span class="md-ellipsis">
+      Feature Development Lifecycle 🔄
+    </span>
+</a>
+<nav aria-label="Feature Development Lifecycle 🔄" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1-discovery-planning">
+<span class="md-ellipsis">
+      1. Discovery &amp; Planning
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#stay-informed">
+<a class="md-nav__link" href="#2-design-specification">
 <span class="md-ellipsis">
-      Stay Informed 🚧
+      2. Design &amp; Specification
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#be-a-part-of-the-handbook">
+<a class="md-nav__link" href="#3-implementation">
 <span class="md-ellipsis">
-      Be a Part of the Handbook 🗣️
+      3. Implementation
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#thank-you-to-our-community">
+<a class="md-nav__link" href="#4-review-iteration">
 <span class="md-ellipsis">
-      Thank You to Our Community 🌍
+      4. Review &amp; Iteration
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#5-release">
+<span class="md-ellipsis">
+      5. Release
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#release-process">
+<span class="md-ellipsis">
+      Release Process 📦
+    </span>
+</a>
+<nav aria-label="Release Process 📦" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#versioning">
+<span class="md-ellipsis">
+      Versioning
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#release-schedule">
+<span class="md-ellipsis">
+      Release Schedule
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#release-checklist">
+<span class="md-ellipsis">
+      Release Checklist
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#hotfix-process">
+<span class="md-ellipsis">
+      Hotfix Process
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#feature-prioritization">
+<span class="md-ellipsis">
+      Feature Prioritization 📊
+    </span>
+</a>
+<nav aria-label="Feature Prioritization 📊" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#high-priority">
+<span class="md-ellipsis">
+      High Priority
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#medium-priority">
+<span class="md-ellipsis">
+      Medium Priority
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#low-priority">
+<span class="md-ellipsis">
+      Low Priority
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deprioritized">
+<span class="md-ellipsis">
+      Deprioritized
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#metrics-success">
+<span class="md-ellipsis">
+      Metrics &amp; Success 📈
+    </span>
+</a>
+<nav aria-label="Metrics &amp; Success 📈" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#key-metrics">
+<span class="md-ellipsis">
+      Key Metrics
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#feature-success-criteria">
+<span class="md-ellipsis">
+      Feature Success Criteria
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#communication">
+<span class="md-ellipsis">
+      Communication 💬
+    </span>
+</a>
+<nav aria-label="Communication 💬" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#internal">
+<span class="md-ellipsis">
+      Internal
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#external">
+<span class="md-ellipsis">
+      External
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#product-roadmap">
+<span class="md-ellipsis">
+      Product Roadmap 🗺️
+    </span>
+</a>
+<nav aria-label="Product Roadmap 🗺️" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#current-focus">
+<span class="md-ellipsis">
+      Current Focus
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#upcoming-areas">
+<span class="md-ellipsis">
+      Upcoming Areas
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#long-term-vision">
+<span class="md-ellipsis">
+      Long-term Vision
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices">
+<span class="md-ellipsis">
+      Best Practices ✅
+    </span>
+</a>
+<nav aria-label="Best Practices ✅" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#feature-development">
+<span class="md-ellipsis">
+      Feature Development
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#release-management">
+<span class="md-ellipsis">
+      Release Management
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#community-engagement">
+<span class="md-ellipsis">
+      Community Engagement
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resources">
+<span class="md-ellipsis">
+      Resources 📚
     </span>
 </a>
 </li>
@@ -501,28 +971,221 @@
 <a class="md-content__button md-icon" href="https://github.com/ultralytics/handbook/tree/main/docs/en/workflows/product-development.md" rel="edit" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
 </a><a class="md-content__button md-icon" href="javascript:void(0)" onclick="copyMarkdownForLLM(this); return false;" title="Copy page in Markdown format"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg></a>
-<h1 id="product-development">Product Development</h1>
-<h2 id="handbook-under-construction">Handbook Under Construction 🏗️📖</h2>
-<p>Welcome to the <a href="https://www.ultralytics.com/">Ultralytics</a> <a href="https://handbook.ultralytics.com/">Handbook</a> "Under Construction" page! We are diligently crafting a comprehensive guide that will serve as your go-to resource for understanding our mission, vision, values, workflows, and company practices. This page is a preview of the detailed documentation and guidelines soon to be available.</p>
-<h2 id="what-to-expect-from-the-handbook">What to Expect from the Handbook 📘</h2>
+<h1 id="product-development-workflow">Product Development Workflow 🚀</h1>
+<p>This guide covers product planning, development cycles, and release processes for <a href="https://www.ultralytics.com/">Ultralytics</a> products.</p>
+<h2 id="product-philosophy">Product Philosophy 🎯</h2>
+<h3 id="core-principles">Core Principles</h3>
+<ol>
+<li><strong>Ship Fast</strong>: Rapid iteration beats perfect planning</li>
+<li><strong>User-Focused</strong>: Build what users need, not what we assume they want</li>
+<li><strong>Open Source First</strong>: Community feedback drives development</li>
+<li><strong>Performance Matters</strong>: Speed and efficiency are features</li>
+<li><strong>Simplicity Wins</strong>: Easy to use beats feature-rich</li>
+</ol>
+<h3 id="development-values">Development Values</h3>
 <ul>
-<li><strong>Mission and Values:</strong> Learn what drives Ultralytics forward and how we aim to make a lasting impact.</li>
-<li><strong>Operational Workflows:</strong> Discover how we work internally, including development processes, team collaboration, and continuous improvement.</li>
-<li><strong>Contribution Guidelines:</strong> Get involved! Detailed instructions on how to contribute to our projects and be part of the Ultralytics community.</li>
+<li><strong>Bias to action</strong>: Start building, iterate quickly</li>
+<li><strong>Data-driven</strong>: Measure impact, not activity</li>
+<li><strong>Minimal viable</strong>: Ship smallest useful increment</li>
+<li><strong>Continuous improvement</strong>: Every release makes things better</li>
 </ul>
-<h2 id="stay-informed">Stay Informed 🚧</h2>
-<p>This placeholder page is just the start. Soon, you’ll have access to:</p>
+<h2 id="feature-development-lifecycle">Feature Development Lifecycle 🔄</h2>
+<h3 id="1-discovery-planning">1. Discovery &amp; Planning</h3>
+<p><strong>Identify need</strong> through:</p>
 <ul>
-<li><strong>Internal Workflows:</strong> Best practices for development, testing, and open-source contributions.</li>
-<li><strong>Team Roles:</strong> Detailed roles and responsibilities for team members and contributors.</li>
-<li><strong>Collaboration Guidelines:</strong> Clear guidance for collaborating on projects and contributing effectively.</li>
+<li>User feedback (GitHub issues, Discord, community)</li>
+<li>Performance analysis and benchmarks</li>
+<li>Competitive research</li>
+<li>Internal use cases</li>
 </ul>
-<h2 id="be-a-part-of-the-handbook">Be a Part of the Handbook 🗣️</h2>
-<p>We value your input as we develop this resource. If you have suggestions or feedback, share your thoughts <a href="https://www.ultralytics.com/survey">here</a>.</p>
-<h2 id="thank-you-to-our-community">Thank You to Our Community 🌍</h2>
-<p>Your <a href="https://docs.ultralytics.com/help/contributing/">contributions</a> and feedback drive us to keep improving and refining the way we work at Ultralytics. Stay tuned as we roll out the complete handbook to help you engage, contribute, and align with our mission and values.</p>
-<hr/>
-<p>Excited for the Ultralytics Handbook? Bookmark this page and be the first to explore our internal processes and principles as we continue to build and share our journey with you! 📖✨</p>
+<p><strong>Evaluate against</strong>:</p>
+<ul>
+<li>User impact (who benefits, how much?)</li>
+<li>Technical feasibility (effort vs value)</li>
+<li>Strategic alignment (fits vision?)</li>
+<li>Resource availability (capacity to build?)</li>
+</ul>
+<h3 id="2-design-specification">2. Design &amp; Specification</h3>
+<p><strong>For major features</strong>:</p>
+<ul>
+<li>Write brief design doc (problem, solution, alternatives)</li>
+<li>Define success metrics</li>
+<li>Create minimal specification</li>
+<li>Get feedback from team</li>
+</ul>
+<p><strong>For small features</strong>:</p>
+<ul>
+<li>Clear GitHub issue with use case and approach</li>
+<li>Quick design discussion if needed</li>
+</ul>
+<h3 id="3-implementation">3. Implementation</h3>
+<p>Follow <a href="../development/">development workflow</a>:</p>
+<ul>
+<li>Create feature branch</li>
+<li>Build incrementally</li>
+<li>Write tests alongside code</li>
+<li>Document as you go</li>
+<li>Submit PR when ready</li>
+</ul>
+<h3 id="4-review-iteration">4. Review &amp; Iteration</h3>
+<ul>
+<li>Code review for quality</li>
+<li>Testing for correctness</li>
+<li>Performance benchmarks</li>
+<li>Documentation review</li>
+<li>Iterate based on feedback</li>
+</ul>
+<h3 id="5-release">5. Release</h3>
+<ul>
+<li>Merge to main when approved</li>
+<li>Include in next release</li>
+<li>Update changelog</li>
+<li>Announce to community</li>
+</ul>
+<h2 id="release-process">Release Process 📦</h2>
+<h3 id="versioning">Versioning</h3>
+<p>Semantic versioning: <code>MAJOR.MINOR.PATCH</code></p>
+<ul>
+<li><strong>MAJOR</strong>: Breaking changes</li>
+<li><strong>MINOR</strong>: New features, backwards compatible</li>
+<li><strong>PATCH</strong>: Bug fixes</li>
+</ul>
+<p>Example: <code>11.0.0</code> → <code>11.1.0</code> (new feature) → <code>11.1.1</code> (bug fix)</p>
+<h3 id="release-schedule">Release Schedule</h3>
+<ul>
+<li><strong>Minor releases</strong>: Every 2-4 weeks</li>
+<li><strong>Patch releases</strong>: As needed for critical fixes</li>
+<li><strong>Major releases</strong>: When introducing breaking changes</li>
+</ul>
+<h3 id="release-checklist">Release Checklist</h3>
+<ul>
+<li>[ ] All CI tests pass</li>
+<li>[ ] Documentation updated</li>
+<li>[ ] Changelog updated</li>
+<li>[ ] Version numbers bumped</li>
+<li>[ ] GitHub release created</li>
+<li>[ ] PyPI package published</li>
+<li>[ ] Announcement prepared</li>
+</ul>
+<h3 id="hotfix-process">Hotfix Process</h3>
+<p>For critical bugs:</p>
+<ol>
+<li>Create <code>hotfix/</code> branch from latest release tag</li>
+<li>Fix issue, add test</li>
+<li>Fast-track review</li>
+<li>Release patch version immediately</li>
+<li>Backport to main if needed</li>
+</ol>
+<h2 id="feature-prioritization">Feature Prioritization 📊</h2>
+<h3 id="high-priority">High Priority</h3>
+<ul>
+<li>Critical bugs affecting users</li>
+<li>Performance improvements</li>
+<li>Security issues</li>
+<li>Highly requested features (10+ community requests)</li>
+</ul>
+<h3 id="medium-priority">Medium Priority</h3>
+<ul>
+<li>Quality of life improvements</li>
+<li>New export formats</li>
+<li>Extended platform support</li>
+<li>Documentation improvements</li>
+</ul>
+<h3 id="low-priority">Low Priority</h3>
+<ul>
+<li>Nice-to-have features</li>
+<li>Minor optimizations</li>
+<li>Edge case handling</li>
+</ul>
+<h3 id="deprioritized">Deprioritized</h3>
+<ul>
+<li>Features for single user</li>
+<li>Overly complex implementations</li>
+<li>Maintenance-heavy additions</li>
+<li>Out of scope for core mission</li>
+</ul>
+<h2 id="metrics-success">Metrics &amp; Success 📈</h2>
+<h3 id="key-metrics">Key Metrics</h3>
+<ul>
+<li><strong>GitHub Stars</strong>: Community interest</li>
+<li><strong>PyPI Downloads</strong>: Adoption rate</li>
+<li><strong>Issue Response Time</strong>: Support quality</li>
+<li><strong>PR Merge Time</strong>: Development velocity</li>
+<li><strong>Performance Benchmarks</strong>: Speed/accuracy improvements</li>
+</ul>
+<h3 id="feature-success-criteria">Feature Success Criteria</h3>
+<p>Define before building:</p>
+<ul>
+<li>Usage metrics (downloads, API calls)</li>
+<li>Performance targets (speed, accuracy)</li>
+<li>User feedback (GitHub reactions, comments)</li>
+<li>Adoption rate (percentage using feature)</li>
+</ul>
+<h2 id="communication">Communication 💬</h2>
+<h3 id="internal">Internal</h3>
+<ul>
+<li><strong>GitHub Issues</strong>: Feature proposals and bugs</li>
+<li><strong>Slack</strong>: Quick discussions and updates</li>
+<li><strong>Team Meetings</strong>: Weekly syncs on priorities</li>
+</ul>
+<h3 id="external">External</h3>
+<ul>
+<li><strong>GitHub Discussions</strong>: Community feedback</li>
+<li><strong>Discord</strong>: User support and engagement</li>
+<li><strong>Blog Posts</strong>: Major feature announcements</li>
+<li><strong>Documentation</strong>: Release notes and guides</li>
+</ul>
+<h2 id="product-roadmap">Product Roadmap 🗺️</h2>
+<h3 id="current-focus">Current Focus</h3>
+<ul>
+<li>YOLO11 model family</li>
+<li>Export format support</li>
+<li>Performance optimization</li>
+<li>Documentation quality</li>
+</ul>
+<h3 id="upcoming-areas">Upcoming Areas</h3>
+<ul>
+<li>New architecture variants</li>
+<li>Enhanced training features</li>
+<li>Improved inference speed</li>
+<li>Extended platform support</li>
+</ul>
+<h3 id="long-term-vision">Long-term Vision</h3>
+<ul>
+<li>World's best open-source object detection</li>
+<li>Seamless deployment across all platforms</li>
+<li>Comprehensive computer vision toolkit</li>
+<li>Community-driven innovation</li>
+</ul>
+<h2 id="best-practices">Best Practices ✅</h2>
+<h3 id="feature-development">Feature Development</h3>
+<ul>
+<li><strong>Start small</strong>: MVP first, expand later</li>
+<li><strong>User testing</strong>: Get feedback early</li>
+<li><strong>Performance first</strong>: Optimize from the start</li>
+<li><strong>Document well</strong>: Write docs while building</li>
+</ul>
+<h3 id="release-management">Release Management</h3>
+<ul>
+<li><strong>Test thoroughly</strong>: CI + manual testing</li>
+<li><strong>Clear changelog</strong>: What changed, why it matters</li>
+<li><strong>Smooth upgrades</strong>: Backwards compatibility when possible</li>
+<li><strong>Quick fixes</strong>: Don't let bugs linger</li>
+</ul>
+<h3 id="community-engagement">Community Engagement</h3>
+<ul>
+<li><strong>Responsive</strong>: Reply to issues within 24 hours</li>
+<li><strong>Transparent</strong>: Share roadmap and decisions</li>
+<li><strong>Appreciative</strong>: Thank contributors</li>
+<li><strong>Inclusive</strong>: Welcome all skill levels</li>
+</ul>
+<h2 id="resources">Resources 📚</h2>
+<ul>
+<li><a href="../development/">Development Workflow</a> - PR process and standards</li>
+<li><a href="../ci-testing/">CI/Testing</a> - Testing and quality checks</li>
+<li><a href="../documentation/">Documentation</a> - Writing and maintaining docs</li>
+<li><a href="https://github.com/ultralytics/ultralytics/issues">GitHub Issues</a> - Feature requests and bugs</li>
+</ul>
 <!-- Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license -->
 <br/><br/>
 <div class="git-info">
@@ -530,12 +1193,12 @@
 <span class="date-item" title="This page was first created on August 27, 2025">
 <span class="hover-item">📅</span> Created 1 month ago
     </span>
-<span class="date-item" title="This page was last updated on August 27, 2025">
-<span class="hover-item">✏️</span> Updated 1 month ago
+<span class="date-item" title="This page was last updated on October 01, 2025">
+<span class="hover-item">✏️</span> Updated 0 days ago
     </span>
 </div>
 <div class="authors-container">
-<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (1 change)">
+<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (2 changes)">
 <img alt="glenn-jocher" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/26833433?v=4&amp;s=96"/>
 </a>
 </div></div><div class="share-buttons">

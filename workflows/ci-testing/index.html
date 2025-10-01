@@ -6,14 +6,14 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." name="description"/>
+<meta content="Ultralytics CI/CD workflow covering GitHub Actions, automated tests, code coverage with Codecov, and quality checks for YOLO11 development." name="description"/>
 <meta content="Ultralytics" name="author"/>
 <link href="https://handbook.ultralytics.com/workflows/ci-testing/" rel="canonical"/>
 <link href="../product-development/" rel="prev"/>
 <link href="../documentation/" rel="next"/>
 <link href="https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/logo/favicon-yolo.png" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.6.21" name="generator"/>
-<title>CI Testing - Ultralytics Handbook</title>
+<title>CI/Testing Workflow 🧪 - Ultralytics Handbook</title>
 <link href="../../assets/stylesheets/main.2a3383ac.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -21,13 +21,13 @@
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="../../stylesheets/style.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<meta content="CI/Testing" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics Handbook, coming soon, under construction, internal guide, mission, vision, values, workflows, open-source, AI guidelines" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/workflows/ci-testing" property="og:url"/><meta content="CI/Testing" property="og:title"/><meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." property="og:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/workflows/ci-testing" property="twitter:url"/><meta content="CI/Testing" property="twitter:title"/><meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." property="twitter:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "CI/Testing", "image": ["https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"], "datePublished": "2025-08-27 20:38:20 +0200", "dateModified": "2025-08-27 20:38:20 +0200", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Explore the Ultralytics Handbook\u2014a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource."}</script></head>
+<meta content="CI/Testing" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics, CI/CD, continuous integration, testing, GitHub Actions, pytest, Codecov, code quality, YOLO11, Docker" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/workflows/ci-testing" property="og:url"/><meta content="CI/Testing" property="og:title"/><meta content="Ultralytics CI/CD workflow covering GitHub Actions, automated tests, code coverage with Codecov, and quality checks for YOLO11 development." property="og:description"/><meta content="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/workflows/ci-testing" property="twitter:url"/><meta content="CI/Testing" property="twitter:title"/><meta content="Ultralytics CI/CD workflow covering GitHub Actions, automated tests, code coverage with Codecov, and quality checks for YOLO11 development." property="twitter:description"/><meta content="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "CI/Testing", "image": ["https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg"], "datePublished": "2025-08-27 20:38:20 +0200", "dateModified": "2025-10-01 18:51:36 +0100", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Ultralytics CI/CD workflow covering GitHub Actions, automated tests, code coverage with Codecov, and quality checks for YOLO11 development."}</script></head>
 <body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#ci-testing">
+<a class="md-skip" href="#citesting-workflow">
           Skip to content
         </a>
 </div>
@@ -358,37 +358,275 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#handbook-under-construction">
+<a class="md-nav__link" href="#ci-actions">
 <span class="md-ellipsis">
-      Handbook Under Construction 🏗️📖
+      CI Actions 🔄
+    </span>
+</a>
+<nav aria-label="CI Actions 🔄" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ci-tests">
+<span class="md-ellipsis">
+      CI Tests
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#what-to-expect-from-the-handbook">
+<a class="md-nav__link" href="#docker-deployment">
 <span class="md-ellipsis">
-      What to Expect from the Handbook 📘
+      Docker Deployment
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#stay-informed">
+<a class="md-nav__link" href="#broken-links">
 <span class="md-ellipsis">
-      Stay Informed 🚧
+      Broken Links
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#be-a-part-of-the-handbook">
+<a class="md-nav__link" href="#codeql-analysis">
 <span class="md-ellipsis">
-      Be a Part of the Handbook 🗣️
+      CodeQL Analysis
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#thank-you-to-our-community">
+<a class="md-nav__link" href="#pypi-publishing">
 <span class="md-ellipsis">
-      Thank You to Our Community 🌍
+      PyPI Publishing
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#platform-testing">
+<span class="md-ellipsis">
+      Platform Testing 🖥️
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#code-coverage">
+<span class="md-ellipsis">
+      Code Coverage 📊
+    </span>
+</a>
+<nav aria-label="Code Coverage 📊" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#coverage-integration">
+<span class="md-ellipsis">
+      Coverage Integration
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#understanding-coverage">
+<span class="md-ellipsis">
+      Understanding Coverage
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#running-tests-locally">
+<span class="md-ellipsis">
+      Running Tests Locally 🖥️
+    </span>
+</a>
+<nav aria-label="Running Tests Locally 🖥️" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#install-development-dependencies">
+<span class="md-ellipsis">
+      Install Development Dependencies
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#run-all-tests">
+<span class="md-ellipsis">
+      Run All Tests
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#run-specific-tests">
+<span class="md-ellipsis">
+      Run Specific Tests
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#run-with-coverage">
+<span class="md-ellipsis">
+      Run with Coverage
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#parallel-testing">
+<span class="md-ellipsis">
+      Parallel Testing
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pre-commit-hooks">
+<span class="md-ellipsis">
+      Pre-commit Hooks 🪝
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#writing-tests">
+<span class="md-ellipsis">
+      Writing Tests ✍️
+    </span>
+</a>
+<nav aria-label="Writing Tests ✍️" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#test-structure">
+<span class="md-ellipsis">
+      Test Structure
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices">
+<span class="md-ellipsis">
+      Best Practices
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#test-organization">
+<span class="md-ellipsis">
+      Test Organization
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#test-markers">
+<span class="md-ellipsis">
+      Test Markers
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#code-quality-checks">
+<span class="md-ellipsis">
+      Code Quality Checks 🎯
+    </span>
+</a>
+<nav aria-label="Code Quality Checks 🎯" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#formatting-with-ruff">
+<span class="md-ellipsis">
+      Formatting with Ruff
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#type-checking">
+<span class="md-ellipsis">
+      Type Checking
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#docstring-formatting">
+<span class="md-ellipsis">
+      Docstring Formatting
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ci-troubleshooting">
+<span class="md-ellipsis">
+      CI Troubleshooting 🔧
+    </span>
+</a>
+<nav aria-label="CI Troubleshooting 🔧" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tests-pass-locally-but-fail-in-ci">
+<span class="md-ellipsis">
+      Tests Pass Locally But Fail in CI
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slow-ci-runs">
+<span class="md-ellipsis">
+      Slow CI Runs
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#flaky-tests">
+<span class="md-ellipsis">
+      Flaky Tests
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#performance-benchmarks">
+<span class="md-ellipsis">
+      Performance Benchmarks 📈
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ci-status">
+<span class="md-ellipsis">
+      CI Status 📋
+    </span>
+</a>
+<nav aria-label="CI Status 📋" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#main-repository-badges">
+<span class="md-ellipsis">
+      Main Repository Badges
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#skipping-ci-checks">
+<span class="md-ellipsis">
+      Skipping CI Checks ⚠️
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resources">
+<span class="md-ellipsis">
+      Resources 📚
     </span>
 </a>
 </li>
@@ -457,37 +695,275 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#handbook-under-construction">
+<a class="md-nav__link" href="#ci-actions">
 <span class="md-ellipsis">
-      Handbook Under Construction 🏗️📖
+      CI Actions 🔄
+    </span>
+</a>
+<nav aria-label="CI Actions 🔄" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ci-tests">
+<span class="md-ellipsis">
+      CI Tests
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#what-to-expect-from-the-handbook">
+<a class="md-nav__link" href="#docker-deployment">
 <span class="md-ellipsis">
-      What to Expect from the Handbook 📘
+      Docker Deployment
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#stay-informed">
+<a class="md-nav__link" href="#broken-links">
 <span class="md-ellipsis">
-      Stay Informed 🚧
+      Broken Links
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#be-a-part-of-the-handbook">
+<a class="md-nav__link" href="#codeql-analysis">
 <span class="md-ellipsis">
-      Be a Part of the Handbook 🗣️
+      CodeQL Analysis
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#thank-you-to-our-community">
+<a class="md-nav__link" href="#pypi-publishing">
 <span class="md-ellipsis">
-      Thank You to Our Community 🌍
+      PyPI Publishing
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#platform-testing">
+<span class="md-ellipsis">
+      Platform Testing 🖥️
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#code-coverage">
+<span class="md-ellipsis">
+      Code Coverage 📊
+    </span>
+</a>
+<nav aria-label="Code Coverage 📊" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#coverage-integration">
+<span class="md-ellipsis">
+      Coverage Integration
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#understanding-coverage">
+<span class="md-ellipsis">
+      Understanding Coverage
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#running-tests-locally">
+<span class="md-ellipsis">
+      Running Tests Locally 🖥️
+    </span>
+</a>
+<nav aria-label="Running Tests Locally 🖥️" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#install-development-dependencies">
+<span class="md-ellipsis">
+      Install Development Dependencies
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#run-all-tests">
+<span class="md-ellipsis">
+      Run All Tests
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#run-specific-tests">
+<span class="md-ellipsis">
+      Run Specific Tests
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#run-with-coverage">
+<span class="md-ellipsis">
+      Run with Coverage
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#parallel-testing">
+<span class="md-ellipsis">
+      Parallel Testing
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pre-commit-hooks">
+<span class="md-ellipsis">
+      Pre-commit Hooks 🪝
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#writing-tests">
+<span class="md-ellipsis">
+      Writing Tests ✍️
+    </span>
+</a>
+<nav aria-label="Writing Tests ✍️" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#test-structure">
+<span class="md-ellipsis">
+      Test Structure
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices">
+<span class="md-ellipsis">
+      Best Practices
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#test-organization">
+<span class="md-ellipsis">
+      Test Organization
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#test-markers">
+<span class="md-ellipsis">
+      Test Markers
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#code-quality-checks">
+<span class="md-ellipsis">
+      Code Quality Checks 🎯
+    </span>
+</a>
+<nav aria-label="Code Quality Checks 🎯" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#formatting-with-ruff">
+<span class="md-ellipsis">
+      Formatting with Ruff
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#type-checking">
+<span class="md-ellipsis">
+      Type Checking
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#docstring-formatting">
+<span class="md-ellipsis">
+      Docstring Formatting
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ci-troubleshooting">
+<span class="md-ellipsis">
+      CI Troubleshooting 🔧
+    </span>
+</a>
+<nav aria-label="CI Troubleshooting 🔧" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tests-pass-locally-but-fail-in-ci">
+<span class="md-ellipsis">
+      Tests Pass Locally But Fail in CI
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#slow-ci-runs">
+<span class="md-ellipsis">
+      Slow CI Runs
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#flaky-tests">
+<span class="md-ellipsis">
+      Flaky Tests
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#performance-benchmarks">
+<span class="md-ellipsis">
+      Performance Benchmarks 📈
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ci-status">
+<span class="md-ellipsis">
+      CI Status 📋
+    </span>
+</a>
+<nav aria-label="CI Status 📋" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#main-repository-badges">
+<span class="md-ellipsis">
+      Main Repository Badges
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#skipping-ci-checks">
+<span class="md-ellipsis">
+      Skipping CI Checks ⚠️
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resources">
+<span class="md-ellipsis">
+      Resources 📚
     </span>
 </a>
 </li>
@@ -501,28 +977,205 @@
 <a class="md-content__button md-icon" href="https://github.com/ultralytics/handbook/tree/main/docs/en/workflows/ci-testing.md" rel="edit" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
 </a><a class="md-content__button md-icon" href="javascript:void(0)" onclick="copyMarkdownForLLM(this); return false;" title="Copy page in Markdown format"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg></a>
-<h1 id="ci-testing">CI Testing</h1>
-<h2 id="handbook-under-construction">Handbook Under Construction 🏗️📖</h2>
-<p>Welcome to the <a href="https://www.ultralytics.com/">Ultralytics</a> <a href="https://handbook.ultralytics.com/">Handbook</a> "Under Construction" page! We are diligently crafting a comprehensive guide that will serve as your go-to resource for understanding our mission, vision, values, workflows, and company practices. This page is a preview of the detailed documentation and guidelines soon to be available.</p>
-<h2 id="what-to-expect-from-the-handbook">What to Expect from the Handbook 📘</h2>
+<h1 id="citesting-workflow">CI/Testing Workflow 🧪</h1>
+<p>Continuous Integration (CI) is essential for maintaining high-quality code by catching issues early. This guide covers CI testing and quality checks for <a href="https://www.ultralytics.com/">Ultralytics</a> projects.</p>
+<h2 id="ci-actions">CI Actions 🔄</h2>
+<p>All PRs must pass automated CI checks before merging. Our CI pipeline includes:</p>
+<h3 id="ci-tests"><a href="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml">CI Tests</a></h3>
+<p>Primary CI test running unit tests, linting checks, and comprehensive tests.</p>
+<h3 id="docker-deployment"><a href="https://github.com/ultralytics/ultralytics/actions/workflows/docker.yml">Docker Deployment</a></h3>
+<p>Validates deployment using Docker, ensuring Dockerfile and related scripts work correctly.</p>
+<h3 id="broken-links"><a href="https://github.com/ultralytics/ultralytics/actions/workflows/links.yml">Broken Links</a></h3>
+<p>Scans codebase for broken or dead links in markdown and HTML files.</p>
+<h3 id="codeql-analysis"><a href="https://github.com/ultralytics/ultralytics/actions/workflows/codeql.yaml">CodeQL Analysis</a></h3>
+<p>GitHub's semantic analysis tool for finding potential security vulnerabilities and maintaining code quality.</p>
+<h3 id="pypi-publishing"><a href="https://github.com/ultralytics/ultralytics/actions/workflows/publish.yml">PyPI Publishing</a></h3>
+<p>Validates project can be packaged and published to PyPI without errors.</p>
+<h2 id="platform-testing">Platform Testing 🖥️</h2>
+<p>Tests run on multiple environments:</p>
 <ul>
-<li><strong>Mission and Values:</strong> Learn what drives Ultralytics forward and how we aim to make a lasting impact.</li>
-<li><strong>Operational Workflows:</strong> Discover how we work internally, including development processes, team collaboration, and continuous improvement.</li>
-<li><strong>Contribution Guidelines:</strong> Get involved! Detailed instructions on how to contribute to our projects and be part of the Ultralytics community.</li>
+<li><strong>OS</strong>: Ubuntu, Windows, macOS</li>
+<li><strong>Python</strong>: 3.8, 3.9, 3.10, 3.11, 3.12</li>
 </ul>
-<h2 id="stay-informed">Stay Informed 🚧</h2>
-<p>This placeholder page is just the start. Soon, you’ll have access to:</p>
+<h2 id="code-coverage">Code Coverage 📊</h2>
+<p>We use <a href="https://about.codecov.io/">Codecov</a> to measure and visualize code coverage, providing insights into how well tests exercise the codebase.</p>
+<h3 id="coverage-integration">Coverage Integration</h3>
+<p>Codecov integration provides:</p>
 <ul>
-<li><strong>Internal Workflows:</strong> Best practices for development, testing, and open-source contributions.</li>
-<li><strong>Team Roles:</strong> Detailed roles and responsibilities for team members and contributors.</li>
-<li><strong>Collaboration Guidelines:</strong> Clear guidance for collaborating on projects and contributing effectively.</li>
+<li>Detailed coverage insights</li>
+<li>Coverage comparisons between commits</li>
+<li>Visual overlays on code showing covered lines</li>
+<li>Coverage percentage for the <code>ultralytics</code> package</li>
 </ul>
-<h2 id="be-a-part-of-the-handbook">Be a Part of the Handbook 🗣️</h2>
-<p>We value your input as we develop this resource. If you have suggestions or feedback, share your thoughts <a href="https://www.ultralytics.com/survey">here</a>.</p>
-<h2 id="thank-you-to-our-community">Thank You to Our Community 🌍</h2>
-<p>Your <a href="https://docs.ultralytics.com/help/contributing/">contributions</a> and feedback drive us to keep improving and refining the way we work at Ultralytics. Stay tuned as we roll out the complete handbook to help you engage, contribute, and align with our mission and values.</p>
-<hr/>
-<p>Excited for the Ultralytics Handbook? Bookmark this page and be the first to explore our internal processes and principles as we continue to build and share our journey with you! 📖✨</p>
+<p>View full coverage details at <a href="https://app.codecov.io/github/ultralytics/ultralytics">codecov.io/github/ultralytics/ultralytics</a>.</p>
+<h3 id="understanding-coverage">Understanding Coverage</h3>
+<p>Code coverage shows what percentage of code is executed during tests. High coverage indicates well-tested code but doesn't guarantee absence of bugs. Coverage helps identify untested areas that might be prone to errors.</p>
+<h2 id="running-tests-locally">Running Tests Locally 🖥️</h2>
+<h3 id="install-development-dependencies">Install Development Dependencies</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span><span class="s2">".[dev]"</span>
+</code></pre></div>
+<h3 id="run-all-tests">Run All Tests</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>pytest<span class="w"> </span>tests/
+</code></pre></div>
+<h3 id="run-specific-tests">Run Specific Tests</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="c1"># Single file</span>
+<a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a>pytest<span class="w"> </span>tests/test_engine.py
+<a href="#__codelineno-2-3" id="__codelineno-2-3" name="__codelineno-2-3"></a>
+<a href="#__codelineno-2-4" id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="c1"># Single test function</span>
+<a href="#__codelineno-2-5" id="__codelineno-2-5" name="__codelineno-2-5"></a>pytest<span class="w"> </span>tests/test_engine.py::test_train
+<a href="#__codelineno-2-6" id="__codelineno-2-6" name="__codelineno-2-6"></a>
+<a href="#__codelineno-2-7" id="__codelineno-2-7" name="__codelineno-2-7"></a><span class="c1"># Tests matching pattern</span>
+<a href="#__codelineno-2-8" id="__codelineno-2-8" name="__codelineno-2-8"></a>pytest<span class="w"> </span>-k<span class="w"> </span><span class="s2">"export"</span>
+<a href="#__codelineno-2-9" id="__codelineno-2-9" name="__codelineno-2-9"></a>
+<a href="#__codelineno-2-10" id="__codelineno-2-10" name="__codelineno-2-10"></a><span class="c1"># Slow tests only</span>
+<a href="#__codelineno-2-11" id="__codelineno-2-11" name="__codelineno-2-11"></a>pytest<span class="w"> </span>-m<span class="w"> </span>slow
+</code></pre></div>
+<h3 id="run-with-coverage">Run with Coverage</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a>pytest<span class="w"> </span>--cov<span class="o">=</span>ultralytics<span class="w"> </span>tests/
+</code></pre></div>
+<h3 id="parallel-testing">Parallel Testing</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="c1"># Install pytest-xdist</span>
+<a href="#__codelineno-4-2" id="__codelineno-4-2" name="__codelineno-4-2"></a>pip<span class="w"> </span>install<span class="w"> </span>pytest-xdist
+<a href="#__codelineno-4-3" id="__codelineno-4-3" name="__codelineno-4-3"></a>
+<a href="#__codelineno-4-4" id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="c1"># Run tests in parallel</span>
+<a href="#__codelineno-4-5" id="__codelineno-4-5" name="__codelineno-4-5"></a>pytest<span class="w"> </span>-n<span class="w"> </span>auto
+</code></pre></div>
+<h2 id="pre-commit-hooks">Pre-commit Hooks 🪝</h2>
+<p>Set up pre-commit hooks to catch issues before pushing:</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-5-1" id="__codelineno-5-1" name="__codelineno-5-1"></a>pip<span class="w"> </span>install<span class="w"> </span>pre-commit
+<a href="#__codelineno-5-2" id="__codelineno-5-2" name="__codelineno-5-2"></a>pre-commit<span class="w"> </span>install
+</code></pre></div>
+<p>Hooks automatically run:</p>
+<ul>
+<li><a href="https://github.com/astral-sh/ruff">Ruff</a> (linting and formatting)</li>
+<li>docformatter (docstring formatting)</li>
+<li>Trailing whitespace removal</li>
+<li>YAML validation</li>
+</ul>
+<p>Run manually:</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-6-1" id="__codelineno-6-1" name="__codelineno-6-1"></a>pre-commit<span class="w"> </span>run<span class="w"> </span>--all-files
+</code></pre></div>
+<h2 id="writing-tests">Writing Tests ✍️</h2>
+<h3 id="test-structure">Test Structure</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-7-1" id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">test_model_export</span><span class="p">():</span>
+<a href="#__codelineno-7-2" id="__codelineno-7-2" name="__codelineno-7-2"></a><span class="w">    </span><span class="sd">"""Test ONNX model export."""</span>
+<a href="#__codelineno-7-3" id="__codelineno-7-3" name="__codelineno-7-3"></a>    <span class="n">model</span> <span class="o">=</span> <span class="n">YOLO</span><span class="p">(</span><span class="s2">"yolo11n.pt"</span><span class="p">)</span>
+<a href="#__codelineno-7-4" id="__codelineno-7-4" name="__codelineno-7-4"></a>    <span class="n">model</span><span class="o">.</span><span class="n">export</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s2">"onnx"</span><span class="p">)</span>
+<a href="#__codelineno-7-5" id="__codelineno-7-5" name="__codelineno-7-5"></a>    <span class="k">assert</span> <span class="n">Path</span><span class="p">(</span><span class="s2">"yolo11n.onnx"</span><span class="p">)</span><span class="o">.</span><span class="n">exists</span><span class="p">()</span>
+</code></pre></div>
+<h3 id="best-practices">Best Practices</h3>
+<ul>
+<li><strong>Descriptive names</strong>: <code>test_export_onnx_format()</code> not <code>test_1()</code></li>
+<li><strong>Single assertion</strong>: Test one thing per function</li>
+<li><strong>Fast tests</strong>: Use small models/datasets</li>
+<li><strong>Fixtures</strong>: Use pytest fixtures for setup/teardown</li>
+<li><strong>Markers</strong>: <code>@pytest.mark.slow</code> for long-running tests</li>
+</ul>
+<h3 id="test-organization">Test Organization</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-8-1" id="__codelineno-8-1" name="__codelineno-8-1"></a>tests/
+<a href="#__codelineno-8-2" id="__codelineno-8-2" name="__codelineno-8-2"></a>├── test_engine.py      # Training, validation, prediction
+<a href="#__codelineno-8-3" id="__codelineno-8-3" name="__codelineno-8-3"></a>├── test_nn.py          # Model architecture
+<a href="#__codelineno-8-4" id="__codelineno-8-4" name="__codelineno-8-4"></a>├── test_data.py        # Dataset handling
+<a href="#__codelineno-8-5" id="__codelineno-8-5" name="__codelineno-8-5"></a>├── test_utils.py       # Utility functions
+<a href="#__codelineno-8-6" id="__codelineno-8-6" name="__codelineno-8-6"></a>└── test_exports.py     # Export formats
+</code></pre></div>
+<h3 id="test-markers">Test Markers</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-9-1" id="__codelineno-9-1" name="__codelineno-9-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pytest</span>
+<a href="#__codelineno-9-2" id="__codelineno-9-2" name="__codelineno-9-2"></a>
+<a href="#__codelineno-9-3" id="__codelineno-9-3" name="__codelineno-9-3"></a>
+<a href="#__codelineno-9-4" id="__codelineno-9-4" name="__codelineno-9-4"></a><span class="nd">@pytest</span><span class="o">.</span><span class="n">mark</span><span class="o">.</span><span class="n">slow</span>
+<a href="#__codelineno-9-5" id="__codelineno-9-5" name="__codelineno-9-5"></a><span class="k">def</span><span class="w"> </span><span class="nf">test_full_training</span><span class="p">():</span>
+<a href="#__codelineno-9-6" id="__codelineno-9-6" name="__codelineno-9-6"></a><span class="w">    </span><span class="sd">"""Test full training run (slow)."""</span>
+<a href="#__codelineno-9-7" id="__codelineno-9-7" name="__codelineno-9-7"></a>    <span class="n">model</span> <span class="o">=</span> <span class="n">YOLO</span><span class="p">(</span><span class="s2">"yolo11n.pt"</span><span class="p">)</span>
+<a href="#__codelineno-9-8" id="__codelineno-9-8" name="__codelineno-9-8"></a>    <span class="n">model</span><span class="o">.</span><span class="n">train</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="s2">"coco128.yaml"</span><span class="p">,</span> <span class="n">epochs</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</code></pre></div>
+<h2 id="code-quality-checks">Code Quality Checks 🎯</h2>
+<h3 id="formatting-with-ruff">Formatting with Ruff</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-10-1" id="__codelineno-10-1" name="__codelineno-10-1"></a><span class="c1"># Check formatting</span>
+<a href="#__codelineno-10-2" id="__codelineno-10-2" name="__codelineno-10-2"></a>ruff<span class="w"> </span>check<span class="w"> </span>ultralytics/
+<a href="#__codelineno-10-3" id="__codelineno-10-3" name="__codelineno-10-3"></a>
+<a href="#__codelineno-10-4" id="__codelineno-10-4" name="__codelineno-10-4"></a><span class="c1"># Auto-fix issues</span>
+<a href="#__codelineno-10-5" id="__codelineno-10-5" name="__codelineno-10-5"></a>ruff<span class="w"> </span>check<span class="w"> </span>--fix<span class="w"> </span>ultralytics/
+<a href="#__codelineno-10-6" id="__codelineno-10-6" name="__codelineno-10-6"></a>
+<a href="#__codelineno-10-7" id="__codelineno-10-7" name="__codelineno-10-7"></a><span class="c1"># Format code</span>
+<a href="#__codelineno-10-8" id="__codelineno-10-8" name="__codelineno-10-8"></a>ruff<span class="w"> </span>format<span class="w"> </span>ultralytics/
+</code></pre></div>
+<h3 id="type-checking">Type Checking</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-11-1" id="__codelineno-11-1" name="__codelineno-11-1"></a><span class="c1"># Run mypy (where configured)</span>
+<a href="#__codelineno-11-2" id="__codelineno-11-2" name="__codelineno-11-2"></a>mypy<span class="w"> </span>ultralytics/
+</code></pre></div>
+<h3 id="docstring-formatting">Docstring Formatting</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-12-1" id="__codelineno-12-1" name="__codelineno-12-1"></a><span class="c1"># Check docstrings</span>
+<a href="#__codelineno-12-2" id="__codelineno-12-2" name="__codelineno-12-2"></a>docformatter<span class="w"> </span>--check<span class="w"> </span>ultralytics/
+<a href="#__codelineno-12-3" id="__codelineno-12-3" name="__codelineno-12-3"></a>
+<a href="#__codelineno-12-4" id="__codelineno-12-4" name="__codelineno-12-4"></a><span class="c1"># Auto-fix</span>
+<a href="#__codelineno-12-5" id="__codelineno-12-5" name="__codelineno-12-5"></a>docformatter<span class="w"> </span>--in-place<span class="w"> </span>ultralytics/
+</code></pre></div>
+<h2 id="ci-troubleshooting">CI Troubleshooting 🔧</h2>
+<h3 id="tests-pass-locally-but-fail-in-ci">Tests Pass Locally But Fail in CI</h3>
+<p>Common causes:</p>
+<ul>
+<li><strong>Platform-specific issues</strong>: Test on target OS</li>
+<li><strong>Python version differences</strong>: Check version compatibility</li>
+<li><strong>Missing dependencies</strong>: Verify CI config</li>
+<li><strong>Timing/concurrency issues</strong>: Add retries or increase timeouts</li>
+</ul>
+<h3 id="slow-ci-runs">Slow CI Runs</h3>
+<p>Solutions:</p>
+<ul>
+<li>Use <code>@pytest.mark.slow</code> for expensive tests</li>
+<li>Mock external dependencies</li>
+<li>Reduce test dataset sizes</li>
+<li>Parallelize with <code>pytest-xdist</code></li>
+</ul>
+<h3 id="flaky-tests">Flaky Tests</h3>
+<p>Fixes:</p>
+<ul>
+<li>Add retries for network-dependent tests</li>
+<li>Increase timeouts for slow operations</li>
+<li>Fix race conditions in async code</li>
+<li>Use deterministic random seeds</li>
+</ul>
+<h2 id="performance-benchmarks">Performance Benchmarks 📈</h2>
+<p>CI tracks key metrics:</p>
+<ul>
+<li>Inference speed (FPS)</li>
+<li>Memory usage</li>
+<li>Model size</li>
+<li>Export times</li>
+</ul>
+<p>Significant regressions block merging. If metrics change:</p>
+<ol>
+<li>Verify change is expected</li>
+<li>Document reason in PR</li>
+<li>Get approval from maintainers</li>
+</ol>
+<h2 id="ci-status">CI Status 📋</h2>
+<p>Check CI status for all Ultralytics repositories at <a href="https://docs.ultralytics.com/help/CI/">docs.ultralytics.com/help/CI</a>.</p>
+<h3 id="main-repository-badges">Main Repository Badges</h3>
+<p><img alt="CI" src="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg">
+<img alt="Docker" src="https://github.com/ultralytics/ultralytics/actions/workflows/docker.yml/badge.svg">
+<img alt="Links" src="https://github.com/ultralytics/ultralytics/actions/workflows/links.yml/badge.svg"/>
+<img alt="PyPI" src="https://github.com/ultralytics/ultralytics/actions/workflows/publish.yml/badge.svg"/>
+<img alt="codecov" src="https://codecov.io/gh/ultralytics/ultralytics/branch/main/graph/badge.svg?token=HHW7IIVFVY"/></img></img></p>
+<h2 id="skipping-ci-checks">Skipping CI Checks ⚠️</h2>
+<p>Add <code>[skip ci]</code> to commit message to skip CI (use sparingly):</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-13-1" id="__codelineno-13-1" name="__codelineno-13-1"></a>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Update README [skip ci]"</span>
+</code></pre></div>
+<p>Only for:</p>
+<ul>
+<li>Documentation-only changes</li>
+<li>Non-code file updates</li>
+<li>Emergency hotfixes (with approval)</li>
+</ul>
+<h2 id="resources">Resources 📚</h2>
+<ul>
+<li><a href="https://docs.ultralytics.com/help/CI/">Official CI Guide</a> - Complete CI documentation</li>
+<li><a href="../development/">Development Workflow</a> - PR process and code standards</li>
+<li><a href="https://docs.github.com/en/actions">GitHub Actions Docs</a> - CI configuration</li>
+<li><a href="https://docs.pytest.org/">pytest Documentation</a> - Testing framework</li>
+<li><a href="https://app.codecov.io/github/ultralytics/ultralytics">Codecov</a> - Coverage reports</li>
+</ul>
 <!-- Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license -->
 <br/><br/>
 <div class="git-info">
@@ -530,12 +1183,12 @@
 <span class="date-item" title="This page was first created on August 27, 2025">
 <span class="hover-item">📅</span> Created 1 month ago
     </span>
-<span class="date-item" title="This page was last updated on August 27, 2025">
-<span class="hover-item">✏️</span> Updated 1 month ago
+<span class="date-item" title="This page was last updated on October 01, 2025">
+<span class="hover-item">✏️</span> Updated 0 days ago
     </span>
 </div>
 <div class="authors-container">
-<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (1 change)">
+<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (2 changes)">
 <img alt="glenn-jocher" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/26833433?v=4&amp;s=96"/>
 </a>
 </div></div><div class="share-buttons">

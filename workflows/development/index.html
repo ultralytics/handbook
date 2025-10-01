@@ -6,14 +6,14 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." name="description"/>
+<meta content="Ultralytics development workflow covering PR process, CLA signing, Google-style docstrings, code standards, and Git practices for YOLO11 contributions." name="description"/>
 <meta content="Ultralytics" name="author"/>
 <link href="https://handbook.ultralytics.com/workflows/development/" rel="canonical"/>
 <link href="../../team-roles/specific-roles/" rel="prev"/>
 <link href="../product-development/" rel="next"/>
 <link href="https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/logo/favicon-yolo.png" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.6.21" name="generator"/>
-<title>Development - Ultralytics Handbook</title>
+<title>Development Workflow 💻 - Ultralytics Handbook</title>
 <link href="../../assets/stylesheets/main.2a3383ac.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -21,13 +21,13 @@
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="../../stylesheets/style.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<meta content="Development" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics Handbook, coming soon, under construction, internal guide, mission, vision, values, workflows, open-source, AI guidelines" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/workflows/development" property="og:url"/><meta content="Development" property="og:title"/><meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." property="og:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/workflows/development" property="twitter:url"/><meta content="Development" property="twitter:title"/><meta content="Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource." property="twitter:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Development", "image": ["https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"], "datePublished": "2025-08-27 20:38:20 +0200", "dateModified": "2025-08-27 20:38:20 +0200", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Explore the Ultralytics Handbook\u2014a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource."}</script></head>
+<meta content="Development" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics, development workflow, pull requests, code review, Git, GitHub, CLA, docstrings, YOLO11, Python, contributing" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/workflows/development" property="og:url"/><meta content="Development" property="og:title"/><meta content="Ultralytics development workflow covering PR process, CLA signing, Google-style docstrings, code standards, and Git practices for YOLO11 contributions." property="og:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/workflows/development" property="twitter:url"/><meta content="Development" property="twitter:title"/><meta content="Ultralytics development workflow covering PR process, CLA signing, Google-style docstrings, code standards, and Git practices for YOLO11 contributions." property="twitter:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Development", "image": ["https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"], "datePublished": "2025-08-27 20:38:20 +0200", "dateModified": "2025-10-01 18:51:36 +0100", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Ultralytics development workflow covering PR process, CLA signing, Google-style docstrings, code standards, and Git practices for YOLO11 contributions."}</script></head>
 <body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#development">
+<a class="md-skip" href="#development-workflow">
           Skip to content
         </a>
 </div>
@@ -342,37 +342,232 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#handbook-under-construction">
+<a class="md-nav__link" href="#code-of-conduct">
 <span class="md-ellipsis">
-      Handbook Under Construction 🏗️📖
+      Code of Conduct 🤝
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#what-to-expect-from-the-handbook">
+<a class="md-nav__link" href="#pull-request-process">
 <span class="md-ellipsis">
-      What to Expect from the Handbook 📘
+      Pull Request Process 🔄
+    </span>
+</a>
+<nav aria-label="Pull Request Process 🔄" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1-fork-the-repository">
+<span class="md-ellipsis">
+      1. Fork the Repository
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#stay-informed">
+<a class="md-nav__link" href="#2-create-feature-branch">
 <span class="md-ellipsis">
-      Stay Informed 🚧
+      2. Create Feature Branch
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#be-a-part-of-the-handbook">
+<a class="md-nav__link" href="#3-make-your-changes">
 <span class="md-ellipsis">
-      Be a Part of the Handbook 🗣️
+      3. Make Your Changes
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#thank-you-to-our-community">
+<a class="md-nav__link" href="#4-test-your-changes">
 <span class="md-ellipsis">
-      Thank You to Our Community 🌍
+      4. Test Your Changes
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#5-commit-your-changes">
+<span class="md-ellipsis">
+      5. Commit Your Changes
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#6-create-pull-request">
+<span class="md-ellipsis">
+      6. Create Pull Request
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#7-sign-the-cla">
+<span class="md-ellipsis">
+      7. Sign the CLA
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#8-address-review-feedback">
+<span class="md-ellipsis">
+      8. Address Review Feedback
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#google-style-docstrings">
+<span class="md-ellipsis">
+      Google-Style Docstrings 📝
+    </span>
+</a>
+<nav aria-label="Google-Style Docstrings 📝" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#standard-function">
+<span class="md-ellipsis">
+      Standard Function
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#named-returns">
+<span class="md-ellipsis">
+      Named Returns
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#multiple-returns">
+<span class="md-ellipsis">
+      Multiple Returns
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#with-type-hints">
+<span class="md-ellipsis">
+      With Type Hints
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#single-line-docstrings">
+<span class="md-ellipsis">
+      Single-Line Docstrings
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#code-standards">
+<span class="md-ellipsis">
+      Code Standards 📐
+    </span>
+</a>
+<nav aria-label="Code Standards 📐" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#python-style">
+<span class="md-ellipsis">
+      Python Style
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#code-quality">
+<span class="md-ellipsis">
+      Code Quality
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices">
+<span class="md-ellipsis">
+      Best Practices
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#testing-requirements">
+<span class="md-ellipsis">
+      Testing Requirements ✅
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#code-review-guidelines">
+<span class="md-ellipsis">
+      Code Review Guidelines 👀
+    </span>
+</a>
+<nav aria-label="Code Review Guidelines 👀" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#for-contributors">
+<span class="md-ellipsis">
+      For Contributors
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#for-reviewers">
+<span class="md-ellipsis">
+      For Reviewers
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git-best-practices">
+<span class="md-ellipsis">
+      Git Best Practices 🌳
+    </span>
+</a>
+<nav aria-label="Git Best Practices 🌳" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#commits">
+<span class="md-ellipsis">
+      Commits
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#branches">
+<span class="md-ellipsis">
+      Branches
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reporting-bugs">
+<span class="md-ellipsis">
+      Reporting Bugs 🐞
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#license">
+<span class="md-ellipsis">
+      License 📜
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resources">
+<span class="md-ellipsis">
+      Resources 📚
     </span>
 </a>
 </li>
@@ -457,37 +652,232 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#handbook-under-construction">
+<a class="md-nav__link" href="#code-of-conduct">
 <span class="md-ellipsis">
-      Handbook Under Construction 🏗️📖
+      Code of Conduct 🤝
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#what-to-expect-from-the-handbook">
+<a class="md-nav__link" href="#pull-request-process">
 <span class="md-ellipsis">
-      What to Expect from the Handbook 📘
+      Pull Request Process 🔄
+    </span>
+</a>
+<nav aria-label="Pull Request Process 🔄" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1-fork-the-repository">
+<span class="md-ellipsis">
+      1. Fork the Repository
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#stay-informed">
+<a class="md-nav__link" href="#2-create-feature-branch">
 <span class="md-ellipsis">
-      Stay Informed 🚧
+      2. Create Feature Branch
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#be-a-part-of-the-handbook">
+<a class="md-nav__link" href="#3-make-your-changes">
 <span class="md-ellipsis">
-      Be a Part of the Handbook 🗣️
+      3. Make Your Changes
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#thank-you-to-our-community">
+<a class="md-nav__link" href="#4-test-your-changes">
 <span class="md-ellipsis">
-      Thank You to Our Community 🌍
+      4. Test Your Changes
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#5-commit-your-changes">
+<span class="md-ellipsis">
+      5. Commit Your Changes
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#6-create-pull-request">
+<span class="md-ellipsis">
+      6. Create Pull Request
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#7-sign-the-cla">
+<span class="md-ellipsis">
+      7. Sign the CLA
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#8-address-review-feedback">
+<span class="md-ellipsis">
+      8. Address Review Feedback
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#google-style-docstrings">
+<span class="md-ellipsis">
+      Google-Style Docstrings 📝
+    </span>
+</a>
+<nav aria-label="Google-Style Docstrings 📝" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#standard-function">
+<span class="md-ellipsis">
+      Standard Function
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#named-returns">
+<span class="md-ellipsis">
+      Named Returns
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#multiple-returns">
+<span class="md-ellipsis">
+      Multiple Returns
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#with-type-hints">
+<span class="md-ellipsis">
+      With Type Hints
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#single-line-docstrings">
+<span class="md-ellipsis">
+      Single-Line Docstrings
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#code-standards">
+<span class="md-ellipsis">
+      Code Standards 📐
+    </span>
+</a>
+<nav aria-label="Code Standards 📐" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#python-style">
+<span class="md-ellipsis">
+      Python Style
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#code-quality">
+<span class="md-ellipsis">
+      Code Quality
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices">
+<span class="md-ellipsis">
+      Best Practices
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#testing-requirements">
+<span class="md-ellipsis">
+      Testing Requirements ✅
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#code-review-guidelines">
+<span class="md-ellipsis">
+      Code Review Guidelines 👀
+    </span>
+</a>
+<nav aria-label="Code Review Guidelines 👀" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#for-contributors">
+<span class="md-ellipsis">
+      For Contributors
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#for-reviewers">
+<span class="md-ellipsis">
+      For Reviewers
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git-best-practices">
+<span class="md-ellipsis">
+      Git Best Practices 🌳
+    </span>
+</a>
+<nav aria-label="Git Best Practices 🌳" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#commits">
+<span class="md-ellipsis">
+      Commits
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#branches">
+<span class="md-ellipsis">
+      Branches
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reporting-bugs">
+<span class="md-ellipsis">
+      Reporting Bugs 🐞
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#license">
+<span class="md-ellipsis">
+      License 📜
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resources">
+<span class="md-ellipsis">
+      Resources 📚
     </span>
 </a>
 </li>
@@ -501,28 +891,234 @@
 <a class="md-content__button md-icon" href="https://github.com/ultralytics/handbook/tree/main/docs/en/workflows/development.md" rel="edit" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
 </a><a class="md-content__button md-icon" href="javascript:void(0)" onclick="copyMarkdownForLLM(this); return false;" title="Copy page in Markdown format"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg></a>
-<h1 id="development">Development</h1>
-<h2 id="handbook-under-construction">Handbook Under Construction 🏗️📖</h2>
-<p>Welcome to the <a href="https://www.ultralytics.com/">Ultralytics</a> <a href="https://handbook.ultralytics.com/">Handbook</a> "Under Construction" page! We are diligently crafting a comprehensive guide that will serve as your go-to resource for understanding our mission, vision, values, workflows, and company practices. This page is a preview of the detailed documentation and guidelines soon to be available.</p>
-<h2 id="what-to-expect-from-the-handbook">What to Expect from the Handbook 📘</h2>
+<h1 id="development-workflow">Development Workflow 💻</h1>
+<p>This guide covers the development process for contributing to <a href="https://www.ultralytics.com/">Ultralytics</a> projects, including YOLO11 and related repositories.</p>
+<h2 id="code-of-conduct">Code of Conduct 🤝</h2>
+<p>All contributors must adhere to our <a href="https://docs.ultralytics.com/help/code-of-conduct/">Code of Conduct</a>. Respect, kindness, and professionalism are at the heart of our community.</p>
+<h2 id="pull-request-process">Pull Request Process 🔄</h2>
+<h3 id="1-fork-the-repository">1. Fork the Repository</h3>
+<p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo">Fork</a> the relevant Ultralytics repository (e.g., <a href="https://github.com/ultralytics/ultralytics">ultralytics/ultralytics</a>) to your GitHub account.</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="c1"># Clone your fork</span>
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/YOUR_USERNAME/ultralytics.git
+<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="nb">cd</span><span class="w"> </span>ultralytics
+</code></pre></div>
+<h3 id="2-create-feature-branch">2. Create Feature Branch</h3>
+<p><a href="https://docs.github.com/en/desktop/making-changes-in-a-branch/managing-branches-in-github-desktop">Create a branch</a> with a clear, descriptive name:</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>fix-issue-123
+</code></pre></div>
+<p>Branch naming conventions:</p>
 <ul>
-<li><strong>Mission and Values:</strong> Learn what drives Ultralytics forward and how we aim to make a lasting impact.</li>
-<li><strong>Operational Workflows:</strong> Discover how we work internally, including development processes, team collaboration, and continuous improvement.</li>
-<li><strong>Contribution Guidelines:</strong> Get involved! Detailed instructions on how to contribute to our projects and be part of the Ultralytics community.</li>
+<li><code>fix-issue-123</code> for bug fixes</li>
+<li><code>add-feature-xyz</code> for new features</li>
+<li><code>update-docs-training</code> for documentation</li>
 </ul>
-<h2 id="stay-informed">Stay Informed 🚧</h2>
-<p>This placeholder page is just the start. Soon, you’ll have access to:</p>
+<h3 id="3-make-your-changes">3. Make Your Changes</h3>
 <ul>
-<li><strong>Internal Workflows:</strong> Best practices for development, testing, and open-source contributions.</li>
-<li><strong>Team Roles:</strong> Detailed roles and responsibilities for team members and contributors.</li>
-<li><strong>Collaboration Guidelines:</strong> Clear guidance for collaborating on projects and contributing effectively.</li>
+<li>Follow project style guidelines</li>
+<li>Avoid introducing new errors or warnings</li>
+<li>Keep changes focused and minimal</li>
 </ul>
-<h2 id="be-a-part-of-the-handbook">Be a Part of the Handbook 🗣️</h2>
-<p>We value your input as we develop this resource. If you have suggestions or feedback, share your thoughts <a href="https://www.ultralytics.com/survey">here</a>.</p>
-<h2 id="thank-you-to-our-community">Thank You to Our Community 🌍</h2>
-<p>Your <a href="https://docs.ultralytics.com/help/contributing/">contributions</a> and feedback drive us to keep improving and refining the way we work at Ultralytics. Stay tuned as we roll out the complete handbook to help you engage, contribute, and align with our mission and values.</p>
-<hr/>
-<p>Excited for the Ultralytics Handbook? Bookmark this page and be the first to explore our internal processes and principles as we continue to build and share our journey with you! 📖✨</p>
+<h3 id="4-test-your-changes">4. Test Your Changes</h3>
+<p>Test locally before submitting:</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>pytest<span class="w"> </span>tests/
+</code></pre></div>
+<p>Add tests for new functionality to prevent regressions.</p>
+<h3 id="5-commit-your-changes">5. Commit Your Changes</h3>
+<p><a href="https://docs.github.com/en/desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project-in-github-desktop">Commit</a> with concise, descriptive messages:</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Fix #123: Corrected calculation error"</span>
+</code></pre></div>
+<p>Include issue number when addressing specific issues.</p>
+<h3 id="6-create-pull-request">6. Create Pull Request</h3>
+<p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">Submit PR</a> from your branch to <code>main</code>:</p>
+<ul>
+<li>Clear title describing the change</li>
+<li>Detailed description of purpose and scope</li>
+<li>Link related issues</li>
+<li>Include screenshots for UI changes</li>
+</ul>
+<h3 id="7-sign-the-cla">7. Sign the CLA</h3>
+<p>Before merging, you must sign our <a href="https://docs.ultralytics.com/help/CLA/">Contributor License Agreement (CLA)</a>. This ensures contributions are properly licensed under the <a href="https://www.ultralytics.com/legal/agpl-3-0-software-license">AGPL-3.0 license</a>.</p>
+<p>After submitting your PR, add this comment:</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a>I have read the CLA Document and I sign the CLA
+</code></pre></div>
+<p>The CLA bot will guide you through the process.</p>
+<h3 id="8-address-review-feedback">8. Address Review Feedback</h3>
+<p>Respond to reviewer comments and push updates.</p>
+<h2 id="google-style-docstrings">Google-Style Docstrings 📝</h2>
+<p>All functions and classes require <a href="https://google.github.io/styleguide/pyguide.html">Google-style docstrings</a> with types in parentheses.</p>
+<h3 id="standard-function">Standard Function</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-5-1" id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">example_function</span><span class="p">(</span><span class="n">arg1</span><span class="p">,</span> <span class="n">arg2</span><span class="o">=</span><span class="mi">4</span><span class="p">):</span>
+<a href="#__codelineno-5-2" id="__codelineno-5-2" name="__codelineno-5-2"></a><span class="w">    </span><span class="sd">"""</span>
+<a href="#__codelineno-5-3" id="__codelineno-5-3" name="__codelineno-5-3"></a><span class="sd">    Example function demonstrating Google-style docstrings.</span>
+<a href="#__codelineno-5-4" id="__codelineno-5-4" name="__codelineno-5-4"></a>
+<a href="#__codelineno-5-5" id="__codelineno-5-5" name="__codelineno-5-5"></a><span class="sd">    Args:</span>
+<a href="#__codelineno-5-6" id="__codelineno-5-6" name="__codelineno-5-6"></a><span class="sd">        arg1 (int): The first argument.</span>
+<a href="#__codelineno-5-7" id="__codelineno-5-7" name="__codelineno-5-7"></a><span class="sd">        arg2 (int): The second argument.</span>
+<a href="#__codelineno-5-8" id="__codelineno-5-8" name="__codelineno-5-8"></a>
+<a href="#__codelineno-5-9" id="__codelineno-5-9" name="__codelineno-5-9"></a><span class="sd">    Returns:</span>
+<a href="#__codelineno-5-10" id="__codelineno-5-10" name="__codelineno-5-10"></a><span class="sd">        (bool): True if arguments are equal, False otherwise.</span>
+<a href="#__codelineno-5-11" id="__codelineno-5-11" name="__codelineno-5-11"></a>
+<a href="#__codelineno-5-12" id="__codelineno-5-12" name="__codelineno-5-12"></a><span class="sd">    Examples:</span>
+<a href="#__codelineno-5-13" id="__codelineno-5-13" name="__codelineno-5-13"></a><span class="sd">        &gt;&gt;&gt; example_function(4, 4)  # True</span>
+<a href="#__codelineno-5-14" id="__codelineno-5-14" name="__codelineno-5-14"></a><span class="sd">        &gt;&gt;&gt; example_function(1, 2)  # False</span>
+<a href="#__codelineno-5-15" id="__codelineno-5-15" name="__codelineno-5-15"></a><span class="sd">    """</span>
+<a href="#__codelineno-5-16" id="__codelineno-5-16" name="__codelineno-5-16"></a>    <span class="k">return</span> <span class="n">arg1</span> <span class="o">==</span> <span class="n">arg2</span>
+</code></pre></div>
+<h3 id="named-returns">Named Returns</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-6-1" id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">example_function</span><span class="p">(</span><span class="n">arg1</span><span class="p">,</span> <span class="n">arg2</span><span class="o">=</span><span class="mi">4</span><span class="p">):</span>
+<a href="#__codelineno-6-2" id="__codelineno-6-2" name="__codelineno-6-2"></a><span class="w">    </span><span class="sd">"""</span>
+<a href="#__codelineno-6-3" id="__codelineno-6-3" name="__codelineno-6-3"></a><span class="sd">    Example function with named return.</span>
+<a href="#__codelineno-6-4" id="__codelineno-6-4" name="__codelineno-6-4"></a>
+<a href="#__codelineno-6-5" id="__codelineno-6-5" name="__codelineno-6-5"></a><span class="sd">    Args:</span>
+<a href="#__codelineno-6-6" id="__codelineno-6-6" name="__codelineno-6-6"></a><span class="sd">        arg1 (int): The first argument.</span>
+<a href="#__codelineno-6-7" id="__codelineno-6-7" name="__codelineno-6-7"></a><span class="sd">        arg2 (int): The second argument.</span>
+<a href="#__codelineno-6-8" id="__codelineno-6-8" name="__codelineno-6-8"></a>
+<a href="#__codelineno-6-9" id="__codelineno-6-9" name="__codelineno-6-9"></a><span class="sd">    Returns:</span>
+<a href="#__codelineno-6-10" id="__codelineno-6-10" name="__codelineno-6-10"></a><span class="sd">        equals (bool): True if arguments are equal, False otherwise.</span>
+<a href="#__codelineno-6-11" id="__codelineno-6-11" name="__codelineno-6-11"></a>
+<a href="#__codelineno-6-12" id="__codelineno-6-12" name="__codelineno-6-12"></a><span class="sd">    Examples:</span>
+<a href="#__codelineno-6-13" id="__codelineno-6-13" name="__codelineno-6-13"></a><span class="sd">        &gt;&gt;&gt; example_function(4, 4)  # True</span>
+<a href="#__codelineno-6-14" id="__codelineno-6-14" name="__codelineno-6-14"></a><span class="sd">    """</span>
+<a href="#__codelineno-6-15" id="__codelineno-6-15" name="__codelineno-6-15"></a>    <span class="n">equals</span> <span class="o">=</span> <span class="n">arg1</span> <span class="o">==</span> <span class="n">arg2</span>
+<a href="#__codelineno-6-16" id="__codelineno-6-16" name="__codelineno-6-16"></a>    <span class="k">return</span> <span class="n">equals</span>
+</code></pre></div>
+<h3 id="multiple-returns">Multiple Returns</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-7-1" id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">example_function</span><span class="p">(</span><span class="n">arg1</span><span class="p">,</span> <span class="n">arg2</span><span class="o">=</span><span class="mi">4</span><span class="p">):</span>
+<a href="#__codelineno-7-2" id="__codelineno-7-2" name="__codelineno-7-2"></a><span class="w">    </span><span class="sd">"""</span>
+<a href="#__codelineno-7-3" id="__codelineno-7-3" name="__codelineno-7-3"></a><span class="sd">    Example function with multiple returns.</span>
+<a href="#__codelineno-7-4" id="__codelineno-7-4" name="__codelineno-7-4"></a>
+<a href="#__codelineno-7-5" id="__codelineno-7-5" name="__codelineno-7-5"></a><span class="sd">    Args:</span>
+<a href="#__codelineno-7-6" id="__codelineno-7-6" name="__codelineno-7-6"></a><span class="sd">        arg1 (int): The first argument.</span>
+<a href="#__codelineno-7-7" id="__codelineno-7-7" name="__codelineno-7-7"></a><span class="sd">        arg2 (int): The second argument.</span>
+<a href="#__codelineno-7-8" id="__codelineno-7-8" name="__codelineno-7-8"></a>
+<a href="#__codelineno-7-9" id="__codelineno-7-9" name="__codelineno-7-9"></a><span class="sd">    Returns:</span>
+<a href="#__codelineno-7-10" id="__codelineno-7-10" name="__codelineno-7-10"></a><span class="sd">        equals (bool): True if arguments are equal, False otherwise.</span>
+<a href="#__codelineno-7-11" id="__codelineno-7-11" name="__codelineno-7-11"></a><span class="sd">        added (int): Sum of both input arguments.</span>
+<a href="#__codelineno-7-12" id="__codelineno-7-12" name="__codelineno-7-12"></a>
+<a href="#__codelineno-7-13" id="__codelineno-7-13" name="__codelineno-7-13"></a><span class="sd">    Examples:</span>
+<a href="#__codelineno-7-14" id="__codelineno-7-14" name="__codelineno-7-14"></a><span class="sd">        &gt;&gt;&gt; equals, added = example_function(2, 2)  # True, 4</span>
+<a href="#__codelineno-7-15" id="__codelineno-7-15" name="__codelineno-7-15"></a><span class="sd">    """</span>
+<a href="#__codelineno-7-16" id="__codelineno-7-16" name="__codelineno-7-16"></a>    <span class="n">equals</span> <span class="o">=</span> <span class="n">arg1</span> <span class="o">==</span> <span class="n">arg2</span>
+<a href="#__codelineno-7-17" id="__codelineno-7-17" name="__codelineno-7-17"></a>    <span class="n">added</span> <span class="o">=</span> <span class="n">arg1</span> <span class="o">+</span> <span class="n">arg2</span>
+<a href="#__codelineno-7-18" id="__codelineno-7-18" name="__codelineno-7-18"></a>    <span class="k">return</span> <span class="n">equals</span><span class="p">,</span> <span class="n">added</span>
+</code></pre></div>
+<p><strong>Important:</strong> Document each return value separately, not as a tuple.</p>
+<p>✅ <strong>Good:</strong></p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-8-1" id="__codelineno-8-1" name="__codelineno-8-1"></a><span class="n">Returns</span><span class="p">:</span>
+<a href="#__codelineno-8-2" id="__codelineno-8-2" name="__codelineno-8-2"></a>    <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">):</span> <span class="n">Predicted</span> <span class="n">masks</span> <span class="k">with</span> <span class="n">shape</span> <span class="n">HxWxN</span><span class="o">.</span>
+<a href="#__codelineno-8-3" id="__codelineno-8-3" name="__codelineno-8-3"></a>    <span class="p">(</span><span class="nb">list</span><span class="p">):</span> <span class="n">Confidence</span> <span class="n">scores</span> <span class="k">for</span> <span class="n">each</span> <span class="n">instance</span><span class="o">.</span>
+</code></pre></div>
+<p>❌ <strong>Bad:</strong></p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-9-1" id="__codelineno-9-1" name="__codelineno-9-1"></a><span class="n">Returns</span><span class="p">:</span>
+<a href="#__codelineno-9-2" id="__codelineno-9-2" name="__codelineno-9-2"></a>    <span class="p">(</span><span class="nb">tuple</span><span class="p">):</span> <span class="n">Tuple</span> <span class="n">containing</span><span class="p">:</span>
+<a href="#__codelineno-9-3" id="__codelineno-9-3" name="__codelineno-9-3"></a>        <span class="o">-</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">):</span> <span class="n">Predicted</span> <span class="n">masks</span> <span class="k">with</span> <span class="n">shape</span> <span class="n">HxWxN</span><span class="o">.</span>
+<a href="#__codelineno-9-4" id="__codelineno-9-4" name="__codelineno-9-4"></a>        <span class="o">-</span> <span class="p">(</span><span class="nb">list</span><span class="p">):</span> <span class="n">Confidence</span> <span class="n">scores</span> <span class="k">for</span> <span class="n">each</span> <span class="n">instance</span><span class="o">.</span>
+</code></pre></div>
+<h3 id="with-type-hints">With Type Hints</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-10-1" id="__codelineno-10-1" name="__codelineno-10-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">example_function</span><span class="p">(</span><span class="n">arg1</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">arg2</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">4</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+<a href="#__codelineno-10-2" id="__codelineno-10-2" name="__codelineno-10-2"></a><span class="w">    </span><span class="sd">"""</span>
+<a href="#__codelineno-10-3" id="__codelineno-10-3" name="__codelineno-10-3"></a><span class="sd">    Example function with type hints.</span>
+<a href="#__codelineno-10-4" id="__codelineno-10-4" name="__codelineno-10-4"></a>
+<a href="#__codelineno-10-5" id="__codelineno-10-5" name="__codelineno-10-5"></a><span class="sd">    Args:</span>
+<a href="#__codelineno-10-6" id="__codelineno-10-6" name="__codelineno-10-6"></a><span class="sd">        arg1: The first argument.</span>
+<a href="#__codelineno-10-7" id="__codelineno-10-7" name="__codelineno-10-7"></a><span class="sd">        arg2: The second argument.</span>
+<a href="#__codelineno-10-8" id="__codelineno-10-8" name="__codelineno-10-8"></a>
+<a href="#__codelineno-10-9" id="__codelineno-10-9" name="__codelineno-10-9"></a><span class="sd">    Returns:</span>
+<a href="#__codelineno-10-10" id="__codelineno-10-10" name="__codelineno-10-10"></a><span class="sd">        True if arguments are equal, False otherwise.</span>
+<a href="#__codelineno-10-11" id="__codelineno-10-11" name="__codelineno-10-11"></a>
+<a href="#__codelineno-10-12" id="__codelineno-10-12" name="__codelineno-10-12"></a><span class="sd">    Examples:</span>
+<a href="#__codelineno-10-13" id="__codelineno-10-13" name="__codelineno-10-13"></a><span class="sd">        &gt;&gt;&gt; example_function(1, 1)  # True</span>
+<a href="#__codelineno-10-14" id="__codelineno-10-14" name="__codelineno-10-14"></a><span class="sd">    """</span>
+<a href="#__codelineno-10-15" id="__codelineno-10-15" name="__codelineno-10-15"></a>    <span class="k">return</span> <span class="n">arg1</span> <span class="o">==</span> <span class="n">arg2</span>
+</code></pre></div>
+<h3 id="single-line-docstrings">Single-Line Docstrings</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-11-1" id="__codelineno-11-1" name="__codelineno-11-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">example_small_function</span><span class="p">(</span><span class="n">arg1</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">arg2</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">4</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+<a href="#__codelineno-11-2" id="__codelineno-11-2" name="__codelineno-11-2"></a><span class="w">    </span><span class="sd">"""Example function with a single-line docstring."""</span>
+<a href="#__codelineno-11-3" id="__codelineno-11-3" name="__codelineno-11-3"></a>    <span class="k">return</span> <span class="n">arg1</span> <span class="o">==</span> <span class="n">arg2</span>
+</code></pre></div>
+<h2 id="code-standards">Code Standards 📐</h2>
+<h3 id="python-style">Python Style</h3>
+<ul>
+<li><strong>Line width</strong>: 120 characters maximum</li>
+<li><strong>Docstrings</strong>: Google-style with types in parentheses</li>
+<li><strong>Imports</strong>: Use <code>pathlib</code> instead of <code>os</code></li>
+<li><strong>Type hints</strong>: Use where beneficial</li>
+<li><strong>Functions</strong>: Keep short and focused (under 50 lines ideally)</li>
+</ul>
+<h3 id="code-quality">Code Quality</h3>
+<ul>
+<li>No unused imports or variables</li>
+<li>Consistent naming (<code>lowercase_with_underscores</code>)</li>
+<li>Clear variable names (avoid single letters except loop counters)</li>
+<li>f-strings for formatting</li>
+<li>Comments only for complex logic</li>
+</ul>
+<h3 id="best-practices">Best Practices</h3>
+<ul>
+<li><strong>Avoid duplication</strong>: Reuse existing code</li>
+<li><strong>Smaller changes</strong>: Focused modifications over large-scale changes</li>
+<li><strong>Simplify</strong>: Look for simplification opportunities</li>
+<li><strong>Compatibility</strong>: Avoid breaking existing code</li>
+<li><strong>Consistent formatting</strong>: Use <a href="https://github.com/astral-sh/ruff">Ruff Formatter</a></li>
+<li><strong>Add tests</strong>: Include tests for new features</li>
+</ul>
+<h2 id="testing-requirements">Testing Requirements ✅</h2>
+<p>All PRs must pass CI tests:</p>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-12-1" id="__codelineno-12-1" name="__codelineno-12-1"></a><span class="c1"># Run tests locally</span>
+<a href="#__codelineno-12-2" id="__codelineno-12-2" name="__codelineno-12-2"></a>pytest<span class="w"> </span>tests/
+<a href="#__codelineno-12-3" id="__codelineno-12-3" name="__codelineno-12-3"></a>
+<a href="#__codelineno-12-4" id="__codelineno-12-4" name="__codelineno-12-4"></a><span class="c1"># With coverage</span>
+<a href="#__codelineno-12-5" id="__codelineno-12-5" name="__codelineno-12-5"></a>pytest<span class="w"> </span>--cov<span class="o">=</span>ultralytics<span class="w"> </span>tests/
+</code></pre></div>
+<p>See <a href="../ci-testing/">CI/Testing</a> for CI details.</p>
+<h2 id="code-review-guidelines">Code Review Guidelines 👀</h2>
+<h3 id="for-contributors">For Contributors</h3>
+<ul>
+<li>Keep PRs focused on single feature/fix</li>
+<li>Respond promptly to feedback</li>
+<li>Don't take feedback personally</li>
+<li>Update PR description if scope changes</li>
+</ul>
+<h3 id="for-reviewers">For Reviewers</h3>
+<ul>
+<li>Review within 1-2 business days</li>
+<li>Check unit tests for new features</li>
+<li>Review documentation updates</li>
+<li>Evaluate performance impact</li>
+<li>Verify CI tests pass</li>
+<li>Provide constructive, specific feedback</li>
+<li>Recognize author's effort</li>
+</ul>
+<h2 id="git-best-practices">Git Best Practices 🌳</h2>
+<h3 id="commits">Commits</h3>
+<ul>
+<li>Present tense: "Add feature" not "Added feature"</li>
+<li>Clear, descriptive messages</li>
+<li>Focused, logical commits</li>
+</ul>
+<h3 id="branches">Branches</h3>
+<ul>
+<li>Pull latest <code>main</code> before creating branches</li>
+<li>Rebase on <code>main</code> before final submission</li>
+<li>Delete branches after merge</li>
+</ul>
+<h2 id="reporting-bugs">Reporting Bugs 🐞</h2>
+<p>Report bugs via <a href="https://github.com/ultralytics/ultralytics/issues">GitHub Issues</a>:</p>
+<ol>
+<li><strong>Check existing issues</strong> first</li>
+<li><strong>Provide <a href="https://docs.ultralytics.com/help/minimum-reproducible-example/">Minimum Reproducible Example</a></strong></li>
+<li><strong>Describe environment</strong>: OS, Python version, library versions, hardware</li>
+<li><strong>Explain expected vs actual behavior</strong> with error messages</li>
+</ol>
+<h2 id="license">License 📜</h2>
+<p>Ultralytics uses <a href="https://www.ultralytics.com/legal/agpl-3-0-software-license">AGPL-3.0</a>. If using Ultralytics code in your project, your entire project must be open-sourced under AGPL-3.0. If you prefer not to open-source, obtain an <a href="https://www.ultralytics.com/license">Enterprise License</a>.</p>
+<h2 id="resources">Resources 📚</h2>
+<ul>
+<li><a href="https://docs.ultralytics.com/help/contributing/">Official Contributing Guide</a> - Complete contribution guidelines</li>
+<li><a href="../ci-testing/">CI/Testing</a> - Continuous integration details</li>
+<li><a href="../documentation/">Documentation</a> - Writing and maintaining docs</li>
+<li><a href="https://docs.ultralytics.com/help/code-of-conduct/">Code of Conduct</a> - Community standards</li>
+</ul>
 <!-- Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license -->
 <br/><br/>
 <div class="git-info">
@@ -530,12 +1126,12 @@
 <span class="date-item" title="This page was first created on August 27, 2025">
 <span class="hover-item">📅</span> Created 1 month ago
     </span>
-<span class="date-item" title="This page was last updated on August 27, 2025">
-<span class="hover-item">✏️</span> Updated 1 month ago
+<span class="date-item" title="This page was last updated on October 01, 2025">
+<span class="hover-item">✏️</span> Updated 0 days ago
     </span>
 </div>
 <div class="authors-container">
-<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (1 change)">
+<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (2 changes)">
 <img alt="glenn-jocher" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/26833433?v=4&amp;s=96"/>
 </a>
 </div></div><div class="share-buttons">
