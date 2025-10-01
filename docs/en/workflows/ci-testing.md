@@ -12,23 +12,29 @@ Continuous Integration (CI) is essential for maintaining high-quality code by ca
 All PRs must pass automated CI checks before merging. Our CI pipeline includes:
 
 ### [CI Tests](https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml)
+
 Primary CI test running unit tests, linting checks, and comprehensive tests.
 
 ### [Docker Deployment](https://github.com/ultralytics/ultralytics/actions/workflows/docker.yml)
+
 Validates deployment using Docker, ensuring Dockerfile and related scripts work correctly.
 
 ### [Broken Links](https://github.com/ultralytics/ultralytics/actions/workflows/links.yml)
+
 Scans codebase for broken or dead links in markdown and HTML files.
 
 ### [CodeQL Analysis](https://github.com/ultralytics/ultralytics/actions/workflows/codeql.yaml)
+
 GitHub's semantic analysis tool for finding potential security vulnerabilities and maintaining code quality.
 
 ### [PyPI Publishing](https://github.com/ultralytics/ultralytics/actions/workflows/publish.yml)
+
 Validates project can be packaged and published to PyPI without errors.
 
 ## Platform Testing 🖥️
 
 Tests run on multiple environments:
+
 - **OS**: Ubuntu, Windows, macOS
 - **Python**: 3.8, 3.9, 3.10, 3.11, 3.12
 
@@ -39,6 +45,7 @@ We use [Codecov](https://about.codecov.io/) to measure and visualize code covera
 ### Coverage Integration
 
 Codecov integration provides:
+
 - Detailed coverage insights
 - Coverage comparisons between commits
 - Visual overlays on code showing covered lines
@@ -106,6 +113,7 @@ pre-commit install
 ```
 
 Hooks automatically run:
+
 - [Ruff](https://github.com/astral-sh/ruff) (linting and formatting)
 - docformatter (docstring formatting)
 - Trailing whitespace removal
@@ -153,6 +161,7 @@ tests/
 ```python
 import pytest
 
+
 @pytest.mark.slow
 def test_full_training():
     """Test full training run (slow)."""
@@ -197,6 +206,7 @@ docformatter --in-place ultralytics/
 ### Tests Pass Locally But Fail in CI
 
 Common causes:
+
 - **Platform-specific issues**: Test on target OS
 - **Python version differences**: Check version compatibility
 - **Missing dependencies**: Verify CI config
@@ -205,6 +215,7 @@ Common causes:
 ### Slow CI Runs
 
 Solutions:
+
 - Use `@pytest.mark.slow` for expensive tests
 - Mock external dependencies
 - Reduce test dataset sizes
@@ -213,6 +224,7 @@ Solutions:
 ### Flaky Tests
 
 Fixes:
+
 - Add retries for network-dependent tests
 - Increase timeouts for slow operations
 - Fix race conditions in async code
@@ -221,12 +233,14 @@ Fixes:
 ## Performance Benchmarks 📈
 
 CI tracks key metrics:
+
 - Inference speed (FPS)
 - Memory usage
 - Model size
 - Export times
 
 Significant regressions block merging. If metrics change:
+
 1. Verify change is expected
 2. Document reason in PR
 3. Get approval from maintainers
@@ -252,6 +266,7 @@ git commit -m "Update README [skip ci]"
 ```
 
 Only for:
+
 - Documentation-only changes
 - Non-code file updates
 - Emergency hotfixes (with approval)

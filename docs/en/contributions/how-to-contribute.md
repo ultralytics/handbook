@@ -126,6 +126,7 @@ Ultralytics uses [AGPL-3.0](https://www.ultralytics.com/legal/agpl-3-0-software-
 If you use Ultralytics YOLO models or code in your project, AGPL-3.0 requires your entire derivative work also be open-sourced under AGPL-3.0.
 
 **Why compliance matters:**
+
 - Keeps software open for community benefit
 - Legal requirement when using AGPL-3.0 code
 - Fosters collaboration and transparency
@@ -137,27 +138,27 @@ If you use Ultralytics YOLO models or code in your project, AGPL-3.0 requires yo
 Make complete source code publicly available under AGPL-3.0:
 
 1. **Choose starting point**:
-   - Fork [Ultralytics YOLO repository](https://github.com/ultralytics/ultralytics)
-   - Use [Ultralytics template repository](https://github.com/ultralytics/template)
+    - Fork [Ultralytics YOLO repository](https://github.com/ultralytics/ultralytics)
+    - Use [Ultralytics template repository](https://github.com/ultralytics/template)
 
 2. **License your project**:
-   - Add `LICENSE` file with full [AGPL-3.0 text](https://opensource.org/license/agpl-v3)
-   - Add license notice at top of source files
+    - Add `LICENSE` file with full [AGPL-3.0 text](https://opensource.org/license/agpl-v3)
+    - Add license notice at top of source files
 
 3. **Publish source code** including:
-   - Complete application/system
-   - Modifications to Ultralytics code
-   - Training/validation/inference scripts
-   - Model weights if modified
-   - Configuration files
-   - Backend/frontend code
-   - Third-party libraries modified
-   - Training data if redistributable
+    - Complete application/system
+    - Modifications to Ultralytics code
+    - Training/validation/inference scripts
+    - Model weights if modified
+    - Configuration files
+    - Backend/frontend code
+    - Third-party libraries modified
+    - Training data if redistributable
 
 4. **Document clearly**:
-   - State AGPL-3.0 license in `README.md`
-   - Include setup instructions
-   - Attribute Ultralytics YOLO appropriately
+    - State AGPL-3.0 license in `README.md`
+    - Include setup instructions
+    - Attribute Ultralytics YOLO appropriately
 
 See [Ultralytics Template Repository](https://github.com/ultralytics/template) for example structure.
 
@@ -165,47 +166,47 @@ See [Ultralytics Template Repository](https://github.com/ultralytics/template) f
 
 Feel free to reach out to team members for guidance:
 
-| Name | GitHub Profile |
-|------|----------------|
-| Abrish Sabri | [asabri97](https://github.com/asabri97) |
-| Abirami Vina | [abirami-vina](https://github.com/abirami-vina) |
-| Alexis Schutzger | [picsalex](https://github.com/picsalex) |
-| Burhan Qaddoumi | [Burhan-Q](https://github.com/Burhan-Q) |
-| Fatih Akyon | [fcakyon](https://github.com/fcakyon) |
-| Francesco Mattioli | [ambitious-octopus](https://github.com/ambitious-octopus) |
-| Giovanni Dal Zillio | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics) |
-| Glenn Jocher | [glenn-jocher](https://github.com/glenn-jocher) |
-| Hannah Streif | [HannahStreif](https://github.com/HannahStreif) |
-| Jake Qian | [fengqianjake](https://github.com/fengqianjake) |
-| Jing Qiu | [Laughing-q](https://github.com/Laughing-q) |
-| Joey Tjon | [NoCodeJoey](https://github.com/NoCodeJoey) |
-| Jordan Cooper | [JCoops1](https://github.com/JCoops1) |
-| Kasim Acikbas | [kayselmecnun](https://github.com/kayselmecnun) |
-| Kirill Viarbitski | [Kverbitski](https://github.com/Kverbitski) |
-| Kiryl Oblikau | [munknex](https://github.com/munknex) |
-| Kristian Sommer | [sokrisba](https://github.com/sokrisba) |
-| Lakshantha Dissanayake | [lakshanthad](https://github.com/lakshanthad) |
-| Marius Keiser | [Skillnoob](https://github.com/Skillnoob) |
-| Mohammed Yasin | [Y-T-G](https://github.com/Y-T-G) |
-| Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar) |
-| Mykola Boiko | [mykolaxboiko](https://github.com/mykolaxboiko) |
-| Nicolai Nielsen | [niconielsen32](https://github.com/niconielsen32) |
-| Nuvola Ladi | [NLadi](https://github.com/NLadi) |
-| Onuralp Sezer | [onuralpszr](https://github.com/onuralpszr) |
-| Pablo Karnbaum | [pablokarnbaum](https://github.com/pablokarnbaum) |
-| Paula Derrenger | [pderrenger](https://github.com/pderrenger) |
-| Prateek Bhatnagar | [prateek-ultralytics](https://github.com/prateek-ultralytics) |
-| Rick Hou | [Bovey0809](https://github.com/Bovey0809) |
-| Sergiu Waxmann | [sergiuwaxmann](https://github.com/sergiuwaxmann) |
-| Thomas Chuang | [chuang091](https://github.com/chuang091) |
-| William Beaven | [william-beaven](https://github.com/william-beaven) |
-| Yogendra Singh | [yogendrasinghx](https://github.com/yogendrasinghx) |
-| Tigran Hakobyan | [tthakz](https://github.com/tthakz) |
-| Zinnia Pourdad | [zinnialp](https://github.com/zinnialp) |
-| Shuai (Louis) LYU | [ShuaiLYU](https://github.com/ShuaiLYU) |
-| Abi Anderson | [UltralyticsAbi](https://github.com/UltralyticsAbi) |
-| Jin Xu | [laodouya](https://github.com/laodouya) |
-| Zuzana Kontrikova | [zkontri](https://github.com/zkontri) |
+| Name                    | GitHub Profile                                                |
+| ----------------------- | ------------------------------------------------------------- |
+| Abrish Sabri            | [asabri97](https://github.com/asabri97)                       |
+| Abirami Vina            | [abirami-vina](https://github.com/abirami-vina)               |
+| Alexis Schutzger        | [picsalex](https://github.com/picsalex)                       |
+| Burhan Qaddoumi         | [Burhan-Q](https://github.com/Burhan-Q)                       |
+| Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                         |
+| Francesco Mattioli      | [ambitious-octopus](https://github.com/ambitious-octopus)     |
+| Giovanni Dal Zillio     | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)   |
+| Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)               |
+| Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)               |
+| Jake Qian               | [fengqianjake](https://github.com/fengqianjake)               |
+| Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                   |
+| Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                   |
+| Jordan Cooper           | [JCoops1](https://github.com/JCoops1)                         |
+| Kasim Acikbas           | [kayselmecnun](https://github.com/kayselmecnun)               |
+| Kirill Viarbitski       | [Kverbitski](https://github.com/Kverbitski)                   |
+| Kiryl Oblikau           | [munknex](https://github.com/munknex)                         |
+| Kristian Sommer         | [sokrisba](https://github.com/sokrisba)                       |
+| Lakshantha Dissanayake  | [lakshanthad](https://github.com/lakshanthad)                 |
+| Marius Keiser           | [Skillnoob](https://github.com/Skillnoob)                     |
+| Mohammed Yasin          | [Y-T-G](https://github.com/Y-T-G)                             |
+| Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar)             |
+| Mykola Boiko            | [mykolaxboiko](https://github.com/mykolaxboiko)               |
+| Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)             |
+| Nuvola Ladi             | [NLadi](https://github.com/NLadi)                             |
+| Onuralp Sezer           | [onuralpszr](https://github.com/onuralpszr)                   |
+| Pablo Karnbaum          | [pablokarnbaum](https://github.com/pablokarnbaum)             |
+| Paula Derrenger         | [pderrenger](https://github.com/pderrenger)                   |
+| Prateek Bhatnagar       | [prateek-ultralytics](https://github.com/prateek-ultralytics) |
+| Rick Hou                | [Bovey0809](https://github.com/Bovey0809)                     |
+| Sergiu Waxmann          | [sergiuwaxmann](https://github.com/sergiuwaxmann)             |
+| Thomas Chuang           | [chuang091](https://github.com/chuang091)                     |
+| William Beaven          | [william-beaven](https://github.com/william-beaven)           |
+| Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)           |
+| Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                           |
+| Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                       |
+| Shuai (Louis) LYU       | [ShuaiLYU](https://github.com/ShuaiLYU)                       |
+| Abi Anderson            | [UltralyticsAbi](https://github.com/UltralyticsAbi)           |
+| Jin Xu                  | [laodouya](https://github.com/laodouya)                       |
+| Zuzana Kontrikova       | [zkontri](https://github.com/zkontri)                         |
 
 ## Get Support 💬
 
