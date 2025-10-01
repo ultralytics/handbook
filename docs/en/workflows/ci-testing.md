@@ -240,7 +240,6 @@ Check CI status for all Ultralytics repositories at [docs.ultralytics.com/help/C
 ![CI](https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg)
 ![Docker](https://github.com/ultralytics/ultralytics/actions/workflows/docker.yml/badge.svg)
 ![Links](https://github.com/ultralytics/ultralytics/actions/workflows/links.yml/badge.svg)
-![CodeQL](https://github.com/ultralytics/ultralytics/actions/workflows/codeql.yaml/badge.svg)
 ![PyPI](https://github.com/ultralytics/ultralytics/actions/workflows/publish.yml/badge.svg)
 ![codecov](https://codecov.io/gh/ultralytics/ultralytics/branch/main/graph/badge.svg?token=HHW7IIVFVY)
 

@@ -9,7 +9,7 @@ Welcome! We're thrilled you're considering contributing to [Ultralytics](https:/
 
 ## Watch: Contributing to Ultralytics
 
-<iframe width="100%" height="469" src="https://www.youtube.com/embed/UiJRZz10Vjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="469" src="https://www.youtube.com/embed/yMR7BgwHQ3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Quick Start Guide 🎯
 
