@@ -165,6 +165,7 @@ nav:
           - finance/index.md
           - Travel: finance/travel.md
           - Relocation: finance/relocation.md
+          - Referral Bonus: finance/referral-bonus.md
       - Tools:
           - Overview: tools/index.md
           - Hardware: tools/hardware.md
@@ -197,6 +198,7 @@ nav:
       - finance/index.md
       - Travel: finance/travel.md
       - Relocation: finance/relocation.md
+      - Referral Bonus: finance/referral-bonus.md
   - Tools:
       - Overview: tools/index.md
       - Hardware: tools/hardware.md
@@ -221,8 +223,7 @@ nav:
   - FAQ:
       - faq/index.md
   - Legal:
-      - Licenses: legal/licenses.md
-      - Privacy Policy: legal/privacy-policy.md
+      - Ultralytics Legal Team Overview: legal/licenses.md
       - Code of Business Conduct and Ethics: legal/code-of-business-conduct-and-ethics.md
 
 # Plugins including 301 redirects navigation ---------------------------------------------------------------------------
