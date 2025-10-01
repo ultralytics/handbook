@@ -1,36 +1,280 @@
 ---
-description: Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource.
-keywords: Ultralytics Handbook, coming soon, under construction, internal guide, mission, vision, values, workflows, open-source, AI guidelines
+description: Ultralytics CI/CD workflow covering GitHub Actions, automated tests, code coverage with Codecov, and quality checks for YOLO11 development.
+keywords: Ultralytics, CI/CD, continuous integration, testing, GitHub Actions, pytest, Codecov, code quality, YOLO11, Docker
 ---
 
-# CI Testing
+# CI/Testing Workflow 🧪
 
-## Handbook Under Construction 🏗️📖
+Continuous Integration (CI) is essential for maintaining high-quality code by catching issues early. This guide covers CI testing and quality checks for [Ultralytics](https://www.ultralytics.com/) projects.
 
-Welcome to the [Ultralytics](https://www.ultralytics.com/) [Handbook](https://handbook.ultralytics.com/) "Under Construction" page! We are diligently crafting a comprehensive guide that will serve as your go-to resource for understanding our mission, vision, values, workflows, and company practices. This page is a preview of the detailed documentation and guidelines soon to be available.
+## CI Actions 🔄
 
-## What to Expect from the Handbook 📘
+All PRs must pass automated CI checks before merging. Our CI pipeline includes:
 
-- **Mission and Values:** Learn what drives Ultralytics forward and how we aim to make a lasting impact.
-- **Operational Workflows:** Discover how we work internally, including development processes, team collaboration, and continuous improvement.
-- **Contribution Guidelines:** Get involved! Detailed instructions on how to contribute to our projects and be part of the Ultralytics community.
+### [CI Tests](https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml)
 
-## Stay Informed 🚧
+Primary CI test running unit tests, linting checks, and comprehensive tests.
 
-This placeholder page is just the start. Soon, you’ll have access to:
+### [Docker Deployment](https://github.com/ultralytics/ultralytics/actions/workflows/docker.yml)
 
-- **Internal Workflows:** Best practices for development, testing, and open-source contributions.
-- **Team Roles:** Detailed roles and responsibilities for team members and contributors.
-- **Collaboration Guidelines:** Clear guidance for collaborating on projects and contributing effectively.
+Validates deployment using Docker, ensuring Dockerfile and related scripts work correctly.
 
-## Be a Part of the Handbook 🗣️
+### [Broken Links](https://github.com/ultralytics/ultralytics/actions/workflows/links.yml)
 
-We value your input as we develop this resource. If you have suggestions or feedback, share your thoughts [here](https://www.ultralytics.com/survey).
+Scans codebase for broken or dead links in markdown and HTML files.
 
-## Thank You to Our Community 🌍
+### [CodeQL Analysis](https://github.com/ultralytics/ultralytics/actions/workflows/codeql.yaml)
 
-Your [contributions](https://docs.ultralytics.com/help/contributing/) and feedback drive us to keep improving and refining the way we work at Ultralytics. Stay tuned as we roll out the complete handbook to help you engage, contribute, and align with our mission and values.
+GitHub's semantic analysis tool for finding potential security vulnerabilities and maintaining code quality.
 
----
+### [PyPI Publishing](https://github.com/ultralytics/ultralytics/actions/workflows/publish.yml)
 
-Excited for the Ultralytics Handbook? Bookmark this page and be the first to explore our internal processes and principles as we continue to build and share our journey with you! 📖✨
+Validates project can be packaged and published to PyPI without errors.
+
+## Platform Testing 🖥️
+
+Tests run on multiple environments:
+
+- **OS**: Ubuntu, Windows, macOS
+- **Python**: 3.8, 3.9, 3.10, 3.11, 3.12
+
+## Code Coverage 📊
+
+We use [Codecov](https://about.codecov.io/) to measure and visualize code coverage, providing insights into how well tests exercise the codebase.
+
+### Coverage Integration
+
+Codecov integration provides:
+
+- Detailed coverage insights
+- Coverage comparisons between commits
+- Visual overlays on code showing covered lines
+- Coverage percentage for the `ultralytics` package
+
+View full coverage details at [codecov.io/github/ultralytics/ultralytics](https://app.codecov.io/github/ultralytics/ultralytics).
+
+### Understanding Coverage
+
+Code coverage shows what percentage of code is executed during tests. High coverage indicates well-tested code but doesn't guarantee absence of bugs. Coverage helps identify untested areas that might be prone to errors.
+
+## Running Tests Locally 🖥️
+
+### Install Development Dependencies
+
+```bash
+pip install -e ".[dev]"
+```
+
+### Run All Tests
+
+```bash
+pytest tests/
+```
+
+### Run Specific Tests
+
+```bash
+# Single file
+pytest tests/test_engine.py
+
+# Single test function
+pytest tests/test_engine.py::test_train
+
+# Tests matching pattern
+pytest -k "export"
+
+# Slow tests only
+pytest -m slow
+```
+
+### Run with Coverage
+
+```bash
+pytest --cov=ultralytics tests/
+```
+
+### Parallel Testing
+
+```bash
+# Install pytest-xdist
+pip install pytest-xdist
+
+# Run tests in parallel
+pytest -n auto
+```
+
+## Pre-commit Hooks 🪝
+
+Set up pre-commit hooks to catch issues before pushing:
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+Hooks automatically run:
+
+- [Ruff](https://github.com/astral-sh/ruff) (linting and formatting)
+- docformatter (docstring formatting)
+- Trailing whitespace removal
+- YAML validation
+
+Run manually:
+
+```bash
+pre-commit run --all-files
+```
+
+## Writing Tests ✍️
+
+### Test Structure
+
+```python
+def test_model_export():
+    """Test ONNX model export."""
+    model = YOLO("yolo11n.pt")
+    model.export(format="onnx")
+    assert Path("yolo11n.onnx").exists()
+```
+
+### Best Practices
+
+- **Descriptive names**: `test_export_onnx_format()` not `test_1()`
+- **Single assertion**: Test one thing per function
+- **Fast tests**: Use small models/datasets
+- **Fixtures**: Use pytest fixtures for setup/teardown
+- **Markers**: `@pytest.mark.slow` for long-running tests
+
+### Test Organization
+
+```
+tests/
+├── test_engine.py      # Training, validation, prediction
+├── test_nn.py          # Model architecture
+├── test_data.py        # Dataset handling
+├── test_utils.py       # Utility functions
+└── test_exports.py     # Export formats
+```
+
+### Test Markers
+
+```python
+import pytest
+
+
+@pytest.mark.slow
+def test_full_training():
+    """Test full training run (slow)."""
+    model = YOLO("yolo11n.pt")
+    model.train(data="coco128.yaml", epochs=1)
+```
+
+## Code Quality Checks 🎯
+
+### Formatting with Ruff
+
+```bash
+# Check formatting
+ruff check ultralytics/
+
+# Auto-fix issues
+ruff check --fix ultralytics/
+
+# Format code
+ruff format ultralytics/
+```
+
+### Type Checking
+
+```bash
+# Run mypy (where configured)
+mypy ultralytics/
+```
+
+### Docstring Formatting
+
+```bash
+# Check docstrings
+docformatter --check ultralytics/
+
+# Auto-fix
+docformatter --in-place ultralytics/
+```
+
+## CI Troubleshooting 🔧
+
+### Tests Pass Locally But Fail in CI
+
+Common causes:
+
+- **Platform-specific issues**: Test on target OS
+- **Python version differences**: Check version compatibility
+- **Missing dependencies**: Verify CI config
+- **Timing/concurrency issues**: Add retries or increase timeouts
+
+### Slow CI Runs
+
+Solutions:
+
+- Use `@pytest.mark.slow` for expensive tests
+- Mock external dependencies
+- Reduce test dataset sizes
+- Parallelize with `pytest-xdist`
+
+### Flaky Tests
+
+Fixes:
+
+- Add retries for network-dependent tests
+- Increase timeouts for slow operations
+- Fix race conditions in async code
+- Use deterministic random seeds
+
+## Performance Benchmarks 📈
+
+CI tracks key metrics:
+
+- Inference speed (FPS)
+- Memory usage
+- Model size
+- Export times
+
+Significant regressions block merging. If metrics change:
+
+1. Verify change is expected
+2. Document reason in PR
+3. Get approval from maintainers
+
+## CI Status 📋
+
+Check CI status for all Ultralytics repositories at [docs.ultralytics.com/help/CI](https://docs.ultralytics.com/help/CI/).
+
+### Main Repository Badges
+
+![CI](https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg)
+![Docker](https://github.com/ultralytics/ultralytics/actions/workflows/docker.yml/badge.svg)
+![Links](https://github.com/ultralytics/ultralytics/actions/workflows/links.yml/badge.svg)
+![PyPI](https://github.com/ultralytics/ultralytics/actions/workflows/publish.yml/badge.svg)
+![codecov](https://codecov.io/gh/ultralytics/ultralytics/branch/main/graph/badge.svg?token=HHW7IIVFVY)
+
+## Skipping CI Checks ⚠️
+
+Add `[skip ci]` to commit message to skip CI (use sparingly):
+
+```bash
+git commit -m "Update README [skip ci]"
+```
+
+Only for:
+
+- Documentation-only changes
+- Non-code file updates
+- Emergency hotfixes (with approval)
+
+## Resources 📚
+
+- [Official CI Guide](https://docs.ultralytics.com/help/CI/) - Complete CI documentation
+- [Development Workflow](development.md) - PR process and code standards
+- [GitHub Actions Docs](https://docs.github.com/en/actions) - CI configuration
+- [pytest Documentation](https://docs.pytest.org/) - Testing framework
+- [Codecov](https://app.codecov.io/github/ultralytics/ultralytics) - Coverage reports
