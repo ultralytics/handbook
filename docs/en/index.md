@@ -7,21 +7,25 @@ This handbook is your guide to working at [Ultralytics](https://www.ultralytics.
 ## Quick Links 🔗
 
 ### For New Employees
+
 - [Mission & Values](mission-vision-values/index.md) - What drives us
 - [Tools](tools/index.md) - Hardware, software, and email setup
 - [How to Contribute](contributions/how-to-contribute.md) - Getting started with our codebase
 
 ### Finance & Benefits
+
 - [Travel Policy](finance/travel.md) - Per diem rates and booking guidelines
 - [Relocation Policy](finance/relocation.md) - Hub city moves and compensation
 - [Referral Bonus](finance/referral-bonus.md) - $5k for successful referrals
 - [Hardware Policy](tools/hardware.md) - Equipment refresh cycles and reimbursement
 
 ### Development
+
 - [Development Workflow](workflows/development.md) - PR process and code standards
 - [CI/Testing](workflows/ci-testing.md) - Continuous integration guidelines
 - [Documentation](workflows/documentation.md) - Writing and maintaining docs
 
 ### Resources
+
 - [FAQ](faq/index.md) - Common questions answered
 - [Team Directory](contributions/how-to-contribute.md#our-development-team) - Contact information

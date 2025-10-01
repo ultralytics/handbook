@@ -40,7 +40,7 @@ docs/
 
 ### Markdown Format
 
-```markdown
+````markdown
 ---
 description: Brief page description for SEO
 keywords: relevant, keywords, for, search
@@ -60,12 +60,15 @@ from ultralytics import YOLO
 model = YOLO("yolo11n.pt")
 results = model("image.jpg")
 ```
+````
 
 ### Key points:
+
 - Use bullet points for lists
 - Keep paragraphs short
 - Include links to related pages
-```
+
+````
 
 ### Code Examples
 
@@ -82,7 +85,7 @@ model = YOLO("yolo11n.pt")
 
 # Train on custom data
 results = model.train(data="coco8.yaml", epochs=3)
-```
+````
 
 ### Images and Media
 
@@ -119,19 +122,19 @@ Main config in `mkdocs.yml`:
 ```yaml
 site_name: Ultralytics Docs
 theme:
-  name: material
-  palette:
-    - scheme: slate
+    name: material
+    palette:
+        - scheme: slate
 plugins:
-  - search
-  - ultralytics
+    - search
+    - ultralytics
 ```
 
 ## API Documentation 📖
 
 API reference is auto-generated from docstrings:
 
-```python
+````python
 def train(self, data, epochs=100, batch=16):
     """
     Train the model on a dataset.
@@ -150,9 +153,10 @@ def train(self, data, epochs=100, batch=16):
         results = model.train(data="coco8.yaml", epochs=100)
         ```
     """
-```
+````
 
 Key elements:
+
 - **Brief description**: One-line summary
 - **Args**: Parameter descriptions with types
 - **Returns**: Return value description
@@ -173,9 +177,9 @@ Edit `mkdocs.yml`:
 
 ```yaml
 nav:
-  - Home: index.md
-  - Guides:
-      - New Guide: guides/new-guide.md
+    - Home: index.md
+    - Guides:
+          - New Guide: guides/new-guide.md
 ```
 
 ### 3. Write Content
@@ -197,6 +201,7 @@ Follow [development workflow](development.md) for PR process.
 ### Adding Translations
 
 1. Copy English version to language directory:
+
 ```bash
 cp docs/en/page.md docs/zh/page.md
 ```
@@ -215,6 +220,7 @@ cp docs/en/page.md docs/zh/page.md
 ## Documentation CI 🤖
 
 CI automatically:
+
 - Builds documentation on every PR
 - Checks for broken links
 - Validates markdown formatting
@@ -223,6 +229,7 @@ CI automatically:
 ### Fixing Build Errors
 
 Common issues:
+
 - **Broken links**: Fix or remove invalid links
 - **Missing images**: Add images or update paths
 - **Invalid YAML**: Fix frontmatter syntax

@@ -29,12 +29,14 @@ This guide covers product planning, development cycles, and release processes fo
 ### 1. Discovery & Planning
 
 **Identify need** through:
+
 - User feedback (GitHub issues, Discord, community)
 - Performance analysis and benchmarks
 - Competitive research
 - Internal use cases
 
 **Evaluate against**:
+
 - User impact (who benefits, how much?)
 - Technical feasibility (effort vs value)
 - Strategic alignment (fits vision?)
@@ -43,18 +45,21 @@ This guide covers product planning, development cycles, and release processes fo
 ### 2. Design & Specification
 
 **For major features**:
+
 - Write brief design doc (problem, solution, alternatives)
 - Define success metrics
 - Create minimal specification
 - Get feedback from team
 
 **For small features**:
+
 - Clear GitHub issue with use case and approach
 - Quick design discussion if needed
 
 ### 3. Implementation
 
 Follow [development workflow](development.md):
+
 - Create feature branch
 - Build incrementally
 - Write tests alongside code
@@ -107,6 +112,7 @@ Example: `11.0.0` → `11.1.0` (new feature) → `11.1.1` (bug fix)
 ### Hotfix Process
 
 For critical bugs:
+
 1. Create `hotfix/` branch from latest release tag
 2. Fix issue, add test
 3. Fast-track review
@@ -155,6 +161,7 @@ For critical bugs:
 ### Feature Success Criteria
 
 Define before building:
+
 - Usage metrics (downloads, API calls)
 - Performance targets (speed, accuracy)
 - User feedback (GitHub reactions, comments)

@@ -32,6 +32,7 @@ git checkout -b fix-issue-123
 ```
 
 Branch naming conventions:
+
 - `fix-issue-123` for bug fixes
 - `add-feature-xyz` for new features
 - `update-docs-training` for documentation
@@ -159,6 +160,7 @@ def example_function(arg1, arg2=4):
 **Important:** Document each return value separately, not as a tuple.
 
 ✅ **Good:**
+
 ```python
 Returns:
     (np.ndarray): Predicted masks with shape HxWxN.
@@ -166,6 +168,7 @@ Returns:
 ```
 
 ❌ **Bad:**
+
 ```python
 Returns:
     (tuple): Tuple containing:
