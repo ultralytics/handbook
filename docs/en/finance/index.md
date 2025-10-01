@@ -1,6 +1,6 @@
 ---
-description: Ultralytics Finance Handbook providing guidelines on financial procedures, travel policy, reimbursement processes, and expense management.
-keywords: Ultralytics finance, finance handbook, expense reporting, reimbursements, travel policy, budget guidelines, remote setup
+description: Ultralytics Finance Handbook providing guidelines on financial procedures, travel policy, relocation, referral bonuses, reimbursement processes, and expense management.
+keywords: Ultralytics finance, finance handbook, expense reporting, reimbursements, travel policy, relocation, referral bonus, budget guidelines, remote setup
 ---
 
 # Ultralytics Finance Handbook 📘
@@ -37,6 +37,16 @@ Key points include:
 - **Compensation 💰:** $6,000 flat one-time payment for approved relocations.
 - **Eligibility 🎯:** Limited to vital roles and business-critical moves.
 - **Hub Cities 🌎:** Payment available only for moves to Madrid, London, or Shenzhen.
+
+## Referral Bonus 🤝
+
+Ultralytics rewards employees who refer qualified candidates that successfully join our team. Refer to the comprehensive [Ultralytics Employee Referral Bonus Policy](../finance/referral-bonus.md) for complete details.
+
+Key points include:
+
+- **Bonus Amount 💰:** $5,000 paid after referred candidate completes 3 months.
+- **Eligibility 🎯:** All full-time positions at Ultralytics.
+- **Requirements ✅:** Candidate must not be in recruitment pipeline and must complete probationary period.
 
 ## Reimbursements 💸
 
