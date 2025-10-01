@@ -9,6 +9,7 @@ This handbook is a **living document** that will evolve with the company. It ser
 ## Quick Links 🔗
 
 ### For New Employees
+
 - [Introduction](introduction.md) - About this handbook
 - [Mission & Values](mission-vision-values/index.md) - What drives us
 - [Tools](tools/index.md) - Hardware, software, and email setup
