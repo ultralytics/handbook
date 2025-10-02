@@ -171,6 +171,8 @@ nav:
           - Hardware: tools/hardware.md
           - Software: tools/software.md
           - Email Signatures: tools/email-signatures.md
+      - People:
+          - people/pto-policy.md
       - Team Roles:
           - Overview: team-roles/index.md
           - Specific Roles: team-roles/specific-roles.md
@@ -206,6 +208,8 @@ nav:
       - Hardware: tools/hardware.md
       - Software: tools/software.md
       - Email Signatures: tools/email-signatures.md
+  - People:
+      - people/pto-policy.md
   - Team Roles:
       - Overview: team-roles/index.md
       - Specific Roles: team-roles/specific-roles.md
