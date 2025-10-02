@@ -188,8 +188,8 @@ nav:
       - FAQ:
           - faq/index.md
       - Legal:
-          - Licenses: legal/licenses.md
-          - Privacy Policy: legal/privacy-policy.md
+          - Ultralytics Legal Team Overview: legal/team.md
+          - Code of Business Conduct and Ethics: legal/code-of-business-conduct-and-ethics.md
       - Security:
           - Security & Compliance Team: security/team.md
           - Information Security Management System (ISMS): security/isms.md
@@ -223,8 +223,12 @@ nav:
   - FAQ:
       - faq/index.md
   - Legal:
-      - Ultralytics Legal Team Overview: legal/licenses.md
+      - Ultralytics Legal Team Overview: legal/team.md
       - Code of Business Conduct and Ethics: legal/code-of-business-conduct-and-ethics.md
+  - Security:
+      - Security & Compliance Team: security/team.md
+      - Information Security Management System (ISMS): security/isms.md
+      - Employee Security & Compliance Requirements: security/employee-security-compliance-requirements.md
 
 # Plugins including 301 redirects navigation ---------------------------------------------------------------------------
 plugins:
