@@ -191,7 +191,7 @@ nav:
           - Licenses: legal/licenses.md
           - Privacy Policy: legal/privacy-policy.md
       - Security:
-          - Security & Compliance Team Overview: security/add-security-and-compliance-team-overview-page.md
+          - Security & Compliance Team Overview: security/team.md
           - Information Security Management System (ISMS) Overview: security/isms-overview.md
           - Employee Security & Compliance Requirements: security/employee-security-compliance-requirements.md
   - Mission & Values:
