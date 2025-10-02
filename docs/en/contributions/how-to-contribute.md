@@ -197,6 +197,7 @@ Feel free to reach out to team members for guidance:
 | Paula Derrenger         | [pderrenger](https://github.com/pderrenger)                   |
 | Prateek Bhatnagar       | [prateek-ultralytics](https://github.com/prateek-ultralytics) |
 | Rick Hou                | [Bovey0809](https://github.com/Bovey0809)                     |
+| Ryan Leonel Somali      | [ryanleonels](https://github.com/ryanleonels)                 |
 | Sergiu Waxmann          | [sergiuwaxmann](https://github.com/sergiuwaxmann)             |
 | Thomas Chuang           | [chuang091](https://github.com/chuang091)                     |
 | William Beaven          | [william-beaven](https://github.com/william-beaven)           |
