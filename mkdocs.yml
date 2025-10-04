@@ -6,7 +6,7 @@
 
 # Site metadata
 site_name: Ultralytics Handbook
-site_description: A guide to Ultralytics' mission, vision, values, and practices, providing key insights and resources for aligning with our goals.
+site_description: Comprehensive guide to Ultralytics' mission, values, and operational practices for team members, contributors, and the AI community.
 site_url: https://handbook.ultralytics.com
 site_author: Ultralytics
 repo_url: https://github.com/ultralytics/handbook
@@ -158,7 +158,7 @@ not_in_nav: |
 nav:
   - Home:
       - Home: index.md
-      - Intro: introduction.md
+      - Introduction: introduction.md
       - Mission & Values:
           - mission-vision-values/index.md
       - Finance:
@@ -171,8 +171,8 @@ nav:
           - Hardware: tools/hardware.md
           - Software: tools/software.md
           - Email Signatures: tools/email-signatures.md
-      - People:
-          - people/pto-policy.md
+      - People & Benefits:
+          - PTO Policy: people/pto-policy.md
       - Workflows:
           - Development: workflows/development.md
           - Product Dev: workflows/product-development.md
@@ -180,14 +180,14 @@ nav:
           - Documentation: workflows/documentation.md
       - Community:
           - How to Contribute: contributions/how-to-contribute.md
-          - Engagement: contributions/community-engagement.md
+          - Community Engagement: contributions/community-engagement.md
       - Goals & OKRs:
           - Company Goals: goals/company-goals.md
           - OKRs: goals/okrs.md
       - FAQ:
           - faq/index.md
       - Legal:
-          - Ultralytics Legal Team Overview: legal/team.md
+          - Legal Team Overview: legal/team.md
           - Code of Business Conduct and Ethics: legal/code-of-business-conduct-and-ethics.md
       - Security:
           - Security & Compliance Team: security/team.md
@@ -205,8 +205,8 @@ nav:
       - Hardware: tools/hardware.md
       - Software: tools/software.md
       - Email Signatures: tools/email-signatures.md
-  - People:
-      - people/pto-policy.md
+  - People & Benefits:
+      - PTO Policy: people/pto-policy.md
   - Workflows:
       - Development: workflows/development.md
       - Product Dev: workflows/product-development.md
@@ -214,14 +214,14 @@ nav:
       - Documentation: workflows/documentation.md
   - Community:
       - How to Contribute: contributions/how-to-contribute.md
-      - Engagement: contributions/community-engagement.md
+      - Community Engagement: contributions/community-engagement.md
   - Goals & OKRs:
       - Company Goals: goals/company-goals.md
       - OKRs: goals/okrs.md
   - FAQ:
       - faq/index.md
   - Legal:
-      - Ultralytics Legal Team Overview: legal/team.md
+      - Legal Team Overview: legal/team.md
       - Code of Business Conduct and Ethics: legal/code-of-business-conduct-and-ethics.md
   - Security:
       - Security & Compliance Team: security/team.md
