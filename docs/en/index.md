@@ -9,8 +9,6 @@ keywords: Ultralytics handbook, employee handbook, company guide, AI handbook, Y
 
 Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your comprehensive guide to our company's mission, vision, values, and operational practices. This handbook provides essential insights and resources for team members, collaborators, and our global community.
 
-This is a **living document** that evolves with our company, serving as both a practical resource and a philosophical guide to our culture and operations.
-
 ## New to Ultralytics? Start Here ✨
 
 ### Essential Reading
@@ -18,6 +16,7 @@ This is a **living document** that evolves with our company, serving as both a p
 <div class="grid cards" markdown>
 
 - **[Introduction](introduction.md)** - Overview of this handbook and how to use it
+- **[New Team Member Onboarding](people/onboarding.md)** - Your first 90 days at Ultralytics
 - **[Mission & Values](mission-vision-values/index.md)** - What drives us forward
 - **[Hardware Policy](tools/hardware.md)** - Equipment setup and refresh cycles
 - **[Software Policy](tools/software.md)** - Approved tools and request process
@@ -36,13 +35,14 @@ This is a **living document** that evolves with our company, serving as both a p
 
 ## Quick Reference 🔗
 
-### Finance & Benefits 💰
+### People & Benefits 💰
 
+- **[Onboarding Guide](people/onboarding.md)** - First 90 days roadmap for new team members
+- **[PTO Policy](people/pto-policy.md)** - 25 days annual leave plus unlimited sick leave
 - **[Finance Overview](finance/index.md)** - Reimbursements and expense guidelines
 - **[Travel Policy](finance/travel.md)** - Per diem rates and booking procedures
-- **[Relocation Policy](finance/relocation.md)** - Office relocations ($6K compensation)
+- **[Relocation Policy](finance/relocation.md)** - $6K compensation for hub city moves
 - **[Referral Bonus](finance/referral-bonus.md)** - $5K for successful referrals
-- **[PTO Policy](people/pto-policy.md)** - 25 days annual leave plus holidays
 
 ### Development & Workflows ⚙️
 
@@ -60,8 +60,9 @@ This is a **living document** that evolves with our company, serving as both a p
 
 ### Goals & Strategy 🎯
 
-- **[Company Goals](goals/company-goals.md)** - Strategic priorities and KPIs
-- **[OKRs](goals/okrs.md)** - Objectives and key results framework
+- **[Company Goals](goals/company-goals.md)** - Strategic priorities and measurable KPIs
+- **[OKRs](goals/okrs.md)** - Quarterly objectives and key results framework
+- **[Product Roadmap](https://docs.ultralytics.com/)** - Public feature roadmap and releases
 
 ### Legal & Compliance ⚖️
 
@@ -95,6 +96,10 @@ This handbook is maintained as an open resource. If you find errors, have sugges
 1. Visit our [GitHub repository](https://github.com/ultralytics/handbook)
 2. Submit a pull request with your improvements
 3. Follow the contribution guidelines in the repository
+
+!!! info "Living Document"
+
+    This handbook evolves with our company, serving as both a practical resource and a philosophical guide to our culture and operations.
 
 ---
 

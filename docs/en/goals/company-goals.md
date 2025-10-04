@@ -13,56 +13,63 @@ Ultralytics sets annual strategic goals aligned with our mission to democratize 
 
 ### Product Excellence
 
-- Maintain YOLO model leadership in accuracy and performance
-- Expand model capabilities and supported tasks
-- Improve training efficiency and inference speed
-- Enhance user experience across all platforms
+- Maintain YOLO model leadership in accuracy, speed, and ease of use
+- Expand model capabilities across detection, segmentation, tracking, and classification tasks
+- Achieve sub-30ms on standard hardware for edge deployment
+- Deliver best-in-class developer experience with intuitive APIs and comprehensive documentation
 
-### Community Growth
+### Community Growth & Engagement
 
-- Grow active user base and engagement
-- Expand Discord, GitHub, and social media presence
-- Increase documentation quality and accessibility
-- Foster contributor ecosystem
+- Reach 1M+ monthly PyPI downloads
+- Grow Discord community to 50K+ active members
+- Maintain sub-24-hour average response time on GitHub issues
+- Cultivate 100+ active open-source contributors per quarter
+- Achieve 90%+ satisfaction in community surveys
 
-### Business Development
+### Revenue Growth & Market Expansion
 
-- Scale commercial licensing and enterprise adoption
-- Expand customer base across key verticals
-- Strengthen partner relationships
-- Grow recurring revenue
+- Scale ARR through accelerated enterprise adoption
+- Expand into key verticals: automotive, manufacturing, agriculture, security, healthcare
+- Build strategic partnerships with cloud providers and hardware manufacturers
+- Achieve 120%+ net dollar retention rate
+- Grow enterprise customer base by 200% YoY
 
-### Technical Infrastructure
+### Platform & Infrastructure
 
-- Platform reliability and uptime
-- API performance and scalability
-- Developer tools and SDKs
-- Cloud and edge deployment capabilities
+- Launch Platform with enhanced training and deployment capabilities
+- Achieve 99.9% uptime SLA for production services
+- Support inference across CPU, GPU, NPU, and specialized AI accelerators
+- Deliver <100ms API response times at scale
+- Enable seamless deployment to cloud, edge, and mobile environments
 
-### Security & Compliance
+### Security, Compliance & Trust
 
-- Maintain security certifications (SOC 2, ISO 27001)
-- Data privacy and regulatory compliance
-- Security best practices and training
-- Incident response readiness
+- Complete SOC 2 Type I certification (Q1 2026)
+- Achieve ISO 27001:2022 certification (Q1 2026)
+- Maintain GDPR, CCPA, and global data privacy compliance
+- Achieve zero critical security incidents
+- Complete annual security audits and vulnerability assessments
 
 ## Goal Setting Process
 
-Goals are set annually with quarterly reviews:
+We use an agile, iterative approach to goal setting:
 
-1. Leadership defines company-level goals
-2. Teams develop aligned objectives
-3. Quarterly check-ins track progress
-4. Annual review and planning cycle
+1. **Annual Strategy**: Leadership defines company-level OKRs and strategic priorities
+2. **Quarterly Planning**: Teams cascade objectives and define key results
+3. **Sprint Execution**: 2-week sprints with weekly progress reviews
+4. **Monthly Check-ins**: Cross-functional syncs to ensure alignment
+5. **Quarterly Reviews**: Assess progress, grade OKRs, adjust strategy
+6. **Annual Retrospective**: Evaluate year, celebrate wins, plan next year
 
 ## Measurement & Tracking
 
-Goals are tracked through:
+Transparent metrics drive accountability:
 
-- Key Performance Indicators (KPIs)
-- Quarterly business reviews
-- Team dashboards and metrics
-- Regular leadership updates
+- **Real-Time Dashboards**: Live KPI tracking across product, engineering, sales, and community
+- **Weekly Metrics Reviews**: Team leads review progress and blockers
+- **Monthly Business Reviews**: Leadership evaluates company-wide performance
+- **Quarterly Board Updates**: Report progress to investors and advisors
+- **Public Metrics**: Share community growth and product adoption transparently
 
 ---
 
