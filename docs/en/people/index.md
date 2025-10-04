@@ -65,8 +65,8 @@ See complete [PTO Policy](pto-policy.md) for details on requesting time off, rol
 Provide minimum 2 weeks notice for vacation, following these steps:
 
 1. Submit request in [Rippling](https://www.rippling.com/)
-2. Wait for manager approval 
-3. Update team calendar and Slack status 
+2. Wait for manager approval
+3. Update team calendar and Slack status
 
 ## Career Development 📈
 
