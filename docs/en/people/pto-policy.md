@@ -12,6 +12,7 @@ All team members receive **25 days of PTO annually** (24 days + 1 birthday), plu
 **All time off requests are submitted and approved through [Rippling](https://www.rippling.com/).**
 
 **Policy Effective Dates**:
+
 - PTO Salaried policy: Active from 01/01/2024
 - Paid Sick Leave: Active from 07/01/2025
 
@@ -110,6 +111,7 @@ Mid-year hires receive prorated PTO for the 24 flexible days based on start date
 - PTO does not pay out upon termination
 
 Exceptions may be considered for:
+
 - Extended illness preventing use
 - Business-critical projects requiring deferral
 - Manager pre-approval required
