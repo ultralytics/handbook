@@ -24,6 +24,7 @@ This handbook exists to:
 
 Internal employees and contractors will find comprehensive guidance on:
 
+- **[Your First 90 Days](people/onboarding.md)** - Complete onboarding roadmap for new team members
 - Company policies and procedures
 - Financial processes and reimbursements
 - Hardware and software provisioning
@@ -82,30 +83,57 @@ Ultralytics is a world leader in artificial intelligence, creating state-of-the-
 
 ### How We Work
 
-- **In-Person Collaboration**: Positions are onsite (5 days/week) at our London, Madrid, or Shenzhen offices, enabling deep collaboration and rapid execution
-- **Open by Default**: Transparent decision-making and public development
-- **Fast Iteration**: Ship quickly, learn from feedback, improve continuously
-- **Community-Driven**: User needs and contributions guide our roadmap
-
-> **Note**: Some team members work remotely under existing arrangements or in exceptional cases where their expertise warrants it.
+- **In-Person First**: Most positions are onsite (5 days/week) at our London, Madrid, or Shenzhen offices. All our offices are dog-friendly! 🐕
+- **Ship Fast, Learn Faster**: MVP-first development with 2-week iteration cycles
+- **Open by Default**: Transparent decision-making, public development, and open-source first
+- **Data-Driven**: Metrics guide decisions, user feedback drives roadmap
+- **High Autonomy, High Accountability**: Freedom to own your work with clear expectations
+- **Community-Powered**: 1M+ developers and contributors shape our direction
 
 ## Our Commitment to You 🤝
 
-### Meaningful Work
+### Meaningful Impact
 
-You'll work on technology that impacts millions of developers and shapes the future of AI. Explore [our solutions](https://www.ultralytics.com/solutions) and [customer success stories](https://www.ultralytics.com/customers) to see the impact.
+You'll work on technology used by millions of developers worldwide, from Fortune 500 companies to individual researchers. Your code ships to production systems in autonomous vehicles, medical devices, manufacturing robots, and agricultural drones. This is AI that matters.
 
-### Professional Growth
+### Accelerated Growth
 
-We support your development through challenging work, mentorship, and opportunities to learn.
+Grow faster at Ultralytics than anywhere else:
 
-### Clear Communication
+- Work directly with founders and technical leaders
+- Own significant projects with high visibility and impact
+- Learning budget for courses, books, and conference attendance
+- Mentorship from world-class AI researchers and engineers
+- Clear paths to senior roles and leadership positions
 
-We maintain transparent, honest communication about company direction, challenges, and successes.
+### Competitive Compensation
 
-### Inclusive Environment
+We offer competitive Series A-level compensation including:
 
-We welcome diverse perspectives and ensure everyone can contribute their best work.
+- Market-rate salaries benchmarked against top tech companies
+- Meaningful equity grants with long exercise windows
+- Performance bonuses and recognition for exceptional contributions
+- Comprehensive benefits package
+
+Discuss compensation details with your manager or HR.
+
+### Transparency & Trust
+
+We operate with radical transparency:
+
+- Open financial metrics and company performance
+- Public product roadmap and development process
+- Clear decision-making with documented reasoning
+- Direct access to leadership and honest 1:1s
+
+### World-Class Team
+
+Collaborate with exceptional talent:
+
+- AI researchers from top universities and companies
+- Engineers who have shipped products to millions
+- Open-source contributors recognized globally
+- Diverse team across 10+ countries and time zones
 
 ## Living Document Philosophy 📝
 

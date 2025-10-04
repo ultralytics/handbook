@@ -32,7 +32,9 @@ While the specific application list is maintained by the Security team, the stan
 
 To maintain security and compatibility, all software not included in the standard suite must be approved before installation.
 
-**Note:** Some of the links in this section can only be accessed by Ultralytics team members.
+!!! note "Team Member Access"
+
+    Some of the links in this section can only be accessed by Ultralytics team members.
 
 ### Approval & Installation Process
 

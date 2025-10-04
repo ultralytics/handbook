@@ -77,11 +77,11 @@ We value open, honest, and transparent communication, where everyone's voice is 
 
 Our values shape how we build software:
 
-- **Relentless Progress**: Regular releases with continuous improvements
-- **Strive for Excellence**: Rigorous testing and code review standards
-- **Actions, Not Words**: Working demos over extensive specifications
-- **Act with Urgency**: Fast iteration cycles and quick bug fixes
-- **Open Access to All**: Public development, welcoming community contributions
+- **Relentless Progress**: Regular releases with continuous improvements, shipping MVPs early for feedback
+- **Strive for Excellence**: Rigorous testing, code review standards, and performance benchmarks
+- **Actions, Not Words**: Working demos and shipped features over extensive specifications
+- **Act with Urgency**: Fast iteration cycles, sub-24-hour PR reviews, and rapid bug fixes
+- **Open Access to All**: Public development by default, welcoming contributions from all skill levels
 
 ### In Community
 
@@ -152,13 +152,13 @@ When facing difficult choices, ask:
 
 We evaluate success through the lens of our values:
 
-- **GitHub Stars**: Community recognition of our work
-- **PyPI Downloads**: Real-world adoption and usage
-- **Contributor Growth**: Open collaboration success
-- **Performance Benchmarks**: Excellence in execution
-- **Response Times**: Urgency in action
-- **Issue Resolution Rate**: Progress in improvement
-- **User Satisfaction**: Impact on community
+- **GitHub Stars & Community Growth**: Recognition and engagement from the global AI community
+- **PyPI Downloads & Active Users**: Real-world adoption and sustained usage patterns
+- **Contributor Ecosystem**: Diversity and growth of open-source contributions
+- **Performance Benchmarks**: Speed, accuracy, and efficiency improvements over time
+- **Response Times**: Sub-24-hour issue responses, fast PR review cycles
+- **Innovation Velocity**: Features shipped per quarter, release frequency
+- **Customer Success**: Deployment success rates, production reliability metrics
 
 ## Living Document 📖
 

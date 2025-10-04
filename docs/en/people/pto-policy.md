@@ -70,6 +70,13 @@ Mid-year hires receive prorated PTO for the 24 flexible days based on start date
 - All official holidays in your country
 - Holiday calendar published annually
 
+!!! info "Official Holiday Calendars"
+
+    - **UK**: [GOV.UK Bank Holidays](https://www.gov.uk/bank-holidays) - Official government bank holidays
+    - **Spain**: [BOE Calendar](https://www.boe.es/diario_boe/calendarios.php) - Official State Gazette (Boletín Official del Estado)
+    - **China**: [State Council Public Holidays](https://english.www.gov.cn/policies/latestreleases/202411/12/content_WS67331db5c6d0868f4e8ecd92.html) - Official government announcement
+    - **US**: [OPM Federal Holidays](https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/) - Office of Personnel Management
+
 ### Birthday Leave
 
 - Schedule on or near your birthday
@@ -92,7 +99,9 @@ Mid-year hires receive prorated PTO for the 24 flexible days based on start date
 | Sick leave       | ASAP            |
 | Birthday leave   | 1 week          |
 
-> **Longer trips**: Provide 1 month notice for vacations exceeding 2 weeks.
+!!! warning "Longer Trips"
+
+    Provide 1 month notice for vacations exceeding 2 weeks.
 
 ## Coordination and Coverage 🤝
 

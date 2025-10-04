@@ -7,10 +7,11 @@ keywords: Ultralytics OKRs, objectives and key results, goal setting, performanc
 
 ## What are OKRs?
 
-OKRs (Objectives and Key Results) are our goal-setting framework for aligning teams and measuring progress:
+OKRs (Objectives and Key Results) are our goal-setting framework for aligning teams and measuring progress. Used by Google, Intel, and leading startups, OKRs help us focus on what matters most:
 
-- **Objectives**: Qualitative goals describing what we want to achieve
-- **Key Results**: Quantitative metrics measuring progress toward objectives
+- **Objectives**: Qualitative, ambitious goals describing what we want to achieve
+- **Key Results**: 3-5 quantitative, time-bound metrics measuring progress toward objectives
+- **Initiatives**: The specific projects and tasks we'll execute to achieve key results
 
 ## OKR Structure
 
@@ -45,11 +46,13 @@ Team members set personal OKRs in collaboration with their managers, supporting 
 
 ### Setting Effective OKRs
 
-- **Ambitious**: Target 70-80% achievement (not 100%)
-- **Measurable**: Clear numeric targets or binary outcomes
-- **Time-bound**: Specific deadlines within the quarter
-- **Aligned**: Support higher-level objectives
-- **Focused**: 3-5 objectives per level maximum
+- **Ambitious but Achievable**: Target 70-80% achievement rate (not 100% - if hitting 100%, OKRs weren't ambitious enough)
+- **Measurable**: Clear numeric targets (e.g., "Increase PyPI downloads from 500K to 1M/month") or binary outcomes
+- **Time-bound**: Specific deadlines within the quarter (typically 13 weeks)
+- **Aligned**: Cascade from company → team → individual goals
+- **Focused**: 3-5 objectives per level maximum, with 3-5 key results each
+- **Inspiring**: Everyone should understand why the OKR matters
+- **Transparent**: All OKRs visible company-wide for cross-functional alignment
 
 ### Grading Scale
 
@@ -60,19 +63,25 @@ Team members set personal OKRs in collaboration with their managers, supporting 
 
 ### Common Pitfalls to Avoid
 
-- Setting too many OKRs (focus on critical few)
-- Making objectives too easy (not aspirational enough)
-- Treating OKRs as task lists (focus on outcomes)
-- Skipping regular check-ins (track progress weekly)
+- **Too Many OKRs**: More than 5 objectives dilutes focus - prioritize ruthlessly
+- **Sandbagging**: Setting easily achievable targets to guarantee success
+- **Task Lists**: Confusing OKRs with project plans ("Launch feature X" vs "Increase user engagement by 50%")
+- **Infrequent Check-ins**: Waiting until quarter-end to review progress
+- **Lack of Ownership**: OKRs without clear owners and accountability
+- **No Mid-Quarter Adjustments**: Being too rigid when priorities shift
+- **Treating OKRs as Performance Reviews**: OKRs measure team progress, not individual performance
 
 ## Transparency & Visibility
 
-All OKRs are visible across the organization:
+OKRs are fully transparent across Ultralytics:
 
-- Company OKRs shared with entire team
-- Team OKRs accessible to all employees
-- Regular updates in team meetings
-- Dashboards track real-time progress
+- **Company OKRs**: Shared all-hands, posted in Slack, reviewed monthly
+- **Team OKRs**: Accessible in shared workspace (Notion/Linear), discussed in standups
+- **Individual OKRs**: Discussed in 1:1s, aligned with team objectives
+- **Real-Time Tracking**: Live dashboards show progress toward key results
+- **Public Metrics**: Community-facing metrics (GitHub stars, PyPI downloads) shared openly
+
+Transparency drives accountability and enables cross-functional collaboration.
 
 ## Tools & Resources
 

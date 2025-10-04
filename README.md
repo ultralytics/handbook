@@ -14,6 +14,8 @@ Welcome to the **Ultralytics Handbook repository**! This repository houses the s
 
 This Handbook serves as a **living document**, evolving alongside Ultralytics' growth. It aims to align team members, contributors, and the wider community with the core principles guiding our work in [artificial intelligence (AI)](https://www.ultralytics.com/glossary/artificial-intelligence-ai) and [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv). Whether you're new to Ultralytics or a seasoned team member, this resource provides insights into everything from our company philosophy to detailed workflows and operational processes, including our approach to [machine learning operations (MLOps)](https://www.ultralytics.com/glossary/machine-learning-operations-mlops).
 
+**New team members?** Start with our [Onboarding Guide](https://handbook.ultralytics.com/people/onboarding/) for your first 90 days roadmap.
+
 ## 🛠️ Installation
 
 [![PyPI - Version](https://img.shields.io/pypi/v/ultralytics?logo=pypi&logoColor=white)](https://pypi.org/project/ultralytics/)

@@ -11,6 +11,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
 Start with these key resources:
 
+- [Onboarding Guide](../people/onboarding.md) - Your complete first 90 days roadmap
 - [Introduction](../introduction.md) - Overview of the handbook
 - [Mission & Values](../mission-vision-values/index.md) - What drives us
 - [Hardware Policy](../tools/hardware.md) - Equipment setup
@@ -18,7 +19,7 @@ Start with these key resources:
 
 **Are all positions onsite?**
 
-Most positions are onsite (5 days/week) at our London, Madrid, or Shenzhen offices. This enables the collaboration and rapid execution that drive our success. Some team members work remotely under existing arrangements or in exceptional cases.
+Most positions are onsite (5 days/week) at our London, Madrid, or Shenzhen offices. All our offices are dog-friendly! 🐕 This enables the collaboration and rapid execution that drive our success. Some team members work remotely under existing arrangements or in exceptional cases.
 
 **Who do I contact for different types of questions?**
 
