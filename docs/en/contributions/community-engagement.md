@@ -17,10 +17,10 @@ Ultralytics thrives on active community participation. Our open-source projects 
 
 **Use GitHub Discussions for:**
 
-- Technical questions about YOLO11 implementation
+- Technical questions about [YOLO11](https://docs.ultralytics.com/models/yolo11/) implementation
 - Feature requests and enhancement proposals
 - Sharing projects and use cases
-- General YOLO-related discussions
+- General [YOLO](https://docs.ultralytics.com/models/)-related discussions
 
 **Best Practices:**
 
@@ -70,12 +70,12 @@ Help fellow community members by:
 
 ### Share Your Work
 
-Showcase projects built with YOLO11:
+Showcase projects built with [YOLO11](https://docs.ultralytics.com/models/yolo11/):
 
 - Post in `#showcase` on Discord
 - Create GitHub Discussions posts
 - Tag us on social media
-- Write blog posts or tutorials
+- Write blog posts or [tutorials](https://docs.ultralytics.com/guides/)
 
 ### Report Issues
 
@@ -100,10 +100,10 @@ Annual conference bringing together the YOLO community for talks, workshops, and
 
 Regular online workshops covering:
 
-- YOLO fundamentals
-- Advanced training techniques
-- Deployment strategies
-- Real-world applications
+- [YOLO fundamentals](https://docs.ultralytics.com/)
+- Advanced [training techniques](https://docs.ultralytics.com/modes/train/)
+- [Deployment strategies](https://docs.ultralytics.com/guides/model-deployment-options/)
+- [Real-world applications](https://docs.ultralytics.com/guides/)
 
 ### Community Challenges
 
