@@ -111,7 +111,7 @@ handbook/
 
 - **[MkDocs](https://www.mkdocs.org/)** - Static site generator
 - **[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)** - Modern documentation theme
-- **[MkDocs Ultralytics Plugin](https://github.com/ultralytics/mkdocs-ultralytics-plugin)** - Custom features and integrations
+- **[MkDocs Ultralytics Plugin](https://github.com/ultralytics/mkdocs)** - Custom features and integrations
 - **[GitHub Pages](https://pages.github.com/)** - Hosting and deployment
 - **[GitHub Actions](https://github.com/features/actions)** - CI/CD automation
 
