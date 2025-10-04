@@ -24,6 +24,7 @@ This handbook exists to:
 
 Internal employees and contractors will find comprehensive guidance on:
 
+- **[Your First 90 Days](people/onboarding.md)** - Complete onboarding roadmap for new team members
 - Company policies and procedures
 - Financial processes and reimbursements
 - Hardware and software provisioning

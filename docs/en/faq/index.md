@@ -11,6 +11,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
 Start with these key resources:
 
+- [Onboarding Guide](../people/onboarding.md) - Your complete first 90 days roadmap
 - [Introduction](../introduction.md) - Overview of the handbook
 - [Mission & Values](../mission-vision-values/index.md) - What drives us
 - [Hardware Policy](../tools/hardware.md) - Equipment setup
