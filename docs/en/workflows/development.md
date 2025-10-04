@@ -9,7 +9,7 @@ This guide covers the development process for contributing to [Ultralytics](http
 
 ## Code of Conduct 🤝
 
-All contributors must adhere to our [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/). Respect, kindness, and professionalism are at the heart of our community.
+All contributors must adhere to our [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/). Respect, kindness, and professionalism are at the heart of our community. For detailed contribution guidelines, see the [Official Contributing Guide](https://docs.ultralytics.com/help/contributing/).
 
 ## Pull Request Process 🔄
 
@@ -51,7 +51,7 @@ Test locally before submitting:
 pytest tests/
 ```
 
-Add tests for new functionality to prevent regressions.
+Add tests for new functionality to prevent regressions. Learn more about [testing requirements](ci-testing.md) and [model validation](https://docs.ultralytics.com/modes/val/).
 
 ### 5. Commit Your Changes
 
@@ -82,7 +82,7 @@ After submitting your PR, add this comment:
 I have read the CLA Document and I sign the CLA
 ```
 
-The CLA bot will guide you through the process.
+The CLA bot will guide you through the process. For more details on licensing, see our [contributing guide](https://docs.ultralytics.com/help/contributing/).
 
 ### 8. Address Review Feedback
 
@@ -211,7 +211,7 @@ def example_small_function(arg1: int, arg2: int = 4) -> bool:
 - **Line width**: 120 characters maximum
 - **Docstrings**: Google-style with types in parentheses
 - **Imports**: Use `pathlib` instead of `os`
-- **Type hints**: Use where beneficial
+- **Type hints**: Use where beneficial for clarity
 - **Functions**: Keep short and focused (under 50 lines ideally)
 
 ### Code Quality
@@ -284,8 +284,10 @@ Report bugs via [GitHub Issues](https://github.com/ultralytics/ultralytics/issue
 
 1. **Check existing issues** first
 2. **Provide [Minimum Reproducible Example](https://docs.ultralytics.com/help/minimum-reproducible-example/)**
-3. **Describe environment**: OS, Python version, library versions, hardware
+3. **Describe environment**: OS, Python version, library versions, hardware (use `yolo checks` for diagnostics)
 4. **Explain expected vs actual behavior** with error messages
+
+For common issues and solutions, see our [troubleshooting guide](https://docs.ultralytics.com/guides/yolo-common-issues/).
 
 ## License 📜
 
