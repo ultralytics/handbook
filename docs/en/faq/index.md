@@ -171,13 +171,16 @@ See [Development Team Directory](../contributions/how-to-contribute.md#our-devel
 
 **How much PTO do I get?**
 
-**24 days** of annual PTO, plus:
+**25 days** of annual PTO (24 days + 1 birthday), plus:
 
-- Your birthday as paid leave
 - All official public holidays in your country
 - Unlimited sick leave as needed
 
-Full allocation available from day one. See [PTO Policy](../people/pto-policy.md).
+Full allocation available from day one. Up to 15 days roll over to next year (40 day maximum balance).
+
+**Tenure bonuses**: Additional PTO days earned every 2 years of service (+1 day at 2, 4, 6, 8, and 10 years, up to 30 days total).
+
+See [PTO Policy](../people/pto-policy.md).
 
 **How do I request time off?**
 
@@ -186,6 +189,8 @@ Full allocation available from day one. See [PTO Policy](../people/pto-policy.md
 3. Update team calendar and Slack status
 
 Minimum notice: 2 weeks for vacation, 1 week for short breaks.
+
+**Contractors**: 30-day waiting period before using PTO (accrue during waiting period).
 
 **What's the relocation policy?**
 
