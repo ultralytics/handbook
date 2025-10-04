@@ -107,13 +107,13 @@ Our values inform how we work together:
 
 Our values directly support our mission to advance AI for everyone:
 
-| Value                   | Mission Alignment                                              |
-| ----------------------- | -------------------------------------------------------------- |
-| **Relentless Progress** | Continuously pushing boundaries through constant iteration     |
-| **Strive for Excellence** | Creating world's best solutions through quality focus       |
-| **Actions, Not Words**  | Delivering real results that benefit users                     |
-| **Act with Urgency**    | Moving quickly to democratize AI before opportunities pass     |
-| **Open Access to All**  | Ensuring equal access through open-source distribution         |
+| Value                     | Mission Alignment                                          |
+| ------------------------- | ---------------------------------------------------------- |
+| **Relentless Progress**   | Continuously pushing boundaries through constant iteration |
+| **Strive for Excellence** | Creating world's best solutions through quality focus      |
+| **Actions, Not Words**    | Delivering real results that benefit users                 |
+| **Act with Urgency**      | Moving quickly to democratize AI before opportunities pass |
+| **Open Access to All**    | Ensuring equal access through open-source distribution     |
 
 ## Cultural Expectations 🌱
 

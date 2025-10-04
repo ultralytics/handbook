@@ -58,7 +58,7 @@ This builds the site and pushes to the `gh-pages` branch.
 
 ## 💡 Contributing
 
-We welcome contributions to the Ultralytics Handbook! Your input helps keep our documentation accurate, comprehensive, and useful. 
+We welcome contributions to the Ultralytics Handbook! Your input helps keep our documentation accurate, comprehensive, and useful.
 
 ### How to Contribute
 
