@@ -83,7 +83,7 @@ Ultralytics is a world leader in artificial intelligence, creating state-of-the-
 
 ### How We Work
 
-- **In-Person First**: Most positions are onsite (5 days/week) at our London, Madrid, or Shenzhen offices, enabling deep collaboration and rapid execution. Some roles offer hybrid flexibility based on team needs and performance.
+- **In-Person First**: Most positions are onsite (5 days/week) at our London, Madrid, or Shenzhen offices. All our offices are dog-friendly! 🐕
 - **Ship Fast, Learn Faster**: MVP-first development with 2-week iteration cycles
 - **Open by Default**: Transparent decision-making, public development, and open-source first
 - **Data-Driven**: Metrics guide decisions, user feedback drives roadmap

@@ -31,7 +31,7 @@ You'll receive these before your start date:
 ### Morning (9:00 AM - 12:00 PM)
 
 - **Welcome meeting** with your manager (30 min)
-    - Office tour (onsite) or virtual workspace overview (remote)
+    - Office tour (onsite at our dog-friendly office 🐶) or virtual workspace overview (remote)
     - Team introductions
     - First week schedule review
 - **IT setup** (60 min)
@@ -174,10 +174,10 @@ Work with your manager to define specific, measurable goals in these areas:
 
 ### End of 90 Days
 
-- **Performance check-in** with manager (60 min)
+- **Quarterly performance review** in [Rippling](https://www.rippling.com/) with manager (60 min)
     - Review accomplishments against 90-day goals
     - Discuss what's working well and areas for growth
-    - Set H1/H2 goals and development plan
+    - Set next quarter goals and development plan
     - Address any concerns or questions
 - **Celebrate**: You're now a full-fledged Ultralytics team member! 🎉
 

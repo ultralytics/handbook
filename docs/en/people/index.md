@@ -34,7 +34,7 @@ At Ultralytics, we believe in supporting our team members through comprehensive 
 
 - **[Referral Bonus](../finance/referral-bonus.md)** - $5K for successful referrals
 - **Learning Budget** - Annual budget for courses, books, and conferences (contact HR for current amounts)
-- **Performance Reviews** - Bi-annual reviews with growth planning and compensation adjustments
+- **Performance Reviews** - Quarterly reviews in Rippling with growth planning and compensation adjustments
 
 ## New Team Members 🚀
 
@@ -81,7 +81,7 @@ Contact HR for current learning budget amounts and policies.
 
 ### Performance Reviews
 
-- **Bi-annual reviews** every 6 months
+- **Quarterly reviews** via [Rippling](https://www.rippling.com/) every 3 months
 - **360° feedback** from manager, peers, and direct reports
 - **Growth planning** with clear development goals
 - **Career progression** with defined levels and promotion criteria
