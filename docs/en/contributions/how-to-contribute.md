@@ -89,17 +89,17 @@ See [Development Workflow](../workflows/development.md) for complete coding stan
 
 ### Documentation 📚
 
-- Improve existing documentation
-- Add tutorials and guides
+- Improve existing [documentation](https://docs.ultralytics.com/)
+- Add [tutorials and guides](https://docs.ultralytics.com/guides/) for specific use cases
 - Fix typos and errors
-- Translate documentation
+- Translate documentation to other languages
 
 ### Testing 🧪
 
-- Write unit tests
-- Test new features
+- Write unit tests for new functionality
+- Test new features across different [models](https://docs.ultralytics.com/models/) and [tasks](https://docs.ultralytics.com/tasks/)
 - Report test coverage gaps
-- Performance benchmarking
+- Performance [benchmarking](https://docs.ultralytics.com/modes/benchmark/) across platforms
 
 ### Community Support 💬
 
@@ -143,7 +143,7 @@ When running inference on a 0-channel image, I get a dimension error.
 import torch
 from ultralytics import YOLO
 
-# Load model
+# Load pretrained model
 model = YOLO("yolo11n.pt")
 
 # Load 0-channel image
@@ -186,7 +186,7 @@ Ultralytics uses [AGPL-3.0](https://www.ultralytics.com/legal/agpl-3-0-software-
 
 ### Using YOLO in Your Project
 
-If you use Ultralytics YOLO models or code in your project, AGPL-3.0 requires your entire derivative work also be open-sourced under AGPL-3.0.
+If you use [Ultralytics YOLO](https://docs.ultralytics.com/models/yolo11/) models or code in your project, AGPL-3.0 requires your entire derivative work also be open-sourced under AGPL-3.0.
 
 **Why compliance matters:**
 
@@ -211,9 +211,9 @@ Make complete source code publicly available under AGPL-3.0:
 3. **Publish source code** including:
     - Complete application/system
     - Modifications to Ultralytics code
-    - Training/validation/inference scripts
+    - [Training](https://docs.ultralytics.com/modes/train/)/[validation](https://docs.ultralytics.com/modes/val/)/[inference](https://docs.ultralytics.com/modes/predict/) scripts
     - Model weights if modified
-    - Configuration files
+    - Configuration files and [datasets](https://docs.ultralytics.com/datasets/) used
     - Backend/frontend code
     - Third-party libraries modified
     - Training data if redistributable
