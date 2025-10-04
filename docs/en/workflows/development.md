@@ -209,7 +209,7 @@ def example_small_function(arg1: int, arg2: int = 4) -> bool:
 ### Python Style
 
 - **Line width**: 120 characters maximum
-- **Docstrings**: Google-style with types in parentheses
+- **Docstrings**: [Google-style](https://google.github.io/styleguide/pyguide.html) with types in parentheses
 - **Imports**: Use `pathlib` instead of `os`
 - **Type hints**: Use where beneficial for clarity
 - **Functions**: Keep short and focused (under 50 lines ideally)
