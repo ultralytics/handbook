@@ -97,3 +97,4 @@ We provide detailed security information to support customer due diligence and c
 
 - **Security Inquiries and Incident Reporting**: [security@ultralytics.com](mailto:security@ultralytics.com)
 - **Trust Center**: [Comprehensive security documentation and certifications](https://trust.ultralytics.com/)
+- **Security Policy**: [Ultralytics Open-Source Security Policy](https://docs.ultralytics.com/help/security/) - Vulnerability reporting and security measures for open-source projects
