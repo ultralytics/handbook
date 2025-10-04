@@ -7,7 +7,11 @@ keywords: code of conduct, privacy, data protection, business ethics, company va
 
 ## About This Code 📌
 
-Ultralytics operates globally through a hybrid model that combines remote work with shared office spaces across Europe, the UK, the US, and China. With team members working from diverse locations and cultures, we have created this Code of Business Conduct and Ethics to make sure everyone understands their responsibilities and maintains our high standards.
+Ultralytics operates globally with team members working at our hub offices in London, Madrid, and Shenzhen. All new positions are based full-time at these hub locations, fostering the deep collaboration and rapid execution that define our culture. Team members hired in 2025 and earlier who started remotely continue under their original arrangements.
+
+With team members working from diverse locations and cultures, we have created this Code of Business Conduct and Ethics to make sure everyone understands their responsibilities and maintains our high standards.
+
+> **📚 Related Policies:** This Code complements our [Open-Source Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/), [Privacy Policy](https://docs.ultralytics.com/help/privacy/), and [Environmental, Health and Safety Policy](https://docs.ultralytics.com/help/environmental-health-safety/).
 
 Our mission is to move the world forward by first moving ourselves, continuously pushing the boundaries of AI through relentless execution, creating the world's best open-source solutions that benefit everyone equally, and empowering individuals to improve their lives and the lives of those around them.
 
@@ -28,6 +32,8 @@ We trust you to exercise sound judgment and maintain the highest ethical standar
 Ultralytics is committed to fostering a culture where respect, fairness, and integrity are fundamental to everything we do. We provide a safe, inclusive, and positive environment for all team members, regardless of gender, race, disability, nationality, sexual orientation, religion, age, or any other protected characteristic.
 
 We prohibit discrimination, harassment, or bullying in any form. Every team member should feel valued, empowered, and safe to perform their best work. Harassment can take many forms, including unwelcome verbal or physical conduct, or repeated behavior that creates an intimidating, hostile, or offensive work environment.
+
+Our commitment to inclusion extends to our open-source community. See our [Open-Source Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/) for community standards.
 
 ### Workplace Safety and Security
 
