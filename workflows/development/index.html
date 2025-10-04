@@ -21,7 +21,7 @@
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="../../stylesheets/style.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<meta content="Development" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics, development workflow, pull requests, code review, Git, GitHub, CLA, docstrings, YOLO11, Python, contributing" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/workflows/development" property="og:url"/><meta content="Development" property="og:title"/><meta content="Ultralytics development workflow covering PR process, CLA signing, Google-style docstrings, code standards, and Git practices for YOLO11 contributions." property="og:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/workflows/development" property="twitter:url"/><meta content="Development" property="twitter:title"/><meta content="Ultralytics development workflow covering PR process, CLA signing, Google-style docstrings, code standards, and Git practices for YOLO11 contributions." property="twitter:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Development", "image": ["https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"], "datePublished": "2025-08-27 20:38:20 +0200", "dateModified": "2025-10-01 18:51:36 +0100", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Ultralytics development workflow covering PR process, CLA signing, Google-style docstrings, code standards, and Git practices for YOLO11 contributions."}</script></head>
+<meta content="Development" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics, development workflow, pull requests, code review, Git, GitHub, CLA, docstrings, YOLO11, Python, contributing" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/workflows/development" property="og:url"/><meta content="Development" property="og:title"/><meta content="Ultralytics development workflow covering PR process, CLA signing, Google-style docstrings, code standards, and Git practices for YOLO11 contributions." property="og:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/workflows/development" property="twitter:url"/><meta content="Development" property="twitter:title"/><meta content="Ultralytics development workflow covering PR process, CLA signing, Google-style docstrings, code standards, and Git practices for YOLO11 contributions." property="twitter:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Development", "image": ["https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png"], "datePublished": "2025-08-27 20:38:20 +0200", "dateModified": "2025-10-04 20:52:30 +0200", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Ultralytics development workflow covering PR process, CLA signing, Google-style docstrings, code standards, and Git practices for YOLO11 contributions."}</script></head>
 <body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -914,7 +914,7 @@
 <h1 id="development-workflow">Development Workflow 💻</h1>
 <p>This guide covers the development process for contributing to <a href="https://www.ultralytics.com/">Ultralytics</a> projects, including YOLO11 and related repositories.</p>
 <h2 id="code-of-conduct">Code of Conduct 🤝</h2>
-<p>All contributors must adhere to our <a href="https://docs.ultralytics.com/help/code-of-conduct/">Code of Conduct</a>. Respect, kindness, and professionalism are at the heart of our community.</p>
+<p>All contributors must adhere to our <a href="https://docs.ultralytics.com/help/code-of-conduct/">Code of Conduct</a>. Respect, kindness, and professionalism are at the heart of our community. For detailed contribution guidelines, see the <a href="https://docs.ultralytics.com/help/contributing/">Official Contributing Guide</a>.</p>
 <h2 id="pull-request-process">Pull Request Process 🔄</h2>
 <h3 id="1-fork-the-repository">1. Fork the Repository</h3>
 <p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo">Fork</a> the relevant Ultralytics repository (e.g., <a href="https://github.com/ultralytics/ultralytics">ultralytics/ultralytics</a>) to your GitHub account.</p>
@@ -942,7 +942,7 @@
 <p>Test locally before submitting:</p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>pytest<span class="w"> </span>tests/
 </code></pre></div>
-<p>Add tests for new functionality to prevent regressions.</p>
+<p>Add tests for new functionality to prevent regressions. Learn more about <a href="../ci-testing/">testing requirements</a>, <a href="https://docs.ultralytics.com/modes/val/">model validation</a>, and our <a href="https://docs.ultralytics.com/help/CI/">CI workflows</a>.</p>
 <h3 id="5-commit-your-changes">5. Commit Your Changes</h3>
 <p><a href="https://docs.github.com/en/desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project-in-github-desktop">Commit</a> with concise, descriptive messages:</p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Fix #123: Corrected calculation error"</span>
@@ -961,7 +961,7 @@
 <p>After submitting your PR, add this comment:</p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a>I have read the CLA Document and I sign the CLA
 </code></pre></div>
-<p>The CLA bot will guide you through the process.</p>
+<p>The CLA bot will guide you through the process. For more details on licensing, see our <a href="https://docs.ultralytics.com/help/contributing/">contributing guide</a>.</p>
 <h3 id="8-address-review-feedback">8. Address Review Feedback</h3>
 <p>Respond to reviewer comments and push updates.</p>
 <h2 id="google-style-docstrings">Google-Style Docstrings 📝</h2>
@@ -1060,9 +1060,9 @@
 <h3 id="python-style">Python Style</h3>
 <ul>
 <li><strong>Line width</strong>: 120 characters maximum</li>
-<li><strong>Docstrings</strong>: Google-style with types in parentheses</li>
+<li><strong>Docstrings</strong>: <a href="https://google.github.io/styleguide/pyguide.html">Google-style</a> with types in parentheses</li>
 <li><strong>Imports</strong>: Use <code>pathlib</code> instead of <code>os</code></li>
-<li><strong>Type hints</strong>: Use where beneficial</li>
+<li><strong>Type hints</strong>: Use where beneficial for clarity</li>
 <li><strong>Functions</strong>: Keep short and focused (under 50 lines ideally)</li>
 </ul>
 <h3 id="code-quality">Code Quality</h3>
@@ -1127,9 +1127,10 @@
 <ol>
 <li><strong>Check existing issues</strong> first</li>
 <li><strong>Provide <a href="https://docs.ultralytics.com/help/minimum-reproducible-example/">Minimum Reproducible Example</a></strong></li>
-<li><strong>Describe environment</strong>: OS, Python version, library versions, hardware</li>
+<li><strong>Describe environment</strong>: OS, Python version, library versions, hardware (use <code>yolo checks</code> for diagnostics)</li>
 <li><strong>Explain expected vs actual behavior</strong> with error messages</li>
 </ol>
+<p>For common issues and solutions, see our <a href="https://docs.ultralytics.com/guides/yolo-common-issues/">troubleshooting guide</a>.</p>
 <h2 id="license">License 📜</h2>
 <p>Ultralytics uses <a href="https://www.ultralytics.com/legal/agpl-3-0-software-license">AGPL-3.0</a>. If using Ultralytics code in your project, your entire project must be open-sourced under AGPL-3.0. If you prefer not to open-source, obtain an <a href="https://www.ultralytics.com/license">Enterprise License</a>.</p>
 <h2 id="resources">Resources 📚</h2>
@@ -1138,6 +1139,8 @@
 <li><a href="../ci-testing/">CI/Testing</a> - Continuous integration details</li>
 <li><a href="../documentation/">Documentation</a> - Writing and maintaining docs</li>
 <li><a href="https://docs.ultralytics.com/help/code-of-conduct/">Code of Conduct</a> - Community standards</li>
+<li><a href="https://www.ultralytics.com/blog">Ultralytics Blog</a> - Latest updates and tutorials</li>
+<li><a href="https://www.ultralytics.com/events">Community Events</a> - Webinars and conferences</li>
 </ul>
 <!-- Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license -->
 <br/><br/>
@@ -1146,12 +1149,12 @@
 <span class="date-item" title="This page was first created on August 27, 2025">
 <span class="hover-item">📅</span> Created 1 month ago
     </span>
-<span class="date-item" title="This page was last updated on October 01, 2025">
-<span class="hover-item">✏️</span> Updated 3 days ago
+<span class="date-item" title="This page was last updated on October 04, 2025">
+<span class="hover-item">✏️</span> Updated 0 days ago
     </span>
 </div>
 <div class="authors-container">
-<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (2 changes)">
+<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (3 changes)">
 <img alt="glenn-jocher" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/26833433?v=4&amp;s=96"/>
 </a>
 </div></div><div class="share-buttons">

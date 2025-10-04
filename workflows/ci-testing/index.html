@@ -21,7 +21,7 @@
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="../../stylesheets/style.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<meta content="CI/Testing" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics, CI/CD, continuous integration, testing, GitHub Actions, pytest, Codecov, code quality, YOLO11, Docker" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/workflows/ci-testing" property="og:url"/><meta content="CI/Testing" property="og:title"/><meta content="Ultralytics CI/CD workflow covering GitHub Actions, automated tests, code coverage with Codecov, and quality checks for YOLO11 development." property="og:description"/><meta content="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/workflows/ci-testing" property="twitter:url"/><meta content="CI/Testing" property="twitter:title"/><meta content="Ultralytics CI/CD workflow covering GitHub Actions, automated tests, code coverage with Codecov, and quality checks for YOLO11 development." property="twitter:description"/><meta content="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "CI/Testing", "image": ["https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg"], "datePublished": "2025-08-27 20:38:20 +0200", "dateModified": "2025-10-01 18:51:36 +0100", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Ultralytics CI/CD workflow covering GitHub Actions, automated tests, code coverage with Codecov, and quality checks for YOLO11 development."}</script></head>
+<meta content="CI/Testing" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics, CI/CD, continuous integration, testing, GitHub Actions, pytest, Codecov, code quality, YOLO11, Docker" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/workflows/ci-testing" property="og:url"/><meta content="CI/Testing" property="og:title"/><meta content="Ultralytics CI/CD workflow covering GitHub Actions, automated tests, code coverage with Codecov, and quality checks for YOLO11 development." property="og:description"/><meta content="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/workflows/ci-testing" property="twitter:url"/><meta content="CI/Testing" property="twitter:title"/><meta content="Ultralytics CI/CD workflow covering GitHub Actions, automated tests, code coverage with Codecov, and quality checks for YOLO11 development." property="twitter:description"/><meta content="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "CI/Testing", "image": ["https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg"], "datePublished": "2025-08-27 20:38:20 +0200", "dateModified": "2025-10-04 20:52:30 +0200", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Ultralytics CI/CD workflow covering GitHub Actions, automated tests, code coverage with Codecov, and quality checks for YOLO11 development."}</script></head>
 <body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -1077,11 +1077,16 @@
 </code></pre></div>
 <h2 id="writing-tests">Writing Tests ✍️</h2>
 <h3 id="test-structure">Test Structure</h3>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-7-1" id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">test_model_export</span><span class="p">():</span>
-<a href="#__codelineno-7-2" id="__codelineno-7-2" name="__codelineno-7-2"></a><span class="w">    </span><span class="sd">"""Test ONNX model export."""</span>
-<a href="#__codelineno-7-3" id="__codelineno-7-3" name="__codelineno-7-3"></a>    <span class="n">model</span> <span class="o">=</span> <span class="n">YOLO</span><span class="p">(</span><span class="s2">"yolo11n.pt"</span><span class="p">)</span>
-<a href="#__codelineno-7-4" id="__codelineno-7-4" name="__codelineno-7-4"></a>    <span class="n">model</span><span class="o">.</span><span class="n">export</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s2">"onnx"</span><span class="p">)</span>
-<a href="#__codelineno-7-5" id="__codelineno-7-5" name="__codelineno-7-5"></a>    <span class="k">assert</span> <span class="n">Path</span><span class="p">(</span><span class="s2">"yolo11n.onnx"</span><span class="p">)</span><span class="o">.</span><span class="n">exists</span><span class="p">()</span>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-7-1" id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+<a href="#__codelineno-7-2" id="__codelineno-7-2" name="__codelineno-7-2"></a>
+<a href="#__codelineno-7-3" id="__codelineno-7-3" name="__codelineno-7-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">ultralytics</span><span class="w"> </span><span class="kn">import</span> <span class="n">YOLO</span>
+<a href="#__codelineno-7-4" id="__codelineno-7-4" name="__codelineno-7-4"></a>
+<a href="#__codelineno-7-5" id="__codelineno-7-5" name="__codelineno-7-5"></a>
+<a href="#__codelineno-7-6" id="__codelineno-7-6" name="__codelineno-7-6"></a><span class="k">def</span><span class="w"> </span><span class="nf">test_model_export</span><span class="p">():</span>
+<a href="#__codelineno-7-7" id="__codelineno-7-7" name="__codelineno-7-7"></a><span class="w">    </span><span class="sd">"""Test ONNX model export."""</span>
+<a href="#__codelineno-7-8" id="__codelineno-7-8" name="__codelineno-7-8"></a>    <span class="n">model</span> <span class="o">=</span> <span class="n">YOLO</span><span class="p">(</span><span class="s2">"yolo11n.pt"</span><span class="p">)</span>
+<a href="#__codelineno-7-9" id="__codelineno-7-9" name="__codelineno-7-9"></a>    <span class="n">model</span><span class="o">.</span><span class="n">export</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s2">"onnx"</span><span class="p">)</span>
+<a href="#__codelineno-7-10" id="__codelineno-7-10" name="__codelineno-7-10"></a>    <span class="k">assert</span> <span class="n">Path</span><span class="p">(</span><span class="s2">"yolo11n.onnx"</span><span class="p">)</span><span class="o">.</span><span class="n">exists</span><span class="p">()</span>
 </code></pre></div>
 <h3 id="best-practices">Best Practices</h3>
 <ul>
@@ -1120,6 +1125,7 @@
 <a href="#__codelineno-10-7" id="__codelineno-10-7" name="__codelineno-10-7"></a><span class="c1"># Format code</span>
 <a href="#__codelineno-10-8" id="__codelineno-10-8" name="__codelineno-10-8"></a>ruff<span class="w"> </span>format<span class="w"> </span>ultralytics/
 </code></pre></div>
+<p>Learn more about code standards in our <a href="../development/">development workflow</a>.</p>
 <h3 id="type-checking">Type Checking</h3>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-11-1" id="__codelineno-11-1" name="__codelineno-11-1"></a><span class="c1"># Run mypy (where configured)</span>
 <a href="#__codelineno-11-2" id="__codelineno-11-2" name="__codelineno-11-2"></a>mypy<span class="w"> </span>ultralytics/
@@ -1203,12 +1209,12 @@
 <span class="date-item" title="This page was first created on August 27, 2025">
 <span class="hover-item">📅</span> Created 1 month ago
     </span>
-<span class="date-item" title="This page was last updated on October 01, 2025">
-<span class="hover-item">✏️</span> Updated 3 days ago
+<span class="date-item" title="This page was last updated on October 04, 2025">
+<span class="hover-item">✏️</span> Updated 0 days ago
     </span>
 </div>
 <div class="authors-container">
-<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (2 changes)">
+<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (3 changes)">
 <img alt="glenn-jocher" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/26833433?v=4&amp;s=96"/>
 </a>
 </div></div><div class="share-buttons">
