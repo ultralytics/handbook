@@ -5,32 +5,74 @@ keywords: Ultralytics OKRs, objectives and key results, goal setting, performanc
 
 # Objectives and Key Results (OKRs)
 
-## Handbook Under Construction 🏗️📖
+## What are OKRs?
 
-Welcome to the [Ultralytics](https://www.ultralytics.com/) [Handbook](https://handbook.ultralytics.com/) "Under Construction" page! We are diligently crafting a comprehensive guide that will serve as your go-to resource for understanding our mission, vision, values, workflows, and company practices. This page is a preview of the detailed documentation and guidelines soon to be available.
+OKRs (Objectives and Key Results) are our goal-setting framework for aligning teams and measuring progress:
 
-## What to Expect from the Handbook 📘
+- **Objectives**: Qualitative goals describing what we want to achieve
+- **Key Results**: Quantitative metrics measuring progress toward objectives
 
-- **Mission and Values:** Learn what drives Ultralytics forward and how we aim to make a lasting impact.
-- **Operational Workflows:** Discover how we work internally, including development processes, team collaboration, and continuous improvement.
-- **Contribution Guidelines:** Get involved! Detailed instructions on how to contribute to our projects and be part of the Ultralytics community.
+## OKR Structure
 
-## Stay Informed 🚧
+### Company OKRs
+Set by leadership, defining strategic priorities for the quarter/year. Company OKRs cascade to teams and individuals.
 
-This placeholder page is just the start. Soon, you’ll have access to:
+### Team OKRs
+Each team develops OKRs aligned with company objectives, focusing on their domain's contribution to overall goals.
 
-- **Internal Workflows:** Best practices for development, testing, and open-source contributions.
-- **Team Roles:** Detailed roles and responsibilities for team members and contributors.
-- **Collaboration Guidelines:** Clear guidance for collaborating on projects and contributing effectively.
+### Individual OKRs
+Team members set personal OKRs in collaboration with their managers, supporting team and company objectives.
 
-## Be a Part of the Handbook 🗣️
+## OKR Cycle
 
-We value your input as we develop this resource. If you have suggestions or feedback, share your thoughts [here](https://www.ultralytics.com/survey).
+**Quarterly Cadence**:
+1. **Planning** (Week 1): Set OKRs for upcoming quarter
+2. **Execution** (Weeks 2-12): Track progress, weekly check-ins
+3. **Review** (Week 13): Grade OKRs, analyze outcomes
+4. **Retrospective**: Learn and adjust for next quarter
 
-## Thank You to Our Community 🌍
+**Annual Strategy**:
+- Company-level goals inform quarterly OKRs
+- Year-end review evaluates annual progress
+- Strategic planning for next year
 
-Your [contributions](https://docs.ultralytics.com/help/contributing/) and feedback drive us to keep improving and refining the way we work at Ultralytics. Stay tuned as we roll out the complete handbook to help you engage, contribute, and align with our mission and values.
+## OKR Best Practices
+
+### Setting Effective OKRs
+- **Ambitious**: Target 70-80% achievement (not 100%)
+- **Measurable**: Clear numeric targets or binary outcomes
+- **Time-bound**: Specific deadlines within the quarter
+- **Aligned**: Support higher-level objectives
+- **Focused**: 3-5 objectives per level maximum
+
+### Grading Scale
+- **0.0-0.3**: Missed target significantly
+- **0.4-0.6**: Made progress but fell short
+- **0.7-0.9**: Achieved or nearly achieved (success)
+- **1.0**: Exceeded expectations (may need more ambitious targets)
+
+### Common Pitfalls to Avoid
+- Setting too many OKRs (focus on critical few)
+- Making objectives too easy (not aspirational enough)
+- Treating OKRs as task lists (focus on outcomes)
+- Skipping regular check-ins (track progress weekly)
+
+## Transparency & Visibility
+
+All OKRs are visible across the organization:
+- Company OKRs shared with entire team
+- Team OKRs accessible to all employees
+- Regular updates in team meetings
+- Dashboards track real-time progress
+
+## Tools & Resources
+
+OKRs are managed through:
+- Quarterly planning sessions
+- Weekly team standups
+- Progress tracking dashboards
+- Leadership review meetings
 
 ---
 
-Excited for the Ultralytics Handbook? Bookmark this page and be the first to explore our internal processes and principles as we continue to build and share our journey with you! 📖✨
+*For questions about OKRs, contact your manager or see [Company Goals](company-goals.md) for strategic priorities.*
