@@ -51,7 +51,7 @@ Test locally before submitting:
 pytest tests/
 ```
 
-Add tests for new functionality to prevent regressions. Learn more about [testing requirements](ci-testing.md) and [model validation](https://docs.ultralytics.com/modes/val/).
+Add tests for new functionality to prevent regressions. Learn more about [testing requirements](ci-testing.md), [model validation](https://docs.ultralytics.com/modes/val/), and our [CI workflows](https://docs.ultralytics.com/help/CI/).
 
 ### 5. Commit Your Changes
 
@@ -299,3 +299,5 @@ Ultralytics uses [AGPL-3.0](https://www.ultralytics.com/legal/agpl-3-0-software-
 - [CI/Testing](ci-testing.md) - Continuous integration details
 - [Documentation](documentation.md) - Writing and maintaining docs
 - [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/) - Community standards
+- [Ultralytics Blog](https://www.ultralytics.com/blog) - Latest updates and tutorials
+- [Community Events](https://www.ultralytics.com/events) - Webinars and conferences
