@@ -130,41 +130,6 @@ A Minimum Reproducible Example should:
 - **Format properly**: Use code blocks with triple backticks
 - **Be testable**: Others can run it without modifications
 
-### Example Bug Report
-
-````markdown
-**Bug description:**
-
-When running inference on a 0-channel image, I get a dimension error.
-
-**MRE:**
-
-```python
-import torch
-from ultralytics import YOLO
-
-# Load pretrained model
-model = YOLO("yolo11n.pt")
-
-# Load 0-channel image
-image = torch.rand(1, 0, 640, 640)
-
-# Run inference
-results = model(image)
-```
-
-**Error message:**
-
-```
-RuntimeError: Expected input[1, 0, 640, 640] to have 3 channels, but got 0 channels instead
-```
-
-**Dependencies:**
-
-- `torch==2.3.0`
-- `ultralytics==8.2.0`
-````
-
 See the complete [MRE Guide](https://docs.ultralytics.com/help/minimum-reproducible-example/) for detailed instructions.
 
 ## Reviewing Pull Requests 👀
