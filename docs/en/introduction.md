@@ -100,16 +100,19 @@ You'll work on technology used by millions of developers worldwide, from Fortune
 Grow faster at Ultralytics than anywhere else:
 - Work directly with founders and technical leaders
 - Own significant projects with high visibility and impact
-- Access to $1,500/year learning budget plus conference attendance
+- Learning budget for courses, books, and conference attendance
 - Mentorship from world-class AI researchers and engineers
 - Clear paths to senior roles and leadership positions
 
 ### Competitive Compensation
 
-Series A-level compensation including:
+We offer competitive Series A-level compensation including:
 - Market-rate salaries benchmarked against top tech companies
-- Meaningful equity grants
-- Performance bonuses for top contributors
+- Meaningful equity grants with long exercise windows
+- Performance bonuses and recognition for exceptional contributions
+- Comprehensive benefits package
+
+Discuss compensation details with your manager or HR.
 
 ### Transparency & Trust
 
