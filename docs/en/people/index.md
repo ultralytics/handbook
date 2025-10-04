@@ -52,6 +52,7 @@ At Ultralytics, we believe in supporting our team members through comprehensive 
 ### Paid Time Off (PTO)
 
 All team members receive:
+
 - **25 days annual PTO** (24 days + 1 birthday)
 - **Public holidays** in your country of residence
 - **Unlimited sick leave** as needed
@@ -61,11 +62,7 @@ See complete [PTO Policy](pto-policy.md) for details on requesting time off, rol
 
 ### Requesting Time Off
 
-!!! info "How to Request PTO"
-    1. Submit request in [Rippling](https://www.rippling.com/)
-    2. Wait for manager approval
-    3. Update team calendar and Slack status
-    4. Provide minimum 2 weeks notice for vacation
+!!! info "How to Request PTO" 1. Submit request in [Rippling](https://www.rippling.com/) 2. Wait for manager approval 3. Update team calendar and Slack status 4. Provide minimum 2 weeks notice for vacation
 
 ## Career Development 📈
 
@@ -90,6 +87,7 @@ Contact HR for current learning budget amounts and policies.
 ### Internal Mobility
 
 We encourage internal transfers and role changes:
+
 - Discuss with your manager first
 - Must be meeting expectations in current role
 - Typically requires 12+ months in position
@@ -98,8 +96,8 @@ We encourage internal transfers and role changes:
 ## Compensation & Equity 💰
 
 !!! note "Compensation Discussion"
-    Ultralytics offers competitive Series A-level compensation including:
-    
+Ultralytics offers competitive Series A-level compensation including:
+
     - Market-rate salaries benchmarked against top tech companies
     - Meaningful equity grants with long exercise windows
     - Performance bonuses for exceptional contributions
@@ -127,6 +125,7 @@ See [Travel Policy](../finance/travel.md) for per diem rates by city.
 ### Relocation
 
 Eligible employees relocating to hub cities (Madrid, London, Shenzhen):
+
 - **$6,000 flat one-time payment**
 - Pre-approval required for business-critical moves
 - 18-month tenure commitment
@@ -138,6 +137,7 @@ See [Relocation Policy](../finance/relocation.md) for eligibility criteria.
 ### Required Training
 
 All employees complete annual mandatory training via [Vanta](https://app.vanta.com/c/ultralytics/employee/onboarding):
+
 - **CCPA** (California Consumer Privacy Act)
 - **GDPR** (General Data Protection Regulation)
 - **General Security Awareness**
@@ -146,6 +146,7 @@ All employees complete annual mandatory training via [Vanta](https://app.vanta.c
 ### Code of Conduct
 
 Review our [Code of Business Conduct and Ethics](../legal/code-of-business-conduct-and-ethics.md) for:
+
 - Workplace behavior standards
 - Anti-discrimination and harassment policies
 - Conflicts of interest guidelines
