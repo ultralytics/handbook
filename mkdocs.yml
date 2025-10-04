@@ -173,9 +173,6 @@ nav:
           - Email Signatures: tools/email-signatures.md
       - People:
           - people/pto-policy.md
-      - Team Roles:
-          - Overview: team-roles/index.md
-          - Specific Roles: team-roles/specific-roles.md
       - Workflows:
           - Development: workflows/development.md
           - Product Dev: workflows/product-development.md
@@ -210,9 +207,6 @@ nav:
       - Email Signatures: tools/email-signatures.md
   - People:
       - people/pto-policy.md
-  - Team Roles:
-      - Overview: team-roles/index.md
-      - Specific Roles: team-roles/specific-roles.md
   - Workflows:
       - Development: workflows/development.md
       - Product Dev: workflows/product-development.md
