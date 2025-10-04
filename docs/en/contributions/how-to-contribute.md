@@ -151,7 +151,7 @@ Ultralytics uses [AGPL-3.0](https://www.ultralytics.com/legal/agpl-3-0-software-
 
 ### Using YOLO in Your Project
 
-If you use [Ultralytics YOLO](https://docs.ultralytics.com/models/yolo11/) models or code in your project, AGPL-3.0 requires your entire derivative work also be open-sourced under AGPL-3.0.
+If you use [Ultralytics YOLO](https://www.ultralytics.com/yolo) models or code in your project, AGPL-3.0 requires your entire derivative work also be open-sourced under AGPL-3.0.
 
 **Why compliance matters:**
 
@@ -246,6 +246,8 @@ Questions or need help?
 - Connect on [Discord](https://discord.com/invite/ultralytics)
 - Check [documentation](https://docs.ultralytics.com/)
 - Visit [Help Center](https://docs.ultralytics.com/help/)
+- Browse [Ultralytics Blog](https://www.ultralytics.com/blog) for tutorials and guides
+- Explore [Solutions](https://www.ultralytics.com/solutions) for industry-specific applications
 
 ## Thank You! 🎉
 
@@ -262,3 +264,6 @@ We're excited to see your ideas come to life and appreciate your commitment to a
 - [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/) - Community standards
 - [CLA Document](https://docs.ultralytics.com/help/CLA/) - Contributor License Agreement
 - [MRE Guide](https://docs.ultralytics.com/help/minimum-reproducible-example/) - Bug reporting best practices
+- [Ultralytics Blog](https://www.ultralytics.com/blog) - Tutorials and case studies
+- [Community Events](https://www.ultralytics.com/events) - Webinars and conferences
+- [Customer Stories](https://www.ultralytics.com/customers) - Real-world applications
