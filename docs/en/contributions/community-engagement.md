@@ -1,6 +1,6 @@
 ---
-description: Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource.
-keywords: Ultralytics Handbook, coming soon, under construction, internal guide, mission, vision, values, workflows, open-source, AI guidelines
+description: Ultralytics community engagement guidelines covering Discord support, GitHub discussions, social media presence, and community building initiatives.
+keywords: Ultralytics community, Discord support, GitHub discussions, community engagement, open source community, AI community
 ---
 
 # Community Engagement

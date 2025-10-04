@@ -1,11 +1,13 @@
 ---
-description: Learn how to contribute to Ultralytics open-source projects, sign the CLA, follow coding standards, and connect with our development team.
-keywords: Ultralytics, open source, contribution guidelines, GitHub, development team, AI, machine learning, collaboration, CLA, AGPL-3.0
+description: Ultralytics open-source contribution guidelines covering pull requests, code standards, CLA signing, bug reporting, and community engagement.
+keywords: Ultralytics, contributing, open source, pull requests, code of conduct, CLA, bug reporting, YOLO development, GitHub
 ---
 
 # How to Contribute 🚀
 
 Welcome! We're thrilled you're considering contributing to [Ultralytics](https://www.ultralytics.com/) open-source projects. Your involvement helps enhance the quality of our repositories and benefits the entire computer vision community.
+
+[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
 
 ## Watch: Contributing to Ultralytics
 
@@ -15,10 +17,10 @@ Welcome! We're thrilled you're considering contributing to [Ultralytics](https:/
 
 Ready to contribute? Follow these steps:
 
-1. **Read our [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/)**
+1. **Read our [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/)** - Respect, kindness, and professionalism
 2. **Fork the repository** you want to contribute to
 3. **Create a feature branch** with descriptive name
-4. **Make your changes** following our coding standards
+4. **Make your changes** following coding standards
 5. **Write tests** for new functionality
 6. **Submit a pull request** with clear description
 7. **Sign the CLA** by commenting in your PR
@@ -30,17 +32,26 @@ See [Development Workflow](../workflows/development.md) for detailed PR process.
 
 ### Code of Conduct 🤝
 
-All contributors must adhere to our [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/). Respect, kindness, and professionalism are at the heart of our community.
+All contributors must adhere to our [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/), which is based on the [Contributor Covenant](https://www.contributor-covenant.org/). This ensures a welcoming and inclusive environment for everyone. **Respect**, **kindness**, and **professionalism** are at the heart of our community.
 
 ### Contributor License Agreement (CLA) 📝
 
-Before we can merge your PR, you must sign our [CLA](https://docs.ultralytics.com/help/CLA/). This ensures contributions are properly licensed under [AGPL-3.0](https://www.ultralytics.com/legal/agpl-3-0-software-license).
+Before we can merge your PR, you must sign our [CLA](https://docs.ultralytics.com/help/CLA/). This legal agreement ensures contributions are properly licensed under [AGPL-3.0](https://www.ultralytics.com/legal/agpl-3-0-software-license), protecting both you and the project.
 
-After submitting your PR, comment:
+After submitting your PR, the CLA bot will guide you. To sign, comment:
 
 ```
 I have read the CLA Document and I sign the CLA
 ```
+
+The CLA covers:
+
+- Copyright and patent licenses for your contributions
+- Rights for Ultralytics to use and distribute your work
+- Representations that you own the rights to your contributions
+- Disclaimer of warranties
+
+Review the full [CLA document](https://docs.ultralytics.com/help/CLA/) for complete terms.
 
 ### Best Practices ✨
 
@@ -99,10 +110,60 @@ See [Development Workflow](../workflows/development.md) for complete coding stan
 
 Help us improve by reporting bugs via [GitHub Issues](https://github.com/ultralytics/ultralytics/issues):
 
+### Bug Report Requirements
+
 1. **Check existing issues** to avoid duplicates
-2. **Create [Minimum Reproducible Example](https://docs.ultralytics.com/help/minimum-reproducible-example/)** - small, self-contained code snippet
+2. **Create [Minimum Reproducible Example (MRE)](https://docs.ultralytics.com/help/minimum-reproducible-example/)** - Small, self-contained code that reproduces the issue
 3. **Describe environment**: OS, Python version, library versions, hardware (CPU/GPU)
 4. **Explain expected vs actual behavior** with error messages and tracebacks
+
+### What Makes a Good MRE
+
+A Minimum Reproducible Example should:
+
+- **Isolate the problem**: Remove unnecessary code
+- **Use public models and datasets**: e.g., `yolov8n.pt` and `coco8.yaml`
+- **Include dependencies**: List with `yolo checks` or `pip list`
+- **Provide clear description**: Expected vs actual behavior
+- **Format properly**: Use code blocks with triple backticks
+- **Be testable**: Others can run it without modifications
+
+### Example Bug Report
+
+````markdown
+**Bug description:**
+
+When running inference on a 0-channel image, I get a dimension error.
+
+**MRE:**
+
+```python
+import torch
+from ultralytics import YOLO
+
+# Load model
+model = YOLO("yolo11n.pt")
+
+# Load 0-channel image
+image = torch.rand(1, 0, 640, 640)
+
+# Run inference
+results = model(image)
+```
+
+**Error message:**
+
+```
+RuntimeError: Expected input[1, 0, 640, 640] to have 3 channels, but got 0 channels instead
+```
+
+**Dependencies:**
+
+- `torch==2.3.0`
+- `ultralytics==8.2.0`
+````
+
+See the complete [MRE Guide](https://docs.ultralytics.com/help/minimum-reproducible-example/) for detailed instructions.
 
 ## Reviewing Pull Requests 👀
 
@@ -217,7 +278,7 @@ Questions or need help?
 - Join [GitHub Discussions](https://github.com/ultralytics/ultralytics/discussions)
 - Connect on [Discord](https://discord.com/invite/ultralytics)
 - Check [documentation](https://docs.ultralytics.com/)
-- Reach out to team members above
+- Visit [Help Center](https://docs.ultralytics.com/help/)
 
 ## Thank You! 🎉
 
@@ -232,3 +293,5 @@ We're excited to see your ideas come to life and appreciate your commitment to a
 - [CI/Testing](../workflows/ci-testing.md) - Testing and quality checks
 - [Documentation Workflow](../workflows/documentation.md) - Writing docs
 - [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/) - Community standards
+- [CLA Document](https://docs.ultralytics.com/help/CLA/) - Contributor License Agreement
+- [MRE Guide](https://docs.ultralytics.com/help/minimum-reproducible-example/) - Bug reporting best practices

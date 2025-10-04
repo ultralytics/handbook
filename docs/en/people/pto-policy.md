@@ -1,3 +1,8 @@
+---
+description: Ultralytics Paid Time Off (PTO) Policy covering vacation days, sick leave, public holidays, and leave request procedures for all employees.
+keywords: Ultralytics PTO, paid time off, vacation policy, sick leave, employee benefits, time off policy
+---
+
 # Paid Time Off (PTO) Policy
 
 ## Overview
