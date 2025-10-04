@@ -40,7 +40,7 @@ This is a **living document** that evolves with our company, serving as both a p
 
 - **[Finance Overview](finance/index.md)** - Reimbursements and expense guidelines
 - **[Travel Policy](finance/travel.md)** - Per diem rates and booking procedures
-- **[Relocation Policy](finance/relocation.md)** - Hub city moves ($6K compensation)
+- **[Relocation Policy](finance/relocation.md)** - Office relocations ($6K compensation)
 - **[Referral Bonus](finance/referral-bonus.md)** - $5K for successful referrals
 - **[PTO Policy](people/pto-policy.md)** - 24 days annual leave plus holidays
 
