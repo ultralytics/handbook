@@ -57,10 +57,10 @@ Content with examples:
 ```python
 from ultralytics import YOLO
 
+# Load pretrained model
 model = YOLO("yolo11n.pt")
 results = model("image.jpg")
 ```
-````
 
 ### Key points:
 
@@ -68,12 +68,11 @@ results = model("image.jpg")
 - Keep paragraphs short
 - Include links to related pages
 
-````
 
 ### Code Examples
 
 - **Minimal**: Show only relevant code
-- **Runnable**: Examples should work copy-paste
+- **Runnable**: Examples should work copy-paste (test with actual [models](https://docs.ultralytics.com/models/))
 - **Commented**: Explain non-obvious parts
 - **Tested**: Verify examples work with current version
 
@@ -132,7 +131,7 @@ plugins:
 
 ## API Documentation 📖
 
-API reference is auto-generated from docstrings:
+API reference is auto-generated from docstrings. See the [complete API reference](https://docs.ultralytics.com/reference/) for all modules:
 
 ````python
 def train(self, data, epochs=100, batch=16):
