@@ -133,11 +133,12 @@ Company-provided hardware is the standard approach.
 **How do I start contributing to the codebase?**
 
 1. Fork the repository (e.g., [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics))
-2. Create a feature branch with descriptive name
-3. Follow [coding standards](../workflows/development.md)
-4. Submit PR with clear description
-5. Sign the CLA
-6. Address review feedback
+2. Install the package following the [quickstart guide](https://docs.ultralytics.com/quickstart/)
+3. Create a feature branch with descriptive name
+4. Follow [coding standards](../workflows/development.md)
+5. Submit PR with clear description
+6. Sign the CLA
+7. Address review feedback
 
 See [How to Contribute](../contributions/how-to-contribute.md) for complete guide.
 
@@ -289,6 +290,8 @@ For technical questions about YOLO models, training, inference, and deployment:
 
 - **[YOLO Documentation](https://docs.ultralytics.com/)** - Complete technical guides
 - **[YOLO FAQ](https://docs.ultralytics.com/help/FAQ/)** - Common technical questions
+- **[Training Guide](https://docs.ultralytics.com/modes/train/)** - Model training
+- **[Deployment Options](https://docs.ultralytics.com/guides/model-deployment-options/)** - Export and inference
 - **[GitHub Discussions](https://github.com/ultralytics/ultralytics/discussions)** - Community support
 - **[Contributing Guide](https://docs.ultralytics.com/help/contributing/)** - Open-source contribution guidelines
 
