@@ -71,7 +71,7 @@ results = model("image.jpg")
 ### Code Examples
 
 - **Minimal**: Show only relevant code
-- **Runnable**: Examples should work copy-paste (test with actual [models](https://docs.ultralytics.com/models/))
+- **Runnable**: Examples should work copy-paste (test with actual [YOLO models](https://docs.ultralytics.com/models/yolo11/))
 - **Commented**: Explain non-obvious parts
 - **Tested**: Verify examples work with current version
 
@@ -262,3 +262,5 @@ Common issues:
 - [MkDocs Documentation](https://www.mkdocs.org/) - Static site generator
 - [Material Theme](https://squidfunk.github.io/mkdocs-material/) - Theme documentation
 - [Markdown Guide](https://www.markdownguide.org/) - Markdown syntax reference
+- [Ultralytics Blog](https://www.ultralytics.com/blog) - Documentation examples and tutorials
+- [Ultralytics Glossary](https://www.ultralytics.com/glossary) - AI and computer vision terminology
