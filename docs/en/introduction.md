@@ -97,17 +97,35 @@ You'll work on technology used by millions of developers worldwide, from Fortune
 
 ### Accelerated Growth
 
-### Professional Growth
+Grow faster at Ultralytics than anywhere else:
+- Work directly with founders and technical leaders
+- Own significant projects with high visibility and impact
+- Access to $1,500/year learning budget plus conference attendance
+- Mentorship from world-class AI researchers and engineers
+- Clear paths to senior roles and leadership positions
 
-We support your development through challenging work, mentorship, and opportunities to learn.
+### Competitive Compensation
 
-### Clear Communication
+Series A-level compensation including:
+- Market-rate salaries benchmarked against top tech companies
+- Meaningful equity grants
+- Performance bonuses for top contributors
 
-We maintain transparent, honest communication about company direction, challenges, and successes.
+### Transparency & Trust
 
-### Inclusive Environment
+We operate with radical transparency:
+- Open financial metrics and company performance
+- Public product roadmap and development process
+- Clear decision-making with documented reasoning
+- Direct access to leadership and honest 1:1s
 
-We welcome diverse perspectives and ensure everyone can contribute their best work.
+### World-Class Team
+
+Collaborate with exceptional talent:
+- AI researchers from top universities and companies
+- Engineers who have shipped products to millions
+- Open-source contributors recognized globally
+- Diverse team across 10+ countries and time zones
 
 ## Living Document Philosophy 📝
 
