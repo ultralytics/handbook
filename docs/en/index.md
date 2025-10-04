@@ -36,13 +36,13 @@ This is a **living document** that evolves with our company, serving as both a p
 
 ## Quick Reference 🔗
 
-### Finance & Benefits 💰
+### People & Benefits 💰
 
+- **[PTO Policy](people/pto-policy.md)** - 25 days annual leave plus unlimited sick leave
 - **[Finance Overview](finance/index.md)** - Reimbursements and expense guidelines
 - **[Travel Policy](finance/travel.md)** - Per diem rates and booking procedures
-- **[Relocation Policy](finance/relocation.md)** - Office relocations ($6K compensation)
+- **[Relocation Policy](finance/relocation.md)** - $6K compensation for hub city moves
 - **[Referral Bonus](finance/referral-bonus.md)** - $5K for successful referrals
-- **[PTO Policy](people/pto-policy.md)** - 25 days annual leave plus holidays
 
 ### Development & Workflows ⚙️
 
@@ -60,8 +60,9 @@ This is a **living document** that evolves with our company, serving as both a p
 
 ### Goals & Strategy 🎯
 
-- **[Company Goals](goals/company-goals.md)** - Strategic priorities and KPIs
-- **[OKRs](goals/okrs.md)** - Objectives and key results framework
+- **[Company Goals](goals/company-goals.md)** - Strategic priorities and measurable KPIs
+- **[OKRs](goals/okrs.md)** - Quarterly objectives and key results framework
+- **[Product Roadmap](https://docs.ultralytics.com/)** - Public feature roadmap and releases
 
 ### Legal & Compliance ⚖️
 

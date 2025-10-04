@@ -82,18 +82,20 @@ Ultralytics is a world leader in artificial intelligence, creating state-of-the-
 
 ### How We Work
 
-- **In-Person Collaboration**: Positions are onsite (5 days/week) at our London, Madrid, or Shenzhen offices, enabling deep collaboration and rapid execution
-- **Open by Default**: Transparent decision-making and public development
-- **Fast Iteration**: Ship quickly, learn from feedback, improve continuously
-- **Community-Driven**: User needs and contributions guide our roadmap
-
-> **Note**: Some team members work remotely under existing arrangements or in exceptional cases where their expertise warrants it.
+- **In-Person First**: Most positions are onsite (5 days/week) at our London, Madrid, or Shenzhen offices, enabling deep collaboration and rapid execution. Some roles offer hybrid flexibility based on team needs and performance.
+- **Ship Fast, Learn Faster**: MVP-first development with 2-week iteration cycles
+- **Open by Default**: Transparent decision-making, public development, and open-source first
+- **Data-Driven**: Metrics guide decisions, user feedback drives roadmap
+- **High Autonomy, High Accountability**: Freedom to own your work with clear expectations
+- **Community-Powered**: 1M+ developers and contributors shape our direction
 
 ## Our Commitment to You 🤝
 
-### Meaningful Work
+### Meaningful Impact
 
-You'll work on technology that impacts millions of developers and shapes the future of AI. Explore [our solutions](https://www.ultralytics.com/solutions) and [customer success stories](https://www.ultralytics.com/customers) to see the impact.
+You'll work on technology used by millions of developers worldwide, from Fortune 500 companies to individual researchers. Your code ships to production systems in autonomous vehicles, medical devices, manufacturing robots, and agricultural drones. This is AI that matters.
+
+### Accelerated Growth
 
 ### Professional Growth
 
