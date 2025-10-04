@@ -68,7 +68,6 @@ results = model("image.jpg")
 - Keep paragraphs short
 - Include links to related pages
 
-
 ### Code Examples
 
 - **Minimal**: Show only relevant code
@@ -84,6 +83,7 @@ model = YOLO("yolo11n.pt")
 
 # Train on custom data
 results = model.train(data="coco8.yaml", epochs=3)
+```
 ````
 
 ### Images and Media
@@ -133,7 +133,7 @@ plugins:
 
 API reference is auto-generated from docstrings. See the [complete API reference](https://docs.ultralytics.com/reference/) for all modules:
 
-```python
+````python
 def train(self, data, epochs=100, batch=16):
     """
     Train the model on a dataset.
@@ -152,7 +152,7 @@ def train(self, data, epochs=100, batch=16):
         results = model.train(data="coco8.yaml", epochs=100)
         ```
     """
-```
+````
 
 Key elements:
 

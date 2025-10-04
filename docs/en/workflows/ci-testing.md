@@ -130,8 +130,10 @@ pre-commit run --all-files
 ### Test Structure
 
 ```python
-from ultralytics import YOLO
 from pathlib import Path
+
+from ultralytics import YOLO
+
 
 def test_model_export():
     """Test ONNX model export."""
