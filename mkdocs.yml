@@ -75,9 +75,9 @@ extra: # version:
   homepage: https://www.ultralytics.com/
   #   provider: mike # version drop-down menu
   # robots: robots.txt
-  # analytics:
-  #   provider: google
-  #   property: G-2M5EHKC0BH
+  analytics:
+    provider: google
+    property: G-PKBJP4Z4GB
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ultralytics
