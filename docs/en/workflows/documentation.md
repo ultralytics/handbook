@@ -133,7 +133,7 @@ plugins:
 
 API reference is auto-generated from docstrings. See the [complete API reference](https://docs.ultralytics.com/reference/) for all modules:
 
-````python
+```python
 def train(self, data, epochs=100, batch=16):
     """
     Train the model on a dataset.
@@ -152,7 +152,7 @@ def train(self, data, epochs=100, batch=16):
         results = model.train(data="coco8.yaml", epochs=100)
         ```
     """
-````
+```
 
 Key elements:
 
