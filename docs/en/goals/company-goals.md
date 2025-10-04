@@ -5,32 +5,65 @@ keywords: Ultralytics goals, company objectives, strategic priorities, growth ta
 
 # Company Goals
 
-## Handbook Under Construction 🏗️📖
+## Overview
 
-Welcome to the [Ultralytics](https://www.ultralytics.com/) [Handbook](https://handbook.ultralytics.com/) "Under Construction" page! We are diligently crafting a comprehensive guide that will serve as your go-to resource for understanding our mission, vision, values, workflows, and company practices. This page is a preview of the detailed documentation and guidelines soon to be available.
+Ultralytics sets annual strategic goals aligned with our mission to democratize AI and advance computer vision. Our goals focus on product excellence, community growth, business development, and technical infrastructure.
 
-## What to Expect from the Handbook 📘
+## Strategic Priorities
 
-- **Mission and Values:** Learn what drives Ultralytics forward and how we aim to make a lasting impact.
-- **Operational Workflows:** Discover how we work internally, including development processes, team collaboration, and continuous improvement.
-- **Contribution Guidelines:** Get involved! Detailed instructions on how to contribute to our projects and be part of the Ultralytics community.
+### Product Excellence
 
-## Stay Informed 🚧
+- Maintain YOLO model leadership in accuracy and performance
+- Expand model capabilities and supported tasks
+- Improve training efficiency and inference speed
+- Enhance user experience across all platforms
 
-This placeholder page is just the start. Soon, you’ll have access to:
+### Community Growth
 
-- **Internal Workflows:** Best practices for development, testing, and open-source contributions.
-- **Team Roles:** Detailed roles and responsibilities for team members and contributors.
-- **Collaboration Guidelines:** Clear guidance for collaborating on projects and contributing effectively.
+- Grow active user base and engagement
+- Expand Discord, GitHub, and social media presence
+- Increase documentation quality and accessibility
+- Foster contributor ecosystem
 
-## Be a Part of the Handbook 🗣️
+### Business Development
 
-We value your input as we develop this resource. If you have suggestions or feedback, share your thoughts [here](https://www.ultralytics.com/survey).
+- Scale commercial licensing and enterprise adoption
+- Expand customer base across key verticals
+- Strengthen partner relationships
+- Grow recurring revenue
 
-## Thank You to Our Community 🌍
+### Technical Infrastructure
 
-Your [contributions](https://docs.ultralytics.com/help/contributing/) and feedback drive us to keep improving and refining the way we work at Ultralytics. Stay tuned as we roll out the complete handbook to help you engage, contribute, and align with our mission and values.
+- Platform reliability and uptime
+- API performance and scalability
+- Developer tools and SDKs
+- Cloud and edge deployment capabilities
+
+### Security & Compliance
+
+- Maintain security certifications (SOC 2, ISO 27001)
+- Data privacy and regulatory compliance
+- Security best practices and training
+- Incident response readiness
+
+## Goal Setting Process
+
+Goals are set annually with quarterly reviews:
+
+1. Leadership defines company-level goals
+2. Teams develop aligned objectives
+3. Quarterly check-ins track progress
+4. Annual review and planning cycle
+
+## Measurement & Tracking
+
+Goals are tracked through:
+
+- Key Performance Indicators (KPIs)
+- Quarterly business reviews
+- Team dashboards and metrics
+- Regular leadership updates
 
 ---
 
-Excited for the Ultralytics Handbook? Bookmark this page and be the first to explore our internal processes and principles as we continue to build and share our journey with you! 📖✨
+_Detailed goals and metrics are reviewed internally. See [OKRs](okrs.md) for our goal-setting framework._

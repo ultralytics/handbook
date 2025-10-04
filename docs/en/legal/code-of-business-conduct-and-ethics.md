@@ -7,7 +7,9 @@ keywords: code of conduct, privacy, data protection, business ethics, company va
 
 ## About This Code 📌
 
-Ultralytics operates globally through a hybrid model that combines remote work with shared office spaces across Europe, the UK, the US, and China. With team members working from diverse locations and cultures, we have created this Code of Business Conduct and Ethics to make sure everyone understands their responsibilities and maintains our high standards.
+Ultralytics operates globally with offices in London, Madrid, and Shenzhen. Most positions are onsite at these locations, though some team members work remotely. This Code of Business Conduct and Ethics ensures everyone understands their responsibilities and maintains our high standards, regardless of location.
+
+> **📚 Related Policies:** [Open-Source Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/), [Privacy Policy](https://docs.ultralytics.com/help/privacy/), [Environmental, Health and Safety Policy](https://docs.ultralytics.com/help/environmental-health-safety/).
 
 Our mission is to move the world forward by first moving ourselves, continuously pushing the boundaries of AI through relentless execution, creating the world's best open-source solutions that benefit everyone equally, and empowering individuals to improve their lives and the lives of those around them.
 
@@ -28,6 +30,8 @@ We trust you to exercise sound judgment and maintain the highest ethical standar
 Ultralytics is committed to fostering a culture where respect, fairness, and integrity are fundamental to everything we do. We provide a safe, inclusive, and positive environment for all team members, regardless of gender, race, disability, nationality, sexual orientation, religion, age, or any other protected characteristic.
 
 We prohibit discrimination, harassment, or bullying in any form. Every team member should feel valued, empowered, and safe to perform their best work. Harassment can take many forms, including unwelcome verbal or physical conduct, or repeated behavior that creates an intimidating, hostile, or offensive work environment.
+
+Our commitment to inclusion extends to our open-source community. See our [Open-Source Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/) for community standards.
 
 ### Workplace Safety and Security
 

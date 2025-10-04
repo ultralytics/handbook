@@ -1,13 +1,13 @@
 ---
 description: Ultralytics Employee Referral Bonus Policy offering $5,000 for successful referrals who complete 3 months of employment.
-keywords: Ultralytics, Employee Referral, Referral Bonus, Hiring, Recruitment, Employee Benefits
+keywords: Ultralytics, Employee Referral, Referral Bonus, Hiring, Recruitment, Talent Acquisition
 ---
 
 # Ultralytics Employee Referral Bonus Policy 🤝
 
 ## Overview 📌
 
-[Ultralytics](https://www.ultralytics.com/) rewards employees who refer qualified candidates that join our team. This policy encourages employees to help grow our company with talented individuals from their network.
+[Ultralytics](https://www.ultralytics.com/) offers a $5,000 bonus to employees who refer qualified candidates that join our team. This program helps us grow with talented individuals from employee networks.
 
 ## Eligibility 💰
 

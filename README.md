@@ -20,64 +20,120 @@ This Handbook serves as a **living document**, evolving alongside Ultralytics' g
 [![Downloads](https://static.pepy.tech/badge/ultralytics)](https://clickpy.clickhouse.com/dashboard/ultralytics)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ultralytics?logo=python&logoColor=gold)](https://pypi.org/project/ultralytics/)
 
-To install [MkDocs](https://www.mkdocs.org/) and the necessary dependencies for building and developing the Handbook site locally, use the [pip package manager](https://pip.pypa.io/en/stable/):
+To build and develop the Handbook locally, install dependencies:
 
 ```bash
-pip install black mkdocs-material mkdocs-ultralytics-plugin
+pip install mkdocs-material mkdocs-ultralytics-plugin
 ```
 
-This command installs MkDocs, the [MkDocs Material theme](https://squidfunk.github.io/mkdocs-material/), our custom plugin, and the `black` code formatter, enabling local development and testing of the Handbook documentation.
+This installs [MkDocs](https://www.mkdocs.org/), the [MkDocs Material theme](https://squidfunk.github.io/mkdocs-material/), and our custom plugin for building the documentation site.
 
-## 🚀 Building and Serving Locally
+## 🚀 Local Development
 
-Use the following command to build the Handbook site and serve it using a local development server:
+Build and serve the Handbook locally with live reload:
 
 ```bash
 mkdocs serve
 ```
 
-This starts a local web server with live reloading enabled. Any changes you make to the Markdown source files will automatically trigger a rebuild, and your browser will refresh to show the updates.
+The site will be available at `http://127.0.0.1:8000`. Changes to source files trigger automatic rebuilds.
 
-### Key Details:
+### Development Commands
 
-- **`mkdocs`**: The primary command-line tool for interacting with MkDocs.
-- **`serve`**: Builds the site and runs a local server, watching for file changes.
+- **`mkdocs serve`** - Start development server with live reload
+- **`mkdocs build`** - Build static site to `site/` directory
+- **`mkdocs gh-deploy`** - Deploy to GitHub Pages
 
-To stop the server, press `CTRL+C` in your terminal.
+## 📤 Deployment
 
-## 📤 Deploying Your Documentation Site
-
-To deploy the Handbook to GitHub Pages or another hosting platform:
-
-1.  Ensure your `mkdocs.yml` file is configured correctly for deployment, including the `site_url`.
-2.  Run the deployment command:
+The Handbook automatically deploys to [handbook.ultralytics.com](https://handbook.ultralytics.com/) via GitHub Actions when changes are pushed to the `main` branch. Manual deployment:
 
 ```bash
 mkdocs gh-deploy
 ```
 
-This command builds the static site files and pushes them to the `gh-pages` branch of your repository, making them live on GitHub Pages. For a custom domain like `handbook.ultralytics.com`, configure the "Custom domain" settings in your GitHub repository's Pages section.
+This builds the site and pushes to the `gh-pages` branch.
 
-![GitHub Pages Deployment Example](https://user-images.githubusercontent.com/26833433/210150206-9e86dcd7-10af-43e4-9eb2-9518b3799eac.png)
-
-For more detailed instructions, consult the official [MkDocs guide on deploying documentation](https://www.mkdocs.org/user-guide/deploying-your-docs/).
+![GitHub Pages Deployment](https://user-images.githubusercontent.com/26833433/210150206-9e86dcd7-10af-43e4-9eb2-9518b3799eac.png)
 
 ## 💡 Contributing
 
-We warmly welcome contributions to the Ultralytics Handbook! Your input, whether it's improving existing documentation, fixing typos, or suggesting new sections, is highly valuable to our [open-source](https://github.com/ultralytics) efforts. Please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) for detailed information on how to get started. We appreciate the support from our community!
+We welcome contributions to the Ultralytics Handbook! Your input helps keep our documentation accurate, comprehensive, and useful.
+
+### How to Contribute
+
+1. **Fork the repository** and create a feature branch
+2. **Make your changes** to Markdown files in `docs/en/`
+3. **Test locally** with `mkdocs serve`
+4. **Submit a pull request** with clear description of changes
+5. **Follow our style guide** (consistent with existing pages)
+
+### Contribution Guidelines
+
+- Use clear, concise language aligned with the handbook's professional tone
+- Follow the existing structure and formatting (120-character lines, emoji usage)
+- Include proper frontmatter (description and keywords) on all pages
+- Test all internal links and ensure proper navigation
+- Use tables, admonitions, and formatting consistently with other pages
+
+See our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) for detailed information.
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
 
+## 📂 Repository Structure
+
+```
+handbook/
+├── docs/
+│   ├── en/                          # English documentation
+│   │   ├── index.md                 # Homepage
+│   │   ├── introduction.md          # Handbook introduction
+│   │   ├── mission-vision-values/   # Company foundation
+│   │   ├── finance/                 # Financial policies
+│   │   ├── tools/                   # Hardware & software
+│   │   ├── people/                  # HR policies
+│   │   ├── workflows/               # Development processes
+│   │   ├── contributions/           # Community guidelines
+│   │   ├── goals/                   # OKRs and company goals
+│   │   ├── faq/                     # Common questions
+│   │   ├── legal/                   # Legal & compliance
+│   │   └── security/                # Security policies
+│   └── overrides/                   # Theme customizations
+├── .github/
+│   └── workflows/                   # CI/CD automation
+├── mkdocs.yml                       # MkDocs configuration
+├── pyproject.toml                   # Python project config
+├── requirements.txt                 # Python dependencies
+└── README.md                        # This file
+```
+
+## 🧰 Technology Stack
+
+- **[MkDocs](https://www.mkdocs.org/)** - Static site generator
+- **[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)** - Modern documentation theme
+- **[MkDocs Ultralytics Plugin](https://github.com/ultralytics/mkdocs)** - Custom features and integrations
+- **[GitHub Pages](https://pages.github.com/)** - Hosting and deployment
+- **[GitHub Actions](https://github.com/features/actions)** - CI/CD automation
+
 ## 📜 License
 
-The Ultralytics Handbook is distributed under two licenses to accommodate different use cases:
+The Ultralytics Handbook is distributed under two licenses:
 
-- **AGPL-3.0 License**: Ideal for academic research and open-source projects. See the [LICENSE](https://github.com/ultralytics/handbook/blob/main/LICENSE) file for full details.
-- **Enterprise License**: Designed for commercial applications requiring integration of Ultralytics software and AI models. Visit [Ultralytics Licensing](https://www.ultralytics.com/license) to learn more.
+- **[AGPL-3.0 License](https://github.com/ultralytics/handbook/blob/main/LICENSE)** - For academic research and open-source projects
+- **[Enterprise License](https://www.ultralytics.com/license)** - For commercial applications requiring proprietary integration
 
 ## ✉️ Contact
 
-For reporting issues, bugs, or suggesting features related to the Handbook, please use the [GitHub Issues](https://github.com/ultralytics/handbook/issues) tracker. For broader discussions, questions about Ultralytics projects like [Ultralytics YOLO](https://docs.ultralytics.com/models/yolov8/), or to connect with the team and community, join our [Discord server](https://discord.com/invite/ultralytics).
+- **Issues & Bugs**: [GitHub Issues](https://github.com/ultralytics/handbook/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/ultralytics/handbook/discussions)
+- **Discord**: [Join Server](https://discord.com/invite/ultralytics)
+
+## 🔗 Related Resources
+
+- **[Ultralytics Website](https://www.ultralytics.com/)** - Company information
+- **[YOLO Documentation](https://docs.ultralytics.com/)** - Technical documentation for YOLO models
+- **[GitHub Repository](https://github.com/ultralytics/ultralytics)** - Main codebase
+- **[Trust Center](https://trust.ultralytics.com/)** - Security documentation
 
 <br>
 <div align="center">

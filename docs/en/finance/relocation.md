@@ -1,13 +1,15 @@
 ---
-description: Ultralytics Employee Relocation Policy outlining eligibility, compensation, approved hub locations, and the approval process for strategic employee moves.
-keywords: Ultralytics, Employee Relocation, Relocation Policy, hub cities, relocation compensation, employee reimbursement, strategic relocation
+description: Ultralytics Employee Relocation Policy outlining eligibility, compensation, approved office locations, and approval process for strategic employee moves.
+keywords: Ultralytics, Employee Relocation, Relocation Policy, office locations, relocation compensation, employee reimbursement, strategic relocation
 ---
 
 # Ultralytics Employee Relocation Policy 📍
 
 ## 1. Purpose and Scope 📌
 
-This policy applies to high-value, full-time Ultralytics employees approved for relocation to one of our designated hub cities. The goal is to strategically position key talent to support business objectives. All relocations are subject to pre-approval from management and HR.
+This policy applies to full-time employees approved for relocation to our London, Madrid, or Shenzhen offices. All relocations require pre-approval from management and HR.
+
+> **Note**: Existing remote team members are not required to relocate. This policy is for voluntary relocations or strategic moves initiated by management.
 
 ## 2. Eligibility Requirements ✅
 
@@ -18,19 +20,17 @@ Relocation assistance is reserved for employees who meet the following criteria:
 - **Tenure:** A minimum of six months of employment. This may be waived for strategic new hires or critical roles.
 - **Business Need:** The relocation must be initiated by management for business-critical reasons or be a move that directly aligns with company strategic goals.
 
-## 3. Approved Hub Cities 🌎
+## 3. Approved Office Locations 🌎
 
-Relocation reimbursement is **only** available for moves to the following Ultralytics hub cities:
+Relocation reimbursement is only available for moves to:
 
-| Hub Location | Region       |
-| :----------- | :----------- |
-| **Madrid**   | Europe       |
-| **London**   | Europe       |
-| **Shenzhen** | Asia-Pacific |
+- **Madrid** (Europe)
+- **London** (Europe)
+- **Shenzhen** (Asia-Pacific)
 
-!!! warning "Non-Hub Relocations"
+!!! warning "Other Locations"
 
-    Moves to cities not on this list are considered self-initiated and are not eligible for reimbursement under this policy.
+    Moves to cities not on this list are not eligible for reimbursement.
 
 ## 4. Relocation Compensation 💰
 
@@ -78,9 +78,9 @@ The following situations are not covered by this policy:
 
 The $6,000 relocation payment is considered a taxable benefit and will be subject to applicable income taxes. Employees are responsible for their own personal tax obligations and are encouraged to consult with a tax advisor.
 
-### Remote & Hybrid Work
+### Onsite Work Requirements
 
-Relocation must align with the company's remote and hybrid work policies. Employees are expected to adhere to the work requirements specific to their new hub location, including any in-office expectations and timezone collaboration needs.
+All employees work onsite 5 days per week at their office location. Relocated employees must work full-time from their new office and comply with local office policies.
 
 ## 8. Exceptions
 
