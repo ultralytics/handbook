@@ -7,11 +7,9 @@ keywords: code of conduct, privacy, data protection, business ethics, company va
 
 ## About This Code 📌
 
-Ultralytics operates globally with team members working at our hub offices in London, Madrid, and Shenzhen. All new positions are based full-time at these hub locations, fostering the deep collaboration and rapid execution that define our culture. Team members hired in 2025 and earlier who started remotely continue under their original arrangements.
+Ultralytics operates globally with offices in London, Madrid, and Shenzhen. Most positions are onsite at these locations, though some team members work remotely. This Code of Business Conduct and Ethics ensures everyone understands their responsibilities and maintains our high standards, regardless of location.
 
-With team members working from diverse locations and cultures, we have created this Code of Business Conduct and Ethics to make sure everyone understands their responsibilities and maintains our high standards.
-
-> **📚 Related Policies:** This Code complements our [Open-Source Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/), [Privacy Policy](https://docs.ultralytics.com/help/privacy/), and [Environmental, Health and Safety Policy](https://docs.ultralytics.com/help/environmental-health-safety/).
+> **📚 Related Policies:** [Open-Source Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/), [Privacy Policy](https://docs.ultralytics.com/help/privacy/), [Environmental, Health and Safety Policy](https://docs.ultralytics.com/help/environmental-health-safety/).
 
 Our mission is to move the world forward by first moving ourselves, continuously pushing the boundaries of AI through relentless execution, creating the world's best open-source solutions that benefit everyone equally, and empowering individuals to improve their lives and the lives of those around them.
 
