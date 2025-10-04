@@ -98,6 +98,7 @@ You'll work on technology used by millions of developers worldwide, from Fortune
 ### Accelerated Growth
 
 Grow faster at Ultralytics than anywhere else:
+
 - Work directly with founders and technical leaders
 - Own significant projects with high visibility and impact
 - Learning budget for courses, books, and conference attendance
@@ -107,6 +108,7 @@ Grow faster at Ultralytics than anywhere else:
 ### Competitive Compensation
 
 We offer competitive Series A-level compensation including:
+
 - Market-rate salaries benchmarked against top tech companies
 - Meaningful equity grants with long exercise windows
 - Performance bonuses and recognition for exceptional contributions
@@ -117,6 +119,7 @@ Discuss compensation details with your manager or HR.
 ### Transparency & Trust
 
 We operate with radical transparency:
+
 - Open financial metrics and company performance
 - Public product roadmap and development process
 - Clear decision-making with documented reasoning
@@ -125,6 +128,7 @@ We operate with radical transparency:
 ### World-Class Team
 
 Collaborate with exceptional talent:
+
 - AI researchers from top universities and companies
 - Engineers who have shipped products to millions
 - Open-source contributors recognized globally
