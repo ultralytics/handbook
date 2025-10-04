@@ -62,7 +62,11 @@ See complete [PTO Policy](pto-policy.md) for details on requesting time off, rol
 
 ### Requesting Time Off
 
-!!! info "How to Request PTO" 1. Submit request in [Rippling](https://www.rippling.com/) 2. Wait for manager approval 3. Update team calendar and Slack status 4. Provide minimum 2 weeks notice for vacation
+Provide minimum 2 weeks notice for vacation, following these steps:
+
+1. Submit request in [Rippling](https://www.rippling.com/)
+2. Wait for manager approval 
+3. Update team calendar and Slack status 
 
 ## Career Development 📈
 
@@ -95,15 +99,12 @@ We encourage internal transfers and role changes:
 
 ## Compensation & Equity 💰
 
-!!! note "Compensation Discussion"
 Ultralytics offers competitive Series A-level compensation including:
 
-    - Market-rate salaries benchmarked against top tech companies
-    - Meaningful equity grants with long exercise windows
-    - Performance bonuses for exceptional contributions
-    - Comprehensive benefits package
-
-    **Discuss compensation details with your manager or HR.**
+- Market-rate salaries benchmarked against top tech companies
+- Meaningful equity grants with long exercise windows
+- Performance bonuses for exceptional contributions
+- Comprehensive benefits package
 
 ## Finance & Expenses 💳
 
