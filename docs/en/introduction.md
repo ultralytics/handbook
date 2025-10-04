@@ -74,9 +74,9 @@ Ultralytics is a world leader in artificial intelligence, creating state-of-the-
 
 ### What We Do
 
-- **Open Source**: Develop YOLO and related computer vision frameworks
+- **Open Source**: Develop [YOLO](https://docs.ultralytics.com/models/) and related computer vision frameworks
 - **Research**: Push boundaries of AI model performance and efficiency
-- **Platform**: Build tools for training, deployment, and production AI
+- **Platform**: Build tools for [training](https://docs.ultralytics.com/modes/train/), [deployment](https://docs.ultralytics.com/guides/model-deployment-options/), and production AI
 - **Community**: Support 1M+ developers using our technology worldwide
 
 ### How We Work

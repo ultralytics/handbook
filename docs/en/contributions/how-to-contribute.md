@@ -81,11 +81,11 @@ See [Development Workflow](../workflows/development.md) for complete coding stan
 
 ### Code Contributions 💻
 
-- New features and enhancements
-- Bug fixes
-- Performance optimizations
-- Export format support
-- Platform compatibility
+- New features and enhancements for [YOLO models](https://docs.ultralytics.com/models/)
+- Bug fixes and issue resolution
+- Performance optimizations for [training](https://docs.ultralytics.com/modes/train/) and [inference](https://docs.ultralytics.com/modes/predict/)
+- Export format support for various [deployment options](https://docs.ultralytics.com/guides/model-deployment-options/)
+- Platform compatibility improvements
 
 ### Documentation 📚
 

@@ -156,7 +156,7 @@ For critical bugs:
 - **PyPI Downloads**: Adoption rate
 - **Issue Response Time**: Support quality
 - **PR Merge Time**: Development velocity
-- **Performance Benchmarks**: Speed/accuracy improvements
+- **[Performance Benchmarks](https://docs.ultralytics.com/modes/benchmark/)**: Speed/accuracy improvements
 
 ### Feature Success Criteria
 
@@ -186,17 +186,17 @@ Define before building:
 
 ### Current Focus
 
-- YOLO11 model family
-- Export format support
-- Performance optimization
-- Documentation quality
+- [YOLO11 model family](https://docs.ultralytics.com/models/yolo11/)
+- [Export format support](https://docs.ultralytics.com/modes/export/)
+- [Performance optimization](https://docs.ultralytics.com/guides/model-training-tips/)
+- [Documentation quality](https://docs.ultralytics.com/)
 
 ### Upcoming Areas
 
-- New architecture variants
-- Enhanced training features
-- Improved inference speed
-- Extended platform support
+- New [architecture variants](https://docs.ultralytics.com/models/)
+- Enhanced [training features](https://docs.ultralytics.com/modes/train/)
+- Improved [inference speed](https://docs.ultralytics.com/modes/predict/)
+- Extended [platform support](https://docs.ultralytics.com/guides/model-deployment-options/)
 
 ### Long-term Vision
 
