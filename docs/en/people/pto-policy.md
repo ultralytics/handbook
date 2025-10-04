@@ -73,7 +73,7 @@ Mid-year hires receive prorated PTO for the 24 flexible days based on start date
 !!! info "Official Holiday Calendars"
 
     - **UK**: [GOV.UK Bank Holidays](https://www.gov.uk/bank-holidays) - Official government bank holidays
-    - **Spain**: [BOE Calendar](https://www.boe.es/diario_boe/calendarios.php) - Official State Gazette (Boletín Oficial del Estado)
+    - **Spain**: [BOE Calendar](https://www.boe.es/diario_boe/calendarios.php) - Official State Gazette (Boletín Official del Estado)
     - **China**: [State Council Public Holidays](https://english.www.gov.cn/policies/latestreleases/202411/12/content_WS67331db5c6d0868f4e8ecd92.html) - Official government announcement
     - **US**: [OPM Federal Holidays](https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/) - Office of Personnel Management
 
