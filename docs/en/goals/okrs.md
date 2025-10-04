@@ -1,6 +1,6 @@
 ---
-description: Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource.
-keywords: Ultralytics Handbook, coming soon, under construction, internal guide, mission, vision, values, workflows, open-source, AI guidelines
+description: Ultralytics OKR framework defining objectives and key results for transparent goal-setting, performance tracking, and strategic alignment across the organization.
+keywords: Ultralytics OKRs, objectives and key results, goal setting, performance metrics, strategic planning, team alignment
 ---
 
 # Objectives and Key Results (OKRs)

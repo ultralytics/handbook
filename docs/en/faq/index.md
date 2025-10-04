@@ -1,6 +1,6 @@
 ---
-description: Frequently Asked Questions about working at Ultralytics, covering finance, equipment, workflows, and company policies.
-keywords: Ultralytics FAQ, employee questions, company policies, expense reimbursement, hardware policy, remote work
+description: Frequently Asked Questions about working at Ultralytics, covering finance, equipment, workflows, policies, and support resources.
+keywords: Ultralytics FAQ, employee questions, company policies, expense reimbursement, hardware policy, remote work, YOLO development
 ---
 
 # Frequently Asked Questions 💬

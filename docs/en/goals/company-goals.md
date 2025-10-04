@@ -1,6 +1,6 @@
 ---
-description: Explore the Ultralytics Handbook—a comprehensive guide to our mission, vision, values, and internal workflows. Stay tuned for exciting updates as we continue to build this resource.
-keywords: Ultralytics Handbook, coming soon, under construction, internal guide, mission, vision, values, workflows, open-source, AI guidelines
+description: Ultralytics company goals defining our strategic priorities, growth objectives, and key performance indicators for advancing AI and computer vision.
+keywords: Ultralytics goals, company objectives, strategic priorities, growth targets, AI advancement, YOLO development
 ---
 
 # Company Goals

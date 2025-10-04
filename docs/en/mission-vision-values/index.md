@@ -1,3 +1,8 @@
+---
+description: Ultralytics Mission, Vision, and Values defining our commitment to advancing AI through open-source innovation and relentless execution.
+keywords: Ultralytics mission, company vision, core values, AI mission, open source values, company culture, AI democratization
+---
+
 # Ultralytics Mission, Vision, & Values
 
 ## Mission

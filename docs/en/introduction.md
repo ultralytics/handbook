@@ -1,3 +1,8 @@
+---
+description: Introduction to the Ultralytics Handbook covering company mission, values, workflows, and operational guidelines for team members and contributors.
+keywords: Ultralytics handbook, company introduction, AI handbook, employee guide, contributor guide, open source handbook
+---
+
 # Introduction
 
 Welcome to the Ultralytics Handbook! This handbook serves as a comprehensive guide to everything Ultralytics: our mission, vision, values, company guidelines, and workflows. Whether you’re a team member, contributor, or community member, this document is designed to align everyone with the principles and practices that drive our work.

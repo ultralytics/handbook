@@ -2,7 +2,7 @@
 
 # 📚 Ultralytics Handbook
 
-Welcome to the **Ultralytics Handbook repository**! This repository houses the source Markdown files for the official [Ultralytics Handbook](https://handbook.ultralytics.com/). It details our **mission, vision, values, and internal practices**, offering transparency into how [Ultralytics](https://www.ultralytics.com/) operates. Built using the excellent [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) framework, the Handbook is continuously updated and deployed via [GitHub Pages](https://pages.github.com/) to [handbook.ultralytics.com](https://handbook.ultralytics.com/).
+Welcome to the **Ultralytics Handbook repository**! This repository houses the source files for the official [Ultralytics Handbook](https://handbook.ultralytics.com/) - your comprehensive guide to our **mission, vision, values, and operational practices**. Built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/), the Handbook is continuously deployed via [GitHub Pages](https://pages.github.com/) to [handbook.ultralytics.com](https://handbook.ultralytics.com/).
 
 [![pages-build-deployment](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment)
 [![Check Broken links](https://github.com/ultralytics/handbook/actions/workflows/links.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/links.yml)
