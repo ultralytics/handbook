@@ -130,6 +130,11 @@ pre-commit run --all-files
 ### Test Structure
 
 ```python
+from pathlib import Path
+
+from ultralytics import YOLO
+
+
 def test_model_export():
     """Test ONNX model export."""
     model = YOLO("yolo11n.pt")
@@ -183,6 +188,8 @@ ruff check --fix ultralytics/
 # Format code
 ruff format ultralytics/
 ```
+
+Learn more about code standards in our [development workflow](development.md).
 
 ### Type Checking
 

@@ -98,4 +98,4 @@ This handbook is maintained as an open resource. If you find errors, have sugges
 
 ---
 
-Happy reading and contributing! Together, we're building the future of AI. 🌟
+Happy reading and contributing! Together, we're building the future of AI. Explore [career opportunities](https://www.ultralytics.com/careers) or read about [our latest updates](https://www.ultralytics.com/blog). 🌟

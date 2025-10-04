@@ -70,14 +70,15 @@ This handbook is maintained in our [GitHub repository](https://github.com/ultral
 
 ## About Ultralytics 🚀
 
-Ultralytics is a world leader in artificial intelligence, creating state-of-the-art computer vision tools that democratize advanced technology. Our flagship YOLO (You Only Look Once) models set the standard for real-time object detection, balancing speed and accuracy at every scale.
+Ultralytics is a world leader in artificial intelligence, creating state-of-the-art computer vision tools that democratize advanced technology. Our flagship YOLO (You Only Look Once) models set the standard for real-time object detection, balancing speed and accuracy at every scale. Learn more on our [About page](https://www.ultralytics.com/about).
 
 ### What We Do
 
-- **Open Source**: Develop YOLO and related computer vision frameworks
+- **Open Source**: Develop [YOLO](https://www.ultralytics.com/yolo) and related [computer vision](https://docs.ultralytics.com/tasks/) frameworks
 - **Research**: Push boundaries of AI model performance and efficiency
-- **Platform**: Build tools for training, deployment, and production AI
+- **Platform**: Build tools for [training](https://docs.ultralytics.com/modes/train/), [deployment](https://docs.ultralytics.com/guides/model-deployment-options/), and production AI
 - **Community**: Support 1M+ developers using our technology worldwide
+- **Solutions**: Deliver [industry-specific AI applications](https://www.ultralytics.com/solutions) across agriculture, automotive, healthcare, manufacturing, and more
 
 ### How We Work
 
@@ -92,7 +93,7 @@ Ultralytics is a world leader in artificial intelligence, creating state-of-the-
 
 ### Meaningful Work
 
-You'll work on technology that impacts millions of developers and shapes the future of AI.
+You'll work on technology that impacts millions of developers and shapes the future of AI. Explore [our solutions](https://www.ultralytics.com/solutions) and [customer success stories](https://www.ultralytics.com/customers) to see the impact.
 
 ### Professional Growth
 
@@ -126,7 +127,7 @@ Questions about handbook content?
 
 ## Welcome! 🌟
 
-Whether you're a new employee, long-time contributor, or exploring Ultralytics for the first time, we're glad you're here. This handbook reflects our commitment to transparency, professionalism, and continuous improvement.
+Whether you're a new employee, long-time contributor, or exploring Ultralytics for the first time, we're glad you're here. This handbook reflects our commitment to transparency, professionalism, and continuous improvement. Check out [our blog](https://www.ultralytics.com/blog) for the latest news and insights.
 
 Let's build the future of AI together! 🚀
 

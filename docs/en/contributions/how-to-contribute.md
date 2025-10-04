@@ -81,25 +81,25 @@ See [Development Workflow](../workflows/development.md) for complete coding stan
 
 ### Code Contributions 💻
 
-- New features and enhancements
-- Bug fixes
-- Performance optimizations
-- Export format support
-- Platform compatibility
+- New features and enhancements for [YOLO models](https://docs.ultralytics.com/models/)
+- Bug fixes and issue resolution
+- Performance optimizations for [training](https://docs.ultralytics.com/modes/train/) and [inference](https://docs.ultralytics.com/modes/predict/)
+- Export format support for various [deployment options](https://docs.ultralytics.com/guides/model-deployment-options/)
+- Platform compatibility improvements
 
 ### Documentation 📚
 
-- Improve existing documentation
-- Add tutorials and guides
+- Improve existing [documentation](https://docs.ultralytics.com/)
+- Add [tutorials and guides](https://docs.ultralytics.com/guides/) for specific use cases
 - Fix typos and errors
-- Translate documentation
+- Translate documentation to other languages
 
 ### Testing 🧪
 
-- Write unit tests
-- Test new features
+- Write unit tests for new functionality
+- Test new features across different [models](https://docs.ultralytics.com/models/) and [tasks](https://docs.ultralytics.com/tasks/)
 - Report test coverage gaps
-- Performance benchmarking
+- Performance [benchmarking](https://docs.ultralytics.com/modes/benchmark/) across platforms
 
 ### Community Support 💬
 
@@ -130,41 +130,6 @@ A Minimum Reproducible Example should:
 - **Format properly**: Use code blocks with triple backticks
 - **Be testable**: Others can run it without modifications
 
-### Example Bug Report
-
-````markdown
-**Bug description:**
-
-When running inference on a 0-channel image, I get a dimension error.
-
-**MRE:**
-
-```python
-import torch
-from ultralytics import YOLO
-
-# Load model
-model = YOLO("yolo11n.pt")
-
-# Load 0-channel image
-image = torch.rand(1, 0, 640, 640)
-
-# Run inference
-results = model(image)
-```
-
-**Error message:**
-
-```
-RuntimeError: Expected input[1, 0, 640, 640] to have 3 channels, but got 0 channels instead
-```
-
-**Dependencies:**
-
-- `torch==2.3.0`
-- `ultralytics==8.2.0`
-````
-
 See the complete [MRE Guide](https://docs.ultralytics.com/help/minimum-reproducible-example/) for detailed instructions.
 
 ## Reviewing Pull Requests 👀
@@ -186,7 +151,7 @@ Ultralytics uses [AGPL-3.0](https://www.ultralytics.com/legal/agpl-3-0-software-
 
 ### Using YOLO in Your Project
 
-If you use Ultralytics YOLO models or code in your project, AGPL-3.0 requires your entire derivative work also be open-sourced under AGPL-3.0.
+If you use [Ultralytics YOLO](https://www.ultralytics.com/yolo) models or code in your project, AGPL-3.0 requires your entire derivative work also be open-sourced under AGPL-3.0.
 
 **Why compliance matters:**
 
@@ -211,9 +176,9 @@ Make complete source code publicly available under AGPL-3.0:
 3. **Publish source code** including:
     - Complete application/system
     - Modifications to Ultralytics code
-    - Training/validation/inference scripts
+    - [Training](https://docs.ultralytics.com/modes/train/)/[validation](https://docs.ultralytics.com/modes/val/)/[inference](https://docs.ultralytics.com/modes/predict/) scripts
     - Model weights if modified
-    - Configuration files
+    - Configuration files and [datasets](https://docs.ultralytics.com/datasets/) used
     - Backend/frontend code
     - Third-party libraries modified
     - Training data if redistributable
@@ -281,6 +246,8 @@ Questions or need help?
 - Connect on [Discord](https://discord.com/invite/ultralytics)
 - Check [documentation](https://docs.ultralytics.com/)
 - Visit [Help Center](https://docs.ultralytics.com/help/)
+- Browse [Ultralytics Blog](https://www.ultralytics.com/blog) for tutorials and guides
+- Explore [Solutions](https://www.ultralytics.com/solutions) for industry-specific applications
 
 ## Thank You! 🎉
 
@@ -297,3 +264,6 @@ We're excited to see your ideas come to life and appreciate your commitment to a
 - [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/) - Community standards
 - [CLA Document](https://docs.ultralytics.com/help/CLA/) - Contributor License Agreement
 - [MRE Guide](https://docs.ultralytics.com/help/minimum-reproducible-example/) - Bug reporting best practices
+- [Ultralytics Blog](https://www.ultralytics.com/blog) - Tutorials and case studies
+- [Community Events](https://www.ultralytics.com/events) - Webinars and conferences
+- [Customer Stories](https://www.ultralytics.com/customers) - Real-world applications
