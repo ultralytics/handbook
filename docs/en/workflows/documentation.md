@@ -131,7 +131,7 @@ plugins:
 
 ## API Documentation 📖
 
-API reference is auto-generated from docstrings. See the [complete API reference](https://docs.ultralytics.com/reference/) for all modules:
+API reference is auto-generated from docstrings. See the [complete API reference](https://docs.ultralytics.com/reference/__init__/) for all modules:
 
 ````python
 def train(self, data, epochs=100, batch=16):
