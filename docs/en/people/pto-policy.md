@@ -92,7 +92,9 @@ Mid-year hires receive prorated PTO for the 24 flexible days based on start date
 | Sick leave       | ASAP            |
 | Birthday leave   | 1 week          |
 
-> **Longer trips**: Provide 1 month notice for vacations exceeding 2 weeks.
+!!! warning "Longer Trips"
+
+    Provide 1 month notice for vacations exceeding 2 weeks.
 
 ## Coordination and Coverage 🤝
 

@@ -9,7 +9,9 @@ keywords: Ultralytics, Employee Relocation, Relocation Policy, office locations,
 
 This policy applies to full-time employees approved for relocation to our London, Madrid, or Shenzhen offices. All relocations require pre-approval from management and HR.
 
-> **Note**: Existing remote team members are not required to relocate. This policy is for voluntary relocations or strategic moves initiated by management.
+!!! note "Remote Team Members"
+
+    Existing remote team members are not required to relocate. This policy is for voluntary relocations or strategic moves initiated by management.
 
 ## 2. Eligibility Requirements ✅
 

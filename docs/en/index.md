@@ -9,7 +9,9 @@ keywords: Ultralytics handbook, employee handbook, company guide, AI handbook, Y
 
 Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your comprehensive guide to our company's mission, vision, values, and operational practices. This handbook provides essential insights and resources for team members, collaborators, and our global community.
 
-This is a **living document** that evolves with our company, serving as both a practical resource and a philosophical guide to our culture and operations.
+!!! info "Living Document"
+
+    This handbook evolves with our company, serving as both a practical resource and a philosophical guide to our culture and operations.
 
 ## New to Ultralytics? Start Here ✨
 

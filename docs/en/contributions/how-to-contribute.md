@@ -7,7 +7,9 @@ keywords: Ultralytics, contributing, open source, pull requests, code of conduct
 
 Welcome! We're thrilled you're considering contributing to [Ultralytics](https://www.ultralytics.com/) open-source projects. Your involvement helps enhance the quality of our repositories and benefits the entire computer vision community.
 
-> **📚 For comprehensive contribution guidelines, also see the [Official Ultralytics Contributing Guide](https://docs.ultralytics.com/help/contributing/) in our main documentation.**
+!!! tip "Complete Guidelines"
+
+    For comprehensive contribution guidelines, also see the [Official Ultralytics Contributing Guide](https://docs.ultralytics.com/help/contributing/) in our main documentation.
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
 
