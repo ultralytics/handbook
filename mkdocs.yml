@@ -172,6 +172,7 @@ nav:
           - Software: tools/software.md
           - Email Signatures: tools/email-signatures.md
       - People & Benefits:
+          - Onboarding: people/onboarding.md
           - PTO Policy: people/pto-policy.md
       - Workflows:
           - Development: workflows/development.md
@@ -206,6 +207,7 @@ nav:
       - Software: tools/software.md
       - Email Signatures: tools/email-signatures.md
   - People & Benefits:
+      - Onboarding: people/onboarding.md
       - PTO Policy: people/pto-policy.md
   - Workflows:
       - Development: workflows/development.md
