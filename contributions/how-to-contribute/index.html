@@ -6,7 +6,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Learn how to contribute to Ultralytics open-source projects, sign the CLA, follow coding standards, and connect with our development team." name="description"/>
+<meta content="Ultralytics open-source contribution guidelines covering pull requests, code standards, CLA signing, bug reporting, and community engagement." name="description"/>
 <meta content="Ultralytics" name="author"/>
 <link href="https://handbook.ultralytics.com/contributions/how-to-contribute/" rel="canonical"/>
 <link href="../../workflows/documentation/" rel="prev"/>
@@ -21,7 +21,7 @@
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="../../stylesheets/style.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<meta content="How to Contribute" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics, open source, contribution guidelines, GitHub, development team, AI, machine learning, collaboration, CLA, AGPL-3.0" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/contributions/how-to-contribute" property="og:url"/><meta content="How to Contribute" property="og:title"/><meta content="Learn how to contribute to Ultralytics open-source projects, sign the CLA, follow coding standards, and connect with our development team." property="og:description"/><meta content="https://img.youtube.com/vi/yMR7BgwHQ3g/maxresdefault.jpg" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/contributions/how-to-contribute" property="twitter:url"/><meta content="How to Contribute" property="twitter:title"/><meta content="Learn how to contribute to Ultralytics open-source projects, sign the CLA, follow coding standards, and connect with our development team." property="twitter:description"/><meta content="https://img.youtube.com/vi/yMR7BgwHQ3g/maxresdefault.jpg" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "How to Contribute", "image": ["https://img.youtube.com/vi/yMR7BgwHQ3g/maxresdefault.jpg"], "datePublished": "2025-08-27 20:38:20 +0200", "dateModified": "2025-10-02 15:11:10 +0100", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Learn how to contribute to Ultralytics open-source projects, sign the CLA, follow coding standards, and connect with our development team."}</script></head>
+<meta content="How to Contribute" name="title"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/><meta content="Ultralytics, contributing, open source, pull requests, code of conduct, CLA, bug reporting, YOLO development, GitHub" name="keywords"/><meta content="website" property="og:type"/><meta content="https://handbook.ultralytics.com/contributions/how-to-contribute" property="og:url"/><meta content="How to Contribute" property="og:title"/><meta content="Ultralytics open-source contribution guidelines covering pull requests, code standards, CLA signing, bug reporting, and community engagement." property="og:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png" property="og:image"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://handbook.ultralytics.com/contributions/how-to-contribute" property="twitter:url"/><meta content="How to Contribute" property="twitter:title"/><meta content="Ultralytics open-source contribution guidelines covering pull requests, code standards, CLA signing, bug reporting, and community engagement." property="twitter:description"/><meta content="https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png" property="twitter:image"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "How to Contribute", "image": ["https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png"], "datePublished": "2025-08-27 20:38:20 +0200", "dateModified": "2025-10-04 18:36:26 +0200", "author": [{"@type": "Organization", "name": "Ultralytics", "url": "https://ultralytics.com/"}], "abstract": "Ultralytics open-source contribution guidelines covering pull requests, code standards, CLA signing, bug reporting, and community engagement."}</script></head>
 <body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -173,7 +173,7 @@
   
     
   
-  People
+  People &amp; Benefits
 
         </a>
 </li>
@@ -310,7 +310,7 @@
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
 <a class="md-nav__link" href="../../people/pto-policy/">
 <span class="md-ellipsis">
-    People
+    People &amp; Benefits
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -459,6 +459,31 @@
       Reporting Bugs 🐞
     </span>
 </a>
+<nav aria-label="Reporting Bugs 🐞" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bug-report-requirements">
+<span class="md-ellipsis">
+      Bug Report Requirements
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-makes-a-good-mre">
+<span class="md-ellipsis">
+      What Makes a Good MRE
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#example-bug-report">
+<span class="md-ellipsis">
+      Example Bug Report
+    </span>
+</a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#reviewing-pull-requests">
@@ -533,7 +558,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../community-engagement/">
 <span class="md-ellipsis">
-    Engagement
+    Community Engagement
     
   </span>
 </a>
@@ -689,6 +714,31 @@
       Reporting Bugs 🐞
     </span>
 </a>
+<nav aria-label="Reporting Bugs 🐞" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bug-report-requirements">
+<span class="md-ellipsis">
+      Bug Report Requirements
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-makes-a-good-mre">
+<span class="md-ellipsis">
+      What Makes a Good MRE
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#example-bug-report">
+<span class="md-ellipsis">
+      Example Bug Report
+    </span>
+</a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#reviewing-pull-requests">
@@ -769,15 +819,16 @@
 </a><a class="md-content__button md-icon" href="javascript:void(0)" onclick="copyMarkdownForLLM(this); return false;" title="Copy page in Markdown format"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg></a>
 <h1 id="how-to-contribute">How to Contribute 🚀</h1>
 <p>Welcome! We're thrilled you're considering contributing to <a href="https://www.ultralytics.com/">Ultralytics</a> open-source projects. Your involvement helps enhance the quality of our repositories and benefits the entire computer vision community.</p>
+<p><a href="https://github.com/ultralytics/ultralytics/graphs/contributors"><img alt="Ultralytics open-source contributors" src="https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png"/></a></p>
 <h2 id="watch-contributing-to-ultralytics">Watch: Contributing to Ultralytics</h2>
 <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="469" src="https://www.youtube.com/embed/yMR7BgwHQ3g" title="YouTube video player" width="100%"></iframe>
 <h2 id="quick-start-guide">Quick Start Guide 🎯</h2>
 <p>Ready to contribute? Follow these steps:</p>
 <ol>
-<li><strong>Read our <a href="https://docs.ultralytics.com/help/code-of-conduct/">Code of Conduct</a></strong></li>
+<li><strong>Read our <a href="https://docs.ultralytics.com/help/code-of-conduct/">Code of Conduct</a></strong> - Respect, kindness, and professionalism</li>
 <li><strong>Fork the repository</strong> you want to contribute to</li>
 <li><strong>Create a feature branch</strong> with descriptive name</li>
-<li><strong>Make your changes</strong> following our coding standards</li>
+<li><strong>Make your changes</strong> following coding standards</li>
 <li><strong>Write tests</strong> for new functionality</li>
 <li><strong>Submit a pull request</strong> with clear description</li>
 <li><strong>Sign the CLA</strong> by commenting in your PR</li>
@@ -786,12 +837,20 @@
 <p>See <a href="../../workflows/development/">Development Workflow</a> for detailed PR process.</p>
 <h2 id="contributing-guidelines">Contributing Guidelines 📋</h2>
 <h3 id="code-of-conduct">Code of Conduct 🤝</h3>
-<p>All contributors must adhere to our <a href="https://docs.ultralytics.com/help/code-of-conduct/">Code of Conduct</a>. Respect, kindness, and professionalism are at the heart of our community.</p>
+<p>All contributors must adhere to our <a href="https://docs.ultralytics.com/help/code-of-conduct/">Code of Conduct</a>, which is based on the <a href="https://www.contributor-covenant.org/">Contributor Covenant</a>. This ensures a welcoming and inclusive environment for everyone. <strong>Respect</strong>, <strong>kindness</strong>, and <strong>professionalism</strong> are at the heart of our community.</p>
 <h3 id="contributor-license-agreement-cla">Contributor License Agreement (CLA) 📝</h3>
-<p>Before we can merge your PR, you must sign our <a href="https://docs.ultralytics.com/help/CLA/">CLA</a>. This ensures contributions are properly licensed under <a href="https://www.ultralytics.com/legal/agpl-3-0-software-license">AGPL-3.0</a>.</p>
-<p>After submitting your PR, comment:</p>
+<p>Before we can merge your PR, you must sign our <a href="https://docs.ultralytics.com/help/CLA/">CLA</a>. This legal agreement ensures contributions are properly licensed under <a href="https://www.ultralytics.com/legal/agpl-3-0-software-license">AGPL-3.0</a>, protecting both you and the project.</p>
+<p>After submitting your PR, the CLA bot will guide you. To sign, comment:</p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>I have read the CLA Document and I sign the CLA
 </code></pre></div>
+<p>The CLA covers:</p>
+<ul>
+<li>Copyright and patent licenses for your contributions</li>
+<li>Rights for Ultralytics to use and distribute your work</li>
+<li>Representations that you own the rights to your contributions</li>
+<li>Disclaimer of warranties</li>
+</ul>
+<p>Review the full <a href="https://docs.ultralytics.com/help/CLA/">CLA document</a> for complete terms.</p>
 <h3 id="best-practices">Best Practices ✨</h3>
 <p>When contributing code:</p>
 <ul>
@@ -844,12 +903,56 @@
 </ul>
 <h2 id="reporting-bugs">Reporting Bugs 🐞</h2>
 <p>Help us improve by reporting bugs via <a href="https://github.com/ultralytics/ultralytics/issues">GitHub Issues</a>:</p>
+<h3 id="bug-report-requirements">Bug Report Requirements</h3>
 <ol>
 <li><strong>Check existing issues</strong> to avoid duplicates</li>
-<li><strong>Create <a href="https://docs.ultralytics.com/help/minimum-reproducible-example/">Minimum Reproducible Example</a></strong> - small, self-contained code snippet</li>
+<li><strong>Create <a href="https://docs.ultralytics.com/help/minimum-reproducible-example/">Minimum Reproducible Example (MRE)</a></strong> - Small, self-contained code that reproduces the issue</li>
 <li><strong>Describe environment</strong>: OS, Python version, library versions, hardware (CPU/GPU)</li>
 <li><strong>Explain expected vs actual behavior</strong> with error messages and tracebacks</li>
 </ol>
+<h3 id="what-makes-a-good-mre">What Makes a Good MRE</h3>
+<p>A Minimum Reproducible Example should:</p>
+<ul>
+<li><strong>Isolate the problem</strong>: Remove unnecessary code</li>
+<li><strong>Use public models and datasets</strong>: e.g., <code>yolov8n.pt</code> and <code>coco8.yaml</code></li>
+<li><strong>Include dependencies</strong>: List with <code>yolo checks</code> or <code>pip list</code></li>
+<li><strong>Provide clear description</strong>: Expected vs actual behavior</li>
+<li><strong>Format properly</strong>: Use code blocks with triple backticks</li>
+<li><strong>Be testable</strong>: Others can run it without modifications</li>
+</ul>
+<h3 id="example-bug-report">Example Bug Report</h3>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="gs">**Bug description:**</span>
+<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a>
+<a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a>When running inference on a 0-channel image, I get a dimension error.
+<a href="#__codelineno-1-4" id="__codelineno-1-4" name="__codelineno-1-4"></a>
+<a href="#__codelineno-1-5" id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="gs">**MRE:**</span>
+<a href="#__codelineno-1-6" id="__codelineno-1-6" name="__codelineno-1-6"></a>
+<a href="#__codelineno-1-7" id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="sb">```python</span>
+<a href="#__codelineno-1-8" id="__codelineno-1-8" name="__codelineno-1-8"></a><span class="kn">import</span><span class="w"> </span><span class="nn">torch</span>
+<a href="#__codelineno-1-9" id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="kn">from</span><span class="w"> </span><span class="nn">ultralytics</span><span class="w"> </span><span class="kn">import</span> <span class="n">YOLO</span>
+<a href="#__codelineno-1-10" id="__codelineno-1-10" name="__codelineno-1-10"></a>
+<a href="#__codelineno-1-11" id="__codelineno-1-11" name="__codelineno-1-11"></a><span class="c1"># Load model</span>
+<a href="#__codelineno-1-12" id="__codelineno-1-12" name="__codelineno-1-12"></a><span class="n">model</span> <span class="o">=</span> <span class="n">YOLO</span><span class="p">(</span><span class="s2">"yolo11n.pt"</span><span class="p">)</span>
+<a href="#__codelineno-1-13" id="__codelineno-1-13" name="__codelineno-1-13"></a>
+<a href="#__codelineno-1-14" id="__codelineno-1-14" name="__codelineno-1-14"></a><span class="c1"># Load 0-channel image</span>
+<a href="#__codelineno-1-15" id="__codelineno-1-15" name="__codelineno-1-15"></a><span class="n">image</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">640</span><span class="p">,</span> <span class="mi">640</span><span class="p">)</span>
+<a href="#__codelineno-1-16" id="__codelineno-1-16" name="__codelineno-1-16"></a>
+<a href="#__codelineno-1-17" id="__codelineno-1-17" name="__codelineno-1-17"></a><span class="c1"># Run inference</span>
+<a href="#__codelineno-1-18" id="__codelineno-1-18" name="__codelineno-1-18"></a><span class="n">results</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
+<a href="#__codelineno-1-19" id="__codelineno-1-19" name="__codelineno-1-19"></a><span class="sb">```</span>
+<a href="#__codelineno-1-20" id="__codelineno-1-20" name="__codelineno-1-20"></a>
+<a href="#__codelineno-1-21" id="__codelineno-1-21" name="__codelineno-1-21"></a><span class="gs">**Error message:**</span>
+<a href="#__codelineno-1-22" id="__codelineno-1-22" name="__codelineno-1-22"></a>
+<a href="#__codelineno-1-23" id="__codelineno-1-23" name="__codelineno-1-23"></a><span class="sb">```</span>
+<a href="#__codelineno-1-24" id="__codelineno-1-24" name="__codelineno-1-24"></a><span class="sb">RuntimeError: Expected input[1, 0, 640, 640] to have 3 channels, but got 0 channels instead</span>
+<a href="#__codelineno-1-25" id="__codelineno-1-25" name="__codelineno-1-25"></a><span class="sb">```</span>
+<a href="#__codelineno-1-26" id="__codelineno-1-26" name="__codelineno-1-26"></a>
+<a href="#__codelineno-1-27" id="__codelineno-1-27" name="__codelineno-1-27"></a><span class="gs">**Dependencies:**</span>
+<a href="#__codelineno-1-28" id="__codelineno-1-28" name="__codelineno-1-28"></a>
+<a href="#__codelineno-1-29" id="__codelineno-1-29" name="__codelineno-1-29"></a><span class="k">-</span><span class="w"> </span><span class="sb">`torch==2.3.0`</span>
+<a href="#__codelineno-1-30" id="__codelineno-1-30" name="__codelineno-1-30"></a><span class="k">-</span><span class="w"> </span><span class="sb">`ultralytics==8.2.0`</span>
+</code></pre></div>
+<p>See the complete <a href="https://docs.ultralytics.com/help/minimum-reproducible-example/">MRE Guide</a> for detailed instructions.</p>
 <h2 id="reviewing-pull-requests">Reviewing Pull Requests 👀</h2>
 <p>Reviewing PRs is valuable contribution:</p>
 <ul>
@@ -1091,7 +1194,7 @@
 <li>Join <a href="https://github.com/ultralytics/ultralytics/discussions">GitHub Discussions</a></li>
 <li>Connect on <a href="https://discord.com/invite/ultralytics">Discord</a></li>
 <li>Check <a href="https://docs.ultralytics.com/">documentation</a></li>
-<li>Reach out to team members above</li>
+<li>Visit <a href="https://docs.ultralytics.com/help/">Help Center</a></li>
 </ul>
 <h2 id="thank-you">Thank You! 🎉</h2>
 <p>Thank you for your interest in contributing to Ultralytics open-source projects. Your participation is essential in shaping the future of our software and building a vibrant community of innovation and collaboration.</p>
@@ -1103,6 +1206,8 @@
 <li><a href="../../workflows/ci-testing/">CI/Testing</a> - Testing and quality checks</li>
 <li><a href="../../workflows/documentation/">Documentation Workflow</a> - Writing docs</li>
 <li><a href="https://docs.ultralytics.com/help/code-of-conduct/">Code of Conduct</a> - Community standards</li>
+<li><a href="https://docs.ultralytics.com/help/CLA/">CLA Document</a> - Contributor License Agreement</li>
+<li><a href="https://docs.ultralytics.com/help/minimum-reproducible-example/">MRE Guide</a> - Bug reporting best practices</li>
 </ul>
 <!-- Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license -->
 <br/><br/>
@@ -1111,12 +1216,12 @@
 <span class="date-item" title="This page was first created on August 27, 2025">
 <span class="hover-item">📅</span> Created 1 month ago
     </span>
-<span class="date-item" title="This page was last updated on October 02, 2025">
-<span class="hover-item">✏️</span> Updated 1 day ago
+<span class="date-item" title="This page was last updated on October 04, 2025">
+<span class="hover-item">✏️</span> Updated 0 days ago
     </span>
 </div>
 <div class="authors-container">
-<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (2 changes)">
+<a class="author-link" href="https://github.com/glenn-jocher" title="glenn-jocher (3 changes)">
 <img alt="glenn-jocher" class="hover-item" loading="lazy" src="https://avatars.githubusercontent.com/u/26833433?v=4&amp;s=96"/>
 </a>
 <a class="author-link" href="https://github.com/ryanleonels" title="ryanleonels (1 change)">
@@ -1180,13 +1285,13 @@
               </div>
 </div>
 </a>
-<a aria-label="Next: Engagement" class="md-footer__link md-footer__link--next" href="../community-engagement/">
+<a aria-label="Next: Community Engagement" class="md-footer__link md-footer__link--next" href="../community-engagement/">
 <div class="md-footer__title">
 <span class="md-footer__direction">
                 Next
               </span>
 <div class="md-ellipsis">
-                Engagement
+                Community Engagement
               </div>
 </div>
 <div class="md-footer__button md-icon">
