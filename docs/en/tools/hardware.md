@@ -1,6 +1,6 @@
 ---
-description: Ultralytics Hardware Policy covering computer equipment, mobile devices, security, refresh cycles, and approval processes for all employees.
-keywords: Ultralytics hardware policy, computer equipment, MacBook Air, MacBook Pro, hardware refresh, mobile devices, employee equipment, BYOD, Rippling MDM
+description: Ultralytics Hardware Policy covering computer equipment, Apple Studio Display, mobile devices, security, refresh cycles, and approval processes for all employees.
+keywords: Ultralytics hardware policy, computer equipment, MacBook Air, MacBook Pro, Apple Studio Display, hardware refresh, mobile devices, employee equipment, BYOD, Rippling MDM
 ---
 
 # Hardware Policy 💻
@@ -52,7 +52,8 @@ Any hardware configuration other than the two standards listed above is consider
 
 ### Standard Accessories
 
-All new hires receive a pair of **[Apple AirPods Pro](https://www.apple.com/airpods-pro/)** to facilitate clear communication in video conferences and calls.
+- **[Apple AirPods Pro](https://www.apple.com/airpods-pro/)**
+- **[Apple Studio Display](https://www.apple.com/studio-display/)** for all onsite employees
 
 ## 5. Hardware Replacements & Upgrades 🔧
 
