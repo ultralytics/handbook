@@ -42,7 +42,7 @@ This is a **living document** that evolves with our company, serving as both a p
 - **[Travel Policy](finance/travel.md)** - Per diem rates and booking procedures
 - **[Relocation Policy](finance/relocation.md)** - Office relocations ($6K compensation)
 - **[Referral Bonus](finance/referral-bonus.md)** - $5K for successful referrals
-- **[PTO Policy](people/pto-policy.md)** - 24 days annual leave plus holidays
+- **[PTO Policy](people/pto-policy.md)** - 25 days annual leave plus holidays
 
 ### Development & Workflows ⚙️
 
