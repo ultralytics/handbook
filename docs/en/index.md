@@ -18,6 +18,7 @@ This is a **living document** that evolves with our company, serving as both a p
 <div class="grid cards" markdown>
 
 - **[Introduction](introduction.md)** - Overview of this handbook and how to use it
+- **[New Team Member Onboarding](people/onboarding.md)** - Your first 90 days at Ultralytics
 - **[Mission & Values](mission-vision-values/index.md)** - What drives us forward
 - **[Hardware Policy](tools/hardware.md)** - Equipment setup and refresh cycles
 - **[Software Policy](tools/software.md)** - Approved tools and request process
@@ -38,6 +39,7 @@ This is a **living document** that evolves with our company, serving as both a p
 
 ### People & Benefits 💰
 
+- **[Onboarding Guide](people/onboarding.md)** - First 90 days roadmap for new team members
 - **[PTO Policy](people/pto-policy.md)** - 25 days annual leave plus unlimited sick leave
 - **[Finance Overview](finance/index.md)** - Reimbursements and expense guidelines
 - **[Travel Policy](finance/travel.md)** - Per diem rates and booking procedures
