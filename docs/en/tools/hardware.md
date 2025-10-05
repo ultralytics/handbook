@@ -5,7 +5,7 @@ keywords: Ultralytics hardware policy, computer equipment, MacBook Air, MacBook 
 
 # Hardware Policy 💻
 
-![Ultralytics Hardware Policy](https://github.com/user-attachments/assets/d854e5c9-bf3a-45e5-979d-68d898d83f71)
+![Ultralytics Hardware Policy](https://github.com/user-attachments/assets/6a1566ab-7984-46a0-96b2-0f9dc944bfde)
 
 ## 1. Purpose and Scope
 
