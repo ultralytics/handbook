@@ -58,6 +58,10 @@ Follow and engage with us on:
 - **Discord**: [Join Server](https://discord.com/invite/ultralytics)
 - **Reddit**: [r/ultralytics](https://reddit.com/r/ultralytics)
 
+!!! note
+
+    Team members representing Ultralytics should follow our [Social Media Policy](social-media-policy.md) for professional conduct and brand guidelines.
+
 ## Contributing to the Community 🤝
 
 ### Answer Questions
