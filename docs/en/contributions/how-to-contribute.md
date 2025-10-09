@@ -239,6 +239,7 @@ Feel free to reach out to team members for guidance:
 | Jin Xu                  | [laodouya](https://github.com/laodouya)                               |
 | Zuzana Kontrikova       | [zkontri](https://github.com/zkontri)                                 |
 | Miles Deans             | [miles-deans-ultralytics](https://github.com/miles-deans-ultralytics) |
+| Mengyu (Mason) Liu      | [lmycross](https://github.com/lmycross)                               |
 
 ## Get Support 💬
 
