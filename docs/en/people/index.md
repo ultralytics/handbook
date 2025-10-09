@@ -153,6 +153,8 @@ Review our [Code of Business Conduct and Ethics](../legal/code-of-business-condu
 - Conflicts of interest guidelines
 - Data protection responsibilities
 
+Also review our [Social Media Policy](../contributions/social-media-policy.md) for professional conduct and brand representation guidelines.
+
 ## Support & Resources 💬
 
 ### Who to Contact

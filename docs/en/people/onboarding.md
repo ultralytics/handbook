@@ -52,6 +52,7 @@ You'll receive these before your start date:
     - Complete GDPR, CCPA, and security awareness training via Vanta
     - Review [Security Requirements](../security/employee-security-compliance-requirements.md)
     - Understand [Code of Conduct](../legal/code-of-business-conduct-and-ethics.md)
+    - Review [Social Media Policy](../contributions/social-media-policy.md)
 - **Development environment setup** (engineering roles)
     - Clone repositories
     - Install dependencies
