@@ -100,7 +100,7 @@ If journalists, influencers, or media outlets contact you about Ultralytics, do 
 
 ## Our Shared Responsibility
 
-Every team member shapes how Ultralytics is perceived worldwide. Acting with integrity, professionalism, and respect ensures we continue to earn the trust of our [community](https://www.ultralytics.com/community), partners, and contributors.
+Every [team member](https://www.ultralytics.com/about) shapes how Ultralytics is perceived worldwide. Acting with integrity, professionalism, and respect ensures we continue to earn the trust of our [community](https://handbook.ultralytics.com/contributions/community-engagement/), partners, and contributors.
 
 ## Quick-Reference Table
 
