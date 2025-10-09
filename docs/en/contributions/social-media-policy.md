@@ -115,12 +115,12 @@ Every [team member](https://www.ultralytics.com/about) shapes how Ultralytics is
 
 ## Quick-Reference Table
 
-| ✅ **Do**                                                           | 🚫 **Don't**                                                                    |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| ✅ **Do**                                                          | 🚫 **Don't**                                                                   |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
 | Use the official Ultralytics profile photo or banner on LinkedIn   | Use the Ultralytics logo in personal profile handles or create new brand pages |
-| Share official posts _after_ they're live, adding your perspective | Announce new products or partnerships before the company does                   |
-| Clarify that opinions are your own                                  | Present yourself as an Ultralytics spokesperson without approval                |
-| Protect confidential and partner information                        | Share screenshots, pricing, or private Slack discussions                        |
-| Be polite, transparent, and inclusive                               | Engage negatively or debate competitors online                                  |
-| Report press or influencer inquiries to Marketing                   | Respond directly to journalists or public criticism                             |
-| Publish non-commercial tutorials using Ultralytics tools            | Create or sell paid courses or content using the Ultralytics name               |
+| Share official posts _after_ they're live, adding your perspective | Announce new products or partnerships before the company does                  |
+| Clarify that opinions are your own                                 | Present yourself as an Ultralytics spokesperson without approval               |
+| Protect confidential and partner information                       | Share screenshots, pricing, or private Slack discussions                       |
+| Be polite, transparent, and inclusive                              | Engage negatively or debate competitors online                                 |
+| Report press or influencer inquiries to Marketing                  | Respond directly to journalists or public criticism                            |
+| Publish non-commercial tutorials using Ultralytics tools           | Create or sell paid courses or content using the Ultralytics name              |
