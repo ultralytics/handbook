@@ -113,4 +113,3 @@ Every team member shapes how Ultralytics is perceived worldwide. Acting with int
 | Be polite, transparent, and inclusive.                              | Engage negatively or debate competitors online.                                 |
 | Report press or influencer inquiries to Marketing.                  | Respond directly to journalists or public criticism.                            |
 | Publish non-commercial tutorials using Ultralytics tools.           | Create or sell paid courses or content using the Ultralytics name.              |
-
