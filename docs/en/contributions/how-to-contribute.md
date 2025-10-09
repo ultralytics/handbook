@@ -234,7 +234,7 @@ Feel free to reach out to team members for guidance:
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)                   |
 | Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                                   |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                               |
-| Shuai (Louis) LYU       | [ShuaiLYU](https://github.com/ShuaiLYU)                               |
+| Shuai (Louis) Lyu       | [ShuaiLYU](https://github.com/ShuaiLYU)                               |
 | Abi Anderson            | [UltralyticsAbi](https://github.com/UltralyticsAbi)                   |
 | Jin Xu                  | [laodouya](https://github.com/laodouya)                               |
 | Zuzana Kontrikova       | [zkontri](https://github.com/zkontri)                                 |
