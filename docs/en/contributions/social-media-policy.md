@@ -1,7 +1,7 @@
 # Ultralytics Employee Social Media Policy
 
 At [Ultralytics](https://www.ultralytics.com/), we believe social media is a powerful way to share our mission, connect with our community, and celebrate our progress in AI and open source.  
-This policy ensures that all team members represent Ultralytics responsibly, professionally, and in alignment with our [Mission & Values](https://handbook.ultralytics.com/mission-and-values).
+This policy ensures that all team members represent Ultralytics responsibly, professionally, and in alignment with our [Mission & Values](https://handbook.ultralytics.com/mission-vision-values/).
 
 This policy applies to all employees, contractors, interns, and partners representing Ultralytics — whether on or off duty, and whether using company or personal accounts.
 
@@ -26,7 +26,7 @@ This policy applies to any platform where you can share or comment publicly, inc
 - ✅ **Keep your professional profiles up to date.**
     - We **encourage** everyone to use the official **Ultralytics profile picture and LinkedIn banner** provided by the Marketing team.
     - While not mandatory, it helps maintain a unified and credible professional image.
-- ✅ **Act in line with Ultralytics’ values:** [Relentless Progress](https://handbook.ultralytics.com/mission-and-values), Strive for Excellence, Actions Not Words, Act with Urgency, and Open Access to All.
+- ✅ **Act in line with Ultralytics’ values:** [Relentless Progress](https://handbook.ultralytics.com/mission-vision-values/), Strive for Excellence, Actions Not Words, Act with Urgency, and Open Access to All.
 - ✅ **Be factual, clear, and positive** in all interactions.
 
 ## What You Can Share
@@ -114,5 +114,3 @@ Every team member shapes how Ultralytics is perceived worldwide. Acting with int
 | Report press or influencer inquiries to Marketing.                  | Respond directly to journalists or public criticism.                            |
 | Publish non-commercial tutorials using Ultralytics tools.           | Create or sell paid courses or content using the Ultralytics name.              |
 
-**Last updated:** October 2025  
-© [Ultralytics](https://www.ultralytics.com/) — All Rights Reserved
