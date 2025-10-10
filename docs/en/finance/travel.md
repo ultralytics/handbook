@@ -33,7 +33,7 @@ This policy applies to all employees of [Ultralytics](https://www.ultralytics.co
 Employees traveling for business will receive a daily per diem allowance based on their destination to cover meals, incidental expenses, and all ground transportation costs. Only airfare is reimbursable separately. The following rates apply for the full year of 2025 and will be updated on January 1st, 2026:
 
 | Country               | City          | Per-Diem Rate |
-| --------------------- | ------------- |---------------|
+| --------------------- | ------------- | ------------- |
 | **China 🇨🇳**          | Beijing       | $187.50       |
 |                       | Shanghai      | $267.50       |
 |                       | Shenzhen      | $186.00       |
@@ -59,10 +59,10 @@ Employees traveling for business will receive a daily per diem allowance based o
 
 Ultralytics bases daily per diem rates on official U.S. government sources, adjusted to reflect our company’s size and budget considerations. Rates are derived from the U.S. [General Services Administration (GSA)](https://www.gsa.gov/) for travel within the Continental United States (CONUS) and the U.S. [Department of State](https://www.state.gov/) for travel outside the continental U.S. (OCONUS).
 
-| Region     | Source                                                                                      | Ultralytics Rate (of Official) |
-| ---------- | ------------------------------------------------------------------------------------------- |--------------------------------|
-| 🇺🇸 CONUS | [GSA Per Diem Rates](https://www.gsa.gov/travel/plan-book/per-diem-rates) — Lodging & M&IE  | 75%                            |
-| 🌍 OCONUS  | [U.S. Department of State Per Diem Rates](https://allowances.state.gov/web920/per_diem.asp) | 50%                            |
+| Region    | Source                                                                                      | Ultralytics Rate (of Official) |
+| --------- | ------------------------------------------------------------------------------------------- | ------------------------------ |
+| 🇺🇸 CONUS  | [GSA Per Diem Rates](https://www.gsa.gov/travel/plan-book/per-diem-rates) — Lodging & M&IE  | 75%                            |
+| 🌍 OCONUS | [U.S. Department of State Per Diem Rates](https://allowances.state.gov/web920/per_diem.asp) | 50%                            |
 
 Rates are reviewed annually and adjusted each January 1st based on updates published by these sources.
 
