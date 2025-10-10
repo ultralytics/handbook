@@ -50,17 +50,19 @@ Employees traveling for business will receive a daily per diem allowance based o
 |                       | Madrid        | $256.00       |
 |                       | Malaga        | $212.50       |
 | **United Kingdom 🇬🇧** | London        | $299.00       |
-| **United States 🇺🇸**  | Denver        | $153.50       |
-|                       | New York      | $164.50       |
-|                       | San Francisco | $175.50       |
-|                       | San Jose      | $142.00       |
+| **United States 🇺🇸**  | Denver        | $230.25       |
+|                       | New York      | $325.50       |
+|                       | San Francisco | $273.00       |
+|                       | San Jose      | $213.00       |
 
 ### Methodology 📚
 
-The daily per diem rates are derived from the U.S. [General Services Administration (GSA)](https://www.gsa.gov/) and the U.S. [Department of State](https://www.state.gov/) published per diem rates, adjusted by a 50% reduction for OCONUS locations to reflect Ultralytics' size and budget considerations.
+Ultralytics bases daily per diem rates on official U.S. government sources, adjusted to reflect our company’s size and budget considerations. Rates are derived from the U.S. [General Services Administration (GSA)](https://www.gsa.gov/) for travel within the Continental United States (CONUS) and the U.S. [Department of State](https://www.state.gov/) for travel outside the continental U.S. (OCONUS).
 
-- [GSA Per Diem Rates (CONUS)](https://www.gsa.gov/travel/plan-book/per-diem-rates)
-- [U.S. Department of State Per Diem Rates (OCONUS)](https://allowances.state.gov/web920/per_diem.asp)
+| Region    | Source                                                                                      | Ultralytics Rate (of Official) |
+| --------- | ------------------------------------------------------------------------------------------- | ------------------------------ |
+| 🇺🇸 CONUS  | [GSA Per Diem Rates](https://www.gsa.gov/travel/plan-book/per-diem-rates) — Lodging & M&IE  | 75%                            |
+| 🌍 OCONUS | [U.S. Department of State Per Diem Rates](https://allowances.state.gov/web920/per_diem.asp) | 50%                            |
 
 Rates are reviewed annually and adjusted each January 1st based on updates published by these sources.
 
