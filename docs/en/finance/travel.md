@@ -30,30 +30,30 @@ This policy applies to all employees of [Ultralytics](https://www.ultralytics.co
 
 ## Per Diem Rates 💳
 
-Employees traveling for business will receive a daily per diem allowance based on their destination to cover meals, incidental expenses, and all ground transportation costs. Only airfare is reimbursable separately. The following rates apply for the full year of 2025 and will be updated on January 1st, 2026:
+Employees traveling for business will receive a daily per diem allowance based on their destination. The total per diem is the sum of lodging and meals, incidentals & expenses (M&IE), which covers accommodation, meals, tips, ground transportation, and other incidental costs. Only airfare is reimbursable separately. The following rates apply for the full year of 2025 and will be updated on January 1st, 2026:
 
-| Country               | City          | Per-Diem Rate |
-| --------------------- | ------------- | ------------- |
-| **China 🇨🇳**          | Beijing       | $187.50       |
-|                       | Shanghai      | $267.50       |
-|                       | Shenzhen      | $186.00       |
-|                       | Hong Kong     | $267.50       |
-| **France 🇫🇷**         | Paris         | $342.00       |
-| **Germany 🇩🇪**        | Berlin        | $208.00       |
-|                       | Munich        | $233.00       |
-| **Italy 🇮🇹**          | Rome          | $334.00       |
-| **Japan 🇯🇵**          | Tokyo         | $261.50       |
-| **Netherlands 🇳🇱**    | Amsterdam     | $322.50       |
-| **Portugal 🇵🇹**       | Lisbon        | $196.00       |
-| **Singapore 🇸🇬**      | Singapore     | $227.00       |
-| **Spain 🇪🇸**          | Barcelona     | $220.50       |
-|                       | Madrid        | $256.00       |
-|                       | Malaga        | $212.50       |
-| **United Kingdom 🇬🇧** | London        | $299.00       |
-| **United States 🇺🇸**  | Denver        | $230.25       |
-|                       | New York      | $325.50       |
-|                       | San Francisco | $273.00       |
-|                       | San Jose      | $213.00       |
+| Country               | City          | Lodging | M&IE   | Total Per Diem |
+| --------------------- | ------------- | ------- | ------ | -------------- |
+| **China 🇨🇳**          | Beijing       | $123.50 | $69.00 | $192.50        |
+|                       | Shanghai      | $187.50 | $80.00 | $267.50        |
+|                       | Shenzhen      | $115.00 | $71.00 | $186.00        |
+|                       | Hong Kong     | $177.50 | $90.00 | $267.50        |
+| **France 🇫🇷**         | Paris         | $255.50 | $86.50 | $342.00        |
+| **Germany 🇩🇪**        | Berlin        | $135.50 | $72.50 | $208.00        |
+|                       | Munich        | $156.00 | $77.00 | $233.00        |
+| **Italy 🇮🇹**          | Rome          | $244.50 | $89.50 | $334.00        |
+| **Japan 🇯🇵**          | Tokyo         | $187.50 | $65.00 | $252.50        |
+| **Netherlands 🇳🇱**    | Amsterdam     | $226.50 | $96.00 | $322.50        |
+| **Portugal 🇵🇹**       | Lisbon        | $140.00 | $56.00 | $196.00        |
+| **Singapore 🇸🇬**      | Singapore     | $152.00 | $75.00 | $227.00        |
+| **Spain 🇪🇸**          | Barcelona     | $153.50 | $67.00 | $220.50        |
+|                       | Madrid        | $187.50 | $68.50 | $256.00        |
+|                       | Malaga        | $139.00 | $73.50 | $212.50        |
+| **United Kingdom 🇬🇧** | London        | $212.00 | $87.00 | $299.00        |
+| **United States 🇺🇸**  | Denver        | $161.25 | $69.00 | $230.25        |
+|                       | New York      | $256.50 | $69.00 | $325.50        |
+|                       | San Francisco | $204.00 | $69.00 | $273.00        |
+|                       | San Jose      | $144.00 | $69.00 | $213.00        |
 
 ### Methodology 📚
 
