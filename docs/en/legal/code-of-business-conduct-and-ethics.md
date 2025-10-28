@@ -209,7 +209,7 @@ Ultralytics respects intellectual property rights and software licensing serious
 
 ### Copyright and Protected Materials
 
-Photos, videos, music, articles, white papers, and websites are usually protected by copyright, even if they’re online and easy to access. If you want to include this kind of content in a presentation, event, or marketing material, make sure you have the right permissions. If you're unsure, contact the [#it-support](https://ultralytics-work.slack.com/archives/C099NHUEHD1) channel for help. Our team can guide you to approved visual asset libraries within our authorised tools.
+Photos, videos, music, articles, white papers, and websites are usually protected by copyright, even if they’re online and easy to access. If you want to include this kind of content in a presentation, event, or marketing material, make sure you have the right permissions. If you're unsure, contact the [#it-support](https://ultralytics-work.slack.com/archives/C099NHUEHD1) channel for help. Our team can guide you to approved visual asset libraries within our authorized tools.
 
 ### Privacy and Monitoring
 
