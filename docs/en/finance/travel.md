@@ -51,6 +51,7 @@ Employees traveling for business will receive a daily per diem allowance based o
 |                       | Malaga        | $139.00 | $73.50 | $212.50        |
 | **United Kingdom 🇬🇧** | London        | $212.00 | $87.00 | $299.00        |
 | **United States 🇺🇸**  | Denver        | $161.25 | $69.00 | $230.25        |
+|                       | Los Angeles   | $143.25 | $64.25 | $207.75        |
 |                       | New York      | $256.50 | $69.00 | $325.50        |
 |                       | San Francisco | $204.00 | $69.00 | $273.00        |
 |                       | San Jose      | $144.00 | $69.00 | $213.00        |
