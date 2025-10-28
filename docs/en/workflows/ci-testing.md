@@ -103,28 +103,6 @@ pip install pytest-xdist
 pytest -n auto
 ```
 
-## Pre-commit Hooks 🪝
-
-Set up pre-commit hooks to catch issues before pushing:
-
-```bash
-pip install pre-commit
-pre-commit install
-```
-
-Hooks automatically run:
-
-- [Ruff](https://github.com/astral-sh/ruff) (linting and formatting)
-- docformatter (docstring formatting)
-- Trailing whitespace removal
-- YAML validation
-
-Run manually:
-
-```bash
-pre-commit run --all-files
-```
-
 ## Writing Tests ✍️
 
 ### Test Structure
