@@ -22,9 +22,9 @@ Relocation assistance is reserved for employees who meet the following criteria:
 
 Relocation reimbursement is only available for moves to:
 
-- **Madrid** 🇪🇸: [Cra de S. Jerónimo, 15 Centro, 28014 Madrid, Spain](https://maps.google.com/?q=Cra+de+S.+Jerónimo,+15+Centro,+28014+Madrid,+Spain)
+- **Madrid** 🇪🇸: [Cra de S. Jerónimo, 15 Centro, 28014 Madrid, Spain](https://maps.app.goo.gl/nxB8YygRQeXSS9G18)
 - **Shenzhen** 🇨🇳: [5F, CR Land Tower D, 91 Kefa Road, Nanshan District, Shenzhen, China](https://maps.google.com/?q=5F,+CR+Land+Tower+D,+91+Kefa+Road,+Nanshan+District,+Shenzhen,+China)
-- **London** 🇬🇧: [50 York Way, London N1 9AB, UK](https://maps.google.com/?q=50+York+Way,+London+N1+9AB,+UK)
+- **London** 🇬🇧: [50 York Way, London N1 9AB, UK](https://maps.app.goo.gl/9sdE3KrQVwc2shb86)
 
 !!! warning "Other Locations"
 
