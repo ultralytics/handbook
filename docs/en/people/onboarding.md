@@ -213,7 +213,7 @@ Work with your manager to define specific, measurable goals in these areas:
 - **[Google Workspace](https://workspace.google.com/)**: Email, calendar, drive, docs
 - **[Slack](https://ultralytics-work.slack.com/)**: Team communication and collaboration
 - **[GitHub](https://github.com/ultralytics/)**: Code repositories and issues
-- **[Notion](https://notion.so/)** or **Linear**: Project management and documentation
+- **[Notion](https://www.notion.so)** or **Linear**: Project management and documentation
 - **[Vanta](https://app.vanta.com/)**: Security and compliance training
 
 ### Key Slack Channels

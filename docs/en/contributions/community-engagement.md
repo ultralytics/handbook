@@ -13,7 +13,7 @@ Ultralytics thrives on active community participation. Our open-source projects 
 
 ### GitHub Discussions
 
-[GitHub Discussions](https://github.com/ultralytics/ultralytics/discussions) is our primary platform for technical conversations, feature requests, and community support.
+[GitHub Discussions](https://github.com/orgs/ultralytics/discussions) is our primary platform for technical conversations, feature requests, and community support.
 
 **Use GitHub Discussions for:**
 
@@ -56,7 +56,7 @@ Follow and engage with us on:
 - **X (Twitter)**: [@ultralytics](https://x.com/ultralytics)
 - **YouTube**: [@ultralytics](https://youtube.com/ultralytics)
 - **Discord**: [Join Server](https://discord.com/invite/ultralytics)
-- **Reddit**: [r/ultralytics](https://reddit.com/r/ultralytics)
+- **Reddit**: [r/ultralytics](https://www.reddit.com/r/ultralytics/)
 
 !!! note
 
@@ -127,7 +127,7 @@ We recognize outstanding community members through:
 ### Support Resources
 
 - [Documentation](https://docs.ultralytics.com/)
-- [GitHub Discussions](https://github.com/ultralytics/ultralytics/discussions)
+- [GitHub Discussions](https://github.com/orgs/ultralytics/discussions)
 - [Discord Community](https://discord.com/invite/ultralytics)
 - [Development Team](how-to-contribute.md#our-development-team)
 

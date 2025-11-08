@@ -105,7 +105,7 @@ See [Development Workflow](../workflows/development.md) for complete coding stan
 
 ### Community Support 💬
 
-- Answer questions in [GitHub Discussions](https://github.com/ultralytics/ultralytics/discussions)
+- Answer questions in [GitHub Discussions](https://github.com/orgs/ultralytics/discussions)
 - Help users on [Discord](https://discord.com/invite/ultralytics)
 - Review pull requests
 - Triage issues
@@ -246,7 +246,7 @@ Feel free to reach out to team members for guidance:
 Questions or need help?
 
 - Open an issue on [GitHub](https://github.com/ultralytics/ultralytics/issues)
-- Join [GitHub Discussions](https://github.com/ultralytics/ultralytics/discussions)
+- Join [GitHub Discussions](https://github.com/orgs/ultralytics/discussions)
 - Connect on [Discord](https://discord.com/invite/ultralytics)
 - Check [documentation](https://docs.ultralytics.com/)
 - Visit [Help Center](https://docs.ultralytics.com/help/)

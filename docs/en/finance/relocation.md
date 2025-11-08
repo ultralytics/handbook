@@ -9,10 +9,6 @@ keywords: Ultralytics, Employee Relocation, Relocation Policy, office locations,
 
 This policy applies to full-time employees approved for relocation to our London, Madrid, or Shenzhen offices. All relocations require pre-approval from management and HR.
 
-!!! note "Remote Team Members"
-
-    Existing remote team members are not required to relocate. This policy is for voluntary relocations or strategic moves initiated by management.
-
 ## 2. Eligibility Requirements ✅
 
 Relocation assistance is reserved for employees who meet the following criteria:
@@ -26,9 +22,9 @@ Relocation assistance is reserved for employees who meet the following criteria:
 
 Relocation reimbursement is only available for moves to:
 
-- **Madrid** (Europe)
-- **London** (Europe)
-- **Shenzhen** (Asia-Pacific)
+- **Madrid** 🇪🇸: [Cra de S. Jerónimo, 15 Centro, 28014 Madrid, Spain](https://maps.google.com/?q=Cra+de+S.+Jerónimo,+15+Centro,+28014+Madrid,+Spain)
+- **Shenzhen** 🇨🇳: [5F, CR Land Tower D, 91 Kefa Road, Nanshan District, Shenzhen, China](https://maps.google.com/?q=5F,+CR+Land+Tower+D,+91+Kefa+Road,+Nanshan+District,+Shenzhen,+China)
+- **London** 🇬🇧: [50 York Way, London N1 9AB, UK](https://maps.google.com/?q=50+York+Way,+London+N1+9AB,+UK)
 
 !!! warning "Other Locations"
 

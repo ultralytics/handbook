@@ -293,7 +293,7 @@ For technical questions about YOLO models, training, inference, and deployment:
 - **[YOLO FAQ](https://docs.ultralytics.com/help/FAQ/)** - Common technical questions
 - **[Training Guide](https://docs.ultralytics.com/modes/train/)** - Model training
 - **[Deployment Options](https://docs.ultralytics.com/guides/model-deployment-options/)** - Export and inference
-- **[GitHub Discussions](https://github.com/ultralytics/ultralytics/discussions)** - Community support
+- **[GitHub Discussions](https://github.com/orgs/ultralytics/discussions)** - Community support
 - **[Contributing Guide](https://docs.ultralytics.com/help/contributing/)** - Open-source contribution guidelines
 
 ## Still Have Questions? 🤔

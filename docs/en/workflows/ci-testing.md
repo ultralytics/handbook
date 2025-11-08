@@ -261,5 +261,5 @@ Only for:
 - [Official CI Guide](https://docs.ultralytics.com/help/CI/) - Complete CI documentation
 - [Development Workflow](development.md) - PR process and code standards
 - [GitHub Actions Docs](https://docs.github.com/en/actions) - CI configuration
-- [pytest Documentation](https://docs.pytest.org/) - Testing framework
+- [pytest Documentation](https://docs.pytest.org/en/stable/) - Testing framework
 - [Codecov](https://app.codecov.io/github/ultralytics/ultralytics) - Coverage reports
