@@ -112,6 +112,7 @@ extra_css:
   - stylesheets/style.css
 
 extra_javascript:
+  - https://cdn.jsdelivr.net/gh/ultralytics/llm@main/js/chat.js
   - javascript/extra.js
   - javascript/giscus.js
 
