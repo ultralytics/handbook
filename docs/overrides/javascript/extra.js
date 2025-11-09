@@ -10,6 +10,8 @@ const applyTheme = (isDark) => {
     "data-md-color-primary",
     isDark ? "black" : "indigo",
   );
+  // Mirror theme to data-theme for widget compatibility
+  document.documentElement.setAttribute("data-theme", isDark ? "dark" : "light");
 };
 
 // Check and apply appropriate theme based on system/user preference
@@ -26,6 +28,12 @@ window
   .matchMedia("(prefers-color-scheme: dark)")
   .addEventListener("change", checkTheme);
 
+// Sync widget theme with Material theme
+const syncWidgetTheme = () => {
+  const scheme = document.body.getAttribute("data-md-color-scheme");
+  document.documentElement.setAttribute("data-theme", scheme === "slate" ? "dark" : "light");
+};
+
 // Initialize theme handling on page load
 document.addEventListener("DOMContentLoaded", () => {
   // Watch for theme toggle changes
@@ -37,6 +45,14 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   // Initial theme check
   checkTheme();
+  syncWidgetTheme();
+
+  // Watch for Material theme changes and sync to widget
+  const observer = new MutationObserver(syncWidgetTheme);
+  observer.observe(document.body, {
+    attributes: true,
+    attributeFilter: ["data-md-color-scheme"],
+  });
 });
 
 // Ultralytics Chat Widget ---------------------------------------------------------------------------------------------
