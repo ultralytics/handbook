@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
     welcome: {
       title: "Hi!",
       message:
-        "I'm an AI assistant trained on documentation, help articles, and other content.<br>Ask me anything about Ultralytics.",
+        "I'm an AI assistant trained on documentation, guides, and other content.<br>Ask me anything about Ultralytics.",
       examples: [
         "What's new in SAM3?",
         "How can I get started with YOLO?",
