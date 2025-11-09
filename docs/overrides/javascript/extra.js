@@ -2,15 +2,13 @@
 
 // Apply theme colors based on dark/light mode
 const applyTheme = (isDark) => {
-  document.body.setAttribute(
-    "data-md-color-scheme",
-    isDark ? "slate" : "default",
-  );
-  document.body.setAttribute(
-    "data-md-color-primary",
-    isDark ? "black" : "indigo",
-  );
-  // Mirror theme to data-theme for widget compatibility
+  document.body.setAttribute("data-md-color-scheme", isDark ? "slate" : "default");
+  document.body.setAttribute("data-md-color-primary", isDark ? "black" : "indigo");
+};
+
+// Sync widget theme with Material theme
+const syncWidgetTheme = () => {
+  const isDark = document.body.getAttribute("data-md-color-scheme") === "slate";
   document.documentElement.setAttribute("data-theme", isDark ? "dark" : "light");
 };
 
@@ -18,38 +16,26 @@ const applyTheme = (isDark) => {
 const checkTheme = () => {
   const palette = JSON.parse(localStorage.getItem(".__palette") || "{}");
   if (palette.index === 0) {
-    // Auto mode is selected
     applyTheme(window.matchMedia("(prefers-color-scheme: dark)").matches);
+    syncWidgetTheme();
   }
-};
-
-// Watch for system theme changes
-window
-  .matchMedia("(prefers-color-scheme: dark)")
-  .addEventListener("change", checkTheme);
-
-// Sync widget theme with Material theme
-const syncWidgetTheme = () => {
-  const scheme = document.body.getAttribute("data-md-color-scheme");
-  document.documentElement.setAttribute("data-theme", scheme === "slate" ? "dark" : "light");
 };
 
 // Initialize theme handling on page load
 document.addEventListener("DOMContentLoaded", () => {
-  // Watch for theme toggle changes
-  document
-    .getElementById("__palette_1")
-    ?.addEventListener(
-      "change",
-      (e) => e.target.checked && setTimeout(checkTheme),
-    );
-  // Initial theme check
   checkTheme();
   syncWidgetTheme();
 
+  // Watch for system theme changes
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", checkTheme);
+
+  // Watch for theme toggle changes
+  document.getElementById("__palette_1")?.addEventListener("change", (e) => {
+    if (e.target.checked) setTimeout(checkTheme);
+  });
+
   // Watch for Material theme changes and sync to widget
-  const observer = new MutationObserver(syncWidgetTheme);
-  observer.observe(document.body, {
+  new MutationObserver(syncWidgetTheme).observe(document.body, {
     attributes: true,
     attributeFilter: ["data-md-color-scheme"],
   });
@@ -80,8 +66,8 @@ document.addEventListener("DOMContentLoaded", () => {
       message:
         "I'm an AI assistant trained on documentation, help articles, and other content.<br>Ask me anything about Ultralytics.",
       examples: [
-        "What's new in YOLO11?",
-        "How can I get started with Ultralytics HUB?",
+        "What's new in SAM3?",
+        "How can I get started with YOLO?",
         "How does Enterprise Licensing work?",
       ],
     },
