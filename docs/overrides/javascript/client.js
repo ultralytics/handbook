@@ -170,7 +170,9 @@ class UltralyticsChat {
       .ult-message a{color:var(--ult-primary);text-underline-offset:2px}.ult-message a:hover{text-decoration:underline}
       .ult-message pre{background:#0f172a;color:#e5e7eb;padding:10px 12px;border-radius:10px;overflow:auto;margin:6px 0;border:0}
       .ult-message code{background:#f4f4f5;padding:2px 6px;border-radius:6px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;border:0}
+      .ult-message pre code{background:transparent;padding:0;border:0;display:block;color:inherit;font-size:13px}
       html[data-theme=dark] .ult-message code{background:#1e1e22}
+      html[data-theme=dark] .ult-message pre code{background:transparent}
 
       .ult-search-result{padding:14px;border:1px solid #e5e7eb;border-radius:10px;background:#fff;margin-bottom:10px;transition:.12s}
       .ult-search-result:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(2,6,23,.08)}
