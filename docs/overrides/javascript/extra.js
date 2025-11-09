@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
     searchBar.className = "ult-header-search";
     searchBar.innerHTML = `
       <button class="ult-search-button" title="Search documentation (⌘K)">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <circle cx="11" cy="11" r="8"/>
           <path d="m21 21-4.35-4.35"/>
         </svg>
