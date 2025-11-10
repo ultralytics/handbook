@@ -57,7 +57,6 @@ let ultralyticsChat = null;
 
 document.addEventListener("DOMContentLoaded", () => {
   ultralyticsChat = new UltralyticsChat({
-    apiUrl: "https://chat-885297101091.europe-west1.run.app/api/chat",
     branding: {
       name: "Ultralytics AI",
       tagline: "Ask anything about Ultralytics, YOLO, and more",
