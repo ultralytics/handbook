@@ -57,14 +57,6 @@ let ultralyticsChat = null;
 
 document.addEventListener("DOMContentLoaded", () => {
   ultralyticsChat = new UltralyticsChat({
-    branding: {
-      name: "Ultralytics AI",
-      tagline: "Ask anything about Ultralytics, YOLO, and more",
-      logo: "https://cdn.prod.website-files.com/680a070c3b99253410dd3dcf/680a070c3b99253410dd3e13_logo.svg",
-      logomark:
-        "https://storage.googleapis.com/organization-image-assets/ultralytics-botAvatarSrcUrl-1729379860806.svg",
-      pillText: "Ask AI",
-    },
     theme: {
       primary: "#042AFF",
       dark: "#111F68",
@@ -72,9 +64,9 @@ document.addEventListener("DOMContentLoaded", () => {
       text: "#0b0b0f",
     },
     welcome: {
-      title: "Hi!",
+      title: "Hello 👋",
       message:
-        "I'm your Ultralytics Handbook assistant—ask about mission & values, policies, onboarding, workflows, finance, and security.",
+        "I'm your Ultralytics Handbook assistant—ask me anything about mission & values, policies, onboarding, workflows, finance, and security.",
       examples: [
         "What's the 90-day onboarding plan?",
         "What are our Mission, Vision, and Values?",
