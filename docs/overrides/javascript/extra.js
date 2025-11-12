@@ -74,11 +74,11 @@ document.addEventListener("DOMContentLoaded", () => {
     welcome: {
       title: "Hi!",
       message:
-        "I'm an AI assistant trained on documentation, guides, and other content.<br>Ask me anything about Ultralytics.",
+        "I'm your Ultralytics Handbook assistant—ask about mission & values, policies, onboarding, workflows, finance, and security.",
       examples: [
-        "What's new in SAM3?",
-        "How can I get started with YOLO?",
-        "How does Enterprise Licensing work?",
+        "What's the 90-day onboarding plan?",
+        "What are our Mission, Vision, and Values?",
+        "How do expenses and reimbursements work?",
       ],
     },
     ui: {
