@@ -57,12 +57,6 @@ let ultralyticsChat = null;
 
 document.addEventListener("DOMContentLoaded", () => {
   ultralyticsChat = new UltralyticsChat({
-    theme: {
-      primary: "#042AFF",
-      dark: "#111F68",
-      yellow: "#E1FF25",
-      text: "#0b0b0f",
-    },
     welcome: {
       title: "Hello 👋",
       message:
@@ -72,12 +66,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "What are our Mission, Vision, and Values?",
         "How do expenses and reimbursements work?",
       ],
-    },
-    ui: {
-      placeholder: "Ask anything…",
-      copyText: "Copy thread",
-      downloadText: "Download thread",
-      clearText: "New chat",
     },
   });
 
