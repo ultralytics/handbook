@@ -47,6 +47,8 @@ The site will be available at `http://127.0.0.1:8000`. Changes to source files t
 
 The Handbook automatically deploys to [handbook.ultralytics.com](https://handbook.ultralytics.com/) via [Vercel](https://vercel.com/) when changes are pushed to the `main` branch.
 
+<img alt="Vercel Handbook screenshot" src="https://github.com/user-attachments/assets/dc1b3f44-38be-48f4-a13e-0ea4424dbd7f" />
+
 ## 💡 Contributing
 
 We welcome contributions to the Ultralytics Handbook! Your input helps keep our documentation accurate, comprehensive, and useful.
