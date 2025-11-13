@@ -239,13 +239,13 @@ nav:
       - Employee Security & Compliance Requirements: security/employee-security-compliance-requirements.md
 
 # Plugins including 301 redirects navigation ---------------------------------------------------------------------------
-plugins:
-  - ultralytics:
-      add_desc: False
-      add_image: True
-      add_authors: True
-      add_json_ld: True
-      add_share_buttons: True
-      add_css: False
-      default_image: https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png
-      default_author: glenn.jocher@ultralytics.com
+#plugins:
+#  - ultralytics:
+#      add_desc: False
+#      add_image: True
+#      add_authors: True
+#      add_json_ld: True
+#      add_share_buttons: True
+#      add_css: False
+#      default_image: https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png
+#      default_author: glenn.jocher@ultralytics.com
