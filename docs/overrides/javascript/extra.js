@@ -61,10 +61,17 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Hello 👋",
       message:
         "I'm your Ultralytics Handbook assistant—ask me anything about mission & values, policies, onboarding, workflows, finance, and security.",
-      examples: [
+      chatExamples: [
         "What's the 90-day onboarding plan?",
         "What are our Mission, Vision, and Values?",
         "How do expenses and reimbursements work?",
+      ],
+      searchExamples: [
+        "onboarding checklist",
+        "expense reimbursement policy",
+        "security best practices",
+        "vacation and time off",
+        "code review workflow",
       ],
     },
   });
