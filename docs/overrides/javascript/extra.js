@@ -75,39 +75,6 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
     },
   });
-
-  // Add search bar to header
-  const headerElement = document.querySelector(".md-header__inner");
-  const searchContainer = headerElement?.querySelector(".md-header__source");
-
-  if (headerElement && searchContainer) {
-    const searchBar = document.createElement("div");
-    searchBar.className = "ult-header-search";
-    searchBar.innerHTML = `
-      <button class="ult-search-button" title="Search documentation (⌘K)">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="11" cy="11" r="8"/>
-          <path d="m21 21-4.35-4.35"/>
-        </svg>
-        <span>Search</span>
-      </button>
-    `;
-    headerElement.insertBefore(searchBar, searchContainer);
-
-    searchBar
-      .querySelector(".ult-search-button")
-      .addEventListener("click", () => {
-        ultralyticsChat?.toggle(true, "search");
-      });
-  }
-
-  // Keyboard shortcuts
-  document.addEventListener("keydown", (e) => {
-    if ((e.metaKey || e.ctrlKey) && e.key === "k") {
-      e.preventDefault();
-      ultralyticsChat?.toggle(true, "search");
-    }
-  });
 });
 
 // Fix language switcher links
