@@ -36,4 +36,4 @@ jobs:
           git config --global user.name 'UltralyticsAssistant'
           git config --global user.email 'web@ultralytics.com'
           git fetch origin gh-pages:gh-pages
-          mkdocs gh-deploy
+          zensical gh-deploy

@@ -2,7 +2,7 @@
 
 # 📚 Ultralytics Handbook
 
-Welcome to the **Ultralytics Handbook repository**! This repository houses the source files for the official [Ultralytics Handbook](https://handbook.ultralytics.com/) - your comprehensive guide to our **mission, vision, values, and operational practices**. Built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/), the Handbook is continuously deployed via [GitHub Pages](https://pages.github.com/) to [handbook.ultralytics.com](https://handbook.ultralytics.com/).
+Welcome to the **Ultralytics Handbook repository**! This repository houses the source files for the official [Ultralytics Handbook](https://handbook.ultralytics.com/) - your comprehensive guide to our **mission, vision, values, and operational practices**. Built with [Zensical](https://zensical.org/) (a modern static site generator by the creators of Material for MkDocs), the Handbook is continuously deployed via [GitHub Pages](https://pages.github.com/) to [handbook.ultralytics.com](https://handbook.ultralytics.com/).
 
 [![pages-build-deployment](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment)
 [![Check Broken links](https://github.com/ultralytics/handbook/actions/workflows/links.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/links.yml)
@@ -25,33 +25,33 @@ This Handbook serves as a **living document**, evolving alongside Ultralytics' g
 To build and develop the Handbook locally, install dependencies:
 
 ```bash
-pip install mkdocs-material mkdocs-ultralytics-plugin
+pip install zensical mkdocs-ultralytics-plugin
 ```
 
-This installs [MkDocs](https://www.mkdocs.org/), the [MkDocs Material theme](https://squidfunk.github.io/mkdocs-material/), and our custom plugin for building the documentation site.
+This installs [Zensical](https://zensical.org/) - a modern static site generator built by the creators of Material for MkDocs - and our custom plugin for enhanced documentation features.
 
 ## 🚀 Local Development
 
 Build and serve the Handbook locally with live reload:
 
 ```bash
-mkdocs serve
+zensical serve
 ```
 
 The site will be available at `http://127.0.0.1:8000`. Changes to source files trigger automatic rebuilds.
 
 ### Development Commands
 
-- **`mkdocs serve`** - Start development server with live reload
-- **`mkdocs build`** - Build static site to `site/` directory
-- **`mkdocs gh-deploy`** - Deploy to GitHub Pages
+- **`zensical serve`** - Start development server with live reload
+- **`zensical build`** - Build static site to `site/` directory
+- **`zensical gh-deploy`** - Deploy to GitHub Pages
 
 ## 📤 Deployment
 
 The Handbook automatically deploys to [handbook.ultralytics.com](https://handbook.ultralytics.com/) via GitHub Actions when changes are pushed to the `main` branch. Manual deployment:
 
 ```bash
-mkdocs gh-deploy
+zensical gh-deploy
 ```
 
 This builds the site and pushes to the `gh-pages` branch.
@@ -66,7 +66,7 @@ We welcome contributions to the Ultralytics Handbook! Your input helps keep our 
 
 1. **Fork the repository** and create a feature branch
 2. **Make your changes** to Markdown files in `docs/en/`
-3. **Test locally** with `mkdocs serve`
+3. **Test locally** with `zensical serve`
 4. **Submit a pull request** with clear description of changes
 5. **Follow our style guide** (consistent with existing pages)
 
@@ -111,8 +111,7 @@ handbook/
 
 ## 🧰 Technology Stack
 
-- **[MkDocs](https://www.mkdocs.org/)** - Static site generator
-- **[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)** - Modern documentation theme
+- **[Zensical](https://zensical.org/)** - Modern static site generator (by the creators of Material for MkDocs)
 - **[MkDocs Ultralytics Plugin](https://github.com/ultralytics/mkdocs)** - Custom features and integrations
 - **[GitHub Pages](https://pages.github.com/)** - Hosting and deployment
 - **[GitHub Actions](https://github.com/features/actions)** - CI/CD automation
