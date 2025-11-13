@@ -2,9 +2,8 @@
 
 # 📚 Ultralytics Handbook
 
-Welcome to the **Ultralytics Handbook repository**! This repository houses the source files for the official [Ultralytics Handbook](https://handbook.ultralytics.com/) - your comprehensive guide to our **mission, vision, values, and operational practices**. Built with [Zensical](https://zensical.org/) (a modern static site generator by the creators of Material for MkDocs), the Handbook is continuously deployed via [GitHub Pages](https://pages.github.com/) to [handbook.ultralytics.com](https://handbook.ultralytics.com/).
+Welcome to the **Ultralytics Handbook repository**! This repository houses the source files for the official [Ultralytics Handbook](https://handbook.ultralytics.com/) - your comprehensive guide to our **mission, vision, values, and operational practices**. Built with [Zensical](https://zensical.org/) (a modern static site generator by the creators of Material for MkDocs), the Handbook is continuously deployed via [Vercel](https://vercel.com/) to [handbook.ultralytics.com](https://handbook.ultralytics.com/).
 
-[![pages-build-deployment](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment)
 [![Check Broken links](https://github.com/ultralytics/handbook/actions/workflows/links.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/links.yml)
 [![Ultralytics Actions](https://github.com/ultralytics/handbook/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/format.yml)
 
@@ -44,12 +43,12 @@ The site will be available at `http://127.0.0.1:8000`. Changes to source files t
 
 - **`zensical serve`** - Start development server with live reload
 - **`zensical build`** - Build static site to `site/` directory
-- **`zensical gh-deploy`** - Deploy to GitHub Pages
 
 ## 📤 Deployment
 
-The Handbook automatically deploys to [handbook.ultralytics.com](https://handbook.ultralytics.com/) via Vercel when changes are pushed to the `main` branch.
-![GitHub Pages Deployment](https://user-images.githubusercontent.com/26833433/210150206-9e86dcd7-10af-43e4-9eb2-9518b3799eac.png)
+The Handbook automatically deploys to [handbook.ultralytics.com](https://handbook.ultralytics.com/) via [Vercel](https://vercel.com/) when changes are pushed to the `main` branch.
+
+<img alt="Vercel handbook deployment" src="https://github.com/user-attachments/assets/cd8809df-1ccd-4711-880e-f356c2b4fc4f" />
 
 ## 💡 Contributing
 
@@ -106,7 +105,7 @@ handbook/
 
 - **[Zensical](https://zensical.org/)** - Modern static site generator (by the creators of Material for MkDocs)
 - **[MkDocs Ultralytics Plugin](https://github.com/ultralytics/mkdocs)** - Custom features and integrations
-- **[GitHub Pages](https://pages.github.com/)** - Hosting and deployment
+- **[Vercel](https://vercel.com/)** - Hosting and deployment
 - **[GitHub Actions](https://github.com/features/actions)** - CI/CD automation
 
 ## 📜 License
