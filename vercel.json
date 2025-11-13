@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run build && python docs/postprocess.py",
   "outputDirectory": "site",
   "trailingSlash": true,
   "redirects": [
