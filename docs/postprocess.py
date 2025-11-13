@@ -1,8 +1,7 @@
 # Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
-
 """Postprocess Handbook site after zensical build."""
 
-from plugin import postprocess_site  # noqa "uv pip install mkdocs-ultralytics-plugin"
+from plugin import postprocess_site
 
 if __name__ == "__main__":
     postprocess_site(
