@@ -5,7 +5,7 @@
 # This configuration is fully compatible with both Zensical and MkDocs.
 # Build with: zensical build
 # Serve locally: zensical serve
-# Deploy: zensical gh-deploy
+# Deploy: Handled automatically by Vercel on push to main
 
 # Site metadata
 site_name: Ultralytics Handbook
