@@ -58,7 +58,6 @@ Employees traveling for business will receive a daily per diem allowance based o
 |                       | San Francisco | $204.00 | $69.00 | $273.00        |
 |                       | San Jose      | $144.00 | $69.00 | $213.00        |
 
-
 ### Methodology 📚
 
 Ultralytics bases daily per diem rates on official U.S. government sources, adjusted to reflect our company’s size and budget considerations. Rates are derived from the U.S. [General Services Administration (GSA)](https://www.gsa.gov/) for travel within the Continental United States (CONUS) and the U.S. [Department of State](https://www.state.gov/) for travel outside the continental U.S. (OCONUS).
