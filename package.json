@@ -2,6 +2,6 @@
   "name": "handbook",
   "version": "1.0.0",
   "scripts": {
-    "build": "python3 -m zensical build"
+    "build": "python3 -m zensical build && python docs/postprocess.py"
   }
 }
