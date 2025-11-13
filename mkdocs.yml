@@ -1,8 +1,11 @@
 # Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 
-# Configuration file for building the Ultralytics YOLO documentation site using MkDocs.
-# Provides settings to control site metadata, customize the appearance using the
-# Material theme, define the navigation structure, and enable various plugins.
+# Configuration file for building the Ultralytics Handbook using Zensical.
+# Zensical is a modern static site generator by the creators of Material for MkDocs.
+# This configuration is fully compatible with both Zensical and MkDocs.
+# Build with: zensical build
+# Serve locally: zensical serve
+# Deploy: zensical gh-deploy
 
 # Site metadata
 site_name: Ultralytics Handbook
@@ -234,17 +237,14 @@ nav:
       - Security & Compliance Team: security/team.md
       - Information Security Management System (ISMS): security/isms.md
       - Employee Security & Compliance Requirements: security/employee-security-compliance-requirements.md
-
 # Plugins including 301 redirects navigation ---------------------------------------------------------------------------
-plugins:
-  # - search:
-  #     lang: en
-  - ultralytics:
-      add_desc: False
-      add_image: True
-      add_authors: True
-      add_json_ld: True
-      add_share_buttons: True
-      add_css: False
-      default_image: https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png
-      default_author: glenn.jocher@ultralytics.com
+#plugins:
+#  - ultralytics:
+#      add_desc: False
+#      add_image: True
+#      add_authors: True
+#      add_json_ld: True
+#      add_share_buttons: True
+#      add_css: False
+#      default_image: https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png
+#      default_author: glenn.jocher@ultralytics.com
