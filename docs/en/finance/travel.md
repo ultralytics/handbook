@@ -44,6 +44,7 @@ Employees traveling for business will receive a daily per diem allowance based o
 | **Italy 🇮🇹**          | Rome          | $244.50 | $89.50 | $334.00        |
 | **Japan 🇯🇵**          | Tokyo         | $187.50 | $65.00 | $252.50        |
 | **Netherlands 🇳🇱**    | Amsterdam     | $226.50 | $96.00 | $322.50        |
+|                       | Eindhoven     | $117.00 | $70.50 | $187.50        |
 | **Portugal 🇵🇹**       | Lisbon        | $140.00 | $56.00 | $196.00        |
 | **Singapore 🇸🇬**      | Singapore     | $152.00 | $75.00 | $227.00        |
 | **Spain 🇪🇸**          | Barcelona     | $153.50 | $67.00 | $220.50        |
@@ -51,6 +52,7 @@ Employees traveling for business will receive a daily per diem allowance based o
 |                       | Malaga        | $139.00 | $73.50 | $212.50        |
 | **United Kingdom 🇬🇧** | London        | $212.00 | $87.00 | $299.00        |
 | **United States 🇺🇸**  | Denver        | $161.25 | $69.00 | $230.25        |
+|                       | Las Vegas     | $119.25 | $64.50 | $183.75        |
 |                       | Los Angeles   | $143.25 | $64.50 | $207.75        |
 |                       | New York      | $256.50 | $69.00 | $325.50        |
 |                       | San Francisco | $204.00 | $69.00 | $273.00        |
