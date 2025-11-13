@@ -4,7 +4,7 @@
 from pathlib import Path
 
 
-def postprocess_site(site_dir: Path = Path("../site")) -> None:
+def postprocess_site(site_dir: Path = Path("site")) -> None:
     """Replace index.md with index.html, then abc.md with abc/index.html in all HTML files."""
     for html_file in site_dir.rglob("*.html"):
         content = html_file.read_text(encoding="utf-8")
