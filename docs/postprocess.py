@@ -8,12 +8,16 @@ from plugin import postprocess_site
 
 
 def fix_md(site_dir: Path = Path("site")) -> None:
-    """Replace .md references with trailing slashes in all HTML files."""
+    """Replace .md references with trailing slashes, skipping GitHub links."""
     for html_file in site_dir.rglob("*.html"):
         content = html_file.read_text(encoding="utf-8")
-        content = content.replace("index.md", "")
-        content = re.sub(r'(["\']?)([^"\'>\s]+?)\.md(["\']?)', r"\1\2/\3", content)
-        html_file.write_text(content, encoding="utf-8")
+        lines = []
+        for line in content.split('\n'):
+            if 'github.com' not in line:
+                line = line.replace("index.md", "")
+                line = re.sub(r'(["\']?)([^"\'>\s]+?)\.md(["\']?)', r"\1\2/\3", line)
+            lines.append(line)
+        html_file.write_text('\n'.join(lines), encoding="utf-8")
     print(f"Post-processed {sum(1 for _ in site_dir.rglob('*.html'))} HTML files")
 
 
