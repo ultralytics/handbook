@@ -237,7 +237,6 @@ nav:
       - Security & Compliance Team: security/team.md
       - Information Security Management System (ISMS): security/isms.md
       - Employee Security & Compliance Requirements: security/employee-security-compliance-requirements.md
-
 # Plugins including 301 redirects navigation ---------------------------------------------------------------------------
 #plugins:
 #  - ultralytics:
