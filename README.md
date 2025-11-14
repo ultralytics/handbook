@@ -6,6 +6,8 @@ Welcome to the **Ultralytics Handbook repository**! This repository houses the s
 
 [![Check Broken links](https://github.com/ultralytics/handbook/actions/workflows/links.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/links.yml)
 [![Ultralytics Actions](https://github.com/ultralytics/handbook/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/format.yml)
+[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/handbook-zeta)](https://handbook-zeta.vercel.app/)
+[![jsDelivr hits](https://data.jsdelivr.com/v1/package/gh/ultralytics/llm/badge?style=rounded)](https://www.jsdelivr.com/package/gh/ultralytics/llm)
 
 [![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
 [![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com/)
@@ -14,6 +16,14 @@ Welcome to the **Ultralytics Handbook repository**! This repository houses the s
 This Handbook serves as a **living document**, evolving alongside Ultralytics' growth. It aims to align team members, contributors, and the wider community with the core principles guiding our work in [artificial intelligence (AI)](https://www.ultralytics.com/glossary/artificial-intelligence-ai) and [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv). Whether you're new to Ultralytics or a seasoned team member, this resource provides insights into everything from our company philosophy to detailed workflows and operational processes, including our approach to [machine learning operations (MLOps)](https://www.ultralytics.com/glossary/machine-learning-operations-mlops).
 
 **New team members?** Start with our [Onboarding Guide](https://handbook.ultralytics.com/people/onboarding/) for your first 90 days roadmap.
+
+## 🧰 Technology Stack
+
+- **[Zensical](https://zensical.org/)** - Modern static site generator (by the creators of Material for MkDocs)
+- **[MkDocs Ultralytics Plugin](https://github.com/ultralytics/mkdocs)** - Custom features and integrations
+- **[Ultralytics Chat](https://github.com/ultralytics/llm)** - Realtime conversational AI with open-source [chat.js](https://github.com/ultralytics/llm) implementation
+- **[Vercel](https://vercel.com/)** - Hosting and deployment
+- **[GitHub Actions](https://github.com/features/actions)** - CI/CD automation
 
 ## 🛠️ Installation
 
@@ -101,32 +111,16 @@ handbook/
 └── README.md                        # This file
 ```
 
-## 🧰 Technology Stack
+## 📄 License
 
-- **[Zensical](https://zensical.org/)** - Modern static site generator (by the creators of Material for MkDocs)
-- **[MkDocs Ultralytics Plugin](https://github.com/ultralytics/mkdocs)** - Custom features and integrations
-- **[Vercel](https://vercel.com/)** - Hosting and deployment
-- **[GitHub Actions](https://github.com/features/actions)** - CI/CD automation
+Ultralytics offers two licensing options:
 
-## 📜 License
-
-The Ultralytics Handbook is distributed under two licenses:
-
-- **[AGPL-3.0 License](https://github.com/ultralytics/handbook/blob/main/LICENSE)** - For academic research and open-source projects
-- **[Enterprise License](https://www.ultralytics.com/license)** - For commercial applications requiring proprietary integration
+- **AGPL-3.0 License**: Ideal for students, researchers, and enthusiasts passionate about open collaboration. This [OSI-approved](https://opensource.org/license/agpl-v3) open-source license promotes transparency and community involvement. See the [LICENSE](LICENSE) file for details.
+- **Enterprise License**: For commercial applications, this license permits seamless integration of Ultralytics software into commercial products, bypassing AGPL-3.0 copyleft requirements. Inquire about an [Ultralytics Enterprise License](https://www.ultralytics.com/license).
 
 ## ✉️ Contact
 
-- **Issues & Bugs**: [GitHub Issues](https://github.com/ultralytics/handbook/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/ultralytics/handbook/discussions)
-- **Discord**: [Join Server](https://discord.com/invite/ultralytics)
-
-## 🔗 Related Resources
-
-- **[Ultralytics Website](https://www.ultralytics.com/)** - Company information
-- **[YOLO Documentation](https://docs.ultralytics.com/)** - Technical documentation for YOLO models
-- **[GitHub Repository](https://github.com/ultralytics/ultralytics)** - Main codebase
-- **[Trust Center](https://trust.ultralytics.com/)** - Security documentation
+For bug reports and feature requests related to the Ultralytics Handbook, please visit [GitHub Issues](https://github.com/ultralytics/handbook/issues). For questions, discussions, and community support, join our active communities on [Discord](https://discord.com/invite/ultralytics), [Reddit](https://www.reddit.com/r/ultralytics/), and the [Ultralytics Community Forums](https://community.ultralytics.com/). We're here to help with all things Ultralytics!
 
 <br>
 <div align="center">
