@@ -158,7 +158,7 @@ def example_function(arg1, arg2=4):
 
 ✅ **Good:**
 
-```python
+```
 Returns:
     (np.ndarray): Predicted masks with shape HxWxN.
     (list): Confidence scores for each instance.
@@ -166,7 +166,7 @@ Returns:
 
 ❌ **Bad:**
 
-```python
+```
 Returns:
     (tuple): Tuple containing:
         - (np.ndarray): Predicted masks with shape HxWxN.
