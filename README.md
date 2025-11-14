@@ -17,6 +17,13 @@ This Handbook serves as a **living document**, evolving alongside Ultralytics' g
 
 **New team members?** Start with our [Onboarding Guide](https://handbook.ultralytics.com/people/onboarding/) for your first 90 days roadmap.
 
+## 🧰 Technology Stack
+
+- **[Zensical](https://zensical.org/)** - Modern static site generator (by the creators of Material for MkDocs)
+- **[MkDocs Ultralytics Plugin](https://github.com/ultralytics/mkdocs)** - Custom features and integrations
+- **[Vercel](https://vercel.com/)** - Hosting and deployment
+- **[GitHub Actions](https://github.com/features/actions)** - CI/CD automation
+
 ## 🛠️ Installation
 
 [![PyPI - Version](https://img.shields.io/pypi/v/ultralytics?logo=pypi&logoColor=white)](https://pypi.org/project/ultralytics/)
@@ -103,32 +110,16 @@ handbook/
 └── README.md                        # This file
 ```
 
-## 🧰 Technology Stack
+## 📄 License
 
-- **[Zensical](https://zensical.org/)** - Modern static site generator (by the creators of Material for MkDocs)
-- **[MkDocs Ultralytics Plugin](https://github.com/ultralytics/mkdocs)** - Custom features and integrations
-- **[Vercel](https://vercel.com/)** - Hosting and deployment
-- **[GitHub Actions](https://github.com/features/actions)** - CI/CD automation
+Ultralytics offers two licensing options:
 
-## 📜 License
-
-The Ultralytics Handbook is distributed under two licenses:
-
-- **[AGPL-3.0 License](https://github.com/ultralytics/handbook/blob/main/LICENSE)** - For academic research and open-source projects
-- **[Enterprise License](https://www.ultralytics.com/license)** - For commercial applications requiring proprietary integration
+- **AGPL-3.0 License**: Ideal for students, researchers, and enthusiasts passionate about open collaboration. This [OSI-approved](https://opensource.org/license/agpl-v3) open-source license promotes transparency and community involvement. See the [LICENSE](LICENSE) file for details.
+- **Enterprise License**: For commercial applications, this license permits seamless integration of Ultralytics software into commercial products, bypassing AGPL-3.0 copyleft requirements. Inquire about an [Ultralytics Enterprise License](https://www.ultralytics.com/license).
 
 ## ✉️ Contact
 
-- **Issues & Bugs**: [GitHub Issues](https://github.com/ultralytics/handbook/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/ultralytics/handbook/discussions)
-- **Discord**: [Join Server](https://discord.com/invite/ultralytics)
-
-## 🔗 Related Resources
-
-- **[Ultralytics Website](https://www.ultralytics.com/)** - Company information
-- **[YOLO Documentation](https://docs.ultralytics.com/)** - Technical documentation for YOLO models
-- **[GitHub Repository](https://github.com/ultralytics/ultralytics)** - Main codebase
-- **[Trust Center](https://trust.ultralytics.com/)** - Security documentation
+For bug reports and feature requests related to Ultralytics software, please visit [GitHub Issues](https://github.com/ultralytics/handbook/issues). For questions, discussions, and community support, join our active communities on [Discord](https://discord.com/invite/ultralytics), [Reddit](https://www.reddit.com/r/ultralytics/), and the [Ultralytics Community Forums](https://community.ultralytics.com/). We're here to help with all things Ultralytics!
 
 <br>
 <div align="center">
