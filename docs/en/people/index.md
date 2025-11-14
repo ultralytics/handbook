@@ -35,7 +35,7 @@ At Ultralytics, we believe in supporting our team members through comprehensive 
 - **[Career Progression Framework](careers/index.md)** - Overview, promotion process, and track switching
     - [IC Levels (IC02-IC07)](careers/levels-ic.md) - Individual Contributor expectations
     - [Management Levels (M04-M08)](careers/levels-management.md) - Management expectations
-- **Performance Reviews** - Quarterly reviews in Rippling with growth planning (compensation reviewed annually)
+- **Performance Reviews** - Quarterly reviews in Rippling with growth planning; compensation is reviewed annually
 - **Learning Budget** - Annual budget for courses, books, and conferences (contact HR for current amounts)
 
 ### Rewards & Recognition
