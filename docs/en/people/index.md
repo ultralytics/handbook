@@ -35,7 +35,7 @@ At Ultralytics, we believe in supporting our team members through comprehensive 
 - **[Career Progression Framework](careers/index.md)** - Overview, promotion process, and track switching
     - [IC Levels (IC02-IC07)](careers/levels-ic.md) - Individual Contributor expectations
     - [Management Levels (M04-M08)](careers/levels-management.md) - Management expectations
-- **Performance Reviews** - Quarterly reviews in Rippling with growth planning and compensation adjustments
+- **Performance Reviews** - Quarterly reviews in Rippling with growth planning; compensation is reviewed annually
 - **Learning Budget** - Annual budget for courses, books, and conferences (contact HR for current amounts)
 
 ### Rewards & Recognition
@@ -64,7 +64,7 @@ All team members receive:
 - **Unlimited sick leave** as needed
 - **Tenure bonuses**: Additional PTO days every 2 years of service
 
-See complete [PTO Policy](pto-policy.md) for details on requesting time off, rollover limits, and contractor provisions.
+See complete [PTO Policy](pto-policy.md) for details on requesting time off, rollover limits, and tenure bonuses.
 
 ### Requesting Time Off
 
@@ -118,7 +118,7 @@ Contact HR for current learning budget amounts and policies.
 - **360° feedback** from manager, peers, and direct reports
 - **Growth planning** with clear development goals aligned to [career levels](careers/index.md)
 - **Career progression** with defined levels and promotion criteria
-- **Compensation reviews** aligned with performance and level
+- **Compensation reviews** conducted annually at year-end, applied in Q1 (January paycheck)
 
 ### Internal Mobility
 
@@ -193,7 +193,7 @@ Also review our [Social Media Policy](../contributions/social-media-policy.md) f
 
 - **HR Questions**: Contact your manager or HR team
 - **IT/Technical**: [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com) or `#it-support` on Slack
-- **Finance**: Questions about expenses, reimbursements, or benefits
+- **Finance**: Contact the HR team for questions about expenses, reimbursements, or benefits
 - **Legal**: [legal@ultralytics.com](mailto:legal@ultralytics.com) for contracts and compliance
 - **Security**: [security@ultralytics.com](mailto:security@ultralytics.com) for incidents
 
