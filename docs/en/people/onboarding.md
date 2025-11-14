@@ -54,24 +54,6 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 
 ## First Day 🎉
 
-```mermaid
-gantt
-    title First Day Schedule
-    dateFormat HH:mm
-    axisFormat %H:%M
-
-    section Morning
-    Welcome Meeting (Manager)     :a1, 09:00, 30m
-    IT Setup                      :a2, after a1, 60m
-    HR Onboarding                 :a3, after a2, 45m
-
-    section Afternoon
-    Lunch with Team               :b1, 13:00, 60m
-    Security Training             :b2, after b1, 60m
-    Dev Environment Setup         :b3, after b2, 90m
-    First Assignment              :b4, after b3, 60m
-```
-
 ### Morning Session (9:00 AM - 12:00 PM)
 
 === "Welcome Meeting (30 min)"
