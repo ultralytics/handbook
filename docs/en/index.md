@@ -81,39 +81,39 @@ Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your compr
 
 <div class="grid cards" markdown>
 
--   :material-account-star: **[Onboarding Guide](people/onboarding.md)**
+- :material-account-star: **[Onboarding Guide](people/onboarding.md)**
 
-    ---
+    ***
 
     First 90 days roadmap
 
--   :material-beach: **[PTO Policy](people/pto-policy.md)**
+- :material-beach: **[PTO Policy](people/pto-policy.md)**
 
-    ---
+    ***
 
     25 days annual leave + unlimited sick
 
--   :material-cash-multiple: **[Finance Overview](finance/index.md)**
+- :material-cash-multiple: **[Finance Overview](finance/index.md)**
 
-    ---
+    ***
 
     Reimbursements and expenses
 
--   :material-airplane: **[Travel Policy](finance/travel.md)**
+- :material-airplane: **[Travel Policy](finance/travel.md)**
 
-    ---
+    ***
 
     Per diem rates and booking
 
--   :material-home-import-outline: **[Relocation Policy](finance/relocation.md)**
+- :material-home-import-outline: **[Relocation Policy](finance/relocation.md)**
 
-    ---
+    ***
 
     $6K for hub city moves
 
--   :material-account-plus: **[Referral Bonus](finance/referral-bonus.md)**
+- :material-account-plus: **[Referral Bonus](finance/referral-bonus.md)**
 
-    ---
+    ***
 
     $5K for successful referrals
 
@@ -123,27 +123,27 @@ Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your compr
 
 <div class="grid cards" markdown>
 
--   :material-code-braces: **[Development Guide](workflows/development.md)**
+- :material-code-braces: **[Development Guide](workflows/development.md)**
 
-    ---
+    ***
 
     PR process, CLA, coding standards
 
--   :material-test-tube: **[CI/Testing](workflows/ci-testing.md)**
+- :material-test-tube: **[CI/Testing](workflows/ci-testing.md)**
 
-    ---
+    ***
 
     Running tests and quality checks
 
--   :material-file-document: **[Documentation](workflows/documentation.md)**
+- :material-file-document: **[Documentation](workflows/documentation.md)**
 
-    ---
+    ***
 
     Writing and maintaining docs
 
--   :material-package-variant: **[Product Development](workflows/product-development.md)**
+- :material-package-variant: **[Product Development](workflows/product-development.md)**
 
-    ---
+    ***
 
     Feature planning and releases
 
@@ -153,27 +153,27 @@ Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your compr
 
 <div class="grid cards" markdown>
 
--   :material-account-group: **[Community Engagement](contributions/community-engagement.md)**
+- :material-account-group: **[Community Engagement](contributions/community-engagement.md)**
 
-    ---
+    ***
 
     Discord, GitHub, social media
 
--   :material-hand-heart: **[How to Contribute](contributions/how-to-contribute.md)**
+- :material-hand-heart: **[How to Contribute](contributions/how-to-contribute.md)**
 
-    ---
+    ***
 
     Complete contribution guide
 
--   :material-account-multiple: **[Development Team](contributions/how-to-contribute.md#our-development-team)**
+- :material-account-multiple: **[Development Team](contributions/how-to-contribute.md#our-development-team)**
 
-    ---
+    ***
 
     Contact directory
 
--   :material-help-circle: **[FAQ](faq/index.md)**
+- :material-help-circle: **[FAQ](faq/index.md)**
 
-    ---
+    ***
 
     Common questions answered
 
@@ -183,21 +183,21 @@ Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your compr
 
 <div class="grid cards" markdown>
 
--   :material-target-account: **[Company Goals](goals/company-goals.md)**
+- :material-target-account: **[Company Goals](goals/company-goals.md)**
 
-    ---
+    ***
 
     Strategic priorities and KPIs
 
--   :material-chart-timeline-variant: **[OKRs](goals/okrs.md)**
+- :material-chart-timeline-variant: **[OKRs](goals/okrs.md)**
 
-    ---
+    ***
 
     Quarterly objectives framework
 
--   :material-map: **[Product Roadmap](https://docs.ultralytics.com/)**
+- :material-map: **[Product Roadmap](https://docs.ultralytics.com/)**
 
-    ---
+    ***
 
     Public feature roadmap
 
@@ -207,33 +207,33 @@ Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your compr
 
 <div class="grid cards" markdown>
 
--   :material-scale-balance: **[Legal Team](legal/team.md)**
+- :material-scale-balance: **[Legal Team](legal/team.md)**
 
-    ---
+    ***
 
     Services and contact info
 
--   :material-gavel: **[Code of Conduct](legal/code-of-business-conduct-and-ethics.md)**
+- :material-gavel: **[Code of Conduct](legal/code-of-business-conduct-and-ethics.md)**
 
-    ---
+    ***
 
     Ethics and standards
 
--   :material-shield-check: **[Security Team](security/team.md)**
+- :material-shield-check: **[Security Team](security/team.md)**
 
-    ---
+    ***
 
     Security and compliance
 
--   :material-lock: **[ISMS](security/isms.md)**
+- :material-lock: **[ISMS](security/isms.md)**
 
-    ---
+    ***
 
     Information security management
 
--   :material-account-lock: **[Security Requirements](security/employee-security-compliance-requirements.md)**
+- :material-account-lock: **[Security Requirements](security/employee-security-compliance-requirements.md)**
 
-    ---
+    ***
 
     Employee obligations
 
@@ -244,27 +244,27 @@ Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your compr
 !!! question "Need Help?"
 
     === "Technical Support"
-    
+
         - **Email:** [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com)
         - **Slack:** `#it-support`
-    
+
     === "Finance"
-    
+
         - **Slack:** `#finance`
         - **Questions:** Contact Finance team
-    
+
     === "Legal"
-    
+
         - **Email:** [legal@ultralytics.com](mailto:legal@ultralytics.com)
         - **Slack:** `#compliance`
-    
+
     === "Security"
-    
+
         - **Email:** [security@ultralytics.com](mailto:security@ultralytics.com)
         - **Slack:** `#security`
-    
+
     === "HR"
-    
+
         - **Contact:** Your manager or HR team
         - **Slack:** `#hr`
 
@@ -272,27 +272,27 @@ Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your compr
 
 <div class="grid cards" markdown>
 
--   :material-shield-star: **[Trust Center](https://trust.ultralytics.com/)**
+- :material-shield-star: **[Trust Center](https://trust.ultralytics.com/)**
 
-    ---
+    ***
 
     Security documentation and certifications
 
--   :material-web: **[Ultralytics Website](https://www.ultralytics.com/)**
+- :material-web: **[Ultralytics Website](https://www.ultralytics.com/)**
 
-    ---
+    ***
 
     Company information
 
--   :material-book: **[YOLO Documentation](https://docs.ultralytics.com/)**
+- :material-book: **[YOLO Documentation](https://docs.ultralytics.com/)**
 
-    ---
+    ***
 
     Technical documentation
 
--   :material-github: **[GitHub Repository](https://github.com/ultralytics/handbook)**
+- :material-github: **[GitHub Repository](https://github.com/ultralytics/handbook)**
 
-    ---
+    ***
 
     This handbook's source
 
@@ -311,7 +311,7 @@ graph LR
     E --> F[Follow Contribution Guidelines]
     F --> G[Changes Reviewed]
     G --> H[Merged & Deployed]
-    
+
     style A fill:#e1f5ff
     style H fill:#d4edda
 ```

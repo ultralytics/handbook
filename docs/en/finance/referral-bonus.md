@@ -17,21 +17,21 @@ keywords: Ultralytics, Employee Referral, Referral Bonus, Hiring, Recruitment, T
 
 <div class="grid cards" markdown>
 
--   :material-cash-multiple: **Bonus Amount**
+- :material-cash-multiple: **Bonus Amount**
 
-    ---
+    ***
 
     **$5,000.00** per successful referral
 
--   :material-clock-check: **Payment Timing**
+- :material-clock-check: **Payment Timing**
 
-    ---
+    ***
 
     After candidate completes **3 months** of employment
 
--   :material-briefcase: **Eligible Positions**
+- :material-briefcase: **Eligible Positions**
 
-    ---
+    ***
 
     All full-time positions at Ultralytics
 
@@ -42,19 +42,19 @@ keywords: Ultralytics, Employee Referral, Referral Bonus, Hiring, Recruitment, T
 !!! warning "All Requirements Must Be Met"
 
     === "Referrer Requirements"
-    
+
         - [x] Must be a current Ultralytics employee at time of referral
         - [x] Must still be employed at time of payout
         - [x] Cannot be involved in hiring decision for referred candidate
-    
+
     === "Candidate Requirements"
-    
+
         - [x] Must be hired for a full-time position
         - [x] Cannot already be in our recruitment pipeline
         - [x] Must successfully complete 3-month probationary period
-    
+
     === "General Rules"
-    
+
         - [x] Only one referral bonus per hire
         - [x] First referrer receives bonus if multiple employees refer same candidate
 
@@ -73,7 +73,7 @@ graph TD
     I -->|No| J[No Bonus]
     I -->|Yes| K[Process $5,000 Bonus]
     K --> L[Bonus Paid in Next Payroll]
-    
+
     style A fill:#e1f5ff
     style K fill:#d4edda
     style D fill:#f8d7da
@@ -98,16 +98,16 @@ graph TD
 !!! danger "Not Eligible for Referral Bonus"
 
     === "Position Exclusions"
-    
+
         - Executive-level positions (may have different terms on case-by-case basis)
-    
+
     === "Employee Exclusions"
-    
+
         - Employees involved in hiring decision for the referred candidate
         - Employees who are not current at time of referral or payout
-    
+
     === "Source Exclusions"
-    
+
         - Referrals from recruiting agencies
         - Referrals from external parties
         - Candidates already in recruitment pipeline
@@ -117,32 +117,32 @@ graph TD
 ??? example "Successful Referral"
 
     **Scenario:** You refer a friend for a Software Engineer position in January.
-    
+
     - ✅ January 15: You submit referral to HR
     - ✅ February 1: Candidate hired, starts work
     - ✅ May 1: Candidate completes 3 months
     - ✅ May 15: You receive $5,000 bonus in payroll
-    
+
     **Result:** Bonus paid successfully! 🎉
 
 ??? example "Candidate Leaves Before 3 Months"
 
     **Scenario:** You refer a candidate who gets hired but leaves after 2 months.
-    
+
     - ✅ March 1: Candidate starts work
     - ❌ April 25: Candidate resigns (only 2 months)
     - ❌ No bonus paid
-    
+
     **Result:** No bonus - must complete full 3 months
 
 ??? example "Multiple Referrers"
 
     **Scenario:** Two employees refer the same candidate.
-    
+
     - Employee A refers on March 1
     - Employee B refers on March 5
     - Candidate hired on March 15
-    
+
     **Result:** Employee A receives the bonus (first referrer)
 
 ## Tips for Successful Referrals 🎯
@@ -150,37 +150,37 @@ graph TD
 !!! tip "Maximize Your Referral Success"
 
     <div class="grid cards" markdown>
-    
+
     -   :material-account-search: **Know the Role**
-    
+
         ---
-        
+
         Review job description thoroughly before referring
-    
+
     -   :material-account-check: **Qualify Candidates**
-    
+
         ---
-        
+
         Ensure they meet minimum requirements
-    
+
     -   :material-information: **Provide Context**
-    
+
         ---
-        
+
         Give HR detailed information about candidate's background
-    
+
     -   :material-speedometer: **Act Quickly**
-    
+
         ---
-        
+
         Refer before candidate applies through other channels
-    
+
     -   :material-handshake: **Stay Connected**
-    
+
         ---
-        
+
         Help candidate understand our culture and values
-    
+
     </div>
 
 ## Questions ❓
@@ -188,11 +188,11 @@ graph TD
 !!! question "Need Clarification?"
 
     Contact HR for any questions about:
-    
+
     - Specific eligibility cases
     - Referral program details
     - Bonus payment status
     - Candidate pipeline status
-    
-    **Email:** Contact your HR representative  
+
+    **Email:** Contact your HR representative
     **Slack:** `#hr` channel

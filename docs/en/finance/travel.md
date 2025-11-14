@@ -12,7 +12,7 @@ This policy applies to all employees of [Ultralytics](https://www.ultralytics.co
 ## Employee Responsibilities 📋
 
 !!! warning "Pre-Approval Required"
-    
+
     All business travel must be approved by your manager **before booking**. Unapproved travel may not be reimbursed.
 
 - :material-cash-check: Travel must be business-critical, cost-effective, and approved by your manager prior to booking
@@ -32,7 +32,7 @@ graph TD
     G --> E
     E --> H[Submit Receipts]
     H --> I[Reimbursement/Reconciliation]
-    
+
     style B fill:#e1f5ff
     style D fill:#fff3cd
     style C fill:#d4edda
@@ -41,22 +41,22 @@ graph TD
 === "Under $3,000"
 
     **Standard Reimbursement Process:**
-    
+
     1. Pay expenses personally during travel
     2. Submit receipts after travel for reimbursement
     3. Receive payment within 7 business days
-    
+
     !!! tip "Best Practice"
         Use a personal credit card with travel benefits for better rewards and protection.
 
 === "$3,000+"
 
     **Upfront Reimbursement Process:**
-    
+
     1. Submit expense request with cost estimate and business justification
     2. Receive approval and payment before incurring expenses
     3. Submit receipts after travel for reconciliation
-    
+
     !!! info "Timeline"
         Allow **5 business days** for approval and payment processing.
 
@@ -65,18 +65,18 @@ graph TD
 !!! info "What Per Diem Covers"
 
     **Total per diem = Lodging + M&IE (Meals, Incidentals & Expenses)**
-    
+
     === "Included"
-        :material-check-circle: Accommodation  
-        :material-check-circle: All meals (breakfast, lunch, dinner)  
-        :material-check-circle: Tips and gratuities  
-        :material-check-circle: Ground transportation (taxi, metro, bus)  
+        :material-check-circle: Accommodation
+        :material-check-circle: All meals (breakfast, lunch, dinner)
+        :material-check-circle: Tips and gratuities
+        :material-check-circle: Ground transportation (taxi, metro, bus)
         :material-check-circle: Incidental costs (laundry, parking, etc.)
-    
+
     === "Not Included"
-        :material-close-circle: Airfare (reimbursed separately)  
-        :material-close-circle: Personal expenses  
-        :material-close-circle: Alcohol  
+        :material-close-circle: Airfare (reimbursed separately)
+        :material-close-circle: Personal expenses
+        :material-close-circle: Alcohol
         :material-close-circle: Entertainment
 
 Employees traveling for business will receive a daily per diem allowance based on their destination. The following rates apply for the full year of 2025 and will be updated on January 1st, 2026:
@@ -112,12 +112,12 @@ Employees traveling for business will receive a daily per diem allowance based o
 ??? info "How We Calculate Per Diem Rates"
 
     Ultralytics bases daily per diem rates on official U.S. government sources, adjusted to reflect our company's size and budget considerations.
-    
+
     | Region | Source | Ultralytics Rate |
     |--------|--------|------------------|
     | 🇺🇸 **CONUS** | [GSA Per Diem Rates](https://www.gsa.gov/travel/plan-book/per-diem-rates) | **75%** of official |
     | 🌍 **OCONUS** | [U.S. Department of State](https://allowances.state.gov/web920/per_diem.asp) | **50%** of official |
-    
+
     - **CONUS** = Continental United States
     - **OCONUS** = Outside Continental United States
     - Rates reviewed and updated annually on January 1st
@@ -126,37 +126,33 @@ Employees traveling for business will receive a daily per diem allowance based o
 
 <div class="grid cards" markdown>
 
--   :material-airplane: **Flights**
+- :material-airplane: **Flights**
 
-    ---
-
+    ***
     - Book **14 days in advance** (domestic)
     - Book **21 days in advance** (international)
     - **Economy class only** (no exceptions)
     - Reimbursed separately from per diem
 
--   :material-bed: **Accommodation**
+- :material-bed: **Accommodation**
 
-    ---
-
+    ***
     - Covered by per diem lodging allowance
     - **Not reimbursed separately**
     - Book within per diem budget
     - Business-appropriate location
 
--   :material-car: **Ground Transportation**
+- :material-car: **Ground Transportation**
 
-    ---
-
+    ***
     - Covered by M&IE allowance
     - Use most cost-effective option
     - Taxi, metro, bus, rideshare OK
     - Rental cars require pre-approval
 
--   :material-cash-multiple: **Cost-Effectiveness**
+- :material-cash-multiple: **Cost-Effectiveness**
 
-    ---
-
+    ***
     - Choose efficient and economical options
     - Balance cost with convenience
     - Employees arrange their own travel
@@ -176,7 +172,7 @@ Employees traveling for business will receive a daily per diem allowance based o
 !!! success "Environmental Responsibility"
 
     Prioritize virtual meetings whenever possible to minimize environmental impact. Consider:
-    
+
     - Video conferencing for routine meetings
     - Combining multiple trips into one journey
     - Direct flights to reduce emissions
@@ -187,7 +183,7 @@ Employees traveling for business will receive a daily per diem allowance based o
 !!! warning "Receipt Requirements"
 
     **Receipts required for ALL reimbursements**
-    
+
     - Upload clear photos or PDFs
     - Include itemized details
     - Submit within same fiscal quarter
@@ -198,19 +194,19 @@ Employees traveling for business will receive a daily per diem allowance based o
 ??? question "Need an Exception?"
 
     Any exceptions to this policy must be **pre-approved by your line manager** prior to travel.
-    
+
     **Common exception scenarios:**
-    
+
     - Premium cabin for flights over 8 hours (rarely approved)
     - Higher per diem for special circumstances
     - Rental car when public transport unavailable
     - Extended stays for business reasons
-    
+
     Submit exception requests with:
-    
+
     1. Business justification
     2. Cost comparison
     3. Alternative options considered
     4. Expected ROI or benefit
-    
+
     Requests reviewed case-by-case. Allow 5 business days for approval.
