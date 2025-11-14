@@ -81,18 +81,21 @@ Provide minimum 2 weeks notice for vacation, following these steps:
 Ultralytics provides clear career paths through two tracks, allowing you to advance based on your strengths and interests:
 
 **Individual Contributor (IC) Track** - IC02 through IC07
+
 - Technical excellence and deep expertise
 - Individual impact without managing people
 - Influence through knowledge and technical leadership
 - See [complete IC level descriptions](ic-levels.md)
 
 **Management Track** - M04 through M08
-- Organizational leadership and people development  
+
+- Organizational leadership and people development
 - Achieving results through building and leading teams
 - Strategic direction and resource management
 - See [complete Management level descriptions](management-levels.md)
 
 **Key Resources:**
+
 - **[Career Progression Framework](career-progression.md)** - Promotion process, compensation philosophy, switching tracks
 - **[IC Levels Guide](ic-levels.md)** - Detailed expectations for IC2-IC7
 - **[Management Levels Guide](management-levels.md)** - Detailed expectations for M4-M7
