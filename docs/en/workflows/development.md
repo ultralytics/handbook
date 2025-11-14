@@ -25,7 +25,7 @@ flowchart TD
     H -->|Changes Requested| I[Address Feedback]
     I --> H
     H -->|Approved| J[Merge!]
-    
+
     style A fill:#e1f5ff
     style J fill:#d4edda
     style G fill:#fff3cd
@@ -59,21 +59,21 @@ git checkout -b fix-issue-123
 
 <div class="grid cards" markdown>
 
--   :material-check-circle: **Follow Guidelines**
+- :material-check-circle: **Follow Guidelines**
 
-    ---
+    ***
 
     Adhere to project style guidelines
 
--   :material-alert-circle: **Avoid Errors**
+- :material-alert-circle: **Avoid Errors**
 
-    ---
+    ***
 
     Don't introduce new warnings
 
--   :material-target: **Stay Focused**
+- :material-target: **Stay Focused**
 
-    ---
+    ***
 
     Keep changes minimal and targeted
 
@@ -84,11 +84,11 @@ git checkout -b fix-issue-123
 !!! warning "Testing Required"
 
     Test locally before submitting:
-    
+
     ```bash
     pytest tests/
     ```
-    
+
     Add tests for new functionality to prevent regressions.
 
 Learn more: [Testing Requirements](ci-testing.md), [Model Validation](https://docs.ultralytics.com/modes/val/), [CI Workflows](https://docs.ultralytics.com/help/CI/)
@@ -101,10 +101,7 @@ Learn more: [Testing Requirements](ci-testing.md), [Model Validation](https://do
 git commit -m "Fix #123: Corrected calculation error"
 ```
 
-!!! tip "Commit Message Best Practices"
-    - Use present tense ("Add feature" not "Added feature")
-    - Reference issue numbers when applicable
-    - Keep subject line under 72 characters
+!!! tip "Commit Message Best Practices" - Use present tense ("Add feature" not "Added feature") - Reference issue numbers when applicable - Keep subject line under 72 characters
 
 ### 6. Create Pull Request
 
@@ -252,13 +249,13 @@ def example_small_function(arg1: int, arg2: int = 4) -> bool:
 
 ### Python Style
 
-| Standard | Requirement | Example |
-|----------|-------------|----------|
-| **Line Width** | 120 characters max | Keep lines readable and scannable |
-| **Docstrings** | [Google-style](https://google.github.io/styleguide/pyguide.html) | Types in parentheses |
-| **Imports** | `pathlib` over `os` | Modern, cross-platform paths |
-| **Type Hints** | Use when beneficial | Improves IDE support |
-| **Functions** | <50 lines ideally | Keep focused and testable |
+| Standard       | Requirement                                                      | Example                           |
+| -------------- | ---------------------------------------------------------------- | --------------------------------- |
+| **Line Width** | 120 characters max                                               | Keep lines readable and scannable |
+| **Docstrings** | [Google-style](https://google.github.io/styleguide/pyguide.html) | Types in parentheses              |
+| **Imports**    | `pathlib` over `os`                                              | Modern, cross-platform paths      |
+| **Type Hints** | Use when beneficial                                              | Improves IDE support              |
+| **Functions**  | <50 lines ideally                                                | Keep focused and testable         |
 
 ### Code Quality
 
@@ -268,7 +265,7 @@ def example_small_function(arg1: int, arg2: int = 4) -> bool:
         - [x] No unused imports or variables
         - [x] Consistent naming (`lowercase_with_underscores`)
         - [x] Clear variable names (avoid single letters except loop counters)
-    
+
     === "Formatting"
         - [x] Use f-strings for string formatting
         - [x] Comments only for complex logic
@@ -278,39 +275,39 @@ def example_small_function(arg1: int, arg2: int = 4) -> bool:
 
 <div class="grid cards" markdown>
 
--   :material-content-copy: **Avoid Duplication**
+- :material-content-copy: **Avoid Duplication**
 
-    ---
+    ***
 
     Reuse existing code - DRY principle
 
--   :material-focus-field: **Smaller Changes**
+- :material-focus-field: **Smaller Changes**
 
-    ---
+    ***
 
     Focused modifications > large-scale changes
 
--   :material-lightbulb-on: **Simplify**
+- :material-lightbulb-on: **Simplify**
 
-    ---
+    ***
 
     Look for simplification opportunities
 
--   :material-shield-check: **Compatibility**
+- :material-shield-check: **Compatibility**
 
-    ---
+    ***
 
     Avoid breaking existing code
 
--   :material-test-tube: **Add Tests**
+- :material-test-tube: **Add Tests**
 
-    ---
+    ***
 
     Include tests for new features
 
--   :material-format-paint: **Consistent Format**
+- :material-format-paint: **Consistent Format**
 
-    ---
+    ***
 
     Use [Ruff Formatter](https://github.com/astral-sh/ruff)
 

@@ -10,7 +10,7 @@ keywords: Ultralytics PTO, paid time off, 25 days vacation, vacation policy, sic
 !!! success "PTO Benefits"
 
     **25 days PTO annually** (24 days + 1 birthday) + public holidays + unlimited sick leave
-    
+
     Full allocation available from **day one** - no waiting period!
 
 **All time off requests are submitted and approved through [Rippling](https://www.rippling.com/).**
@@ -26,27 +26,27 @@ keywords: Ultralytics PTO, paid time off, 25 days vacation, vacation policy, sic
 
 <div class="grid cards" markdown>
 
--   :material-calendar-blank: **24 Flexible Days**
+- :material-calendar-blank: **24 Flexible Days**
 
-    ---
+    ***
 
     Use for vacation, personal time, or any reason
 
--   :material-cake-variant: **1 Birthday Day**
+- :material-cake-variant: **1 Birthday Day**
 
-    ---
+    ***
 
     Your birthday off as a paid day
 
--   :material-calendar-star: **Public Holidays**
+- :material-calendar-star: **Public Holidays**
 
-    ---
+    ***
 
     All official holidays in your country
 
--   :material-medical-bag: **Sick Leave**
+- :material-medical-bag: **Sick Leave**
 
-    ---
+    ***
 
     Unlimited sick days as needed
 
@@ -62,16 +62,16 @@ graph LR
     B -->|Use It| C[Refresh to 25]
     B -->|Save It| D[Rollover Up to 15 Days]
     D --> E[Max Balance: 40 Days]
-    
+
     style A fill:#e1f5ff
     style E fill:#fff3cd
 ```
 
-| Limit Type | Amount |
-|-----------|--------|
-| **Maximum balance** | 40 days total |
-| **Annual carryover** | Up to 15 days |
-| **Excess days** | Forfeited (use it or lose it!) |
+| Limit Type           | Amount                         |
+| -------------------- | ------------------------------ |
+| **Maximum balance**  | 40 days total                  |
+| **Annual carryover** | Up to 15 days                  |
+| **Excess days**      | Forfeited (use it or lose it!) |
 
 ### Tenure Milestones 🎉
 
@@ -95,7 +95,7 @@ Employees earn additional PTO days based on length of service:
 !!! info "Mid-Year Hires"
 
     Mid-year hires receive prorated PTO for the 24 flexible days based on start date.
-    
+
     **Birthday day is always included** regardless of start date!
 
 ## Types of Leave 🏖️
@@ -103,29 +103,29 @@ Employees earn additional PTO days based on length of service:
 === "Vacation Leave"
 
     **For planned time off**
-    
+
     - :material-calendar-clock: Submit requests **2 weeks in advance**
     - :material-account-group: Coordinate with your team for coverage
     - :material-calendar-check: Update calendar and Slack status
-    
+
     !!! warning "Longer Trips"
         Provide **1 month notice** for vacations exceeding 2 weeks
 
 === "Sick Leave"
 
     **When you're feeling unwell**
-    
+
     - :material-bell-alert: Notify your manager **ASAP**
     - :material-clipboard-check: Update Rippling when able
     - :material-file-document-remove: **No medical documentation** required for short absences
-    
+
     !!! success "Unlimited Policy"
         Take the time you need to recover - no tracking or limits
 
 === "Public Holidays"
 
     **Official holidays in your country**
-    
+
     - :material-calendar-star: All official government holidays
     - :material-calendar-today: Holiday calendar published annually
     - :material-home: Automatically included in PTO system
@@ -133,7 +133,7 @@ Employees earn additional PTO days based on length of service:
 === "Birthday Leave"
 
     **Celebrate your special day!**
-    
+
     - :material-cake: Schedule on or near your birthday
     - :material-check-circle: No formal approval needed
     - :material-account-voice: Just inform your team
@@ -144,15 +144,15 @@ Employees earn additional PTO days based on length of service:
 
     === "🇬🇧 United Kingdom"
         [GOV.UK Bank Holidays](https://www.gov.uk/bank-holidays) - Official government bank holidays
-    
+
     === "🇪🇸 Spain"
         [BOE Calendar](https://www.boe.es/diario_boe/calendarios.php) - Official State Gazette (Boletín Official del Estado)
-        
+
         **Madrid:** [City Holidays](https://app.powerbi.com/view?r=eyJrIjoiMWE4ZGU0ZmMtNTI1NC00NWRjLTk3NWYtNTAyMzAwZTI3NDdmIiwidCI6ImI0NTMyYWE2LTE4OTUtNDk2NC1iOWMwLTIyYjE0NDQ0MjcxYiIsImMiOjl9) - Official Madrid city holidays
-    
+
     === "🇨🇳 China"
         [State Council Public Holidays](https://english.www.gov.cn/policies/latestreleases/202411/12/content_WS67331db5c6d0868f4e8ecd92.html) - Official government announcement
-    
+
     === "🇺🇸 United States"
         [OPM Federal Holidays](https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/) - Office of Personnel Management
 
@@ -168,7 +168,7 @@ flowchart TD
     F --> G[Set Email Auto-Responder]
     C -->|No| H[Discuss with Manager]
     H --> A
-    
+
     style A fill:#e1f5ff
     style G fill:#d4edda
 ```
@@ -181,12 +181,12 @@ flowchart TD
 
 ### Minimum Notice Requirements
 
-| Leave Type       | Notice Required | Example |
-| ---------------- | --------------- | ------- |
-| **Planned vacation** | 2 weeks | Submit by May 1 for May 15 trip |
-| **Short breaks** | 1 week | Submit by Monday for next Monday |
-| **Sick leave** | ASAP | Same-day notification |
-| **Birthday leave** | 1 week | Casual team notification |
+| Leave Type           | Notice Required | Example                          |
+| -------------------- | --------------- | -------------------------------- |
+| **Planned vacation** | 2 weeks         | Submit by May 1 for May 15 trip  |
+| **Short breaks**     | 1 week          | Submit by Monday for next Monday |
+| **Sick leave**       | ASAP            | Same-day notification            |
+| **Birthday leave**   | 1 week          | Casual team notification         |
 
 !!! warning "Longer Vacations"
 
@@ -198,27 +198,27 @@ flowchart TD
 
 <div class="grid cards" markdown>
 
--   :material-account-group: **Notify Your Team**
+- :material-account-group: **Notify Your Team**
 
-    ---
+    ***
 
     Give advance notice and discuss coverage
 
--   :material-file-document: **Document Work**
+- :material-file-document: **Document Work**
 
-    ---
+    ***
 
     Record ongoing tasks and handoffs
 
--   :material-calendar-sync: **Update Systems**
+- :material-calendar-sync: **Update Systems**
 
-    ---
+    ***
 
     Calendar, Slack status, email auto-responder
 
--   :material-account-switch: **Identify Backup**
+- :material-account-switch: **Identify Backup**
 
-    ---
+    ***
 
     Designate backup contacts for urgent issues
 
@@ -237,13 +237,13 @@ flowchart TD
 !!! warning "Use It or Lose It (Partially)"
 
     === "Rollover Policy"
-    
+
         - **Up to 15 days** roll over to next calendar year
         - Days beyond 15 are **forfeited**
         - Maximum balance cannot exceed **40 days**
-    
+
     === "No Payout"
-    
+
         - PTO does **not pay out** upon termination
         - Use your time throughout the year!
 
@@ -256,7 +256,7 @@ Exceptions may be considered for:
     - Extended illness preventing PTO use
     - Business-critical projects requiring deferral
     - Other exceptional situations
-    
+
     **Manager pre-approval required** - discuss with your manager if you anticipate needing an exception.
 
 ## International Considerations 🌍
@@ -264,9 +264,9 @@ Exceptions may be considered for:
 !!! info "Local Labor Laws"
 
     Some countries require additional leave benefits beyond this policy.
-    
+
     **When local law provides greater benefits, those requirements apply.**
-    
+
     Contact HR if you have questions about your specific location.
 
 ## PTO Examples 💡
@@ -274,7 +274,7 @@ Exceptions may be considered for:
 ??? example "Standard Vacation Request"
 
     **Scenario:** 2-week vacation in August
-    
+
     ```
     1. June 15: Submit request in Rippling for Aug 1-14
     2. June 16: Manager approves in Rippling
@@ -287,7 +287,7 @@ Exceptions may be considered for:
 ??? example "Sick Day"
 
     **Scenario:** Wake up feeling ill
-    
+
     ```
     1. 8:00 AM: Slack/email manager: "Feeling unwell, taking sick day"
     2. When able: Submit sick day in Rippling
@@ -297,7 +297,7 @@ Exceptions may be considered for:
 ??? example "Birthday Leave"
 
     **Scenario:** Birthday on Thursday, July 10
-    
+
     ```
     1. July 3: Mention to team: "Taking July 10 off for birthday"
     2. July 8: Submit in Rippling for July 10
@@ -308,15 +308,15 @@ Exceptions may be considered for:
 ??? example "Year-End Rollover"
 
     **Scenario:** 30 unused days at year-end
-    
+
     ```
     Starting balance: 30 days
     Rollover limit: 15 days
     Forfeited: 15 days
-    
+
     Jan 1 balance: 15 (rollover) + 25 (new allocation) = 40 days
     ```
-    
+
     !!! warning "Use Your Time"
         This employee lost 15 days! Plan vacations throughout the year.
 

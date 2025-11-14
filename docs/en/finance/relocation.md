@@ -17,21 +17,21 @@ This policy applies to full-time employees approved for relocation to our London
 
 <div class="grid cards" markdown>
 
--   :flag_es: **Madrid, Spain**
+- :flag_es: **Madrid, Spain**
 
-    ---
+    ***
 
     [Cra de S. Jerónimo, 15 Centro, 28014 Madrid](https://maps.app.goo.gl/nxB8YygRQeXSS9G18)
 
--   :flag_cn: **Shenzhen, China**
+- :flag_cn: **Shenzhen, China**
 
-    ---
+    ***
 
     [5F, CR Land Tower D, 91 Kefa Road, Nanshan District](https://maps.google.com/?q=5F,+CR+Land+Tower+D,+91+Kefa+Road,+Nanshan+District,+Shenzhen,+China)
 
--   :flag_gb: **London, UK**
+- :flag_gb: **London, UK**
 
-    ---
+    ***
 
     [50 York Way, London N1 9AB](https://maps.app.goo.gl/9sdE3KrQVwc2shb86)
 
@@ -45,12 +45,12 @@ This policy applies to full-time employees approved for relocation to our London
 
 Relocation assistance is reserved for employees who meet the following criteria:
 
-| Requirement | Details |
-|------------|---------|
-| **Role** | Senior positions: engineering leads, department heads, key technical contributors, or strategic roles |
-| **Performance** | Consistently meeting or exceeding expectations |
-| **Tenure** | Minimum **6 months** employment (waived for strategic new hires or critical roles) |
-| **Business Need** | Initiated by management for business-critical reasons or strategic goals |
+| Requirement       | Details                                                                                               |
+| ----------------- | ----------------------------------------------------------------------------------------------------- |
+| **Role**          | Senior positions: engineering leads, department heads, key technical contributors, or strategic roles |
+| **Performance**   | Consistently meeting or exceeding expectations                                                        |
+| **Tenure**        | Minimum **6 months** employment (waived for strategic new hires or critical roles)                    |
+| **Business Need** | Initiated by management for business-critical reasons or strategic goals                              |
 
 !!! tip "Not Sure If You Qualify?"
 
@@ -65,7 +65,7 @@ graph TD
     C --> D[Paid After Relocation Complete]
     D --> E[New Address Confirmed]
     E --> F[Payment in Next Payroll]
-    
+
     style A fill:#e1f5ff
     style B fill:#d4edda
     style F fill:#d4edda
@@ -78,7 +78,7 @@ Eligible employees receive a **one-time, flat-rate payment of $6,000 USD**.
 === "What's Covered"
 
     This payment is intended to cover:
-    
+
     - :material-airplane: Travel costs to new location
     - :material-package-variant: Shipping of personal belongings
     - :material-home: Temporary accommodation
@@ -103,24 +103,24 @@ Eligible employees receive a **one-time, flat-rate payment of $6,000 USD**.
 ## Approval Process 🔄
 
 1. **Request Submission**
-   - Direct manager submits relocation request
-   - Must include strong business justification
-   - Proposed timeline required
+    - Direct manager submits relocation request
+    - Must include strong business justification
+    - Proposed timeline required
 
 2. **Management Review**
-   - Reviewed by senior management
-   - Decision typically within **10 business days**
-   - May request additional information
+    - Reviewed by senior management
+    - Decision typically within **10 business days**
+    - May request additional information
 
 3. **Confirmation**
-   - HR provides written confirmation if approved
-   - Formal relocation agreement issued
-   - Employee signs agreement before relocating
+    - HR provides written confirmation if approved
+    - Formal relocation agreement issued
+    - Employee signs agreement before relocating
 
 !!! note "Business Justification Requirements"
 
     The business case should include:
-    
+
     - Employee's role and responsibilities
     - Strategic importance of the move
     - How relocation serves business goals
@@ -146,7 +146,7 @@ Eligible employees receive a **one-time, flat-rate payment of $6,000 USD**.
 === "Repayment Clause"
 
     If you **voluntarily resign** before the 18-month period:
-    
+
     - ❌ Must repay **full $6,000** reimbursement
     - ❌ Payment due within 30 days of departure
     - ❌ May be deducted from final paycheck where legally permitted
@@ -155,21 +155,21 @@ Eligible employees receive a **one-time, flat-rate payment of $6,000 USD**.
 
 <div class="grid cards" markdown>
 
--   :material-home-city: **Proof of Residence**
+- :material-home-city: **Proof of Residence**
 
-    ---
+    ***
 
     Must provide proof of new residence in hub city
 
--   :material-receipt: **Expense Records**
+- :material-receipt: **Expense Records**
 
-    ---
+    ***
 
     Receipts not required for flat-rate, but keep for personal tax purposes
 
--   :material-file-sign: **Agreement**
+- :material-file-sign: **Agreement**
 
-    ---
+    ***
 
     Sign formal relocation agreement before move
 
@@ -182,11 +182,11 @@ Eligible employees receive a **one-time, flat-rate payment of $6,000 USD**.
 !!! info "Tax Information"
 
     The $6,000 relocation payment is considered **taxable income** and will be subject to applicable taxes.
-    
+
     - Included in W-2 or equivalent tax document
     - Subject to standard payroll tax withholding
     - May affect your overall tax bracket
-    
+
     **Recommendation:** Consult with a tax advisor for personal tax planning
 
 ### Onsite Work Requirements
@@ -194,7 +194,7 @@ Eligible employees receive a **one-time, flat-rate payment of $6,000 USD**.
 !!! warning "Office Attendance"
 
     **All employees work onsite 5 days per week** at their office location.
-    
+
     - Relocated employees must work full-time from new office
     - Must comply with local office policies
     - No remote work exceptions without separate approval
@@ -204,12 +204,12 @@ Eligible employees receive a **one-time, flat-rate payment of $6,000 USD**.
 ??? question "What About Special Cases?"
 
     Exceptions to this policy will be considered **case-by-case** for:
-    
+
     - Strategic new hires
     - Unforeseen operational requirements
     - Business-critical needs
     - Executive-level positions
-    
+
     **All exceptions require written approval from senior management.**
 
 ## Relocation Timeline Example 📅
@@ -220,27 +220,27 @@ Eligible employees receive a **one-time, flat-rate payment of $6,000 USD**.
     gantt
         title Sample 3-Month Relocation Timeline
         dateFormat YYYY-MM-DD
-        
+
         section Planning
         Manager Discussion           :2025-01-01, 7d
         Request Submission          :2025-01-08, 3d
         Management Review           :2025-01-11, 10d
-        
+
         section Preparation
         Agreement Signing           :2025-01-21, 3d
         Housing Search             :2025-01-24, 21d
         Visa/Immigration (if needed):2025-01-24, 30d
-        
+
         section Execution
         Pack & Ship Belongings     :2025-02-10, 7d
         Travel to New Location     :2025-02-17, 3d
         Setup New Residence        :2025-02-20, 7d
-        
+
         section Completion
         Confirm New Address        :2025-02-27, 3d
         Reimbursement Payment      :2025-03-05, 5d
     ```
-    
+
     **Total Timeline:** Approximately 2-3 months from initial discussion to payment
 
 ## Questions?
@@ -248,7 +248,7 @@ Eligible employees receive a **one-time, flat-rate payment of $6,000 USD**.
 !!! question "Need Help?"
 
     Contact the appropriate team:
-    
+
     | Question Type | Contact |
     |--------------|---------|
     | **Eligibility** | Your direct manager |
