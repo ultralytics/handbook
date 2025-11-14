@@ -372,10 +372,10 @@ Create targeted growth plans:
 
 ## Related Resources
 
-- **[Management Levels](management-levels.md)** - Detailed M04-M08 expectations for leadership track
-- **[Career Progression](career-progression.md)** - Complete framework, promotion process, track switching
-- **[People & Benefits](index.md)** - Comprehensive people policies and resources
-- **[Onboarding](onboarding.md)** - Level expectations for new team members
+- **[Management Levels](levels-management.md)** - Detailed M04-M08 expectations for leadership track
+- **[Career Progression](index.md)** - Complete framework, promotion process, track switching
+- **[People & Benefits](../index.md)** - Comprehensive people policies and resources
+- **[Onboarding](../onboarding.md)** - Level expectations for new team members
 
 ---
 
