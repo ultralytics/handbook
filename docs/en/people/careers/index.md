@@ -22,7 +22,7 @@ Ultralytics' career framework provides clear expectations for each level and gui
 graph TB
     IC_TITLE["🔵 Individual Contributor Track"]
     MGMT_TITLE["🟠 Management Track"]
-    
+
     subgraph IC [" "]
         direction LR
         IC02[IC02<br/>Associate] --> IC03[IC03<br/>Professional]
@@ -31,7 +31,7 @@ graph TB
         IC05 --> IC06[IC06<br/>Senior Staff]
         IC06 --> IC07[IC07<br/>Principal]
     end
-    
+
     subgraph MGMT [" "]
         direction LR
         M04[M04<br/>Lead Manager] --> M05[M05<br/>Manager]
@@ -40,15 +40,15 @@ graph TB
         M07 --> M08[M08<br/>Director]
         M08 --> M09[M09<br/>VP]
     end
-    
+
     IC_TITLE -.-> IC
     MGMT_TITLE -.-> MGMT
-    
+
     IC04 <-.->|Switch| M04
     IC05 <-.->|Switch| M04
     IC05 <-.->|Switch| M05
     IC06 <-.->|Switch| M05
-    
+
     style IC_TITLE fill:none,stroke:none,color:#0288d1
     style MGMT_TITLE fill:none,stroke:none,color:#ff9800
     style IC02 fill:#e1f5ff,stroke:#0288d1
