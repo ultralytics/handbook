@@ -123,12 +123,7 @@ Strong promotion cases include:
 
 ### Self-Advocacy Tips
 
-!!! tip "Demonstrating Readiness"
-    - **Document Wins**: Keep running list of achievements and impact 
-    - **Seek Feedback**: Regularly ask manager about readiness and gaps 
-    - **Fill Gaps**: Proactively take on next-level work and responsibilities 
-    - **Build Visibility**: Share work in demos, docs, and cross-team forums 
-    - **Be Patient**: Promotions reward sustained performance, not single achievements
+!!! tip "Demonstrating Readiness" - **Document Wins**: Keep running list of achievements and impact - **Seek Feedback**: Regularly ask manager about readiness and gaps - **Fill Gaps**: Proactively take on next-level work and responsibilities - **Build Visibility**: Share work in demos, docs, and cross-team forums - **Be Patient**: Promotions reward sustained performance, not single achievements
 
 ---
 
