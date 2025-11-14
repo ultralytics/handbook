@@ -20,7 +20,7 @@ graph LR
     M06 --> M07[M07<br/>Head of<br/>50% Ops]
     M07 --> M08[M08<br/>Director<br/>40% Ops]
     M08 --> M09[M09<br/>VP/SVP<br/>30% Ops]
-    
+
     style M04 fill:#fff3e0
     style M05 fill:#ffe0b2
     style M06 fill:#ffcc80

@@ -20,7 +20,7 @@ graph LR
     IC04 --> IC05[IC05<br/>Staff<br/>Senior/Seasoned]
     IC05 --> IC06[IC06<br/>Senior Staff<br/>Expert]
     IC06 --> IC07[IC07<br/>Principal<br/>Lead]
-    
+
     style IC02 fill:#e1f5ff
     style IC03 fill:#b3e5fc
     style IC04 fill:#81d4fa
