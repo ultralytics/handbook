@@ -1,9 +1,9 @@
 ---
-description: Management career levels M04-M08 at Ultralytics with detailed expectations, internal banding, people leadership scope, and strategic impact.
-keywords: management levels, leadership ladder, manager career, people management, M04, M05, M06, M07, M08, engineering manager, director, VP, YOLO11
+description: Management career levels M04-M09 at Ultralytics with detailed expectations, internal banding, people leadership scope, and strategic impact.
+keywords: management levels, leadership ladder, manager career, people management, M04, M05, M06, M07, M08, M09, engineering manager, director, VP, YOLO11
 ---
 
-# Management Levels (M04-M08)
+# Management Levels (M04-M09)
 
 Comprehensive career framework for Management roles at Ultralytics, defining expectations from first-line management through executive leadership. Use these descriptions for leadership development, hiring decisions, and promotion planning.
 
@@ -13,7 +13,7 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ## Career Progression
 
-**M04 (Lead Manager)** → **M05 (Manager)** → **M06 (Senior Manager)** → **M07 (Head of)** → **M08 (Director/VP)**
+**M04 (Lead Manager)** → **M05 (Manager)** → **M06 (Senior Manager)** → **M07 (Head of)** → **M08 (Director)** → **M09 (VP)**
 
 ## Level Overview
 
@@ -23,7 +23,8 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 | [M05](#m05-manager)        | Manager        | Management                             | 70% Ops / 30% Strategic |
 | [M06](#m06-senior-manager) | Senior Manager | Senior Manager                         | 60% Ops / 40% Strategic |
 | [M07](#m07-head-of)        | Head of        | Head of Middle Management              | 50% Ops / 50% Strategic |
-| [M08](#m08-directorvp)     | Director / VP  | Director Senior Management             | 40% Ops / 60% Strategic |
+| [M08](#m08-director)       | Director       | Director Management                    | 40% Ops / 60% Strategic |
+| [M09](#m09-vp)             | VP / SVP       | Senior Executive Management            | 30% Ops / 70% Strategic |
 
 ---
 
@@ -47,10 +48,10 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ### Span & Team Structure
 
-- **Typical Direct Reports**: 3-8 individual contributors (primarily IC02-IC04)
+- **Typical Direct Reports**: 2-4 individual contributors (primarily IC02-IC04)
 - **Organizational Depth**: Single layer - manages ICs directly
 - **Team Scope**: Single discipline or closely related tasks within one function
-- **Budget Responsibility**: Typically under $500K annually, primarily team operational costs
+- **Budget Responsibility**: Typically $100K-$250K annually, primarily team operational costs
 - **Time Horizon**: Day-to-day and weekly planning, monthly goal setting
 
 ### Typical Background
@@ -112,10 +113,10 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ### Span & Team Structure
 
-- **Typical Direct Reports**: 8-15 people (mix of ICs, leads, or 2-4 first-level managers)
+- **Typical Direct Reports**: 4-8 people (mix of ICs, leads, or 2-3 first-level managers)
 - **Organizational Depth**: May have 2 layers if managing other managers
 - **Team Scope**: Multiple teams or disciplines, possibly cross-functional
-- **Budget Responsibility**: Typically $500K-$2M annually including salaries and operational costs
+- **Budget Responsibility**: Typically $250K-$750K annually including salaries and operational costs
 - **Time Horizon**: Weekly and monthly operations, quarterly planning and goal setting
 
 ### Typical Background
@@ -173,10 +174,10 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ### Span & Team Structure
 
-- **Typical Direct Reports**: 15-25 people through 3-5 managers
+- **Typical Direct Reports**: 7-13 people through 2-3 managers
 - **Organizational Depth**: May have 2-3 layers of management reporting through hierarchy
 - **Team Scope**: Multiple related functions, large single function, or cross-functional organization
-- **Budget Responsibility**: Typically $2M-$8M annually including full department P&L
+- **Budget Responsibility**: Typically $750K-$2M annually including full department P&L
 - **Time Horizon**: Monthly operations, quarterly execution, annual strategic planning
 
 ### Typical Background
@@ -234,10 +235,10 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ### Span & Team Structure
 
-- **Typical Direct Reports**: 20-40 people through 4-6 senior managers/directors
+- **Typical Direct Reports**: 10-20 people through 2-4 senior managers/directors
 - **Organizational Depth**: Has 3-4 levels of management reporting through organizational hierarchy
 - **Team Scope**: Multiple related functions, very large single function, or division-level responsibility
-- **Budget Responsibility**: Typically $8M-$15M annually with full P&L accountability for business segment
+- **Budget Responsibility**: Typically $2M-$4M annually with full P&L accountability for business segment
 - **Time Horizon**: Quarterly operations, annual execution, multi-year strategic vision and planning
 
 ### Typical Background
@@ -275,18 +276,79 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ---
 
-## M08: Director/VP
+## M08: Director
 
-**Career Stage**: Director Senior Management  
-**Typical Roles**: Senior VP, Executive VP, Chief Officers (CTO, CPO, etc.)  
-**Focus**: 40% Operational / 60% Strategic - Senior executive leadership with board-level partnership
+**Career Stage**: Director Management  
+**Typical Roles**: Director of Engineering, Director of Product, Director of Operations  
+**Focus**: 40% Operational / 60% Strategic - Functional director with executive influence
 
 ### Core Expectations
 
 | Dimension                           | M08 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Leadership &<br>Scope**           | Leads multiple functions/divisions with global reach and strategic company-wide impact<br>Directs through multiple layers of senior leadership including VPs and directors<br>Drives multi-year strategic vision and transformation initiatives across organization<br>Partners directly with CEO and board on company strategy and competitive positioning<br>Full P&L accountability for major business segments or entire functional areas                                                           |
-| **People<br>Management**            | Accountable for organization-wide talent strategy and executive leadership development<br>Manages exclusively through VPs and senior directors with multiple organizational layers<br>Sets company culture standards and drives organizational effectiveness at highest level<br>Leads succession planning for executive leadership and critical organizational roles<br>Accountable for building world-class organizational capability as competitive differentiator                                   |
+| **Leadership &<br>Scope**           | Leads large functional area or multiple sub-functions with company-wide impact<br>Directs through senior managers and directors, builds strong management bench<br>Drives multi-year strategic initiatives in partnership with executive team<br>Influences company strategy through functional expertise and leadership<br>P&L accountability for major functional area affecting company performance                                                             |
+| **People<br>Management**            | Accountable for functional talent strategy and leadership development<br>Manages through senior managers and directors with multiple organizational layers<br>Sets functional culture and performance standards across organization<br>Drives succession planning and leadership pipeline development<br>Builds world-class functional capability and organizational bench strength                                                                                |
+| **Expertise &<br>Technical Skills** | Demonstrates deep expertise across functional domain with strong business acumen<br>Recognized functional authority playing key role in organizational capability<br>Drives innovation and best practices that improve organizational effectiveness<br>Well-versed in industry methodologies and emerging functional trends<br>Builds functional knowledge through strategic hiring, development, and process improvement                                           |
+| **Decision Making &<br>Impact**     | Makes strategic decisions on functional direction with company-wide implications<br>Works with executive team to align functional strategy with company objectives<br>Accountable for functional financial results directly impacting company performance<br>Influences executive decisions through functional expertise and data-driven recommendations<br>Outcomes significantly affect company capability, efficiency, and competitive position                  |
+| **Stakeholder<br>Management**       | Manages complex stakeholder relationships across functional and executive levels<br>Contributes to executive strategy development and company planning processes<br>Builds strong relationships with peer directors and executive leadership<br>Influences through data, functional expertise, and collaborative problem solving<br>Represents function effectively in company-wide strategic discussions                                                           |
+| **Complexity &<br>Problem Solving** | Solves highly complex functional challenges with company-wide implications<br>Translates business strategy into functional plans and measurable outcomes<br>Guides teams in solving systemic organizational challenges effectively<br>Works on issues requiring sophisticated analysis and strategic thinking<br>Develops innovative solutions to persistent functional and organizational challenges                                                            |
+| **Collaboration & Communication**   | Communicates functional strategy effectively to executive team and organization<br>Represents function in executive forums and company-wide strategic planning<br>Influences executive leadership through effective advocacy and data-driven insights<br>Builds collaborative relationships with peer directors and cross-functional leaders<br>Communicates complex functional matters clearly to diverse audiences                                                |
+
+### Span & Team Structure
+
+- **Typical Direct Reports**: 15-25 people through 3-4 senior managers/directors
+- **Organizational Depth**: Has 3-4 levels of management reporting through hierarchy
+- **Team Scope**: Large functional area or multiple related sub-functions
+- **Budget Responsibility**: Typically $3M-$5M annually with full functional P&L
+- **Time Horizon**: Quarterly execution, annual strategic planning, multi-year vision
+
+### Typical Background
+
+- **Bachelor's degree + 12 years experience** OR **Master's degree + 9 years** OR **PhD + 7 years**
+- Proven track record of functional leadership at senior management level
+- Strong strategic thinking and executive presence
+- Demonstrated ability to influence at executive level
+- Experience building high-performing functional organizations
+
+### Success Indicators
+
+!!! success "Key Performance Signals"
+
+    - ✅ Function consistently achieves strategic objectives with measurable impact
+    - ✅ Successfully drives multi-year functional transformations
+    - ✅ Develops strong management bench and future functional leaders
+    - ✅ Influences company strategy through functional expertise
+    - ✅ Makes high-impact decisions on functional direction and resource allocation
+    - ✅ Builds organizational capability recognized as competitive advantage
+    - ✅ Recognized as functional authority by executive team
+
+### Common Development Areas
+
+- Expanding influence from functional to company-wide strategic impact
+- Developing executive communication and board-level presence
+- Building stronger peer relationships across executive leadership
+- Growing influence on overall company strategy and direction
+- Strengthening ability to drive cross-functional transformation
+- Developing next generation of functional executives
+
+!!! note "Director Leadership"
+
+    M08 represents senior functional leadership with significant company influence. Success requires balancing functional execution (40%) with strategic leadership (60%) while developing strong organizational capability.
+
+---
+
+## M09: VP
+
+**Career Stage**: Senior Executive Management  
+**Typical Roles**: VP of Engineering, VP of Product, SVP, Chief Officers (CTO, CPO, CDO)  
+**Focus**: 30% Operational / 70% Strategic - Senior executive leadership with board-level partnership
+
+### Core Expectations
+
+| Dimension                           | M09 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Leadership &<br>Scope**           | Leads multiple functions/divisions with global reach and strategic company-wide impact<br>Directs through multiple directors and senior managers with extensive organizational hierarchy<br>Drives multi-year strategic vision and transformation initiatives across organization<br>Partners directly with CEO and board on company strategy and competitive positioning<br>Full P&L accountability for major business segments or entire functional areas                                              |
+| **People<br>Management**            | Accountable for organization-wide talent strategy and executive leadership development<br>Manages exclusively through directors and senior managers with multiple organizational layers<br>Sets company culture standards and drives organizational effectiveness at highest level<br>Leads succession planning for executive leadership and critical organizational roles<br>Accountable for building world-class organizational capability as competitive differentiator                                 |
 | **Expertise &<br>Technical Skills** | Demonstrates deep expertise across multiple domains with exceptional business and strategic acumen<br>Recognized industry authority that shapes organizational intellectual capital and competitive advantage<br>Drives innovation and strategic initiatives that define company's market position<br>Maintains extensive industry networks and shapes industry standards and best practices<br>Builds organizational capability through strategic acquisitions, partnerships, and talent development   |
 | **Decision Making &<br>Impact**     | Defines company-wide strategy and long-term vision in partnership with CEO and board<br>Makes strategic decisions with transformative impact on company trajectory and market position<br>Accountable for major business segment performance directly affecting shareholder value<br>Influences board-level strategic decisions and drives company-wide transformation<br>Outcomes directly shape company's competitive position, market valuation, and industry standing                               |
 | **Stakeholder<br>Management**       | Manages most critical external relationships including investors, board members, key customers<br>Represents company at highest levels to industry, partners, investors, and regulatory bodies<br>Builds and maintains executive networks across industry and global business community<br>Drives consensus and alignment on most critical strategic initiatives across entire organization<br>Serves as primary executive voice for function and company strategy externally                           |
@@ -295,16 +357,16 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ### Span & Team Structure
 
-- **Typical Direct Reports**: 30+ people through multiple VPs and directors
+- **Typical Direct Reports**: 20+ people through multiple directors and senior managers
 - **Organizational Depth**: Has 4+ levels of management reporting through organizational hierarchy
 - **Team Scope**: Multiple major functions, division-level, or company-wide responsibility
-- **Budget Responsibility**: Typically $15M+ annually with full P&L accountability for major segments
+- **Budget Responsibility**: Typically $5M+ annually with full P&L accountability for major segments
 - **Time Horizon**: Annual execution, multi-year strategic vision, long-term market positioning
 
 ### Typical Background
 
-- **Bachelor's degree + 15+ years experience** OR **Master's degree + 11+ years** OR **PhD + 9+ years**
-- Proven track record of executive leadership with measurable business impact at VP level
+- **Bachelor's degree + 15+ years experience** OR **Master's degree + 12+ years** OR **PhD + 10+ years**
+- Proven track record of executive leadership with measurable business impact at director level
 - Recognized industry authority with extensive executive networks and influence
 - Demonstrated ability to drive organizational transformation and growth at scale
 - Strong board-level presence and strategic partnership capabilities
@@ -332,22 +394,22 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 !!! note "Senior Executive Leadership"
 
-    M08 represents senior executive leadership with board-level partnership. Success requires prioritizing strategic leadership (60%) over operational execution (40%) while maintaining organizational excellence and driving transformative change.
+    M09 represents senior executive leadership with board-level partnership. Success requires prioritizing strategic leadership (70%) over operational execution (30%) while maintaining organizational excellence and driving transformative change.
 
 ---
 
 ## Level Comparison Matrix
 
-| Dimension        | M04      | M05         | M06              | M07             | M08              |
-| ---------------- | -------- | ----------- | ---------------- | --------------- | ---------------- |
-| **Focus**        | 80/20    | 70/30       | 60/40            | 50/50           | 40/60            |
-| **Span**         | 3-8 ICs  | 8-15 people | 15-25 people     | 20-40 people    | 30+ people       |
-| **Layers**       | 1 layer  | 1-2 layers  | 2-3 layers       | 3-4 layers      | 4+ layers        |
-| **Scope**        | Team     | Multi-team  | Function         | Multi-function  | Division/Company |
-| **Planning**     | Monthly  | Quarterly   | Annual           | Multi-year      | Long-term vision |
-| **Budget**       | <$500K   | $500K-$2M   | $2M-$8M          | $8M-$15M        | $15M+            |
-| **Stakeholders** | Defined  | Varied      | Cross-org        | Executive/Board | Board/Investors  |
-| **Problems**     | Moderate | Complex     | Cross-discipline | Strategic       | Transformative   |
+| Dimension        | M04         | M05       | M06        | M07        | M08         | M09         |
+| ---------------- | ----------- | --------- | ---------- | ---------- | ----------- | ----------- |
+| **Focus**        | 80/20       | 70/30     | 60/40      | 50/50      | 40/60       | 30/70       |
+| **Span**         | 2-4 ICs     | 4-8       | 7-13       | 10-20      | 15-25       | 20+         |
+| **Layers**       | 1 layer     | 1-2       | 2-3        | 3-4        | 3-4         | 4+          |
+| **Scope**        | Team        | Multi-tm  | Function   | Multi-func | Division    | Company     |
+| **Planning**     | Monthly     | Quarterly | Annual     | Multi-year | Multi-year  | Long-term   |
+| **Budget**       | $100K-$250K | $250-750K | $750K-$2M  | $2M-$4M    | $3M-$5M     | $5M+        |
+| **Stakeholders** | Defined     | Varied    | Cross-org  | Exec/Board | Exec/Board  | Board/Inv   |
+| **Problems**     | Moderate    | Complex   | Cross-disc | Strategic  | Strategic   | Transform   |
 
 ## Core Management Competencies
 
@@ -400,7 +462,8 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 - **M04 → M05**: 18-24 months demonstrating multi-team coordination and management excellence
 - **M05 → M06**: 24-36 months demonstrating functional leadership and strategic impact
 - **M06 → M07**: 36+ months demonstrating executive-level influence and organizational transformation
-- **M07 → M08**: 48+ months demonstrating senior executive leadership and board-level partnership
+- **M07 → M08**: 36+ months demonstrating director-level functional leadership and execution
+- **M08 → M09**: 48+ months demonstrating senior executive leadership and board-level partnership
 
 !!! warning "Promotion Requirements"
 
