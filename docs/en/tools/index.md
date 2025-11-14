@@ -50,7 +50,7 @@ This is a summary of the most common procedures. For full details, please refer 
 
     Check out the [Onboarding Guide](../people/onboarding.md) for a complete first 90 days roadmap, including detailed equipment setup instructions.
 
-- **New Equipment:** Standard issue for new hires is a **MacBook Air** and **AirPods Pro**. Remote employees order their own and submit for reimbursement.
+- **New Equipment:** Standard issue for new hires is a **MacBook Air** and **AirPods Pro**.
 - **Replacements & Upgrades:** You are eligible for a hardware refresh every **2 years**. The **Apple Trade-In** process is required for all replacements.
 - **Reimbursement:** For replacements, the reimbursed amount is the **net cost** (new device price minus the Apple trade-in credit).
 - **Mandatory Security:** All devices used for work (computers and mobile) **MUST** have **Rippling MDM** installed before use.

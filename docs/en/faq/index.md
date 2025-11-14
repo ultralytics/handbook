@@ -96,9 +96,9 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 ??? question "What does per diem cover when traveling?"
 
     === "Included in Per Diem"
-        - :material-check: All meals (breakfast, lunch, dinner)
-        - :material-check: Ground transportation (taxis, rideshares, public transit)
-        - :material-check: Incidental expenses (tips, laundry, parking)
+        - [x] All meals (breakfast, lunch, dinner)
+        - [x] Ground transportation (taxis, rideshares, public transit)
+        - [x] Incidental expenses (tips, laundry, parking)
     
     === "Reimbursed Separately"
         - :material-airplane: Airfare (economy class only)
