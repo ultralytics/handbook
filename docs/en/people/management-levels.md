@@ -1,5 +1,5 @@
 ---
-description: Management career levels M04-M08 at Ultralytics with detailed expectations, internal banding codes, people leadership scope, and strategic impact.
+description: Management career levels M04-M08 at Ultralytics with detailed expectations, internal banding, people leadership scope, and strategic impact.
 keywords: management levels, leadership ladder, manager career, people management, M04, M05, M06, M07, M08, engineering manager, director, VP, YOLO11
 ---
 
@@ -11,15 +11,15 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
     Management roles achieve results through building and leading teams. All management positions include direct reports and HR responsibilities. Both [IC](ic-levels.md) and Management tracks offer equal advancement potential and compensation at equivalent scope levels. See [Career Progression](career-progression.md) for complete framework.
 
-## Level Overview & Banding Codes
+## Level Overview
 
-| Level                      | Title          | Career Stage                           | Internal Codes          | Ops/Strategic Focus     |
-| -------------------------- | -------------- | -------------------------------------- | ----------------------- | ----------------------- |
-| [M04](#m04-lead-manager)   | Lead Manager   | Lead Supervisory / Manager Supervisory | 003, 005, 081, 082 (M1) | 80% Ops / 20% Strategic |
-| [M05](#m05-manager)        | Manager        | Management                             | 006, 083 (M2)           | 70% Ops / 30% Strategic |
-| [M06](#m06-senior-manager) | Senior Manager | Senior Manager                         | 007, 084 (M3)           | 60% Ops / 40% Strategic |
-| [M07](#m07-head-of)        | Head of        | Head of Middle Management              | 008, 085 (M4)           | 50% Ops / 50% Strategic |
-| [M08](#m08-directorvp)     | Director / VP  | Director Senior Management             | 009, 086 (M5)           | 40% Ops / 60% Strategic |
+| Level                      | Title          | Career Stage                           |  Ops/Strategic Focus     |
+| -------------------------- | -------------- | -------------------------------------- |  ----------------------- |
+| [M04](#m04-lead-manager)   | Lead Manager   | Lead Supervisory / Manager Supervisory |  80% Ops / 20% Strategic |
+| [M05](#m05-manager)        | Manager        | Management                             |  70% Ops / 30% Strategic |
+| [M06](#m06-senior-manager) | Senior Manager | Senior Manager                         |  60% Ops / 40% Strategic |
+| [M07](#m07-head-of)        | Head of        | Head of Middle Management              |  50% Ops / 50% Strategic |
+| [M08](#m08-directorvp)     | Director / VP  | Director Senior Management             |  40% Ops / 60% Strategic |
 
 ---
 
