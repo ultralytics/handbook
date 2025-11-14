@@ -21,23 +21,9 @@ This Handbook serves as a **living document**, evolving alongside Ultralytics' g
 
 - **[Zensical](https://zensical.org/)** - Modern static site generator (by the creators of Material for MkDocs)
 - **[MkDocs Ultralytics Plugin](https://github.com/ultralytics/mkdocs)** - Custom features and integrations
+- **[Ultralytics Chat](https://github.com/ultralytics/llm)** - Realtime conversational AI with open-source [chat.js](https://github.com/ultralytics/llm) implementation
 - **[Vercel](https://vercel.com/)** - Hosting and deployment
 - **[GitHub Actions](https://github.com/features/actions)** - CI/CD automation
-
-### 💬 Ultralytics Chat
-
-The Handbook features **[Ultralytics Chat](https://github.com/ultralytics/llm)** - our open-source conversational AI interface powered by the lightweight [chat.js](https://github.com/ultralytics/llm) implementation. This provides real-time AI assistance for navigating handbook content, answering policy questions, and helping team members find information quickly.
-
-**Key Features:**
-
-- 🎯 **Zero Dependencies** - Vanilla JavaScript (~1000 lines), no frameworks required
-- 📱 **Mobile Optimized** - Full iOS & Android support with responsive design
-- ⚡ **Real-time Streaming** - SSE-based streaming responses with abort support
-- 🌗 **Dark Mode** - Automatic theme switching based on system preferences
-- 🔍 **Context-Aware** - Trained on Ultralytics policies, workflows, and documentation
-- 🔒 **Privacy-First** - Sessions managed locally with optional persistence
-
-Visit the [ultralytics/llm repository](https://github.com/ultralytics/llm) to explore the implementation and integrate chat.js into your own projects.
 
 ## 🛠️ Installation
 
