@@ -13,6 +13,24 @@ All contributors must adhere to our [Code of Conduct](https://docs.ultralytics.c
 
 ## Pull Request Process 🔄
 
+```mermaid
+flowchart TD
+    A[Fork Repository] --> B[Create Feature Branch]
+    B --> C[Make Changes]
+    C --> D[Run Tests Locally]
+    D --> E[Commit Changes]
+    E --> F[Create Pull Request]
+    F --> G[Sign CLA]
+    G --> H{Review}
+    H -->|Changes Requested| I[Address Feedback]
+    I --> H
+    H -->|Approved| J[Merge!]
+
+    style A fill:#e1f5ff
+    style J fill:#d4edda
+    style G fill:#fff3cd
+```
+
 ### 1. Fork the Repository
 
 [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the relevant Ultralytics repository (e.g., [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)) to your GitHub account.
@@ -31,27 +49,49 @@ cd ultralytics
 git checkout -b fix-issue-123
 ```
 
-Branch naming conventions:
+!!! tip "Branch Naming Conventions"
 
-- `fix-issue-123` for bug fixes
-- `add-feature-xyz` for new features
-- `update-docs-training` for documentation
+    - `fix-issue-123` for bug fixes
+    - `add-feature-xyz` for new features
+    - `update-docs-training` for documentation
 
 ### 3. Make Your Changes
 
-- Follow project style guidelines
-- Avoid introducing new errors or warnings
-- Keep changes focused and minimal
+<div class="grid cards" markdown>
+
+- :material-check-circle: **Follow Guidelines**
+
+    ***
+
+    Adhere to project style guidelines
+
+- :material-alert-circle: **Avoid Errors**
+
+    ***
+
+    Don't introduce new warnings
+
+- :material-target: **Stay Focused**
+
+    ***
+
+    Keep changes minimal and targeted
+
+</div>
 
 ### 4. Test Your Changes
 
-Test locally before submitting:
+!!! warning "Testing Required"
 
-```bash
-pytest tests/
-```
+    Test locally before submitting:
 
-Add tests for new functionality to prevent regressions. Learn more about [testing requirements](ci-testing.md), [model validation](https://docs.ultralytics.com/modes/val/), and our [CI workflows](https://docs.ultralytics.com/help/CI/).
+    ```bash
+    pytest tests/
+    ```
+
+    Add tests for new functionality to prevent regressions.
+
+Learn more: [Testing Requirements](ci-testing.md), [Model Validation](https://docs.ultralytics.com/modes/val/), [CI Workflows](https://docs.ultralytics.com/help/CI/)
 
 ### 5. Commit Your Changes
 
@@ -61,20 +101,25 @@ Add tests for new functionality to prevent regressions. Learn more about [testin
 git commit -m "Fix #123: Corrected calculation error"
 ```
 
-Include issue number when addressing specific issues.
+!!! tip "Commit Message Best Practices" - Use present tense ("Add feature" not "Added feature") - Reference issue numbers when applicable - Keep subject line under 72 characters
 
 ### 6. Create Pull Request
 
 [Submit PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) from your branch to `main`:
 
-- Clear title describing the change
-- Detailed description of purpose and scope
-- Link related issues
-- Include screenshots for UI changes
+=== "PR Checklist"
+
+    - [ ] Clear title describing the change
+    - [ ] Detailed description of purpose and scope
+    - [ ] Link related issues
+    - [ ] Include screenshots for UI changes
+    - [ ] Tests passing locally
 
 ### 7. Sign the CLA
 
-Before merging, you must sign our [Contributor License Agreement (CLA)](https://docs.ultralytics.com/help/CLA/). This ensures contributions are properly licensed under the [AGPL-3.0 license](https://www.ultralytics.com/legal/agpl-3-0-software-license).
+!!! warning "Required Before Merge"
+
+    You must sign our [Contributor License Agreement (CLA)](https://docs.ultralytics.com/help/CLA/) to ensure contributions are properly licensed under the [AGPL-3.0 license](https://www.ultralytics.com/legal/agpl-3-0-software-license).
 
 After submitting your PR, add this comment:
 
@@ -204,28 +249,69 @@ def example_small_function(arg1: int, arg2: int = 4) -> bool:
 
 ### Python Style
 
-- **Line width**: 120 characters maximum
-- **Docstrings**: [Google-style](https://google.github.io/styleguide/pyguide.html) with types in parentheses
-- **Imports**: Use `pathlib` instead of `os`
-- **Type hints**: Use where beneficial for clarity
-- **Functions**: Keep short and focused (under 50 lines ideally)
+| Standard       | Requirement                                                      | Example                           |
+| -------------- | ---------------------------------------------------------------- | --------------------------------- |
+| **Line Width** | 120 characters max                                               | Keep lines readable and scannable |
+| **Docstrings** | [Google-style](https://google.github.io/styleguide/pyguide.html) | Types in parentheses              |
+| **Imports**    | `pathlib` over `os`                                              | Modern, cross-platform paths      |
+| **Type Hints** | Use when beneficial                                              | Improves IDE support              |
+| **Functions**  | <50 lines ideally                                                | Keep focused and testable         |
 
 ### Code Quality
 
-- No unused imports or variables
-- Consistent naming (`lowercase_with_underscores`)
-- Clear variable names (avoid single letters except loop counters)
-- f-strings for formatting
-- Comments only for complex logic
+!!! success "Quality Checklist"
+
+    === "Clean Code"
+        - [x] No unused imports or variables
+        - [x] Consistent naming (`lowercase_with_underscores`)
+        - [x] Clear variable names (avoid single letters except loop counters)
+
+    === "Formatting"
+        - [x] Use f-strings for string formatting
+        - [x] Comments only for complex logic
+        - [x] [Ruff Formatter](https://github.com/astral-sh/ruff) for consistency
 
 ### Best Practices
 
-- **Avoid duplication**: Reuse existing code
-- **Smaller changes**: Focused modifications over large-scale changes
-- **Simplify**: Look for simplification opportunities
-- **Compatibility**: Avoid breaking existing code
-- **Consistent formatting**: Use [Ruff Formatter](https://github.com/astral-sh/ruff)
-- **Add tests**: Include tests for new features
+<div class="grid cards" markdown>
+
+- :material-content-copy: **Avoid Duplication**
+
+    ***
+
+    Reuse existing code - DRY principle
+
+- :material-focus-field: **Smaller Changes**
+
+    ***
+
+    Focused modifications > large-scale changes
+
+- :material-lightbulb-on: **Simplify**
+
+    ***
+
+    Look for simplification opportunities
+
+- :material-shield-check: **Compatibility**
+
+    ***
+
+    Avoid breaking existing code
+
+- :material-test-tube: **Add Tests**
+
+    ***
+
+    Include tests for new features
+
+- :material-format-paint: **Consistent Format**
+
+    ***
+
+    Use [Ruff Formatter](https://github.com/astral-sh/ruff)
+
+</div>
 
 ## Testing Requirements ✅
 
