@@ -15,7 +15,7 @@ Focused on technical excellence, problem-solving, and individual impact. IC role
 
 **Progression**: IC02 (Associate/Junior) → IC03 (Professional) → IC04 (Senior) → IC05 (Staff) → IC06 (Senior Staff) → IC07 (Principal)
 
-**See detailed expectations**: [IC Levels (IC02-IC07)](ic-levels.md)
+**See detailed expectations**: [IC Levels (IC02-IC07)](levels-ic.md)
 
 ### Management Track
 
@@ -23,7 +23,7 @@ Focused on achieving results through others, building teams, and organizational 
 
 **Progression**: M04 (Lead Manager) → M05 (Manager) → M06 (Senior Manager) → M07 (Head of) → M08 (Director/VP)
 
-**See detailed expectations**: [Management Levels (M04-M08)](management-levels.md)
+**See detailed expectations**: [Management Levels (M04-M08)](levels-management.md)
 
 !!! info "Equal Value"
 
@@ -194,7 +194,7 @@ Compensation bands consider:
 
 **Creating Your Growth Plan**:
 
-1. **Self-assess**: Review [IC Levels](ic-levels.md) or [Management Levels](management-levels.md) criteria
+1. **Self-assess**: Review [IC Levels](levels-ic.md) or [Management Levels](levels-management.md) criteria
 2. **Identify Goals**: Choose 2-3 skills or experiences for next quarter
 3. **Find Opportunities**: Work with manager to get exposure to next-level work
 4. **Get Feedback**: Regularly check progress with manager and peers
@@ -229,7 +229,7 @@ Compensation bands consider:
 
 ### For Individual Contributors
 
-1. **Review Your Level**: Read [IC Levels](ic-levels.md) thoroughly for your current level
+1. **Review Your Level**: Read [IC Levels](levels-ic.md) thoroughly for your current level
 2. **Self-Assess**: Honestly evaluate against each dimension of expectations
 3. **Identify Gaps**: Find 1-2 areas to address this quarter
 4. **Study Next Level**: Understand the path forward clearly
@@ -237,7 +237,7 @@ Compensation bands consider:
 
 ### For Managers
 
-1. **Review Your Level**: Read [Management Levels](management-levels.md) thoroughly for your current level
+1. **Review Your Level**: Read [Management Levels](levels-management.md) thoroughly for your current level
 2. **Self-Assess**: Evaluate people development, strategic thinking, and organizational impact
 3. **Identify Gaps**: Find areas to strengthen management capabilities
 4. **Study Next Level**: Understand increasing scope and strategic expectations
@@ -264,10 +264,10 @@ Compensation bands consider:
 
 ### Additional Resources
 
-- **[IC Levels (IC02-IC07)](ic-levels.md)** - Detailed Individual Contributor expectations
-- **[Management Levels (M04-M08)](management-levels.md)** - Detailed Management expectations
-- **[People & Benefits](index.md)** - Comprehensive people policies and resources
-- **[Onboarding](onboarding.md)** - Level expectations for new team members
+- **[IC Levels (IC02-IC07)](levels-ic.md)** - Detailed Individual Contributor expectations
+- **[Management Levels (M04-M08)](levels-management.md)** - Detailed Management expectations
+- **[People & Benefits](../index.md)** - Comprehensive people policies and resources
+- **[Onboarding](../onboarding.md)** - Level expectations for new team members
 
 ---
 
