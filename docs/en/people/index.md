@@ -30,11 +30,17 @@ At Ultralytics, we believe in supporting our team members through comprehensive 
 - **[Travel Policy](../finance/travel.md)** - Per diem rates and booking procedures
 - **[Relocation Policy](../finance/relocation.md)** - $6K compensation for hub city moves
 
+### Career & Growth
+
+- **[Career Progression Framework](career-progression.md)** - Overview, promotion process, and track switching
+- **[IC Levels (IC2-IC7)](ic-levels.md)** - Individual Contributor level expectations and criteria
+- **[Management Levels (M4-M7)](management-levels.md)** - Management level expectations and criteria
+- **Performance Reviews** - Quarterly reviews in Rippling with growth planning and compensation adjustments
+- **Learning Budget** - Annual budget for courses, books, and conferences (contact HR for current amounts)
+
 ### Rewards & Recognition
 
 - **[Referral Bonus](../finance/referral-bonus.md)** - $5K for successful referrals
-- **Learning Budget** - Annual budget for courses, books, and conferences (contact HR for current amounts)
-- **Performance Reviews** - Quarterly reviews in Rippling with growth planning and compensation adjustments
 
 ## New Team Members 🚀
 
@@ -70,6 +76,29 @@ Provide minimum 2 weeks notice for vacation, following these steps:
 
 ## Career Development 📈
 
+### Career Progression Framework
+
+Ultralytics provides clear career paths through two tracks, allowing you to advance based on your strengths and interests:
+
+**Individual Contributor (IC) Track** - IC2 through IC7
+- Technical excellence and deep expertise
+- Individual impact without managing people
+- Influence through knowledge and technical leadership
+- See [complete IC level descriptions](ic-levels.md)
+
+**Management Track** - M4 through M7
+- Organizational leadership and people development  
+- Achieving results through building and leading teams
+- Strategic direction and resource management
+- See [complete Management level descriptions](management-levels.md)
+
+**Key Resources:**
+- **[Career Progression Framework](career-progression.md)** - Promotion process, compensation philosophy, switching tracks
+- **[IC Levels Guide](ic-levels.md)** - Detailed expectations for IC2-IC7
+- **[Management Levels Guide](management-levels.md)** - Detailed expectations for M4-M7
+
+Both tracks are valued equally and offer equivalent compensation and growth potential at similar scope levels.
+
 ### Learning & Growth
 
 - **Annual Learning Budget**: Books, courses, certifications, and workshops
@@ -84,9 +113,9 @@ Contact HR for current learning budget amounts and policies.
 
 - **Quarterly reviews** via [Rippling](https://www.rippling.com/) every 3 months
 - **360° feedback** from manager, peers, and direct reports
-- **Growth planning** with clear development goals
+- **Growth planning** with clear development goals aligned to [career levels](career-progression.md)
 - **Career progression** with defined levels and promotion criteria
-- **Compensation reviews** aligned with performance
+- **Compensation reviews** aligned with performance and level
 
 ### Internal Mobility
 

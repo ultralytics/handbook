@@ -179,6 +179,7 @@ Work with your manager to define specific, measurable goals in these areas:
     - Review accomplishments against 90-day goals
     - Discuss what's working well and areas for growth
     - Set next quarter goals and development plan
+    - Review [career progression framework](career-progression.md) and level expectations
     - Address any concerns or questions
 - **Celebrate**: You're now a full-fledged Ultralytics team member! 🎉
 
