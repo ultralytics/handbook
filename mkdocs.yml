@@ -179,6 +179,10 @@ nav:
           - people/index.md
           - Onboarding: people/onboarding.md
           - PTO Policy: people/pto-policy.md
+          - Career Progression:
+              - people/career-progression.md
+              - IC Levels: people/ic-levels.md
+              - Management Levels: people/management-levels.md
       - Workflows:
           - Development: workflows/development.md
           - Product Dev: workflows/product-development.md
@@ -216,6 +220,10 @@ nav:
       - people/index.md
       - Onboarding: people/onboarding.md
       - PTO Policy: people/pto-policy.md
+      - Career Progression:
+          - people/career-progression.md
+          - IC Levels: people/ic-levels.md
+          - Management Levels: people/management-levels.md
   - Workflows:
       - Development: workflows/development.md
       - Product Dev: workflows/product-development.md

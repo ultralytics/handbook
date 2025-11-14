@@ -1,36 +1,31 @@
 ---
-description: Individual Contributor (IC) career levels IC02-IC09 at Ultralytics with detailed expectations for technical expertise, leadership scope, and career progression.
-keywords: IC levels, individual contributor, technical levels, engineering ladder, career progression, job levels, IC02, IC03, IC04, IC05, IC06, IC07, IC08, IC09
+description: Individual Contributor (IC) career levels IC02-IC07 at Ultralytics with detailed expectations, internal banding codes, and progression guidance.
+keywords: IC levels, individual contributor, technical levels, engineering ladder, career progression, IC02, IC03, IC04, IC05, IC06, IC07, YOLO11
 ---
 
-# Individual Contributor Levels (IC02-IC09)
+# Individual Contributor Levels (IC02-IC07)
 
-Detailed career framework for Individual Contributors at Ultralytics, defining expectations from entry-level through distinguished technical leadership. Use these descriptions for self-assessment, development planning, and promotion decisions.
+Comprehensive career framework for Individual Contributors at Ultralytics, defining expectations from entry-level through principal technical leadership. Use these descriptions for self-assessment, development planning, and promotion decisions.
 
 !!! info "Career Framework Overview"
-    Individual Contributors achieve impact through technical excellence and individual work rather than managing people. Both IC and [Management tracks](management-levels.md) offer equal advancement potential and compensation at equivalent scope levels. See [Career Progression](career-progression.md) for complete framework details.
+    Individual Contributors achieve impact through technical excellence and individual work. Both IC and [Management tracks](management-levels.md) offer equal advancement potential and compensation at equivalent scope levels. See [Career Progression](career-progression.md) for the complete framework.
 
-## Banding & Internal Codes
+## Level Overview & Banding Codes
 
-!!! info "Level Codes Reference"
-    Each IC level has internal band codes used in HR systems and compensation structures. These codes map to Ultralytics' job architecture and are referenced in Rippling and compensation documentation.
-
-| Level | Title | Career Stage | Internal Codes | Focus |
-|-------|-------|--------------|----------------|-------|
+| Level | Title | Career Stage | Internal Codes | Ops/Strategic Focus |
+|-------|-------|--------------|----------------|---------------------|
 | [IC02](#ic02-associatejunior) | Associate/Junior | Entry | 003, 081 (P1) | 100% Operational |
 | [IC03](#ic03-professional) | Professional | Developing | 005, 76, 82 (P2) | 100% Operational |
-| [IC04](#ic04-senior) | Senior | Fully Functioning | 31, 006, 77, 83 (P3) | 100% Operational |
-| [IC05](#ic05-staff) | Staff | Seasoned | 32, 007, 78, 84 (P4) | 80% Ops / 20% Strategic |
+| [IC04](#ic04-senior) | Senior | Career/Fully Functioning | 31, 006, 77, 83 (P3) | 100% Operational |
+| [IC05](#ic05-staff) | Staff | Senior/Seasoned | 32, 007, 78, 84 (P4) | 80% Ops / 20% Strategic |
 | [IC06](#ic06-senior-staff) | Senior Staff | Expert | 008, 23, 79, 85 (P5) | 70% Ops / 30% Strategic |
 | [IC07](#ic07-principal) | Principal | Lead | 009, 24, 86 (P6) | 60% Ops / 40% Strategic |
-| [IC08](#ic08-senior-principal) | Senior Principal | Lead/Specialized | 010, 25, 87 (P7) | 50% Ops / 50% Strategic |
-| [IC09](#ic09-distinguished) | Distinguished | Top Advisor/Preeminent | 011, 26, 88 (P8) | 40% Ops / 60% Strategic |
 
 ---
 
 ## IC02: Associate/Junior
 
-**Career Stage**: Entry-level professional developing foundational skills  
+**Career Stage**: Entry  
 **Typical Roles**: Junior Engineer, Associate Product Manager, Junior Designer  
 **Focus**: 100% Operational - Learning fundamentals under close supervision
 
@@ -75,7 +70,7 @@ Detailed career framework for Individual Contributors at Ultralytics, defining e
 
 ## IC03: Professional
 
-**Career Stage**: Developing professional with growing independence  
+**Career Stage**: Developing  
 **Typical Roles**: Software Engineer, Product Manager, Designer  
 **Focus**: 100% Operational - Owns features end-to-end with general supervision
 
@@ -120,7 +115,7 @@ Detailed career framework for Individual Contributors at Ultralytics, defining e
 
 ## IC04: Senior
 
-**Career Stage**: Fully functioning professional at career level  
+**Career Stage**: Career / Fully Functioning - "The Job"  
 **Typical Roles**: Senior Engineer, Senior Product Manager, Senior Designer  
 **Focus**: 100% Operational - Independent expert with cross-team influence
 
@@ -165,7 +160,7 @@ Detailed career framework for Individual Contributors at Ultralytics, defining e
 
 ## IC05: Staff
 
-**Career Stage**: Seasoned expert beginning to broaden beyond core area  
+**Career Stage**: Senior/Seasoned  
 **Typical Roles**: Staff Engineer, Staff Product Manager, Staff Designer, Technical Lead  
 **Focus**: 80% Operational / 20% Strategic - Cross-team technical leadership
 
@@ -213,7 +208,7 @@ Detailed career framework for Individual Contributors at Ultralytics, defining e
 
 ## IC06: Senior Staff
 
-**Career Stage**: Expert beginning to broaden scope beyond core area  
+**Career Stage**: Expert  
 **Typical Roles**: Senior Staff Engineer, Senior Staff Product Manager, Senior Staff Designer  
 **Focus**: 70% Operational / 30% Strategic - Cross-team technical leadership with broadening scope
 
@@ -261,7 +256,7 @@ Detailed career framework for Individual Contributors at Ultralytics, defining e
 
 ## IC07: Principal
 
-**Career Stage**: Lead individual contributor specialized in own area, broad in related areas  
+**Career Stage**: Lead (Specialized in own area, broad in related areas)  
 **Typical Roles**: Principal Engineer, Principal Product Manager, Principal Designer  
 **Focus**: 60% Operational / 40% Strategic - Strategic technical leadership across organization
 
@@ -307,114 +302,17 @@ Detailed career framework for Individual Contributors at Ultralytics, defining e
 
 ---
 
-## IC08: Senior Principal
-
-**Career Stage**: Lead technical advisor with extensive organizational influence  
-**Typical Roles**: Senior Principal Engineer, Senior Principal Product Manager, Senior Principal Designer  
-**Focus**: 50% Operational / 50% Strategic - Executive-level technical partnership
-
-### Core Expectations
-
-| Dimension | IC08 Requirements |
-|-----------|-------------------|
-| **Expertise & Technical Depth** | Applies world-class depth of knowledge across theories, practices, and design principles<br>Serves as primary technical authority and strategic advisor for entire organization<br>Maintains highest external affiliations and recognition as industry pioneer<br>Recognized thought leader internally and externally in profession and industry<br>Actively shapes technical direction at both company and industry level |
-| **Scope & Responsibility** | Handles most complex technical challenges with minimal precedent or established patterns<br>Directs work contributing directly to organizational success and competitive positioning<br>Contributes actively to multi-year strategic planning for entire function<br>Work impacts company strategy, market positioning, and long-term competitive advantage<br>Drives initiatives with potential to transform company or industry |
-| **Decision Making & Impact** | Advises on most strategic technical and business issues affecting company-wide direction<br>Often serves as Activator and primary contributor to most far-reaching technical decisions<br>Influences company-wide strategy and multi-year technical roadmap planning<br>Determines and pursues courses of action to meet long-term strategic goals (3-5 years)<br>Technical decisions directly affect company's competitive positioning and market leadership |
-| **Leadership & Influence** | Contributes to strategic planning at highest levels, influences multi-year company planning<br>Leads application of existing principles and active development of innovative new approaches<br>Owns critical stakeholder relationships, develops partnerships across entire organization<br>Recognized as highly influential technical leader partnering directly with executive team<br>Often serves as the Decider or primary Recommender for most complex technical issues |
-| **Complexity & Problem Solving** | Addresses novel challenges with multiple stakeholders, high ambiguity, requiring exceptional ingenuity<br>Applies deep technical expertise and emerging technologies to drive breakthrough innovation<br>Leads teams in solving most highly complex challenges with little or no precedent<br>Pioneers development and personally sponsors implementation of transformative technical solutions<br>Solutions require exceptional strategic judgment with limited information and high uncertainty |
-| **Collaboration & Communication** | Partners directly with executive team and board on company strategy and technical vision<br>Influences industry direction through publications, keynotes, and technical standards leadership<br>Builds and maintains extensive external professional networks and strategic partnerships<br>Mentors principal-level engineers and develops senior technical leaders across organization<br>Represents company as primary technical authority to customers, partners, investors, and analysts |
-
-### Typical Background
-
-- **Bachelor's degree + 15 years experience** OR **Master's degree + 11 years** OR **PhD + 9 years**
-- Recognized authority externally in field with significant industry-wide reputation
-- Proven track record of company-transforming and industry-shaping technical contributions
-- Extensive network of industry relationships and demonstrated influence
-- Strong executive presence and strategic business acumen at board level
-
-### Success Indicators
-
-!!! success "Key Performance Signals"
-    - ✅ Directly shapes company technical strategy and long-term vision with executive team
-    - ✅ Recognized as thought leader and industry authority through external publications and speaking
-    - ✅ Influences technical decisions at executive and board level on strategic matters
-    - ✅ Develops other principal and senior principal-level technical leaders successfully
-    - ✅ Makes strategic technical bets that significantly define company's competitive position
-    - ✅ Drives solutions to challenges with measurable industry-wide and transformative impact
-
-### Common Development Areas
-
-- Expanding influence on company business strategy and board-level strategic planning
-- Building deeper executive-level relationships and partnership with C-suite and board
-- Developing next generation of principal and distinguished technical leaders
-- Strengthening industry-wide thought leadership, standards influence, and ecosystem impact
-- Growing influence on long-term company positioning, market strategy, and competitive differentiation
-
-!!! warning "Executive Technical Leadership"
-    IC08 represents true executive technical partnership. Success requires perfect balance between technical execution (50%) and strategic influence (50%), operating as de facto CTO-level technical leader even without the formal title.
-
----
-
-## IC09: Distinguished
-
-**Career Stage**: Preeminent technical authority with industry-defining influence  
-**Typical Roles**: Distinguished Engineer, Distinguished Product Leader, Distinguished Designer  
-**Focus**: 40% Operational / 60% Strategic - Industry leadership and company transformation
-
-### Core Expectations
-
-| Dimension | IC09 Requirements |
-|-----------|-------------------|
-| **Expertise & Technical Depth** | Applies unparalleled depth and breadth of knowledge across multiple domains and industries<br>Serves as preeminent expert and primary strategic technical advisor at highest organizational levels<br>Maintains highest possible external recognition, often pioneer defining entire technology categories<br>Recognized as world-class authority setting industry standards and defining future direction<br>Actively shapes technical and business direction at company, industry, and global technology level |
-| **Scope & Responsibility** | Handles most transformative challenges with no precedent, often creating entirely new paradigms<br>Directs work defining organizational success, industry reputation, and competitive market position<br>Drives strategic planning at highest levels, influences multi-year company and industry direction<br>Work impacts company's long-term strategy, market leadership, and industry-wide innovation<br>Drives initiatives with potential to fundamentally transform company, industry, or technology landscape |
-| **Decision Making & Impact** | Advises on most critical strategic business and technical issues affecting company's future<br>Serves as Activator and primary decision maker for most far-reaching and transformative decisions<br>Influences company-wide strategy, long-term vision, and industry-wide technology direction<br>Determines courses of action to meet long-term strategic goals (5+ years) with global impact<br>Technical and strategic decisions directly shape company's market leadership and industry evolution |
-| **Leadership & Influence** | Drives strategic planning at highest organizational and industry levels with transformative vision<br>Leads creation and adoption of revolutionary principles, methodologies, and breakthrough innovations<br>Owns most critical strategic relationships at company, industry, and global technology level<br>Recognized as most influential technical and strategic leader at company and industry level<br>Serves as the Decider for most complex, strategic, and transformative technical and business issues |
-| **Complexity & Problem Solving** | Addresses unprecedented challenges requiring revolutionary thinking and paradigm-shifting innovation<br>Applies deepest technical expertise and visionary thinking to enable transformative breakthroughs<br>Leads organizations in solving most complex challenges defining industry's future direction<br>Pioneers entirely new categories, methodologies, and technical approaches with global impact<br>Solutions require exceptional visionary judgment, strategic foresight, and transformative innovation |
-| **Collaboration & Communication** | Partners with CEO, board, and executive leadership on company vision and strategic direction<br>Influences industry and global technology direction through groundbreaking research and thought leadership<br>Builds and maintains most significant external networks with global technology and industry leaders<br>Develops and mentors future distinguished and principal technical leaders across industry<br>Represents company and industry as preeminent technical and strategic authority globally |
-
-### Typical Background
-
-- **Bachelor's degree + 18+ years experience** OR **Master's degree + 14+ years** OR **PhD + 12+ years**
-- Recognized as world-class authority in field with global industry-defining reputation
-- Proven track record of industry-transforming and paradigm-shifting technical contributions
-- Extensive global network of industry and technology leadership relationships
-- Exceptional executive presence and strategic business acumen at highest levels
-
-### Success Indicators
-
-!!! success "Key Performance Signals"
-    - ✅ Shapes company vision and strategy at board and CEO level with transformative impact
-    - ✅ Recognized as preeminent thought leader defining industry standards and future direction
-    - ✅ Influences strategic decisions at highest executive and board level on company's future
-    - ✅ Develops future generations of distinguished and principal technical leaders industry-wide
-    - ✅ Makes transformative technical and strategic bets defining company's market leadership
-    - ✅ Drives breakthrough innovations with measurable industry-transforming and global impact
-
-### Common Development Areas
-
-- Expanding influence on global technology trends, standards, and industry-wide innovation
-- Building deeper relationships with global technology and industry leadership
-- Developing distinguished and principal-level technical leaders across company and industry
-- Strengthening global thought leadership, industry standards influence, and technology ecosystem impact
-- Growing influence on long-term technology direction, industry transformation, and global innovation
-
-!!! note "Industry-Defining Leadership"
-    IC09 represents the pinnacle of technical achievement and strategic influence. Success requires balancing visionary technical work (40%) with strategic and industry leadership (60%), operating as world-class technical authority defining both company and industry future.
-
----
-
 ## Level Comparison Matrix
 
-| Dimension | IC02 | IC03 | IC04 | IC05 | IC06 | IC07 | IC08 | IC09 |
-|-----------|------|------|------|------|------|------|------|------|
-| **Focus** | 100% Ops | 100% Ops | 100% Ops | 80/20 | 70/30 | 60/40 | 50/50 | 40/60 |
-| **Supervision** | Close | General | Broad | Minimal | Limited | Consultative | Strategic | Visionary |
-| **Scope** | Tasks | Features | Projects | Multi-team | Cross-team | Organization | Company | Industry |
-| **Planning** | Daily | Weekly | Monthly | Quarterly | Semi-annual | Annual | Multi-year | Long-term |
-| **Decisions** | Defined | Guided | Independent | Strategic | Influential | Executive | Transformative | Paradigm-shift |
-| **Complexity** | Routine | Moderate | Complex | Varied/Systemic | Novel | Unprecedented | Revolutionary | Category-defining |
-| **Influence** | Team | Team | Cross-team | Multi-team | Department | Organization | Company/Industry | Global/Industry |
-| **Problems** | Defined | Identifiable | Varied | Hidden/Systemic | Novel | Transformative | Breakthrough | Paradigm-shifting |
+| Dimension | IC02 | IC03 | IC04 | IC05 | IC06 | IC07 |
+|-----------|------|------|------|------|------|------|
+| **Focus** | 100% Ops | 100% Ops | 100% Ops | 80/20 | 70/30 | 60/40 |
+| **Supervision** | Close | General | Broad | Minimal | Limited | Consultative |
+| **Scope** | Tasks | Features | Projects | Multi-team | Cross-team | Organization |
+| **Planning** | Daily | Weekly | Monthly | Quarterly | Semi-annual | Annual |
+| **Decisions** | Defined | Guided | Independent | Strategic | Influential | Executive |
+| **Complexity** | Routine | Moderate | Complex | Varied/Systemic | Novel | Unprecedented |
+| **Influence** | Team | Team | Cross-team | Multi-team | Department | Organization |
 
 ## Using This Guide
 
@@ -455,25 +353,16 @@ Create targeted growth plans:
 - **IC04 → IC05**: 24-36 months demonstrating cross-team technical leadership
 - **IC05 → IC06**: 36+ months demonstrating multi-team and department strategic impact
 - **IC06 → IC07**: 36+ months demonstrating organization-wide strategic impact
-- **IC07 → IC08**: 48+ months demonstrating company-wide and industry influence
-- **IC08 → IC09**: 60+ months demonstrating industry-transforming and global leadership
 
 !!! warning "Promotion Requirements"
     Promotions require **sustained demonstration** of next-level performance across **all dimensions**, not just technical expertise. Discuss readiness quarterly with your manager and document specific examples.
 
 ## Related Resources
 
-- **[Management Levels](management-levels.md)** - Detailed M04-M07 expectations for leadership track
+- **[Management Levels](management-levels.md)** - Detailed M04-M08 expectations for leadership track
 - **[Career Progression](career-progression.md)** - Complete framework, promotion process, track switching
 - **[People & Benefits](index.md)** - Comprehensive people policies and resources
 - **[Onboarding](onboarding.md)** - Level expectations for new team members
-
-## Questions & Feedback
-
-- **Career Development**: Discuss with your manager during quarterly performance reviews
-- **Level Clarification**: Contact HR team for questions about specific level criteria
-- **Promotion Readiness**: Review with manager and reference [promotion process](career-progression.md#promotion-process)
-- **Handbook Improvements**: Submit PR to improve these descriptions based on your experience
 
 ---
 

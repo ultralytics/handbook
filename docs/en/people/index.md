@@ -33,8 +33,8 @@ At Ultralytics, we believe in supporting our team members through comprehensive 
 ### Career & Growth
 
 - **[Career Progression Framework](career-progression.md)** - Overview, promotion process, and track switching
-- **[IC Levels (IC2-IC7)](ic-levels.md)** - Individual Contributor level expectations and criteria
-- **[Management Levels (M4-M7)](management-levels.md)** - Management level expectations and criteria
+- **[IC Levels (IC02-IC07)](ic-levels.md)** - Individual Contributor level expectations and criteria
+- **[Management Levels (M04-M08)](management-levels.md)** - Management level expectations and criteria
 - **Performance Reviews** - Quarterly reviews in Rippling with growth planning and compensation adjustments
 - **Learning Budget** - Annual budget for courses, books, and conferences (contact HR for current amounts)
 
@@ -80,13 +80,13 @@ Provide minimum 2 weeks notice for vacation, following these steps:
 
 Ultralytics provides clear career paths through two tracks, allowing you to advance based on your strengths and interests:
 
-**Individual Contributor (IC) Track** - IC2 through IC7
+**Individual Contributor (IC) Track** - IC02 through IC07
 - Technical excellence and deep expertise
 - Individual impact without managing people
 - Influence through knowledge and technical leadership
 - See [complete IC level descriptions](ic-levels.md)
 
-**Management Track** - M4 through M7
+**Management Track** - M04 through M08
 - Organizational leadership and people development  
 - Achieving results through building and leading teams
 - Strategic direction and resource management

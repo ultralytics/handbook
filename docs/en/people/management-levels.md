@@ -1,45 +1,31 @@
 ---
-description: Management career levels M04-M07 at Ultralytics with detailed expectations for people leadership, organizational scope, and strategic impact.
-keywords: management levels, leadership ladder, manager career, people management, M04, M05, M06, M07, engineering manager, director, VP
+description: Management career levels M04-M08 at Ultralytics with detailed expectations, internal banding codes, people leadership scope, and strategic impact.
+keywords: management levels, leadership ladder, manager career, people management, M04, M05, M06, M07, M08, engineering manager, director, VP, YOLO11
 ---
 
-# Management Levels (M04-M07)
+# Management Levels (M04-M08)
 
 Comprehensive career framework for Management roles at Ultralytics, defining expectations from first-line management through executive leadership. Use these descriptions for leadership development, hiring decisions, and promotion planning.
 
 !!! info "Management Track Overview"
-    Management roles achieve results through building and leading teams rather than individual contribution. All management positions include direct reports and HR responsibilities. Both [IC](ic-levels.md) and Management tracks offer equal advancement potential and compensation at equivalent scope levels. See [Career Progression](career-progression.md) for complete framework.
+    Management roles achieve results through building and leading teams. All management positions include direct reports and HR responsibilities. Both [IC](ic-levels.md) and Management tracks offer equal advancement potential and compensation at equivalent scope levels. See [Career Progression](career-progression.md) for complete framework.
 
-## Quick Navigation
+## Level Overview & Banding Codes
 
-| Level | Title | Career Stage | Focus | Typical Span |
-|-------|-------|--------------|-------|--------------|
-| [M04](#m04-lead-manager) | Lead Manager | Supervisory | 80% Ops / 20% Strategic | 3-8 ICs |
-| [M05](#m05-senior-manager) | Senior Manager | Middle Management | 70% Ops / 30% Strategic | 8-15 people |
-| [M06](#m06-head-ofdirector) | Head of/Director | Senior Management | 60% Ops / 40% Strategic | 15-40 people |
-| [M07](#m07-vp) | VP | Top Management | 50% Ops / 50% Strategic | 40-100+ people |
-
----
-
-## Management Track Definition
-
-!!! note "What Defines Management at Ultralytics"
-    Management roles focus on achieving results through others, requiring:
-    
-    - **People Leadership**: Hiring, developing, coaching, and managing team performance
-    - **Strategic Direction**: Setting vision and goals for area of responsibility
-    - **Resource Management**: Allocating budget, headcount, and organizational priorities
-    - **Stakeholder Management**: Building relationships and influencing across organization
-    - **Results Accountability**: Delivering outcomes through team performance, not individual work
-    
-    If the role spends **>50% time managing others** or achieving results through subordinates, it belongs in the Management track. The number of direct reports alone does not determine level - scope and complexity matter more.
+| Level | Title | Career Stage | Internal Codes | Ops/Strategic Focus |
+|-------|-------|--------------|----------------|---------------------|
+| [M04](#m04-lead-manager) | Lead Manager | Lead Supervisory / Manager Supervisory | 003, 005, 081, 082 (M1) | 80% Ops / 20% Strategic |
+| [M05](#m05-manager) | Manager | Management | 006, 083 (M2) | 70% Ops / 30% Strategic |
+| [M06](#m06-senior-manager) | Senior Manager | Senior Manager | 007, 084 (M3) | 60% Ops / 40% Strategic |
+| [M07](#m07-head-of) | Head of | Head of Middle Management | 008, 085 (M4) | 50% Ops / 50% Strategic |
+| [M08](#m08-directorvp) | Director / VP | Director Senior Management | 009, 086 (M5) | 40% Ops / 60% Strategic |
 
 ---
 
 ## M04: Lead Manager
 
-**Career Stage**: First-level management supervising individual contributors  
-**Typical Titles**: Engineering Manager, Product Manager (with reports), Design Manager  
+**Career Stage**: Lead Supervisory / Manager Supervisory  
+**Typical Roles**: Engineering Manager, Product Manager (with reports), Design Manager  
 **Focus**: 80% Operational / 20% Strategic - Day-to-day team management with hands-on involvement
 
 ### Core Expectations
@@ -99,10 +85,10 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ---
 
-## M05: Senior Manager
+## M05: Manager
 
-**Career Stage**: Middle management overseeing multiple sections or complex areas  
-**Typical Titles**: Senior Engineering Manager, Senior Product Manager (large team), Head of Design  
+**Career Stage**: Management  
+**Typical Roles**: Senior Engineering Manager, Senior Product Manager (large team), Head of Design  
 **Focus**: 70% Operational / 30% Strategic - Multi-team coordination with strategic planning
 
 ### Core Expectations
@@ -158,10 +144,10 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ---
 
-## M06: Head of/Director
+## M06: Senior Manager
 
-**Career Stage**: Senior management directing sub-function or functional area  
-**Typical Titles**: Director of Engineering, Director of Product, Head of Design  
+**Career Stage**: Senior Manager  
+**Typical Roles**: Director of Engineering, Director of Product, Head of Design  
 **Focus**: 60% Operational / 40% Strategic - Functional leadership with strategic planning
 
 ### Core Expectations
@@ -213,14 +199,14 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 - Strengthening ability to make strategic decisions with incomplete information
 
 !!! warning "Strategic Balance Challenge"
-    M06 requires equal focus on operational excellence (60%) and strategic leadership (40%). Many directors struggle balancing immediate execution pressures with long-term strategic thinking and organizational capability building.
+    M06 requires equal focus on operational excellence (60%) and strategic leadership (40%). Many senior managers struggle balancing immediate execution pressures with long-term strategic thinking and organizational capability building.
 
 ---
 
-## M07: VP
+## M07: Head of
 
-**Career Stage**: Executive leadership with regional/global organizational reach  
-**Typical Titles**: VP of Engineering, VP of Product, VP of Design  
+**Career Stage**: Head of Middle Management  
+**Typical Roles**: VP of Engineering, VP of Product, VP of Design  
 **Focus**: 50% Operational / 50% Strategic - Executive partnership on company strategy
 
 ### Core Expectations
@@ -240,7 +226,7 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 - **Typical Direct Reports**: 40-100+ people through 4-8 senior managers/directors
 - **Organizational Depth**: Has 3-4 levels of management reporting through organizational hierarchy
 - **Team Scope**: Multiple related functions, very large single function, or division-level responsibility
-- **Budget Responsibility**: Typically $20M+ annually with full P&L accountability for business segment
+- **Budget Responsibility**: Typically $20M-$50M annually with full P&L accountability for business segment
 - **Time Horizon**: Quarterly operations, annual execution, multi-year strategic vision and planning
 
 ### Typical Background
@@ -276,18 +262,77 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ---
 
+## M08: Director/VP
+
+**Career Stage**: Director Senior Management  
+**Typical Roles**: Senior VP, Executive VP, Chief Officers (CTO, CPO, etc.)  
+**Focus**: 40% Operational / 60% Strategic - Senior executive leadership with board-level partnership
+
+### Core Expectations
+
+| Dimension | M08 Requirements |
+|-----------|------------------|
+| **Leadership & Scope** | Leads multiple functions/divisions with global reach and strategic company-wide impact<br>Directs through multiple layers of senior leadership including VPs and directors<br>Drives multi-year strategic vision and transformation initiatives across organization<br>Partners directly with CEO and board on company strategy and competitive positioning<br>Full P&L accountability for major business segments or entire functional areas |
+| **People Management** | Accountable for organization-wide talent strategy and executive leadership development<br>Manages exclusively through VPs and senior directors with multiple organizational layers<br>Sets company culture standards and drives organizational effectiveness at highest level<br>Leads succession planning for executive leadership and critical organizational roles<br>Accountable for building world-class organizational capability as competitive differentiator |
+| **Expertise & Technical Skills** | Demonstrates deep expertise across multiple domains with exceptional business and strategic acumen<br>Recognized industry authority that shapes organizational intellectual capital and competitive advantage<br>Drives innovation and strategic initiatives that define company's market position<br>Maintains extensive industry networks and shapes industry standards and best practices<br>Builds organizational capability through strategic acquisitions, partnerships, and talent development |
+| **Decision Making & Impact** | Defines company-wide strategy and long-term vision in partnership with CEO and board<br>Makes strategic decisions with transformative impact on company trajectory and market position<br>Accountable for major business segment performance directly affecting shareholder value<br>Influences board-level strategic decisions and drives company-wide transformation<br>Outcomes directly shape company's competitive position, market valuation, and industry standing |
+| **Stakeholder Management** | Manages most critical external relationships including investors, board members, key customers<br>Represents company at highest levels to industry, partners, investors, and regulatory bodies<br>Builds and maintains executive networks across industry and global business community<br>Drives consensus and alignment on most critical strategic initiatives across entire organization<br>Serves as primary executive voice for function and company strategy externally |
+| **Complexity & Problem Solving** | Solves most complex strategic challenges requiring transformative thinking and organizational change<br>Navigates unprecedented business challenges with significant uncertainty and market impact<br>Builds organizational capacity to solve emerging challenges and capitalize on market opportunities<br>Makes strategic bets on technology, markets, and organizational direction with company-wide impact<br>Anticipates industry trends and positions company for long-term competitive advantage |
+| **Collaboration & Communication** | Partners with CEO and board on company vision, strategy, and transformative initiatives<br>Represents company as senior executive voice to investors, analysts, and key stakeholders<br>Influences industry direction through thought leadership and strategic partnerships<br>Builds and maintains most significant executive relationships across global business community<br>Communicates company vision and strategy with exceptional clarity and executive presence |
+
+### Span & Team Structure
+
+- **Typical Direct Reports**: 100+ people through multiple VPs and directors
+- **Organizational Depth**: Has 4+ levels of management reporting through organizational hierarchy
+- **Team Scope**: Multiple major functions, division-level, or company-wide responsibility
+- **Budget Responsibility**: Typically $50M+ annually with full P&L accountability for major segments
+- **Time Horizon**: Annual execution, multi-year strategic vision, long-term market positioning
+
+### Typical Background
+
+- **Bachelor's degree + 15+ years experience** OR **Master's degree + 11+ years** OR **PhD + 9+ years**
+- Proven track record of executive leadership with measurable business impact at VP level
+- Recognized industry authority with extensive executive networks and influence
+- Demonstrated ability to drive organizational transformation and growth at scale
+- Strong board-level presence and strategic partnership capabilities
+
+### Success Indicators
+
+!!! success "Key Performance Signals"
+    - ✅ Drives transformative company-wide initiatives with measurable shareholder value
+    - ✅ Recognized as industry thought leader and authority shaping market direction
+    - ✅ Successfully partners with board and CEO on long-term strategy and positioning
+    - ✅ Builds organizational capability that becomes sustainable competitive advantage
+    - ✅ Makes strategic decisions that fundamentally shape company trajectory
+    - ✅ Develops future executive leaders who drive company success
+    - ✅ Represents company with exceptional credibility to investors, partners, customers
+
+### Common Development Areas
+
+- Expanding influence on global technology trends and industry-wide innovation
+- Building deeper relationships with board members and major investors
+- Developing C-suite successors and future executive leadership
+- Strengthening ability to drive company-wide transformation at scale
+- Growing influence on long-term market positioning and competitive strategy
+- Building industry partnerships that create strategic advantage
+
+!!! note "Senior Executive Leadership"
+    M08 represents senior executive leadership with board-level partnership. Success requires prioritizing strategic leadership (60%) over operational execution (40%) while maintaining organizational excellence and driving transformative change.
+
+---
+
 ## Level Comparison Matrix
 
-| Dimension | M04 | M05 | M06 | M07 |
-|-----------|-----|-----|-----|-----|
-| **Focus** | 80/20 | 70/30 | 60/40 | 50/50 |
-| **Span** | 3-8 ICs | 8-15 people | 15-40 people | 40-100+ people |
-| **Layers** | 1 layer | 1-2 layers | 2-3 layers | 3-4 layers |
-| **Scope** | Team | Multi-team | Function | Multi-function |
-| **Planning** | Monthly | Quarterly | Annual | Multi-year |
-| **Budget** | <$1M | $1M-$5M | $5M-$20M | $20M+ |
-| **Stakeholders** | Defined | Varied | Cross-org | Executive/Board |
-| **Problems** | Moderate | Complex | Cross-discipline | Strategic/Novel |
+| Dimension | M04 | M05 | M06 | M07 | M08 |
+|-----------|-----|-----|-----|-----|-----|
+| **Focus** | 80/20 | 70/30 | 60/40 | 50/50 | 40/60 |
+| **Span** | 3-8 ICs | 8-15 people | 15-40 people | 40-100 people | 100+ people |
+| **Layers** | 1 layer | 1-2 layers | 2-3 layers | 3-4 layers | 4+ layers |
+| **Scope** | Team | Multi-team | Function | Multi-function | Division/Company |
+| **Planning** | Monthly | Quarterly | Annual | Multi-year | Long-term vision |
+| **Budget** | <$1M | $1M-$5M | $5M-$20M | $20M-$50M | $50M+ |
+| **Stakeholders** | Defined | Varied | Cross-org | Executive/Board | Board/Investors |
+| **Problems** | Moderate | Complex | Cross-discipline | Strategic | Transformative |
 
 ## Core Management Competencies
 
@@ -301,135 +346,6 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
     - **Accountability**: Take ownership of team results and individual management actions
     - **Inclusion**: Build diverse teams and create genuinely inclusive work environment
     - **Strategic Thinking**: Connect team/function work to company goals and business strategy
-
-### Competency Progression by Level
-
-| Competency | M04 | M05 | M06 | M07 |
-|------------|-----|-----|-----|-----|
-| **Technical Depth** | Deep hands-on | Moderate oversight | Strategic advisor | Industry authority |
-| **People Management** | Direct ICs | Through leads/mgrs | Through directors | Through VPs |
-| **Strategic Thinking** | Monthly tactics | Quarterly plans | Annual strategy | Multi-year vision |
-| **Influence Scope** | Team | Department | Function | Organization |
-| **Business Acumen** | Project ROI | Department P&L | Function P&L | Company financials |
-| **Executive Presence** | Manager meetings | Director forums | Executive team | Board level |
-
-## Management Challenges by Level
-
-### M04: Lead Manager
-
-**Common Challenges**:
-
-- Transitioning from "doing the work" to achieving results through team members
-- Learning to provide effective coaching and feedback to diverse personalities
-- Making time for people management while maintaining some hands-on contribution
-- Developing confidence in making difficult people decisions (performance issues, terminations)
-- Managing up effectively to keep leadership informed without over-escalating
-
-**Success Strategies**:
-
-- Seek active mentorship from experienced managers in regular coaching sessions
-- Invest significant time in 1:1s and people development (minimum 30min weekly per report)
-- Learn to delegate effectively while building trust in team capabilities
-- Develop systematic coaching and feedback frameworks and practice regularly
-- Maintain appropriate technical credibility while scaling back individual contribution
-
-### M05: Senior Manager
-
-**Common Challenges**:
-
-- Managing through other managers or leads rather than direct individual contributors
-- Coordinating effectively across multiple teams with complex dependencies
-- Balancing immediate operational execution demands with strategic planning
-- Influencing peer managers and stakeholders without direct authority
-- Maintaining detailed visibility into work across larger, more complex organization
-
-**Success Strategies**:
-
-- Develop and coach other managers through delegation, feedback, and development planning
-- Build strong systematic cross-functional relationships and communication channels
-- Create effective systems and processes for coordination across teams
-- Learn to influence through clear vision, persuasion, and building coalitions
-- Use metrics, regular communication, and management systems to maintain visibility
-
-### M06: Director
-
-**Common Challenges**:
-
-- Operating at increasing distance from day-to-day work and detailed execution
-- Making strategic decisions with incomplete information and significant uncertainty
-- Managing organizational change and transformation across functional areas
-- Balancing near-term execution pressure with long-term strategic vision
-- Developing robust bench strength and succession plans for critical roles
-
-**Success Strategies**:
-
-- Build highly trusted leadership team and delegate most operational decisions effectively
-- Develop strong strategic thinking and decision-making frameworks for ambiguity
-- Invest heavily in organizational design, culture, and talent development
-- Communicate vision clearly, consistently, and repeatedly across organization
-- Partner actively with executive team and peer directors on company strategy
-
-### M07: VP
-
-**Common Challenges**:
-
-- Operating at full executive level with company-wide accountability and visibility
-- Representing function effectively to board, customers, partners, and market
-- Making strategic bets with significant risk, uncertainty, and long-term implications
-- Building organizational capability and culture at scale across large organization
-- Balancing competing priorities across company while advocating for function
-
-**Success Strategies**:
-
-- Develop strong executive presence, communication, and strategic thinking capabilities
-- Build deep partnerships with CEO and peer executives on company strategy
-- Focus on organizational capability, culture, and long-term health as key priorities
-- Make bold strategic decisions with conviction while managing risk appropriately
-- Develop future organizational leaders through active succession planning and mentorship
-
-## Management Career Development
-
-### Developing as a Manager
-
-!!! tip "Continuous Management Learning"
-    Great management is a skill learned through practice, feedback, and reflection:
-    
-    - **Read widely**: Management and leadership books, articles, case studies
-    - **Attend training**: Management workshops, leadership development programs
-    - **Seek coaching**: Regular coaching from senior managers and external coaches
-    - **Join programs**: Leadership development and executive education programs
-    - **Learn from peers**: Discuss challenges and learn from other managers regularly
-
-### Key Skills to Develop
-
-**Foundational Management Skills** (M04-M05):
-
-- **Hiring & Interviewing**: Effectively assess candidates and build strong teams
-- **Coaching & Feedback**: Develop people through regular, specific, actionable feedback
-- **Difficult Conversations**: Address performance issues and conflicts directly
-- **Delegation**: Achieve leverage and develop others through effective delegation
-- **Time Management**: Balance people management with execution and strategic work
-
-**Advanced Leadership Skills** (M06-M07):
-
-- **Strategic Thinking**: Connect functional work to business strategy and market dynamics
-- **Organizational Design**: Structure teams and organizations for optimal effectiveness
-- **Change Management**: Lead teams and organizations through significant transformation
-- **Executive Communication**: Inspire and inform through clear, compelling messaging
-- **Influence Without Authority**: Drive results through persuasion and coalition building
-
-### Transitioning to Management
-
-!!! info "IC to Manager Transition"
-    For Individual Contributors considering the management track:
-    
-    1. **Gain leadership experience**: Lead projects, mentor junior team members, demonstrate influence
-    2. **Understand the role**: Shadow managers, discuss realities with multiple people managers
-    3. **Assess fit**: Reflect honestly on whether people development energizes you
-    4. **Discuss with manager**: Express interest, discuss readiness, identify development gaps
-    5. **Prepare for change**: Accept that hands-on IC work will decrease dramatically
-    
-    Typical transition path: **IC04/IC05 → M04** (often with mentorship/shadow period)
 
 ## Using This Guide
 
@@ -468,6 +384,7 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 - **M04 → M05**: 18-24 months demonstrating multi-team coordination and management excellence
 - **M05 → M06**: 24-36 months demonstrating functional leadership and strategic impact
 - **M06 → M07**: 36+ months demonstrating executive-level influence and organizational transformation
+- **M07 → M08**: 48+ months demonstrating senior executive leadership and board-level partnership
 
 !!! warning "Promotion Requirements"
     Management promotions require **sustained demonstration** of next-level performance across **all dimensions**, particularly people development, strategic thinking, and organizational impact. Discuss readiness quarterly with your manager and skip-level, and document specific examples of next-level leadership.
@@ -488,13 +405,6 @@ Strong promotion cases include:
 - **[Career Progression](career-progression.md)** - Complete framework, promotion process, track switching
 - **[People & Benefits](index.md)** - Comprehensive people policies and resources
 - **[Onboarding](onboarding.md)** - Management expectations for new managers
-
-## Questions & Feedback
-
-- **Management Development**: Discuss with your manager and skip-level during quarterly reviews
-- **Level Clarification**: Contact HR team for questions about specific management level criteria
-- **Promotion Readiness**: Review with skip-level manager and reference [promotion process](career-progression.md#promotion-process)
-- **Handbook Improvements**: Submit PR to improve these descriptions based on your experience
 
 ---
 
