@@ -415,7 +415,7 @@ Strong promotion cases include:
 ## Related Resources
 
 - **[IC Levels](ic-levels.md)** - Detailed IC02-IC07 expectations for technical track
-- **[Career Progression](career-progression.md)** - Complete framework, promotion process, track switching
+- **[Career Progression](careers/index.md)** - Complete framework, promotion process, track switching
 - **[People & Benefits](index.md)** - Comprehensive people policies and resources
 - **[Onboarding](onboarding.md)** - Management expectations for new managers
 
