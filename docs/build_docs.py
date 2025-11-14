@@ -32,7 +32,7 @@ def main():
     """Build docs, postprocess, and serve with browser preview."""
     # Build with Zensical
     print(f"Building docs from {DOCS}")
-    subprocess.run(["zensical", "build"], cwd=DOCS.parent, check=True)
+    subprocess.run(["python3", "-m", "zensical", "build"], cwd=DOCS.parent, check=True)
     print(f"Site built at {SITE}")
 
     # Postprocess
