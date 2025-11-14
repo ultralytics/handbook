@@ -13,8 +13,8 @@ Ultralytics' career framework provides clear expectations for each level and gui
 
 ## Career Tracks
 
-**Individual Contributor (IC)**: IC02 → IC03 → IC04 → IC05 → IC06 → IC07  
-**Management**: M04 → M05 → M06 → M07 → M08
+**Individual Contributor (IC)**: [IC02](levels-ic.md#ic02-associatejunior) → [IC03](levels-ic.md#ic03-professional) → [IC04](levels-ic.md#ic04-senior) → [IC05](levels-ic.md#ic05-staff) → [IC06](levels-ic.md#ic06-senior-staff) → [IC07](levels-ic.md#ic07-principal)  
+**Management**: [M04](levels-management.md#m04-lead-manager) → [M05](levels-management.md#m05-manager) → [M06](levels-management.md#m06-senior-manager) → [M07](levels-management.md#m07-head-of) → [M08](levels-management.md#m08-director) → [M09](levels-management.md#m09-vp)
 
 **Track switching**: IC04/IC05 ↔ M04 | M04/M05 ↔ IC05/IC06
 
@@ -26,9 +26,9 @@ Ultralytics' career framework provides clear expectations for each level and gui
 | **Key Skills**      | Deep technical knowledge, problem-solving, innovation | People development, strategic planning, organizational leadership |
 | **Influence**       | Technical decisions, architecture, best practices     | Team performance, culture, organizational direction               |
 | **Scope Growth**    | Project → Team → Multi-team → Organization            | Team → Department → Function → Division                           |
-| **Focus Evolution** | 100% Ops → 60% Ops / 40% Strategic                    | 80% Ops → 40% Ops / 60% Strategic                                 |
+| **Focus Evolution** | 100% Ops → 60% Ops / 40% Strategic                    | 80% Ops → 30% Ops / 70% Strategic                                 |
 
-**Full expectations**: [IC Levels (IC02-IC07)](levels-ic.md) | [Management Levels (M04-M08)](levels-management.md)
+**Full expectations**: [IC Levels (IC02-IC07)](levels-ic.md) | [Management Levels (M04-M09)](levels-management.md)
 
 ## Switching Career Tracks
 
@@ -98,7 +98,8 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 | M04 → M05        | 18-24 months     | Multi-team coordination excellence         |
 | M05 → M06        | 24-36 months     | Functional leadership and strategic impact |
 | M06 → M07        | 36+ months       | Executive-level influence                  |
-| M07 → M08        | 48+ months       | Senior executive leadership                |
+| M07 → M08        | 36+ months       | Director-level functional leadership       |
+| M08 → M09        | 48+ months       | Senior executive leadership                |
 
 !!! warning "Sustained Performance Required"
 
@@ -126,7 +127,7 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 ### Additional Resources
 
 - **[IC Levels (IC02-IC07)](levels-ic.md)** - Detailed Individual Contributor expectations
-- **[Management Levels (M04-M08)](levels-management.md)** - Detailed Management expectations
+- **[Management Levels (M04-M09)](levels-management.md)** - Detailed Management expectations
 - **[People & Benefits](../index.md)** - Comprehensive people policies and resources
 - **[Onboarding](../onboarding.md)** - Level expectations for new team members
 
