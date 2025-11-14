@@ -13,13 +13,13 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ## Level Overview
 
-| Level                      | Title          | Career Stage                           |  Ops/Strategic Focus     |
-| -------------------------- | -------------- | -------------------------------------- |  ----------------------- |
-| [M04](#m04-lead-manager)   | Lead Manager   | Lead Supervisory / Manager Supervisory |  80% Ops / 20% Strategic |
-| [M05](#m05-manager)        | Manager        | Management                             |  70% Ops / 30% Strategic |
-| [M06](#m06-senior-manager) | Senior Manager | Senior Manager                         |  60% Ops / 40% Strategic |
-| [M07](#m07-head-of)        | Head of        | Head of Middle Management              |  50% Ops / 50% Strategic |
-| [M08](#m08-directorvp)     | Director / VP  | Director Senior Management             |  40% Ops / 60% Strategic |
+| Level                      | Title          | Career Stage                           | Ops/Strategic Focus     |
+| -------------------------- | -------------- | -------------------------------------- | ----------------------- |
+| [M04](#m04-lead-manager)   | Lead Manager   | Lead Supervisory / Manager Supervisory | 80% Ops / 20% Strategic |
+| [M05](#m05-manager)        | Manager        | Management                             | 70% Ops / 30% Strategic |
+| [M06](#m06-senior-manager) | Senior Manager | Senior Manager                         | 60% Ops / 40% Strategic |
+| [M07](#m07-head-of)        | Head of        | Head of Middle Management              | 50% Ops / 50% Strategic |
+| [M08](#m08-directorvp)     | Director / VP  | Director Senior Management             | 40% Ops / 60% Strategic |
 
 ---
 
