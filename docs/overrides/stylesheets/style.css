@@ -226,6 +226,11 @@ table td:nth-child(2):last-child {
   line-height: 1.2;
 }
 
+/* Remove underlines from links */
+a {
+  text-decoration: none;
+}
+
 /* Ultralytics Search Bar ------------------------------------------------------------------------------------------- */
 .ult-header-search {
   transform: scale(0.7);
