@@ -72,7 +72,7 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 
 !!! info "Reviews"
 
-    Compensation reviewed quarterly during performance reviews. Adjustments consider performance, promotion eligibility, market changes, and company performance.
+    Compensation reviewed annually at year-end and applied in Q1 (January paycheck). Adjustments consider performance, promotion eligibility, market changes, and company performance.
 
 ---
 
