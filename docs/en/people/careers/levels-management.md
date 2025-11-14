@@ -11,6 +11,10 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
     Management roles achieve results through building and leading teams. All management positions include direct reports and HR responsibilities. Both [IC](levels-ic.md) and Management tracks offer equal advancement potential and compensation at equivalent scope levels. See [Career Progression](index.md) for complete framework.
 
+## Career Progression
+
+**M04 (Lead Manager)** → **M05 (Manager)** → **M06 (Senior Manager)** → **M07 (Head of)** → **M08 (Director/VP)**
+
 ## Level Overview
 
 | Level                      | Title          | Career Stage                           | Ops/Strategic Focus     |

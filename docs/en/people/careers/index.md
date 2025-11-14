@@ -11,41 +11,12 @@ Ultralytics' career framework provides clear expectations for each level and gui
 
     Both IC and Management tracks are valued equally and offer equivalent compensation and growth potential at similar scope levels. Choose the track that best aligns with your strengths and career goals.
 
-## Career Progression Paths
+## Career Tracks
 
-```mermaid
-graph LR
-    IC02[IC02<br/>Associate] --> IC03[IC03<br/>Professional]
-    IC03 --> IC04[IC04<br/>Senior]
-    IC04 --> IC05[IC05<br/>Staff]
-    IC05 --> IC06[IC06<br/>Senior Staff]
-    IC06 --> IC07[IC07<br/>Principal]
-    
-    IC04 -."switch".-> M04[M04<br/>Lead Manager]
-    IC05 -."switch".-> M04
-    
-    M04 --> M05[M05<br/>Manager]
-    M05 --> M06[M06<br/>Senior Manager]
-    M06 --> M07[M07<br/>Head of]
-    M07 --> M08[M08<br/>Director/VP]
-    
-    M04 -."switch".-> IC05
-    M05 -."switch".-> IC05
-    M05 -."switch".-> IC06
-    
-    style IC02 fill:#e1f5ff
-    style IC03 fill:#e1f5ff
-    style IC04 fill:#b3e5fc
-    style IC05 fill:#81d4fa
-    style IC06 fill:#4fc3f7
-    style IC07 fill:#29b6f6
-    
-    style M04 fill:#fff3e0
-    style M05 fill:#ffe0b2
-    style M06 fill:#ffcc80
-    style M07 fill:#ffb74d
-    style M08 fill:#ffa726
-```
+**Individual Contributor (IC)**: IC02 → IC03 → IC04 → IC05 → IC06 → IC07  
+**Management**: M04 → M05 → M06 → M07 → M08
+
+**Track switching**: IC04/IC05 ↔ M04 | M04/M05 ↔ IC05/IC06
 
 ### Track Comparison
 

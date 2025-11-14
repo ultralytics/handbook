@@ -11,6 +11,10 @@ Comprehensive career framework for Individual Contributors at Ultralytics, defin
 
     Individual Contributors achieve impact through technical excellence and individual work. Both IC and [Management tracks](levels-management.md) offer equal advancement potential and compensation at equivalent scope levels. See [Career Progression](index.md) for the complete framework.
 
+## Career Progression
+
+**IC02 (Associate/Junior)** → **IC03 (Professional)** → **IC04 (Senior)** → **IC05 (Staff)** → **IC06 (Senior Staff)** → **IC07 (Principal)**
+
 ## Level Overview
 
 | Level                         | Title            | Career Stage             | Ops/Strategic Focus     |
