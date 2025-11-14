@@ -13,7 +13,21 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ## Career Progression
 
-**M04 (Lead Manager)** → **M05 (Manager)** → **M06 (Senior Manager)** → **M07 (Head of)** → **M08 (Director)** → **M09 (VP)**
+```mermaid
+graph LR
+    M04[M04<br/>Lead Manager<br/>80% Ops] --> M05[M05<br/>Manager<br/>70% Ops]
+    M05 --> M06[M06<br/>Senior Manager<br/>60% Ops]
+    M06 --> M07[M07<br/>Head of<br/>50% Ops]
+    M07 --> M08[M08<br/>Director<br/>40% Ops]
+    M08 --> M09[M09<br/>VP/SVP<br/>30% Ops]
+    
+    style M04 fill:#fff3e0
+    style M05 fill:#ffe0b2
+    style M06 fill:#ffcc80
+    style M07 fill:#ffb74d
+    style M08 fill:#ffa726
+    style M09 fill:#ff9800
+```
 
 ## Level Overview
 

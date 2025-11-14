@@ -13,7 +13,21 @@ Comprehensive career framework for Individual Contributors at Ultralytics, defin
 
 ## Career Progression
 
-**IC02 (Associate/Junior)** → **IC03 (Professional)** → **IC04 (Senior)** → **IC05 (Staff)** → **IC06 (Senior Staff)** → **IC07 (Principal)**
+```mermaid
+graph LR
+    IC02[IC02<br/>Associate/Junior<br/>Entry] --> IC03[IC03<br/>Professional<br/>Developing]
+    IC03 --> IC04[IC04<br/>Senior<br/>Career Level]
+    IC04 --> IC05[IC05<br/>Staff<br/>Senior/Seasoned]
+    IC05 --> IC06[IC06<br/>Senior Staff<br/>Expert]
+    IC06 --> IC07[IC07<br/>Principal<br/>Lead]
+    
+    style IC02 fill:#e1f5ff
+    style IC03 fill:#b3e5fc
+    style IC04 fill:#81d4fa
+    style IC05 fill:#4fc3f7
+    style IC06 fill:#29b6f6
+    style IC07 fill:#0288d1
+```
 
 ## Level Overview
 
