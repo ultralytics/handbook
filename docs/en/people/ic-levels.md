@@ -1,5 +1,5 @@
 ---
-description: Individual Contributor (IC) career levels IC02-IC07 at Ultralytics with detailed expectations, internal banding codes, and progression guidance.
+description: Individual Contributor (IC) career levels IC02-IC07 at Ultralytics with detailed expectations and progression guidance.
 keywords: IC levels, individual contributor, technical levels, engineering ladder, career progression, IC02, IC03, IC04, IC05, IC06, IC07, YOLO11
 ---
 
@@ -8,18 +8,19 @@ keywords: IC levels, individual contributor, technical levels, engineering ladde
 Comprehensive career framework for Individual Contributors at Ultralytics, defining expectations from entry-level through principal technical leadership. Use these descriptions for self-assessment, development planning, and promotion decisions.
 
 !!! info "Career Framework Overview"
-Individual Contributors achieve impact through technical excellence and individual work. Both IC and [Management tracks](management-levels.md) offer equal advancement potential and compensation at equivalent scope levels. See [Career Progression](career-progression.md) for the complete framework.
 
-## Level Overview & Banding Codes
+    Individual Contributors achieve impact through technical excellence and individual work. Both IC and [Management tracks](management-levels.md) offer equal advancement potential and compensation at equivalent scope levels. See [Career Progression](career-progression.md) for the complete framework.
 
-| Level                         | Title            | Career Stage             | Internal Codes       | Ops/Strategic Focus     |
-| ----------------------------- | ---------------- | ------------------------ | -------------------- | ----------------------- |
-| [IC02](#ic02-associatejunior) | Associate/Junior | Entry                    | 003, 081 (P1)        | 100% Operational        |
-| [IC03](#ic03-professional)    | Professional     | Developing               | 005, 76, 82 (P2)     | 100% Operational        |
-| [IC04](#ic04-senior)          | Senior           | Career/Fully Functioning | 31, 006, 77, 83 (P3) | 100% Operational        |
-| [IC05](#ic05-staff)           | Staff            | Senior/Seasoned          | 32, 007, 78, 84 (P4) | 80% Ops / 20% Strategic |
-| [IC06](#ic06-senior-staff)    | Senior Staff     | Expert                   | 008, 23, 79, 85 (P5) | 70% Ops / 30% Strategic |
-| [IC07](#ic07-principal)       | Principal        | Lead                     | 009, 24, 86 (P6)     | 60% Ops / 40% Strategic |
+## Level Overview
+
+| Level                         | Title            | Career Stage             | Ops/Strategic Focus     |
+| ----------------------------- | ---------------- | ------------------------ | ----------------------- |
+| [IC02](#ic02-associatejunior) | Associate/Junior | Entry                    | 100% Operational        |
+| [IC03](#ic03-professional)    | Professional     | Developing               | 100% Operational        |
+| [IC04](#ic04-senior)          | Senior           | Career/Fully Functioning | 100% Operational        |
+| [IC05](#ic05-staff)           | Staff            | Senior/Seasoned          | 80% Ops / 20% Strategic |
+| [IC06](#ic06-senior-staff)    | Senior Staff     | Expert                   | 70% Ops / 30% Strategic |
+| [IC07](#ic07-principal)       | Principal        | Lead                     | 60% Ops / 40% Strategic |
 
 ---
 
