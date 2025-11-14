@@ -26,7 +26,8 @@ Focused on achieving results through others, building teams, and organizational 
 **See detailed expectations**: [Management Levels (M04-M08)](management-levels.md)
 
 !!! info "Equal Value"
-Both IC and Management tracks are valued equally and offer equivalent compensation and growth potential at similar scope levels. Choose the track that best aligns with your strengths and career goals.
+
+    Both IC and Management tracks are valued equally and offer equivalent compensation and growth potential at similar scope levels. Choose the track that best aligns with your strengths and career goals.
 
 ---
 
@@ -84,7 +85,8 @@ Team members can move between IC and Management tracks based on interests, stren
 - Smooth team transition plan
 
 !!! note "Track Switching Support"
-Career track changes are normal and supported. Discuss with your manager during quarterly reviews. We value both paths equally and compensate based on scope and impact, not track choice.
+
+    Career track changes are normal and supported. Discuss with your manager during quarterly reviews. We value both paths equally and compensate based on scope and impact, not track choice.
 
 ---
 
@@ -121,7 +123,12 @@ Strong promotion cases include:
 
 ### Self-Advocacy Tips
 
-!!! tip "Demonstrating Readiness" - **Document Wins**: Keep running list of achievements and impact - **Seek Feedback**: Regularly ask manager about readiness and gaps - **Fill Gaps**: Proactively take on next-level work and responsibilities - **Build Visibility**: Share work in demos, docs, and cross-team forums - **Be Patient**: Promotions reward sustained performance, not single achievements
+!!! tip "Demonstrating Readiness"
+    - **Document Wins**: Keep running list of achievements and impact 
+    - **Seek Feedback**: Regularly ask manager about readiness and gaps 
+    - **Fill Gaps**: Proactively take on next-level work and responsibilities 
+    - **Build Visibility**: Share work in demos, docs, and cross-team forums 
+    - **Be Patient**: Promotions reward sustained performance, not single achievements
 
 ---
 
@@ -148,7 +155,8 @@ Compensation bands consider:
 - **Experience**: Prior experience may influence initial placement
 
 !!! info "Compensation Reviews"
-Compensation is reviewed quarterly during performance reviews. Adjustments consider individual performance, promotion eligibility, market changes, and company performance. Discuss compensation questions with your manager.
+
+    Compensation is reviewed quarterly during performance reviews. Adjustments consider individual performance, promotion eligibility, market changes, and company performance. Discuss compensation questions with your manager.
 
 ---
 
@@ -211,7 +219,8 @@ Compensation is reviewed quarterly during performance reviews. Adjustments consi
 - **M07 → M08**: 48+ months demonstrating senior executive leadership
 
 !!! warning "Sustained Performance Required"
-Timelines reflect typical progression for sustained next-level performance. Exceptional contributions may accelerate timelines, but promotions always require demonstrating readiness across **all dimensions** of the next level.
+
+    Timelines reflect typical progression for sustained next-level performance. Exceptional contributions may accelerate timelines, but promotions always require demonstrating readiness across **all dimensions** of the next level.
 
 ---
 
