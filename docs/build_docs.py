@@ -4,6 +4,7 @@
 import os
 import re
 import subprocess
+import sys
 import webbrowser
 from pathlib import Path
 
@@ -32,14 +33,21 @@ def main():
     """Build docs, postprocess, and serve with browser preview."""
     # Build with Zensical
     print(f"Building docs from {DOCS}")
-    subprocess.run(["python3", "-m", "zensical", "build"], cwd=DOCS.parent, check=True)
+    try:
+        subprocess.run(["python3", "-m", "zensical", "build"], cwd=DOCS.parent, check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Zensical build failed with exit code {e.returncode}")
+        sys.exit(1)
+    except FileNotFoundError:
+        print("❌ Zensical not found. Install with: pip install zensical")
+        sys.exit(1)
     print(f"Site built at {SITE}")
 
     # Postprocess
     fix_md()
     postprocess_site(
-        site_dir="site",
-        docs_dir="docs/en",
+        site_dir=str(SITE),
+        docs_dir=str(DOCS / "en"),
         site_url="https://handbook.ultralytics.com",
         default_image="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png",
         default_author="glenn.jocher@ultralytics.com",
@@ -62,7 +70,7 @@ def main():
         print(f"Opening browser at {url}")
         webbrowser.open(url)
         try:
-            subprocess.run(["python", "-m", "http.server", "--directory", str(SITE), "8000"], check=True)
+            subprocess.run([sys.executable, "-m", "http.server", "--directory", str(SITE), "8000"], check=True)
         except KeyboardInterrupt:
             print(f"\n✅ Server stopped. Restart at {url}")
         except Exception as e:
