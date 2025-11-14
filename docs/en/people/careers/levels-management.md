@@ -9,7 +9,7 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 !!! info "Management Track Overview"
 
-    Management roles achieve results through building and leading teams. All management positions include direct reports and HR responsibilities. Both [IC](ic-levels.md) and Management tracks offer equal advancement potential and compensation at equivalent scope levels. See [Career Progression](career-progression.md) for complete framework.
+    Management roles achieve results through building and leading teams. All management positions include direct reports and HR responsibilities. Both [IC](levels-ic.md) and Management tracks offer equal advancement potential and compensation at equivalent scope levels. See [Career Progression](index.md) for complete framework.
 
 ## Level Overview
 
@@ -415,7 +415,7 @@ Strong promotion cases include:
 ## Related Resources
 
 - **[IC Levels](levels-ic.md)** - Detailed IC02-IC07 expectations for technical track
-- **[Career Progression](careers/index.md)** - Complete framework, promotion process, track switching
+- **[Career Progression](index.md)** - Complete framework, promotion process, track switching
 - **[People & Benefits](../index.md)** - Comprehensive people policies and resources
 - **[Onboarding](../onboarding.md)** - Management expectations for new managers
 
