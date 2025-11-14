@@ -20,19 +20,19 @@ graph LR
     IC04 --> IC05[IC05<br/>Staff]
     IC05 --> IC06[IC06<br/>Senior Staff]
     IC06 --> IC07[IC07<br/>Principal]
-    
+
     M04[M04<br/>Lead Manager] --> M05[M05<br/>Manager]
     M05 --> M06[M06<br/>Senior Manager]
     M06 --> M07[M07<br/>Head of]
     M07 --> M08[M08<br/>Director]
     M08 --> M09[M09<br/>VP]
-    
+
     IC04 -.->|Switch| M04
     IC05 -.->|Switch| M04
     M04 -.->|Switch| IC05
     M05 -.->|Switch| IC05
     M05 -.->|Switch| IC06
-    
+
     style IC02 fill:#e1f5ff
     style IC03 fill:#e1f5ff
     style IC04 fill:#b3e5fc
