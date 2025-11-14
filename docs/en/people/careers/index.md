@@ -13,44 +13,49 @@ Ultralytics' career framework provides clear expectations for each level and gui
 
 ## Career Tracks
 
-```mermaid
-graph LR
-    IC02[IC02<br/>Associate] --> IC03[IC03<br/>Professional]
-    IC03 --> IC04[IC04<br/>Senior]
-    IC04 --> IC05[IC05<br/>Staff]
-    IC05 --> IC06[IC06<br/>Senior Staff]
-    IC06 --> IC07[IC07<br/>Principal]
-    
-    M04[M04<br/>Lead Manager] --> M05[M05<br/>Manager]
-    M05 --> M06[M06<br/>Senior Manager]
-    M06 --> M07[M07<br/>Head of]
-    M07 --> M08[M08<br/>Director]
-    M08 --> M09[M09<br/>VP]
-    
-    IC04 -.->|Switch| M04
-    IC05 -.->|Switch| M04
-    M04 -.->|Switch| IC05
-    M05 -.->|Switch| IC05
-    M05 -.->|Switch| IC06
-    
-    style IC02 fill:#e1f5ff
-    style IC03 fill:#e1f5ff
-    style IC04 fill:#b3e5fc
-    style IC05 fill:#81d4fa
-    style IC06 fill:#4fc3f7
-    style IC07 fill:#29b6f6
-    style M04 fill:#fff3e0
-    style M05 fill:#ffe0b2
-    style M06 fill:#ffcc80
-    style M07 fill:#ffb74d
-    style M08 fill:#ffa726
-    style M09 fill:#ff9800
-```
-
 **Individual Contributor (IC)**: [IC02](levels-ic.md#ic02-associatejunior) → [IC03](levels-ic.md#ic03-professional) → [IC04](levels-ic.md#ic04-senior) → [IC05](levels-ic.md#ic05-staff) → [IC06](levels-ic.md#ic06-senior-staff) → [IC07](levels-ic.md#ic07-principal)  
 **Management**: [M04](levels-management.md#m04-lead-manager) → [M05](levels-management.md#m05-manager) → [M06](levels-management.md#m06-senior-manager) → [M07](levels-management.md#m07-head-of) → [M08](levels-management.md#m08-director) → [M09](levels-management.md#m09-vp)
 
 **Track switching**: IC04/IC05 ↔ M04 | M04/M05 ↔ IC05/IC06
+
+```mermaid
+graph TB
+    subgraph IC ["🔵 Individual Contributor Track"]
+        direction LR
+        IC02[IC02<br/>Associate] --> IC03[IC03<br/>Professional]
+        IC03 --> IC04[IC04<br/>Senior]
+        IC04 --> IC05[IC05<br/>Staff]
+        IC05 --> IC06[IC06<br/>Senior Staff]
+        IC06 --> IC07[IC07<br/>Principal]
+    end
+    
+    subgraph MGMT ["🟠 Management Track"]
+        direction LR
+        M04[M04<br/>Lead Manager] --> M05[M05<br/>Manager]
+        M05 --> M06[M06<br/>Senior Manager]
+        M06 --> M07[M07<br/>Head of]
+        M07 --> M08[M08<br/>Director]
+        M08 --> M09[M09<br/>VP]
+    end
+    
+    IC04 <-.->|Switch| M04
+    IC05 <-.->|Switch| M04
+    IC05 <-.->|Switch| M05
+    IC06 <-.->|Switch| M05
+    
+    style IC02 fill:#e1f5ff,stroke:#0288d1
+    style IC03 fill:#e1f5ff,stroke:#0288d1
+    style IC04 fill:#b3e5fc,stroke:#0288d1
+    style IC05 fill:#81d4fa,stroke:#0288d1
+    style IC06 fill:#4fc3f7,stroke:#0288d1
+    style IC07 fill:#29b6f6,stroke:#0288d1
+    style M04 fill:#fff3e0,stroke:#ff9800
+    style M05 fill:#ffe0b2,stroke:#ff9800
+    style M06 fill:#ffcc80,stroke:#ff9800
+    style M07 fill:#ffb74d,stroke:#ff9800
+    style M08 fill:#ffa726,stroke:#ff9800
+    style M09 fill:#ff9800,stroke:#ff6f00
+```
 
 ### Track Comparison
 
