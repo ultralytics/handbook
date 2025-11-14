@@ -131,3 +131,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 200);
   }
 })();
+
+// Weglot Translation
+Weglot.initialize({api_key: 'wg_fdb1271a956bc0f4446d91030c1292c48'});

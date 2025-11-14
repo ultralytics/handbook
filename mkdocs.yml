@@ -115,6 +115,7 @@ extra_css:
   - stylesheets/style.css
 
 extra_javascript:
+  - https://cdn.weglot.com/weglot.min.js
   - https://cdn.jsdelivr.net/gh/ultralytics/llm@v0.0.4/js/chat.min.js
   - javascript/extra.js
   - javascript/giscus.js
