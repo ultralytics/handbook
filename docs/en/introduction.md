@@ -11,12 +11,33 @@ This handbook is your comprehensive guide to working at and contributing to [Ult
 
 ## Purpose and Scope 🎯
 
-This handbook exists to:
+<div class="grid cards" markdown>
 
-- **Align**: Ensure everyone understands our mission, values, and strategic priorities
-- **Guide**: Provide clear procedures for common tasks and processes
-- **Empower**: Give you the resources to work effectively and make informed decisions
-- **Evolve**: Serve as a living document that grows with our organization
+-   :material-target-account: **Align**
+
+    ---
+
+    Ensure everyone understands our mission, values, and strategic priorities
+
+-   :material-compass: **Guide**
+
+    ---
+
+    Provide clear procedures for common tasks and processes
+
+-   :material-lightning-bolt: **Empower**
+
+    ---
+
+    Give you the resources to work effectively and make informed decisions
+
+-   :material-refresh: **Evolve**
+
+    ---
+
+    Serve as a living document that grows with our organization
+
+</div>
 
 ## Who This Handbook Is For 👥
 
@@ -50,24 +71,31 @@ External partners can learn about:
 
 ## How to Use This Handbook 📚
 
-### Navigation
+=== "Navigation"
 
-Use the sidebar or top navigation to browse by topic. Key sections include:
+    Use the sidebar or top navigation to browse by topic:
+    
+    - **Mission & Values**: Our foundational principles
+    - **Finance**: Travel, relocation, and reimbursement policies
+    - **Tools**: Hardware, software, and email setup
+    - **Workflows**: Development, CI/testing, and documentation
+    - **Community**: How to contribute and engage
+    - **Legal & Security**: Compliance, ethics, and information security
 
-- **Mission & Values**: Our foundational principles
-- **Finance**: Travel, relocation, and reimbursement policies
-- **Tools**: Hardware, software, and email setup
-- **Workflows**: Development, CI/testing, and documentation
-- **Community**: How to contribute and engage
-- **Legal & Security**: Compliance, ethics, and information security
+=== "Search"
 
-### Search
+    Use the search function (top of page) to quickly find specific topics, policies, or procedures.
+    
+    !!! tip "Pro Tip"
+        Use keywords like "PTO", "travel", "onboarding" for quick results
 
-Use the search function (top of page) to quickly find specific topics, policies, or procedures.
+=== "Stay Updated"
 
-### Stay Updated
-
-This handbook is maintained in our [GitHub repository](https://github.com/ultralytics/handbook). Watch for updates or submit pull requests to improve content.
+    This handbook is maintained in our [GitHub repository](https://github.com/ultralytics/handbook).
+    
+    - :material-eye: Watch for updates
+    - :material-git: Submit pull requests to improve content
+    - :material-rss: Subscribe to release notifications
 
 ## About Ultralytics 🚀
 
@@ -75,65 +103,150 @@ Ultralytics is a world leader in artificial intelligence, creating state-of-the-
 
 ### What We Do
 
-- **Open Source**: Develop [YOLO](https://www.ultralytics.com/yolo) and related [computer vision](https://docs.ultralytics.com/tasks/) frameworks
-- **Research**: Push boundaries of AI model performance and efficiency
-- **Platform**: Build tools for [training](https://docs.ultralytics.com/modes/train/), [deployment](https://docs.ultralytics.com/guides/model-deployment-options/), and production AI
-- **Community**: Support 1M+ developers using our technology worldwide
-- **Solutions**: Deliver [industry-specific AI applications](https://www.ultralytics.com/solutions) across agriculture, automotive, healthcare, manufacturing, and more
+<div class="grid cards" markdown>
+
+-   :material-open-source-initiative: **Open Source**
+
+    ---
+
+    Develop [YOLO](https://www.ultralytics.com/yolo) and [computer vision](https://docs.ultralytics.com/tasks/) frameworks
+
+-   :material-flask: **Research**
+
+    ---
+
+    Push boundaries of AI model performance and efficiency
+
+-   :material-cloud-upload: **Platform**
+
+    ---
+
+    Build tools for [training](https://docs.ultralytics.com/modes/train/), [deployment](https://docs.ultralytics.com/guides/model-deployment-options/), and production AI
+
+-   :material-account-group: **Community**
+
+    ---
+
+    Support 1M+ developers using our technology worldwide
+
+-   :material-briefcase: **Solutions**
+
+    ---
+
+    Deliver [industry-specific AI applications](https://www.ultralytics.com/solutions)
+
+</div>
 
 ### How We Work
 
-- **In-Person First**: Most positions are onsite (5 days/week) at our London, Madrid, or Shenzhen offices. All our offices are dog-friendly! 🐕
-- **Ship Fast, Learn Faster**: MVP-first development with 2-week iteration cycles
-- **Open by Default**: Transparent decision-making, public development, and open-source first
-- **Data-Driven**: Metrics guide decisions, user feedback drives roadmap
-- **High Autonomy, High Accountability**: Freedom to own your work with clear expectations
-- **Community-Powered**: 1M+ developers and contributors shape our direction
+!!! info "Our Work Culture"
+
+    === "In-Person First"
+        Most positions are onsite (5 days/week) at our London, Madrid, or Shenzhen offices.
+        
+        :material-dog: All our offices are dog-friendly!
+    
+    === "Ship Fast, Learn Faster"
+        MVP-first development with 2-week iteration cycles.
+        
+        Bias toward action and rapid feedback loops.
+    
+    === "Open by Default"
+        - Transparent decision-making
+        - Public development
+        - Open-source first approach
+    
+    === "Data-Driven"
+        - Metrics guide decisions
+        - User feedback drives roadmap
+        - Evidence-based improvements
+    
+    === "High Autonomy"
+        Freedom to own your work with clear expectations and accountability.
+    
+    === "Community-Powered"
+        1M+ developers and contributors actively shape our direction.
 
 ## Our Commitment to You 🤝
 
-### Meaningful Impact
+=== "Meaningful Impact"
 
-You'll work on technology used by millions of developers worldwide, from Fortune 500 companies to individual researchers. Your code ships to production systems in autonomous vehicles, medical devices, manufacturing robots, and agricultural drones. This is AI that matters.
+    You'll work on technology used by millions of developers worldwide:
+    
+    - Fortune 500 companies
+    - Individual researchers
+    - Production systems in:
+        - Autonomous vehicles
+        - Medical devices
+        - Manufacturing robots
+        - Agricultural drones
+    
+    **This is AI that matters.**
 
-### Accelerated Growth
+=== "Accelerated Growth"
 
-Grow faster at Ultralytics than anywhere else:
+    Grow faster at Ultralytics than anywhere else:
+    
+    | Opportunity | Details |
+    |-------------|----------|
+    | **Direct Access** | Work with founders and technical leaders |
+    | **Ownership** | Significant projects with high visibility |
+    | **Learning Budget** | Courses, books, conference attendance |
+    | **Mentorship** | World-class AI researchers and engineers |
+    | **Career Path** | Clear paths to senior and leadership roles |
 
-- Work directly with founders and technical leaders
-- Own significant projects with high visibility and impact
-- Learning budget for courses, books, and conference attendance
-- Mentorship from world-class AI researchers and engineers
-- Clear paths to senior roles and leadership positions
+=== "Compensation"
 
-### Competitive Compensation
+    Competitive Series A-level compensation:
+    
+    - :material-cash: Market-rate salaries benchmarked against top tech companies
+    - :material-chart-line: Meaningful equity grants with long exercise windows
+    - :material-star: Performance bonuses and recognition
+    - :material-shield-check: Comprehensive benefits package
+    
+    !!! info "Details"
+        Discuss compensation with your manager or HR.
 
-We offer competitive Series A-level compensation including:
+=== "Transparency"
 
-- Market-rate salaries benchmarked against top tech companies
-- Meaningful equity grants with long exercise windows
-- Performance bonuses and recognition for exceptional contributions
-- Comprehensive benefits package
+    We operate with radical transparency:
+    
+    - :material-chart-box: Open financial metrics and company performance
+    - :material-map: Public product roadmap and development process
+    - :material-file-document: Clear decision-making with documented reasoning
+    - :material-account-voice: Direct access to leadership and honest 1:1s
 
-Discuss compensation details with your manager or HR.
+=== "World-Class Team"
 
-### Transparency & Trust
-
-We operate with radical transparency:
-
-- Open financial metrics and company performance
-- Public product roadmap and development process
-- Clear decision-making with documented reasoning
-- Direct access to leadership and honest 1:1s
-
-### World-Class Team
-
-Collaborate with exceptional talent:
-
-- AI researchers from top universities and companies
-- Engineers who have shipped products to millions
-- Open-source contributors recognized globally
-- Diverse team across 10+ countries and time zones
+    Collaborate with exceptional talent:
+    
+    <div class="grid cards" markdown>
+    
+    -   :material-school: **Top Researchers**
+    
+        ---
+    
+        AI researchers from leading universities and companies
+    
+    -   :material-code-braces: **Proven Engineers**
+    
+        ---
+    
+        Engineers who have shipped products to millions
+    
+    -   :material-github: **OSS Leaders**
+    
+        ---
+    
+        Open-source contributors recognized globally
+    
+    -   :material-earth: **Global Diversity**
+    
+        ---
+    
+        Diverse team across 10+ countries and time zones
+    
+    </div>
 
 ## Living Document Philosophy 📝
 
@@ -158,7 +271,3 @@ Questions about handbook content?
 Whether you're a new employee, long-time contributor, or exploring Ultralytics for the first time, we're glad you're here. This handbook reflects our commitment to transparency, professionalism, and continuous improvement. Check out [our blog](https://www.ultralytics.com/blog) for the latest news and insights.
 
 Let's build the future of AI together! 🚀
-
----
-
-_Last updated: January 2025_
