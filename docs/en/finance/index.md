@@ -58,22 +58,22 @@ Ultralytics rewards employees who refer qualified candidates that successfully j
 === "Under $3,000"
 
     **Standard Reimbursement Process:**
-    
+
     1. Pay expenses personally
     2. Submit receipts with business justification
     3. Reimbursement processed within **7 business days**
-    
+
     !!! tip "Best Practice"
         Submit reimbursement requests within the same fiscal quarter
 
 === "$3,000+"
 
     **Upfront Reimbursement Process:**
-    
+
     1. Submit expense request with cost estimate and business justification
     2. Receive approval and payment **before** incurring expenses
     3. Submit receipts after purchase for reconciliation
-    
+
     !!! info "Timeline"
         Allow **5 business days** for approval and payment processing
 

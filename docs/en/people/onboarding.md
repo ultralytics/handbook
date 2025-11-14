@@ -17,27 +17,27 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 
 <div class="grid cards" markdown>
 
--   :material-file-document-outline: **Documents**
+- :material-file-document-outline: **Documents**
 
-    ---
+    ***
 
     Employment contract and required paperwork
 
--   :material-laptop: **Equipment**
+- :material-laptop: **Equipment**
 
-    ---
+    ***
 
     Hardware specs and delivery details
 
--   :material-account-key: **Access**
+- :material-account-key: **Access**
 
-    ---
+    ***
 
     Google Workspace, Slack, GitHub credentials
 
--   :material-book-open-page-variant: **Reading**
+- :material-book-open-page-variant: **Reading**
 
-    ---
+    ***
 
     [Introduction](../introduction.md) and [Mission & Values](../mission-vision-values/index.md)
 
@@ -45,12 +45,12 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 
 ### What to Prepare
 
-| Item | Purpose | When Needed |
-|------|---------|-------------|
-| **Government-issued ID** | Background check verification | Day 1 |
-| **Bank details** | Payroll setup | First week |
-| **Emergency contact** | Update in [Rippling](https://www.rippling.com) | Day 1 |
-| **Questions list** | Reference during onboarding | Day 1 |
+| Item                     | Purpose                                        | When Needed |
+| ------------------------ | ---------------------------------------------- | ----------- |
+| **Government-issued ID** | Background check verification                  | Day 1       |
+| **Bank details**         | Payroll setup                                  | First week  |
+| **Emergency contact**    | Update in [Rippling](https://www.rippling.com) | Day 1       |
+| **Questions list**       | Reference during onboarding                    | Day 1       |
 
 ## First Day 🎉
 
@@ -59,12 +59,12 @@ gantt
     title First Day Schedule
     dateFormat HH:mm
     axisFormat %H:%M
-    
+
     section Morning
     Welcome Meeting (Manager)     :a1, 09:00, 30m
     IT Setup                      :a2, after a1, 60m
     HR Onboarding                 :a3, after a2, 45m
-    
+
     section Afternoon
     Lunch with Team               :b1, 13:00, 60m
     Security Training             :b2, after b1, 60m
@@ -77,7 +77,7 @@ gantt
 === "Welcome Meeting (30 min)"
 
     **With your manager:**
-    
+
     - Office tour (onsite at our dog-friendly office 🐶) or virtual workspace overview
     - Team introductions
     - First week schedule review
@@ -85,18 +85,18 @@ gantt
 === "IT Setup (60 min)"
 
     **Getting your workspace ready:**
-    
+
     - Unbox and configure hardware
     - Install Rippling MDM on all devices
     - Set up Google Workspace, Slack, GitHub
     - Configure email signature (automated)
-    
+
     Contact [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com) or `#it-support` on Slack if you need help.
 
 === "HR Onboarding (45 min)"
 
     **Administrative setup:**
-    
+
     - Complete Rippling profile
     - Review benefits and PTO policy
     - Sign any remaining documents
@@ -106,14 +106,14 @@ gantt
 
 === "Team Lunch (60 min)"
 
-    **Onsite:** Join team at local restaurant or office kitchen  
+    **Onsite:** Join team at local restaurant or office kitchen
     **Remote:** Virtual coffee chat
 
 === "Security Training (60 min)"
 
     !!! warning "Required Compliance"
         Must be completed on Day 1
-    
+
     - Complete GDPR, CCPA, and security awareness training via [Vanta](https://app.vanta.com/)
     - Review [Security Requirements](../security/employee-security-compliance-requirements.md)
     - Understand [Code of Conduct](../legal/code-of-business-conduct-and-ethics.md)
@@ -122,25 +122,25 @@ gantt
 === "Dev Environment (90 min)"
 
     **For engineering roles:**
-    
+
     ```bash
     # Clone repositories
     git clone https://github.com/ultralytics/ultralytics.git
     cd ultralytics
-    
+
     # Install dependencies
     pip install -e .
-    
+
     # Verify installation
     yolo checks
     ```
-    
+
     - Set up IDE and tools per [Software Policy](../tools/software.md)
 
 === "First Assignment"
 
     **Quick win:**
-    
+
     - Small starter task or documentation review
     - Submit your first PR (even a typo fix counts!)
 
@@ -228,33 +228,33 @@ gantt
 
 <div class="grid cards" markdown>
 
--   :material-account-star: **Own Your Domain**
+- :material-account-star: **Own Your Domain**
 
-    ---
+    ***
 
     Be the go-to person for your area of expertise
 
--   :material-rocket-launch: **Drive Independently**
+- :material-rocket-launch: **Drive Independently**
 
-    ---
+    ***
 
     Lead features from design to deployment
 
--   :material-school: **Mentor Others**
+- :material-school: **Mentor Others**
 
-    ---
+    ***
 
     Help onboard the next new team member
 
--   :material-lightbulb-on: **Shape Direction**
+- :material-lightbulb-on: **Shape Direction**
 
-    ---
+    ***
 
     Contribute ideas to roadmap and planning
 
--   :material-party-popper: **Celebrate Wins**
+- :material-party-popper: **Celebrate Wins**
 
-    ---
+    ***
 
     Ship meaningful improvements users notice
 
@@ -351,19 +351,19 @@ Work with your manager to define specific, measurable goals:
 
     === "Ask Questions"
         No question is too small - everyone was new once. Use Slack, schedule 1:1s, and ask during meetings.
-    
+
     === "Take Notes"
         Document processes, shortcuts, and learnings. Create a personal wiki or notebook.
-    
+
     === "Be Proactive"
         Don't wait to be told what to do - suggest ideas and volunteer for tasks.
-    
+
     === "Ship Early, Ship Often"
         Bias toward action and rapid iteration. Perfect is the enemy of done.
-    
+
     === "Build Relationships"
         Coffee chats are high-value. Schedule 3-5 per week in your first month.
-    
+
     === "Seek Feedback"
         Ask manager and peers how you're doing weekly. Make adjustments quickly.
 
