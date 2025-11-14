@@ -46,24 +46,6 @@ Track switches are normal and supported—discuss with your manager during quart
 
 ## Promotion Process
 
-```mermaid
-graph TD
-    A[Quarterly Review] --> B{Ready for<br/>Next Level?}
-    B -->|Not Yet| C[Identify Gaps]
-    C --> D[Take Next-Level Work]
-    D --> A
-    B -->|Yes| E[Self-Nominate]
-    E --> F[Manager Assessment]
-    F --> G[Calibration]
-    G --> H[Decision]
-    H -->|Approved| I[Promotion Effective<br/>Next Quarter]
-    H -->|Not Yet| C
-
-    style I fill:#c8e6c9
-```
-
-### Promotion Criteria
-
 Promotions require **sustained demonstration** of next-level performance across all dimensions:
 
 1. **Performance** - Meeting/exceeding current level for 6+ months
