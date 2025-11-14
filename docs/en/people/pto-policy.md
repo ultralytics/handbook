@@ -49,7 +49,7 @@ Additional days are added to your annual allocation and accrue monthly along wit
 
 ### Prorated Allocations
 
-Mid-year hires receive prorated PTO for the 24 flexible days based on start date (birthday day is always included):
+Mid-year hires receive prorated PTO for the 24 flexible days based on start date (birthday day is always included).
 
 ## Types of Leave 🏖️
 
