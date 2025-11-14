@@ -9,11 +9,7 @@ keywords: Ultralytics hardware policy, computer equipment, MacBook Air, MacBook 
 
 ## Purpose and Scope
 
-This policy outlines the provisioning, management, and security of all hardware used by Ultralytics employees. Its purpose is to ensure everyone has the necessary tools to perform their roles effectively while protecting the company's assets and data.
-
-!!! info "Applies To"
-
-    All full-time, part-time, and contract employees
+This policy outlines the provisioning, management, and security of all hardware used by Ultralytics employees. Its purpose is to ensure everyone has the necessary tools to perform their roles effectively while protecting the company's assets and data. This policy applies to all full-time, part-time, and contract employees.
 
 ## Hardware Refresh Cycle 🔄
 
@@ -68,9 +64,7 @@ timeline
 
 </div>
 
-!!! note "Weight Consideration"
-
-    The MacBook Pro is **heavier** than the MacBook Air and may be less suitable for employees who travel frequently.
+**Note:** The MacBook Pro is heavier than the MacBook Air and may be less suitable for employees who travel frequently.
 
 !!! warning "Keyboard Language"
 
@@ -92,15 +86,7 @@ timeline
 
     Most Ultralytics positions are **onsite** (5 days/week) at our London, Madrid, or Shenzhen offices.
 
-**Your manager will coordinate with IT to have equipment ready at your office on your first day:**
-
-- [x] Manager coordinates with IT department
-- [x] Equipment ready at office location on day one
-- [x] Includes computer and all accessories
-- [x] Workspace fully set up when you arrive
-
-!!! success "Zero Setup Hassle"
-    Your workspace is ready when you arrive - just plug in and start working!
+**Your manager will coordinate with IT to have equipment ready at your office on your first day.** Equipment includes your computer, all accessories, and a fully set up workspace ready when you arrive - just plug in and start working!
 
 ??? note "Exception: Remote Employees"
 
@@ -135,9 +121,7 @@ timeline
 
 ## Hardware Replacements & Upgrades 🔧
 
-!!! info "When to Replace"
-
-    This process applies when replacing an existing device with a new one (not for new hires).
+This process applies when replacing an existing device with a new one (not for new hires).
 
 ```mermaid
 flowchart TD

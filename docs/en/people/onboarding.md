@@ -91,8 +91,7 @@ gantt
     - Set up Google Workspace, Slack, GitHub
     - Configure email signature (automated)
     
-    !!! tip "Need Help?"
-        Contact [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com) or `#it-support` on Slack
+    Contact [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com) or `#it-support` on Slack if you need help.
 
 === "HR Onboarding (45 min)"
 

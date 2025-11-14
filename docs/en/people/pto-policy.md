@@ -52,9 +52,7 @@ keywords: Ultralytics PTO, paid time off, 25 days vacation, vacation policy, sic
 
 </div>
 
-!!! info "No Accrual Period"
-
-    Full allocation available **immediately upon hire** - use your PTO from day one!
+**Full allocation available immediately upon hire** - use your PTO from day one!
 
 ### Balance Limits
 
