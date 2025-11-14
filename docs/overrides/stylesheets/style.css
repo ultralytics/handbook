@@ -227,8 +227,8 @@ table td:nth-child(2):last-child {
 }
 
 /* Remove underlines from links */
-a {
-  text-decoration: none;
+.md-typeset a {
+  text-decoration: none !important;
 }
 
 /* Ultralytics Search Bar ------------------------------------------------------------------------------------------- */
