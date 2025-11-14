@@ -29,6 +29,7 @@ This Handbook serves as a **living document**, evolving alongside Ultralytics' g
 The Handbook features **[Ultralytics Chat](https://github.com/ultralytics/llm)** - our open-source conversational AI interface powered by the lightweight [chat.js](https://github.com/ultralytics/llm) implementation. This provides real-time AI assistance for navigating handbook content, answering policy questions, and helping team members find information quickly.
 
 **Key Features:**
+
 - 🎯 **Zero Dependencies** - Vanilla JavaScript (~1000 lines), no frameworks required
 - 📱 **Mobile Optimized** - Full iOS & Android support with responsive design
 - ⚡ **Real-time Streaming** - SSE-based streaming responses with abort support
