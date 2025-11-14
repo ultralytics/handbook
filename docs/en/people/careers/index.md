@@ -20,26 +20,26 @@ graph LR
     IC04 --> IC05[IC05<br/>Staff]
     IC05 --> IC06[IC06<br/>Senior Staff]
     IC06 --> IC07[IC07<br/>Principal]
-    
+
     IC04 -."switch".-> M04[M04<br/>Lead Manager]
     IC05 -."switch".-> M04
-    
+
     M04 --> M05[M05<br/>Manager]
     M05 --> M06[M06<br/>Senior Manager]
     M06 --> M07[M07<br/>Head of]
     M07 --> M08[M08<br/>Director/VP]
-    
+
     M04 -."switch".-> IC05
     M05 -."switch".-> IC05
     M05 -."switch".-> IC06
-    
+
     style IC02 fill:#e1f5ff
     style IC03 fill:#e1f5ff
     style IC04 fill:#b3e5fc
     style IC05 fill:#81d4fa
     style IC06 fill:#4fc3f7
     style IC07 fill:#29b6f6
-    
+
     style M04 fill:#fff3e0
     style M05 fill:#ffe0b2
     style M06 fill:#ffcc80
@@ -63,10 +63,10 @@ graph LR
 
 Track switches are normal and supported—discuss with your manager during quarterly reviews.
 
-| Direction           | Typical Path  | Key Requirements                                                                                                 |
-| ------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------- |
-| **IC → Management** | IC04/IC05→M04 | Technical excellence + leadership examples (mentoring, project leadership) + manager endorsement + 12+ months    |
-| **Management → IC** | M04/M05→IC05+ | Maintain technical currency + manager discussion + business need + smooth team transition                        |
+| Direction           | Typical Path  | Key Requirements                                                                                              |
+| ------------------- | ------------- | ------------------------------------------------------------------------------------------------------------- |
+| **IC → Management** | IC04/IC05→M04 | Technical excellence + leadership examples (mentoring, project leadership) + manager endorsement + 12+ months |
+| **Management → IC** | M04/M05→IC05+ | Maintain technical currency + manager discussion + business need + smooth team transition                     |
 
 **When to switch IC→Management**: Passionate about people development, organizational dynamics, influencing through teams  
 **When to switch Management→IC**: Miss hands-on technical work, prefer expertise-based influence, want deeper specialization
@@ -87,7 +87,7 @@ graph TD
     G --> H[Decision]
     H -->|Approved| I[Promotion Effective<br/>Next Quarter]
     H -->|Not Yet| C
-    
+
     style I fill:#c8e6c9
 ```
 
@@ -96,7 +96,7 @@ graph TD
 Promotions require **sustained demonstration** of next-level performance across all dimensions:
 
 1. **Performance** - Meeting/exceeding current level for 6+ months
-2. **Next-Level Work** - Consistently operating at next level for 6-12 months  
+2. **Next-Level Work** - Consistently operating at next level for 6-12 months
 3. **Scope** - Expanded scope and complexity appropriate to next level
 4. **Impact** - Demonstrated impact on team, function, or company
 5. **Readiness** - Manager and skip-level agreement
@@ -135,17 +135,17 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 
 ## Typical Promotion Timelines
 
-| Level Transition | Typical Timeline | Key Demonstration                           |
-| ---------------- | ---------------- | ------------------------------------------- |
-| IC02 → IC03      | 12-18 months     | Independent feature delivery                |
-| IC03 → IC04      | 18-24 months     | Consistent senior-level impact              |
-| IC04 → IC05      | 24-36 months     | Cross-team technical leadership             |
-| IC05 → IC06      | 36+ months       | Department-level strategic impact           |
-| IC06 → IC07      | 36+ months       | Organization-wide strategic impact          |
-| M04 → M05        | 18-24 months     | Multi-team coordination excellence          |
-| M05 → M06        | 24-36 months     | Functional leadership and strategic impact  |
-| M06 → M07        | 36+ months       | Executive-level influence                   |
-| M07 → M08        | 48+ months       | Senior executive leadership                 |
+| Level Transition | Typical Timeline | Key Demonstration                          |
+| ---------------- | ---------------- | ------------------------------------------ |
+| IC02 → IC03      | 12-18 months     | Independent feature delivery               |
+| IC03 → IC04      | 18-24 months     | Consistent senior-level impact             |
+| IC04 → IC05      | 24-36 months     | Cross-team technical leadership            |
+| IC05 → IC06      | 36+ months       | Department-level strategic impact          |
+| IC06 → IC07      | 36+ months       | Organization-wide strategic impact         |
+| M04 → M05        | 18-24 months     | Multi-team coordination excellence         |
+| M05 → M06        | 24-36 months     | Functional leadership and strategic impact |
+| M06 → M07        | 36+ months       | Executive-level influence                  |
+| M07 → M08        | 48+ months       | Senior executive leadership                |
 
 !!! warning "Sustained Performance Required"
 
