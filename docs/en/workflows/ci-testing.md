@@ -179,12 +179,11 @@ mypy ultralytics/
 ### Docstring Formatting
 
 ```bash
-# Install the Python package
 pip install ultralytics-actions
 ```
 
 ```bash
-# Format docstrings in the working directory
+# Auto-fix
 ultralytics-actions-format-python-docstrings .
 ```
 
