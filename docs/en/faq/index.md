@@ -244,7 +244,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     1. Submit PR with clear description
     2. CI tests run automatically
-    3. [Ultralytics Assistant](https://github.com/ultralytics/ultralytics/pull/22623#pullrequestreview-3435272090) reviews within minues
+    3. [Ultralytics Assistant](https://github.com/ultralytics/handbook/pull/204#pullrequestreview-3467954430) reviews within minutes
     4. Team reviews within **1-2 business days**
     5. Address feedback with additional commits
     6. Once approved, changes merge to main
