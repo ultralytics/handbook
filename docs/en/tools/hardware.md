@@ -7,155 +7,395 @@ keywords: Ultralytics hardware policy, computer equipment, MacBook Air, MacBook 
 
 ![Ultralytics Hardware Policy](https://github.com/user-attachments/assets/6a1566ab-7984-46a0-96b2-0f9dc944bfde)
 
-## 1. Purpose and Scope
+## Purpose and Scope
 
 This policy outlines the provisioning, management, and security of all hardware used by Ultralytics employees. Its purpose is to ensure everyone has the necessary tools to perform their roles effectively while protecting the company's assets and data. This policy applies to all full-time, part-time, and contract employees.
 
-## 2. Hardware Refresh Cycle 🔄
+## Hardware Refresh Cycle 🔄
 
-**All employees are eligible for a hardware refresh every two years.** This ensures our team is equipped with modern and efficient tools. Replacement requests outside this standard cycle require direct manager approval based on performance needs or hardware failure.
+!!! success "2-Year Refresh Cycle"
 
-## 3. Standard Computer Equipment 🖥️
+    **All employees are eligible for a hardware refresh every two years.**
 
-### Default Configuration
+    This ensures our team is equipped with modern and efficient tools.
 
-**[MacBook Air (13", M4, 16GB RAM, 256GB Storage)](https://www.apple.com/macbook-air/)** - The standard configuration for all employees, balancing performance and portability.
+```mermaid
+timeline
+    title Hardware Lifecycle
+    section Year 1
+        New Device : Issued to employee
+        Peak Performance : Optimal productivity
+    section Year 2
+        Continued Use : Maintained performance
+        Refresh Eligible : Can request replacement
+    section Refresh
+        Manager Approval : Automatic within cycle
+        Order New : Trade in old device
+        Receive New : Continue productivity
+```
 
-### Technical/Developer Configuration
+!!! warning "Outside Standard Cycle"
 
-**[MacBook Pro (14", M4, 16GB RAM, 512GB Storage)](https://www.apple.com/macbook-pro/)** - Available for employees in technical and developer roles who require additional processing power.
+    Replacement requests outside the 2-year cycle require **direct manager approval** based on performance needs or hardware failure.
 
-!!! note "Weight Consideration"
+## Standard Computer Equipment 🖥️
 
-    The MacBook Pro is heavier than the MacBook Air and may be less suitable for employees who travel frequently. Please consider this when selecting your device.
+<div class="grid cards" markdown>
+
+- :material-laptop: **MacBook Air**
+
+    ***
+
+    [13", M4, 16GB RAM, 256GB Storage](https://www.apple.com/macbook-air/)
+
+    **Default for all employees**
+
+    Balances performance and portability
+
+- :material-laptop: **MacBook Pro**
+
+    ***
+
+    [14", M5, 16GB RAM, 512GB Storage](https://www.apple.com/macbook-pro/)
+
+    **For technical/developer roles**
+
+    Additional processing power
+
+</div>
+
+**Note:** The MacBook Pro is heavier than the MacBook Air and may be less suitable for employees who travel frequently.
 
 !!! warning "Keyboard Language"
 
-    Ensure you order the correct keyboard layout for your language when requesting equipment.
+    **Ensure you order the correct keyboard layout** for your language when requesting equipment.
 
 ### Custom Configurations
 
-Any hardware configuration other than the two standards listed above is considered an exception and requires **direct manager approval** with a clear business justification.
+!!! danger "Requires Manager Approval"
 
-## 4. New Hire Equipment Process 📦
+    Any hardware configuration other than the two standards listed above is considered an **exception** and requires:
 
-### Onsite Employees
+    - Direct manager approval
+    - Clear business justification
+    - Written approval before ordering
 
-- Your manager will coordinate with the IT department to have your equipment ready for you.
-- You will receive your computer and accessories directly at your office location on your first day.
+## New Hire Equipment Process 📦
 
-### Remote Employees
+!!! info "Standard Process - Onsite Positions"
 
-- You must independently order your approved equipment configuration.
-- Submit receipts to the Finance team for reimbursement by following the standard [reimbursement procedures](../finance/index.md#reimbursements).
-- It is highly recommended to confirm the purchase details with your manager before ordering to ensure a smooth reimbursement process.
+    Most Ultralytics positions are **onsite** (5 days/week) at our London, Madrid, or Shenzhen offices.
+
+**Your manager will coordinate with IT to have equipment ready at your office on your first day.** Equipment includes your computer, all accessories, and a fully set up workspace ready when you arrive - just plug in and start working!
+
+??? note "Exception: Remote Employees"
+
+    For the rare remote positions:
+
+    1. Order your approved equipment configuration independently
+    2. Submit receipts to Finance for reimbursement
+    3. Follow standard [reimbursement procedures](../finance/index.md#reimbursements)
+    4. Confirm purchase details with manager **before ordering**
 
 ### Standard Accessories
 
-- **[Apple AirPods Pro](https://www.apple.com/airpods-pro/)**
-- **[Apple Studio Display](https://www.apple.com/studio-display/)** for all onsite employees
+<div class="grid cards" markdown>
 
-## 5. Hardware Replacements & Upgrades 🔧
+- :material-headphones: **AirPods Pro**
 
-This process applies when replacing an existing device with a new one.
+    ***
 
-1.  **Request Approval:** Request replacement approval from your manager. This is automatically granted if you are within the 2-year refresh cycle.
-2.  **Select Device:** Once approved, select your eligible device (MacBook Air or MacBook Pro, depending on your role).
-3.  **Order and Trade-In:** Order the new device directly from Apple. **You MUST select the option to trade in your existing device** and provide its serial number during the order process.
-4.  **Migrate Data:** Upon receiving your new device, migrate all data from your old device.
-5.  **Return Old Device:** **IMPORTANT:** Ship your old device back to Apple using the provided trade-in kit via the [Apple Trade In](https://www.apple.com/shop/trade-in) program.
-6.  **Submit for Reimbursement:** The reimbursed amount will be the **net cost (new device price - Apple trade-in credit)**. You will not be reimbursed for the full price of the new device.
+    [Apple AirPods Pro](https://www.apple.com/airpods-pro/)
+
+    For all employees
+
+- :material-monitor: **Studio Display**
+
+    ***
+
+    [Apple Studio Display](https://www.apple.com/studio-display/)
+
+    **Onsite employees only** at office desk
+
+</div>
+
+## Hardware Replacements & Upgrades 🔧
+
+This process applies when replacing an existing device with a new one (not for new hires).
+
+```mermaid
+flowchart TD
+    A[Need Replacement?] --> B{Within 2-Year Cycle?}
+    B -->|Yes| C[Automatic Approval]
+    B -->|No| D[Request Manager Approval]
+    D --> E{Approved?}
+    E -->|No| F[Continue with Current Device]
+    E -->|Yes| C
+    C --> G[Select Eligible Device]
+    G --> H[Order from Apple]
+    H --> I[Select Trade-In Option]
+    I --> J[Provide Old Device Serial #]
+    J --> K[Receive New Device]
+    K --> L[Migrate Data]
+    L --> M[Ship Old Device to Apple]
+    M --> N[Submit for Reimbursement]
+    N --> O[Receive Net Cost Payment]
+
+    style A fill:#e1f5ff
+    style C fill:#d4edda
+    style O fill:#d4edda
+```
+
+### Replacement Process
+
+Begin by requesting replacement approval from your manager, which is automatically granted if you're within the 2-year refresh cycle but requires business justification if outside the standard timeline. Once approved, select your eligible device (MacBook Air or MacBook Pro) based on your role requirements and portability needs. Order the new device directly from Apple, ensuring you select the trade-in option during checkout and provide the serial number of your existing device.
+
+Upon receiving your new device, migrate all data from your old device and test functionality thoroughly before returning the old one. Ship your old device back to Apple using the provided trade-in kit and follow the [Apple Trade In](https://www.apple.com/shop/trade-in) instructions. Finally, submit your purchase for reimbursement through Finance procedures. The reimbursed amount will be the net cost (new device price minus trade-in credit), not the full price of the new device.
 
 !!! warning "Approval and Reimbursement Requirements"
 
-    Your manager and the Finance team must see the **full order details** before approval. This includes both the new device price and the estimated trade-in credit for the old device.
+    Your manager and Finance team must see the **full order details** including:
 
-## 6. Mobile Device Policy 📱
+    - New device price
+    - Estimated trade-in credit for old device
+    - Net cost to be reimbursed
+
+## Mobile Device Policy 📱
+
+!!! info "Not Standard Issue"
+
+    Company-provided mobile devices require **manager approval** and clear business justification.
 
 ### Eligibility and Justification
 
-- Company-provided mobile devices like [iPads](https://www.apple.com/ipad/), [iPhones](https://www.apple.com/iphone/), or Android devices are not standard issue and require **manager approval**.
-- You must demonstrate a clear business necessity for the device. Examples include:
-    - Frequent travel requiring constant access to work apps and email.
-    - On-call duties that necessitate immediate response capabilities.
-    - Roles that require testing on specific mobile platforms.
+<div class="grid cards" markdown>
 
-### Approval and Purchase Process
+- :material-airplane-takeoff: **Frequent Travel**
 
-1.  Submit a request to your direct manager with a written business justification.
-2.  Once approved by your manager, purchase the approved device.
-3.  Request reimbursement from the Finance team with the receipt.
+    ***
 
-## 7. Device Management & Security 🔒
+    Constant access to work apps and email required
 
-### Rippling MDM: A Mandatory Requirement
+- :material-phone-alert: **On-Call Duties**
 
-**All devices used for work, whether company-provided or personally owned (under BYOD), must have Rippling Mobile Device Management (MDM) installed.**
+    ***
 
-- **Applies To:** MacBook Air/Pro, iPads, iPhones, and Android devices.
-- **Installation:** Employees are responsible for installing Rippling MDM from **[app.rippling.com/enroll-device](https://app.rippling.com/enroll-device)**.
-- **Timing:** MDM must be installed **before** the device is used to access any company data or systems.
+    Immediate response capabilities necessary
+
+- :material-cellphone-check: **Platform Testing**
+
+    ***
+
+    Need to test on specific mobile platforms
+
+</div>
+
+### Approval Process
+
+```mermaid
+graph LR
+    A[Need Mobile Device?] --> B[Write Business Justification]
+    B --> C[Submit to Manager]
+    C --> D{Approved?}
+    D -->|No| E[Use Personal Device]
+    D -->|Yes| F[Purchase Device]
+    F --> G[Submit Receipt to Finance]
+    G --> H[Receive Reimbursement]
+
+    style A fill:#e1f5ff
+    style H fill:#d4edda
+```
+
+## Device Management & Security 🔒
+
+### Rippling MDM: Mandatory Requirement
+
+!!! danger "Critical Security Requirement"
+
+    **All devices used for work MUST have Rippling MDM installed**
+
+    This applies to:
+
+    - MacBook Air/Pro
+    - iPads
+    - iPhones
+    - Android devices
+    - Personal devices (BYOD)
+
+**Installation Required:**
+
+- Install from **[app.rippling.com/enroll-device](https://app.rippling.com/enroll-device)**
+- Must be installed **before** accessing any company data
+- Failure to install blocks access to company resources
 
 ### Security & Compliance Policies
 
-All devices must adhere to company security requirements, which are enforced via Rippling MDM:
+All devices must adhere to these security requirements enforced via Rippling MDM:
 
-- **Hard Drive Encryption:** Full disk encryption (e.g., FileVault) must be enabled.
-- **Strong Passwords:** Devices must be protected with a strong password.
-- **Automatic Updates:** Security updates must be enabled to run automatically.
-- **Compliance Monitoring:** Devices are subject to regular compliance checks.
-- **Remote Management:** The IT department has the ability to remotely lock or wipe company data from devices to protect information if a device is lost or stolen.
+<div class="grid cards" markdown>
+
+- :material-lock: **Encryption**
+
+    ***
+
+    Full disk encryption (FileVault) enabled
+
+- :material-key: **Strong Passwords**
+
+    ***
+
+    Device protected with complex password
+
+- :material-update: **Auto Updates**
+
+    ***
+
+    Security updates enabled automatically
+
+- :material-shield-check: **Compliance**
+
+    ***
+
+    Regular compliance checks performed
+
+- :material-remote: **Remote Management**
+
+    ***
+
+    IT can remotely lock or wipe if needed
+
+</div>
 
 !!! warning "Strict Compliance Enforcement"
 
-    Devices that do not have Rippling MDM installed and configured correctly are not permitted for work use and will be blocked from accessing company resources.
+    Devices without properly configured Rippling MDM:
 
-## 8. Bring Your Own Device (BYOD) Policy 🤝
+    - ❌ Not permitted for work use
+    - ❌ Blocked from accessing company resources
+    - ❌ Cannot access email, Slack, or internal tools
 
-While company-provided hardware is the standard, Ultralytics permits the use of personal devices for work in limited, pre-approved circumstances.
+## Bring Your Own Device (BYOD) Policy 🤝
 
-- **Approval Required:** Using a personal device for work requires explicit approval from your manager and the IT department.
-- **MDM is Mandatory:** Any approved personal device **must** be enrolled in Rippling MDM. This allows the company to manage and secure its data without accessing your personal information.
-- **Employee Responsibility:** You remain responsible for the care and maintenance of your own device.
+!!! info "Limited Approval"
 
-## 9. Care, Maintenance, and Support 🛠️
+    While company-provided hardware is the standard, personal devices may be used in **limited, pre-approved circumstances**.
+
+### Requirements for BYOD
+
+| Requirement                 | Details                                          |
+| --------------------------- | ------------------------------------------------ |
+| **Approval**                | Explicit approval from manager AND IT department |
+| **MDM Installation**        | **Mandatory** Rippling MDM enrollment            |
+| **Security Compliance**     | Must meet all security policies                  |
+| **Employee Responsibility** | You maintain and care for your device            |
+
+!!! tip "Recommendation"
+
+    **Company-provided hardware is strongly recommended** over BYOD for:
+
+    - Better security and compliance
+    - Standardized support experience
+    - No personal device risk
+    - Clear separation of work/personal
+
+## Care, Maintenance, and Support 🛠️
 
 ### Employee Responsibility
 
-- Use all company equipment professionally and responsibly.
-- Keep devices physically protected and clean.
-- Do not attempt to perform unauthorized repairs; contact IT support for all hardware issues.
-- Install all required security updates promptly.
+<div class="grid cards" markdown>
+
+- :material-hand-heart: **Professional Use**
+
+    ***
+
+    Use equipment professionally and responsibly
+
+- :material-shield-star: **Physical Protection**
+
+    ***
+
+    Keep devices physically protected and clean
+
+- :material-close-circle: **No DIY Repairs**
+
+    ***
+
+    Don't attempt unauthorized repairs
+
+- :material-update: **Install Updates**
+
+    ***
+
+    Install security updates promptly
+
+</div>
 
 ### Reporting Damage or Loss
 
-**You must immediately report any of the following to IT Support at [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com):**
+!!! danger "Report Immediately to IT Support"
 
-- Physical damage to equipment.
-- A lost or stolen device.
-- Any hardware malfunction.
-- Suspected security incidents or viruses.
+    **Email:** [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com)
+    **Slack:** `#it-support` channel
 
-## 10. Hardware Ownership and Return 📋
+    Report any of the following immediately:
+
+    - [ ] Physical damage to equipment
+    - [ ] Lost or stolen device
+    - [ ] Hardware malfunction
+    - [ ] Suspected security incidents or viruses
+
+## Hardware Ownership and Return 📋
 
 ### Ownership
 
-All hardware purchased or reimbursed by Ultralytics is the property of the company.
+!!! info "Company Property"
 
-### Return Process upon Departure
+    All hardware purchased or reimbursed by Ultralytics is **company property**.
 
-All company property must be returned upon your departure.
+### Return Process Upon Departure
 
-- **Onsite Employees:** Coordinate with your manager and the IT department to return all equipment on your last day.
-- **Remote Employees:** The IT department will provide you with pre-paid shipping labels and instructions to return all equipment.
+**Coordinate with your manager and IT department to return all equipment on your last day:**
 
-## 11. Reimbursement Process 💰
+- In-person handoff at office (standard)
+- IT provides pre-paid shipping labels if needed
+- All equipment must be returned within 3 business days
 
-All hardware purchases must follow the standard company reimbursement procedures.
+!!! warning "Equipment Return Checklist"
 
-- Submit all receipts to the Finance team via the appropriate channels.
-- Include a clear description of the business purpose for the purchase.
-- For detailed procedures, please reference the [Finance Handbook](../finance/index.md).
+    Before returning equipment:
+
+    - [ ] Back up personal files (nothing personal should be stored)
+    - [ ] Sign out of all accounts
+    - [ ] Remove personal data
+    - [ ] Factory reset not required (IT will handle)
+    - [ ] Include all accessories (chargers, cables, etc.)
+
+## Reimbursement Process 💰
+
+All hardware purchases must follow standard company reimbursement procedures:
+
+```mermaid
+graph TD
+    A[Purchase Approved Hardware] --> B[Keep All Receipts]
+    B --> C[Submit to Finance Team]
+    C --> D[Include Business Justification]
+    D --> E[Finance Reviews]
+    E --> F{Approved?}
+    F -->|Yes| G[Reimbursement Processed]
+    F -->|No| H[Request More Info]
+    H --> C
+    G --> I[Payment in 7 Days]
+
+    style A fill:#e1f5ff
+    style I fill:#d4edda
+```
+
+!!! tip "Reimbursement Tips"
+
+    - Submit all receipts to Finance team
+    - Include clear description of business purpose
+    - For detailed procedures, see [Finance Handbook](../finance/index.md)
+    - Reimbursements typically processed within 7 business days
 
 ---
 
