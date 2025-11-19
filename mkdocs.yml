@@ -115,7 +115,7 @@ extra_css:
   - stylesheets/style.css
 
 extra_javascript:
-  - https://cdn.jsdelivr.net/gh/ultralytics/llm@v0.0.7/js/chat.min.js
+  - https://cdn.jsdelivr.net/gh/ultralytics/llm@v0.0.8/js/chat.min.js
   - javascript/extra.js
   - javascript/giscus.js
 
@@ -186,7 +186,7 @@ nav:
           - Onboarding: people/onboarding.md
           - PTO Policy: people/pto-policy.md
           - Career Progression:
-              - people/careers/index.md
+              - Career Progression: people/careers/index.md
               - IC Levels: people/careers/levels-ic.md
               - Management Levels: people/careers/levels-management.md
       - Workflows:
