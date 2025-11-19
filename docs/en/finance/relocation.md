@@ -43,11 +43,11 @@ This policy applies to new hires or existing employees relocating to be near our
 
 To qualify for the Proximity Relocation Package, you must meet the following criteria:
 
-| Requirement | Details |
-| :--- | :--- |
-| **Employee Status** | New hires or existing employees. |
-| **Proximity Rule** | You must move to a location within a **30-minute commute** of a Hub Office. |
-| **Measurement** | Commute time is measured door-to-door via **walking, cycling, public transit, or driving** as calculated by Google Maps during standard commute hours. |
+| Requirement         | Details                                                                                                                                                |
+| :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Employee Status** | New hires or existing employees.                                                                                                                       |
+| **Proximity Rule**  | You must move to a location within a **30-minute commute** of a Hub Office.                                                                            |
+| **Measurement**     | Commute time is measured door-to-door via **walking, cycling, public transit, or driving** as calculated by Google Maps during standard commute hours. |
 
 !!! tip "Check Your Commute"
 
@@ -119,11 +119,11 @@ To ensure mutual commitment, this package includes a repayment (clawback) clause
 
 If you leave Ultralytics voluntarily within 24 months of your relocation/payment date, you must repay a portion of the payment:
 
-| Time Since Relocation | Repayment Amount |
-| :--- | :--- |
-| **0 - 12 Months** | **100%** of payment is repayable |
-| **12 - 24 Months** | **50%** of payment is repayable |
-| **24+ Months** | **0%** (No repayment required) |
+| Time Since Relocation | Repayment Amount                 |
+| :-------------------- | :------------------------------- |
+| **0 - 12 Months**     | **100%** of payment is repayable |
+| **12 - 24 Months**    | **50%** of payment is repayable  |
+| **24+ Months**        | **0%** (No repayment required)   |
 
 !!! warning "Repayment Terms"
 
