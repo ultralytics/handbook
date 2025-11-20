@@ -1,17 +1,19 @@
 ---
-description: Ultralytics Employee Relocation Policy outlining eligibility, compensation, approved office locations, and approval process for strategic employee moves.
-keywords: Ultralytics, Employee Relocation, Relocation Policy, office locations, relocation compensation, employee reimbursement, strategic relocation
+description: Ultralytics Employee Relocation Policy outlining the Proximity Relocation Package, eligibility based on commute time, flat-rate compensation, and repayment terms.
+keywords: Ultralytics, Employee Relocation, Relocation Policy, Proximity Package, office locations, relocation compensation, flat rate, commute
 ---
 
 # Ultralytics Employee Relocation Policy 📍
 
 ## Purpose and Scope 📌
 
-This policy applies to full-time employees approved for relocation to our London, Madrid, or Shenzhen offices. All relocations require pre-approval from management and HR.
+We want you to love where you live and work. Long commutes drain energy that could be spent on innovation (or life!). To encourage you to live near our vibrant hubs, we offer a **Proximity Relocation Package**.
+
+This policy applies to new hires or existing employees relocating to be near our London, Madrid, or Shenzhen offices.
 
 !!! info "Quick Summary"
 
-    **$6,000 one-time payment** for eligible employees relocating to hub cities with **18-month tenure commitment**
+    **$10,000 one-time payment** for employees moving within a **30-minute commute** of a Hub Office.
 
 ## Approved Office Locations 🌎
 
@@ -37,30 +39,25 @@ This policy applies to full-time employees approved for relocation to our London
 
 </div>
 
-!!! warning "Location Restrictions"
-
-    Moves to cities not on this list are **not eligible** for reimbursement.
-
 ## Eligibility Requirements ✅
 
-Relocation assistance is reserved for employees who meet the following criteria:
+To qualify for the Proximity Relocation Package, you must meet the following criteria:
 
-| Requirement       | Details                                                                                               |
-| ----------------- | ----------------------------------------------------------------------------------------------------- |
-| **Role**          | Senior positions: engineering leads, department heads, key technical contributors, or strategic roles |
-| **Performance**   | Consistently meeting or exceeding expectations                                                        |
-| **Tenure**        | Minimum **6 months** employment (waived for strategic new hires or critical roles)                    |
-| **Business Need** | Initiated by management for business-critical reasons or strategic goals                              |
+| Requirement         | Details                                                                                                                                                |
+| :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Employee Status** | New hires or existing employees.                                                                                                                       |
+| **Proximity Rule**  | You must move to a location within a **30-minute commute** of a Hub Office.                                                                            |
+| **Measurement**     | Commute time is measured door-to-door via **walking, cycling, public transit, or driving** as calculated by Google Maps during standard commute hours. |
 
-!!! tip "Not Sure If You Qualify?"
+!!! tip "Check Your Commute"
 
-    Discuss with your manager to assess eligibility before starting the approval process.
+    Before signing a lease, use Google Maps to verify the commute time to the office address matches the eligibility criteria.
 
 ## Relocation Compensation 💰
 
 ```mermaid
 graph TD
-    A[Eligibility Confirmed] --> B[$6,000 One-Time Payment]
+    A[Eligibility Confirmed] --> B[$10,000 One-Time Payment]
     B --> C[Covers All Moving Expenses]
     C --> D[Paid After Relocation Complete]
     D --> E[New Address Confirmed]
@@ -71,177 +68,100 @@ graph TD
     style F fill:#d4edda
 ```
 
-### Standard Reimbursement
+### Standard Flat Rate
 
-Eligible employees receive a **one-time, flat-rate payment of $6,000 USD**.
+Eligible employees receive a **one-time, flat-rate payment of $10,000 USD** (Global).
+
+This simplifies your move by providing funds upfront or upon completion without the need to submit individual receipts to Ultralytics.
 
 === "What's Covered"
 
-    This payment is intended to cover:
+    The payment is intended to cover expenses such as:
 
-    - :material-airplane: Travel costs to new location
-    - :material-package-variant: Shipping of personal belongings
-    - :material-home: Temporary accommodation
-    - :material-cash-multiple: Other relocation-related expenses
+    - :truck: **Moving Services:** Moving van or professional removal services.
+    - :package: **Shipping:** Shipping of personal belongings.
+    - :airplane: **Travel:** Travel costs for the move.
+    - :hotel: **Temporary Stay:** Temporary accommodation (up to 30 days).
+    - :scroll: **Legal:** Legal fees for tenancy agreements.
 
 === "Payment Process"
 
-    - **Timing:** Processed in first payroll cycle after relocation complete
-    - **Method:** Lump sum payment
-    - **Requirement:** New address confirmed in system
-    - **Taxation:** Subject to applicable taxes
+    - **Timing:** Processed in the first payroll cycle after your new address is confirmed.
+    - **Method:** Lump sum payment.
+    - **Receipts:** Not required by Ultralytics for payment, but **highly recommended** you keep them for tax purposes.
 
-### Non-Reimbursable Situations
+### UK Tax Note :flag_gb:
 
-!!! danger "Not Covered"
+For employees relocating to the **London** office: The first **£8,000** of qualifying relocation expenses are currently tax-exempt by HMRC.
 
-    - Relocations to non-hub cities
-    - Self-initiated moves without pre-approved business justification
-    - Temporary relocations (less than 12 months)
-    - Lateral moves without strategic business purpose
+!!! warning "Keep Your Receipts"
+
+    While Ultralytics pays a flat rate, to claim the HMRC tax exemption, you may need to prove you incurred "qualifying expenses" up to that amount. Please consult a tax advisor.
 
 ## Approval Process 🔄
 
-1. **Request Submission**
-    - Direct manager submits relocation request
-    - Must include strong business justification
-    - Proposed timeline required
+1.  **Request Submission**
+    - Inform your manager of your intent to utilize the Proximity Package.
+    - Provide the proposed new address and Google Maps commute verification.
 
-2. **Management Review**
-    - Reviewed by senior management
-    - Decision typically within **10 business days**
-    - May request additional information
+2.  **Confirmation**
+    - HR verifies the distance eligibility.
+    - Relocation agreement issued detailing the clawback terms.
 
-3. **Confirmation**
-    - HR provides written confirmation if approved
-    - Formal relocation agreement issued
-    - Employee signs agreement before relocating
+3.  **Agreement**
+    - Employee signs the relocation agreement before relocating.
 
-!!! note "Business Justification Requirements"
+## Employee Obligations & Clawback ⚖️
 
-    The business case should include:
+To ensure mutual commitment, this package includes a repayment (clawback) clause based on your tenure following the relocation.
 
-    - Employee's role and responsibilities
-    - Strategic importance of the move
-    - How relocation serves business goals
-    - Proposed timeline with key milestones
+### Repayment Schedule
 
-## Employee Obligations ⚖️
+If you leave Ultralytics voluntarily within 24 months of your relocation/payment date, you must repay a portion of the payment:
 
-### Tenure Commitment
+| Time Since Relocation | Repayment Amount                 |
+| :-------------------- | :------------------------------- |
+| **0 - 12 Months**     | **100%** of payment is repayable |
+| **12 - 24 Months**    | **50%** of payment is repayable  |
+| **24+ Months**        | **0%** (No repayment required)   |
 
-!!! warning "18-Month Commitment Required"
+!!! warning "Repayment Terms"
 
-    Employees receiving relocation assistance must remain employed with Ultralytics for **minimum 18 months** following relocation date.
-
-=== "Commitment Details"
-
-    | Aspect | Requirement |
-    |--------|-------------|
-    | **Duration** | 18 months from relocation date |
-    | **Voluntary Resignation** | Full repayment required |
-    | **Involuntary Termination** | No repayment required |
-    | **Amount** | Full $6,000 reimbursement |
-
-=== "Repayment Clause"
-
-    If you **voluntarily resign** before the 18-month period:
-
-    - ❌ Must repay **full $6,000** reimbursement
-    - ❌ Payment due within 30 days of departure
-    - ❌ May be deducted from final paycheck where legally permitted
+    - **Voluntary Resignation:** Repayment is required as per the table above.
+    - **Involuntary Termination:** Typically, no repayment is required (subject to specific termination conditions).
+    - **Method:** Payment is due within 30 days of departure or deducted from the final paycheck where legally permitted.
 
 ### Documentation Requirements
 
 <div class="grid cards" markdown>
 
+- :material-map-marker-radius: **Proof of Commute**
+
+    ***
+
+    Google Maps screenshot showing <30 min commute to office.
+
 - :material-home-city: **Proof of Residence**
 
     ***
 
-    Must provide proof of new residence in hub city
+    Lease agreement or utility bill confirming new address.
 
-- :material-receipt: **Expense Records**
-
-    ***
-
-    Receipts not required for flat-rate, but keep for personal tax purposes
-
-- :material-file-sign: **Agreement**
+- :material-file-sign: **Signed Agreement**
 
     ***
 
-    Sign formal relocation agreement before move
+    Signed acceptance of the clawback terms.
 
 </div>
 
 ## Important Considerations ⚠️
 
-### Tax Implications
-
-!!! info "Tax Information"
-
-    The $6,000 relocation payment is considered **taxable income** and will be subject to applicable taxes.
-
-    - Included in W-2 or equivalent tax document
-    - Subject to standard payroll tax withholding
-    - May affect your overall tax bracket
-
-    **Recommendation:** Consult with a tax advisor for personal tax planning
-
 ### Onsite Work Requirements
 
 !!! warning "Office Attendance"
 
-    **All employees work onsite 5 days per week** at their office location.
-
-    - Relocated employees must work full-time from new office
-    - Must comply with local office policies
-    - No remote work exceptions without separate approval
-
-## Exceptions
-
-??? question "What About Special Cases?"
-
-    Exceptions to this policy will be considered **case-by-case** for:
-
-    - Strategic new hires
-    - Unforeseen operational requirements
-    - Business-critical needs
-    - Executive-level positions
-
-    **All exceptions require written approval from senior management.**
-
-## Relocation Timeline Example 📅
-
-??? example "Typical Relocation Timeline"
-
-    ```mermaid
-    gantt
-        title Sample 3-Month Relocation Timeline
-        dateFormat YYYY-MM-DD
-
-        section Planning
-        Manager Discussion           :2025-01-01, 7d
-        Request Submission          :2025-01-08, 3d
-        Management Review           :2025-01-11, 10d
-
-        section Preparation
-        Agreement Signing           :2025-01-21, 3d
-        Housing Search             :2025-01-24, 21d
-        Visa/Immigration (if needed):2025-01-24, 30d
-
-        section Execution
-        Pack & Ship Belongings     :2025-02-10, 7d
-        Travel to New Location     :2025-02-17, 3d
-        Setup New Residence        :2025-02-20, 7d
-
-        section Completion
-        Confirm New Address        :2025-02-27, 3d
-        Reimbursement Payment      :2025-03-05, 5d
-    ```
-
-    **Total Timeline:** Approximately 2-3 months from initial discussion to payment
+    **All employees work onsite 5 days per week** at their office location. The Proximity Package is specifically designed to make this daily routine easier and more enjoyable.
 
 ## Questions?
 
@@ -251,12 +171,10 @@ Eligible employees receive a **one-time, flat-rate payment of $6,000 USD**.
 
     | Question Type | Contact |
     |--------------|---------|
-    | **Eligibility** | Your direct manager |
-    | **Process** | HR team |
-    | **Business case** | Your manager & senior leadership |
-    | **Payment** | Finance team |
-    | **Tax questions** | External tax advisor |
+    | **Eligibility/Commute Check** | HR Team |
+    | **Payment Status** | Finance Team |
+    | **Tax Questions** | External tax advisor |
 
 ---
 
-_This policy is designed to support the strategic growth of Ultralytics by placing our talent where they can make the greatest impact._
+_This policy is designed to support the strategic growth of Ultralytics by helping our team live comfortably close to where we innovate._
