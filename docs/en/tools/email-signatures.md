@@ -97,7 +97,19 @@ The signature automation performs the following actions:
 
     If you do not see your signature, please reload the Gmail tab in your browser.
 
-## 4. Legal Disclaimers ⚖️
+## 4. Profile Photo Visibility 🔒
+
+Your signature photo must be public or Gmail will show the blue placeholder. Fix it in Google account settings:
+
+1. Visit [myaccount.google.com](https://myaccount.google.com) (Personal info tab).
+2. Click your profile photo > `Profile picture visibility` > select **Anyone**.
+3. Wait a few minutes, then reload Gmail to confirm.
+
+If your photo appears like this placeholder, the visibility is still restricted:
+
+<img width="120" alt="Google placeholder profile image" src="https://lh3.googleusercontent.com/a/default-user=s96-c" />
+
+## 5. Legal Disclaimers ⚖️
 
 The legal disclaimer `div` shown in the HTML example is automatically appended to signatures for employees in sensitive roles (e.g., leadership, legal, sales) to ensure confidentiality and compliance. For all other positions, this disclaimer is optional.
 
@@ -105,7 +117,7 @@ The legal disclaimer `div` shown in the HTML example is automatically appended t
 
     This email and any attachments are confidential and intended solely for the addressee. Copying, forwarding, or distributing is strictly prohibited. If received in error, please delete immediately and notify the sender."
 
-## 5. Technical Implementation 🔧
+## 6. Technical Implementation 🔧
 
 The automation is implemented in Python and utilizes the following:
 
@@ -114,7 +126,7 @@ The automation is implemented in Python and utilizes the following:
 - Google Workspace service account for authentication.
 - Automatic profile picture optimization with rounded corners.
 
-## 6. Support and Maintenance 🛠️
+## 7. Support and Maintenance 🛠️
 
 The email signature automation is maintained by Glenn Jocher. If you have any questions or encounter any issues with your email signature, please contact him for assistance.
 
