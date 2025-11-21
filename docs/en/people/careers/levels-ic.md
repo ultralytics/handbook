@@ -85,6 +85,14 @@ graph LR
     - ✅ Collaborates effectively with immediate team members
     - ✅ Asks thoughtful questions and escalates issues appropriately
 
+### Common Development Areas
+
+- Deepen fundamentals in core domain tools and practices
+- Grow confidence operating with lighter guidance and checkpoints
+- Connect individual tasks to team goals and user outcomes
+- Build repeatable debugging habits for routine issues
+- Improve basic scoping and estimation for small tasks
+
 ---
 
 ## IC2: Mid 1 (Developing)
@@ -120,6 +128,14 @@ graph LR
     - ✅ Makes sound technical decisions on own tasks
     - ✅ Effectively communicates with immediate stakeholders
     - ✅ Demonstrates growing ownership of work quality
+
+### Common Development Areas
+
+- Expand technical depth in the primary stack and adjacent tools
+- Increase comfort working through ambiguity with partial requirements
+- Strengthen understanding of system architecture and dependencies
+- Improve estimation accuracy and proactive risk surfacing
+- Build early mentorship habits with IC1 teammates
 
 ---
 
@@ -157,6 +173,14 @@ graph LR
     - ✅ Proactively improves code quality and documentation
     - ✅ Estimates work accurately and manages own timeline effectively
 
+### Common Development Areas
+
+- Grow influence beyond immediate features to adjacent components
+- Elevate architectural thinking and long-term maintainability
+- Strengthen ambiguity handling and tradeoff communication
+- Develop more deliberate mentoring and review practices
+- Improve stakeholder updates that translate technical choices to impact
+
 ---
 
 ## IC4: Senior 1 (Skilled)
@@ -192,6 +216,14 @@ graph LR
     - ✅ Makes consistently high-quality technical decisions
     - ✅ Proactively identifies and addresses technical debt
     - ✅ Contributes to team technical direction and standards
+
+### Common Development Areas
+
+- Extend influence from team-level to multi-team integrations
+- Strengthen product and business context in technical decisions
+- Improve navigation of cross-team dependencies and conflict resolution
+- Balance delivery pace with sustainable architecture and debt payoff
+- Lead design reviews that drive alignment and quality
 
 ---
 
@@ -229,6 +261,14 @@ graph LR
     - ✅ Mentors other Seniors to help them grow
     - ✅ Prevents major incidents through foresight and robust design
 
+### Common Development Areas
+
+- Practice structured delegation while preserving technical bar
+- Strengthen cross-team alignment with product, design, and infra partners
+- Balance speed vs. quality and make tradeoffs explicit to stakeholders
+- Reduce bus factor through documentation, reviews, and knowledge sharing
+- Build toward Staff influence by shaping team-level technical strategy
+
 ---
 
 ## IC6: Staff (Expert)
@@ -264,6 +304,18 @@ graph LR
     - ✅ Makes strategic technical decisions with lasting impact
     - ✅ Mentors and develops senior engineers effectively
     - ✅ Identifies and addresses systemic technical challenges proactively
+
+### Common Development Areas
+
+- Expand influence from department-level to organization-wide outcomes
+- Develop executive-ready communication on technical risk and strategy
+- Build broader cross-functional networks that unlock delivery velocity
+- Strengthen ability to drive consensus on complex architectural decisions
+- Grow voice in product strategy and prioritization
+
+!!! warning "Critical Transition Point"
+
+    IC6 marks the shift from senior expert to organizational technical leader. Success means balancing hands-on delivery (80%) with higher-leverage strategic influence (20%) and learning to scale impact through others.
 
 ---
 
@@ -301,6 +353,18 @@ graph LR
     - ✅ Successfully leads most complex and ambiguous technical initiatives
     - ✅ Makes technical bets that significantly impact company success
 
+### Common Development Areas
+
+- Extend influence from organization to industry conversations and standards
+- Publish, speak, or share thought leadership externally with credibility
+- Strengthen ability to influence executive-level strategic decisions
+- Build industry-wide networks and partnerships that expand leverage
+- Grow impact on long-term technical vision and multi-quarter bets
+
+!!! note "Strategic Balance"
+
+    IC7 requires balancing deep technical execution (70%) with strategic influence (30%). Success means driving both immediate technical outcomes and the emerging technical strategy across teams.
+
 ---
 
 ## IC8: Principal (Strategist)
@@ -336,6 +400,18 @@ graph LR
     - ✅ Influences technical decisions at executive and board level
     - ✅ Develops other principal-level technical leaders successfully
     - ✅ Makes strategic technical bets that define company's future
+
+### Common Development Areas
+
+- Expand influence on company business strategy beyond technical scope
+- Build deeper executive and board relationships to advocate for technical direction
+- Develop the next generation of Staff and Principal engineers
+- Increase industry leadership through standards work and public platforms
+- Grow impact on long-term company positioning and multi-year technical vision
+
+!!! note "Strategic Leadership"
+
+    IC8 represents specialized technical leadership with broad impact. Success requires balancing deep technical execution (60%) with strategic influence (40%) while steering company-level technical direction.
 
 ---
 
