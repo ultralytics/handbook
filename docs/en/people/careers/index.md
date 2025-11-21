@@ -107,8 +107,8 @@ Track switches are normal and supported—discuss with your manager during quart
 
 | Direction           | Typical Path | Key Requirements                                                                                              |
 | ------------------- | ------------ | ------------------------------------------------------------------------------------------------------------- |
-| **IC → Management** | IC4/IC5→M4  | Technical excellence + leadership examples (mentoring, project leadership) + manager endorsement + 12+ months |
-| **Management → IC** | M4/M5→IC5+ | Maintain technical currency + manager discussion + business need + smooth team transition                     |
+| **IC → Management** | IC4/IC5→M4   | Technical excellence + leadership examples (mentoring, project leadership) + manager endorsement + 12+ months |
+| **Management → IC** | M4/M5→IC5+   | Maintain technical currency + manager discussion + business need + smooth team transition                     |
 
 **When to switch IC→Management**: Passionate about people development, organizational dynamics, influencing through teams  
 **When to switch Management→IC**: Miss hands-on technical work, prefer expertise-based influence, want deeper specialization
@@ -169,12 +169,12 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 | IC6 → IC7        | 36+ months       | Organization-wide strategic impact                |
 | IC7 → IC8        | 48+ months       | Company-level technical strategy and influence    |
 | IC8 → IC9        | Special appoint. | Industry impact and business-critical leadership  |
-| M4 → M5        | 18-24 months     | Multi-team coordination excellence                |
-| M5 → M6        | 24-36 months     | Functional leadership and strategic impact        |
-| M6 → M7        | 36+ months       | Executive-level influence                         |
-| M7 → M8        | 36+ months       | Director-level functional leadership              |
-| M8 → M9        | 48+ months       | Senior executive leadership                       |
-| M9 → M10        | 60+ months       | Enterprise leadership and board-level stewardship |
+| M4 → M5          | 18-24 months     | Multi-team coordination excellence                |
+| M5 → M6          | 24-36 months     | Functional leadership and strategic impact        |
+| M6 → M7          | 36+ months       | Executive-level influence                         |
+| M7 → M8          | 36+ months       | Director-level functional leadership              |
+| M8 → M9          | 48+ months       | Senior executive leadership                       |
+| M9 → M10         | 60+ months       | Enterprise leadership and board-level stewardship |
 
 !!! warning "Sustained Performance Required"
 
