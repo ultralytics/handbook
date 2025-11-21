@@ -1,9 +1,9 @@
 ---
-description: Management career levels M04-M10 at Ultralytics with detailed expectations, internal banding, people leadership scope, and strategic impact.
-keywords: management levels, leadership ladder, manager career, people management, M04, M05, M06, M07, M08, M09, M10, engineering manager, director, VP, SVP, YOLO11
+description: Management career levels M4-M10 at Ultralytics with detailed expectations, internal banding, people leadership scope, and strategic impact.
+keywords: management levels, leadership ladder, manager career, people management, M4, M5, M6, M7, M8, M9, M10, engineering manager, director, VP, SVP, YOLO11
 ---
 
-# Management Levels (M04-M10)
+# Management Levels (M4-M10)
 
 Comprehensive career framework for Management roles at Ultralytics, defining expectations from first-line management through executive leadership. Use these descriptions for leadership development, hiring decisions, and promotion planning.
 
@@ -15,12 +15,12 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ```mermaid
 flowchart LR
-    M04["M04<br/>Lead Manager<br/>80% Ops"] --> M05["M05<br/>Manager<br/>70% Ops"]
-    M05 --> M06["M06<br/>Senior Manager<br/>60% Ops"]
-    M06 --> M07["M07<br/>Head of<br/>50% Ops"]
-    M07 --> M08["M08<br/>Director<br/>40% Ops"]
-    M08 --> M09["M09<br/>VP<br/>30% Ops"]
-    M09 --> M10["M10<br/>Senior VP<br/>20% Ops"]
+    M4["M4<br/>Lead Manager<br/>80% Ops"] --> M5["M5<br/>Manager<br/>70% Ops"]
+    M5 --> M6["M6<br/>Senior Manager<br/>60% Ops"]
+    M6 --> M7["M7<br/>Head of<br/>50% Ops"]
+    M7 --> M8["M8<br/>Director<br/>40% Ops"]
+    M8 --> M9["M9<br/>VP<br/>30% Ops"]
+    M9 --> M10["M10<br/>Senior VP<br/>20% Ops"]
     classDef m04 fill:#fff3e0,stroke:#f57c00,color:#000;
     classDef m05 fill:#ffe0b2,stroke:#f57c00,color:#000;
     classDef m06 fill:#ffcc80,stroke:#f57c00,color:#000;
@@ -28,12 +28,12 @@ flowchart LR
     classDef m08 fill:#ffa726,stroke:#f57c00,color:#000;
     classDef m09 fill:#ff9800,stroke:#f57c00,color:#000;
     classDef m10 fill:#f57c00,stroke:#e65100,color:#000;
-    class M04 m04;
-    class M05 m05;
-    class M06 m06;
-    class M07 m07;
-    class M08 m08;
-    class M09 m09;
+    class M4 m04;
+    class M5 m05;
+    class M6 m06;
+    class M7 m07;
+    class M8 m08;
+    class M9 m09;
     class M10 m10;
 ```
 
@@ -41,17 +41,17 @@ flowchart LR
 
 | Level                             | Title          | Career Stage                           | Ops/Strategic Focus     |
 | --------------------------------- | -------------- | -------------------------------------- | ----------------------- |
-| [M04](#m04-lead-manager)          | Lead Manager   | Lead Supervisory / Manager Supervisory | 80% Ops / 20% Strategic |
-| [M05](#m05-manager)               | Manager        | Management                             | 70% Ops / 30% Strategic |
-| [M06](#m06-senior-manager)        | Senior Manager | Senior Manager                         | 60% Ops / 40% Strategic |
-| [M07](#m07-head-of)               | Head of        | Head of Middle Management              | 50% Ops / 50% Strategic |
-| [M08](#m08-director)              | Director       | Director Management                    | 40% Ops / 60% Strategic |
-| [M09](#m09-vp)                    | VP             | Senior Executive Management            | 30% Ops / 70% Strategic |
+| [M4](#m4-lead-manager)            | Lead Manager   | Lead Supervisory / Manager Supervisory | 80% Ops / 20% Strategic |
+| [M5](#m5-manager)                 | Manager        | Management                             | 70% Ops / 30% Strategic |
+| [M6](#m6-senior-manager)          | Senior Manager | Senior Manager                         | 60% Ops / 40% Strategic |
+| [M7](#m7-head-of)                 | Head of        | Head of Middle Management              | 50% Ops / 50% Strategic |
+| [M8](#m8-director)                | Director       | Director Management                    | 40% Ops / 60% Strategic |
+| [M9](#m9-vp)                      | VP             | Senior Executive Management            | 30% Ops / 70% Strategic |
 | [M10](#m10-senior-vice-president) | Senior VP      | Enterprise Executive Leadership        | 20% Ops / 80% Strategic |
 
 ---
 
-## M04: Lead Manager
+## M4: Lead Manager
 
 **Career Stage**: Lead Supervisory / Manager Supervisory  
 **Typical Roles**: Engineering Manager, Product Manager (with reports), Design Manager  
@@ -59,7 +59,7 @@ flowchart LR
 
 ### Core Expectations
 
-| Dimension                            | M04 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Dimension                            | M4 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Leadership &<br>Scope**            | • Supervises team/group performing singular or closely related tasks<br>• Provides HR management responsibilities (hire, promote, assess, performance manage)<br>• Directs day-to-day operations with weekly planning horizon<br>• Often collaborates with other functional areas, management, and outside vendors<br>• Assigns tasks, monitors work, exercises discretion in planning team workload and schedules                          |
 | **People<br>Management**             | • Documents results and metrics, provides ongoing coaching and feedback<br>• Provides input to HR actions (hiring decisions, job changes, promotions) for area<br>• Acts as guide, oversees established/standardized operations and activities<br>• May manage mix of entry-level and junior individual contributors (IC1-IC3)<br>• Routinely exercises discretion and independent judgment in workload management                          |
@@ -116,7 +116,7 @@ flowchart LR
 
 ---
 
-## M05: Manager
+## M5: Manager
 
 **Career Stage**: Management  
 **Typical Roles**: Senior Engineering Manager, Senior Product Manager (large team), Head of Design  
@@ -124,7 +124,7 @@ flowchart LR
 
 ### Core Expectations
 
-| Dimension                            | M05 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Dimension                            | M5 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Leadership &<br>Scope**            | • Manages activities of multiple sections, complex work area, or sub-department<br>• Work managed is varied and may cross disciplines or include non-related work groups<br>• Provides input to HR actions and department structure changes<br>• Guides staff by established function/department practices and well-defined procedures<br>• Monitors 6-12 month projects and programs, contributes to longer-term planning                                                 |
 | **People<br>Management**             | • Accountable for HR actions (hiring, promotions, comp changes) for area of responsibility<br>• Provides ongoing performance feedback and substantive work guidance to managers/leads<br>• Routinely exercises independent judgment managing budgets, timelines, workload, performance<br>• May manage other managers, senior ICs, or mix of leads and individual contributors<br>• Develops management capability in team leads or first-level managers reporting to them |
@@ -173,11 +173,11 @@ flowchart LR
 
 !!! note "Management Through Others"
 
-    M05 represents critical shift from direct people management to achieving results through other managers or leads. Success requires developing others' management capabilities rather than managing all individuals directly.
+    M5 represents critical shift from direct people management to achieving results through other managers or leads. Success requires developing others' management capabilities rather than managing all individuals directly.
 
 ---
 
-## M06: Senior Manager
+## M6: Senior Manager
 
 **Career Stage**: Senior Manager  
 **Typical Roles**: Director of Engineering, Director of Product, Head of Design  
@@ -185,7 +185,7 @@ flowchart LR
 
 ### Core Expectations
 
-| Dimension                            | M06 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Dimension                            | M6 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Leadership &<br>Scope**            | • Manages activities of two or more sections, disciplines, or major processes/programs<br>• Directs activities of sub-function or small functional area through lower-level management<br>• Often includes variety of work groups across disciplines/specializations with regional/global reach<br>• Provides input to department strategy and large visible projects (1-3 year planning horizon)<br>• Accountable for HR actions and substantive changes to department structure and organization |
 | **People<br>Management**             | • Accountable for HR actions and changes to department structure across function<br>• Manages through other managers, rarely has individual contributors as direct reports<br>• Provides input to department structure decisions and organizational design initiatives<br>• Develops management bench strength through coaching, mentoring, and succession planning<br>• Creates culture and sets performance standards for entire function under leadership                                       |
@@ -234,11 +234,11 @@ flowchart LR
 
 !!! warning "Strategic Balance Challenge"
 
-    M06 requires equal focus on operational excellence (60%) and strategic leadership (40%). Many senior managers struggle balancing immediate execution pressures with long-term strategic thinking and organizational capability building.
+    M6 requires equal focus on operational excellence (60%) and strategic leadership (40%). Many senior managers struggle balancing immediate execution pressures with long-term strategic thinking and organizational capability building.
 
 ---
 
-## M07: Head of
+## M7: Head of
 
 **Career Stage**: Head of Middle Management  
 **Typical Roles**: VP of Engineering, VP of Product, VP of Design  
@@ -246,7 +246,7 @@ flowchart LR
 
 ### Core Expectations
 
-| Dimension                            | M07 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Dimension                            | M7 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Leadership &<br>Scope**            | • Leads activities of one or more sub-functions/divisions with regional and/or global reach<br>• Directs through subordinate directors and senior managers across entire organization<br>• Oversees multi-year strategies and plans in close partnership with executive leadership team<br>• Cascades company strategy to detailed functional plans and execution across organization<br>• Often has direct P&L responsibility or significant budget authority for major business segment            |
 | **People<br>Management**             | • Accountable for HR actions and major organizational structure changes company-wide<br>• Manages exclusively through senior managers and directors, no individual contributors<br>• Sets organizational culture, leadership standards, and talent strategy for entire function<br>• Drives succession planning and executive development at senior leadership levels<br>• Accountable for function-wide talent strategy, capability building, and organizational design                             |
@@ -295,11 +295,11 @@ flowchart LR
 
 !!! note "Executive Partnership"
 
-    M07 represents full executive partnership with CEO and board on company strategy. Success requires perfect balance between operational execution (50%) and strategic leadership (50%), operating as key member of executive leadership team.
+    M7 represents full executive partnership with CEO and board on company strategy. Success requires perfect balance between operational execution (50%) and strategic leadership (50%), operating as key member of executive leadership team.
 
 ---
 
-## M08: Director
+## M8: Director
 
 **Career Stage**: Director Management  
 **Typical Roles**: Director of Engineering, Director of Product, Director of Operations  
@@ -307,7 +307,7 @@ flowchart LR
 
 ### Core Expectations
 
-| Dimension                            | M08 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Dimension                            | M8 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Leadership &<br>Scope**            | • Leads large functional area or multiple sub-functions with company-wide impact<br>• Directs through senior managers and directors, builds strong management bench<br>• Drives multi-year strategic initiatives in partnership with executive team<br>• Influences company strategy through functional expertise and leadership<br>• P&L accountability for major functional area affecting company performance                                             |
 | **People<br>Management**             | • Accountable for functional talent strategy and leadership development<br>• Manages through senior managers and directors with multiple organizational layers<br>• Sets functional culture and performance standards across organization<br>• Drives succession planning and leadership pipeline development<br>• Builds world-class functional capability and organizational bench strength                                                                |
@@ -356,11 +356,11 @@ flowchart LR
 
 !!! note "Director Leadership"
 
-    M08 represents senior functional leadership with significant company influence. Success requires balancing functional execution (40%) with strategic leadership (60%) while developing strong organizational capability.
+    M8 represents senior functional leadership with significant company influence. Success requires balancing functional execution (40%) with strategic leadership (60%) while developing strong organizational capability.
 
 ---
 
-## M09: VP
+## M9: VP
 
 **Career Stage**: Senior Executive Management  
 **Typical Roles**: VP of Engineering, VP of Product, VP/GM for major business unit  
@@ -368,7 +368,7 @@ flowchart LR
 
 ### Core Expectations
 
-| Dimension                            | M09 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Dimension                            | M9 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Leadership &<br>Scope**            | • Leads multiple functions/divisions with global reach and major business segment accountability<br>• Directs through multiple directors and senior managers with extensive organizational hierarchy<br>• Translates enterprise vision into segment strategy and multi-year transformation<br>• Partners with executive team on competitive positioning and growth bets<br>• Full P&L accountability for major business segments or global functions                    |
 | **People<br>Management**             | • Accountable for talent strategy and executive leader development within segment<br>• Manages through directors and senior managers across multiple organizational layers<br>• Sets culture standards and operating mechanisms for divisions under scope<br>• Leads succession planning for vice presidents and critical leadership roles<br>• Builds leadership bench to support expansion, acquisitions, and scaling                                                 |
@@ -417,7 +417,7 @@ flowchart LR
 
 !!! note "Senior Executive Leadership"
 
-    M09 represents senior executive leadership for major business segments with board engagement. Success requires prioritizing strategic leadership (70%) over operational execution (30%) while maintaining organizational excellence and preparing for enterprise-level scope.
+    M9 represents senior executive leadership for major business segments with board engagement. Success requires prioritizing strategic leadership (70%) over operational execution (30%) while maintaining organizational excellence and preparing for enterprise-level scope.
 
 ---
 
@@ -484,7 +484,7 @@ flowchart LR
 
 ## Level Comparison Matrix
 
-| Dimension        | M04         | M05       | M06        | M07        | M08        | M09       | M10               |
+| Dimension        | M4          | M5        | M6         | M7         | M8         | M9        | M10               |
 | ---------------- | ----------- | --------- | ---------- | ---------- | ---------- | --------- | ----------------- |
 | **Focus**        | 80/20       | 70/30     | 60/40      | 50/50      | 40/60      | 30/70     | 20/80             |
 | **Span**         | 2-4 ICs     | 4-8       | 7-13       | 10-20      | 15-25      | 20+       | 25+ execs         |
@@ -543,12 +543,12 @@ flowchart LR
 
 ### Typical Timeline
 
-- **M04 → M05**: 18-24 months demonstrating multi-team coordination and management excellence
-- **M05 → M06**: 24-36 months demonstrating functional leadership and strategic impact
-- **M06 → M07**: 36+ months demonstrating executive-level influence and organizational transformation
-- **M07 → M08**: 36+ months demonstrating director-level functional leadership and execution
-- **M08 → M09**: 48+ months demonstrating senior executive leadership and board-level partnership
-- **M09 → M10**: 60+ months demonstrating enterprise leadership, investor stewardship, and market-shaping impact
+- **M4 → M5**: 18-24 months demonstrating multi-team coordination and management excellence
+- **M5 → M6**: 24-36 months demonstrating functional leadership and strategic impact
+- **M6 → M7**: 36+ months demonstrating executive-level influence and organizational transformation
+- **M7 → M8**: 36+ months demonstrating director-level functional leadership and execution
+- **M8 → M9**: 48+ months demonstrating senior executive leadership and board-level partnership
+- **M9 → M10**: 60+ months demonstrating enterprise leadership, investor stewardship, and market-shaping impact
 
 !!! warning "Promotion Requirements"
 

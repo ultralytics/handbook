@@ -34,7 +34,7 @@ At Ultralytics, we believe in supporting our team members through comprehensive 
 
 - **[Career Progression Framework](careers/index.md)** - Overview, promotion process, and track switching
     - [IC Levels (IC1-IC9)](careers/levels-ic.md) - Individual Contributor expectations
-    - [Management Levels (M04-M10)](careers/levels-management.md) - Management expectations
+    - [Management Levels (M4-M10)](careers/levels-management.md) - Management expectations
 - **Performance Reviews** - Quarterly reviews in Rippling with growth planning; compensation is reviewed annually
 - **Learning Budget** - Annual budget for courses, books, and conferences (contact HR for current amounts)
 
@@ -87,7 +87,7 @@ Ultralytics provides clear career paths through two tracks, allowing you to adva
 - Influence through knowledge and technical leadership
 - See [complete IC level descriptions](careers/levels-ic.md)
 
-**Management Track** - M04 through M10
+**Management Track** - M4 through M10
 
 - Organizational leadership and people development
 - Achieving results through building and leading teams
@@ -98,7 +98,7 @@ Ultralytics provides clear career paths through two tracks, allowing you to adva
 
 - **[Career Progression Framework](careers/index.md)** - Promotion process, compensation philosophy, switching tracks
     - [IC Levels Guide](careers/levels-ic.md) - Detailed expectations for IC1-IC9
-    - [Management Levels Guide](careers/levels-management.md) - Detailed expectations for M04-M10
+    - [Management Levels Guide](careers/levels-management.md) - Detailed expectations for M4-M10
 
 Both tracks are valued equally and offer equivalent compensation and growth potential at similar scope levels.
 
