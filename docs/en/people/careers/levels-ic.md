@@ -5,11 +5,11 @@ keywords: IC levels, individual contributor, technical levels, engineering ladde
 
 # Individual Contributor Levels (IC1-IC9)
 
-Comprehensive career framework for Individual Contributors at Ultralytics, defining expectations from entry-level through distinguished technical leadership. Use these descriptions for self-assessment, development planning, and promotion decisions.
+Comprehensive career framework for Individual Contributors at Ultralytics, defining expectations from entry-level through distinguished leadership. Use these descriptions for self-assessment, development planning, and promotion decisions.
 
 !!! info "Career Framework Overview"
 
-    Individual Contributors achieve impact through technical excellence and individual work. Both IC and [Management tracks](levels-management.md) offer equal advancement potential and compensation at equivalent scope levels. See [Career Progression](index.md) for the complete framework.
+    Individual Contributors achieve impact through deep expertise and individual work. Both IC and [Management tracks](levels-management.md) offer equal advancement potential and compensation at equivalent scope levels. See [Career Progression](index.md) for the complete framework.
 
 ## Career Progression
 
@@ -54,24 +54,24 @@ graph LR
 ## IC1: Entry
 
 **Career Stage**: Entry  
-**Typical Roles**: Junior Engineer, Associate Product Manager, Junior Designer  
+**Typical Roles**: Junior Engineer, Associate Product Manager, Junior Designer, Marketing Coordinator, Sales Development Rep
 **Focus**: 100% Operational - Learning fundamentals under close supervision
 
 ### Core Expectations
 
-| Dimension                            | IC1 Requirements                                                                                                                                                                                                                                                                                                                              |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Expertise &<br>Technical Depth**   | • Applies basic theories, principles, and concepts in specialized area<br>• Basic use and application of primary techniques<br>• Continuously expands skill sets including company policies and industry knowledge<br>• Learns to apply tools and technologies relevant to role<br>• Grows competency through structured tasks and mentorship |
-| **Scope &<br>Responsibility**        | • Works on routine and basic tasks with clearly defined parameters<br>• Responsible for one or more project components following general directions<br>• Plans daily tasks with guidance from senior team members<br>• Contributions focus on repeatable, task-driven activities<br>• Impacts own work primarily, learning team collaboration |
-| **Decision Making &<br>Impact**      | • Makes decisions about own work guided by well-defined options<br>• Work is closely supervised with frequent check-ins and review<br>• Refers non-standard or complex matters to senior team members<br>• Seeks guidance when facing ambiguity or uncertainty<br>• Supports team decisions through research and inputs                       |
-| **Leadership &<br>Influence**        | • Works with well-defined stakeholders within immediate team<br>• Learns principles of effective communication and collaboration<br>• Influences through research and providing inputs to discussions<br>• Responsible for individual assignments and deliverables<br>• Participates actively in team meetings and reviews                    |
-| **Complexity &<br>Problem Solving**  | • Solves defined problems using established methods and documentation<br>• Problems require analysis of identifiable factors with clear solutions<br>• Follows documented procedures and best practices<br>• Applies knowledge and basic techniques to resolve routine issues<br>• Conveys straightforward technical information to team      |
-| **Collaboration &<br>Communication** | • Works closely with immediate team members daily<br>• Learns to communicate technical concepts clearly<br>• Participates in team meetings, code reviews, design critiques<br>• Asks thoughtful questions and seeks clarification when needed<br>• Documents work following established templates and standards                               |
+| Dimension                      | IC1 Requirements                                                                                                                                                                                                                                                                                                                       |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Expertise &<br>Domain Knowledge**   | • Applies basic principles and concepts in a specialized area<br>• Learns and applies primary techniques and tools relevant to the role<br>• Continuously expands skill sets, including company policies and industry knowledge<br>• Grows competency through structured tasks and mentorship                                                     |
+| **Scope &<br>Responsibility**  | • Works on routine and basic tasks with clearly defined parameters<br>• Responsible for one or more project components, following general directions<br>• Plans daily tasks with guidance from senior team members<br>• Contributions focus on repeatable, task-driven activities<br>• Impacts own work primarily, learning team collaboration |
+| **Decision Making &<br>Impact** | • Makes decisions about own work guided by well-defined options<br>• Work is closely supervised with frequent check-ins and review<br>• Refers non-standard or complex matters to senior team members<br>• Seeks guidance when facing ambiguity or uncertainty<br>• Supports team decisions through research and inputs                        |
+| **Leadership &<br>Influence**  | • Works with well-defined stakeholders within the immediate team<br>• Learns principles of effective communication and collaboration<br>• Influences through research and providing inputs to discussions<br>• Responsible for individual assignments and deliverables<br>• Participates actively in team meetings and reviews                     |
+| **Complexity &<br>Problem Solving**   | • Solves defined problems using established methods and documentation<br>• Problems require analysis of identifiable factors with clear solutions<br>• Follows documented procedures and best practices<br>• Applies knowledge and basic techniques to resolve routine issues<br>• Conveys straightforward information to the team       |
+| **Collaboration &<br>Communication**  | • Works closely with immediate team members daily<br>• Learns to communicate concepts clearly<br>• Participates in team meetings, project reviews, and design critiques<br>• Asks thoughtful questions and seeks clarification when needed<br>• Documents work following established templates and standards                                |
 
 ### Typical Background
 
 - **Bachelor's degree + 0-1 year experience** OR **Master's degree**
-- Foundational knowledge in relevant field (CS, Design, Business, etc.)
+- Foundational knowledge in a relevant field (i.e. CS, Design, Business, Marketing)
 - Demonstrated eagerness to learn and grow through internships or projects
 - Strong academic background or relevant internship/project experience
 
@@ -79,9 +79,9 @@ graph LR
 
 !!! success "Key Performance Signals"
 
-    - ✅ Completes assigned tasks on time with quality meeting team standards
+    - ✅ Completes assigned tasks on time with quality that meets team standards
     - ✅ Actively seeks feedback and applies it to improve work quality
-    - ✅ Demonstrates steady learning curve and skill development
+    - ✅ Demonstrates a steady learning curve and skill development
     - ✅ Collaborates effectively with immediate team members
     - ✅ Asks thoughtful questions and escalates issues appropriately
 
@@ -90,7 +90,7 @@ graph LR
 - Deepen fundamentals in core domain tools and practices
 - Grow confidence operating with lighter guidance and checkpoints
 - Connect individual tasks to team goals and user outcomes
-- Build repeatable debugging habits for routine issues
+- Build repeatable problem-solving habits for routine issues
 - Improve basic scoping and estimation for small tasks
 
 ---
