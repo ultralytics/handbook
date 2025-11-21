@@ -1,9 +1,9 @@
 ---
-description: Management career levels M04-M09 at Ultralytics with detailed expectations, internal banding, people leadership scope, and strategic impact.
-keywords: management levels, leadership ladder, manager career, people management, M04, M05, M06, M07, M08, M09, engineering manager, director, VP, YOLO11
+description: Management career levels M04-M10 at Ultralytics with detailed expectations, internal banding, people leadership scope, and strategic impact.
+keywords: management levels, leadership ladder, manager career, people management, M04, M05, M06, M07, M08, M09, M10, engineering manager, director, VP, SVP, YOLO11
 ---
 
-# Management Levels (M04-M09)
+# Management Levels (M04-M10)
 
 Comprehensive career framework for Management roles at Ultralytics, defining expectations from first-line management through executive leadership. Use these descriptions for leadership development, hiring decisions, and promotion planning.
 
@@ -14,19 +14,27 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 ## Career Progression
 
 ```mermaid
-graph LR
-    M04[M04<br/>Lead Manager<br/>80% Ops] --> M05[M05<br/>Manager<br/>70% Ops]
-    M05 --> M06[M06<br/>Senior Manager<br/>60% Ops]
-    M06 --> M07[M07<br/>Head of<br/>50% Ops]
-    M07 --> M08[M08<br/>Director<br/>40% Ops]
-    M08 --> M09[M09<br/>VP/SVP<br/>30% Ops]
-
-    style M04 fill:#fff3e0
-    style M05 fill:#ffe0b2
-    style M06 fill:#ffcc80
-    style M07 fill:#ffb74d
-    style M08 fill:#ffa726
-    style M09 fill:#ff9800
+flowchart LR
+    M04["M04<br/>Lead Manager<br/>80% Ops"] --> M05["M05<br/>Manager<br/>70% Ops"]
+    M05 --> M06["M06<br/>Senior Manager<br/>60% Ops"]
+    M06 --> M07["M07<br/>Head of<br/>50% Ops"]
+    M07 --> M08["M08<br/>Director<br/>40% Ops"]
+    M08 --> M09["M09<br/>VP<br/>30% Ops"]
+    M09 --> M10["M10<br/>Senior VP<br/>20% Ops"]
+    classDef m04 fill:#fff3e0,stroke:#f57c00,color:#000;
+    classDef m05 fill:#ffe0b2,stroke:#f57c00,color:#000;
+    classDef m06 fill:#ffcc80,stroke:#f57c00,color:#000;
+    classDef m07 fill:#ffb74d,stroke:#f57c00,color:#000;
+    classDef m08 fill:#ffa726,stroke:#f57c00,color:#000;
+    classDef m09 fill:#ff9800,stroke:#f57c00,color:#000;
+    classDef m10 fill:#f57c00,stroke:#e65100,color:#000;
+    class M04 m04;
+    class M05 m05;
+    class M06 m06;
+    class M07 m07;
+    class M08 m08;
+    class M09 m09;
+    class M10 m10;
 ```
 
 ## Level Overview
@@ -38,7 +46,8 @@ graph LR
 | [M06](#m06-senior-manager) | Senior Manager | Senior Manager                         | 60% Ops / 40% Strategic |
 | [M07](#m07-head-of)        | Head of        | Head of Middle Management              | 50% Ops / 50% Strategic |
 | [M08](#m08-director)       | Director       | Director Management                    | 40% Ops / 60% Strategic |
-| [M09](#m09-vp)             | VP / SVP       | Senior Executive Management            | 30% Ops / 70% Strategic |
+| [M09](#m09-vp)             | VP             | Senior Executive Management            | 30% Ops / 70% Strategic |
+| [M10](#m10-senior-vice-president) | Senior VP     | Enterprise Executive Leadership        | 20% Ops / 80% Strategic |
 
 ---
 
@@ -354,28 +363,28 @@ graph LR
 ## M09: VP
 
 **Career Stage**: Senior Executive Management  
-**Typical Roles**: VP of Engineering, VP of Product, SVP, Chief Officers (CTO, CPO, CDO)  
-**Focus**: 30% Operational / 70% Strategic - Senior executive leadership with board-level partnership
+**Typical Roles**: VP of Engineering, VP of Product, VP/GM for major business unit  
+**Focus**: 30% Operational / 70% Strategic - Senior executive leadership with board-level partnership and division/accountable P&L
 
 ### Core Expectations
 
-| Dimension                            | M09 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Leadership &<br>Scope**            | • Leads multiple functions/divisions with global reach and strategic company-wide impact<br>• Directs through multiple directors and senior managers with extensive organizational hierarchy<br>• Drives multi-year strategic vision and transformation initiatives across organization<br>• Partners directly with CEO and board on company strategy and competitive positioning<br>• Full P&L accountability for major business segments or entire functional areas                                             |
-| **People<br>Management**             | • Accountable for organization-wide talent strategy and executive leadership development<br>• Manages exclusively through directors and senior managers with multiple organizational layers<br>• Sets company culture standards and drives organizational effectiveness at highest level<br>• Leads succession planning for executive leadership and critical organizational roles<br>• Accountable for building world-class organizational capability as competitive differentiator                              |
-| **Expertise &<br>Technical Skills**  | • Demonstrates deep expertise across multiple domains with exceptional business and strategic acumen<br>• Recognized industry authority that shapes organizational intellectual capital and competitive advantage<br>• Drives innovation and strategic initiatives that define company's market position<br>• Maintains extensive industry networks and shapes industry standards and best practices<br>• Builds organizational capability through strategic acquisitions, partnerships, and talent development   |
-| **Decision Making &<br>Impact**      | • Defines company-wide strategy and long-term vision in partnership with CEO and board<br>• Makes strategic decisions with transformative impact on company trajectory and market position<br>• Accountable for major business segment performance directly affecting shareholder value<br>• Influences board-level strategic decisions and drives company-wide transformation<br>• Outcomes directly shape company's competitive position, market valuation, and industry standing                               |
-| **Stakeholder<br>Management**        | • Manages most critical external relationships including investors, board members, key customers<br>• Represents company at highest levels to industry, partners, investors, and regulatory bodies<br>• Builds and maintains executive networks across industry and global business community<br>• Drives consensus and alignment on most critical strategic initiatives across entire organization<br>• Serves as primary executive voice for function and company strategy externally                           |
-| **Complexity &<br>Problem Solving**  | • Solves most complex strategic challenges requiring transformative thinking and organizational change<br>• Navigates unprecedented business challenges with significant uncertainty and market impact<br>• Builds organizational capacity to solve emerging challenges and capitalize on market opportunities<br>• Makes strategic bets on technology, markets, and organizational direction with company-wide impact<br>• Anticipates industry trends and positions company for long-term competitive advantage |
-| **Collaboration &<br>Communication** | • Partners with CEO and board on company vision, strategy, and transformative initiatives<br>• Represents company as senior executive voice to investors, analysts, and key stakeholders<br>• Influences industry direction through thought leadership and strategic partnerships<br>• Builds and maintains most significant executive relationships across global business community<br>• Communicates company vision and strategy with exceptional clarity and executive presence                               |
+| Dimension                            | M09 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Leadership &<br>Scope**            | • Leads multiple functions/divisions with global reach and major business segment accountability<br>• Directs through multiple directors and senior managers with extensive organizational hierarchy<br>• Translates enterprise vision into segment strategy and multi-year transformation<br>• Partners with executive team on competitive positioning and growth bets<br>• Full P&L accountability for major business segments or global functions                                                       |
+| **People<br>Management**             | • Accountable for talent strategy and executive leader development within segment<br>• Manages through directors and senior managers across multiple organizational layers<br>• Sets culture standards and operating mechanisms for divisions under scope<br>• Leads succession planning for vice presidents and critical leadership roles<br>• Builds leadership bench to support expansion, acquisitions, and scaling                                                                      |
+| **Expertise &<br>Technical Skills**  | • Deep expertise across domains with strong commercial and strategic acumen<br>• Shapes organizational intellectual capital and competitive advantage for segment<br>• Drives innovation and strategic initiatives that strengthen market position<br>• Maintains industry networks and best practices to inform strategy<br>• Builds capability via strategic partnerships, hiring, and development                                                                                     |
+| **Decision Making &<br>Impact**      | • Shapes strategy and long-term vision for business segments with executive team<br>• Makes strategic decisions that materially impact revenue, margin, and market position<br>• Accountable for segment performance directly affecting shareholder value<br>• Influences board-level decisions through data-driven recommendations<br>• Leads cross-segment prioritization and resource allocation                                                                                      |
+| **Stakeholder<br>Management**        | • Manages critical external relationships with strategic customers, partners, and investor counterparts<br>• Represents segment in board updates and market conversations with CEO/CFO partnership<br>• Builds executive networks across industry and global business community<br>• Aligns organization on most critical strategic initiatives<br>• Serves as primary executive voice for segment strategy externally                                                                |
+| **Complexity &<br>Problem Solving**  | • Solves highly complex strategic challenges within scope requiring transformative thinking<br>• Navigates significant uncertainty in markets and competitive dynamics<br>• Builds capacity to address emerging opportunities and risks<br>• Makes strategic bets on technology, markets, and organizational direction<br>• Anticipates industry trends and positions segment for long-term advantage                                                                    |
+| **Collaboration &<br>Communication** | • Partners with CEO and executive team on vision, strategy, and transformation initiatives<br>• Represents company as senior executive voice to customers, partners, and analysts<br>• Influences industry direction through thought leadership and strategic partnerships<br>• Builds and maintains significant executive relationships across global business community<br>• Communicates segment vision and strategy with exceptional clarity and executive presence                              |
 
 ### Span & Team Structure
 
-- **Typical Direct Reports**: 20+ people through multiple directors and senior managers
+- **Typical Direct Reports**: 20+ leaders through multiple directors and senior managers
 - **Organizational Depth**: Has 4+ levels of management reporting through organizational hierarchy
-- **Team Scope**: Multiple major functions, division-level, or company-wide responsibility
+- **Team Scope**: Multiple major functions or a global business unit with board-visible outcomes
 - **Budget Responsibility**: Typically $5M+ annually with full P&L accountability for major segments
-- **Time Horizon**: Annual execution, multi-year strategic vision, long-term market positioning
+- **Time Horizon**: Annual execution, multi-year growth strategy, and portfolio scaling
 
 ### Typical Background
 
@@ -389,13 +398,13 @@ graph LR
 
 !!! success "Key Performance Signals"
 
-    - ✅ Drives transformative company-wide initiatives with measurable shareholder value
-    - ✅ Recognized as industry thought leader and authority shaping market direction
-    - ✅ Successfully partners with board and CEO on long-term strategy and positioning
-    - ✅ Builds organizational capability that becomes sustainable competitive advantage
-    - ✅ Makes strategic decisions that fundamentally shape company trajectory
-    - ✅ Develops future executive leaders who drive company success
-    - ✅ Represents company with exceptional credibility to investors, partners, customers
+    - ✅ Business segment exceeds revenue, margin, and growth targets with clear attribution
+    - ✅ Executes transformations that improve efficiency, quality, or market share at scale
+    - ✅ Builds a strong VP/director bench with visible promotions and successors
+    - ✅ Earns board and executive confidence in segment strategy and forecasts
+    - ✅ Strategic customers and partners deepen commitments under leadership
+    - ✅ Capital and resource allocation decisions produce high ROI across initiatives
+    - ✅ Represents company with credibility to investors, partners, and industry forums
 
 ### Common Development Areas
 
@@ -408,22 +417,83 @@ graph LR
 
 !!! note "Senior Executive Leadership"
 
-    M09 represents senior executive leadership with board-level partnership. Success requires prioritizing strategic leadership (70%) over operational execution (30%) while maintaining organizational excellence and driving transformative change.
+    M09 represents senior executive leadership for major business segments with board engagement. Success requires prioritizing strategic leadership (70%) over operational execution (30%) while maintaining organizational excellence and preparing for enterprise-level scope.
+
+---
+
+## M10: Senior Vice President
+
+**Career Stage**: Enterprise Executive Leadership  
+**Typical Roles**: Senior/Executive Vice President, President of major business unit, Chief Officers (CTO, CPO, CDO)  
+**Focus**: 20% Operational / 80% Strategic - Enterprise stewardship with board/investor partnership and market shaping
+
+### Core Expectations
+
+| Dimension                            | M10 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Leadership &<br>Scope**            | • Leads enterprise portfolio of global functions or multiple business units with company-wide accountability<br>• Sets enterprise strategy with CEO and board, directing through VPs and EVPs<br>• Guides multi-year transformations, M&A integration, and major capital investments<br>• Owns cross-portfolio results, risk posture, and long-term value creation<br>• Establishes governance mechanisms and executive operating rhythm across the company                                                                            |
+| **People<br>Management**             | • Accountable for executive team performance, culture, and succession across the company<br>• Manages through vice presidents and executive staff across deep organizational layers<br>• Sets cultural guardrails and leadership standards for the enterprise<br>• Ensures CEO and board succession pipeline; mentors C-suite successors<br>• Builds executive cohesion and resolves conflict across top leadership                                                                                                                      |
+| **Expertise &<br>Technical Skills**  | • Recognized industry thought leader with multi-domain expertise and macro-level business insight<br>• Sets enterprise bets on technology, product, market, and operating model evolution<br>• Evaluates build/buy/partner/M&A approaches to accelerate strategy and capabilities<br>• Anticipates disruptive trends and positions company to capitalize on them<br>• Shapes intellectual capital and brand to reinforce market leadership                                                                                                     |
+| **Decision Making &<br>Impact**      | • Defines enterprise priorities, capital allocation, and portfolio strategy with board oversight<br>• Makes decisions with company- and market-level impact on valuation and positioning<br>• Leads risk management, governance, and crisis response for the enterprise<br>• Balances growth, profitability, and resilience across business units<br>• Drives investments that expand TAM, enter new markets, or reshape the business model                                                                                              |
+| **Stakeholder<br>Management**        | • Primary executive interface to board, investors, regulators, and most strategic customers<br>• Crafts and tells the enterprise story to markets, media, and industry forums<br>• Builds enduring relationships with global partners, alliances, and policy groups<br>• Oversees investor relations narratives with CFO/CEO; manages activist and regulatory risk<br>• Leads complex negotiations and strategic partnerships at enterprise scale                                                                                                  |
+| **Complexity &<br>Problem Solving**  | • Resolves ambiguous, systemic issues spanning markets, geographies, and regulatory environments<br>• Uses scenario planning and portfolio management to navigate uncertainty<br>• Designs organizational structures enabling rapid adaptation and resilience<br>• Guides company through crises, market shifts, and disruptive competition<br>• Balances near-term execution with long-term strategic optionality                                                                                                           |
+| **Collaboration &<br>Communication** | • Aligns executive team and board around vision, priorities, and strategic trade-offs<br>• Communicates strategy with clarity to global organization and external stakeholders<br>• Advocates for company position shaping industry standards and policy<br>• Models transparent, decisive communication during high-stakes moments<br>• Builds trust across diverse cultures, regions, and investor bases                                                                                                                      |
+
+### Span & Team Structure
+
+- **Typical Direct Reports**: 25+ leaders through VPs/EVPs and executive staff
+- **Organizational Depth**: Has 5+ layers of leadership across global organization
+- **Team Scope**: Multiple global business units or full enterprise portfolio
+- **Budget Responsibility**: Typically $10M+ multi-P&L with capital allocation authority
+- **Time Horizon**: Multi-year strategic cycles, market positioning, succession planning
+
+### Typical Background
+
+- **Bachelor's degree + 18+ years experience** OR **Master's degree + 15+ years** OR **PhD + 12+ years**
+- Proven track record leading enterprise-scale organizations with sustained business impact
+- Recognized industry executive with deep board and investor exposure
+- Demonstrated success driving large-scale transformations and portfolio shifts
+- Extensive experience building cohesive executive teams and successors
+
+### Success Indicators
+
+!!! success "Key Performance Signals"
+
+    - ✅ Drives enterprise-level strategic initiatives with measurable impact on valuation and market position
+    - ✅ Earns sustained confidence of board, investors, and regulators
+    - ✅ Establishes resilient executive team with clear succession plans for critical roles
+    - ✅ Expands markets, TAM, or business model in ways that meaningfully grow the company
+    - ✅ Navigates crises effectively while preserving culture and performance
+    - ✅ Shapes industry direction and policy in ways that benefit the company
+    - ✅ Builds enduring strategic partnerships that unlock step-function growth
+
+### Common Development Areas
+
+- Balancing multi-horizon investments across portfolio while maintaining focus
+- Deepening global regulatory, policy, and geopolitical awareness
+- Strengthening board/investor relationship management in volatile markets
+- Building diverse, globally capable executive benches and successors
+- Anticipating disruptive trends and pivoting enterprise strategy decisively
+- Sustaining culture and cohesion through rapid scale and transformation
+
+!!! note "Enterprise Stewardship"
+
+    M10 represents enterprise executive leadership with primary board and market stewardship. Success requires prioritizing strategic leadership (80%) while ensuring disciplined operations and resilience across the global portfolio.
 
 ---
 
 ## Level Comparison Matrix
 
-| Dimension        | M04         | M05       | M06        | M07        | M08        | M09       |
-| ---------------- | ----------- | --------- | ---------- | ---------- | ---------- | --------- |
-| **Focus**        | 80/20       | 70/30     | 60/40      | 50/50      | 40/60      | 30/70     |
-| **Span**         | 2-4 ICs     | 4-8       | 7-13       | 10-20      | 15-25      | 20+       |
-| **Layers**       | 1 layer     | 1-2       | 2-3        | 3-4        | 3-4        | 4+        |
-| **Scope**        | Team        | Multi-tm  | Function   | Multi-func | Division   | Company   |
-| **Planning**     | Monthly     | Quarterly | Annual     | Multi-year | Multi-year | Long-term |
-| **Budget**       | $100K-$250K | $250-750K | $750K-$2M  | $2M-$4M    | $3M-$5M    | $5M+      |
-| **Stakeholders** | Defined     | Varied    | Cross-org  | Exec/Board | Exec/Board | Board/Inv |
-| **Problems**     | Moderate    | Complex   | Cross-disc | Strategic  | Strategic  | Transform |
+| Dimension        | M04         | M05       | M06        | M07        | M08        | M09       | M10               |
+| ---------------- | ----------- | --------- | ---------- | ---------- | ---------- | --------- | ----------------- |
+| **Focus**        | 80/20       | 70/30     | 60/40      | 50/50      | 40/60      | 30/70     | 20/80             |
+| **Span**         | 2-4 ICs     | 4-8       | 7-13       | 10-20      | 15-25      | 20+       | 25+ execs         |
+| **Layers**       | 1 layer     | 1-2       | 2-3        | 3-4        | 3-4        | 4+        | 5+                |
+| **Scope**        | Team        | Multi-tm  | Function   | Multi-func | Division   | Company   | Enterprise        |
+| **Planning**     | Monthly     | Quarterly | Annual     | Multi-year | Multi-year | Long-term | Market-cycle      |
+| **Budget**       | $100K-$250K | $250-750K | $750K-$2M  | $2M-$4M    | $3M-$5M    | $5M+      | $10M+ / multi-P&L |
+| **Stakeholders** | Defined     | Varied    | Cross-org  | Exec/Board | Exec/Board | Board/Inv | Board/Markets     |
+| **Problems**     | Moderate    | Complex   | Cross-disc | Strategic  | Strategic  | Transform | Systemic/Market   |
 
 ## Core Management Competencies
 
@@ -478,6 +548,7 @@ graph LR
 - **M06 → M07**: 36+ months demonstrating executive-level influence and organizational transformation
 - **M07 → M08**: 36+ months demonstrating director-level functional leadership and execution
 - **M08 → M09**: 48+ months demonstrating senior executive leadership and board-level partnership
+- **M09 → M10**: 60+ months demonstrating enterprise leadership, investor stewardship, and market-shaping impact
 
 !!! warning "Promotion Requirements"
 
