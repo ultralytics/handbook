@@ -1,0 +1,29 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+name: Docs CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - uses: astral-sh/setup-uv@v7
+      - name: Install dependencies
+        run: |
+          uv pip install --system -r requirements.txt mkdocs mkdocs-material
+      - name: Build docs (warnings as errors)
+        run: mkdocs build --strict
