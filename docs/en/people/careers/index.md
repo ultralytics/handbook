@@ -14,9 +14,9 @@ Ultralytics' career framework provides clear expectations for each level and gui
 ## Career Tracks
 
 **Individual Contributor (IC)**: [IC1](levels-ic.md#ic1-entry) → [IC2](levels-ic.md#ic2-mid-1-developing) → [IC3](levels-ic.md#ic3-mid-2-proficient) → [IC4](levels-ic.md#ic4-senior-1-skilled) → [IC5](levels-ic.md#ic5-senior-2-advanced) → [IC6](levels-ic.md#ic6-staff-expert) → [IC7](levels-ic.md#ic7-senior-staff-advisor) → [IC8](levels-ic.md#ic8-principal-strategist) → [IC9](levels-ic.md#ic9-distinguished-thought-leader)  
-**Management**: [M04](levels-management.md#m04-lead-manager) → [M05](levels-management.md#m05-manager) → [M06](levels-management.md#m06-senior-manager) → [M07](levels-management.md#m07-head-of) → [M08](levels-management.md#m08-director) → [M09](levels-management.md#m09-vp) → [M10](levels-management.md#m10-senior-vice-president)
+**Management**: [M4](levels-management.md#m04-lead-manager) → [M5](levels-management.md#m05-manager) → [M6](levels-management.md#m06-senior-manager) → [M7](levels-management.md#m07-head-of) → [M8](levels-management.md#m08-director) → [M9](levels-management.md#m09-vp) → [M10](levels-management.md#m10-senior-vice-president)
 
-**Track switching**: IC4/IC5 ↔ M04 | M04/M05 ↔ IC5/IC6 | M06 ↔ IC6/IC7
+**Track switching**: IC4/IC5 ↔ M4 | M4/M5 ↔ IC5/IC6 | M6 ↔ IC6/IC7
 
 ```mermaid
 flowchart TB
@@ -37,23 +37,23 @@ flowchart TB
 
     subgraph MGMT [" "]
         direction LR
-        M04["M04<br/>Lead Manager"] --> M05["M05<br/>Manager"]
-        M05 --> M06["M06<br/>Senior Manager"]
-        M06 --> M07["M07<br/>Head of"]
-        M07 --> M08["M08<br/>Director"]
-        M08 --> M09["M09<br/>VP"]
-        M09 --> M10["M10<br/>Senior VP"]
+        M4["M4<br/>Lead Manager"] --> M5["M5<br/>Manager"]
+        M5 --> M6["M6<br/>Senior Manager"]
+        M6 --> M7["M7<br/>Head of"]
+        M7 --> M8["M8<br/>Director"]
+        M8 --> M9["M9<br/>VP"]
+        M9 --> M10["M10<br/>Senior VP"]
     end
 
     IC_TITLE -.-> IC
     MGMT_TITLE -.-> MGMT
 
-    IC4 <-.->|Switch| M04
-    IC5 <-.->|Switch| M04
-    IC5 <-.->|Switch| M05
-    IC6 <-.->|Switch| M05
-    IC6 <-.->|Switch| M06
-    IC7 <-.->|Switch| M06
+    IC4 <-.->|Switch| M4
+    IC5 <-.->|Switch| M4
+    IC5 <-.->|Switch| M5
+    IC6 <-.->|Switch| M5
+    IC6 <-.->|Switch| M6
+    IC7 <-.->|Switch| M6
 
     classDef ic1 fill:#e1f5ff,stroke:#01579b,color:#000;
     classDef ic2 fill:#b3e5fc,stroke:#0288d1,color:#000;
@@ -80,12 +80,12 @@ flowchart TB
     class IC7 ic7;
     class IC8 ic8;
     class IC9 ic9;
-    class M04 m04;
-    class M05 m05;
-    class M06 m06;
-    class M07 m07;
-    class M08 m08;
-    class M09 m09;
+    class M4 m04;
+    class M5 m05;
+    class M6 m06;
+    class M7 m07;
+    class M8 m08;
+    class M9 m09;
     class M10 m10;
 ```
 
@@ -99,7 +99,7 @@ flowchart TB
 | **Scope Growth**    | Project → Team → Multi-team → Organization            | Team → Department → Function → Division                           |
 | **Focus Evolution** | 100% Ops → 50% Ops / 50% Strategic                    | 80% Ops → 20% Ops / 80% Strategic                                 |
 
-**Full expectations**: [IC Levels (IC1-IC9)](levels-ic.md) | [Management Levels (M04-M10)](levels-management.md)
+**Full expectations**: [IC Levels (IC1-IC9)](levels-ic.md) | [Management Levels (M4-M10)](levels-management.md)
 
 ## Switching Career Tracks
 
@@ -107,8 +107,8 @@ Track switches are normal and supported—discuss with your manager during quart
 
 | Direction           | Typical Path | Key Requirements                                                                                              |
 | ------------------- | ------------ | ------------------------------------------------------------------------------------------------------------- |
-| **IC → Management** | IC4/IC5→M04  | Technical excellence + leadership examples (mentoring, project leadership) + manager endorsement + 12+ months |
-| **Management → IC** | M04/M05→IC5+ | Maintain technical currency + manager discussion + business need + smooth team transition                     |
+| **IC → Management** | IC4/IC5→M4  | Technical excellence + leadership examples (mentoring, project leadership) + manager endorsement + 12+ months |
+| **Management → IC** | M4/M5→IC5+ | Maintain technical currency + manager discussion + business need + smooth team transition                     |
 
 **When to switch IC→Management**: Passionate about people development, organizational dynamics, influencing through teams  
 **When to switch Management→IC**: Miss hands-on technical work, prefer expertise-based influence, want deeper specialization
@@ -169,12 +169,12 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 | IC6 → IC7        | 36+ months       | Organization-wide strategic impact                |
 | IC7 → IC8        | 48+ months       | Company-level technical strategy and influence    |
 | IC8 → IC9        | Special appoint. | Industry impact and business-critical leadership  |
-| M04 → M05        | 18-24 months     | Multi-team coordination excellence                |
-| M05 → M06        | 24-36 months     | Functional leadership and strategic impact        |
-| M06 → M07        | 36+ months       | Executive-level influence                         |
-| M07 → M08        | 36+ months       | Director-level functional leadership              |
-| M08 → M09        | 48+ months       | Senior executive leadership                       |
-| M09 → M10        | 60+ months       | Enterprise leadership and board-level stewardship |
+| M4 → M5        | 18-24 months     | Multi-team coordination excellence                |
+| M5 → M6        | 24-36 months     | Functional leadership and strategic impact        |
+| M6 → M7        | 36+ months       | Executive-level influence                         |
+| M7 → M8        | 36+ months       | Director-level functional leadership              |
+| M8 → M9        | 48+ months       | Senior executive leadership                       |
+| M9 → M10        | 60+ months       | Enterprise leadership and board-level stewardship |
 
 !!! warning "Sustained Performance Required"
 
@@ -202,7 +202,7 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 ### Additional Resources
 
 - **[IC Levels (IC1-IC9)](levels-ic.md)** - Detailed Individual Contributor expectations
-- **[Management Levels (M04-M10)](levels-management.md)** - Detailed Management expectations
+- **[Management Levels (M4-M10)](levels-management.md)** - Detailed Management expectations
 - **[People & Benefits](../index.md)** - Comprehensive people policies and resources
 - **[Onboarding](../onboarding.md)** - Level expectations for new team members
 
