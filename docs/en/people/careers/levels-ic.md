@@ -40,14 +40,14 @@ graph LR
 | Level                  | Title            | Career Stage   | Ops/Strategic Focus     |
 | ---------------------- | ---------------- | -------------- | ----------------------- |
 | [IC1](#ic1-entry)      | Entry            | Entry          | 100% Operational        |
-| [IC2](#ic2-mid-1)      | Mid 1            | Developing     | 100% Operational        |
-| [IC3](#ic3-mid-2)      | Mid 2            | Proficient     | 100% Operational        |
-| [IC4](#ic4-senior-1)   | Senior 1         | Skilled        | 100% Operational        |
-| [IC5](#ic5-senior-2)   | Senior 2         | Advanced       | 90% Ops / 10% Strategic |
-| [IC6](#ic6-staff)      | Staff            | Expert         | 80% Ops / 20% Strategic |
-| [IC7](#ic7-sr-staff)   | Senior Staff     | Advisor        | 70% Ops / 30% Strategic |
-| [IC8](#ic8-principal)  | Principal        | Strategist     | 60% Ops / 40% Strategic |
-| [IC9](#ic9-dist)       | Distinguished    | Thought Leader | 50% Ops / 50% Strategic |
+| [IC2](#ic2-mid-1-developing)      | Mid 1            | Developing     | 100% Operational        |
+| [IC3](#ic3-mid-2-proficient)      | Mid 2            | Proficient     | 100% Operational        |
+| [IC4](#ic4-senior-1-skilled)      | Senior 1         | Skilled        | 100% Operational        |
+| [IC5](#ic5-senior-2-advanced)     | Senior 2         | Advanced       | 90% Ops / 10% Strategic |
+| [IC6](#ic6-staff-expert)          | Staff            | Expert         | 80% Ops / 20% Strategic |
+| [IC7](#ic7-senior-staff-advisor)  | Senior Staff     | Advisor        | 70% Ops / 30% Strategic |
+| [IC8](#ic8-principal-strategist)  | Principal        | Strategist     | 60% Ops / 40% Strategic |
+| [IC9](#ic9-distinguished-thought-leader)       | Distinguished    | Thought Leader | 50% Ops / 50% Strategic |
 
 ---
 
@@ -446,4 +446,3 @@ Create targeted growth plans:
 ---
 
 _These level descriptions are living documents that evolve as Ultralytics grows. Feedback and improvements welcome through PRs or discussions with your manager._
-
