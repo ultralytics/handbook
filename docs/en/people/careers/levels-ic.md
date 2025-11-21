@@ -97,43 +97,43 @@ graph LR
 
 ## IC2: Mid 1 (Developing)
 
-**Career Stage**: Developing  
-**Typical Roles**: Engineer I, Product Manager I, Designer I  
+**Career Stage**: Developing
+**Typical Roles**: Engineer I, Product Manager I, Designer I, Marketing Specialist, Business Development Rep
 **Focus**: 100% Operational - Developing autonomy with general supervision
 
 ### Core Expectations
 
-| Dimension                            | IC2 Requirements                                                                                                                                                                                                                                                                                                                                     |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Expertise &<br>Technical Depth**   | • Develops and applies growing advanced techniques and principles<br>• Standard application of principles, theories, and concepts<br>• Expanding knowledge across related specialty areas<br>• Demonstrates increasing competency and autonomy in work<br>• Good grasp of relevant tools and methodologies                                           |
-| **Scope &<br>Responsibility**        | • Handles moderate complexity work with opportunity for review<br>• Responsible for project aspects, determining methods to achieve results<br>• Plans and schedules own work across multiple days<br>• Contributes to fulfillment of significant project portions<br>• Work impacts own deliverables and begins affecting team outcomes             |
-| **Decision Making &<br>Impact**      | • Makes decisions about own work and occasionally others' within documented parameters<br>• Independently resolves routine issues<br>• Works under general supervision with independent judgment<br>• Seeks guidance on complex or ambiguous situations<br>• Begins recommending approaches to solve problems                                        |
-| **Leadership &<br>Influence**        | • Begins working with more varied and changing stakeholders<br>• Gains cooperation from others, exchanges technical information effectively<br>• Influences through recommending approaches and solutions<br>• Responsible for individual project aspects and their coordination<br>• Participates actively in team planning and design discussions  |
-| **Complexity &<br>Problem Solving**  | • Problems require analysis of identifiable factors and tradeoffs<br>• Determines course of action based on guidelines, modifies based on experience<br>• Handles basic escalations from entry-level team members<br>• Applies growing problem-solving sophistication and techniques<br>• Conveys technical information clearly to diverse audiences |
-| **Collaboration &<br>Communication** | • Works effectively with team members across different functions<br>• Communicates progress, challenges, and technical decisions proactively<br>• Contributes meaningfully to technical discussions and planning<br>• Helps onboard IC1 team members<br>• Documents work clearly for broader team consumption                                        |
+| Dimension                      | IC2 Requirements                                                                                                                                                                                                                                                                                                                           |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Expertise &<br>Domain Knowledge**   | • Develops and applies growing advanced techniques and principles<br>• Standard application of principles, theories, and concepts<br>• Expanding knowledge across related specialty areas<br>• Demonstrates increasing competency and autonomy in work<br>• Good grasp of relevant tools and methodologies                                             |
+| **Scope &<br>Responsibility**  | • Handles moderate complexity work with opportunity for review<br>• Responsible for project aspects, determining methods to achieve results<br>• Plans and schedules own work across multiple days<br>• Contributes to fulfillment of significant project portions<br>• Work impacts own deliverables and begins affecting team outcomes               |
+| **Decision Making &<br>Impact** | • Makes decisions about own work and occasionally others' within documented parameters<br>• Independently resolves routine issues<br>• Works under general supervision with independent judgment<br>• Seeks guidance on complex or ambiguous situations<br>• Begins recommending approaches to solve problems                                          |
+| **Leadership &<br>Influence**  | • Begins working with more varied and changing stakeholders<br>• Gains cooperation from others, exchanges information effectively<br>• Influences through recommending approaches and solutions<br>• Responsible for individual project aspects and their coordination<br>• Participates actively in team planning and design discussions    |
+| **Complexity &<br>Problem Solving**   | • Problems require analysis of identifiable factors and tradeoffs<br>• Determines course of action based on guidelines, modifies based on experience<br>• Handles basic escalations from entry-level team members<br>• Applies growing problem-solving sophistication and techniques<br>• Conveys information clearly to diverse audiences |
+| **Collaboration &<br>Communication**  | • Works effectively with team members across different functions<br>• Communicates progress, challenges, and decisions proactively<br>• Contributes meaningfully to discussions and planning<br>• Helps onboard IC1 team members<br>• Documents work clearly for broader team consumption                                                          |
 
 ### Typical Background
 
 - **Bachelor's degree + 1-3 years experience** OR **Master's degree + 1 year**
-- Demonstrated growth in technical skills and independent contributions
-- Track record of delivering features or projects with guidance
+- Demonstrated growth in functional skills and independent contributions
+- Track record of delivering tasks or projects with guidance
 - Comfortable working with moderate complexity
 
 ### Success Indicators
 
 !!! success "Key Performance Signals"
 
-    - ✅ Delivers features with minimal guidance
-    - ✅ Proactively identifies and resolves routine technical issues
-    - ✅ Makes sound technical decisions on own tasks
+    - ✅ Delivers work with minimal guidance
+    - ✅ Proactively identifies and resolves routine issues
+    - ✅ Makes sound decisions on own tasks
     - ✅ Effectively communicates with immediate stakeholders
     - ✅ Demonstrates growing ownership of work quality
 
 ### Common Development Areas
 
-- Expand technical depth in the primary stack and adjacent tools
+- Expand depth in the primary domain and adjacent tools
 - Increase comfort working through ambiguity with partial requirements
-- Strengthen understanding of system architecture and dependencies
+- Strengthen understanding of team's role and dependencies
 - Improve estimation accuracy and proactive risk surfacing
 - Build early mentorship habits with IC1 teammates
 
@@ -141,45 +141,45 @@ graph LR
 
 ## IC3: Mid 2 (Proficient)
 
-**Career Stage**: Proficient  
-**Typical Roles**: Engineer II, Product Manager II, Designer II  
+**Career Stage**: Proficient
+**Typical Roles**: Engineer II, Product Manager II, Designer II, Senior Marketing Specialist, Account Executive
 **Focus**: 100% Operational - Fully autonomous execution on complex tasks
 
 ### Core Expectations
 
-| Dimension                            | IC3 Requirements                                                                                                                                                                                                                                                                                                                                          |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Expertise &<br>Technical Depth**   | • Applies complete and practical knowledge of stack/domain<br>• Near-complete use of standard principles, theories, and concepts<br>• Capable of debugging complex issues within own domain<br>• High competency and autonomy; rarely needs technical assistance on standard tasks<br>• Full application of relevant tools, acts as a resource for others |
-| **Scope &<br>Responsibility**        | • Handles moderate to high complexity work with minimal review<br>• Responsible for multiple project aspects or small features end-to-end<br>• Plans and schedules own work across weeks<br>• Contributes to fulfillment of major project portions<br>• Work directly impacts team outcomes and timeline reliability                                      |
-| **Decision Making &<br>Impact**      | • Independently resolves non-routine issues<br>• Determines methods and procedures on new assignments<br>• Decisions have a lasting impact on the maintainability of the codebase/product<br>• Identifies risks in own work and proposes mitigation strategies<br>• Recommends improvements to team processes                                             |
-| **Leadership &<br>Influence**        | • Collaborates with stakeholders outside immediate team occasionally<br>• Mentors IC1 and IC2 peers on best practices<br>• Influences design discussions by leveraging past experience<br>• Responsible for multiple project aspects and their coordination<br>• Leads small sub-projects or feature implementations                                      |
-| **Complexity &<br>Problem Solving**  | • Solves difficult problems with ambiguous factors<br>• Analyzes tradeoffs between different technical implementations<br>• Handles escalated technical issues from junior team members regularly<br>• Optimizes existing solutions for performance or scalability<br>• Translates business requirements into technical specifications                    |
-| **Collaboration &<br>Communication** | • Proactively communicates blocking issues and proposes solutions<br>• Participates in hiring and interviewing (shadowing)<br>• Conducts thorough code/design reviews for peers<br>• Documents complex workflows and system behaviors<br>• Bridges gaps between product requirements and technical implementation                                         |
+| Dimension                      | IC3 Requirements                                                                                                                                                                                                                                                                                                                                |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Expertise &<br>Domain Knowledge**   | • Applies complete and practical knowledge of their domain<br>• Near-complete use of standard principles, theories, and concepts<br>• Capable of troubleshooting complex issues within own domain<br>• High competency and autonomy; rarely needs assistance on standard tasks<br>• Full application of relevant tools, acts as a resource for others |
+| **Scope &<br>Responsibility**  | • Handles moderate to high complexity work with minimal review<br>• Responsible for multiple project aspects or small initiatives end-to-end<br>• Plans and schedules own work across weeks<br>• Contributes to fulfillment of major project portions<br>• Work directly impacts team outcomes and timeline reliability                                |
+| **Decision Making &<br>Impact** | • Independently resolves non-routine issues<br>• Determines methods and procedures on new assignments<br>• Decisions have a lasting impact on the maintainability of the team's work<br>• Identifies risks in own work and proposes mitigation strategies<br>• Recommends improvements to team processes                                               |
+| **Leadership &<br>Influence**  | • Collaborates with stakeholders outside immediate team occasionally<br>• Mentors IC1 and IC2 peers on best practices<br>• Influences discussions by leveraging past experience<br>• Responsible for multiple project aspects and their coordination<br>• Leads small sub-projects or feature implementations                                        |
+| **Complexity &<br>Problem Solving**   | • Solves difficult problems with ambiguous factors<br>• Analyzes tradeoffs between different implementations<br>• Handles escalated issues from junior team members regularly<br>• Optimizes existing solutions for performance or scalability<br>• Translates business requirements into functional specifications                      |
+| **Collaboration &<br>Communication**  | • Proactively communicates blocking issues and proposes solutions<br>• Participates in hiring and interviewing (shadowing)<br>• Conducts thorough reviews for peers<br>• Documents complex workflows and system behaviors<br>• Bridges gaps between business requirements and implementation                                           |
 
 ### Typical Background
 
 - **Bachelor's degree + 3-5 years experience** OR **Master's degree + 2 years** OR **PhD + 1 year**
-- Track record of delivering features end-to-end independently
-- Strong knowledge of design patterns and best practices
-- Ability to mentor junior engineers on specific tasks
+- Track record of delivering work end-to-end independently
+- Strong knowledge of best practices in their field
+- Ability to mentor junior team members on specific tasks
 
 ### Success Indicators
 
 !!! success "Key Performance Signals"
 
-    - ✅ consistently delivers complex features with high quality and autonomy
+    - ✅ Consistently delivers complex work with high quality and autonomy
     - ✅ Recognized as a reliable owner of specific domains or components
-    - ✅ Mentors junior team members effectively on technical tasks
-    - ✅ Proactively improves code quality and documentation
+    - ✅ Mentors junior team members effectively on tasks
+    - ✅ Proactively improves quality and documentation
     - ✅ Estimates work accurately and manages own timeline effectively
 
 ### Common Development Areas
 
-- Grow influence beyond immediate features to adjacent components
-- Elevate architectural thinking and long-term maintainability
+- Grow influence beyond immediate tasks to adjacent components
+- Elevate strategic thinking and long-term maintainability
 - Strengthen ambiguity handling and tradeoff communication
 - Develop more deliberate mentoring and review practices
-- Improve stakeholder updates that translate technical choices to impact
+- Improve stakeholder updates that translate choices to impact
 
 ---
 
