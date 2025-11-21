@@ -103,9 +103,9 @@ flowchart TB
 
 Track switches are normal and supported—discuss with your manager during quarterly reviews.
 
-| Direction           | Typical Path  | Key Requirements                                                                                              |
-| ------------------- | ------------- | ------------------------------------------------------------------------------------------------------------- |
-| **IC → Management** | IC4/IC5→M04 | Technical excellence + leadership examples (mentoring, project leadership) + manager endorsement + 12+ months |
+| Direction           | Typical Path | Key Requirements                                                                                              |
+| ------------------- | ------------ | ------------------------------------------------------------------------------------------------------------- |
+| **IC → Management** | IC4/IC5→M04  | Technical excellence + leadership examples (mentoring, project leadership) + manager endorsement + 12+ months |
 | **Management → IC** | M04/M05→IC5+ | Maintain technical currency + manager discussion + business need + smooth team transition                     |
 
 **When to switch IC→Management**: Passionate about people development, organizational dynamics, influencing through teams  
@@ -157,21 +157,21 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 
 ## Typical Promotion Timelines
 
-| Level Transition | Typical Timeline | Key Demonstration                                |
-| ---------------- | ---------------- | ------------------------------------------------ |
-| IC1 → IC2        | 12-18 months     | Independent feature delivery                     |
-| IC2 → IC3        | 18-24 months     | Consistent mid-level impact                      |
-| IC3 → IC4        | 24-30 months     | Senior-level ownership and reliability           |
-| IC4 → IC5        | 24-36 months     | Cross-team technical leadership                  |
-| IC5 → IC6        | 36+ months       | Department-level strategic impact                |
-| IC6 → IC7        | 36+ months       | Organization-wide strategic impact               |
-| IC7 → IC8        | 48+ months       | Company-level technical strategy and influence   |
-| IC8 → IC9        | Special appoint. | Industry impact and business-critical leadership |
-| M04 → M05        | 18-24 months     | Multi-team coordination excellence               |
-| M05 → M06        | 24-36 months     | Functional leadership and strategic impact       |
-| M06 → M07        | 36+ months       | Executive-level influence                        |
-| M07 → M08        | 36+ months       | Director-level functional leadership             |
-| M08 → M09        | 48+ months       | Senior executive leadership                      |
+| Level Transition | Typical Timeline | Key Demonstration                                 |
+| ---------------- | ---------------- | ------------------------------------------------- |
+| IC1 → IC2        | 12-18 months     | Independent feature delivery                      |
+| IC2 → IC3        | 18-24 months     | Consistent mid-level impact                       |
+| IC3 → IC4        | 24-30 months     | Senior-level ownership and reliability            |
+| IC4 → IC5        | 24-36 months     | Cross-team technical leadership                   |
+| IC5 → IC6        | 36+ months       | Department-level strategic impact                 |
+| IC6 → IC7        | 36+ months       | Organization-wide strategic impact                |
+| IC7 → IC8        | 48+ months       | Company-level technical strategy and influence    |
+| IC8 → IC9        | Special appoint. | Industry impact and business-critical leadership  |
+| M04 → M05        | 18-24 months     | Multi-team coordination excellence                |
+| M05 → M06        | 24-36 months     | Functional leadership and strategic impact        |
+| M06 → M07        | 36+ months       | Executive-level influence                         |
+| M07 → M08        | 36+ months       | Director-level functional leadership              |
+| M08 → M09        | 48+ months       | Senior executive leadership                       |
 | M09 → M10        | 60+ months       | Enterprise leadership and board-level stewardship |
 
 !!! warning "Sustained Performance Required"
