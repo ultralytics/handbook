@@ -14,7 +14,7 @@ Ultralytics' career framework provides clear expectations for each level and gui
 ## Career Tracks
 
 **Individual Contributor (IC)**: [IC1](levels-ic.md#ic1-entry) → [IC2](levels-ic.md#ic2-mid-1-developing) → [IC3](levels-ic.md#ic3-mid-2-proficient) → [IC4](levels-ic.md#ic4-senior-1-skilled) → [IC5](levels-ic.md#ic5-senior-2-advanced) → [IC6](levels-ic.md#ic6-staff-expert) → [IC7](levels-ic.md#ic7-senior-staff-advisor) → [IC8](levels-ic.md#ic8-principal-strategist) → [IC9](levels-ic.md#ic9-distinguished-thought-leader)  
-**Management**: [M4](levels-management.md#m04-lead-manager) → [M5](levels-management.md#m05-manager) → [M6](levels-management.md#m06-senior-manager) → [M7](levels-management.md#m07-head-of) → [M8](levels-management.md#m08-director) → [M9](levels-management.md#m09-vp) → [M10](levels-management.md#m10-senior-vice-president)
+**Management**: [M4](levels-management.md#m4-lead-manager) → [M5](levels-management.md#m5-manager) → [M6](levels-management.md#m6-senior-manager) → [M7](levels-management.md#m7-head-of) → [M8](levels-management.md#m8-director) → [M9](levels-management.md#m9-vp) → [M10](levels-management.md#m10-senior-vice-president)
 
 **Track switching**: IC4/IC5 ↔ M4 | M4/M5 ↔ IC5/IC6 | M6 ↔ IC6/IC7
 

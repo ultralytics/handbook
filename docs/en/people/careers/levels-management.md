@@ -41,12 +41,12 @@ flowchart LR
 
 | Level                             | Title          | Career Stage                           | Ops/Strategic Focus     |
 | --------------------------------- | -------------- | -------------------------------------- | ----------------------- |
-| [M4](#m04-lead-manager)          | Lead Manager   | Lead Supervisory / Manager Supervisory | 80% Ops / 20% Strategic |
-| [M5](#m05-manager)               | Manager        | Management                             | 70% Ops / 30% Strategic |
-| [M6](#m06-senior-manager)        | Senior Manager | Senior Manager                         | 60% Ops / 40% Strategic |
-| [M7](#m07-head-of)               | Head of        | Head of Middle Management              | 50% Ops / 50% Strategic |
-| [M8](#m08-director)              | Director       | Director Management                    | 40% Ops / 60% Strategic |
-| [M9](#m09-vp)                    | VP             | Senior Executive Management            | 30% Ops / 70% Strategic |
+| [M4](#m4-lead-manager)          | Lead Manager   | Lead Supervisory / Manager Supervisory | 80% Ops / 20% Strategic |
+| [M5](#m5-manager)               | Manager        | Management                             | 70% Ops / 30% Strategic |
+| [M6](#m6-senior-manager)        | Senior Manager | Senior Manager                         | 60% Ops / 40% Strategic |
+| [M7](#m7-head-of)               | Head of        | Head of Middle Management              | 50% Ops / 50% Strategic |
+| [M8](#m8-director)              | Director       | Director Management                    | 40% Ops / 60% Strategic |
+| [M9](#m9-vp)                    | VP             | Senior Executive Management            | 30% Ops / 70% Strategic |
 | [M10](#m10-senior-vice-president) | Senior VP      | Enterprise Executive Leadership        | 20% Ops / 80% Strategic |
 
 ---
