@@ -91,13 +91,13 @@ flowchart TB
 
 ### Track Comparison
 
-| Aspect              | Individual Contributor (IC)                                   | Management                                                        |
-| ------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------- |
-| **Impact Through**  | Deep expertise and individual contributions                   | Building and leading teams to achieve collective goals            |
-| **Key Skills**      | Domain knowledge, problem-solving, innovation, execution      | People development, strategic planning, organizational leadership |
+| Aspect              | Individual Contributor (IC)                                      | Management                                                        |
+| ------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **Impact Through**  | Deep expertise and individual contributions                      | Building and leading teams to achieve collective goals            |
+| **Key Skills**      | Domain knowledge, problem-solving, innovation, execution         | People development, strategic planning, organizational leadership |
 | **Influence**       | Guiding decisions, setting standards, and sharing best practices | Team performance, culture, and organizational direction           |
-| **Scope Growth**    | Project → Team → Multi-team → Organization                    | Team → Department → Function → Division                           |
-| **Focus Evolution** | 100% Operational → 50% Ops / 50% Strategic                    | 80% Ops → 20% Ops / 80% Strategic                                 |
+| **Scope Growth**    | Project → Team → Multi-team → Organization                       | Team → Department → Function → Division                           |
+| **Focus Evolution** | 100% Operational → 50% Ops / 50% Strategic                       | 80% Ops → 20% Ops / 80% Strategic                                 |
 
 **Full expectations**: [IC Levels (IC1-IC9)](levels-ic.md) | [Management Levels (M4-M10)](levels-management.md)
 
@@ -105,10 +105,10 @@ flowchart TB
 
 Track switches are normal and supported—discuss with your manager during quarterly reviews.
 
-| Direction           | Typical Path | Key Requirements                                                                                                |
-| ------------------- | ------------ | --------------------------------------------------------------------------------------------------------------- |
-| **IC → Management** | IC4/IC5→M4   | Excellence in role + leadership examples (mentoring, project leadership) + manager endorsement + 12+ months       |
-| **Management → IC** | M4/M5→IC5+   | Maintained domain currency + manager discussion + business need + smooth team transition                        |
+| Direction           | Typical Path | Key Requirements                                                                                            |
+| ------------------- | ------------ | ----------------------------------------------------------------------------------------------------------- |
+| **IC → Management** | IC4/IC5→M4   | Excellence in role + leadership examples (mentoring, project leadership) + manager endorsement + 12+ months |
+| **Management → IC** | M4/M5→IC5+   | Maintained domain currency + manager discussion + business need + smooth team transition                    |
 
 **When to switch IC→Management**: Passionate about people development, organizational dynamics, and influencing through teams.
 **When to switch Management→IC**: Miss hands-on work, prefer expertise-based influence, and want deeper specialization in your field.
@@ -159,22 +159,22 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 
 ## Typical Promotion Timelines
 
-| Level Transition | Typical Timeline | Key Demonstration                                   |
-| ---------------- | ---------------- | --------------------------------------------------- |
-| IC1 → IC2        | 12-18 months     | Independent task delivery                           |
-| IC2 → IC3        | 18-24 months     | Consistent mid-level impact                         |
-| IC3 → IC4        | 24-30 months     | Senior-level ownership and reliability              |
-| IC4 → IC5        | 24-36 months     | Cross-team leadership                               |
-| IC5 → IC6        | 36+ months       | Department-level strategic impact                   |
-| IC6 → IC7        | 36+ months       | Organization-wide strategic impact                  |
-| IC7 → IC8        | 48+ months       | Company-level strategy and influence                |
-| IC8 → IC9        | Special appoint. | Industry impact and business-critical leadership    |
-| M4 → M5          | 18-24 months     | Multi-team coordination excellence                  |
-| M5 → M6          | 24-36 months     | Functional leadership and strategic impact          |
-| M6 → M7          | 36+ months       | Executive-level influence                           |
-| M7 → M8          | 36+ months       | Director-level functional leadership                |
-| M8 → M9          | 48+ months       | Senior executive leadership                         |
-| M9 → M10         | 60+ months       | Enterprise leadership and board-level stewardship   |
+| Level Transition | Typical Timeline | Key Demonstration                                 |
+| ---------------- | ---------------- | ------------------------------------------------- |
+| IC1 → IC2        | 12-18 months     | Independent task delivery                         |
+| IC2 → IC3        | 18-24 months     | Consistent mid-level impact                       |
+| IC3 → IC4        | 24-30 months     | Senior-level ownership and reliability            |
+| IC4 → IC5        | 24-36 months     | Cross-team leadership                             |
+| IC5 → IC6        | 36+ months       | Department-level strategic impact                 |
+| IC6 → IC7        | 36+ months       | Organization-wide strategic impact                |
+| IC7 → IC8        | 48+ months       | Company-level strategy and influence              |
+| IC8 → IC9        | Special appoint. | Industry impact and business-critical leadership  |
+| M4 → M5          | 18-24 months     | Multi-team coordination excellence                |
+| M5 → M6          | 24-36 months     | Functional leadership and strategic impact        |
+| M6 → M7          | 36+ months       | Executive-level influence                         |
+| M7 → M8          | 36+ months       | Director-level functional leadership              |
+| M8 → M9          | 48+ months       | Senior executive leadership                       |
+| M9 → M10         | 60+ months       | Enterprise leadership and board-level stewardship |
 
 !!! warning "Sustained Performance Required"
 
