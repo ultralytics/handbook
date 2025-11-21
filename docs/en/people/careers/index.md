@@ -52,6 +52,8 @@ flowchart TB
     IC5 <-.->|Switch| M04
     IC5 <-.->|Switch| M05
     IC6 <-.->|Switch| M05
+    IC6 <-.->|Switch| M06
+    IC7 <-.->|Switch| M06
 
     classDef ic1 fill:#e1f5ff,stroke:#01579b,color:#000;
     classDef ic2 fill:#b3e5fc,stroke:#0288d1,color:#000;

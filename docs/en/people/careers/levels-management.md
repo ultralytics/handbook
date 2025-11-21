@@ -62,7 +62,7 @@ flowchart LR
 | Dimension                            | M04 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Leadership &<br>Scope**            | • Supervises team/group performing singular or closely related tasks<br>• Provides HR management responsibilities (hire, promote, assess, performance manage)<br>• Directs day-to-day operations with weekly planning horizon<br>• Often collaborates with other functional areas, management, and outside vendors<br>• Assigns tasks, monitors work, exercises discretion in planning team workload and schedules                          |
-| **People<br>Management**             | • Documents results and metrics, provides ongoing coaching and feedback<br>• Provides input to HR actions (hiring decisions, job changes, promotions) for area<br>• Acts as guide, oversees established/standardized operations and activities<br>• May manage mix of entry-level and junior individual contributors (IC02-IC04)<br>• Routinely exercises discretion and independent judgment in workload management                        |
+| **People<br>Management**             | • Documents results and metrics, provides ongoing coaching and feedback<br>• Provides input to HR actions (hiring decisions, job changes, promotions) for area<br>• Acts as guide, oversees established/standardized operations and activities<br>• May manage mix of entry-level and junior individual contributors (IC1-IC3)<br>• Routinely exercises discretion and independent judgment in workload management                        |
 | **Expertise &<br>Technical Skills**  | • Demonstrates mastery of work supervised and broad knowledge of related areas<br>• May become actively involved to meet schedules and resolve critical problems<br>• Applies advanced principles and strategies to multiple specialty areas<br>• Often serves as technical and process coach to build team bench strength<br>• Advises team effectively on moderately complex technical matters                                            |
 | **Decision Making &<br>Impact**      | • Makes independent decisions on matters of diverse scope affecting team delivery<br>• Decisions guided by established policies, procedures, and business plans<br>• Regularly interprets policies and makes daily decisions within defined guidelines<br>• Implements plans to manage financials, business planning, and resource management<br>• Regularly makes significant decisions directly impacting success of one or more projects |
 | **Stakeholder<br>Management**        | • Leads teams to engage and monitor needs of well-defined stakeholders<br>• Sets priorities for team including occasionally non-routine situations<br>• Monitors needs of well-defined stakeholders, may set priorities for non-routine cases<br>• Influences through coaching and motivating team to action and results within department<br>• Sets goals and reviews with focus on monthly priorities and tactical execution              |
@@ -71,7 +71,7 @@ flowchart LR
 
 ### Span & Team Structure
 
-- **Typical Direct Reports**: 2-4 individual contributors (primarily IC02-IC04)
+- **Typical Direct Reports**: 2-4 individual contributors (primarily IC1-IC3)
 - **Organizational Depth**: Single layer - manages ICs directly
 - **Team Scope**: Single discipline or closely related tasks within one function
 - **Budget Responsibility**: Typically $100K-$250K annually, primarily team operational costs
@@ -80,7 +80,7 @@ flowchart LR
 ### Typical Background
 
 - **Bachelor's degree + 4 years experience** OR **Master's degree + 3 years** OR **PhD + 2 years**
-- Proven track record of technical excellence as individual contributor (typically IC04+)
+- Proven track record of technical excellence as individual contributor (typically IC4+)
 - Demonstrated ability to lead, mentor, and develop people effectively
 - Strong communication skills and emotional intelligence
 - Experience with project coordination and cross-functional collaboration
@@ -566,7 +566,7 @@ Strong promotion cases include:
 
 ## Related Resources
 
-- **[IC Levels](levels-ic.md)** - Detailed IC02-IC07 expectations for technical track
+- **[IC Levels](levels-ic.md)** - Detailed IC1-IC9 expectations for technical track
 - **[Career Progression](index.md)** - Complete framework, promotion process, track switching
 - **[People & Benefits](../index.md)** - Comprehensive people policies and resources
 - **[Onboarding](../onboarding.md)** - Management expectations for new managers
