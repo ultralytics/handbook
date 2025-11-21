@@ -26,4 +26,4 @@ jobs:
         run: |
           uv pip install --system -r requirements.txt mkdocs mkdocs-material
       - name: Build docs (warnings as errors)
-        run: uv run mkdocs build --config-file mkdocs.yml --strict
+        run: uv run mkdocs build --strict
