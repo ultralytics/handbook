@@ -13,56 +13,78 @@ Ultralytics' career framework provides clear expectations for each level and gui
 
 ## Career Tracks
 
-**Individual Contributor (IC)**: [IC02](levels-ic.md#ic02-associatejunior) → [IC03](levels-ic.md#ic03-professional) → [IC04](levels-ic.md#ic04-senior) → [IC05](levels-ic.md#ic05-staff) → [IC06](levels-ic.md#ic06-senior-staff) → [IC07](levels-ic.md#ic07-principal)  
-**Management**: [M04](levels-management.md#m04-lead-manager) → [M05](levels-management.md#m05-manager) → [M06](levels-management.md#m06-senior-manager) → [M07](levels-management.md#m07-head-of) → [M08](levels-management.md#m08-director) → [M09](levels-management.md#m09-vp)
+**Individual Contributor (IC)**: [IC1](levels-ic.md#ic1-entry) → [IC2](levels-ic.md#ic2-mid-1) → [IC3](levels-ic.md#ic3-mid-2) → [IC4](levels-ic.md#ic4-senior-1) → [IC5](levels-ic.md#ic5-senior-2) → [IC6](levels-ic.md#ic6-staff) → [IC7](levels-ic.md#ic7-senior-staff) → [IC8](levels-ic.md#ic8-principal) → [IC9](levels-ic.md#ic9-distinguished)  
+**Management**: [M04](levels-management.md#m04-lead-manager) → [M05](levels-management.md#m05-manager) → [M06](levels-management.md#m06-senior-manager) → [M07](levels-management.md#m07-head-of) → [M08](levels-management.md#m08-director) → [M09](levels-management.md#m09-vp) → [M10](levels-management.md#m10-senior-vice-president)
 
-**Track switching**: IC04/IC05 ↔ M04 | M04/M05 ↔ IC05/IC06
+**Track switching**: IC4/IC5 ↔ M04 | M04/M05 ↔ IC5/IC6
 
 ```mermaid
-graph TB
+flowchart TB
     IC_TITLE["🔵 Individual Contributor Track"]
     MGMT_TITLE["🟠 Management Track"]
 
     subgraph IC [" "]
         direction LR
-        IC02[IC02<br/>Associate] --> IC03[IC03<br/>Professional]
-        IC03 --> IC04[IC04<br/>Senior]
-        IC04 --> IC05[IC05<br/>Staff]
-        IC05 --> IC06[IC06<br/>Senior Staff]
-        IC06 --> IC07[IC07<br/>Principal]
+        IC1["IC1<br/>Entry"] --> IC2["IC2<br/>Mid 1"]
+        IC2 --> IC3["IC3<br/>Mid 2"]
+        IC3 --> IC4["IC4<br/>Senior 1"]
+        IC4 --> IC5["IC5<br/>Senior 2"]
+        IC5 --> IC6["IC6<br/>Staff"]
+        IC6 --> IC7["IC7<br/>Senior Staff"]
+        IC7 --> IC8["IC8<br/>Principal"]
+        IC8 --> IC9["IC9<br/>Distinguished"]
     end
 
     subgraph MGMT [" "]
         direction LR
-        M04[M04<br/>Lead Manager] --> M05[M05<br/>Manager]
-        M05 --> M06[M06<br/>Senior Manager]
-        M06 --> M07[M07<br/>Head of]
-        M07 --> M08[M08<br/>Director]
-        M08 --> M09[M09<br/>VP]
+        M04["M04<br/>Lead Manager"] --> M05["M05<br/>Manager"]
+        M05 --> M06["M06<br/>Senior Manager"]
+        M06 --> M07["M07<br/>Head of"]
+        M07 --> M08["M08<br/>Director"]
+        M08 --> M09["M09<br/>VP"]
+        M09 --> M10["M10<br/>Senior VP"]
     end
 
     IC_TITLE -.-> IC
     MGMT_TITLE -.-> MGMT
 
-    IC04 <-.->|Switch| M04
-    IC05 <-.->|Switch| M04
-    IC05 <-.->|Switch| M05
-    IC06 <-.->|Switch| M05
+    IC4 <-.->|Switch| M04
+    IC5 <-.->|Switch| M04
+    IC5 <-.->|Switch| M05
+    IC6 <-.->|Switch| M05
 
-    style IC_TITLE fill:none,stroke:none,color:#0288d1
-    style MGMT_TITLE fill:none,stroke:none,color:#ff9800
-    style IC02 fill:#e1f5ff,stroke:#0288d1
-    style IC03 fill:#e1f5ff,stroke:#0288d1
-    style IC04 fill:#b3e5fc,stroke:#0288d1
-    style IC05 fill:#81d4fa,stroke:#0288d1
-    style IC06 fill:#4fc3f7,stroke:#0288d1
-    style IC07 fill:#29b6f6,stroke:#0288d1
-    style M04 fill:#fff3e0,stroke:#ff9800
-    style M05 fill:#ffe0b2,stroke:#ff9800
-    style M06 fill:#ffcc80,stroke:#ff9800
-    style M07 fill:#ffb74d,stroke:#ff9800
-    style M08 fill:#ffa726,stroke:#ff9800
-    style M09 fill:#ff9800,stroke:#ff6f00
+    classDef ic1 fill:#e1f5ff,stroke:#01579b,color:#000;
+    classDef ic2 fill:#b3e5fc,stroke:#0288d1,color:#000;
+    classDef ic3 fill:#81d4fa,stroke:#0288d1,color:#000;
+    classDef ic4 fill:#4fc3f7,stroke:#0288d1,color:#000;
+    classDef ic5 fill:#29b6f6,stroke:#0288d1,color:#000;
+    classDef ic6 fill:#03a9f4,stroke:#0288d1,color:#000;
+    classDef ic7 fill:#039be5,stroke:#01579b,color:#000;
+    classDef ic8 fill:#0288d1,stroke:#01579b,color:#000;
+    classDef ic9 fill:#01579b,stroke:#013b70,color:#fff;
+    classDef m04 fill:#fff3e0,stroke:#ff9800,color:#000;
+    classDef m05 fill:#ffe0b2,stroke:#ff9800,color:#000;
+    classDef m06 fill:#ffcc80,stroke:#ff9800,color:#000;
+    classDef m07 fill:#ffb74d,stroke:#ff9800,color:#000;
+    classDef m08 fill:#ffa726,stroke:#ff9800,color:#000;
+    classDef m09 fill:#ff9800,stroke:#ff6f00,color:#000;
+    classDef m10 fill:#f57c00,stroke:#e65100,color:#000;
+    class IC1 ic1;
+    class IC2 ic2;
+    class IC3 ic3;
+    class IC4 ic4;
+    class IC5 ic5;
+    class IC6 ic6;
+    class IC7 ic7;
+    class IC8 ic8;
+    class IC9 ic9;
+    class M04 m04;
+    class M05 m05;
+    class M06 m06;
+    class M07 m07;
+    class M08 m08;
+    class M09 m09;
+    class M10 m10;
 ```
 
 ### Track Comparison
@@ -73,9 +95,9 @@ graph TB
 | **Key Skills**      | Deep technical knowledge, problem-solving, innovation | People development, strategic planning, organizational leadership |
 | **Influence**       | Technical decisions, architecture, best practices     | Team performance, culture, organizational direction               |
 | **Scope Growth**    | Project → Team → Multi-team → Organization            | Team → Department → Function → Division                           |
-| **Focus Evolution** | 100% Ops → 60% Ops / 40% Strategic                    | 80% Ops → 30% Ops / 70% Strategic                                 |
+| **Focus Evolution** | 100% Ops → 50% Ops / 50% Strategic                    | 80% Ops → 20% Ops / 80% Strategic                                 |
 
-**Full expectations**: [IC Levels (IC02-IC07)](levels-ic.md) | [Management Levels (M04-M09)](levels-management.md)
+**Full expectations**: [IC Levels (IC1-IC9)](levels-ic.md) | [Management Levels (M04-M10)](levels-management.md)
 
 ## Switching Career Tracks
 
@@ -83,8 +105,8 @@ Track switches are normal and supported—discuss with your manager during quart
 
 | Direction           | Typical Path  | Key Requirements                                                                                              |
 | ------------------- | ------------- | ------------------------------------------------------------------------------------------------------------- |
-| **IC → Management** | IC04/IC05→M04 | Technical excellence + leadership examples (mentoring, project leadership) + manager endorsement + 12+ months |
-| **Management → IC** | M04/M05→IC05+ | Maintain technical currency + manager discussion + business need + smooth team transition                     |
+| **IC → Management** | IC4/IC5→M04 | Technical excellence + leadership examples (mentoring, project leadership) + manager endorsement + 12+ months |
+| **Management → IC** | M04/M05→IC5+ | Maintain technical currency + manager discussion + business need + smooth team transition                     |
 
 **When to switch IC→Management**: Passionate about people development, organizational dynamics, influencing through teams  
 **When to switch Management→IC**: Miss hands-on technical work, prefer expertise-based influence, want deeper specialization
@@ -135,18 +157,22 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 
 ## Typical Promotion Timelines
 
-| Level Transition | Typical Timeline | Key Demonstration                          |
-| ---------------- | ---------------- | ------------------------------------------ |
-| IC02 → IC03      | 12-18 months     | Independent feature delivery               |
-| IC03 → IC04      | 18-24 months     | Consistent senior-level impact             |
-| IC04 → IC05      | 24-36 months     | Cross-team technical leadership            |
-| IC05 → IC06      | 36+ months       | Department-level strategic impact          |
-| IC06 → IC07      | 36+ months       | Organization-wide strategic impact         |
-| M04 → M05        | 18-24 months     | Multi-team coordination excellence         |
-| M05 → M06        | 24-36 months     | Functional leadership and strategic impact |
-| M06 → M07        | 36+ months       | Executive-level influence                  |
-| M07 → M08        | 36+ months       | Director-level functional leadership       |
-| M08 → M09        | 48+ months       | Senior executive leadership                |
+| Level Transition | Typical Timeline | Key Demonstration                                |
+| ---------------- | ---------------- | ------------------------------------------------ |
+| IC1 → IC2        | 12-18 months     | Independent feature delivery                     |
+| IC2 → IC3        | 18-24 months     | Consistent mid-level impact                      |
+| IC3 → IC4        | 24-30 months     | Senior-level ownership and reliability           |
+| IC4 → IC5        | 24-36 months     | Cross-team technical leadership                  |
+| IC5 → IC6        | 36+ months       | Department-level strategic impact                |
+| IC6 → IC7        | 36+ months       | Organization-wide strategic impact               |
+| IC7 → IC8        | 48+ months       | Company-level technical strategy and influence   |
+| IC8 → IC9        | Special appoint. | Industry impact and business-critical leadership |
+| M04 → M05        | 18-24 months     | Multi-team coordination excellence               |
+| M05 → M06        | 24-36 months     | Functional leadership and strategic impact       |
+| M06 → M07        | 36+ months       | Executive-level influence                        |
+| M07 → M08        | 36+ months       | Director-level functional leadership             |
+| M08 → M09        | 48+ months       | Senior executive leadership                      |
+| M09 → M10        | 60+ months       | Enterprise leadership and board-level stewardship |
 
 !!! warning "Sustained Performance Required"
 
@@ -173,8 +199,8 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 
 ### Additional Resources
 
-- **[IC Levels (IC02-IC07)](levels-ic.md)** - Detailed Individual Contributor expectations
-- **[Management Levels (M04-M09)](levels-management.md)** - Detailed Management expectations
+- **[IC Levels (IC1-IC9)](levels-ic.md)** - Detailed Individual Contributor expectations
+- **[Management Levels (M04-M10)](levels-management.md)** - Detailed Management expectations
 - **[People & Benefits](../index.md)** - Comprehensive people policies and resources
 - **[Onboarding](../onboarding.md)** - Level expectations for new team members
 
