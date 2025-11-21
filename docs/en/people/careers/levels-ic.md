@@ -185,89 +185,89 @@ graph LR
 
 ## IC4: Senior 1 (Skilled)
 
-**Career Stage**: Career / Fully Functioning  
-**Typical Roles**: Senior Engineer, Senior Product Manager, Senior Designer  
+**Career Stage**: Career / Fully Functioning
+**Typical Roles**: Senior Engineer, Senior Product Manager, Senior Designer, Senior Analyst, Senior Marketing Manager
 **Focus**: 100% Operational - Independent expert with cross-team influence
 
 ### Core Expectations
 
-| Dimension                            | IC4 Requirements                                                                                                                                                                                                                                                                                                                                                                   |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Expertise &<br>Technical Depth**   | • Applies complete and practical knowledge across multiple specializations<br>• Demonstrates full competence and gains exposure to more complex work<br>• Understands interrelationships between different disciplines<br>• Deep application of principles, theories, and concepts in domain<br>• May be gaining exposure to adjacent technical areas                              |
-| **Scope &<br>Responsibility**        | • Handles moderate complexity with diverse issues requiring minimal review<br>• Contributes to significant project components, impacting own and others' work<br>• Plans own work within scheduled guidelines across multiple projects<br>• Often recommends integration approaches across team projects<br>• Work affects team outcomes and cross-team deliverables significantly |
-| **Decision Making &<br>Impact**      | • Makes independent decisions guided by experience and learned knowledge<br>• Makes decisions on own work methods, occasionally in ambiguous situations<br>• Regularly resolves routine and non-routine issues independently<br>• Works under broad guidelines with regular independent judgment application<br>• Influences work team products, processes, and results            |
-| **Leadership &<br>Influence**        | • Identifies and actively manages diverse stakeholders across teams<br>• Presents results and recommendations across discipline effectively<br>• Begins influencing team products, features, processes, and results<br>• Serves as Recommender and occasional Activator on team decisions<br>• May lead small projects or significant initiative components                        |
-| **Complexity &<br>Problem Solving**  | • Problems are somewhat varied, require analysis of multiple factors and data conflicts<br>• Assesses unusual circumstances using sophisticated problem-solving techniques<br>• Identifies root causes and builds solutions independently<br>• Provides creative and effective solutions to complex issues<br>• Breaks down complex problems into manageable components            |
-| **Collaboration &<br>Communication** | • Works effectively across multiple teams and functional areas<br>• Communicates complex technical concepts to non-technical audiences<br>• Mentors IC2 and IC3 team members regularly on technical topics<br>• Participates in hiring and interviewing processes<br>• Represents team effectively in cross-functional forums                                                      |
+| Dimension                      | IC4 Requirements                                                                                                                                                                                                                                                                                                                                                     |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Expertise &<br>Domain Knowledge**   | • Applies complete and practical knowledge across multiple specializations<br>• Demonstrates full competence and gains exposure to more complex work<br>• Understands interrelationships between different disciplines<br>• Deep application of principles, theories, and concepts in domain<br>• May be gaining exposure to adjacent functional areas                              |
+| **Scope &<br>Responsibility**  | • Handles moderate complexity with diverse issues requiring minimal review<br>• Contributes to significant project components, impacting own and others' work<br>• Plans own work within scheduled guidelines across multiple projects<br>• Often recommends integration approaches across team projects<br>• Work affects team outcomes and cross-team deliverables significantly |
+| **Decision Making &<br>Impact** | • Makes independent decisions guided by experience and learned knowledge<br>• Makes decisions on own work methods, occasionally in ambiguous situations<br>• Regularly resolves routine and non-routine issues independently<br>• Works under broad guidelines with regular independent judgment application<br>• Influences work team products, processes, and results              |
+| **Leadership &<br>Influence**  | • Identifies and actively manages diverse stakeholders across teams<br>• Presents results and recommendations across discipline effectively<br>• Begins influencing team products, features, processes, and results<br>• Serves as Recommender and occasional Activator on team decisions<br>• May lead small projects or significant initiative components                          |
+| **Complexity &<br>Problem Solving**   | • Problems are somewhat varied, require analysis of multiple factors and data conflicts<br>• Assesses unusual circumstances using sophisticated problem-solving techniques<br>• Identifies root causes and builds solutions independently<br>• Provides creative and effective solutions to complex issues<br>• Breaks down complex problems into manageable components              |
+| **Collaboration &<br>Communication**  | • Works effectively across multiple teams and functional areas<br>• Communicates complex concepts to non-technical audiences<br>• Mentors IC2 and IC3 team members regularly on functional topics<br>• Participates in hiring and interviewing processes<br>• Represents team effectively in cross-functional forums                                                        |
 
 ### Typical Background
 
 - **Bachelor's degree + 5-7 years experience** OR **Master's degree + 4 years** OR **PhD + 2 years**
 - Proven track record of independent complex project delivery
-- Strong technical expertise and domain knowledge
-- Demonstrated ability to influence team technical direction
+- Strong expertise and domain knowledge
+- Demonstrated ability to influence team direction
 
 ### Success Indicators
 
 !!! success "Key Performance Signals"
 
     - ✅ Owns and delivers complex projects independently with high quality
-    - ✅ Provides effective technical mentorship to junior/mid team members
-    - ✅ Makes consistently high-quality technical decisions
-    - ✅ Proactively identifies and addresses technical debt
-    - ✅ Contributes to team technical direction and standards
+    - ✅ Provides effective mentorship to junior/mid team members
+    - ✅ Makes consistently high-quality decisions
+    - ✅ Proactively identifies and addresses risks and debts
+    - ✅ Contributes to team direction and standards
 
 ### Common Development Areas
 
 - Extend influence from team-level to multi-team integrations
-- Strengthen product and business context in technical decisions
+- Strengthen product and business context in decisions
 - Improve navigation of cross-team dependencies and conflict resolution
-- Balance delivery pace with sustainable architecture and debt payoff
-- Lead design reviews that drive alignment and quality
+- Balance delivery pace with sustainable solutions and debt payoff
+- Lead reviews that drive alignment and quality
 
 ---
 
 ## IC5: Senior 2 (Advanced)
 
-**Career Stage**: Advanced Senior  
-**Typical Roles**: Senior Engineer II, Lead Engineer (Project Level)  
-**Focus**: 90% Operational / 10% Strategic - Technical Lead for the team
+**Career Stage**: Advanced Senior
+**Typical Roles**: Senior Engineer II, Lead Product Manager, Lead Designer, Lead Marketing Manager, Principal Account Executive
+**Focus**: 90% Operational / 10% Strategic - Functional Lead for the team
 
 ### Core Expectations
 
-| Dimension                            | IC5 Requirements                                                                                                                                                                                                                                                                                                                                                             |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Expertise &<br>Technical Depth**   | • Recognized as the "go-to" expert for the team's core domain<br>• Broad knowledge of the entire system architecture and deep knowledge of specific areas<br>• Evaluates and introduces new tools or technologies to the team<br>• Capable of solving the most difficult technical challenges within the team scope<br>• Sets the bar for code quality and design patterns   |
-| **Scope &<br>Responsibility**        | • Responsible for the technical success of major projects or entire features<br>• Identifies and mitigates risks across the project lifecycle<br>• Self-directed; identifies work that needs to be done for the team's success<br>• Coordinates technical dependencies with other teams<br>• Work creates leverage for the entire team (tooling, frameworks, core libraries) |
-| **Decision Making &<br>Impact**      | • trusted to make technical decisions that affect the entire team's velocity<br>• Balances technical purity with business speed effectively<br>• Resolves technical disputes within the team<br>• Defines the "how" for complex initiatives where the "what" is defined by Product<br>• Impact is visible in improved team metrics (performance, reliability, velocity)      |
-| **Leadership &<br>Influence**        | • Often acts as the technical lead for the team<br>• Influences the roadmap by identifying technical opportunities<br>• Drives consensus on design and architecture within the team<br>• Active participant in hiring; defines bar for Senior candidates<br>• Effectively manages up, keeping management informed of technical risks                                         |
-| **Complexity &<br>Problem Solving**  | • Solves systemic problems that affect multiple engineers<br>• Refactors legacy systems to improve maintainability without stopping features<br>• Anticipates scaling issues before they become incidents<br>• Debugs complex interactions between services or components<br>• Creates frameworks or patterns that simplify problem-solving for others                       |
-| **Collaboration &<br>Communication** | • Bridges the gap between engineering and product/design at a high level<br>• Mentors Senior 1 engineers towards Staff level thinking<br>• Runs post-mortems and drives action items to completion<br>• Articulates technical strategy to non-technical stakeholders<br>• Represents the team in architecture reviews with Staff engineers                                   |
+| Dimension                      | IC5 Requirements                                                                                                                                                                                                                                                                                                                                                       |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Expertise &<br>Domain Knowledge**   | • Recognized as the "go-to" expert for the team's core domain<br>• Broad knowledge of the entire system and deep knowledge of specific areas<br>• Evaluates and introduces new tools or technologies to the team<br>• Capable of solving the most difficult challenges within the team scope<br>• Sets the bar for quality and design patterns                               |
+| **Scope &<br>Responsibility**  | • Responsible for the success of major projects or entire features<br>• Identifies and mitigates risks across the project lifecycle<br>• Self-directed; identifies work that needs to be done for the team's success<br>• Coordinates dependencies with other teams<br>• Work creates leverage for the entire team (tooling, frameworks, core libraries)                      |
+| **Decision Making &<br>Impact** | • Trusted to make decisions that affect the entire team's velocity<br>• Balances ideal solutions with business speed effectively<br>• Resolves disputes within the team<br>• Defines the "how" for complex initiatives where the "what" is defined by Product<br>• Impact is visible in improved team metrics (performance, reliability, velocity)                               |
+| **Leadership &<br>Influence**  | • Often acts as the functional lead for the team<br>• Influences the roadmap by identifying opportunities<br>• Drives consensus on design and architecture within the team<br>• Active participant in hiring; defines bar for Senior candidates<br>• Effectively manages up, keeping management informed of risks                                                              |
+| **Complexity &<br>Problem Solving**   | • Solves systemic problems that affect multiple team members<br>• Refactors legacy systems to improve maintainability without stopping new work<br>• Anticipates scaling issues before they become incidents<br>• Troubleshoots complex interactions between services or components<br>• Creates frameworks or patterns that simplify problem-solving for others |
+| **Collaboration &<br>Communication**  | • Bridges the gap between their function and product/design at a high level<br>• Mentors Senior 1 contributors towards Staff level thinking<br>• Runs post-mortems and drives action items to completion<br>• Articulates strategy to non-technical stakeholders<br>• Represents the team in architecture reviews with Staff-level contributors         |
 
 ### Typical Background
 
 - **Bachelor's degree + 7-9 years experience** OR **Master's degree + 6 years** OR **PhD + 4 years**
 - Consistent history of delivering high-impact projects
-- Experience leading technical design for a team
-- Strong reputation for technical excellence and reliability
+- Experience leading design for a team
+- Strong reputation for excellence and reliability
 
 ### Success Indicators
 
 !!! success "Key Performance Signals"
 
-    - ✅ Acts as the technical anchor for the team
-    - ✅ Successfully delegates technical work while maintaining quality
+    - ✅ Acts as the anchor for the team
+    - ✅ Successfully delegates work while maintaining quality
     - ✅ Improves team velocity through tooling or process improvements
     - ✅ Mentors other Seniors to help them grow
     - ✅ Prevents major incidents through foresight and robust design
 
 ### Common Development Areas
 
-- Practice structured delegation while preserving technical bar
-- Strengthen cross-team alignment with product, design, and infra partners
+- Practice structured delegation while preserving quality bar
+- Strengthen cross-team alignment with product, design, and other partners
 - Balance speed vs. quality and make tradeoffs explicit to stakeholders
 - Reduce bus factor through documentation, reviews, and knowledge sharing
-- Build toward Staff influence by shaping team-level technical strategy
+- Build toward Staff influence by shaping team-level strategy
 
 ---
 
