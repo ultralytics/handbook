@@ -91,13 +91,13 @@ flowchart TB
 
 ### Track Comparison
 
-| Aspect              | Individual Contributor (IC)                           | Management                                                        |
-| ------------------- | ----------------------------------------------------- | ----------------------------------------------------------------- |
-| **Impact Through**  | Technical expertise and individual work               | Building and leading teams                                        |
-| **Key Skills**      | Deep technical knowledge, problem-solving, innovation | People development, strategic planning, organizational leadership |
-| **Influence**       | Technical decisions, architecture, best practices     | Team performance, culture, organizational direction               |
-| **Scope Growth**    | Project → Team → Multi-team → Organization            | Team → Department → Function → Division                           |
-| **Focus Evolution** | 100% Ops → 50% Ops / 50% Strategic                    | 80% Ops → 20% Ops / 80% Strategic                                 |
+| Aspect              | Individual Contributor (IC)                                      | Management                                                        |
+| ------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **Impact Through**  | Deep expertise and individual contributions                      | Building and leading teams to achieve collective goals            |
+| **Key Skills**      | Domain knowledge, problem-solving, innovation, execution         | People development, strategic planning, organizational leadership |
+| **Influence**       | Guiding decisions, setting standards, and sharing best practices | Team performance, culture, and organizational direction           |
+| **Scope Growth**    | Project → Team → Multi-team → Organization                       | Team → Department → Function → Division                           |
+| **Focus Evolution** | 100% Operational → 50% Ops / 50% Strategic                       | 80% Ops → 20% Ops / 80% Strategic                                 |
 
 **Full expectations**: [IC Levels (IC1-IC9)](levels-ic.md) | [Management Levels (M4-M10)](levels-management.md)
 
@@ -105,13 +105,13 @@ flowchart TB
 
 Track switches are normal and supported—discuss with your manager during quarterly reviews.
 
-| Direction           | Typical Path | Key Requirements                                                                                              |
-| ------------------- | ------------ | ------------------------------------------------------------------------------------------------------------- |
-| **IC → Management** | IC4/IC5→M4   | Technical excellence + leadership examples (mentoring, project leadership) + manager endorsement + 12+ months |
-| **Management → IC** | M4/M5→IC5+   | Maintain technical currency + manager discussion + business need + smooth team transition                     |
+| Direction           | Typical Path | Key Requirements                                                                                            |
+| ------------------- | ------------ | ----------------------------------------------------------------------------------------------------------- |
+| **IC → Management** | IC4/IC5→M4   | Excellence in role + leadership examples (mentoring, project leadership) + manager endorsement + 12+ months |
+| **Management → IC** | M4/M5→IC5+   | Maintained domain currency + manager discussion + business need + smooth team transition                    |
 
-**When to switch IC→Management**: Passionate about people development, organizational dynamics, influencing through teams  
-**When to switch Management→IC**: Miss hands-on technical work, prefer expertise-based influence, want deeper specialization
+**When to switch IC→Management**: Passionate about people development, organizational dynamics, and influencing through teams.
+**When to switch Management→IC**: Miss hands-on work, prefer expertise-based influence, and want deeper specialization in your field.
 
 ---
 
@@ -139,7 +139,7 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 
 **Components**: Base salary (market-competitive) • Equity (stock options) • Performance bonuses • Comprehensive benefits
 
-**Leveling factors**: Geographic location • Role specialization (ML/AI, Security) • Performance • Prior experience
+**Leveling factors**: Geographic location • Role specialization (i.e. ML/AI, Sales, Marketing) • Performance • Prior experience
 
 !!! info "Reviews"
 
@@ -151,7 +151,7 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 
 **Learning Budget**: Annual allocation for courses, books, conferences, certifications (contact HR for amounts)
 
-**Resources**: Quarterly 1:1s for career planning • Mentorship programs • Internal tech talks and workshops • 10% time for exploration • Conference attendance • Online courses • Certifications • Technical publications
+**Resources**: Quarterly 1:1s for career planning • Mentorship programs • Internal workshops • 10% time for exploration • Conference attendance • Online courses • Certifications • Publications
 
 **Quarterly Growth Plan**: (1) Self-assess against level criteria → (2) Choose 2-3 skills to develop → (3) Find next-level opportunities with manager → (4) Get regular feedback → (5) Document impact for promotion discussions
 
@@ -161,13 +161,13 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 
 | Level Transition | Typical Timeline | Key Demonstration                                 |
 | ---------------- | ---------------- | ------------------------------------------------- |
-| IC1 → IC2        | 12-18 months     | Independent feature delivery                      |
+| IC1 → IC2        | 12-18 months     | Independent task delivery                         |
 | IC2 → IC3        | 18-24 months     | Consistent mid-level impact                       |
 | IC3 → IC4        | 24-30 months     | Senior-level ownership and reliability            |
-| IC4 → IC5        | 24-36 months     | Cross-team technical leadership                   |
+| IC4 → IC5        | 24-36 months     | Cross-team leadership                             |
 | IC5 → IC6        | 36+ months       | Department-level strategic impact                 |
 | IC6 → IC7        | 36+ months       | Organization-wide strategic impact                |
-| IC7 → IC8        | 48+ months       | Company-level technical strategy and influence    |
+| IC7 → IC8        | 48+ months       | Company-level strategy and influence              |
 | IC8 → IC9        | Special appoint. | Industry impact and business-critical leadership  |
 | M4 → M5          | 18-24 months     | Multi-team coordination excellence                |
 | M5 → M6          | 24-36 months     | Functional leadership and strategic impact        |
@@ -208,4 +208,4 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 
 ---
 
-_Your career at Ultralytics is a journey, not a destination. We're committed to supporting your growth whether you aspire to deep technical expertise or organizational leadership. Let's build amazing things together! 🚀_
+_Your career at Ultralytics is a journey, not a destination. We're committed to supporting your growth whether you aspire to deep expertise or organizational leadership. Let's build amazing things together! 🚀_

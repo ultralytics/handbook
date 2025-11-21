@@ -53,21 +53,21 @@ flowchart LR
 
 ## M4: Lead Manager
 
-**Career Stage**: Lead Supervisory / Manager Supervisory  
-**Typical Roles**: Engineering Manager, Product Manager (with reports), Design Manager  
+**Career Stage**: Lead Supervisory / Manager Supervisory
+**Typical Roles**: Engineering Manager, Product Manager (with reports), Design Manager, Marketing Manager, Sales Manager
 **Focus**: 80% Operational / 20% Strategic - Day-to-day team management with hands-on involvement
 
 ### Core Expectations
 
 | Dimension                            | M4 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Leadership &<br>Scope**            | • Supervises team/group performing singular or closely related tasks<br>• Provides HR management responsibilities (hire, promote, assess, performance manage)<br>• Directs day-to-day operations with weekly planning horizon<br>• Often collaborates with other functional areas, management, and outside vendors<br>• Assigns tasks, monitors work, exercises discretion in planning team workload and schedules                          |
+| **Leadership &<br>Scope**            | • Supervises team/group performing singular or closely related tasks<br>• Provides HR management responsibilities (hire, promote, assess, performance manage)<br>• Directs day-to-day operations with a weekly planning horizon<br>• Often collaborates with other functional areas, management, and outside vendors<br>• Assigns tasks, monitors work, exercises discretion in planning team workload and schedules                        |
 | **People<br>Management**             | • Documents results and metrics, provides ongoing coaching and feedback<br>• Provides input to HR actions (hiring decisions, job changes, promotions) for area<br>• Acts as guide, oversees established/standardized operations and activities<br>• May manage mix of entry-level and junior individual contributors (IC1-IC3)<br>• Routinely exercises discretion and independent judgment in workload management                          |
-| **Expertise &<br>Technical Skills**  | • Demonstrates mastery of work supervised and broad knowledge of related areas<br>• May become actively involved to meet schedules and resolve critical problems<br>• Applies advanced principles and strategies to multiple specialty areas<br>• Often serves as technical and process coach to build team bench strength<br>• Advises team effectively on moderately complex technical matters                                            |
+| **Expertise &<br>Functional Skills** | • Demonstrates mastery of work supervised and broad knowledge of related areas<br>• May become actively involved to meet schedules and resolve critical problems<br>• Applies advanced principles and strategies to multiple specialty areas<br>• Often serves as a functional and process coach to build team bench strength<br>• Advises team effectively on moderately complex matters                                                   |
 | **Decision Making &<br>Impact**      | • Makes independent decisions on matters of diverse scope affecting team delivery<br>• Decisions guided by established policies, procedures, and business plans<br>• Regularly interprets policies and makes daily decisions within defined guidelines<br>• Implements plans to manage financials, business planning, and resource management<br>• Regularly makes significant decisions directly impacting success of one or more projects |
 | **Stakeholder<br>Management**        | • Leads teams to engage and monitor needs of well-defined stakeholders<br>• Sets priorities for team including occasionally non-routine situations<br>• Monitors needs of well-defined stakeholders, may set priorities for non-routine cases<br>• Influences through coaching and motivating team to action and results within department<br>• Sets goals and reviews with focus on monthly priorities and tactical execution              |
-| **Complexity &<br>Problem Solving**  | • Leads teams to find solutions following established technical methodologies<br>• Interprets and resolves moderately complex issues requiring data analysis<br>• Follows established practices and procedures with basic analytical approaches<br>• Begins providing fresh and practical solutions to persistent operational challenges<br>• Regularly faces unusual situations requiring policy interpretation and judgment               |
-| **Collaboration &<br>Communication** | • Gains cooperation from others, frequently exchanges technical information<br>• Conveys straightforward information to team and stakeholders clearly<br>• Provides ongoing performance feedback and work guidance to direct reports<br>• Communicates team progress, blockers, and needs to management effectively<br>• Represents team in departmental meetings and cross-functional discussions                                          |
+| **Complexity &<br>Problem Solving**  | • Leads teams to find solutions following established methodologies<br>• Interprets and resolves moderately complex issues requiring data analysis<br>• Follows established practices and procedures with basic analytical approaches<br>• Begins providing fresh and practical solutions to persistent operational challenges<br>• Regularly faces unusual situations requiring policy interpretation and judgment                         |
+| **Collaboration &<br>Communication** | • Gains cooperation from others, frequently exchanges information<br>• Conveys straightforward information to team and stakeholders clearly<br>• Provides ongoing performance feedback and work guidance to direct reports<br>• Communicates team progress, blockers, and needs to management effectively<br>• Represents team in departmental meetings and cross-functional discussions                                                    |
 
 ### Span & Team Structure
 
@@ -80,7 +80,7 @@ flowchart LR
 ### Typical Background
 
 - **Bachelor's degree + 4 years experience** OR **Master's degree + 3 years** OR **PhD + 2 years**
-- Proven track record of technical excellence as individual contributor (typically IC4+)
+- Proven track record of excellence as individual contributor (typically IC4+)
 - Demonstrated ability to lead, mentor, and develop people effectively
 - Strong communication skills and emotional intelligence
 - Experience with project coordination and cross-functional collaboration
@@ -94,7 +94,7 @@ flowchart LR
     - ✅ Proactively identifies and resolves team blockers and dependencies
     - ✅ Maintains high team morale, engagement, and low attrition rates
     - ✅ Makes sound hiring decisions that strengthen team capability
-    - ✅ Effectively balances hands-on technical work with people management
+    - ✅ Effectively balances hands-on work with people management
     - ✅ Communicates team progress and needs clearly to leadership
 
 ### Common Development Areas
@@ -103,12 +103,12 @@ flowchart LR
 - Learning to achieve results through others rather than doing work directly
 - Developing coaching and feedback skills for different personality types
 - Building confidence in making difficult people decisions and conversations
-- Improving time management across competing people and technical priorities
+- Improving time management across competing and technical priorities
 - Growing comfort with ambiguity and incomplete information in decisions
 
 !!! warning "Common First-Time Manager Challenges"
 
-    - **Over-indexing on technical work**: Difficulty delegating and trusting team with technical decisions
+    - **Over-indexing on hands-on work**: Difficulty delegating and trusting team with decisions
     - **Avoiding difficult conversations**: Hesitating to address performance issues directly
     - **Micromanagement**: Struggling to let go of detailed control over work execution
     - **Insufficient 1:1 time**: Underinvesting in people development and relationship building
@@ -118,8 +118,8 @@ flowchart LR
 
 ## M5: Manager
 
-**Career Stage**: Management  
-**Typical Roles**: Senior Engineering Manager, Senior Product Manager (large team), Head of Design  
+**Career Stage**: Management
+**Typical Roles**: Senior Engineering Manager, Senior Product Manager (large team), Head of Design, Senior Marketing Manager, Senior Sales Manager
 **Focus**: 70% Operational / 30% Strategic - Multi-team coordination with strategic planning
 
 ### Core Expectations
@@ -128,11 +128,11 @@ flowchart LR
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Leadership &<br>Scope**            | • Manages activities of multiple sections, complex work area, or sub-department<br>• Work managed is varied and may cross disciplines or include non-related work groups<br>• Provides input to HR actions and department structure changes<br>• Guides staff by established function/department practices and well-defined procedures<br>• Monitors 6-12 month projects and programs, contributes to longer-term planning                                                 |
 | **People<br>Management**             | • Accountable for HR actions (hiring, promotions, comp changes) for area of responsibility<br>• Provides ongoing performance feedback and substantive work guidance to managers/leads<br>• Routinely exercises independent judgment managing budgets, timelines, workload, performance<br>• May manage other managers, senior ICs, or mix of leads and individual contributors<br>• Develops management capability in team leads or first-level managers reporting to them |
-| **Expertise &<br>Technical Skills**  | • Demonstrates expertise in work managed with considerable business acumen<br>• Maintains broad knowledge of related areas and cross-functional understanding<br>• Widely applies advanced principles, strategies, theories, and concepts across areas<br>• May perform escalated and more complex duties directly when critical<br>• Leads teams to develop new methods, products, processes, and solutions                                                               |
+| **Expertise &<br>Functional Skills** | • Demonstrates expertise in work managed with considerable business acumen<br>• Maintains broad knowledge of related areas and cross-functional understanding<br>• Widely applies advanced principles, strategies, theories, and concepts across areas<br>• May perform escalated and more complex duties directly when critical<br>• Leads teams to develop new methods, products, processes, and solutions                                                               |
 | **Decision Making &<br>Impact**      | • Leads teams in exploring options and making recommendations on large projects/programs<br>• Makes independent decisions around diverse scope impacting delivery, services, resourcing<br>• Influences decisions in related areas and across department/function boundaries<br>• Implements plans on complex matters for financials, business planning, resource management<br>• Accountable for financials, schedules, resource usage with broad organizational impact   |
 | **Stakeholder<br>Management**        | • Manages teams to assess stakeholder needs and contributes to management tactics<br>• Monitors and assesses results, resetting stakeholder approaches as needed<br>• Influences through motivating within and across organization to drive action and results<br>• Provides input to building highly adaptable teams that influence outcomes<br>• Relates effectively to variety of stakeholders, begins influencing top management                                       |
 | **Complexity &<br>Problem Solving**  | • Begins managing teams solving problems with limited precedent in the organization<br>• Exposes and resolves moderately to complex issues that often cross disciplines<br>• Presents results and recommendations across discipline and to senior leadership<br>• Develops persuasive and easy-to-understand cases to educate and persuade stakeholders<br>• Works on issues requiring conceptual thinking balanced with practical solutions                               |
-| **Collaboration &<br>Communication** | • Gains cooperation and support from others through influence and persuasion<br>• Develops persuasive cases and recommendations for senior leadership<br>• Effectively represents function in cross-organizational forums and meetings<br>• Builds collaborative relationships across multiple departments and functions<br>• Communicates complex information clearly to diverse technical and non-technical audiences                                                    |
+| **Collaboration &<br>Communication** | • Gains cooperation and support from others through influence and persuasion<br>• Develops persuasive cases and recommendations for senior leadership<br>• Effectively represents function in cross-organizational forums and meetings<br>• Builds collaborative relationships across multiple departments and functions<br>• Communicates complex information clearly to diverse and non-technical audiences                                                              |
 
 ### Span & Team Structure
 
@@ -147,7 +147,7 @@ flowchart LR
 - **Bachelor's degree + 6 years experience** OR **Master's degree + 4 years** OR **PhD + 4 years**
 - Proven success as first-level manager or managing large individual contributor teams
 - Track record of cross-functional leadership and stakeholder management
-- Demonstrated ability to develop other managers or senior technical leaders
+- Demonstrated ability to develop other managers or senior leaders
 - Strong strategic thinking and business acumen beyond immediate function
 
 ### Success Indicators
@@ -179,8 +179,8 @@ flowchart LR
 
 ## M6: Senior Manager
 
-**Career Stage**: Senior Manager  
-**Typical Roles**: Director of Engineering, Director of Product, Head of Design  
+**Career Stage**: Senior Manager
+**Typical Roles**: Director of Engineering, Director of Product, Head of Design, Director of Marketing, Director of Sales
 **Focus**: 60% Operational / 40% Strategic - Functional leadership with strategic planning
 
 ### Core Expectations
@@ -189,7 +189,7 @@ flowchart LR
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Leadership &<br>Scope**            | • Manages activities of two or more sections, disciplines, or major processes/programs<br>• Directs activities of sub-function or small functional area through lower-level management<br>• Often includes variety of work groups across disciplines/specializations with regional/global reach<br>• Provides input to department strategy and large visible projects (1-3 year planning horizon)<br>• Accountable for HR actions and substantive changes to department structure and organization |
 | **People<br>Management**             | • Accountable for HR actions and changes to department structure across function<br>• Manages through other managers, rarely has individual contributors as direct reports<br>• Provides input to department structure decisions and organizational design initiatives<br>• Develops management bench strength through coaching, mentoring, and succession planning<br>• Creates culture and sets performance standards for entire function under leadership                                       |
-| **Expertise &<br>Technical Skills**  | • Demonstrates expertise in several specialized areas/disciplines within domain<br>• Recognized authority for executives, plays key role in improving organizational intellectual capital<br>• Performs portions of more complex, novel work directly with team assistance when critical<br>• Builds organizational knowledge through combination of strategic hires, skill building, and methodology<br>• Leads teams to develop new methods and solve company-wide matters and challenges        |
+| **Expertise &<br>Functional Skills** | • Demonstrates expertise in several specialized areas/disciplines within domain<br>• Recognized authority for executives, plays key role in improving organizational intellectual capital<br>• Performs portions of more complex, novel work directly with team assistance when critical<br>• Builds organizational knowledge through combination of strategic hires, skill building, and methodology<br>• Leads teams to develop new methods and solve company-wide matters and challenges        |
 | **Decision Making &<br>Impact**      | • Makes independent decisions around design/implementation of strategy for new/updated programs<br>• Works with senior management to establish strategic plans and objectives for function<br>• Makes final decisions on approach to achievement and implementation within function<br>• Accountable for financials, schedules, resource usage with far-reaching business segment impact<br>• Establishes plans for major projects and programs, fully accountable for budget execution            |
 | **Stakeholder<br>Management**        | • Manages teams to anticipate advanced/systemically challenging stakeholder needs proactively<br>• Contributes to development and regular updating of strategy and associated stakeholder plans<br>• Expands, strengthens, develops stakeholder relationships coaching team to grow networks<br>• Influences actions and results through collaboration down management chain effectively<br>• Often advocates, educates, gains support for major projects and ideas with top management            |
 | **Complexity &<br>Problem Solving**  | • Leads teams in solving complex, cross-discipline issues critical to company success<br>• Translates business and technical strategy into actionable functional plans and execution<br>• Guides teams in execution to solve persistent, systemic organizational challenges<br>• Works on issues where analysis requires conceptual thinking balanced with practical solutions<br>• Develops highly persuasive and easy-to-understand cases for executive decision making                          |
@@ -240,8 +240,8 @@ flowchart LR
 
 ## M7: Head of
 
-**Career Stage**: Head of Middle Management  
-**Typical Roles**: VP of Engineering, VP of Product, VP of Design  
+**Career Stage**: Head of Middle Management
+**Typical Roles**: VP of Engineering, VP of Product, VP of Design, VP of Marketing, VP of Sales
 **Focus**: 50% Operational / 50% Strategic - Executive partnership on company strategy
 
 ### Core Expectations
@@ -250,7 +250,7 @@ flowchart LR
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Leadership &<br>Scope**            | • Leads activities of one or more sub-functions/divisions with regional and/or global reach<br>• Directs through subordinate directors and senior managers across entire organization<br>• Oversees multi-year strategies and plans in close partnership with executive leadership team<br>• Cascades company strategy to detailed functional plans and execution across organization<br>• Often has direct P&L responsibility or significant budget authority for major business segment            |
 | **People<br>Management**             | • Accountable for HR actions and major organizational structure changes company-wide<br>• Manages exclusively through senior managers and directors, no individual contributors<br>• Sets organizational culture, leadership standards, and talent strategy for entire function<br>• Drives succession planning and executive development at senior leadership levels<br>• Accountable for function-wide talent strategy, capability building, and organizational design                             |
-| **Expertise &<br>Technical Skills**  | • Demonstrates expertise in several specialized areas/disciplines with broad business knowledge<br>• Recognized authority that plays critical key role in intellectual capital for organization<br>• Performs complex novel work when strategically critical, builds organizational knowledge<br>• Well-versed in internal and external methodologies, best practices, and emerging trends<br>• Oversees teams to develop innovative new methods and solve most critical company-wide matters        |
+| **Expertise &<br>Functional Skills** | • Demonstrates expertise in several specialized areas/disciplines with broad business knowledge<br>• Recognized authority that plays critical key role in intellectual capital for organization<br>• Performs complex novel work when strategically critical, builds organizational knowledge<br>• Well-versed in internal and external methodologies, best practices, and emerging trends<br>• Oversees teams to develop innovative new methods and solve most critical company-wide matters        |
 | **Decision Making &<br>Impact**      | • Develops and provides strategy, vision, and direction to multiple functions organization-wide<br>• Implements company-wide policies and practices with broad organizational impact<br>• Leads teams to provide critical information and input to executive management and board<br>• Accountable for function financial results that directly impact overall company performance<br>• Outcomes and decisions have far-reaching impact to business segments, products, and strategic goals          |
 | **Stakeholder<br>Management**        | • Persuades others in bringing closure to sensitive, multi-faceted organizational challenges<br>• Manages relationships with complex, cross-domain/functional stakeholder groups company-wide<br>• Removes and remedies significant impediments to meeting business and technology strategic goals<br>• Influences through building strong cross-functional networks and organizational followership<br>• Serves as top influencer and advocate for new, transformative ideas and strategic projects |
 | **Complexity &<br>Problem Solving**  | • Builds and guides teams in solving company's most highly complex strategic challenges<br>• Builds and actively nurtures environment of innovation and creative problem solving<br>• Works with senior leadership to identify and assemble talent to solve critical problems<br>• Through assessment of intangible variables, identifies and addresses fundamental strategic issues<br>• Anticipates factors that could influence strategies and company's competitive position in market           |
@@ -301,8 +301,8 @@ flowchart LR
 
 ## M8: Director
 
-**Career Stage**: Director Management  
-**Typical Roles**: Director of Engineering, Director of Product, Director of Operations  
+**Career Stage**: Director Management
+**Typical Roles**: Director of Engineering, Director of Product, Director of Operations, Director of Marketing, Director of Sales
 **Focus**: 40% Operational / 60% Strategic - Functional director with executive influence
 
 ### Core Expectations
@@ -311,7 +311,7 @@ flowchart LR
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Leadership &<br>Scope**            | • Leads large functional area or multiple sub-functions with company-wide impact<br>• Directs through senior managers and directors, builds strong management bench<br>• Drives multi-year strategic initiatives in partnership with executive team<br>• Influences company strategy through functional expertise and leadership<br>• P&L accountability for major functional area affecting company performance                                             |
 | **People<br>Management**             | • Accountable for functional talent strategy and leadership development<br>• Manages through senior managers and directors with multiple organizational layers<br>• Sets functional culture and performance standards across organization<br>• Drives succession planning and leadership pipeline development<br>• Builds world-class functional capability and organizational bench strength                                                                |
-| **Expertise &<br>Technical Skills**  | • Demonstrates deep expertise across functional domain with strong business acumen<br>• Recognized functional authority playing key role in organizational capability<br>• Drives innovation and best practices that improve organizational effectiveness<br>• Well-versed in industry methodologies and emerging functional trends<br>• Builds functional knowledge through strategic hiring, development, and process improvement                          |
+| **Expertise &<br>Functional Skills** | • Demonstrates deep expertise across functional domain with strong business acumen<br>• Recognized functional authority playing key role in organizational capability<br>• Drives innovation and best practices that improve organizational effectiveness<br>• Well-versed in industry methodologies and emerging functional trends<br>• Builds functional knowledge through strategic hiring, development, and process improvement                          |
 | **Decision Making &<br>Impact**      | • Makes strategic decisions on functional direction with company-wide implications<br>• Works with executive team to align functional strategy with company objectives<br>• Accountable for functional financial results directly impacting company performance<br>• Influences executive decisions through functional expertise and data-driven recommendations<br>• Outcomes significantly affect company capability, efficiency, and competitive position |
 | **Stakeholder<br>Management**        | • Manages complex stakeholder relationships across functional and executive levels<br>• Contributes to executive strategy development and company planning processes<br>• Builds strong relationships with peer directors and executive leadership<br>• Influences through data, functional expertise, and collaborative problem solving<br>• Represents function effectively in company-wide strategic discussions                                          |
 | **Complexity &<br>Problem Solving**  | • Solves highly complex functional challenges with company-wide implications<br>• Translates business strategy into functional plans and measurable outcomes<br>• Guides teams in solving systemic organizational challenges effectively<br>• Works on issues requiring sophisticated analysis and strategic thinking<br>• Develops innovative solutions to persistent functional and organizational challenges                                              |
@@ -362,8 +362,8 @@ flowchart LR
 
 ## M9: VP
 
-**Career Stage**: Senior Executive Management  
-**Typical Roles**: VP of Engineering, VP of Product, VP/GM for major business unit  
+**Career Stage**: Senior Executive Management
+**Typical Roles**: VP of Engineering, VP of Product, VP of Marketing, VP of Sales, VP/GM for major business unit
 **Focus**: 30% Operational / 70% Strategic - Senior executive leadership with board-level partnership and division/accountable P&L
 
 ### Core Expectations
@@ -372,7 +372,7 @@ flowchart LR
 | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Leadership &<br>Scope**            | • Leads multiple functions/divisions with global reach and major business segment accountability<br>• Directs through multiple directors and senior managers with extensive organizational hierarchy<br>• Translates enterprise vision into segment strategy and multi-year transformation<br>• Partners with executive team on competitive positioning and growth bets<br>• Full P&L accountability for major business segments or global functions                    |
 | **People<br>Management**             | • Accountable for talent strategy and executive leader development within segment<br>• Manages through directors and senior managers across multiple organizational layers<br>• Sets culture standards and operating mechanisms for divisions under scope<br>• Leads succession planning for vice presidents and critical leadership roles<br>• Builds leadership bench to support expansion, acquisitions, and scaling                                                 |
-| **Expertise &<br>Technical Skills**  | • Deep expertise across domains with strong commercial and strategic acumen<br>• Shapes organizational intellectual capital and competitive advantage for segment<br>• Drives innovation and strategic initiatives that strengthen market position<br>• Maintains industry networks and best practices to inform strategy<br>• Builds capability via strategic partnerships, hiring, and development                                                                    |
+| **Expertise &<br>Functional Skills** | • Deep expertise across domains with strong commercial and strategic acumen<br>• Shapes organizational intellectual capital and competitive advantage for segment<br>• Drives innovation and strategic initiatives that strengthen market position<br>• Maintains industry networks and best practices to inform strategy<br>• Builds capability via strategic partnerships, hiring, and development                                                                    |
 | **Decision Making &<br>Impact**      | • Shapes strategy and long-term vision for business segments with executive team<br>• Makes strategic decisions that materially impact revenue, margin, and market position<br>• Accountable for segment performance directly affecting shareholder value<br>• Influences board-level decisions through data-driven recommendations<br>• Leads cross-segment prioritization and resource allocation                                                                     |
 | **Stakeholder<br>Management**        | • Manages critical external relationships with strategic customers, partners, and investor counterparts<br>• Represents segment in board updates and market conversations with CEO/CFO partnership<br>• Builds executive networks across industry and global business community<br>• Aligns organization on most critical strategic initiatives<br>• Serves as primary executive voice for segment strategy externally                                                  |
 | **Complexity &<br>Problem Solving**  | • Solves highly complex strategic challenges within scope requiring transformative thinking<br>• Navigates significant uncertainty in markets and competitive dynamics<br>• Builds capacity to address emerging opportunities and risks<br>• Makes strategic bets on technology, markets, and organizational direction<br>• Anticipates industry trends and positions segment for long-term advantage                                                                   |
@@ -408,7 +408,7 @@ flowchart LR
 
 ### Common Development Areas
 
-- Expanding influence on global technology trends and industry-wide innovation
+- Expanding influence on global trends and industry-wide innovation
 - Building deeper relationships with board members and major investors
 - Developing C-suite successors and future executive leadership
 - Strengthening ability to drive company-wide transformation at scale
@@ -423,8 +423,8 @@ flowchart LR
 
 ## M10: Senior Vice President
 
-**Career Stage**: Enterprise Executive Leadership  
-**Typical Roles**: Senior/Executive Vice President, President of major business unit, Chief Officers (CTO, CPO, CDO)  
+**Career Stage**: Enterprise Executive Leadership
+**Typical Roles**: Senior/Executive Vice President, President of major business unit, Chief Officers (CTO, CPO, CMO, CRO)
 **Focus**: 20% Operational / 80% Strategic - Enterprise stewardship with board/investor partnership and market shaping
 
 ### Core Expectations
@@ -433,7 +433,7 @@ flowchart LR
 | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Leadership &<br>Scope**            | • Leads enterprise portfolio of global functions or multiple business units with company-wide accountability<br>• Sets enterprise strategy with CEO and board, directing through VPs and EVPs<br>• Guides multi-year transformations, M&A integration, and major capital investments<br>• Owns cross-portfolio results, risk posture, and long-term value creation<br>• Establishes governance mechanisms and executive operating rhythm across the company |
 | **People<br>Management**             | • Accountable for executive team performance, culture, and succession across the company<br>• Manages through vice presidents and executive staff across deep organizational layers<br>• Sets cultural guardrails and leadership standards for the enterprise<br>• Ensures CEO and board succession pipeline; mentors C-suite successors<br>• Builds executive cohesion and resolves conflict across top leadership                                         |
-| **Expertise &<br>Technical Skills**  | • Recognized industry thought leader with multi-domain expertise and macro-level business insight<br>• Sets enterprise bets on technology, product, market, and operating model evolution<br>• Evaluates build/buy/partner/M&A approaches to accelerate strategy and capabilities<br>• Anticipates disruptive trends and positions company to capitalize on them<br>• Shapes intellectual capital and brand to reinforce market leadership                  |
+| **Expertise &<br>Functional Skills** | • Recognized industry thought leader with multi-domain expertise and macro-level business insight<br>• Sets enterprise bets on technology, product, market, and operating model evolution<br>• Evaluates build/buy/partner/M&A approaches to accelerate strategy and capabilities<br>• Anticipates disruptive trends and positions company to capitalize on them<br>• Shapes intellectual capital and brand to reinforce market leadership                  |
 | **Decision Making &<br>Impact**      | • Defines enterprise priorities, capital allocation, and portfolio strategy with board oversight<br>• Makes decisions with company- and market-level impact on valuation and positioning<br>• Leads risk management, governance, and crisis response for the enterprise<br>• Balances growth, profitability, and resilience across business units<br>• Drives investments that expand TAM, enter new markets, or reshape the business model                 |
 | **Stakeholder<br>Management**        | • Primary executive interface to board, investors, regulators, and most strategic customers<br>• Crafts and tells the enterprise story to markets, media, and industry forums<br>• Builds enduring relationships with global partners, alliances, and policy groups<br>• Oversees investor relations narratives with CFO/CEO; manages activist and regulatory risk<br>• Leads complex negotiations and strategic partnerships at enterprise scale           |
 | **Complexity &<br>Problem Solving**  | • Resolves ambiguous, systemic issues spanning markets, geographies, and regulatory environments<br>• Uses scenario planning and portfolio management to navigate uncertainty<br>• Designs organizational structures enabling rapid adaptation and resilience<br>• Guides company through crises, market shifts, and disruptive competition<br>• Balances near-term execution with long-term strategic optionality                                          |

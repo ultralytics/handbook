@@ -42,16 +42,16 @@ At Ultralytics, we believe in supporting our team members through comprehensive 
 
 - **[Referral Bonus](../finance/referral-bonus.md)** - $5K for successful referrals
 
-## New Team Members 🚀
+## For All Team Members 🚀
 
-!!! success "Starting Soon?"
+!!! success "Getting Started"
 
     Begin here:
 
     1. **Read the [Onboarding Guide](onboarding.md)** - Your complete first 90 days roadmap
     2. **Review [Mission & Values](../mission-vision-values/index.md)** - Understand what drives us
     3. **Check [Hardware Policy](../tools/hardware.md)** - Know what equipment to expect
-    4. **Explore [Development Workflow](../workflows/development.md)** - For technical roles
+    4. **Explore Our [Workflows](../workflows/product-development.md)** - See how we build and innovate
 
 ## Time Off & Leave 📅
 
@@ -82,9 +82,8 @@ Ultralytics provides clear career paths through two tracks, allowing you to adva
 
 **Individual Contributor (IC) Track** - IC1 through IC9
 
-- Technical excellence and deep expertise
-- Individual impact without managing people
-- Influence through knowledge and technical leadership
+- Deep expertise and individual impact
+- Influence through knowledge and functional leadership
 - See [complete IC level descriptions](careers/levels-ic.md)
 
 **Management Track** - M4 through M10
@@ -105,10 +104,10 @@ Both tracks are valued equally and offer equivalent compensation and growth pote
 ### Learning & Growth
 
 - **Annual Learning Budget**: Books, courses, certifications, and workshops
-- **Conference Attendance**: Relevant AI/ML conferences with expenses covered
-- **Internal Training**: Regular tech talks, workshops, and knowledge sharing
+- **Conference Attendance**: Relevant industry conferences with expenses covered
+- **Internal Training**: Regular workshops, and knowledge sharing
 - **Mentorship Program**: Pairing with senior team members
-- **Side Projects**: 10% time for exploring new technologies (with manager approval)
+- **Side Projects**: 10% time for exploring new ideas (with manager approval)
 
 Contact HR for current learning budget amounts and policies.
 
@@ -174,7 +173,7 @@ All employees complete annual mandatory training via [Vanta](https://app.vanta.c
 - **CCPA** (California Consumer Privacy Act)
 - **GDPR** (General Data Protection Regulation)
 - **General Security Awareness**
-- **Secure Code Training** (YOLO and Platform teams only)
+- **Secure Development Training** (for technical roles)
 
 ### Code of Conduct
 
