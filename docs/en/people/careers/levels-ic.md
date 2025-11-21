@@ -273,68 +273,68 @@ graph LR
 
 ## IC6: Staff (Expert)
 
-**Career Stage**: Senior/Seasoned  
-**Typical Roles**: Staff Engineer, Staff Product Manager, Staff Designer  
-**Focus**: 80% Operational / 20% Strategic - Cross-team technical leadership
+**Career Stage**: Senior/Seasoned
+**Typical Roles**: Staff Engineer, Staff Product Manager, Staff Designer, Staff Analyst, Staff Marketing Manager
+**Focus**: 80% Operational / 20% Strategic - Cross-team leadership
 
 ### Core Expectations
 
-| Dimension                            | IC6 Requirements                                                                                                                                                                                                                                                                                                                                                                                                |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Expertise &<br>Technical Depth**   | • Applies advanced and wide-ranging knowledge across entire domain<br>• Combines emerging business acumen with deep technical expertise<br>• Understands interrelationships between disciplines, serves as technical advisor<br>• Deep application of principles across most areas of specialization<br>• Beginning to build reputation as organizational technical expert                                      |
-| **Scope &<br>Responsibility**        | • Handles complex work and issues with significant interdependencies<br>• Contributes to and often drives achievement of critical functional goals<br>• Plans, schedules, and integrates tasks with limited direction across projects<br>• Work impacts department outcomes and cross-functional initiatives<br>• Influences quarterly and semi-annual strategic planning                                       |
-| **Decision Making &<br>Impact**      | • Makes decisions on technical approaches, processes, occasionally ambiguous situations<br>• Independently resolves most complex issues, teams to solve ambiguous challenges<br>• Collaborates as Recommender for systemic issues, occasionally Activator<br>• Works from broad goals, determines and develops approach to solutions<br>• Provides technical direction affecting multiple teams and initiatives |
-| **Leadership &<br>Influence**        | • Plans, schedules, and integrates own work with others across teams<br>• Begins directing application of existing principles to new contexts<br>• Contributes to stakeholder management plans, develops relationships across organization<br>• Influences work team and multiple teams, serves as Recommender and Activator<br>• Often regarded as in-house expert on specific technical areas or domains      |
-| **Complexity &<br>Problem Solving**  | • Problems are varied, diverse, often "hidden" or systemic in nature<br>• Provides solutions to complex issues with sophisticated creative insights<br>• Works on high-impact projects and technically challenging problems<br>• Regularly guides others in solving highly complex technical issues<br>• Significant contributor and recommender for far-reaching challenges                                    |
-| **Collaboration &<br>Communication** | • Influences stakeholders across multiple teams and functional areas<br>• Communicates effectively with senior leadership on technical matters<br>• Mentors IC4 and IC5 engineers on technical growth and career development<br>• Leads technical design reviews and architecture discussions<br>• May represent company at external technical forums and conferences                                           |
+| Dimension                      | IC6 Requirements                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Expertise &<br>Domain Knowledge**   | • Applies advanced and wide-ranging knowledge across entire domain<br>• Combines emerging business acumen with deep functional expertise<br>• Understands interrelationships between disciplines, serves as a functional advisor<br>• Deep application of principles across most areas of specialization<br>• Beginning to build reputation as an organizational expert        |
+| **Scope &<br>Responsibility**  | • Handles complex work and issues with significant interdependencies<br>• Contributes to and often drives achievement of critical functional goals<br>• Plans, schedules, and integrates tasks with limited direction across projects<br>• Work impacts department outcomes and cross-functional initiatives<br>• Influences quarterly and semi-annual strategic planning           |
+| **Decision Making &<br>Impact** | • Makes decisions on functional approaches, processes, occasionally ambiguous situations<br>• Independently resolves most complex issues, teams to solve ambiguous challenges<br>• Collaborates as Recommender for systemic issues, occasionally Activator<br>• Works from broad goals, determines and develops approach to solutions<br>• Provides direction affecting multiple teams and initiatives |
+| **Leadership &<br>Influence**  | • Plans, schedules, and integrates own work with others across teams<br>• Begins directing application of existing principles to new contexts<br>• Contributes to stakeholder management plans, develops relationships across organization<br>• Influences work team and multiple teams, serves as Recommender and Activator<br>• Often regarded as in-house expert on specific areas or domains |
+| **Complexity &<br>Problem Solving**   | • Problems are varied, diverse, often "hidden" or systemic in nature<br>• Provides solutions to complex issues with sophisticated creative insights<br>• Works on high-impact projects and challenging problems<br>• Regularly guides others in solving highly complex issues<br>• Significant contributor and recommender for far-reaching challenges           |
+| **Collaboration &<br>Communication**  | • Influences stakeholders across multiple teams and functional areas<br>• Communicates effectively with senior leadership on functional matters<br>• Mentors IC4 and IC5 contributors on growth and career development<br>• Leads design reviews and architecture discussions<br>• May represent company at external forums and conferences             |
 
 ### Typical Background
 
 - **Bachelor's degree + 9-11 years experience** OR **Master's degree + 7 years** OR **PhD + 5 years**
-- Recognized technical expert in specific domain or technology area
+- Recognized expert in specific domain or technology area
 - Track record of leading complex projects affecting multiple teams
-- Demonstrated ability to influence technical direction beyond own team
+- Demonstrated ability to influence direction beyond own team
 
 ### Success Indicators
 
 !!! success "Key Performance Signals"
 
-    - ✅ Drives technical initiatives affecting multiple teams successfully
-    - ✅ Recognized as technical authority within organization
-    - ✅ Makes strategic technical decisions with lasting impact
-    - ✅ Mentors and develops senior engineers effectively
-    - ✅ Identifies and addresses systemic technical challenges proactively
+    - ✅ Drives initiatives affecting multiple teams successfully
+    - ✅ Recognized as a functional authority within organization
+    - ✅ Makes strategic decisions with lasting impact
+    - ✅ Mentors and develops senior contributors effectively
+    - ✅ Identifies and addresses systemic challenges proactively
 
 ### Common Development Areas
 
 - Expand influence from department-level to organization-wide outcomes
-- Develop executive-ready communication on technical risk and strategy
+- Develop executive-ready communication on risk and strategy
 - Build broader cross-functional networks that unlock delivery velocity
 - Strengthen ability to drive consensus on complex architectural decisions
 - Grow voice in product strategy and prioritization
 
 !!! warning "Critical Transition Point"
 
-    IC6 marks the shift from senior expert to organizational technical leader. Success means balancing hands-on delivery (80%) with higher-leverage strategic influence (20%) and learning to scale impact through others.
+    IC6 marks the shift from senior expert to organizational leader. Success means balancing hands-on delivery (80%) with higher-leverage strategic influence (20%) and learning to scale impact through others.
 
 ---
 
 ## IC7: Senior Staff (Advisor)
 
-**Career Stage**: Expert Advisor  
-**Typical Roles**: Senior Staff Engineer, Senior Staff Product Manager  
-**Focus**: 70% Operational / 30% Strategic - Cross-team technical leadership with broadening scope
+**Career Stage**: Expert Advisor
+**Typical Roles**: Senior Staff Engineer, Senior Staff Product Manager, Senior Staff Designer, Senior Staff Analyst
+**Focus**: 70% Operational / 30% Strategic - Cross-team leadership with broadening scope
 
 ### Core Expectations
 
-| Dimension                            | IC7 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Expertise &<br>Technical Depth**   | • Applies advanced business acumen directly to technical domain expertise<br>• Combines highly specialized field knowledge with broad expertise in related areas<br>• Deep expertise across multiple specializations and interdependent technical areas<br>• Builds reputation as in-house expert across entire organization<br>• Often consulted on most critical and strategic technical decisions                                                   |
-| **Scope &<br>Responsibility**        | • Handles highly complex work with significant interdependencies across organization<br>• Directs work contributing to achievement of critical functional and organizational goals<br>• Influences planning of others, regularly plans and coordinates work of team members<br>• Work impacts organizational strategy and influences multi-quarter planning cycles<br>• Drives initiatives affecting company-wide technical direction and architecture |
-| **Decision Making &<br>Impact**      | • Makes decisions regarding technical approaches that influence entire organization<br>• Advises multiple functional areas on decision making in highly ambiguous situations<br>• Often serves as Recommender, occasionally Activator for systemic organizational issues<br>• Works under consultative direction towards mid-term strategic goals (6+ months)<br>• Technical decisions set precedents and standards affecting multiple teams           |
-| **Leadership &<br>Influence**        | • Regularly plans and influences work of others across multiple teams<br>• Directs application of existing principles, actively participates in developing new practices<br>• Owns portions of stakeholder management plans across entire organization<br>• Influences department offerings and creates function-level impact<br>• Applies flexible leadership styles to influence results across organization                                         |
-| **Complexity &<br>Problem Solving**  | • Problems are novel with limited precedent, require significant ingenuity and creativity<br>• Provides, guides, and uses innovative methods to solve unusual and complex problems<br>• Leads teams in solving complex, cross-discipline issues critical to company success<br>• Provides deep insight and technical leadership promoting innovative new ideas<br>• Leads and guides implementation strategies for complex technical solutions         |
-| **Collaboration &<br>Communication** | • Influences senior leadership and executives regularly on technical strategy<br>• Communicates technical vision effectively to diverse audiences across organization<br>• Builds and leverages strong cross-functional networks for collaboration<br>• Represents company at major industry conferences as technical authority<br>• Mentors staff-level engineers and emerging technical leaders effectively                                          |
+| Dimension                      | IC7 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Expertise &<br>Domain Knowledge**   | • Applies advanced business acumen directly to domain expertise<br>• Combines highly specialized field knowledge with broad expertise in related areas<br>• Deep expertise across multiple specializations and interdependent areas<br>• Builds reputation as in-house expert across entire organization<br>• Often consulted on most critical and strategic decisions                                                                   |
+| **Scope &<br>Responsibility**  | • Handles highly complex work with significant interdependencies across organization<br>• Directs work contributing to achievement of critical functional and organizational goals<br>• Influences planning of others, regularly plans and coordinates work of team members<br>• Work impacts organizational strategy and influences multi-quarter planning cycles<br>• Drives initiatives affecting company-wide direction and architecture      |
+| **Decision Making &<br>Impact** | • Makes decisions regarding approaches that influence entire organization<br>• Advises multiple functional areas on decision making in highly ambiguous situations<br>• Often serves as Recommender, occasionally Activator for systemic organizational issues<br>• Works under consultative direction towards mid-term strategic goals (6+ months)<br>• Decisions set precedents and standards affecting multiple teams                               |
+| **Leadership &<br>Influence**  | • Regularly plans and influences work of others across multiple teams<br>• Directs application of existing principles, actively participates in developing new practices<br>• Owns portions of stakeholder management plans across entire organization<br>• Influences department offerings and creates function-level impact<br>• Applies flexible leadership styles to influence results across organization                                               |
+| **Complexity &<br>Problem Solving**   | • Problems are novel with limited precedent, require significant ingenuity and creativity<br>• Provides, guides, and uses innovative methods to solve unusual and complex problems<br>• Leads teams in solving complex, cross-discipline issues critical to company success<br>• Provides deep insight and leadership promoting innovative new ideas<br>• Leads and guides implementation strategies for complex solutions                          |
+| **Collaboration &<br>Communication**  | • Influences senior leadership and executives regularly on strategy<br>• Communicates vision effectively to diverse audiences across organization<br>• Builds and leverages strong cross-functional networks for collaboration<br>• Represents company at major industry conferences as a functional authority<br>• Mentors staff-level contributors and emerging leaders effectively                                                                |
 
 ### Typical Background
 
@@ -347,11 +347,11 @@ graph LR
 
 !!! success "Key Performance Signals"
 
-    - ✅ Drives technical strategy with measurable company-wide impact
-    - ✅ Influences product and business strategy through technical insights
+    - ✅ Drives strategy with measurable company-wide impact
+    - ✅ Influences product and business strategy through functional insights
     - ✅ Recognized as authority within industry, not just within company
-    - ✅ Successfully leads most complex and ambiguous technical initiatives
-    - ✅ Makes technical bets that significantly impact company success
+    - ✅ Successfully leads most complex and ambiguous initiatives
+    - ✅ Makes bets that significantly impact company success
 
 ### Common Development Areas
 
@@ -359,30 +359,30 @@ graph LR
 - Publish, speak, or share thought leadership externally with credibility
 - Strengthen ability to influence executive-level strategic decisions
 - Build industry-wide networks and partnerships that expand leverage
-- Grow impact on long-term technical vision and multi-quarter bets
+- Grow impact on long-term vision and multi-quarter bets
 
 !!! note "Strategic Balance"
 
-    IC7 requires balancing deep technical execution (70%) with strategic influence (30%). Success means driving both immediate technical outcomes and the emerging technical strategy across teams.
+    IC7 requires balancing deep execution (70%) with strategic influence (30%). Success means driving both immediate outcomes and the emerging strategy across teams.
 
 ---
 
 ## IC8: Principal (Strategist)
 
-**Career Stage**: Lead / Strategist  
-**Typical Roles**: Principal Engineer, Principal Product Manager  
-**Focus**: 60% Operational / 40% Strategic - Strategic technical leadership across organization
+**Career Stage**: Lead / Strategist
+**Typical Roles**: Principal Engineer, Principal Product Manager, Principal Designer, Principal Analyst
+**Focus**: 60% Operational / 40% Strategic - Strategic leadership across the organization
 
 ### Core Expectations
 
-| Dimension                            | IC8 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Expertise &<br>Technical Depth**   | • Applies extensive depth of knowledge across theories, practices, and design principles<br>• Serves as specialized expert in field and primary technical advisor across entire organization<br>• Maintains highest external affiliations, often pioneer in technology or domain area<br>• Recognized authority internally and externally in profession and industry<br>• Actively shapes technical direction at both company and industry level                             |
-| **Scope &<br>Responsibility**        | • Handles most complex work with minimum precedent or established patterns<br>• Directs work contributing directly to organizational success and industry reputation<br>• Contributes actively to strategic planning, influences annual plans for entire function<br>• Work impacts company strategy, competitive positioning, and multi-year planning<br>• Drives initiatives with potential to transform company or entire industry                                        |
-| **Decision Making &<br>Impact**      | • Advises on most novel, strategic business and technical issues company-wide<br>• Often serves as Activator and major contributor to most far-reaching decisions<br>• Influences company-wide strategy and long-term multi-year planning cycles<br>• Determines and pursues courses of action to meet long-term strategic goals (3+ years)<br>• Technical decisions directly affect company's competitive positioning in market                                             |
-| **Leadership &<br>Influence**        | • Contributes to strategic planning at highest levels, influences multi-year planning<br>• Leads application of existing principles and active development of new innovative ideas<br>• Owns stakeholder management plans, develops relationships across entire organization<br>• Recognized as highly influential leader partnering directly with executive team<br>• Often serves as the Decider for most complex and strategic technical issues                           |
-| **Complexity &<br>Problem Solving**  | • Challenges are novel with multiple stakeholders, highly ambiguous, require significant ingenuity<br>• Applies deep technical expertise and emerging technologies to drive breakthrough innovation<br>• Leads teams in solving most highly complex challenges with limited or no precedent<br>• Pioneers development and personally sponsors implementation of strategic solutions<br>• Solutions require exceptional strategic judgment with limited information available |
-| **Collaboration &<br>Communication** | • Partners directly with executive team on company strategy and technical vision<br>• Influences industry through publications, keynotes, and technical standards work<br>• Builds and maintains significant external professional networks and partnerships<br>• Mentors principal-level engineers and senior technical leaders across organization<br>• Represents company as primary technical authority to customers, partners, analysts                                 |
+| Dimension                      | IC8 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Expertise &<br>Domain Knowledge**   | • Applies extensive depth of knowledge across theories, practices, and design principles<br>• Serves as specialized expert in field and primary advisor across entire organization<br>• Maintains highest external affiliations, often pioneer in technology or domain area<br>• Recognized authority internally and externally in profession and industry<br>• Actively shapes direction at both company and industry level                             |
+| **Scope &<br>Responsibility**  | • Handles most complex work with minimum precedent or established patterns<br>• Directs work contributing directly to organizational success and industry reputation<br>• Contributes actively to strategic planning, influences annual plans for entire function<br>• Work impacts company strategy, competitive positioning, and multi-year planning<br>• Drives initiatives with potential to transform company or entire industry                                        |
+| **Decision Making &<br>Impact** | • Advises on most novel, strategic business and functional issues company-wide<br>• Often serves as Activator and major contributor to most far-reaching decisions<br>• Influences company-wide strategy and long-term multi-year planning cycles<br>• Determines and pursues courses of action to meet long-term strategic goals (3+ years)<br>• Decisions directly affect company's competitive positioning in market                                             |
+| **Leadership &<br>Influence**  | • Contributes to strategic planning at highest levels, influences multi-year planning<br>• Leads application of existing principles and active development of new innovative ideas<br>• Owns stakeholder management plans, develops relationships across entire organization<br>• Recognized as highly influential leader partnering directly with executive team<br>• Often serves as the Decider for most complex and strategic issues                           |
+| **Complexity &<br>Problem Solving**   | • Challenges are novel with multiple stakeholders, highly ambiguous, require significant ingenuity<br>• Applies deep expertise and emerging technologies to drive breakthrough innovation<br>• Leads teams in solving most highly complex challenges with limited or no precedent<br>• Pioneers development and personally sponsors implementation of strategic solutions<br>• Solutions require exceptional strategic judgment with limited information available |
+| **Collaboration &<br>Communication**  | • Partners directly with executive team on company strategy and vision<br>• Influences industry through publications, keynotes, and standards work<br>• Builds and maintains significant external professional networks and partnerships<br>• Mentors principal-level contributors and senior leaders across organization<br>• Represents company as primary authority to customers, partners, analysts                                 |
 
 ### Typical Background
 
@@ -395,49 +395,49 @@ graph LR
 
 !!! success "Key Performance Signals"
 
-    - ✅ Directly shapes company technical strategy and long-term vision
+    - ✅ Directly shapes company strategy and long-term vision
     - ✅ Recognized as thought leader and authority in industry
-    - ✅ Influences technical decisions at executive and board level
-    - ✅ Develops other principal-level technical leaders successfully
-    - ✅ Makes strategic technical bets that define company's future
+    - ✅ Influences decisions at executive and board level
+    - ✅ Develops other principal-level leaders successfully
+    - ✅ Makes strategic bets that define company's future
 
 ### Common Development Areas
 
-- Expand influence on company business strategy beyond technical scope
-- Build deeper executive and board relationships to advocate for technical direction
-- Develop the next generation of Staff and Principal engineers
+- Expand influence on company business strategy beyond functional scope
+- Build deeper executive and board relationships to advocate for direction
+- Develop the next generation of Staff and Principal contributors
 - Increase industry leadership through standards work and public platforms
-- Grow impact on long-term company positioning and multi-year technical vision
+- Grow impact on long-term company positioning and multi-year vision
 
 !!! note "Strategic Leadership"
 
-    IC8 represents specialized technical leadership with broad impact. Success requires balancing deep technical execution (60%) with strategic influence (40%) while steering company-level technical direction.
+    IC8 represents specialized leadership with broad impact. Success requires balancing deep execution (60%) with strategic influence (40%) while steering company-level direction.
 
 ---
 
 ## IC9: Distinguished (Thought Leader)
 
-**Career Stage**: Industry Leader  
-**Typical Roles**: Distinguished Engineer, Fellow  
-**Focus**: 50% Operational / 50% Strategic - Industry-defining technical leadership
+**Career Stage**: Industry Leader
+**Typical Roles**: Distinguished Engineer, Fellow, Research Scientist
+**Focus**: 50% Operational / 50% Strategic - Industry-defining leadership
 
 ### Core Expectations
 
-| Dimension                            | IC9 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Expertise &<br>Technical Depth**   | • Defines the state of the art for the industry; inventions may be patented or become industry standards<br>• Visionary understanding of technology trends 5-10 years out<br>• Technical depth is unmatched; capable of rebuilding core business technologies from first principles<br>• Mastery of the intersection between technology, business model, and market forces<br>• Serves as the ultimate technical arbiter for the company      |
-| **Scope &<br>Responsibility**        | • Operates with complete autonomy; defines their own scope based on company survival and growth<br>• Accountable for technical risks that could pose existential threats to the company<br>• Drives technical transformations that open entirely new lines of business<br>• Work influences the entire industry ecosystem, not just the company<br>• Responsible for the long-term technical soul and culture of the engineering organization |
-| **Decision Making &<br>Impact**      | • Decisions fundamentally alter the trajectory of the company<br>• Selects the technologies and architectures that will define the company for the next decade<br>• Acts as a trusted advisor to the CEO and Board of Directors on technology<br>• Validates or invalidates potential M&A targets based on technical diligence<br>• Impact is measured in years or decades, often shifting the market landscape                               |
-| **Leadership &<br>Influence**        | • A magnet for talent; top-tier engineers join the company specifically to work with this person<br>• Represents the company in global standards bodies, consortiums, and government panels<br>• Influences the technical roadmap of external partners and vendors<br>• Sets the ethical and cultural standards for engineering across the organization<br>• Operates without organizational boundaries; influence permeates all departments  |
-| **Complexity &<br>Problem Solving**  | • Solves "unsolvable" problems where no prior solution exists in the world<br>• Synthesizes vast amounts of disparate information to find simple solutions to complex reality<br>• Identifies non-obvious opportunities that others miss entirely<br>• Navigates extreme ambiguity where business goals and technical possibility are both undefined<br>• Creates new algorithms, methodologies, or paradigms that advance the field          |
-| **Collaboration &<br>Communication** | • Communicates vision to the entire company, inspiring confidence in the technical future<br>• Publishes seminal papers, books, or open-source projects that define the field<br>• Mentors the company's Principal and Senior Staff engineers<br>• Negotiates high-stakes technical partnerships with other industry giants<br>• Translates the most complex technical realities into clear business strategy for investors and board members |
+| Dimension                      | IC9 Requirements                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Expertise &<br>Domain Knowledge**   | • Defines the state of the art for the industry; inventions may be patented or become industry standards<br>• Visionary understanding of trends 5-10 years out<br>• Depth is unmatched; capable of rebuilding core business technologies from first principles<br>• Mastery of the intersection between technology, business model, and market forces<br>• Serves as the ultimate arbiter for the company                                     |
+| **Scope &<br>Responsibility**  | • Operates with complete autonomy; defines their own scope based on company survival and growth<br>• Accountable for risks that could pose existential threats to the company<br>• Drives transformations that open entirely new lines of business<br>• Work influences the entire industry ecosystem, not just the company<br>• Responsible for the long-term soul and culture of the organization |
+| **Decision Making &<br>Impact** | • Decisions fundamentally alter the trajectory of the company<br>• Selects the technologies and architectures that will define the company for the next decade<br>• Acts as a trusted advisor to the CEO and Board of Directors<br>• Validates or invalidates potential M&A targets based on diligence<br>• Impact is measured in years or decades, often shifting the market landscape                               |
+| **Leadership &<br>Influence**  | • A magnet for talent; top-tier contributors join the company specifically to work with this person<br>• Represents the company in global standards bodies, consortiums, and government panels<br>• Influences the roadmap of external partners and vendors<br>• Sets the ethical and cultural standards for their function across the organization<br>• Operates without organizational boundaries; influence permeates all departments  |
+| **Complexity &<br>Problem Solving**   | • Solves "unsolvable" problems where no prior solution exists in the world<br>• Synthesizes vast amounts of disparate information to find simple solutions to complex reality<br>• Identifies non-obvious opportunities that others miss entirely<br>• Navigates extreme ambiguity where business goals and possibility are both undefined<br>• Creates new algorithms, methodologies, or paradigms that advance the field          |
+| **Collaboration &<br>Communication**  | • Communicates vision to the entire company, inspiring confidence in the future<br>• Publishes seminal papers, books, or open-source projects that define the field<br>• Mentors the company's Principal and Senior Staff contributors<br>• Negotiates high-stakes partnerships with other industry giants<br>• Translates the most complex realities into clear business strategy for investors and board members |
 
 ### Typical Background
 
 - **15+ years of experience** with a history of industry-shifting impact
 - Significant external recognition (patents, books, keynotes, open source leadership)
 - Track record of creating successful technologies or platforms from scratch
-- Experience guiding companies through major technological pivots
+- Experience guiding companies through major pivots
 
 ### Success Indicators
 
@@ -445,9 +445,9 @@ graph LR
 
     - ✅ Creates technology that becomes a competitive moat for the company
     - ✅ Attracts world-class talent to the organization
-    - ✅ Prevents existential technical failures through foresight
+    - ✅ Prevents existential failures through foresight
     - ✅ Defines the industry standard for the company's domain
-    - ✅ Pivots the company's technical strategy to capture new markets
+    - ✅ Pivots the company's strategy to capture new markets
     - ✅ Respected globally as a pioneer in the field
 
 ---
@@ -458,7 +458,7 @@ graph LR
 | --------------- | ------------ | ------------ | ---------- | ------------ |
 | **Focus**       | 100% Ops     | 90-100% Ops  | 70-80% Ops | 50-60% Ops   |
 | **Supervision** | Close/Gen    | Minimal      | Limited    | Consultative |
-| **Scope**       | Task/Feature | Project/Team | Cross-Team | Org/Industry |
+| **Scope**       | Task/Project | Project/Team | Cross-Team | Org/Industry |
 | **Planning**    | Days/Weeks   | Months       | Quarters   | Years        |
 | **Decisions**   | Defined      | Independent  | Strategic  | Existential  |
 | **Influence**   | Team         | Cross-Team   | Department | Industry     |
@@ -510,7 +510,7 @@ Create targeted growth plans:
 
 !!! warning "Promotion Requirements"
 
-    Promotions require **sustained demonstration** of next-level performance across **all dimensions**, not just technical expertise. Discuss readiness quarterly with your manager and document specific examples.
+    Promotions require **sustained demonstration** of next-level performance across **all dimensions**, not just functional expertise. Discuss readiness quarterly with your manager and document specific examples.
 
 ## Related Resources
 
