@@ -230,14 +230,13 @@ class UltralyticsChat {
           reattached = true;
         }
       });
+      if (reattached) this.applyVisibility();
       return reattached;
     };
     const attachTo = (getParent) => {
       const parent = getParent();
       if (!parent) return;
-      const observer = new MutationObserver(() => {
-        if (ensureAttached()) this.toggle(false);
-      });
+      const observer = new MutationObserver(() => ensureAttached());
       observer.observe(parent, { childList: true });
       this.domObservers.push(observer);
     };
@@ -513,6 +512,7 @@ class UltralyticsChat {
     this.refs.examples = this.qs("#ult-examples", this.refs.modal);
     this.refs.input = this.qs(".ult-chat-input", this.refs.modal);
     this.refs.send = this.qs(".ult-chat-send", this.refs.modal);
+    this.applyVisibility();
     this.setExamples(chatExamples || []);
   }
 
@@ -674,6 +674,13 @@ class UltralyticsChat {
       const trimmed = this.trimMessage(messageDiv.textContent || "", messageDiv);
       if (trimmed !== (messageDiv.textContent || "")) messageDiv.textContent = trimmed;
     });
+  }
+
+  applyVisibility() {
+    const open = this.isOpen;
+    this.refs.modal?.classList.toggle("open", open);
+    this.refs.backdrop?.classList.toggle("open", open);
+    this.refs.pill?.classList.toggle("hidden", open);
   }
 
   toggle(forceOpen = null, mode = null) {
