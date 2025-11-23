@@ -20,6 +20,7 @@ docs_dir: "docs/en/" # where to find the Markdown files
 site_dir: "site/" # where to publish to
 use_directory_urls: true # don't display 'index.html' in slugs
 
+
 # Theme customization
 theme:
   name: material
