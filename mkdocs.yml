@@ -131,12 +131,12 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.details
+  - pymdownx.inlinehilite
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.inlinehilite
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.snippets:
@@ -146,7 +146,11 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.tasklist:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
       custom_checkbox: true
 
 # Validation settings https://www.mkdocs.org/user-guide/configuration/#validation
