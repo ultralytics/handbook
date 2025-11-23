@@ -26,7 +26,7 @@ theme:
   language: en
   custom_dir: docs/overrides/
   logo: https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Reverse.svg
-  favicon: https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/logo/favicon-yolo.png
+  favicon: https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/logo/favicon-h.ico
   icon:
     repo: fontawesome/brands/github
   # font: # disabled for faster page load times
