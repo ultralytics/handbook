@@ -91,6 +91,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     Reimbursements are processed within **7 business days** after submission and approval.
 
     !!! tip "Pro Tip"
+
         Submit expenses within the same fiscal quarter for faster processing.
 
 ??? question "What does per diem cover when traveling?"
@@ -206,6 +207,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     3. ✅ Compliance with all security policies
 
     !!! info "Recommendation"
+
         Company-provided hardware is the standard approach.
 
 ## Development & Contributions 💻
@@ -279,6 +281,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     3. Update team calendar and Slack status
 
     !!! warning "Notice Requirements"
+
         - **Vacation**: 2 weeks minimum
         - **Short breaks**: 1 week minimum
         - **Contractors**: 30-day waiting period

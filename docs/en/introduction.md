@@ -87,6 +87,7 @@ External partners can learn about:
     Use the search function (top of page) to quickly find specific topics, policies, or procedures.
 
     !!! tip "Pro Tip"
+
         Use keywords like "PTO", "travel", "onboarding" for quick results
 
 === "Stay Updated"
@@ -205,6 +206,7 @@ Ultralytics is a world leader in artificial intelligence, creating state-of-the-
     - :material-shield-check: Comprehensive benefits package
 
     !!! info "Details"
+
         Discuss compensation with your manager or HR.
 
 === "Transparency"

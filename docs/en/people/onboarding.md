@@ -94,6 +94,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 === "Security Training (60 min)"
 
     !!! warning "Required Compliance"
+
         Must be completed on Day 1
 
     - Complete GDPR, CCPA, and security awareness training via [Vanta](https://app.vanta.com/)
