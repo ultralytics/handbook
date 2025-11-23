@@ -64,6 +64,7 @@ Ultralytics rewards employees who refer qualified candidates that successfully j
     3. Reimbursement processed within **7 business days**
 
     !!! tip "Best Practice"
+
         Submit reimbursement requests within the same fiscal quarter
 
 === "$3,000+"
@@ -75,6 +76,7 @@ Ultralytics rewards employees who refer qualified candidates that successfully j
     3. Submit receipts after purchase for reconciliation
 
     !!! info "Timeline"
+
         Allow **5 business days** for approval and payment processing
 
 ## Employee Credit Cards 💳

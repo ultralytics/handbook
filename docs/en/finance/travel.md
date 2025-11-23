@@ -47,6 +47,7 @@ graph TD
     3. Receive payment within 7 business days
 
     !!! tip "Best Practice"
+
         Use a personal credit card with travel benefits for better rewards and protection.
 
 === "$3,000+"
@@ -58,6 +59,7 @@ graph TD
     3. Submit receipts after travel for reconciliation
 
     !!! info "Timeline"
+
         Allow **5 business days** for approval and payment processing.
 
 ## Per Diem Rates 💳

@@ -109,6 +109,7 @@ Employees earn additional PTO days based on length of service:
     - :material-calendar-check: Update calendar and Slack status
 
     !!! warning "Longer Trips"
+
         Provide **1 month notice** for vacations exceeding 2 weeks
 
 === "Sick Leave"
@@ -120,6 +121,7 @@ Employees earn additional PTO days based on length of service:
     - :material-file-document-remove: **No medical documentation** required for short absences
 
     !!! success "Unlimited Policy"
+
         Take the time you need to recover - no tracking or limits
 
 === "Public Holidays"
@@ -318,6 +320,7 @@ Exceptions may be considered for:
     ```
 
     !!! warning "Use Your Time"
+
         This employee lost 15 days! Plan vacations throughout the year.
 
 ## Questions?
