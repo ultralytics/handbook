@@ -220,31 +220,28 @@ class UltralyticsChat {
       { element: () => this.refs.tooltip, parent: () => document.body },
     ];
 
-    const ensureAttached = () =>
+    const ensureAttached = () => {
+      let reattached = false;
       elements.forEach(({ element, parent }) => {
         const el = element();
         const parentNode = parent?.();
-        if (el && parentNode && el.parentNode !== parentNode) parentNode.appendChild(el);
+        if (el && parentNode && el.parentNode !== parentNode) {
+          parentNode.appendChild(el);
+          reattached = true;
+        }
       });
-    const syncVisibility = () => {
-      const open = this.isOpen;
-      this.refs.modal?.classList.toggle("open", open);
-      this.refs.backdrop?.classList.toggle("open", open);
-      this.refs.pill?.classList.toggle("hidden", open);
+      return reattached;
     };
-
     const attachTo = (getParent) => {
       const parent = getParent();
       if (!parent) return;
       const observer = new MutationObserver(() => {
-        ensureAttached();
-        syncVisibility();
+        if (ensureAttached()) this.toggle(false);
       });
       observer.observe(parent, { childList: true });
       this.domObservers.push(observer);
     };
     ensureAttached();
-    syncVisibility();
     [() => document.documentElement, () => document.head, () => document.body].forEach(attachTo);
   }
 
