@@ -103,8 +103,8 @@ git commit -m "Fix #123: Corrected calculation error"
 
 !!! tip "Commit Message Best Practices"
 
-    - Use present tense ("Add feature" not "Added feature") 
-    - Reference issue numbers when applicable 
+    - Use present tense ("Add feature" not "Added feature")
+    - Reference issue numbers when applicable
     - Keep subject line under 72 characters
 
 ### 6. Create Pull Request
