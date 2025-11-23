@@ -226,15 +226,25 @@ class UltralyticsChat {
         const parentNode = parent?.();
         if (el && parentNode && el.parentNode !== parentNode) parentNode.appendChild(el);
       });
+    const syncVisibility = () => {
+      const open = this.isOpen;
+      this.refs.modal?.classList.toggle("open", open);
+      this.refs.backdrop?.classList.toggle("open", open);
+      this.refs.pill?.classList.toggle("hidden", open);
+    };
 
     const attachTo = (getParent) => {
       const parent = getParent();
       if (!parent) return;
-      const observer = new MutationObserver(() => ensureAttached());
+      const observer = new MutationObserver(() => {
+        ensureAttached();
+        syncVisibility();
+      });
       observer.observe(parent, { childList: true });
       this.domObservers.push(observer);
     };
     ensureAttached();
+    syncVisibility();
     [() => document.documentElement, () => document.head, () => document.body].forEach(attachTo);
   }
 
