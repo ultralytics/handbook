@@ -76,7 +76,7 @@ class UltralyticsChat {
     this.refs = {};
     this.listeners = new Map();
     this.inputDebounceTimer = null;
-    this.domObserver = null;
+    this.domObservers = [];
     this.init();
   }
 
@@ -227,17 +227,22 @@ class UltralyticsChat {
         if (el && parentNode && el.parentNode !== parentNode) parentNode.appendChild(el);
       });
 
-    const observer = new MutationObserver(() => ensureAttached());
+    const attachTo = (getParent) => {
+      const parent = getParent();
+      if (!parent) return;
+      const observer = new MutationObserver(() => ensureAttached());
+      observer.observe(parent, { childList: true });
+      this.domObservers.push(observer);
+    };
     ensureAttached();
-    observer.observe(document.documentElement, { childList: true });
-    this.domObserver = observer;
+    [() => document.documentElement, () => document.head, () => document.body].forEach(attachTo);
   }
 
   destroy() {
     this.toggle(false);
     if (this.inputDebounceTimer) clearTimeout(this.inputDebounceTimer);
-    this.domObserver?.disconnect();
-    this.domObserver = null;
+    this.domObservers.forEach((observer) => observer.disconnect());
+    this.domObservers = [];
     this.listeners.forEach((eventList, el) => eventList.forEach(({ ev, fn }) => el.removeEventListener(ev, fn)));
     this.listeners.clear();
     this.styleElement?.remove();
