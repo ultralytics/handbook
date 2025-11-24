@@ -133,7 +133,7 @@ We encourage internal transfers and role changes:
 Ultralytics offers competitive Series A-level compensation including:
 
 - Market-rate salaries benchmarked against top tech companies
-- Meaningful equity grants with long exercise windows
+- Meaningful equity grants with a 90-day post-termination exercise window
 - Performance bonuses for exceptional contributions
 - Comprehensive benefits package
 

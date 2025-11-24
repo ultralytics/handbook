@@ -60,8 +60,8 @@ keywords: Ultralytics PTO, paid time off, 25 days vacation, vacation policy, sic
 graph LR
     A[25 Days Annual] --> B{Year End}
     B -->|Use It| C[Refresh to 25]
-    B -->|Save It| D[Rollover Up to 15 Days]
-    D --> E[Max Balance: 40 Days]
+    B -->|Save It| D[Rollover Up to 10 Days]
+    D --> E[Max Balance: 35 Days]
 
     style A fill:#e1f5ff
     style E fill:#fff3cd
@@ -69,8 +69,8 @@ graph LR
 
 | Limit Type           | Amount                         |
 | -------------------- | ------------------------------ |
-| **Maximum balance**  | 40 days total                  |
-| **Annual carryover** | Up to 15 days                  |
+| **Maximum balance**  | 35 days total                  |
+| **Annual carryover** | Up to 10 days                  |
 | **Excess days**      | Forfeited (use it or lose it!) |
 
 ### Tenure Milestones 🎉
@@ -240,14 +240,16 @@ flowchart TD
 
     === "Rollover Policy"
 
-        - **Up to 15 days** roll over to next calendar year
-        - Days beyond 15 are **forfeited**
-        - Maximum balance cannot exceed **40 days**
+        - **Up to 10 days** roll over to next calendar year
+        - Rollover days can be used **anytime during the following year** (no mid-year expiry)
+        - Days beyond 10 are **forfeited** (use it or lose it)
+        - Maximum balance cannot exceed **35 days**
 
     === "No Payout"
 
         - PTO does **not pay out** upon termination
-        - Use your time throughout the year!
+        - Unused PTO is **forfeited** at year-end beyond rollover limits
+        - Plan to use your time throughout the year!
 
 ### Exceptions to Rollover Limits
 
@@ -313,15 +315,15 @@ Exceptions may be considered for:
 
     ```
     Starting balance: 30 days
-    Rollover limit: 15 days
-    Forfeited: 15 days
+    Rollover limit: 10 days
+    Forfeited: 20 days
 
-    Jan 1 balance: 15 (rollover) + 25 (new allocation) = 40 days
+    Jan 1 balance: 10 (rollover) + 25 (new allocation) = 35 days
     ```
 
     !!! warning "Use Your Time"
 
-        This employee lost 15 days! Plan vacations throughout the year.
+        This employee lost 20 days! Plan vacations throughout the year.
 
 ## Questions?
 
