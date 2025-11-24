@@ -217,6 +217,7 @@ graph LR
     This applies to:
 
     - MacBook Air/Pro
+    - Windows 11 devices (Windows 11 Pro required)
     - iPads
     - iPhones
     - Android devices
