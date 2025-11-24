@@ -11,7 +11,7 @@ keywords: Ultralytics PTO, paid time off, 25 days vacation, vacation policy, sic
 
     **25 days PTO annually** (24 days + 1 birthday) + public holidays + unlimited sick leave
 
-    Full allocation available from **day one** - no waiting period!
+    Full allocation available from **day one**; vacation usage begins after **30 days of employment**.
 
 **All time off requests are submitted and approved through [Rippling](https://www.rippling.com/).**
 
