@@ -67,15 +67,15 @@ graph LR
     style E fill:#fff3cd
 ```
 
-| Limit Type                  | Amount                                  |
-| --------------------------- | --------------------------------------- |
-| **Maximum balance**         | 35 days total                           |
-| **Annual carryover**        | Up to 10 days                           |
-| **Rollover usage window**   | 12 months (no mid-year expiry)          |
-| **Longest single vacation** | 35 days (subject to balance/approval)   |
-| **Negative balance**        | Up to 5 days (manager approval)         |
-| **Vacation waiting period** | 30 days after start date                |
-| **Excess days**             | Forfeited (use it or lose it)           |
+| Limit Type                  | Amount                                |
+| --------------------------- | ------------------------------------- |
+| **Maximum balance**         | 35 days total                         |
+| **Annual carryover**        | Up to 10 days                         |
+| **Rollover usage window**   | 12 months (no mid-year expiry)        |
+| **Longest single vacation** | 35 days (subject to balance/approval) |
+| **Negative balance**        | Up to 5 days (manager approval)       |
+| **Vacation waiting period** | 30 days after start date              |
+| **Excess days**             | Forfeited (use it or lose it)         |
 
 **Rollover usage:** Carried-over days can be used at any time during the following calendar year (12 months).
 
