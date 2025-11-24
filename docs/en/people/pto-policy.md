@@ -52,7 +52,7 @@ keywords: Ultralytics PTO, paid time off, 25 days vacation, vacation policy, sic
 
 </div>
 
-**Full allocation available immediately upon hire** - use your PTO from day one!
+**Full allocation granted on day one**; vacation days can be taken after **30 days of employment**.
 
 ### Balance Limits
 
@@ -67,11 +67,17 @@ graph LR
     style E fill:#fff3cd
 ```
 
-| Limit Type           | Amount                         |
-| -------------------- | ------------------------------ |
-| **Maximum balance**  | 35 days total                  |
-| **Annual carryover** | Up to 10 days                  |
-| **Excess days**      | Forfeited (use it or lose it!) |
+| Limit Type                  | Amount                                |
+| --------------------------- | ------------------------------------- |
+| **Maximum balance**         | 35 days total                         |
+| **Annual carryover**        | Up to 10 days                         |
+| **Rollover usage window**   | 12 months (no mid-year expiry)        |
+| **Longest single vacation** | 35 days (subject to balance/approval) |
+| **Negative balance**        | Up to 5 days (manager approval)       |
+| **Vacation waiting period** | 30 days after start date              |
+| **Excess days**             | Forfeited (use it or lose it)         |
+
+**Rollover usage:** Carried-over days can be used at any time during the following calendar year (12 months).
 
 ### Tenure Milestones 🎉
 
@@ -107,6 +113,9 @@ Employees earn additional PTO days based on length of service:
     - :material-calendar-clock: Submit requests **2 weeks in advance**
     - :material-account-group: Coordinate with your team for coverage
     - :material-calendar-check: Update calendar and Slack status
+    - :material-timer: Vacation available after **30 days of employment**
+    - :material-airplane: Maximum single vacation: **35 days**
+    - :material-handshake: Up to **5 days negative balance** allowed with manager approval
 
     !!! warning "Longer Trips"
 
