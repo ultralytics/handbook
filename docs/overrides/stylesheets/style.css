@@ -221,31 +221,10 @@ table td:nth-child(2):last-child {
   text-decoration: none !important;
 }
 
-/* Ultralytics Search Bar ------------------------------------------------------------------------------------------- */
-.ult-header-search {
-  transform: scale(0.7);
-  transform-origin: left center;
-  margin-right: 0.5rem;
+/* Global kill-switch for Weglot UI */
+.country-selector,
+.weglot-container,
+[id^="weglot-switcher"],
+.weglot-container[id^="weglot-switcher"] {
+  display: none !important;
 }
-.ult-search-button {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 1rem;
-  background: var(--md-default-bg-color);
-  border: 1px solid var(--md-default-fg-color--lighter);
-  border-radius: 0.5rem;
-  color: var(--md-default-fg-color);
-  font-size: 0.9rem;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-.ult-search-button:hover {
-  transform: scale(1.1);
-  filter: brightness(1.2);
-  border-color: var(--md-accent-fg-color);
-}
-.ult-search-button svg {
-  flex-shrink: 0;
-}
-/* Ultralytics Search Bar ------------------------------------------------------------------------------------------- */
