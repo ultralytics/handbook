@@ -222,7 +222,8 @@ table td:nth-child(2):last-child {
 }
 
 /* Global kill-switch for Weglot UI */
-.weglot-container .country-selector .weglot-container,
+.weglot-container,
+.weglot_switcher,
 [id^="weglot-switcher"],
 .weglot-container[id^="weglot-switcher"] {
   display: none !important;
