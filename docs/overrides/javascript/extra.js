@@ -77,16 +77,16 @@ document.addEventListener("DOMContentLoaded", () => {
     let defaultLink = null;
 
     // Extract language codes
-    links.forEach((link) => {
+    for (const link of links) {
       const href = link.getAttribute("href");
-      if (!href) return;
+      if (!href) continue;
 
       const url = new URL(href, location.origin);
       const match = url.pathname.match(/^\/([a-z]{2})\/?$/);
 
       if (match) langs.push({ code: match[1], link });
       else if (url.pathname === "/" || url.pathname === "") defaultLink = link;
-    });
+    }
 
     // Find current language and base path
     let basePath = path;
@@ -98,7 +98,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Update links
-    langs.forEach((lang) => (lang.link.href = `${location.origin}/${lang.code}${basePath}`));
+    for (const lang of langs) {
+      lang.link.href = `${location.origin}/${lang.code}${basePath}`;
+    }
     if (defaultLink) defaultLink.href = location.origin + basePath;
   }
 
