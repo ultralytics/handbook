@@ -54,8 +54,8 @@ div.highlight {
   background-repeat: no-repeat;
 }
 .md-banner__inner {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .banner-wrapper,
 .banner-wrapper > .banner-content-wrapper {
@@ -218,7 +218,7 @@ table td:nth-child(2):last-child {
 
 /* Remove underlines from links */
 .md-typeset a {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 /* Global kill-switch for Weglot UI */
@@ -226,5 +226,5 @@ table td:nth-child(2):last-child {
 .weglot_switcher,
 [id^="weglot-switcher"],
 .weglot-container[id^="weglot-switcher"] {
-  display: none !important;
+  display: none;
 }
