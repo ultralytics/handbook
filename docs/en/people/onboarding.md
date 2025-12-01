@@ -43,6 +43,12 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 
 </div>
 
+### Access Setup Sequence
+
+- Expect to first receive an invite at your **personal email** to sign into [Rippling](https://www.rippling.com/) and complete all onboarding steps there (ID verification, profile, benefits, etc.).
+- After Rippling is ready, sign into Slack with your new Ultralytics email (typically `first@ultralytics.com`) so teammates can find you.
+- Finally, sign into the [Ultralytics Portal](https://portal.ultralytics.com) to finish any internal orientation, onboarding checks, and access company resources.
+
 ### What to Prepare
 
 | Item                     | Purpose                                        | When Needed |
@@ -71,6 +77,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
     - Unbox and configure hardware
     - Install Rippling MDM on all devices
     - Set up Google Workspace, Slack, GitHub
+    - Confirm you can log into the [Ultralytics Portal](https://portal.ultralytics.com) after Slack setup; the Portal hosts internal dashboards and onboarding steps (bio, social verification, Gmail Agent settings)
     - Configure email signature (automated)
 
     Contact [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com) or `#it-support` on Slack if you need help.
@@ -155,6 +162,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 - [x] Join key Slack channels: #general, #it-support, #your-team
 - [x] Submit first PR (even if just fixing a typo in docs)
 - [x] Schedule coffee chats with 3-5 people from other teams
+- [x] Finish Ultralytics Portal onboarding tasks (bio/social verification, Gmail Agent enablement if applicable) and bookmark the dashboard
 
 ## First Month 🎯
 

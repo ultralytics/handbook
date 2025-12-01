@@ -200,6 +200,7 @@ Also review our [Social Media Policy](../contributions/social-media-policy.md) f
 
 - **[Rippling](https://app.rippling.com/)**: HR portal for PTO requests, profile updates, and equipment
 - **[Vanta](https://app.vanta.com/)**: Compliance training and security policies
+- **[Ultralytics Portal](https://portal.ultralytics.com)**: Internal hub (company SSO only) for onboarding tasks, dashboards, Gmail Agent controls, and ops tools
 - **[FAQ](../faq/index.md)**: Common questions and answers
 - **[Handbook GitHub](https://github.com/ultralytics/handbook)**: Submit improvements via PR
 
