@@ -77,7 +77,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
     - Unbox and configure hardware
     - Install Rippling MDM on all devices
     - Set up Google Workspace, Slack, GitHub
-    - Confirm you can log into the [Ultralytics Portal](https://portal.ultralytics.com) after Slack setup; the Portal hosts internal dashboards and onboarding steps (bio, social verification, AI agent settings)
+    - Sign up to the [Ultralytics Portal](https://portal.ultralytics.com) post-Slack setup. This is your central operational hub, featuring real-time dashboards, vital onboarding steps, and critical tools.
     - Configure email signature (automated)
 
     Contact [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com) or `#it-support` on Slack if you need help.
