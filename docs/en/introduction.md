@@ -46,7 +46,7 @@ This handbook is your comprehensive guide to working at and contributing to [Ult
 Internal employees and contractors will find comprehensive guidance on:
 
 - **[Your First 90 Days](people/onboarding.md)** - Complete onboarding roadmap for new team members
-- **[Ultralytics Portal](https://portal.ultralytics.com)** - SSO-only internal hub for dashboards, onboarding checks, Gmail Agent settings, and company tools
+- **[Ultralytics Portal](https://portal.ultralytics.com)** - SSO-only internal hub for dashboards, onboarding checks, AI agent settings, and company tools
 - Company policies and procedures
 - Financial processes and reimbursements
 - Hardware and software provisioning
