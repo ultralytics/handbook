@@ -150,7 +150,9 @@ Ultralytics is a world leader in artificial intelligence, creating state-of-the-
 !!! info "Our Work Culture"
 
     === "In-Person First"
-        Most positions are onsite (5 days/week) at our London, Madrid, or Shenzhen offices.
+        Most positions are onsite at our London, Madrid, or Shenzhen offices with a **3-day/week in-person requirement**.
+
+        We thrive on in-person collaboration; team members who choose **5 days onsite** receive additional office benefits, and attendance is a positive factor in quarterly reviews plus year-end compensation and promotion decisions.
 
         :material-dog: All our offices are dog-friendly!
 
