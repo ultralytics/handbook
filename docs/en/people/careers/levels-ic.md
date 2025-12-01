@@ -53,7 +53,7 @@ graph LR
 
 ## IC1: Entry
 
-- **Career Stage**: Entry  
+- **Career Stage**: Entry
 - **Typical Roles**: Junior Engineer, Associate Product Manager, Junior Designer, Marketing Coordinator, Sales Development Rep
 - **Focus**: 100% Operational - Learning fundamentals under close supervision
 
