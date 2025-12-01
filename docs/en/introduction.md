@@ -101,13 +101,13 @@ External partners can learn about:
     - :material-git: Submit pull requests to improve content
     - :material-rss: Subscribe to release notifications
 
-## AI-First Mindset 🤖
-
-Ultralytics is an AI-first company. We expect everyone to default to AI assistants and automation to move faster and raise quality—drafts, analyses, reviews, and routine ops should start with AI, while human judgment keeps us compliant, secure, and customer-obsessed.
-
 ## About Ultralytics 🚀
 
 Ultralytics is a world leader in artificial intelligence, creating state-of-the-art computer vision tools that democratize advanced technology. Our flagship YOLO (You Only Look Once) models set the standard for real-time object detection, balancing speed and accuracy at every scale. Learn more on our [About page](https://www.ultralytics.com/about).
+
+### AI-First Mindset
+
+Ultralytics is an AI-first company. We expect everyone to default to AI assistants and automation to move faster and raise quality—drafts, analyses, reviews, and routine ops should start with AI, while human judgment keeps us compliant, secure, and customer-obsessed.
 
 ### What We Do
 
