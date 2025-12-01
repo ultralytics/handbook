@@ -166,6 +166,10 @@ See [Relocation Policy](../finance/relocation.md) for eligibility criteria.
 
 ## Policies & Compliance ⚖️
 
+### AI-First Expectation
+
+Ultralytics operates as an AI-first company. Everyone is encouraged to use approved AI tools and automations by default to accelerate work and improve quality, while applying sound judgment to keep data secure and outputs accurate.
+
 ### Required Training
 
 All employees complete annual mandatory training via [Vanta](https://app.vanta.com/c/ultralytics/employee/onboarding):

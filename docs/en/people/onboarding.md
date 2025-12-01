@@ -141,6 +141,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 - **Understand the company**: Mission, values, products, and market position
 - **Meet the team**: Schedule 30-min coffee chats with key collaborators
 - **Learn the tech stack**: Read documentation, explore codebase
+- **Work AI-first**: Use approved AI assistants and automations for drafts, analysis, reviews, and routine workflows—let AI do the first pass, then refine with your judgment
 - **Complete required training**: All compliance modules in Vanta
 - **Ship your first contribution**: Submit a small PR (documentation fix, test addition, or bug fix)
 
