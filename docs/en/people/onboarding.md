@@ -43,6 +43,12 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 
 </div>
 
+### Access Setup Sequence
+
+- Expect to first receive an invite at your **personal email** to sign into [Rippling](https://www.rippling.com/) and complete all onboarding steps there (ID verification, profile, benefits, etc.).
+- After Rippling is ready, sign into Slack with your new Ultralytics email (typically `first@ultralytics.com`) so teammates can find you.
+- Finally, sign up to the [Ultralytics Portal](https://portal.ultralytics.com)—your essential gateway for internal orientation, critical onboarding tasks, and immediate access to core company resources.
+
 ### What to Prepare
 
 | Item                     | Purpose                                        | When Needed |
@@ -71,6 +77,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
     - Unbox and configure hardware
     - Install Rippling MDM on all devices
     - Set up Google Workspace, Slack, GitHub
+    - Sign up to the [Ultralytics Portal](https://portal.ultralytics.com) post-Slack setup. This is your central operational hub, featuring real-time dashboards, vital onboarding steps, and critical tools.
     - Configure email signature (automated)
 
     Contact [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com) or `#it-support` on Slack if you need help.
@@ -134,6 +141,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 - **Understand the company**: Mission, values, products, and market position
 - **Meet the team**: Schedule 30-min coffee chats with key collaborators
 - **Learn the tech stack**: Read documentation, explore codebase
+- **Embrace AI-First**: Integrate approved AI assistants and automations into your daily toolkit—driving efficiency and accelerating impact
 - **Complete required training**: All compliance modules in Vanta
 - **Ship your first contribution**: Submit a small PR (documentation fix, test addition, or bug fix)
 
@@ -155,6 +163,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 - [x] Join key Slack channels: #general, #it-support, #your-team
 - [x] Submit first PR (even if just fixing a typo in docs)
 - [x] Schedule coffee chats with 3-5 people from other teams
+- [x] Complete your Ultralytics Portal onboarding tasks (e.g., bio/social verification, AI agent enablement if applicable) and bookmark thel dashboard
 
 ## First Month 🎯
 

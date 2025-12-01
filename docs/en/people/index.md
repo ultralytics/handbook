@@ -166,6 +166,10 @@ See [Relocation Policy](../finance/relocation.md) for eligibility criteria.
 
 ## Policies & Compliance ⚖️
 
+### AI-First Expectation
+
+At Ultralytics, our AI-first principle is woven into every role. We aggressively leverage approved AI tools and automations to accelerate workflows, enhance quality, and drive innovation. This mandate comes with a critical responsibility: apply rigorous judgment to ensure data security and output accuracy.
+
 ### Required Training
 
 All employees complete annual mandatory training via [Vanta](https://app.vanta.com/c/ultralytics/employee/onboarding):
@@ -200,6 +204,7 @@ Also review our [Social Media Policy](../contributions/social-media-policy.md) f
 
 - **[Rippling](https://app.rippling.com/)**: HR portal for PTO requests, profile updates, and equipment
 - **[Vanta](https://app.vanta.com/)**: Compliance training and security policies
+- **[Ultralytics Portal](https://portal.ultralytics.com)**: Your gateway to onboarding, real-time dashboards, powerful AI agent controls, and essential ops tools.
 - **[FAQ](../faq/index.md)**: Common questions and answers
 - **[Handbook GitHub](https://github.com/ultralytics/handbook)**: Submit improvements via PR
 

@@ -5,9 +5,11 @@ keywords: Ultralytics handbook, company introduction, AI handbook, employee guid
 
 # Introduction
 
-## About This Handbook
+Welcome to the Ultralytics Employee Handbook! This handbook is your guide to working at Ultralytics. It contains information about our company culture, policies, and procedures.
 
-This handbook is your comprehensive guide to working at and contributing to [Ultralytics](https://www.ultralytics.com/). It covers our mission, values, operational workflows, and the practical details that make our organization run smoothly.
+We are an AI-first company, which means that we believe in the power of AI to change the world. We are committed to building the best AI products and services, and to creating a work environment that is both challenging and rewarding.
+
+We believe in transparency and open communication, and we encourage all employees to be active participants in the life of the company.
 
 ## Purpose and Scope 🎯
 
@@ -46,6 +48,7 @@ This handbook is your comprehensive guide to working at and contributing to [Ult
 Internal employees and contractors will find comprehensive guidance on:
 
 - **[Your First 90 Days](people/onboarding.md)** - Complete onboarding roadmap for new team members
+- **[Ultralytics Portal](https://portal.ultralytics.com)** - SSO-only internal hub for dashboards, onboarding checks, AI agent settings, and company tools
 - Company policies and procedures
 - Financial processes and reimbursements
 - Hardware and software provisioning
@@ -102,6 +105,10 @@ External partners can learn about:
 
 Ultralytics is a world leader in artificial intelligence, creating state-of-the-art computer vision tools that democratize advanced technology. Our flagship YOLO (You Only Look Once) models set the standard for real-time object detection, balancing speed and accuracy at every scale. Learn more on our [About page](https://www.ultralytics.com/about).
 
+### AI-First Mindset
+
+Ultralytics is an AI-first company. We expect everyone to default to AI assistants and automation to move faster and raise quality—drafts, analyses, reviews, and routine ops should start with AI, while human judgment keeps us compliant, secure, and customer-obsessed.
+
 ### What We Do
 
 <div class="grid cards" markdown>
@@ -143,7 +150,9 @@ Ultralytics is a world leader in artificial intelligence, creating state-of-the-
 !!! info "Our Work Culture"
 
     === "In-Person First"
-        Most positions are onsite (5 days/week) at our London, Madrid, or Shenzhen offices.
+        Most positions are onsite at our London, Madrid, or Shenzhen offices with a **3-day/week in-person requirement**.
+
+        We thrive on in-person collaboration; team members who choose **5 days onsite** receive additional office benefits, and attendance is a positive factor in quarterly reviews plus year-end compensation and promotion decisions.
 
         :material-dog: All our offices are dog-friendly!
 

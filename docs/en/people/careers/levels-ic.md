@@ -53,9 +53,9 @@ graph LR
 
 ## IC1: Entry
 
-**Career Stage**: Entry  
-**Typical Roles**: Junior Engineer, Associate Product Manager, Junior Designer, Marketing Coordinator, Sales Development Rep
-**Focus**: 100% Operational - Learning fundamentals under close supervision
+- **Career Stage**: Entry
+- **Typical Roles**: Junior Engineer, Associate Product Manager, Junior Designer, Marketing Coordinator, Sales Development Rep
+- **Focus**: 100% Operational - Learning fundamentals under close supervision
 
 ### Core Expectations
 
@@ -97,9 +97,9 @@ graph LR
 
 ## IC2: Mid 1 (Developing)
 
-**Career Stage**: Developing
-**Typical Roles**: Engineer I, Product Manager I, Designer I, Marketing Specialist, Business Development Rep
-**Focus**: 100% Operational - Developing autonomy with general supervision
+- **Career Stage**: Developing
+- **Typical Roles**: Engineer I, Product Manager I, Designer I, Marketing Specialist, Business Development Rep
+- **Focus**: 100% Operational - Developing autonomy with general supervision
 
 ### Core Expectations
 
@@ -141,9 +141,9 @@ graph LR
 
 ## IC3: Mid 2 (Proficient)
 
-**Career Stage**: Proficient
-**Typical Roles**: Engineer II, Product Manager II, Designer II, Senior Marketing Specialist, Account Executive
-**Focus**: 100% Operational - Fully autonomous execution on complex tasks
+- **Career Stage**: Proficient
+- **Typical Roles**: Engineer II, Product Manager II, Designer II, Senior Marketing Specialist, Account Executive
+- **Focus**: 100% Operational - Fully autonomous execution on complex tasks
 
 ### Core Expectations
 
@@ -185,9 +185,9 @@ graph LR
 
 ## IC4: Senior 1 (Skilled)
 
-**Career Stage**: Career / Fully Functioning
-**Typical Roles**: Senior Engineer, Senior Product Manager, Senior Designer, Senior Analyst, Senior Marketing Manager
-**Focus**: 100% Operational - Independent expert with cross-team influence
+- **Career Stage**: Career / Fully Functioning
+- **Typical Roles**: Senior Engineer, Senior Product Manager, Senior Designer, Senior Analyst, Senior Marketing Manager
+- **Focus**: 100% Operational - Independent expert with cross-team influence
 
 ### Core Expectations
 
@@ -229,9 +229,9 @@ graph LR
 
 ## IC5: Senior 2 (Advanced)
 
-**Career Stage**: Advanced Senior
-**Typical Roles**: Senior Engineer II, Lead Product Manager, Lead Designer, Lead Marketing Manager, Principal Account Executive
-**Focus**: 90% Operational / 10% Strategic - Functional Lead for the team
+- **Career Stage**: Advanced Senior
+- **Typical Roles**: Senior Engineer II, Lead Product Manager, Lead Designer, Lead Marketing Manager, Principal Account Executive
+- **Focus**: 90% Operational / 10% Strategic - Functional Lead for the team
 
 ### Core Expectations
 
@@ -273,9 +273,9 @@ graph LR
 
 ## IC6: Staff (Expert)
 
-**Career Stage**: Senior/Seasoned
-**Typical Roles**: Staff Engineer, Staff Product Manager, Staff Designer, Staff Analyst, Staff Marketing Manager
-**Focus**: 80% Operational / 20% Strategic - Cross-team leadership
+- **Career Stage**: Senior/Seasoned
+- **Typical Roles**: Staff Engineer, Staff Product Manager, Staff Designer, Staff Analyst, Staff Marketing Manager
+- **Focus**: 80% Operational / 20% Strategic - Cross-team leadership
 
 ### Core Expectations
 
@@ -321,9 +321,9 @@ graph LR
 
 ## IC7: Senior Staff (Advisor)
 
-**Career Stage**: Expert Advisor
-**Typical Roles**: Senior Staff Engineer, Senior Staff Product Manager, Senior Staff Designer, Senior Staff Analyst
-**Focus**: 70% Operational / 30% Strategic - Cross-team leadership with broadening scope
+- **Career Stage**: Expert Advisor
+- **Typical Roles**: Senior Staff Engineer, Senior Staff Product Manager, Senior Staff Designer, Senior Staff Analyst
+- **Focus**: 70% Operational / 30% Strategic - Cross-team leadership with broadening scope
 
 ### Core Expectations
 
@@ -369,9 +369,9 @@ graph LR
 
 ## IC8: Principal (Strategist)
 
-**Career Stage**: Lead / Strategist
-**Typical Roles**: Principal Engineer, Principal Product Manager, Principal Designer, Principal Analyst
-**Focus**: 60% Operational / 40% Strategic - Strategic leadership across the organization
+- **Career Stage**: Lead / Strategist
+- **Typical Roles**: Principal Engineer, Principal Product Manager, Principal Designer, Principal Analyst
+- **Focus**: 60% Operational / 40% Strategic - Strategic leadership across the organization
 
 ### Core Expectations
 
@@ -417,9 +417,9 @@ graph LR
 
 ## IC9: Distinguished (Thought Leader)
 
-**Career Stage**: Industry Leader
-**Typical Roles**: Distinguished Engineer, Fellow, Research Scientist
-**Focus**: 50% Operational / 50% Strategic - Industry-defining leadership
+- **Career Stage**: Industry Leader
+- **Typical Roles**: Distinguished Engineer, Fellow, Research Scientist
+- **Focus**: 50% Operational / 50% Strategic - Industry-defining leadership
 
 ### Core Expectations
 

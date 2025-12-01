@@ -53,9 +53,9 @@ flowchart LR
 
 ## M4: Lead Manager
 
-**Career Stage**: Lead Supervisory / Manager Supervisory
-**Typical Roles**: Engineering Manager, Product Manager (with reports), Design Manager, Marketing Manager, Sales Manager
-**Focus**: 80% Operational / 20% Strategic - Day-to-day team management with hands-on involvement
+- **Career Stage**: Lead Supervisory / Manager Supervisory
+- **Typical Roles**: Engineering Manager, Product Manager (with reports), Design Manager, Marketing Manager, Sales Manager
+- **Focus**: 80% Operational / 20% Strategic - Day-to-day team management with hands-on involvement
 
 ### Core Expectations
 
@@ -118,9 +118,9 @@ flowchart LR
 
 ## M5: Manager
 
-**Career Stage**: Management
-**Typical Roles**: Senior Engineering Manager, Senior Product Manager (large team), Head of Design, Senior Marketing Manager, Senior Sales Manager
-**Focus**: 70% Operational / 30% Strategic - Multi-team coordination with strategic planning
+- **Career Stage**: Management
+- **Typical Roles**: Senior Engineering Manager, Senior Product Manager (large team), Head of Design, Senior Marketing Manager, Senior Sales Manager
+- **Focus**: 70% Operational / 30% Strategic - Multi-team coordination with strategic planning
 
 ### Core Expectations
 
@@ -179,9 +179,9 @@ flowchart LR
 
 ## M6: Senior Manager
 
-**Career Stage**: Senior Manager
-**Typical Roles**: Director of Engineering, Director of Product, Head of Design, Director of Marketing, Director of Sales
-**Focus**: 60% Operational / 40% Strategic - Functional leadership with strategic planning
+- **Career Stage**: Senior Manager
+- **Typical Roles**: Director of Engineering, Director of Product, Head of Design, Director of Marketing, Director of Sales
+- **Focus**: 60% Operational / 40% Strategic - Functional leadership with strategic planning
 
 ### Core Expectations
 
@@ -240,9 +240,9 @@ flowchart LR
 
 ## M7: Head of
 
-**Career Stage**: Head of / Middle Management
-**Typical Roles**: Head of Engineering, Head of Product, Head of Design, Head of Marketing, Head of Sales
-**Focus**: 50% Operational / 50% Strategic - Executive partnership on company strategy
+- **Career Stage**: Head of / Middle Management
+- **Typical Roles**: Head of Engineering, Head of Product, Head of Design, Head of Marketing, Head of Sales
+- **Focus**: 50% Operational / 50% Strategic - Executive partnership on company strategy
 
 ### Core Expectations
 
@@ -301,9 +301,9 @@ flowchart LR
 
 ## M8: Director
 
-**Career Stage**: Director Management
-**Typical Roles**: Director of Engineering, Director of Product, Director of Operations, Director of Marketing, Director of Sales
-**Focus**: 40% Operational / 60% Strategic - Functional director with executive influence
+- **Career Stage**: Director Management
+- **Typical Roles**: Director of Engineering, Director of Product, Director of Operations, Director of Marketing, Director of Sales
+- **Focus**: 40% Operational / 60% Strategic - Functional director with executive influence
 
 ### Core Expectations
 
@@ -362,9 +362,9 @@ flowchart LR
 
 ## M9: VP
 
-**Career Stage**: Senior Executive Management
-**Typical Roles**: VP of Engineering, VP of Product, VP of Marketing, VP of Sales, VP/GM for major business unit
-**Focus**: 30% Operational / 70% Strategic - Senior executive leadership with board-level partnership and division/accountable P&L
+- **Career Stage**: Senior Executive Management
+- **Typical Roles**: VP of Engineering, VP of Product, VP of Marketing, VP of Sales, VP/GM for major business unit
+- **Focus**: 30% Operational / 70% Strategic - Senior executive leadership with board-level partnership and division/accountable P&L
 
 ### Core Expectations
 
@@ -423,9 +423,9 @@ flowchart LR
 
 ## M10: Senior Vice President
 
-**Career Stage**: Enterprise Executive Leadership
-**Typical Roles**: Senior/Executive Vice President, President of major business unit, Chief Officers (CTO, CPO, CMO, CRO)
-**Focus**: 20% Operational / 80% Strategic - Enterprise stewardship with board/investor partnership and market shaping
+- **Career Stage**: Enterprise Executive Leadership
+- **Typical Roles**: Senior/Executive Vice President, President of major business unit, Chief Officers (CTO, CPO, CMO, CRO)
+- **Focus**: 20% Operational / 80% Strategic - Enterprise stewardship with board/investor partnership and market shaping
 
 ### Core Expectations
 
