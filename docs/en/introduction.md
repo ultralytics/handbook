@@ -5,9 +5,11 @@ keywords: Ultralytics handbook, company introduction, AI handbook, employee guid
 
 # Introduction
 
-## About This Handbook
+Welcome to the Ultralytics Employee Handbook! This handbook is your guide to working at Ultralytics. It contains information about our company culture, policies, and procedures.
 
-This handbook is your comprehensive guide to working at and contributing to [Ultralytics](https://www.ultralytics.com/). It covers our mission, values, operational workflows, and the practical details that make our organization run smoothly.
+We are an AI-first company, which means that we believe in the power of AI to change the world. We are committed to building the best AI products and services, and to creating a work environment that is both challenging and rewarding.
+
+We believe in transparency and open communication, and we encourage all employees to be active participants in the life of the company.
 
 ## Purpose and Scope 🎯
 
