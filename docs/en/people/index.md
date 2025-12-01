@@ -168,7 +168,7 @@ See [Relocation Policy](../finance/relocation.md) for eligibility criteria.
 
 ### AI-First Expectation
 
-Ultralytics operates as an AI-first company. Everyone is encouraged to use approved AI tools and automations by default to accelerate work and improve quality, while applying sound judgment to keep data secure and outputs accurate.
+At Ultralytics, our AI-first principle is woven into every role. We aggressively leverage approved AI tools and automations to accelerate workflows, enhance quality, and drive innovation. This mandate comes with a critical responsibility: apply rigorous judgment to ensure data security and output accuracy.
 
 ### Required Training
 
