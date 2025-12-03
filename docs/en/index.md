@@ -245,7 +245,6 @@ Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your compr
 
     === "Technical Support"
 
-        - **Email:** [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com)
         - **Slack:** `#it-support`
 
     === "Finance"

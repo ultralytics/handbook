@@ -198,7 +198,6 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     Contact **IT Support immediately**:
 
-    - **Email**: [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com)
     - **Slack**: `#it-support` channel
 
     Report:

@@ -336,7 +336,6 @@ All devices must adhere to these security requirements enforced via Rippling MDM
 
 !!! danger "Report Immediately to IT Support"
 
-    **Email:** [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com)
     **Slack:** `#it-support` channel
 
     Report any of the following immediately:

@@ -340,7 +340,7 @@ Exceptions may be considered for:
 
     | Question Type | Contact |
     |--------------|---------|
-    | **Policy questions** | Your manager or HR team |
-    | **Rippling issues** | IT Support: [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com) |
+    | **Policy questions** | Your manager or HR team (`#hr` on Slack) |
+    | **Rippling issues** | Post in `#it-support` on Slack |
     | **Special requests** | Your direct manager |
-    | **Country-specific rules** | HR team |
+    | **Country-specific rules** | HR team in `#hr` |
