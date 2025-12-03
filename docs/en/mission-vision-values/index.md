@@ -94,6 +94,12 @@ We value open, honest, and transparent communication, where everyone's voice is 
 
 We work where the speed is. Our computer vision breakthroughs demand high-bandwidth collaboration—real-time debugging, rapid whiteboarding, and fast decision loops. While we fiercely protect focus time, **Anchor Days (Tuesday-Thursday)** are the default operating system for anyone within commutable distance of our hubs. In-person collaboration on these days reduces latency across teams and keeps our innovation "state of the art." Badge data verifies consistency, and presence is factored into performance and promotion to keep our cultural wiring aligned with our ambitions.
 
+!!! tip "Why In-Person Wins"
+
+- **Speed:** Live decisions beat async threads when stakes are high.
+- **Clarity:** Whiteboards, labs, and shared context cut ambiguity.
+- **Growth:** Shoulder-to-shoulder mentoring accelerates skills and visibility.
+
 ## Living Our Values 🤝
 
 <div class="grid cards" markdown>

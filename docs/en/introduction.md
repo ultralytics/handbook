@@ -177,6 +177,12 @@ Ultralytics is an AI-first company. We expect everyone to default to AI assistan
     === "Community-Powered"
         1M+ developers and contributors actively shape our direction.
 
+!!! tip "Why In-Person Wins"
+
+    - **Lower latency decisions:** Whiteboard in real time and ship faster.
+    - **Richer mentorship:** Learn from peers and leaders live, not lagged.
+    - **Career velocity:** Presence boosts visibility, impact, and promotion pace.
+
 ## Daily Operations ⚙️
 
 - **Anchor Days (Tue/Wed/Thu):** Mandatory in-office presence for anyone within commutable distance of our London, Madrid, or Shenzhen hubs. We expect synchronous, in-person collaboration during local business hours on these days.

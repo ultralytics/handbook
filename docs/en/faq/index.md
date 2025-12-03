@@ -57,6 +57,15 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     Anchor Days are a performance expectation: badge data is reviewed for consistency, and participation influences performance ratings and promotion eligibility. Mondays/Fridays are flex for deep work; full-week onsite may be required for launches.
 
+??? question "Why do we emphasize in-person collaboration?"
+
+    - **Speed:** Faster decisions and debugging on whiteboards.
+    - **Quality:** Shared context reduces rework and ambiguity.
+    - **Growth:** Shoulder-to-shoulder mentoring accelerates your skills and visibility.
+    - **Perks:** Better hardware, labs, lunch, and real-time feedback.
+
+    Badge data is used to credit consistent attendance and keep spaces safe, handled per our privacy commitments.
+
 ??? question "Who do I contact for different types of questions?"
 
     | Question Type | Contact |
