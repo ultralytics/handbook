@@ -1,6 +1,6 @@
 ---
 description: Ultralytics Finance Handbook providing guidelines on financial procedures, travel policy, relocation, referral bonuses, reimbursement processes, and expense management.
-keywords: Ultralytics finance, finance handbook, expense reporting, reimbursements, travel policy, relocation, referral bonus, budget guidelines, remote setup
+keywords: Ultralytics finance, finance handbook, expense reporting, reimbursements, travel policy, relocation, referral bonus, budget guidelines, onsite setup
 ---
 
 # Ultralytics Finance Handbook 📘

@@ -7,7 +7,7 @@ keywords: Ultralytics, Employee Relocation, Relocation Policy, Proximity Package
 
 ## Purpose and Scope 📌
 
-We want you to love where you live and work. Long commutes drain energy that could be spent on innovation (or life!). To encourage you to live near our vibrant hubs, we offer a **Proximity Relocation Package**.
+We want you to love where you live and work. Long commutes drain energy that could be spent on innovation (or life!). To keep our High-Resolution Hybrid model humming, we need you close enough to collaborate at full bandwidth on Anchor Days (Tue/Wed/Thu). To encourage you to live near our vibrant hubs, we offer a **Proximity Relocation Package**.
 
 This policy applies to new hires or existing employees relocating to be near our London, Madrid, or Shenzhen offices.
 
@@ -161,7 +161,7 @@ If you leave Ultralytics voluntarily within 24 months of your relocation/payment
 
 !!! warning "Office Attendance"
 
-    **All employees work onsite 5 days per week** at their office location. The Proximity Package is specifically designed to make this daily routine easier and more enjoyable.
+    **Anchor Days (Tue/Wed/Thu) are mandatory onsite** for anyone within commutable distance. The Proximity Package ensures you can reliably badge in, collaborate in real time, and meet performance expectations tied to in-office presence.
 
 ## Questions?
 
