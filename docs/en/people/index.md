@@ -122,7 +122,7 @@ Contact HR for current learning budget amounts and policies.
 - **Growth planning** with clear development goals aligned to [career levels](careers/index.md)
 - **Career progression** with defined levels and promotion criteria
 - **Compensation reviews** conducted annually at year-end, applied in Q1 (January paycheck)
-- **Community Presence (Core Competency)**: Consistent participation in **Anchor Days (Tue/Wed/Thu)** is required to **meet expectations**; badge data is reviewed and absences impact performance ratings and promotion eligibility.
+- **Community Presence (Core Competency)**: Consistent participation in **Anchor Days (Tue/Wed/Thu)** keeps you on track for meeting expectations and promotions; protected leave and documented exceptions are exempt, and we review badge data to credit consistent attendance.
 
 ### Internal Mobility
 

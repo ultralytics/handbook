@@ -11,6 +11,10 @@ Comprehensive career framework for Individual Contributors at Ultralytics, defin
 
     Individual Contributors achieve impact through deep expertise and individual work. Both IC and [Management tracks](levels-management.md) offer equal advancement potential and compensation at equivalent scope levels. See [Career Progression](index.md) for the complete framework.
 
+!!! tip "Presence & Collaboration"
+
+    High-Resolution Hybrid is foundational: if you're within commutable distance, **Anchor Days (Tue/Wed/Thu) onsite** are mandatory. Badge consistency and in-person collaboration are baseline expectations at every IC level; reliable Anchor Day participation keeps you promotion-ready.
+
 ## Career Progression
 
 ```mermaid

@@ -22,6 +22,10 @@ timeline
         Termination Agreement : Ongoing obligations clarified
 ```
 
+!!! tip "Badge Discipline"
+
+    Badges are both a security control and a way to credit your **Anchor Day (Tue/Wed/Thu)** attendance. If you're within commutable distance, badge in every Anchor Day so we can keep spaces safe and recognize your presence.
+
 ## Before You Start
 
 <div class="grid cards" markdown>

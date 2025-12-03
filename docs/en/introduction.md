@@ -152,7 +152,7 @@ Ultralytics is an AI-first company. We expect everyone to default to AI assistan
     === "High-Resolution Hybrid"
         We work where the speed is. Tuesdays, Wednesdays, and Thursdays are **Anchor Days**—all team members within commutable distance are expected to be onsite to reduce latency, whiteboard in real time, and debug together.
 
-        Badge data is reviewed for consistency, and Anchor Day presence is a core performance and promotion input (mirroring Google's standard). Opting into **5 days onsite** unlocks richer in-office perks and faster feedback loops.
+        Badge data is reviewed to keep teams in sync and credit consistent attendance; Anchor Day presence is a core performance and promotion input for Ultralytics. Opting into **5 days onsite** unlocks richer in-office perks and faster feedback loops.
 
         Mondays and Fridays are flex for deep work, but critical launches may call for full-week co-location. :material-dog: All our offices are dog-friendly!
 

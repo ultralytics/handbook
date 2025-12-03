@@ -51,6 +51,10 @@ flowchart LR
 
 ---
 
+!!! tip "Presence & Modeling"
+
+    Leaders set the cadence for High-Resolution Hybrid. If you're within commutable distance, **Anchor Days (Tue/Wed/Thu) onsite with consistent badge use** are mandatory. Managers are accountable for modeling in-office collaboration, coaching attendance, and ensuring teams align to Anchor Day performance expectations.
+
 ## M4: Lead Manager
 
 - **Career Stage**: Lead Supervisory / Manager Supervisory
