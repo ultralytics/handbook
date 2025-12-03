@@ -241,7 +241,7 @@ Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your compr
 
 ## Contact Information 📞
 
-    !!! question "Need Help?"
+!!! question "Need Help?"
 
     === "Technical Support"
 
