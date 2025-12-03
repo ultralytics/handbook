@@ -35,7 +35,7 @@ High-value employees approved for relocation to designated hub cities may be eli
 
 !!! success "Relocation Benefits"
 
-    - **Compensation:** $6,000 flat one-time payment
+    - **Compensation:** $10,000 flat one-time payment
     - **Eligible Cities:** Madrid, London, or Shenzhen
     - **Requirement:** 18-month tenure commitment
 

@@ -11,6 +11,12 @@ This guide covers the development process for contributing to [Ultralytics](http
 
 All contributors must adhere to our [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/). Respect, kindness, and professionalism are at the heart of our community. For detailed contribution guidelines, see the [Official Contributing Guide](https://docs.ultralytics.com/help/contributing/).
 
+## Collaboration Cadence 🛰️
+
+- **Anchor Days (Tue/Wed/Thu):** For teammates within commutable distance, code reviews, design debates, and debugging happen in person by default—opt for whiteboards over long threads to reduce latency.
+- **Mon/Fri:** Favor deep work and async updates; move critical blockers to the next Anchor Day if they need synchronous alignment.
+- **Standups & Reviews:** Timebox standups to 15 minutes; schedule design/architecture reviews on Anchor Days to maximize bandwidth.
+
 ## Pull Request Process 🔄
 
 ```mermaid

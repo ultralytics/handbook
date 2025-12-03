@@ -109,7 +109,7 @@ Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your compr
 
     ***
 
-    $6K for hub city moves
+    $10K for onsite collaboration moves
 
 - :material-account-plus: **[Referral Bonus](finance/referral-bonus.md)**
 
