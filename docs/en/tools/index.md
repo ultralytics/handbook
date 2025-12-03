@@ -60,12 +60,12 @@ This is a summary of the most common procedures. For full details, please refer 
 ## Who to Contact 🤝
 
 > **For technical issues, device setup, or security questions:**
-> ➡️ **IT Support** at [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com) or in the **#it-support** Slack channel.
+> ➡️ **IT Support** in the **#it-support** Slack channel.
 
 > **For questions about purchases, reimbursements, or budgets:**
-> ➡️ The **Finance Team**.
+> ➡️ The **Finance Team** in `#finance`.
 
 > **For policy exceptions, hardware approvals, or role-specific needs:**
-> ➡️ Your **Direct Manager**.
+> ➡️ Your **Direct Manager** or `#hr` for people-related approvals.
 
 This framework ensures our technology resources are managed consistently, securely, and effectively across our global organization. 🚀

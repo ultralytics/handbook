@@ -196,7 +196,6 @@ Security regulations and threats evolve constantly. We'll keep you updated throu
 
         ---
 
-        [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com)
         `#it-support` on Slack
 
     -   :material-scale-balance: **Legal/Compliance**
@@ -210,7 +209,7 @@ Security regulations and threats evolve constantly. We'll keep you updated throu
 
         ---
 
-        Contact your manager or HR team
+        Contact your manager or HR team in `#hr`
 
     </div>
 

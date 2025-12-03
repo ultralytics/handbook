@@ -50,7 +50,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 ### Access Setup Sequence
 
 - Expect to first receive an invite at your **personal email** to sign into [Rippling](https://www.rippling.com/) and complete all onboarding steps there (ID verification, profile, benefits, etc.).
-- After Rippling is ready, sign into Slack with your new Ultralytics email (typically `first@ultralytics.com`) so teammates can find you.
+- After Rippling is ready, sign into Slack with your new Ultralytics email so teammates can find you.
 - Finally, sign up to the [Ultralytics Portal](https://portal.ultralytics.com)—your essential gateway for internal orientation, critical onboarding tasks, and immediate access to core company resources.
 
 ### What to Prepare
@@ -85,7 +85,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
     - Sign up to the [Ultralytics Portal](https://portal.ultralytics.com) post-Slack setup. This is your central operational hub, featuring real-time dashboards, vital onboarding steps, and critical tools.
     - Configure email signature (automated)
 
-    Contact [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com) or `#it-support` on Slack if you need help.
+    Need help? Post in the `#it-support` Slack channel for fastest response.
 
 === "HR Onboarding (45 min)"
 
@@ -330,14 +330,17 @@ Work with your manager to define specific, measurable goals:
 - **#general**: Company-wide announcements and updates
 - **#it-support**: Technical issues and hardware requests
 - **#compliance**: Security and legal questions
+- **#hr**: Benefits, payroll, and people questions
+- **#finance**: Expenses, reimbursements, and budgets
+- **#community** / **#yolo**: Product and community chatter
 - **#engineering** or **#your-team**: Your team's channel
 - **#random**: Casual conversation and team building
 
 ### Who to Contact
 
 - **Manager**: Day-to-day questions, project guidance, career development
-- **HR Team**: Benefits, PTO, policies, personal matters
-- **IT Support**: [helpdesk@ultralytics.com](mailto:helpdesk@ultralytics.com) or `#it-support`
+- **HR Team**: Benefits, PTO, policies, personal matters (`#hr` on Slack)
+- **IT Support**: `#it-support` on Slack
 - **Legal**: [legal@ultralytics.com](mailto:legal@ultralytics.com) for contracts and compliance
 - **Security**: [security@ultralytics.com](mailto:security@ultralytics.com) for incidents
 
