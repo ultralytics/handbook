@@ -149,12 +149,12 @@ Ultralytics is an AI-first company. We expect everyone to default to AI assistan
 
 !!! info "Our Work Culture"
 
-    === "In-Person First"
-        Most positions are onsite at our London, Madrid, or Shenzhen offices with a **3-day/week in-person requirement**.
+    === "High-Resolution Hybrid"
+        We work where the speed is. Tuesdays, Wednesdays, and Thursdays are **Anchor Days**—all team members within commutable distance are expected to be onsite to reduce latency, whiteboard in real time, and debug together.
 
-        We thrive on in-person collaboration; team members who choose **5 days onsite** receive additional office benefits, and attendance is a positive factor in quarterly reviews plus year-end compensation and promotion decisions.
+        Badge data is reviewed for consistency, and Anchor Day presence is a core performance and promotion input (mirroring Google's standard). Opting into **5 days onsite** unlocks richer in-office perks and faster feedback loops.
 
-        :material-dog: All our offices are dog-friendly!
+        Mondays and Fridays are flex for deep work, but critical launches may call for full-week co-location. :material-dog: All our offices are dog-friendly!
 
     === "Ship Fast, Learn Faster"
         MVP-first development with 2-week iteration cycles.
@@ -176,6 +176,13 @@ Ultralytics is an AI-first company. We expect everyone to default to AI assistan
 
     === "Community-Powered"
         1M+ developers and contributors actively shape our direction.
+
+## Daily Operations ⚙️
+
+- **Anchor Days (Tue/Wed/Thu):** Mandatory in-office presence for anyone within commutable distance of our London, Madrid, or Shenzhen hubs. We expect synchronous, in-person collaboration during local business hours on these days.
+- **Commutable Distance:** If you can reliably travel to and from a hub on Anchor Days, you are considered commutable and must be onsite; managers escalate edge cases but default to in-office attendance.
+- **Working Rhythm:** Anchor Days prioritize high-bandwidth sessions—design reviews, pair debugging, roadmap alignment—while Mondays/Fridays optimize for heads-down execution and async coordination.
+- **Verification & Performance:** Badge swipes are monitored for consistency; sustained Anchor Day participation is a prerequisite for meeting expectations and promotion eligibility.
 
 ## Our Commitment to You 🤝
 

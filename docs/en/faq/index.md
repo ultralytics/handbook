@@ -51,11 +51,11 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
 ??? question "Are all positions onsite?"
 
-    Most positions are **onsite** (5 days/week) at our London, Madrid, or Shenzhen offices.
+    We operate a **High-Resolution Hybrid** model. If you live within commutable distance of our London, Madrid, or Shenzhen hubs, you are expected to be **onsite every Tuesday, Wednesday, and Thursday**.
 
     :material-dog: **All our offices are dog-friendly!**
 
-    This enables the collaboration and rapid execution that drive our success. Some team members work remotely under existing arrangements or in exceptional cases.
+    Anchor Days are a performance expectation: badge data is reviewed for consistency, and participation influences performance ratings and promotion eligibility. Mondays/Fridays are flex for deep work; full-week onsite may be required for launches.
 
 ??? question "Who do I contact for different types of questions?"
 
@@ -154,6 +154,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
         Equipment ready at your office on **day one**.
 
     === "Remote Employees"
+        For the rare approved-remote roles outside commutable distance:
         1. Order independently
         2. Submit receipts for reimbursement
         3. Follow [Finance procedures](../finance/index.md#reimbursements)

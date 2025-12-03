@@ -7,7 +7,7 @@ keywords: code of conduct, privacy, data protection, business ethics, company va
 
 ## About This Code 📌
 
-Ultralytics operates globally with offices in London, Madrid, and Shenzhen. Most positions are onsite at these dog-friendly locations 🐶, though some team members work remotely. This Code of Business Conduct and Ethics ensures everyone understands their responsibilities and maintains our high standards, regardless of location.
+Ultralytics operates globally with offices in London, Madrid, and Shenzhen. We run a **High-Resolution Hybrid** model: team members within commutable distance badge in on **Anchor Days (Tue/Wed/Thu)** to collaborate at full bandwidth, with badge data reviewed for consistency and performance alignment. This Code of Business Conduct and Ethics ensures everyone understands their responsibilities and maintains our high standards, regardless of location.
 
 !!! info "Related Policies"
 

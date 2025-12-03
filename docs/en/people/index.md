@@ -16,6 +16,10 @@ At Ultralytics, we believe in supporting our team members through comprehensive 
 - **Finance**: Travel, relocation, and referral bonuses
 - **Career Growth**: Development opportunities and progression
 
+## In-Office Experience 🏢
+
+Our High-Resolution Hybrid model makes the office a performance advantage: daily lunch on Anchor Days, immediate access to higher-spec hardware and lab setups, purpose-built collaboration spaces for whiteboarding and debugging, and faster decision loops with your team. The office is the perk that keeps latency low and innovation high.
+
 ## Quick Links 🔗
 
 ### Getting Started
@@ -118,6 +122,7 @@ Contact HR for current learning budget amounts and policies.
 - **Growth planning** with clear development goals aligned to [career levels](careers/index.md)
 - **Career progression** with defined levels and promotion criteria
 - **Compensation reviews** conducted annually at year-end, applied in Q1 (January paycheck)
+- **Community Presence (Core Competency)**: Consistent participation in **Anchor Days (Tue/Wed/Thu)** is required to **meet expectations**; badge data is reviewed and absences impact performance ratings and promotion eligibility.
 
 ### Internal Mobility
 

@@ -82,20 +82,21 @@ timeline
 
 ## New Hire Equipment Process 📦
 
-!!! info "Standard Process - Onsite Positions"
+!!! info "Standard Process - High-Resolution Hybrid"
 
-    Most Ultralytics positions are **onsite** (5 days/week) at our London, Madrid, or Shenzhen offices.
+    Ultralytics runs on **Anchor Days (Tue/Wed/Thu)** for anyone within commutable distance of our London, Madrid, or Shenzhen offices. Plan to badge in and collaborate in person on those days; Mondays/Fridays flex around focused execution.
 
 **Your manager will coordinate with IT to have equipment ready at your office on your first day.** Equipment includes your computer, all accessories, and a fully set up workspace ready when you arrive - just plug in and start working!
 
 ??? note "Exception: Remote Employees"
 
-    For the rare remote positions:
+    For the rare approved-remote positions (outside commutable distance):
 
     1. Order your approved equipment configuration independently
     2. Submit receipts to Finance for reimbursement
     3. Follow standard [reimbursement procedures](../finance/index.md#reimbursements)
     4. Confirm purchase details with manager **before ordering**
+    5. Expect to travel for critical in-person sprints as needed
 
 ### Standard Accessories
 
