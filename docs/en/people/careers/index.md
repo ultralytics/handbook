@@ -124,6 +124,7 @@ Promotions require **sustained demonstration** of next-level performance across 
 3. **Scope** - Expanded scope and complexity appropriate to next level
 4. **Impact** - Demonstrated impact on team, function, or company
 5. **Readiness** - Manager and skip-level agreement
+6. **Presence** - Consistent Anchor Day participation (Tue/Wed/Thu) with badge data aligning to expectations; absence from in-person collaboration will block promotion consideration.
 
 **Strong promotion cases include**: 3-5 specific examples with next-level impact, peer feedback, growth trajectory, and quantified business results.
 

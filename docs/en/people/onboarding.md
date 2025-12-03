@@ -13,6 +13,10 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 
     Expect to receive your onboarding materials **5-7 business days** before your start date. Contact HR immediately if you haven't received everything by this time.
 
+!!! tip "High-Resolution Hybrid Reminder"
+
+    We work where the speed is. If you're within commutable distance of a hub, plan to be onsite every **Tuesday/Wednesday/Thursday Anchor Day** starting Week 1; badge data is reviewed and presence is part of performance. Coordinate travel for Week 1 as needed.
+
 ### Pre-Start Checklist
 
 <div class="grid cards" markdown>
@@ -69,6 +73,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
     - Office tour (onsite at our dog-friendly office 🐶) or virtual workspace overview
     - Team introductions
     - First week schedule review
+    - Anchor Day expectations (Tue/Wed/Thu onsite) and badge process
 
 === "IT Setup (60 min)"
 
@@ -147,12 +152,11 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 
 ### Daily Schedule
 
-**Monday - Friday**:
+**High-Resolution Hybrid cadence**:
 
-- **Morning standup** (15 min): Team sync on progress and blockers
-- **Focus time** (4-6 hours): Deep work on your first project
-- **Lunch break**: Join team or explore office area
-- **1:1 with manager** (Friday, 30 min): Review first week, answer questions, plan next week
+- **Tue/Wed/Thu (Anchor Days)**: Onsite, synchronous collaboration; attend standups, whiteboard sessions, and pair/debug in person. Default to in-office working hours aligned to your hub’s local time.
+- **Mon/Fri**: Flex for deep work and async coordination unless launch weeks require additional onsite collaboration.
+- **Daily rituals**: Morning standup (15 min) for progress/blockers; 4-6 hours of focus time; team lunch on Anchor Days; **1:1 with manager** (Friday, 30 min) to review the week and plan next steps.
 
 ### Week 1 Checklist
 

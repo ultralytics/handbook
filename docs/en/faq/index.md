@@ -293,7 +293,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     | Benefit | Amount | Requirements |
     |---------|--------|--------------|
-    | **Payment** | $6,000 flat one-time | Business-critical move |
+    | **Payment** | $10,000 flat one-time | Business-critical move |
     | **Cities** | Madrid, London, Shenzhen | Pre-approval required |
     | **Commitment** | 18 months tenure | Mandatory |
 

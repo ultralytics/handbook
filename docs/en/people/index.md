@@ -32,7 +32,7 @@ Our High-Resolution Hybrid model makes the office a performance advantage: daily
 
 - **[PTO Policy](pto-policy.md)** - 25 days annual leave plus unlimited sick leave
 - **[Travel Policy](../finance/travel.md)** - Per diem rates and booking procedures
-- **[Relocation Policy](../finance/relocation.md)** - $6K compensation for hub city moves
+- **[Relocation Policy](../finance/relocation.md)** - $10K for onsite collaboration moves
 
 ### Career & Growth
 
@@ -163,7 +163,7 @@ See [Travel Policy](../finance/travel.md) for per diem rates by city.
 
 Eligible employees relocating to hub cities (Madrid, London, Shenzhen):
 
-- **$6,000 flat one-time payment**
+- **$10,000 flat one-time payment**
 - Pre-approval required for business-critical moves
 - 18-month tenure commitment
 
