@@ -162,7 +162,7 @@ Employees earn additional PTO days based on length of service:
         **Madrid:** [City Holidays](https://app.powerbi.com/view?r=eyJrIjoiMWE4ZGU0ZmMtNTI1NC00NWRjLTk3NWYtNTAyMzAwZTI3NDdmIiwidCI6ImI0NTMyYWE2LTE4OTUtNDk2NC1iOWMwLTIyYjE0NDQ0MjcxYiIsImMiOjl9) - Official Madrid city holidays
 
     === "🇨🇳 China"
-        [State Council Public Holidays](https://english.www.gov.cn/policies/latestreleases/202411/12/content_WS67331db5c6d0868f4e8ecd92.html) - Official government announcement
+        [State Council Public Holidays](https://english.www.gov.cn/policies/featured/202511/04/content_WS6909c915c6d00ca5f9a074f7.html) - Official government announcement
 
     === "🇺🇸 United States"
         [OPM Federal Holidays](https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/) - Office of Personnel Management
