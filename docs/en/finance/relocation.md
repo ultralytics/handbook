@@ -29,7 +29,7 @@ This policy applies to new hires or existing employees relocating to be near our
 
     ***
 
-    [5F, CR Land Tower D, 91 Kefa Road, Nanshan District](https://maps.google.com/?q=5F,+CR+Land+Tower+D,+91+Kefa+Road,+Nanshan+District,+Shenzhen,+China)
+    [Room 136, 6F, CR Land Tower D, 91 Kefa Road, Nanshan District](https://maps.google.com/?q=6F,+CR+Land+Tower+D,+91+Kefa+Road,+Nanshan+District,+Shenzhen,+China)
 
 - :flag_gb: **London, UK**
 
