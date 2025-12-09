@@ -240,6 +240,7 @@ Feel free to reach out to team members for guidance:
 | Zuzana Kontrikova       | [zkontri](https://github.com/zkontri)                                 |
 | Miles Deans             | [miles-deans-ultralytics](https://github.com/miles-deans-ultralytics) |
 | Mengyu (Mason) Liu      | [lmycross](https://github.com/lmycross)                               |
+| Craig Maxwell           | [craig-ships-it](https://github.com/craig-ships-it)                   |
 | Andrei Banica           | [banica-ultralytics](https://github.com/banica-ultralytics)           |
 
 ## Get Support 💬
