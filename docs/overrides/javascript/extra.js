@@ -110,9 +110,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // Update all language links
     links.forEach((link) => {
       const lang = link.getAttribute("hreflang");
-      link.href = lang === defaultLang
-        ? `${location.origin}/${basePath}${suffix}`
-        : `${location.origin}/${lang}/${basePath}${suffix}`;
+      link.href =
+        lang === defaultLang
+          ? `${location.origin}/${basePath}${suffix}`
+          : `${location.origin}/${lang}/${basePath}${suffix}`;
     });
   }
 
