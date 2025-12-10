@@ -100,16 +100,16 @@ extra: # version:
       link: https://reddit.com/r/ultralytics
     - icon: fontawesome/brands/weixin
       link: https://weixin.qq.com/r/mp/LxckPDfEgWr_rXNf90I9
-  alternate:
-    - name: 🇬🇧 English
-      link: /
-      lang: en
-    - name: 🇨🇳 简体中文
-      link: /zh/
-      lang: zh
-    - name: 🇪🇸 Español
-      link: /es/
-      lang: es
+#  alternate:
+#    - name: 🇬🇧 English
+#      link: /
+#      lang: en
+#    - name: 🇨🇳 简体中文
+#      link: /zh/
+#      lang: zh
+#    - name: 🇪🇸 Español
+#      link: /es/
+#      lang: es
 
 extra_css:
   - stylesheets/style.css
