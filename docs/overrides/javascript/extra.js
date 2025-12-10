@@ -88,20 +88,25 @@ document.addEventListener("DOMContentLoaded", () => {
       else if (url.pathname === "/" || url.pathname === "") defaultLink = link;
     }
 
-    // Find current language and base path
-    let basePath = path;
+    // Find current language and extract base path (without leading slash)
+    let basePath = path.startsWith("/") ? path.slice(1) : path;
     for (const lang of langs) {
-      if (path.startsWith(`/${lang.code}/`)) {
-        basePath = path.substring(lang.code.length + 1);
+      const prefix = `${lang.code}/`;
+      if (basePath === lang.code || basePath === prefix) {
+        basePath = "";
+        break;
+      }
+      if (basePath.startsWith(prefix)) {
+        basePath = basePath.slice(prefix.length);
         break;
       }
     }
 
     // Update links
     for (const lang of langs) {
-      lang.link.href = `${location.origin}/${lang.code}${basePath}`;
+      lang.link.href = `${location.origin}/${lang.code}/${basePath}`;
     }
-    if (defaultLink) defaultLink.href = location.origin + basePath;
+    if (defaultLink) defaultLink.href = `${location.origin}/${basePath}`;
   }
 
   // Run immediately
