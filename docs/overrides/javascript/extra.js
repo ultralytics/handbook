@@ -1,42 +1,13 @@
 // Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 
 // Block sitemap.xml fetches triggered by Weglot's hreflang tags detected by MkDocs Material
-(() => {
+((originalFetch) => {
   const EMPTY_SITEMAP = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>`;
-
-  const originalFetch = window.fetch;
-  window.fetch = function (url, options) {
-    if (typeof url === "string" && url.includes("/sitemap.xml")) {
-      return Promise.resolve(
-        new Response(EMPTY_SITEMAP, { status: 200, headers: { "Content-Type": "application/xml" } }),
-      );
-    }
-    return originalFetch.apply(this, arguments);
-  };
-
-  const originalXHROpen = XMLHttpRequest.prototype.open;
-  XMLHttpRequest.prototype.open = function (method, url) {
-    if (typeof url === "string" && url.includes("/sitemap.xml")) {
-      this._blockRequest = true;
-    }
-    return originalXHROpen.apply(this, arguments);
-  };
-
-  const originalXHRSend = XMLHttpRequest.prototype.send;
-  XMLHttpRequest.prototype.send = function () {
-    if (this._blockRequest) {
-      Object.defineProperty(this, "status", { value: 200 });
-      Object.defineProperty(this, "responseText", { value: EMPTY_SITEMAP });
-      Object.defineProperty(this, "response", { value: EMPTY_SITEMAP });
-      Object.defineProperty(this, "responseXML", {
-        value: new DOMParser().parseFromString(EMPTY_SITEMAP, "application/xml"),
-      });
-      this.dispatchEvent(new Event("load"));
-      return;
-    }
-    return originalXHRSend.apply(this, arguments);
-  };
-})();
+  window.fetch = (url, options) =>
+    typeof url === "string" && url.includes("/sitemap.xml")
+      ? Promise.resolve(new Response(EMPTY_SITEMAP, { status: 200, headers: { "Content-Type": "application/xml" } }))
+      : originalFetch.call(window, url, options);
+})(window.fetch);
 
 // Apply theme colors based on dark/light mode
 const applyTheme = (isDark) => {
@@ -80,10 +51,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Ultralytics Chat Widget ---------------------------------------------------------------------------------------------
-let _ultralyticsChat = null;
-
 document.addEventListener("DOMContentLoaded", () => {
-  _ultralyticsChat = new UltralyticsChat({
+  new UltralyticsChat({
     welcome: {
       title: "Hello 👋",
       message:
@@ -104,74 +73,26 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Custom language switcher (no MkDocs alternate config needed)
+// Fix language switcher links to preserve current page path, query string, and hash
 (() => {
-  const LANGS = [
-    { name: "🇬🇧 English", code: "en", link: "/" },
-    { name: "🇨🇳 简体中文", code: "zh", link: "/zh/" },
-    { name: "🇪🇸 Español", code: "es", link: "/es/" },
-  ];
-
-  function buildLangSelector() {
-    const wrapper = document.createElement("div");
-    wrapper.className = "md-header__option";
-
-    const select = document.createElement("div");
-    select.className = "md-select";
-    select.dataset.ylLangSelector = "true";
-
-    select.innerHTML = `
-      <button aria-label="Select language" class="md-header__button md-icon" type="button">
-        <svg class="lucide lucide-languages" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path d="m5 8 6 6"></path>
-          <path d="m4 14 6-6 2-3"></path>
-          <path d="M2 5h12"></path>
-          <path d="M7 2h1"></path>
-          <path d="m22 22-5-10-5 10"></path>
-          <path d="M14 18h6"></path>
-        </svg>
-      </button>
-      <div class="md-select__inner">
-        <ul class="md-select__list"></ul>
-      </div>
-    `;
-
-    const list = select.querySelector(".md-select__list");
-    LANGS.forEach(({ name, code, link }) => {
-      const item = document.createElement("li");
-      item.className = "md-select__item";
-      const a = document.createElement("a");
-      a.className = "md-select__link";
-      a.dataset.langCode = code;
-      a.dataset.langDefault = link === "/" ? "true" : "false";
-      a.href = link;
-      a.hreflang = code;
-      a.textContent = name;
-      item.appendChild(a);
-      list.appendChild(item);
-    });
-
-    wrapper.appendChild(select);
-    return wrapper;
-  }
-
-  function injectLangSelector() {
-    if (document.querySelector("[data-yl-lang-selector]")) return;
-    const selector = buildLangSelector();
-    const searchLabel = document.querySelector('label[for="__search"]');
-    if (searchLabel?.parentNode) {
-      searchLabel.parentNode.insertBefore(selector, searchLabel);
-    } else {
-      document.querySelector("nav.md-header__inner")?.appendChild(selector);
-    }
-  }
-
-  function updateLangLinks() {
+  function fixLanguageLinks() {
     const path = location.pathname;
+    const links = document.querySelectorAll(".md-select__link[hreflang]");
+    if (!links.length) return;
+
+    // Derive language codes from the actual links (config-driven)
+    const langCodes = Array.from(links)
+      .map((link) => link.getAttribute("hreflang"))
+      .filter(Boolean);
+    const defaultLang =
+      Array.from(links)
+        .find((link) => link.getAttribute("href") === "/")
+        ?.getAttribute("hreflang") || "en";
 
     // Extract base path (without leading slash and language prefix)
     let basePath = path.startsWith("/") ? path.slice(1) : path;
-    for (const { code } of LANGS) {
+    for (const code of langCodes) {
+      if (code === defaultLang) continue;
       const prefix = `${code}/`;
       if (basePath === code || basePath === prefix) {
         basePath = "";
@@ -183,25 +104,23 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
 
+    // Preserve query string and hash
+    const suffix = location.search + location.hash;
+
     // Update all language links
-    LANGS.forEach(({ code, link }) => {
-      const el = document.querySelector(`[data-lang-code="${code}"]`);
-      if (el) {
-        el.href = link === "/" ? `${location.origin}/${basePath}` : `${location.origin}/${code}/${basePath}`;
-      }
+    links.forEach((link) => {
+      const lang = link.getAttribute("hreflang");
+      link.href =
+        lang === defaultLang
+          ? `${location.origin}/${basePath}${suffix}`
+          : `${location.origin}/${lang}/${basePath}${suffix}`;
     });
   }
 
   // Run on load and navigation
-  injectLangSelector();
-  updateLangLinks();
+  fixLanguageLinks();
 
   if (typeof document$ !== "undefined") {
-    document$.subscribe(() =>
-      setTimeout(() => {
-        injectLangSelector();
-        updateLangLinks();
-      }, 50),
-    );
+    document$.subscribe(() => setTimeout(fixLanguageLinks, 50));
   }
 })();
