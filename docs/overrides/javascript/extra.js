@@ -80,10 +80,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Ultralytics Chat Widget ---------------------------------------------------------------------------------------------
-let _ultralyticsChat = null;
-
 document.addEventListener("DOMContentLoaded", () => {
-  _ultralyticsChat = new UltralyticsChat({
+  new UltralyticsChat({
     welcome: {
       title: "Hello 👋",
       message:
@@ -136,11 +134,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // Update all language links
     links.forEach((link) => {
       const lang = link.getAttribute("hreflang");
-      if (lang === defaultLang) {
-        link.href = `${location.origin}/${basePath}${suffix}`;
-      } else if (langCodes.includes(lang)) {
-        link.href = `${location.origin}/${lang}/${basePath}${suffix}`;
-      }
+      link.href = lang === defaultLang
+        ? `${location.origin}/${basePath}${suffix}`
+        : `${location.origin}/${lang}/${basePath}${suffix}`;
     });
   }
 
