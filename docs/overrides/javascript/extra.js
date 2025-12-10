@@ -7,7 +7,9 @@
   const originalFetch = window.fetch;
   window.fetch = function (url, options) {
     if (typeof url === "string" && url.includes("/sitemap.xml")) {
-      return Promise.resolve(new Response(EMPTY_SITEMAP, { status: 200, headers: { "Content-Type": "application/xml" } }));
+      return Promise.resolve(
+        new Response(EMPTY_SITEMAP, { status: 200, headers: { "Content-Type": "application/xml" } }),
+      );
     }
     return originalFetch.apply(this, arguments);
   };
