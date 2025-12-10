@@ -41,9 +41,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Ultralytics Chat Widget
+// Ultralytics Chat Widget ---------------------------------------------------------------------------------------------
+let _ultralyticsChat = null;
+
 document.addEventListener("DOMContentLoaded", () => {
-  new UltralyticsChat({
+  _ultralyticsChat = new UltralyticsChat({
     welcome: {
       title: "Hello 👋",
       message:
@@ -66,104 +68,55 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Fix language switcher links
 (() => {
-  const LANGS = [
-    { name: "🇬🇧 English", link: "/", lang: "en" },
-    { name: "🇨🇳 简体中文", link: "/zh/", lang: "zh" },
-    { name: "🇪🇸 Español", link: "/es/", lang: "es" },
-  ];
-
-  function buildLangSelector() {
-    const wrapper = document.createElement("div");
-    wrapper.className = "md-header__option";
-
-    const select = document.createElement("div");
-    select.className = "md-select";
-    select.setAttribute("data-yl-lang-selector", "true");
-
-    select.innerHTML = `
-      <button aria-label="Select language" class="md-header__button md-icon" type="button">
-        <svg class="lucide lucide-languages" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path d="m5 8 6 6"></path>
-          <path d="m4 14 6-6 2-3"></path>
-          <path d="M2 5h12"></path>
-          <path d="M7 2h1"></path>
-          <path d="m22 22-5-10-5 10"></path>
-          <path d="M14 18h6"></path>
-        </svg>
-      </button>
-      <div class="md-select__inner">
-        <ul class="md-select__list"></ul>
-      </div>
-    `;
-
-    const list = select.querySelector(".md-select__list");
-    LANGS.forEach((lang) => {
-      const item = document.createElement("li");
-      item.className = "md-select__item";
-
-      const a = document.createElement("a");
-      a.className = "md-select__link";
-      a.setAttribute("data-yl-lang-link", "true");
-      a.setAttribute("data-lang", lang.lang);
-      if (lang.link === "/") a.setAttribute("data-yl-lang-default", "true");
-      a.href = lang.link;
-      a.hreflang = lang.lang;
-      a.textContent = lang.name;
-
-      item.appendChild(a);
-      list.appendChild(item);
-    });
-
-    wrapper.appendChild(select);
-    return wrapper;
-  }
-
-  function injectLangSelector() {
-    if (document.querySelector("[data-yl-lang-selector]")) return;
-    const selectorNode = buildLangSelector();
-    const searchLabel = document.querySelector('label[for="__search"]');
-    if (searchLabel?.parentNode) {
-      searchLabel.parentNode.insertBefore(selectorNode, searchLabel);
-    } else {
-      document.querySelector('nav[aria-label="Header"]')?.appendChild(selectorNode);
-    }
-  }
-
   function fixLanguageLinks() {
-    const path = location.pathname || "/";
+    const path = location.pathname;
+    const links = document.querySelectorAll(".md-select__link");
+    if (!links.length) return;
 
-    // Find current language and extract base path
+    const langs = [];
+    let defaultLink = null;
+
+    // Extract language codes
+    for (const link of links) {
+      const href = link.getAttribute("href");
+      if (!href) continue;
+
+      const url = new URL(href, location.origin);
+      const match = url.pathname.match(/^\/([a-z]{2})\/?$/);
+
+      if (match) langs.push({ code: match[1], link });
+      else if (url.pathname === "/" || url.pathname === "") defaultLink = link;
+    }
+
+    // Find current language and base path
     let basePath = path;
-    for (const { lang } of LANGS) {
-      const prefix = `/${lang}`;
-      if (path === prefix || path === `${prefix}/`) {
-        basePath = "/";
-        break;
-      }
-      if (path.startsWith(`${prefix}/`)) {
-        basePath = path.slice(prefix.length);
+    for (const lang of langs) {
+      if (path.startsWith(`/${lang.code}/`)) {
+        basePath = path.substring(lang.code.length + 1);
         break;
       }
     }
 
     // Update links
-    for (const { lang, link } of LANGS) {
-      const el = document.querySelector(`[data-yl-lang-link][data-lang="${lang}"]`);
-      if (el) el.href = `${location.origin}${link === "/" ? "" : `/${lang}`}${basePath}`;
+    for (const lang of langs) {
+      lang.link.href = `${location.origin}/${lang.code}${basePath}`;
     }
+    if (defaultLink) defaultLink.href = location.origin + basePath;
   }
 
   // Run immediately
-  injectLangSelector();
   fixLanguageLinks();
 
-  // Handle SPA navigation (MkDocs Material)
+  // Handle SPA navigation
   if (typeof document$ !== "undefined") {
-    document$.subscribe(() =>
-      setTimeout(() => {
-        injectLangSelector();
-        fixLanguageLinks();
-      }, 50),
-    );
+    document$.subscribe(() => setTimeout(fixLanguageLinks, 50));
+  } else {
+    let lastPath = location.pathname;
+    setInterval(() => {
+      if (location.pathname !== lastPath) {
+        lastPath = location.pathname;
+        setTimeout(fixLanguageLinks, 50);
+      }
+    }, 200);
   }
 })();
