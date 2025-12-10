@@ -104,18 +104,21 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Fix language switcher links to preserve current page path
+// Fix language switcher links to preserve current page path, query string, and hash
 (() => {
-  const LANG_CODES = ["en", "zh", "es"];
-
   function fixLanguageLinks() {
     const path = location.pathname;
     const links = document.querySelectorAll(".md-select__link[hreflang]");
     if (!links.length) return;
 
+    // Derive language codes from the actual links (config-driven)
+    const langCodes = Array.from(links).map((link) => link.getAttribute("hreflang")).filter(Boolean);
+    const defaultLang = Array.from(links).find((link) => link.getAttribute("href") === "/")?.getAttribute("hreflang") || "en";
+
     // Extract base path (without leading slash and language prefix)
     let basePath = path.startsWith("/") ? path.slice(1) : path;
-    for (const code of LANG_CODES) {
+    for (const code of langCodes) {
+      if (code === defaultLang) continue;
       const prefix = `${code}/`;
       if (basePath === code || basePath === prefix) {
         basePath = "";
@@ -127,13 +130,16 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
 
+    // Preserve query string and hash
+    const suffix = location.search + location.hash;
+
     // Update all language links
     links.forEach((link) => {
       const lang = link.getAttribute("hreflang");
-      if (lang === "en") {
-        link.href = `${location.origin}/${basePath}`;
-      } else if (LANG_CODES.includes(lang)) {
-        link.href = `${location.origin}/${lang}/${basePath}`;
+      if (lang === defaultLang) {
+        link.href = `${location.origin}/${basePath}${suffix}`;
+      } else if (langCodes.includes(lang)) {
+        link.href = `${location.origin}/${lang}/${basePath}${suffix}`;
       }
     });
   }
