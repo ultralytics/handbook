@@ -88,11 +88,16 @@ document.addEventListener("DOMContentLoaded", () => {
       else if (url.pathname === "/" || url.pathname === "") defaultLink = link;
     }
 
-    // Find current language and base path
+    // Find current language and extract base path
     let basePath = path;
     for (const lang of langs) {
-      if (path.startsWith(`/${lang.code}/`)) {
-        basePath = path.substring(lang.code.length + 1);
+      const prefix = `/${lang.code}`;
+      if (path === prefix || path === `${prefix}/`) {
+        basePath = "/";
+        break;
+      }
+      if (path.startsWith(`${prefix}/`)) {
+        basePath = path.slice(prefix.length);
         break;
       }
     }
@@ -101,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
     for (const lang of langs) {
       lang.link.href = `${location.origin}/${lang.code}${basePath}`;
     }
-    if (defaultLink) defaultLink.href = location.origin + basePath;
+    if (defaultLink) defaultLink.href = `${location.origin}${basePath}`;
   }
 
   // Run immediately
