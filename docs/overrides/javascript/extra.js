@@ -120,14 +120,6 @@ document.addEventListener("DOMContentLoaded", () => {
     return wrapper;
   }
 
-  function removeDefaultSelector() {
-    // Remove the built-in selector if it exists and isn't our custom one
-    const defaultSelect = document.querySelector(".md-header__option .md-select:not([data-yl-lang-selector])");
-    if (defaultSelect && defaultSelect.querySelector(".md-select__link[hreflang]")) {
-      defaultSelect.closest(".md-header__option")?.remove();
-    }
-  }
-
   function injectLangSelector() {
     if (document.querySelector("[data-yl-lang-selector]")) return;
     const selectorNode = buildLangSelector();
@@ -175,7 +167,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Run immediately
-  removeDefaultSelector();
   injectLangSelector();
   fixLanguageLinks();
 
@@ -183,7 +174,6 @@ document.addEventListener("DOMContentLoaded", () => {
   if (typeof document$ !== "undefined") {
     document$.subscribe(() =>
       setTimeout(() => {
-        removeDefaultSelector();
         injectLangSelector();
         fixLanguageLinks();
       }, 50),
@@ -194,7 +184,6 @@ document.addEventListener("DOMContentLoaded", () => {
       if (location.pathname !== lastPath) {
         lastPath = location.pathname;
         setTimeout(() => {
-          removeDefaultSelector();
           injectLangSelector();
           fixLanguageLinks();
         }, 50);
