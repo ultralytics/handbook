@@ -110,8 +110,13 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!links.length) return;
 
     // Derive language codes from the actual links (config-driven)
-    const langCodes = Array.from(links).map((link) => link.getAttribute("hreflang")).filter(Boolean);
-    const defaultLang = Array.from(links).find((link) => link.getAttribute("href") === "/")?.getAttribute("hreflang") || "en";
+    const langCodes = Array.from(links)
+      .map((link) => link.getAttribute("hreflang"))
+      .filter(Boolean);
+    const defaultLang =
+      Array.from(links)
+        .find((link) => link.getAttribute("href") === "/")
+        ?.getAttribute("hreflang") || "en";
 
     // Extract base path (without leading slash and language prefix)
     let basePath = path.startsWith("/") ? path.slice(1) : path;
