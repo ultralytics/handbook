@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Update links
     for (const { lang, link } of LANGS) {
       const el = document.querySelector(`[data-yl-lang-link][data-lang="${lang}"]`);
-      if (el) el.href = link === "/" ? `${location.origin}${basePath}` : `${location.origin}/${lang}${basePath}`;
+      if (el) el.href = `${location.origin}${link === "/" ? "" : `/${lang}`}${basePath}`;
     }
   }
 
