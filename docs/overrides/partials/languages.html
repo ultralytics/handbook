@@ -1,11 +1,19 @@
 <!-- Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license -->
 
-{# Custom language selector that matches Material's select styling #}
-{% if config.extra.alternate %}
+{# Custom language selector that matches Material's select styling #} {% if config.extra.alternate %}
 <div class="md-header__option">
   <div class="md-select" data-yl-lang-selector>
     <button aria-label="Select language" class="md-header__button md-icon" type="button">
-      <svg class="lucide lucide-languages" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <svg
+        class="lucide lucide-languages"
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
         <path d="m5 8 6 6"></path>
         <path d="m4 14 6-6 2-3"></path>
         <path d="M2 5h12"></path>
@@ -16,14 +24,19 @@
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
-        {% for alt in config.extra.alternate %}
-        {% set is_root = alt.link in ["", "/"] %}
+        {% for alt in config.extra.alternate %} {% set is_root = alt.link in ["", "/"] %}
         <li class="md-select__item">
           <a
             class="md-select__link"
             data-yl-lang-link
             data-lang="{{ alt.lang }}"
-            {% if is_root %}data-yl-lang-default="true"{% endif %}
+            {%
+            if
+            is_root
+            %}data-yl-lang-default="true"
+            {%
+            endif
+            %}
             href="{{ alt.link }}"
             hreflang="{{ alt.lang }}"
           >

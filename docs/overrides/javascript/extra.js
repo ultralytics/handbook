@@ -185,7 +185,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // Update links
     for (const lang of langs) {
       const isDefault = lang.link.dataset.ylLangDefault === "true";
-      lang.link.href = isDefault ? `${location.origin}${normalizedBase}` : `${location.origin}/${lang.code}${normalizedBase}`;
+      lang.link.href = isDefault
+        ? `${location.origin}${normalizedBase}`
+        : `${location.origin}/${lang.code}${normalizedBase}`;
     }
     if (defaultLink && !langs.find((lang) => lang.link === defaultLink)) {
       defaultLink.href = `${location.origin}${normalizedBase}`;
@@ -199,11 +201,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Handle SPA navigation
   if (typeof document$ !== "undefined") {
-    document$.subscribe(() => setTimeout(() => {
-      removeDefaultSelector();
-      injectLangSelector();
-      fixLanguageLinks();
-    }, 50));
+    document$.subscribe(() =>
+      setTimeout(() => {
+        removeDefaultSelector();
+        injectLangSelector();
+        fixLanguageLinks();
+      }, 50),
+    );
   } else {
     let lastPath = location.pathname;
     setInterval(() => {
