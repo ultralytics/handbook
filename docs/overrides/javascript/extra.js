@@ -159,9 +159,11 @@ document.addEventListener("DOMContentLoaded", () => {
   updateLangLinks();
 
   if (typeof document$ !== "undefined") {
-    document$.subscribe(() => setTimeout(() => {
-      injectLangSelector();
-      updateLangLinks();
-    }, 50));
+    document$.subscribe(() =>
+      setTimeout(() => {
+        injectLangSelector();
+        updateLangLinks();
+      }, 50),
+    );
   }
 })();
