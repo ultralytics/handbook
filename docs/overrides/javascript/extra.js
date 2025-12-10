@@ -41,11 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Ultralytics Chat Widget ---------------------------------------------------------------------------------------------
-let _ultralyticsChat = null;
-
+// Ultralytics Chat Widget
 document.addEventListener("DOMContentLoaded", () => {
-  _ultralyticsChat = new UltralyticsChat({
+  new UltralyticsChat({
     welcome: {
       title: "Hello 👋",
       message:
@@ -107,7 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
       a.className = "md-select__link";
       a.setAttribute("data-yl-lang-link", "true");
       a.setAttribute("data-lang", lang.lang);
-      if (lang.link === "/" || lang.link === "") a.setAttribute("data-yl-lang-default", "true");
+      if (lang.link === "/") a.setAttribute("data-yl-lang-default", "true");
       a.href = lang.link;
       a.hreflang = lang.lang;
       a.textContent = lang.name;
@@ -133,36 +131,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function fixLanguageLinks() {
     const path = location.pathname || "/";
-    const links = Array.from(document.querySelectorAll("[data-yl-lang-link]"));
-    if (!links.length) return;
 
-    const langs = links
-      .map((link) => {
-        const code = (link.dataset.lang || "").toLowerCase();
-        return code ? { code, link } : null;
-      })
-      .filter(Boolean);
-
-    // Find current language and base path
-    const basePath = (() => {
-      for (const lang of langs) {
-        const prefix = `/${lang.code}`;
-        if (path === prefix || path === `${prefix}/`) return "/";
-        if (path.startsWith(`${prefix}/`)) {
-          const remainder = path.slice(prefix.length);
-          return remainder.startsWith("/") ? remainder : `/${remainder}`;
-        }
+    // Find current language and extract base path
+    let basePath = path;
+    for (const { lang } of LANGS) {
+      const prefix = `/${lang}`;
+      if (path === prefix || path === `${prefix}/`) {
+        basePath = "/";
+        break;
       }
-      return path;
-    })();
-    const normalizedBase = basePath.startsWith("/") ? basePath : `/${basePath}`;
+      if (path.startsWith(`${prefix}/`)) {
+        basePath = path.slice(prefix.length);
+        break;
+      }
+    }
 
     // Update links
-    for (const lang of langs) {
-      const isDefault = lang.link.dataset.ylLangDefault === "true";
-      lang.link.href = isDefault
-        ? `${location.origin}${normalizedBase}`
-        : `${location.origin}/${lang.code}${normalizedBase}`;
+    for (const { lang, link } of LANGS) {
+      const el = document.querySelector(`[data-yl-lang-link][data-lang="${lang}"]`);
+      if (el) el.href = link === "/" ? `${location.origin}${basePath}` : `${location.origin}/${lang}${basePath}`;
     }
   }
 
@@ -170,7 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
   injectLangSelector();
   fixLanguageLinks();
 
-  // Handle SPA navigation
+  // Handle SPA navigation (MkDocs Material)
   if (typeof document$ !== "undefined") {
     document$.subscribe(() =>
       setTimeout(() => {
@@ -178,16 +165,5 @@ document.addEventListener("DOMContentLoaded", () => {
         fixLanguageLinks();
       }, 50),
     );
-  } else {
-    let lastPath = location.pathname;
-    setInterval(() => {
-      if (location.pathname !== lastPath) {
-        lastPath = location.pathname;
-        setTimeout(() => {
-          injectLangSelector();
-          fixLanguageLinks();
-        }, 50);
-      }
-    }, 200);
   }
 })();
