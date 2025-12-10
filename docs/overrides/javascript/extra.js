@@ -68,28 +68,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Fix language switcher links
 (() => {
-  const DEFAULT_LANGS = [
+  const LANGS = [
     { name: "🇬🇧 English", link: "/", lang: "en" },
     { name: "🇨🇳 简体中文", link: "/zh/", lang: "zh" },
     { name: "🇪🇸 Español", link: "/es/", lang: "es" },
   ];
 
-  function normalizeLangs() {
-    const cfg = Array.isArray(window.__YL_LANGS) ? window.__YL_LANGS : [];
-    const parsed = cfg
-      .map((lang) => {
-        if (!lang || typeof lang !== "object") return null;
-        const code = (lang.lang || lang.code || "").toLowerCase();
-        const name = lang.name || lang.label;
-        const link = lang.link || lang.url || "/";
-        if (!code || !name) return null;
-        return { name, lang: code, link };
-      })
-      .filter(Boolean);
-    return parsed.length ? parsed : DEFAULT_LANGS;
-  }
-
-  function buildLangSelector(langs) {
+  function buildLangSelector() {
     const wrapper = document.createElement("div");
     wrapper.className = "md-header__option";
 
@@ -114,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
 
     const list = select.querySelector(".md-select__list");
-    langs.forEach((lang) => {
+    LANGS.forEach((lang) => {
       const item = document.createElement("li");
       item.className = "md-select__item";
 
@@ -145,8 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function injectLangSelector() {
     if (document.querySelector("[data-yl-lang-selector]")) return;
-    const langs = normalizeLangs();
-    const selectorNode = buildLangSelector(langs);
+    const selectorNode = buildLangSelector();
     const searchLabel = document.querySelector('label[for="__search"]');
     if (searchLabel?.parentNode) {
       searchLabel.parentNode.insertBefore(selectorNode, searchLabel);
@@ -166,7 +150,6 @@ document.addEventListener("DOMContentLoaded", () => {
         return code ? { code, link } : null;
       })
       .filter(Boolean);
-    const defaultLink = links.find((link) => link.dataset.ylLangDefault === "true") || null;
 
     // Find current language and base path
     const basePath = (() => {
@@ -188,9 +171,6 @@ document.addEventListener("DOMContentLoaded", () => {
       lang.link.href = isDefault
         ? `${location.origin}${normalizedBase}`
         : `${location.origin}/${lang.code}${normalizedBase}`;
-    }
-    if (defaultLink && !langs.find((lang) => lang.link === defaultLink)) {
-      defaultLink.href = `${location.origin}${normalizedBase}`;
     }
   }
 
