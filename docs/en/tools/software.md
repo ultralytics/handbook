@@ -96,7 +96,7 @@ flowchart TD
     C --> n4["Did the the Approver approve your request?"]
     n4 -- Yes --> n1["Admin will provision you access or inform you how to gain access if the tool relies on shared credentials."]
     n4 -- No --> n5["The Approver will provide you with the rejection reason."]
-
+    C --> n4["Did the Approver approve your request?"]
     A@{ shape: rect}
     n3@{ shape: rect}
     n4@{ shape: diam}
