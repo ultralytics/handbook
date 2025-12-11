@@ -64,13 +64,13 @@ Team members can request access to tools through Vanta, either via Slack or the 
 
 **Via Slack**
 
-- Open Vanta app, navigate to Home tab and select ‘Submit access request’
+- Open Vanta app, navigate to Home tab and select `Submit access request`
 - See the [Vanta Help Article](https://help.vanta.com/en/articles/11345423-managing-access-requests-in-vanta) for details
 
 **Via Vanta**
 
 - Log into the [Ultralytics Vanta portal](https://app.vanta.com/c/ultralytics/access/systems/request)
-- Navigate to ‘My access requests’ from the left-hand menu
+- Navigate to `My access requests` from the left-hand menu
 - See the [Vanta Help Article](https://help.vanta.com/en/articles/11345423-managing-access-requests-in-vanta) for details
 
 ### What to Include in Your Request
@@ -83,34 +83,37 @@ When submitting an access request:
 4. If elevated permissions (e.g. admin, owner) are required, specify this and explain the need
 5. Submit the request for approval
 
-Once the **System Approver** approves your request, the **System Admin** will provision access as soon as possible.
+Once the **System Approver** approves your request, the **System Admin** will provision access as soon as possible. After provisioning is complete, you will receive a notification from the Vanta app in Slack as well as a confirmation email.
 
 ### Access Request Workflow
 
 ```mermaid
 flowchart TD
- A@{ label: "Log into Vanta and navigate to <a href='https://app.vanta.com/c/ultralytics/access/systems/request'>My access requests</a> dashboard, or look up Vanta app in Slack, and Submit access request" } --> B{"Did you find the tool you need?"}
+A@{ label: "Log into Vanta and navigate to <a href='https://app.vanta.com/c/ultralytics/access/systems/request'>My access requests</a> dashboard, or look up Vanta app in Slack, and Submit access request" } --> B{"Did you find the tool you need?"}
     B -- Yes --> C["Select the tool you need and request access"]
     B -- No --> D["Follow <a href='https://handbook.ultralytics.com/tools/software/#3-software-approval-vendor-lifecycle'>New Software Approval Process</a>"]
     n3["Need access to a tool?"] --> A
-    C --> n4["Did the the Approver approve your request?"]
+    C --> n4["Did the Approver approve your request?"]
     n4 -- Yes --> n1["Admin will provision you access or inform you how to gain access if the tool relies on shared credentials."]
     n4 -- No --> n5["The Approver will provide you with the rejection reason."]
-    C --> n4["Did the Approver approve your request?"]
+
     A@{ shape: rect}
     n3@{ shape: rect}
     n4@{ shape: diam}
     n5@{ shape: rect}
-     A:::Sky
-     C:::Sky
-     n3:::Sky
-     n1:::Pine
-    classDef Pine stroke-width:1px, stroke-dasharray:none, stroke:#254336, fill:#27654A, color:#FFFFFF
+
+    A:::Sky
+    C:::Sky
+    n3:::Sky
+    n1:::Pine
+
+    classDef Pine stroke-width:1px, stroke-dasharray:none, stroke:#254336, fill:#27654A, color:#374D7C
     classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
+
     style A fill:#e1f5ff,stroke:none
-    style C fill:#d4edda,stroke:none
+    style C fill:#d4edda,stroke:none,color:#374D7C
     style n3 fill:#e1f5ff,stroke:none
-    style n1 stroke:none
+    style n1 fill:#d4edda,stroke:none,color:#374D7C
 ```
 
 ### Best Practice for System Approvers
