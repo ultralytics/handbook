@@ -55,6 +55,7 @@ To maintain security and compatibility, all software not included in the standar
 3. **Review Process:** The Security, Legal, and Finance teams will evaluate the changes to determine if additional approvals or actions are needed.
 
 ## 4. Tool Access Request Process 🛠️
+
 ### Requesting Access
 
 Team members can request access to tools through Vanta, either via Slack or the Vanta platform.
@@ -62,27 +63,29 @@ Team members can request access to tools through Vanta, either via Slack or the 
 ### How to Submit a Request
 
 **Via Slack**
+
 - Open Vanta app, navigate to Home tab and select ‘Submit access request’
-- See the [Vanta Help Article](https://help.vanta.com/en/articles/11345423-managing-access-requests-in-vanta) for details  
+- See the [Vanta Help Article](https://help.vanta.com/en/articles/11345423-managing-access-requests-in-vanta) for details
 
 **Via Vanta**
+
 - Log into the [Ultralytics Vanta portal](https://app.vanta.com/c/ultralytics/access/systems/request)
 - Navigate to ‘My access requests’ from the left-hand menu
-- See the [Vanta Help Article](https://help.vanta.com/en/articles/11345423-managing-access-requests-in-vanta) for details  
+- See the [Vanta Help Article](https://help.vanta.com/en/articles/11345423-managing-access-requests-in-vanta) for details
 
 ### What to Include in Your Request
 
 When submitting an access request:
+
 1. Select the tool you need
 2. Choose the appropriate user role (if applicable)
 3. Provide a clear business justification
 4. If elevated permissions (e.g. admin, owner) are required, specify this and explain the need
 5. Submit the request for approval
 
-Once the **System Approver** approves your request, the **System Admin** will provision access as soon as possible. 
+Once the **System Approver** approves your request, the **System Admin** will provision access as soon as possible.
 
 ### Access Request Workflow
-
 
 ```mermaid
 flowchart TD
@@ -114,24 +117,24 @@ flowchart TD
 
 System Approvers may review access requests via **email, Slack, or directly within Vanta**. Refer to [Vanta guidance for additional information.](https://help.vanta.com/en/articles/11345423-managing-access-requests-in-vanta)
 
-
 **Approval Guidelines**
+
 - **Respond promptly:** Review requests within one business day
 - **Verify necessity:** Ensure the requested access aligns with the team member’s responsibilities
 - **Apply least privilege:** Approve only the minimum access level required
 - **Confirm justification**: Elevated roles should be approved only with clear, documented business need
 
-
 ### Best Practice for System Admins
+
 System Admins are responsible for provisioning tool access once approved. Provisioning is **not automated** and must be completed manually within each tool.
 
 **Approval Guidelines**
+
 - **Respond promptly:** Provision access within one business day of approval
 - **Verify approval:** Confirm approval details before granting access
 - **Grant lowest privilege:** Assign the minimum necessary access unless a higher level is explicitly approved
 - **Document in Vanta:** Mark the request as ‘Provisioned’ once access is granted
-For assistance, contact the Security & Compliance team in the **#it-support** or **#compliance** Slack channels.
-
+  For assistance, contact the Security & Compliance team in the **#it-support** or **#compliance** Slack channels.
 
 ## 5. Acceptable Use Policy 🛡️
 
