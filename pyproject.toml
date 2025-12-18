@@ -64,7 +64,7 @@ dependencies = [
     "pytest-cov",
     "coverage[toml]",
     "zensical>=0.0.9",
-    "mkdocs-ultralytics-plugin>=0.2.2", # for meta descriptions and images, dates and authors
+    "mkdocs-ultralytics-plugin>=0.2.4", # for meta descriptions and images, dates and authors
 ]
 
 # Optional dependencies ------------------------------------------------------------------------------------------------
