@@ -62,7 +62,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     - **Speed:** Faster decisions and debugging on whiteboards.
     - **Quality:** Shared context reduces rework and ambiguity.
     - **Growth:** Shoulder-to-shoulder mentoring accelerates your skills and visibility.
-    - **Perks:** Better hardware, labs, lunch, and real-time feedback.
+    - **Perks:** Better hardware, labs, company-paid Wednesday lunch for in-office employees, and real-time feedback.
 
     Badge data is used to credit consistent attendance and keep spaces safe, handled per our privacy commitments.
 
