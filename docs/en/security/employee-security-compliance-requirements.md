@@ -24,7 +24,7 @@ timeline
 
 !!! tip "Badge Discipline"
 
-    Badges are both a security control and a way to credit your **Anchor Days (Tue/Wed/Thu)** attendance. If you're within commutable distance, badge in each Anchor Day so we can keep spaces safe and recognize your presence.
+    Badges are both a security control and a way to credit your **Anchor Days (Tue/Wed/Thu)** attendance. If you're within commutable distance, badge in on each Anchor Day so we can keep spaces safe and recognize your presence.
 
 ## Before You Start
 

@@ -73,7 +73,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
     - Office tour (onsite at our dog-friendly office 🐶) or virtual workspace overview
     - Team introductions
     - First week schedule review
-    - Anchor Day expectations (Tue/Wed/Thu, onsite) and badge process
+    - Anchor Day expectations (Tue/Wed/Thu onsite) and badge process
 
 === "IT Setup (60 min)"
 
