@@ -1,2 +1,2 @@
-zensical>=0.0.7
+zensical>=0.0.15
 mkdocs-ultralytics-plugin>=0.2.4
