@@ -6,7 +6,7 @@ Welcome to the **Ultralytics Handbook repository**! This repository houses the s
 
 [![Check Broken links](https://github.com/ultralytics/handbook/actions/workflows/links.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/links.yml)
 [![Ultralytics Actions](https://github.com/ultralytics/handbook/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/format.yml)
-[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/handbook-zeta)](https://handbook-zeta.vercel.app/)
+[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/handbook-ultralytics)](https://handbook-ultralytics.vercel.app/)
 [![jsDelivr hits](https://data.jsdelivr.com/v1/package/gh/ultralytics/llm/badge?style=rounded)](https://www.jsdelivr.com/package/gh/ultralytics/llm)
 
 [![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
