@@ -18,7 +18,7 @@ At Ultralytics, we believe in supporting our team members through comprehensive 
 
 ## In-Office Experience 🏢
 
-Our High-Resolution Hybrid model makes the office a performance advantage: daily lunch on Anchor Days, immediate access to higher-spec hardware and lab setups, purpose-built collaboration spaces for whiteboarding and debugging, and faster decision loops with your team. The office is the perk that keeps latency low and innovation high.
+Our High-Resolution Hybrid model makes the office a performance advantage: company-paid lunch every Wednesday for in-office employees, immediate access to higher-spec hardware and lab setups, purpose-built collaboration spaces for whiteboarding and debugging, and faster decision loops with your team. The office is the perk that keeps latency low and innovation high.
 
 ## Quick Links 🔗
 

@@ -15,7 +15,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 
 !!! tip "High-Resolution Hybrid Reminder"
 
-    We work where the speed is. If you're within commutable distance of a hub, plan to be onsite every **Tuesday/Wednesday/Thursday Anchor Day** starting Week 1; badge data is reviewed and presence is part of performance. Coordinate travel for Week 1 as needed.
+    We work where the speed is. If you're within commutable distance of a hub, plan to be onsite every **Tuesday, Wednesday, and Thursday (Anchor Days)** starting Week 1; badge data is reviewed and presence is part of performance. Coordinate travel for Week 1 as needed.
 
 ### Pre-Start Checklist
 
@@ -156,7 +156,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 
 - **Tue/Wed/Thu (Anchor Days)**: Onsite, synchronous collaboration; attend standups, whiteboard sessions, and pair/debug in person. Default to in-office working hours aligned to your hub’s local time.
 - **Mon/Fri**: Flex for deep work and async coordination unless launch weeks require additional onsite collaboration.
-- **Daily rituals**: Morning standup (15 min) for progress/blockers; 4-6 hours of focus time; team lunch on Anchor Days; **1:1 with manager** (Friday, 30 min) to review the week and plan next steps.
+- **Daily rituals**: Morning standup (15 min) for progress/blockers; 4-6 hours of focus time; team lunch on Wednesdays (Ultralytics-paid for in-office employees); **1:1 with manager** (Friday, 30 min) to review the week and plan next steps.
 
 ### Week 1 Checklist
 
@@ -167,7 +167,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 - [x] Join key Slack channels: #general, #it-support, #your-team
 - [x] Submit first PR (even if just fixing a typo in docs)
 - [x] Schedule coffee chats with 3-5 people from other teams
-- [x] Complete your Ultralytics Portal onboarding tasks (e.g., bio/social verification, AI agent enablement if applicable) and bookmark thel dashboard
+- [x] Complete your Ultralytics Portal onboarding tasks (e.g., bio/social verification, AI agent enablement if applicable) and bookmark the dashboard
 
 ## First Month 🎯
 
