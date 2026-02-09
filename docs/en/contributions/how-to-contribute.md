@@ -198,50 +198,55 @@ Feel free to reach out to team members for guidance:
 
 | Name                    | GitHub Profile                                                        |
 | ----------------------- | --------------------------------------------------------------------- |
-| Abrish Sabri            | [asabri97](https://github.com/asabri97)                               |
+| Abi Anderson            | [UltralyticsAbi](https://github.com/UltralyticsAbi)                   |
 | Abirami Vina            | [abirami-vina](https://github.com/abirami-vina)                       |
+| Alex Wong               | [UltraAlex118](https://github.com/UltraAlex118)                       |
 | Alexis Schutzger        | [picsalex](https://github.com/picsalex)                               |
+| Altaïr Kabunda-Margalet | [altair-jpg](https://github.com/altair-jpg)                           |
+| Anastasiia Khrapal      | [nastijakh](https://github.com/nastijakh)                             |
+| Andrei Banica           | [banica-ultralytics](https://github.com/banica-ultralytics)           |
+| Antonina Poludena       | [Antonina2111](https://github.com/Antonina2111)                       |
 | Burhan Qaddoumi         | [Burhan-Q](https://github.com/Burhan-Q)                               |
+| Craig Johnston          | [craigjohnston1](https://github.com/craigjohnston1)                   |
+| Craig Maxwell           | [craig-ships-it](https://github.com/craig-ships-it)                   |
+| Esat Kalfaoglu          | [artest08](https://github.com/artest08)                               |
 | Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                                 |
 | Francesco Mattioli      | [ambitious-octopus](https://github.com/ambitious-octopus)             |
 | Giovanni Dal Zillio     | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)           |
 | Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)                       |
 | Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)                       |
 | Jake Qian               | [fengqianjake](https://github.com/fengqianjake)                       |
+| Jianing Qi （Jalyn）    | [jianing-Jalyn](https://github.com/jianing-Jalyn)                     |
+| Jin Xu                  | [laodouya](https://github.com/laodouya)                               |
 | Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                           |
 | Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                           |
-| Jordan Cooper           | [JCoops1](https://github.com/JCoops1)                                 |
 | Kasim Acikbas           | [kayselmecnun](https://github.com/kayselmecnun)                       |
-| Kirill Viarbitski       | [Kverbitski](https://github.com/Kverbitski)                           |
-| Kiryl Oblikau           | [munknex](https://github.com/munknex)                                 |
+| Kirill Verbitsky        | [Kverbitski](https://github.com/Kverbitski)                           |
 | Kristian Sommer         | [sokrisba](https://github.com/sokrisba)                               |
 | Lakshantha Dissanayake  | [lakshanthad](https://github.com/lakshanthad)                         |
+| Leo Samsinger           | [lsamsinger](https://github.com/lsamsinger)                           |
 | Marius Keiser           | [Skillnoob](https://github.com/Skillnoob)                             |
+| Matt Bristow            | [matt-ultralytics](https://github.com/matt-ultralytics)               |
+| Mengyu (Mason) Liu      | [lmycross](https://github.com/lmycross)                               |
+| Miles Deans             | [miles-deans-ultralytics](https://github.com/miles-deans-ultralytics) |
 | Mohammed Yasin          | [Y-T-G](https://github.com/Y-T-G)                                     |
 | Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar)                     |
 | Mykola Boiko            | [mykolaxboiko](https://github.com/mykolaxboiko)                       |
 | Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)                     |
 | Nuvola Ladi             | [NLadi](https://github.com/NLadi)                                     |
+| Olivia Wang             | [ziyue-olivia](https://github.com/ziyue-olivia)                       |
 | Onuralp Sezer           | [onuralpszr](https://github.com/onuralpszr)                           |
 | Pablo Karnbaum          | [pablokarnbaum](https://github.com/pablokarnbaum)                     |
 | Paula Derrenger         | [pderrenger](https://github.com/pderrenger)                           |
 | Prateek Bhatnagar       | [prateek-ultralytics](https://github.com/prateek-ultralytics)         |
 | Rick Hou                | [Bovey0809](https://github.com/Bovey0809)                             |
-| Ryan Leonel Somali      | [ryanleonels](https://github.com/ryanleonels)                         |
 | Sergiu Waxmann          | [sergiuwaxmann](https://github.com/sergiuwaxmann)                     |
-| Thomas Chuang           | [chuang091](https://github.com/chuang091)                             |
-| William Beaven          | [william-beaven](https://github.com/william-beaven)                   |
-| Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)                   |
-| Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                                   |
-| Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                               |
 | Shuai (Louis) Lyu       | [ShuaiLYU](https://github.com/ShuaiLYU)                               |
-| Abi Anderson            | [UltralyticsAbi](https://github.com/UltralyticsAbi)                   |
-| Jin Xu                  | [laodouya](https://github.com/laodouya)                               |
+| Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                                   |
+| Thomas Chuang           | [chuang091](https://github.com/chuang091)                             |
+| Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)                   |
+| Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                               |
 | Zuzana Kontrikova       | [zkontri](https://github.com/zkontri)                                 |
-| Miles Deans             | [miles-deans-ultralytics](https://github.com/miles-deans-ultralytics) |
-| Mengyu (Mason) Liu      | [lmycross](https://github.com/lmycross)                               |
-| Craig Maxwell           | [craig-ships-it](https://github.com/craig-ships-it)                   |
-| Andrei Banica           | [banica-ultralytics](https://github.com/banica-ultralytics)           |
 
 ## Get Support 💬
 
