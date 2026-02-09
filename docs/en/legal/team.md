@@ -63,7 +63,6 @@
 
 ### Legal Team Contacts
 
-- **Head of Legal**: William Beaven
 - **Email**: [legal@ultralytics.com](mailto:legal@ultralytics.com)
 - **Slack**: `#compliance` (for internal team members)
 
