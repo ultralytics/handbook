@@ -205,7 +205,7 @@ Feel free to reach out to team members for guidance:
 | Altaïr Kabunda-Margalet | [altair-jpg](https://github.com/altair-jpg)                           |
 | Anastasiia Khrapal      | [nastijakh](https://github.com/nastijakh)                             |
 | Andrei Banica           | [banica-ultralytics](https://github.com/banica-ultralytics)           |
-| Antonina Poludena       | [Antonina2111](https://github.com/Antonina2111)           |
+| Antonina Poludena       | [Antonina2111](https://github.com/Antonina2111)                       |
 | Burhan Qaddoumi         | [Burhan-Q](https://github.com/Burhan-Q)                               |
 | Craig Johnston          | [craigjohnston1](https://github.com/craigjohnston1)                   |
 | Craig Maxwell           | [craig-ships-it](https://github.com/craig-ships-it)                   |
@@ -216,7 +216,7 @@ Feel free to reach out to team members for guidance:
 | Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)                       |
 | Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)                       |
 | Jake Qian               | [fengqianjake](https://github.com/fengqianjake)                       |
-| Jianing Qi （Jalyn）     | [jianing-Jalyn](https://github.com/jianing-Jalyn)                     |
+| Jianing Qi （Jalyn）    | [jianing-Jalyn](https://github.com/jianing-Jalyn)                     |
 | Jin Xu                  | [laodouya](https://github.com/laodouya)                               |
 | Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                           |
 | Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                           |
@@ -247,8 +247,6 @@ Feel free to reach out to team members for guidance:
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)                   |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                               |
 | Zuzana Kontrikova       | [zkontri](https://github.com/zkontri)                                 |
-
-
 
 ## Get Support 💬
 
