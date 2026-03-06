@@ -232,7 +232,7 @@ Feel free to reach out to team members for guidance:
 | Thomas Chuang           | [chuang091](https://github.com/chuang091)                             |
 | William Beaven          | [william-beaven](https://github.com/william-beaven)                   |
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)                   |
-| Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                                   |
+| Tigran Hakobyan         | [t-hakobyan](https://github.com/t-hakobyan)                           |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                               |
 | Shuai (Louis) Lyu       | [ShuaiLYU](https://github.com/ShuaiLYU)                               |
 | Abi Anderson            | [UltralyticsAbi](https://github.com/UltralyticsAbi)                   |
