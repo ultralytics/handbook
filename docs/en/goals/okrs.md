@@ -1,87 +1,125 @@
 ---
-description: Ultralytics OKR framework defining objectives and key results for transparent goal-setting, performance tracking, and strategic alignment across the organization.
+description: Ultralytics OKR framework for transparent goal-setting, performance tracking, and strategic alignment across the organization.
 keywords: Ultralytics OKRs, objectives and key results, goal setting, performance metrics, strategic planning, team alignment
 ---
 
-# Objectives and Key Results (OKRs)
+# Objectives and Key Results (OKRs) 🎯
 
-## What are OKRs?
+## What Are OKRs?
 
-OKRs (Objectives and Key Results) are our goal-setting framework for aligning teams and measuring progress. Used by Google, Intel, and leading startups, OKRs help us focus on what matters most:
+!!! info "Goal-Setting Framework"
 
-- **Objectives**: Qualitative, ambitious goals describing what we want to achieve
-- **Key Results**: 3-5 quantitative, time-bound metrics measuring progress toward objectives
-- **Initiatives**: The specific projects and tasks we'll execute to achieve key results
+    OKRs (Objectives and Key Results) are our framework for aligning teams and measuring progress. Used by Google, Intel, and leading startups, OKRs keep everyone focused on what matters most.
+
+    | Component | Description |
+    | --------- | ----------- |
+    | **Objectives** | Qualitative, ambitious goals describing *what* we want to achieve |
+    | **Key Results** | 3–5 quantitative, time-bound metrics measuring progress toward objectives |
+    | **Initiatives** | The specific projects and tasks executed to achieve key results |
 
 ## OKR Structure
 
-### Company OKRs
+<div class="grid cards" markdown>
 
-Set by leadership, defining strategic priorities for the quarter/year. Company OKRs cascade to teams and individuals.
+- :material-office-building: **Company OKRs**
 
-### Team OKRs
+    ***
 
-Each team develops OKRs aligned with company objectives, focusing on their domain's contribution to overall goals.
+    Set by leadership, defining strategic priorities for the quarter or year. Company OKRs cascade down to teams and individuals.
 
-### Individual OKRs
+- :material-account-multiple: **Team OKRs**
 
-Team members set personal OKRs in collaboration with their managers, supporting team and company objectives.
+    ***
+
+    Each team develops OKRs aligned with company objectives, focusing on their domain's contribution to overall goals.
+
+- :material-account: **Individual OKRs**
+
+    ***
+
+    Team members set personal OKRs in collaboration with their managers, supporting both team and company objectives.
+
+</div>
 
 ## OKR Cycle
 
-**Quarterly Cadence**:
+```mermaid
+graph LR
+    A["Planning\n(Week 1)"] --> B["Execution\n(Weeks 2–12)"]
+    B --> C["Review\n(Week 13)"]
+    C --> D[Retrospective]
+    D --> A
 
-1. **Planning** (Week 1): Set OKRs for upcoming quarter
-2. **Execution** (Weeks 2-12): Track progress, weekly check-ins
-3. **Review** (Week 13): Grade OKRs, analyze outcomes
-4. **Retrospective**: Learn and adjust for next quarter
+    style A fill:#e1f5ff
+    style C fill:#fff3cd
+    style D fill:#d4edda
+```
 
-**Annual Strategy**:
+| Phase | Timing | Actions |
+| ----- | ------ | ------- |
+| **Planning** | Week 1 | Set OKRs for the upcoming quarter |
+| **Execution** | Weeks 2–12 | Track progress with weekly check-ins |
+| **Review** | Week 13 | Grade OKRs and analyze outcomes |
+| **Retrospective** | After review | Learn, adjust, and carry insights forward |
 
-- Company-level goals inform quarterly OKRs
-- Year-end review evaluates annual progress
-- Strategic planning for next year
+**Annual Strategy**: Company-level goals inform quarterly OKRs → Year-end review evaluates annual progress → Strategic planning for next year.
 
 ## OKR Best Practices
 
 ### Setting Effective OKRs
 
-- **Ambitious but Achievable**: Target 70-80% achievement rate (not 100% - if hitting 100%, OKRs weren't ambitious enough)
-- **Measurable**: Clear numeric targets (e.g., "Increase PyPI downloads from 500K to 1M/month") or binary outcomes
-- **Time-bound**: Specific deadlines within the quarter (typically 13 weeks)
-- **Aligned**: Cascade from company → team → individual goals
-- **Focused**: 3-5 objectives per level maximum, with 3-5 key results each
-- **Inspiring**: Everyone should understand why the OKR matters
-- **Transparent**: All OKRs visible company-wide for cross-functional alignment
+!!! tip "OKR Design Principles"
+
+    | Principle | Guidance |
+    | --------- | -------- |
+    | **Ambitious but Achievable** | Target 70–80% achievement — hitting 100% means targets weren't bold enough |
+    | **Measurable** | Clear numeric targets (e.g., "Increase PyPI downloads from 500K to 1M/month") or binary outcomes |
+    | **Time-bound** | Specific deadlines within the quarter (typically 13 weeks) |
+    | **Aligned** | Cascade from company → team → individual goals |
+    | **Focused** | 3–5 objectives per level maximum, with 3–5 key results each |
+    | **Inspiring** | Everyone should understand *why* the OKR matters |
+    | **Transparent** | All OKRs visible company-wide for cross-functional alignment |
 
 ### Grading Scale
 
-- **0.0-0.3**: Missed target significantly
-- **0.4-0.6**: Made progress but fell short
-- **0.7-0.9**: Achieved or nearly achieved (success)
-- **1.0**: Exceeded expectations (may need more ambitious targets)
+| Score | Status | Interpretation |
+| ----- | ------ | -------------- |
+| **0.0–0.3** | :octicons-x-circle-fill-16: Missed | Fell significantly short of target |
+| **0.4–0.6** | :material-minus-circle: Progress | Made meaningful progress but fell short |
+| **0.7–0.9** | :material-check-circle: Success | Achieved or nearly achieved — this is the goal |
+| **1.0** | :material-star: Exceeded | May need more ambitious targets next cycle |
+
+!!! note "Grading Philosophy"
+
+    A score of 0.7 is a success, not a failure. If your team consistently scores 1.0, the OKRs were not ambitious enough.
 
 ### Common Pitfalls to Avoid
 
-- **Too Many OKRs**: More than 5 objectives dilutes focus - prioritize ruthlessly
-- **Sandbagging**: Setting easily achievable targets to guarantee success
-- **Task Lists**: Confusing OKRs with project plans ("Launch feature X" vs "Increase user engagement by 50%")
-- **Infrequent Check-ins**: Waiting until quarter-end to review progress
-- **Lack of Ownership**: OKRs without clear owners and accountability
-- **No Mid-Quarter Adjustments**: Being too rigid when priorities shift
-- **Treating OKRs as Performance Reviews**: OKRs measure team progress, not individual performance
+!!! warning "OKR Anti-Patterns"
+
+    | Pitfall | Why It Fails |
+    | ------- | ------------ |
+    | **Too Many OKRs** | More than 5 objectives dilutes focus — prioritize ruthlessly |
+    | **Sandbagging** | Setting easily achievable targets to guarantee success |
+    | **Task Lists** | Confusing OKRs with project plans ("Launch feature X" vs. "Increase user engagement by 50%") |
+    | **Infrequent Check-ins** | Waiting until quarter-end to review progress |
+    | **Lack of Ownership** | OKRs without clear owners and accountability |
+    | **No Mid-Quarter Adjustments** | Being too rigid when priorities shift |
+    | **OKRs as Performance Reviews** | OKRs measure team progress, not individual performance |
 
 ## Transparency & Visibility
 
-OKRs are fully transparent across Ultralytics:
+!!! success "OKRs Are Visible Company-Wide"
 
-- **Company OKRs**: Shared all-hands, posted in Slack, reviewed monthly
-- **Team OKRs**: Accessible in shared workspace (Notion/Linear), discussed in standups
-- **Individual OKRs**: Discussed in 1:1s, aligned with team objectives
-- **Real-Time Tracking**: Live dashboards show progress toward key results
-- **Public Metrics**: Community-facing metrics (GitHub stars, PyPI downloads) shared openly
+    | Level | Where | Cadence |
+    | ----- | ----- | ------- |
+    | **Company OKRs** | All-hands, Slack | Monthly review |
+    | **Team OKRs** | Notion/Linear workspace | Standups |
+    | **Individual OKRs** | 1:1s with manager | Weekly |
+    | **Real-Time Progress** | Live dashboards | Continuous |
+    | **Public Metrics** | GitHub stars, PyPI downloads | Ongoing |
 
-Transparency drives accountability and enables cross-functional collaboration.
+    Transparency drives accountability and enables cross-functional collaboration.
 
 ## Tools & Resources
 

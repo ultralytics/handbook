@@ -1,5 +1,5 @@
 ---
-description: Ultralytics Employee Relocation Policy outlining the Proximity Relocation Package, eligibility based on commute time, flat-rate compensation, and repayment terms.
+description: Ultralytics Employee Relocation Policy covering the $10K Proximity Package, 30-minute commute eligibility, flat-rate payment, and clawback terms.
 keywords: Ultralytics, Employee Relocation, Relocation Policy, Proximity Package, office locations, relocation compensation, flat rate, commute
 ---
 

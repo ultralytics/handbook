@@ -1,5 +1,5 @@
 ---
-description: Ultralytics Finance Handbook providing guidelines on financial procedures, travel policy, relocation, referral bonuses, reimbursement processes, and expense management.
+description: Ultralytics Finance Handbook covering financial procedures, travel policy, relocation, referral bonuses, and expense reimbursement for all employees.
 keywords: Ultralytics finance, finance handbook, expense reporting, reimbursements, travel policy, relocation, referral bonus, budget guidelines, onsite setup
 ---
 
@@ -37,7 +37,7 @@ High-value employees approved for relocation to designated hub cities may be eli
 
     - **Compensation:** $10,000 flat one-time payment
     - **Eligible Cities:** Madrid, London, or Shenzhen
-    - **Requirement:** 18-month tenure commitment
+    - **Clawback:** 24-month repayment schedule applies
 
 ## Referral Bonus 🤝
 

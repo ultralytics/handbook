@@ -1,6 +1,6 @@
 ---
 description: Management career levels M4-M10 at Ultralytics with detailed expectations, internal banding, people leadership scope, and strategic impact.
-keywords: management levels, leadership ladder, manager career, people management, M4, M5, M6, M7, M8, M9, M10, engineering manager, director, VP, SVP, YOLO11
+keywords: management levels, leadership ladder, people management, manager career, director, VP, Ultralytics careers
 ---
 
 # Management Levels (M4-M10)

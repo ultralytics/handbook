@@ -1,5 +1,5 @@
 ---
-description: Ultralytics standardized email signatures with automated Google Workspace integration, profile pictures, and legal disclaimers for consistent professional communication.
+description: Ultralytics email signature setup with automated Google Workspace integration, profile pictures, and legal disclaimers for professional communication.
 keywords: Ultralytics email signatures, Google Workspace automation, Gmail signatures, professional email template, legal disclaimers, company branding
 ---
 
