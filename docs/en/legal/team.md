@@ -18,7 +18,6 @@ keywords: Ultralytics legal team, corporate compliance, employment law, intellec
 - :material-file-sign: **Commercial & Contracts**
 
     ***
-
     - Drafting and negotiating customer agreements
     - Vendor procurement and contracts
     - Partnership and licensing agreements
@@ -28,7 +27,6 @@ keywords: Ultralytics legal team, corporate compliance, employment law, intellec
 - :material-office-building: **Corporate & Compliance**
 
     ***
-
     - Corporate governance and board support
     - Securities compliance and regulatory filings
     - Policy development and implementation
@@ -38,7 +36,6 @@ keywords: Ultralytics legal team, corporate compliance, employment law, intellec
 - :material-account-tie: **Employment Law**
 
     ***
-
     - Employment contracts and agreements
     - HR and workplace policy development
     - Workplace compliance issues
@@ -48,7 +45,6 @@ keywords: Ultralytics legal team, corporate compliance, employment law, intellec
 - :material-lightbulb: **Intellectual Property**
 
     ***
-
     - Trademark registration and protection
     - Copyright support
     - Patent strategy and filing
@@ -58,7 +54,6 @@ keywords: Ultralytics legal team, corporate compliance, employment law, intellec
 - :material-shield-account: **Privacy & Data Protection**
 
     ***
-
     - Privacy policy development
     - Data processing agreements
     - GDPR and global privacy compliance
@@ -70,7 +65,6 @@ keywords: Ultralytics legal team, corporate compliance, employment law, intellec
 - :material-gavel: **Litigation & Disputes**
 
     ***
-
     - Managing contract disputes
     - Employment-related claims
     - IP infringement matters

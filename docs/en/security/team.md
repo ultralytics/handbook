@@ -18,7 +18,6 @@ keywords: Ultralytics security team, compliance, ISO 27001, SOC 2, GDPR, securit
 - :material-shield-lock: **Information Security Management**
 
     ***
-
     - ISMS implementation and maintenance (ISO 27001 aligned)
     - Security risk assessments and management
     - Incident response and breach management
@@ -28,7 +27,6 @@ keywords: Ultralytics security team, compliance, ISO 27001, SOC 2, GDPR, securit
 - :material-clipboard-check: **Compliance & Audit Management**
 
     ***
-
     - SOC 2 Type I and Type II compliance
     - Regulatory compliance assessments
     - Third-party audit coordination
@@ -38,7 +36,6 @@ keywords: Ultralytics security team, compliance, ISO 27001, SOC 2, GDPR, securit
 - :material-architecture: **Security Architecture & Controls**
 
     ***
-
     - Security control design and implementation
     - Access management and identity governance
     - Endpoint protection and device management
@@ -46,7 +43,6 @@ keywords: Ultralytics security team, compliance, ISO 27001, SOC 2, GDPR, securit
 - :material-account-multiple-check: **Vendor & Third-Party Risk**
 
     ***
-
     - Security vendor assessments
     - Due diligence and risk evaluations
     - Contract security requirements
@@ -55,7 +51,6 @@ keywords: Ultralytics security team, compliance, ISO 27001, SOC 2, GDPR, securit
 - :material-restore: **Business Continuity & Recovery**
 
     ***
-
     - Business continuity planning
     - Disaster recovery procedures
     - Recovery testing and validation
@@ -97,22 +92,22 @@ Use the `#compliance` channel for:
 
 ### Compliance Attestations
 
-| Document | Status |
-| -------- | ------ |
-| SOC 2 Report | Planned Q1 2026 |
-| ISO 27001 Certificate | Planned Q1 2026 |
+| Document                   | Status                    |
+| -------------------------- | ------------------------- |
+| SOC 2 Report               | Planned Q1 2026           |
+| ISO 27001 Certificate      | Planned Q1 2026           |
 | Statement of Applicability | Available in Trust Center |
 
 ## Employee Resources
 
 ### Mandatory Annual Training Programs
 
-| Training Module | Audience | Platform |
-| --------------- | -------- | -------- |
-| **CCPA** (California Consumer Privacy Act) | All employees | Vanta |
-| **GDPR** (General Data Protection Regulation) | All employees | Vanta |
-| **General Security Awareness Training** | All employees | Vanta |
-| **Secure Code Training** | YOLO & Platform teams only | Vanta |
+| Training Module                               | Audience                   | Platform |
+| --------------------------------------------- | -------------------------- | -------- |
+| **CCPA** (California Consumer Privacy Act)    | All employees              | Vanta    |
+| **GDPR** (General Data Protection Regulation) | All employees              | Vanta    |
+| **General Security Awareness Training**       | All employees              | Vanta    |
+| **Secure Code Training**                      | YOLO & Platform teams only | Vanta    |
 
 ### Employee Policies & Guidelines
 
@@ -127,12 +122,12 @@ Use the `#compliance` channel for:
 
 ## Compliance Calendar & Audits
 
-| Activity | Target |
-| -------- | ------ |
-| **ISO 27001 & SOC 2 Type I audit** | Q1 2026 |
-| **ISO 27001 surveillance & SOC 2 Type II audit** | Q1 2027 |
-| Annual compliance metrics review | Annually |
-| Annual risk assessments | Annually |
-| Policy reviews | Annually |
-| Continuous security monitoring | Ongoing |
-| Annual information security audits | Annually |
+| Activity                                         | Target   |
+| ------------------------------------------------ | -------- |
+| **ISO 27001 & SOC 2 Type I audit**               | Q1 2026  |
+| **ISO 27001 surveillance & SOC 2 Type II audit** | Q1 2027  |
+| Annual compliance metrics review                 | Annually |
+| Annual risk assessments                          | Annually |
+| Policy reviews                                   | Annually |
+| Continuous security monitoring                   | Ongoing  |
+| Annual information security audits               | Annually |
