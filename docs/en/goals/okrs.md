@@ -55,11 +55,11 @@ graph LR
     style D fill:#d4edda
 ```
 
-| Phase | Timing | Actions |
-| ----- | ------ | ------- |
-| **Planning** | Week 1 | Set OKRs for the upcoming quarter |
-| **Execution** | Weeks 2–12 | Track progress with weekly check-ins |
-| **Review** | Week 13 | Grade OKRs and analyze outcomes |
+| Phase             | Timing       | Actions                                   |
+| ----------------- | ------------ | ----------------------------------------- |
+| **Planning**      | Week 1       | Set OKRs for the upcoming quarter         |
+| **Execution**     | Weeks 2–12   | Track progress with weekly check-ins      |
+| **Review**        | Week 13      | Grade OKRs and analyze outcomes           |
 | **Retrospective** | After review | Learn, adjust, and carry insights forward |
 
 **Annual Strategy**: Company-level goals inform quarterly OKRs → Year-end review evaluates annual progress → Strategic planning for next year.
@@ -82,12 +82,12 @@ graph LR
 
 ### Grading Scale
 
-| Score | Status | Interpretation |
-| ----- | ------ | -------------- |
-| **0.0–0.3** | :octicons-x-circle-fill-16: Missed | Fell significantly short of target |
-| **0.4–0.6** | :material-minus-circle: Progress | Made meaningful progress but fell short |
-| **0.7–0.9** | :material-check-circle: Success | Achieved or nearly achieved — this is the goal |
-| **1.0** | :material-star: Exceeded | May need more ambitious targets next cycle |
+| Score       | Status                             | Interpretation                                 |
+| ----------- | ---------------------------------- | ---------------------------------------------- |
+| **0.0–0.3** | :octicons-x-circle-fill-16: Missed | Fell significantly short of target             |
+| **0.4–0.6** | :material-minus-circle: Progress   | Made meaningful progress but fell short        |
+| **0.7–0.9** | :material-check-circle: Success    | Achieved or nearly achieved — this is the goal |
+| **1.0**     | :material-star: Exceeded           | May need more ambitious targets next cycle     |
 
 !!! note "Grading Philosophy"
 

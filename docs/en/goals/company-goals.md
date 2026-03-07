@@ -18,7 +18,6 @@ keywords: Ultralytics goals, company objectives, strategic priorities, growth ta
 - :material-speedometer: **Product Excellence**
 
     ***
-
     - Maintain YOLO model leadership in accuracy, speed, and ease of use
     - Expand capabilities across detection, segmentation, tracking, and classification
     - Achieve sub-30ms latency on standard hardware for edge deployment
@@ -27,7 +26,6 @@ keywords: Ultralytics goals, company objectives, strategic priorities, growth ta
 - :material-account-group: **Community Growth & Engagement**
 
     ***
-
     - Reach 1M+ monthly PyPI downloads
     - Grow Discord community to 50K+ active members
     - Maintain sub-24-hour average response time on GitHub issues
@@ -37,7 +35,6 @@ keywords: Ultralytics goals, company objectives, strategic priorities, growth ta
 - :material-chart-line: **Revenue Growth & Market Expansion**
 
     ***
-
     - Scale ARR through accelerated enterprise adoption
     - Expand into key verticals: automotive, manufacturing, agriculture, security, healthcare
     - Build strategic partnerships with cloud providers and hardware manufacturers
@@ -47,7 +44,6 @@ keywords: Ultralytics goals, company objectives, strategic priorities, growth ta
 - :material-cloud: **Platform & Infrastructure**
 
     ***
-
     - Launch Platform with enhanced training and deployment capabilities
     - Achieve 99.9% uptime SLA for production services
     - Support inference across CPU, GPU, NPU, and specialized AI accelerators
@@ -82,14 +78,14 @@ graph LR
     style F fill:#fff3cd
 ```
 
-| Step | Cadence | Description |
-| ---- | ------- | ----------- |
-| **Annual Strategy** | Yearly | Leadership defines company-level OKRs and strategic priorities |
-| **Quarterly Planning** | Every 13 weeks | Teams cascade objectives and define key results |
-| **Sprint Execution** | Every 2 weeks | 2-week sprints with weekly progress reviews |
-| **Monthly Check-ins** | Monthly | Cross-functional syncs to ensure alignment |
-| **Quarterly Reviews** | Every 13 weeks | Assess progress, grade OKRs, adjust strategy |
-| **Annual Retrospective** | Yearly | Evaluate the year, celebrate wins, plan next year |
+| Step                     | Cadence        | Description                                                    |
+| ------------------------ | -------------- | -------------------------------------------------------------- |
+| **Annual Strategy**      | Yearly         | Leadership defines company-level OKRs and strategic priorities |
+| **Quarterly Planning**   | Every 13 weeks | Teams cascade objectives and define key results                |
+| **Sprint Execution**     | Every 2 weeks  | 2-week sprints with weekly progress reviews                    |
+| **Monthly Check-ins**    | Monthly        | Cross-functional syncs to ensure alignment                     |
+| **Quarterly Reviews**    | Every 13 weeks | Assess progress, grade OKRs, adjust strategy                   |
+| **Annual Retrospective** | Yearly         | Evaluate the year, celebrate wins, plan next year              |
 
 ## Measurement & Tracking
 
