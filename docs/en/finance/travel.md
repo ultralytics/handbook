@@ -1,5 +1,5 @@
 ---
-description: Ultralytics Employee Travel Policy outlining per diem rates, responsibilities, booking procedures, sustainability practices, and expense reporting guidelines for 2025.
+description: Ultralytics Employee Travel Policy covering per diem rates, booking procedures, expense reporting, and sustainability guidelines for business travel in 2025.
 keywords: Ultralytics, Employee Travel Policy, per diem rates, travel responsibilities, airfare, expense reporting, sustainability, business travel
 ---
 

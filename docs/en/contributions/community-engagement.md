@@ -133,21 +133,13 @@ We recognize outstanding community members through:
 
 ## Community Guidelines ✅
 
-### Do's
-
-- Be respectful and inclusive
-- Help others learn and grow
-- Share knowledge and experiences
-- Provide constructive feedback
-- Give credit where due
-
-### Don'ts
-
-- Spam or self-promote excessively
-- Share others' work without attribution
-- Engage in harassment or discrimination
-- Post off-topic content repeatedly
-- Violate intellectual property rights
+| ✅ Do                           | 🚫 Don't                               |
+| ------------------------------- | -------------------------------------- |
+| Be respectful and inclusive     | Engage in harassment or discrimination |
+| Help others learn and grow      | Spam or self-promote excessively       |
+| Share knowledge and experiences | Share others' work without attribution |
+| Provide constructive feedback   | Post off-topic content repeatedly      |
+| Give credit where credit is due | Violate intellectual property rights   |
 
 ## Get Involved Today! 🚀
 

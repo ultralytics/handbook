@@ -59,13 +59,13 @@ This is a summary of the most common procedures. For full details, please refer 
 
 ## Who to Contact 🤝
 
-> **For technical issues, device setup, or security questions:**
-> ➡️ **IT Support** in the **#it-support** Slack channel.
+!!! question "Need Help?"
 
-> **For questions about purchases, reimbursements, or budgets:**
-> ➡️ The **Finance Team** in `#finance`.
-
-> **For policy exceptions, hardware approvals, or role-specific needs:**
-> ➡️ Your **Direct Manager** or `#hr` for people-related approvals.
+    | Question Type | Contact |
+    | ------------- | ------- |
+    | **Technical issues, device setup, or security** | `#it-support` on Slack |
+    | **Purchases, reimbursements, or budgets** | Finance Team in `#finance` |
+    | **Policy exceptions or hardware approvals** | Your direct manager |
+    | **People-related approvals** | `#hr` on Slack |
 
 This framework ensures our technology resources are managed consistently, securely, and effectively across our global organization. 🚀

@@ -1,5 +1,5 @@
 ---
-description: Ultralytics social media policy for employees covering content sharing guidelines, brand representation, confidentiality, and professional conduct across all platforms.
+description: Ultralytics social media policy covering content sharing, brand representation, confidentiality, and professional conduct guidelines for all employees.
 keywords: Ultralytics social media, employee social media policy, brand guidelines, professional conduct, content sharing, confidentiality policy
 ---
 
