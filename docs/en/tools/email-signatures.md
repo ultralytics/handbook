@@ -67,7 +67,7 @@ For manual setup in other email clients, use the HTML code below.
 </div>
 ```
 
-!!! Note
+!!! note
 
     If you are using this HTML for a custom signature:
 
