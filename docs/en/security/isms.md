@@ -37,10 +37,10 @@ keywords: Ultralytics ISMS, information security, ISO 27001, SOC 2, data protect
 
 ## Core Security Objectives
 
-| Objective | Description |
-| --------- | ----------- |
-| :material-eye-off: **Confidentiality** | Prevent unauthorized access or disclosure through strict controls on customer and personal information |
-| :material-check-decagram: **Integrity** | Ensure completeness, accuracy, and reliability of data and systems through robust validation and protection |
+| Objective                               | Description                                                                                                   |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| :material-eye-off: **Confidentiality**  | Prevent unauthorized access or disclosure through strict controls on customer and personal information        |
+| :material-check-decagram: **Integrity** | Ensure completeness, accuracy, and reliability of data and systems through robust validation and protection   |
 | :material-clock-check: **Availability** | Maintain system readiness and uptime backed by defined recovery objectives and business continuity procedures |
 
 ## Security Program Coverage
@@ -90,16 +90,16 @@ graph TD
 
 ## Security Control Framework
 
-| Domain | Controls |
-| ------ | -------- |
-| **Access Management** | Role-based access with least-privilege principles |
-| **Data Protection** | Classification, handling, and protection of sensitive information |
-| **Asset Management** | Lifecycle management of physical and virtual assets |
-| **Third-Party Risk** | Vendor security assessments and ongoing monitoring |
-| **Incident Response** | Rapid detection, containment, and resolution procedures |
-| **Business Continuity** | Disaster recovery and operational resilience planning |
-| **Secure Development** | Security integrated throughout the software development lifecycle |
-| **Vulnerability Management** | Continuous identification and remediation of security weaknesses |
+| Domain                       | Controls                                                          |
+| ---------------------------- | ----------------------------------------------------------------- |
+| **Access Management**        | Role-based access with least-privilege principles                 |
+| **Data Protection**          | Classification, handling, and protection of sensitive information |
+| **Asset Management**         | Lifecycle management of physical and virtual assets               |
+| **Third-Party Risk**         | Vendor security assessments and ongoing monitoring                |
+| **Incident Response**        | Rapid detection, containment, and resolution procedures           |
+| **Business Continuity**      | Disaster recovery and operational resilience planning             |
+| **Secure Development**       | Security integrated throughout the software development lifecycle |
+| **Vulnerability Management** | Continuous identification and remediation of security weaknesses  |
 
 ## Compliance & Audit Program
 
