@@ -245,6 +245,7 @@ Feel free to reach out to team members for guidance:
 | Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                                   |
 | Thomas Chuang           | [chuang091](https://github.com/chuang091)                             |
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)                   |
+| Tigran Hakobyan         | [t-hakobyan](https://github.com/t-hakobyan)                           |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                               |
 | Zuzana Kontrikova       | [zkontri](https://github.com/zkontri)                                 |
 

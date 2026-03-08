@@ -1,3 +1,8 @@
+---
+description: Ultralytics employee security and compliance requirements covering background checks, mandatory training, performance reviews, and offboarding procedures.
+keywords: Ultralytics security compliance, employee security requirements, mandatory training, GDPR, CCPA, security awareness, Vanta, offboarding
+---
+
 # What to Expect: Security & Compliance Requirements for Employees
 
 Welcome to Ultralytics! This guide explains what you can expect regarding security and compliance requirements during your journey with us.

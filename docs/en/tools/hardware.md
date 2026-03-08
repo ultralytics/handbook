@@ -1,6 +1,6 @@
 ---
-description: Ultralytics Hardware Policy covering computer equipment, Apple Studio Display, mobile devices, security, refresh cycles, and approval processes for all employees.
-keywords: Ultralytics hardware policy, computer equipment, MacBook Air, MacBook Pro, Apple Studio Display, hardware refresh, mobile devices, employee equipment, BYOD, Rippling MDM
+description: Ultralytics Hardware Policy covering MacBook configurations, Apple Studio Display, mobile devices, MDM security, refresh cycles, and approval processes.
+keywords: Ultralytics hardware policy, MacBook Air, MacBook Pro, hardware refresh, mobile devices, BYOD, Rippling MDM, employee equipment
 ---
 
 # Hardware Policy 💻
