@@ -1,6 +1,6 @@
 ---
 description: Individual Contributor (IC) career levels IC1-IC9 at Ultralytics with detailed expectations and progression guidance.
-keywords: IC levels, individual contributor, technical levels, engineering ladder, career progression, IC1, IC2, IC3, IC4, IC5, IC6, IC7, IC8, IC9, Carta, YOLO11
+keywords: IC levels, individual contributor, engineering ladder, career progression, technical levels, Ultralytics careers
 ---
 
 # Individual Contributor Levels (IC1-IC9)

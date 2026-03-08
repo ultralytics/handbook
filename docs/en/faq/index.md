@@ -278,7 +278,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     | Benefit | Details |
     |---------|---------|
     | **Allocation** | Full from day one |
-    | **Rollover** | Up to 15 days (40 day max balance) |
+    | **Rollover** | Up to 10 days (35 day max balance) |
     | **Tenure Bonus** | +1 day every 2 years (up to 30 days total) |
 
     See [PTO Policy](../people/pto-policy.md).
@@ -301,9 +301,9 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     | Benefit | Amount | Requirements |
     |---------|--------|--------------|
-    | **Payment** | $10,000 flat one-time | Business-critical move |
+    | **Payment** | $10,000 flat one-time | 30-min commute to hub |
     | **Cities** | Madrid, London, Shenzhen | Pre-approval required |
-    | **Commitment** | 18 months tenure | Mandatory |
+    | **Clawback** | 100% (0–12 mo) / 50% (12–24 mo) | Applies on voluntary departure |
 
     See [Relocation Policy](../finance/relocation.md) for eligibility.
 

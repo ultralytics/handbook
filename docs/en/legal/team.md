@@ -1,102 +1,118 @@
-# Ultralytics Legal Team
+---
+description: Ultralytics Legal Team overview covering legal services, contact information, anonymous reporting channels, and key company policies.
+keywords: Ultralytics legal team, corporate compliance, employment law, intellectual property, privacy, data protection, anonymous reporting
+---
+
+# Ultralytics Legal Team ⚖️
 
 ## Our Mission
 
-**We provide comprehensive legal support to drive positive outcomes for Ultralytics and our customers in the AI and computer vision technology space.**
+!!! success "Mission"
 
-**As your dedicated legal resource, we facilitate efficient and informed decision-making across all areas of the business, ensuring that compliance and innovation go hand in hand.**
+    We provide comprehensive legal support to drive positive outcomes for Ultralytics and our customers in the AI and computer vision technology space — facilitating efficient, informed decision-making across all areas of the business so that compliance and innovation go hand in hand.
 
 ## Legal Services & Responsibilities
 
-### Commercial & Contracts
+<div class="grid cards" markdown>
 
-- Drafting and negotiating customer agreements
-- Supporting vendor procurement and contracts
-- Partnership and licensing agreements
-- Terms of service and user agreements
-- Channel partner agreements
+- :material-file-sign: **Commercial & Contracts**
 
-### Corporate & Compliance
+    ***
+    - Drafting and negotiating customer agreements
+    - Vendor procurement and contracts
+    - Partnership and licensing agreements
+    - Terms of service and user agreements
+    - Channel partner agreements
 
-- Corporate governance and board support
-- Securities compliance and regulatory filings
-- Policy development and implementation
-- Ethics and compliance program oversight
-- Risk assessment and mitigation
+- :material-office-building: **Corporate & Compliance**
 
-### Employment Law
+    ***
+    - Corporate governance and board support
+    - Securities compliance and regulatory filings
+    - Policy development and implementation
+    - Ethics and compliance program oversight
+    - Risk assessment and mitigation
 
-- Employment contracts and agreements
-- HR and workplace policy development
-- Workplace compliance issues
-- Disciplinary and termination support
-- Labor law compliance
+- :material-account-tie: **Employment Law**
 
-### Intellectual Property
+    ***
+    - Employment contracts and agreements
+    - HR and workplace policy development
+    - Workplace compliance issues
+    - Disciplinary and termination support
+    - Labor law compliance
 
-- Trademark registration and protection
-- Copyright support
-- Patent strategy and filing
-- IP licensing and agreements
-- Handling infringement issues and disputes
+- :material-lightbulb: **Intellectual Property**
 
-### Privacy & Data Protection
+    ***
+    - Trademark registration and protection
+    - Copyright support
+    - Patent strategy and filing
+    - IP licensing and agreements
+    - Handling infringement issues and disputes
 
-- Privacy policy development
-- Data processing agreements
-- GDPR and global privacy compliance
-- Data breach response and incident support
-- Vendor privacy and data protection assessments
-- Privacy impact assessments (PIAs)
-- Cross-border data transfer compliance
-- Data retention and disposal policies
+- :material-shield-account: **Privacy & Data Protection**
 
-### Litigation & Disputes
+    ***
+    - Privacy policy development
+    - Data processing agreements
+    - GDPR and global privacy compliance
+    - Data breach response and incident support
+    - Privacy impact assessments (PIAs)
+    - Cross-border data transfer compliance
+    - Data retention and disposal policies
 
-- Managing contract disputes
-- Employment-related claims
-- IP infringement matters
-- Regulatory investigations
-- General business litigation
+- :material-gavel: **Litigation & Disputes**
 
-## Contact Information
+    ***
+    - Managing contract disputes
+    - Employment-related claims
+    - IP infringement matters
+    - Regulatory investigations
+    - General business litigation
 
-### Legal Team Contacts
+</div>
 
-- **Email**: [legal@ultralytics.com](mailto:legal@ultralytics.com)
-- **Slack**: `#compliance` (for internal team members)
+!!! question "Reach the Legal Team"
 
-### Slack Guidelines
+    | Channel | Details |
+    | ------- | ------- |
+    | **Email** | [legal@ultralytics.com](mailto:legal@ultralytics.com) |
+    | **Slack** | `#compliance` (tag `@legal-team` for same-day response) |
+    | **Sales/Contracts** | `#sales` channel for contract reviews |
 
-- Use `#compliance` for legal matters and compliance guidance (tag `@legal-team` for same-day response)
-- Use `#sales` for contract reviews and sales-related legal questions
+### Priority Response (Same-Day)
 
-### Priority Response (same-day)
+!!! warning "Escalate Immediately"
 
-- Litigation or legal threats
-- Regulatory investigations
-- Data breaches or security incidents
-- Employment terminations
-- IP infringement claims
+    - Litigation or legal threats
+    - Regulatory investigations
+    - Data breaches or security incidents
+    - Employment terminations
+    - IP infringement claims
 
 ## Policies & Resources
 
 ### Company Policies
 
-- [Code of Business Conduct & Ethics](https://handbook.ultralytics.com/legal/code-of-business-conduct-and-ethics/#consequences-of-violations)
+- [Code of Business Conduct & Ethics](https://handbook.ultralytics.com/legal/code-of-business-conduct-and-ethics/)
 - [GDPR Compliance Policy](https://app.vanta.com/c/ultralytics/employee/onboarding)
 
 ### Legal Documents
 
 - [Terms of Service](https://www.ultralytics.com/legal/terms-of-service)
 - [Privacy Policy](https://www.ultralytics.com/legal/privacy)
-- [Ultralytics Enterprise Software License Terms](https://www.ultralytics.com/legal/enterprise-software-license)
+- [Enterprise Software License Terms](https://www.ultralytics.com/legal/enterprise-software-license)
 
 ## Anonymous Reporting
 
-We encourage open communication, but if you need to raise a sensitive issue confidentially, we provide anonymous reporting channels.
+!!! info "Speak Up Safely"
 
-- [Anonymous Form Reporting](https://docs.google.com/forms/d/e/1FAIpQLSdXE24kB5975eZZBJ_0t1E-w7TKlTCUFYpm_MvccXi9qvwJtQ/viewform)
-- **By post:** Judicial Way, Frederick, MD 21703, United States
+    We encourage open communication. If you need to raise a sensitive issue confidentially:
 
-All reports are confidential and protected from retaliation.
+    | Channel | Details |
+    | ------- | ------- |
+    | **Anonymous Form** | [Google Form Reporting](https://docs.google.com/forms/d/e/1FAIpQLSdXE24kB5975eZZBJ_0t1E-w7TKlTCUFYpm_MvccXi9qvwJtQ/viewform) |
+    | **By Post** | Judicial Way, Frederick, MD 21703, United States |
+
+    All reports are confidential and **protected from retaliation**.

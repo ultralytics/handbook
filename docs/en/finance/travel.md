@@ -1,5 +1,5 @@
 ---
-description: Ultralytics Employee Travel Policy outlining per diem rates, responsibilities, booking procedures, sustainability practices, and expense reporting guidelines for 2025.
+description: Ultralytics Employee Travel Policy covering per diem rates, booking procedures, expense reporting, and sustainability guidelines for business travel in 2025.
 keywords: Ultralytics, Employee Travel Policy, per diem rates, travel responsibilities, airfare, expense reporting, sustainability, business travel
 ---
 
@@ -92,6 +92,7 @@ Employees traveling for business will receive a daily per diem allowance based o
 | **France 🇫🇷**         | Paris         | $255.50 | $86.50 | $342.00        |
 | **Germany 🇩🇪**        | Berlin        | $135.50 | $72.50 | $208.00        |
 |                       | Dusseldorf    | $159.00 | $75.50 | $234.50        |
+|                       | Nuremberg     | $147.50 | $75.50 | $223.00        |
 |                       | Munich        | $156.00 | $77.00 | $233.00        |
 | **Italy 🇮🇹**          | Rome          | $244.50 | $89.50 | $334.00        |
 | **Japan 🇯🇵**          | Tokyo         | $187.50 | $65.00 | $252.50        |

@@ -1,6 +1,6 @@
 ---
-Description: The Code of Business Conduct and Ethics outlines the principles and expectations that guide our work together, decision-making, and company representation.
-keywords: code of conduct, privacy, data protection, business ethics, company values, employee responsibilities, inclusion, diversity, anti-discrimination, workplace behavior, physical safety, substance use, drug and alcohol policy, data privacy, employee privacy, personal data handling, whistleblower, anonymous reporting, anti-corruption, bribery prevention, gifts and hospitality, fair competition, antitrust, market conduct, competitor intelligence, government dealings, insider information, securities trading, conflict disclosure, personal investments, board participation, industry representation, confidentiality, information security, data handling, trade secrets, third-party data, access control, breach reporting, cybersecurity, security incidents, business expenses, vendor ethics, procurement process, revenue recognition, bookkeeping integrity, financial leadership duties, anti-money laundering, asset use, equipment care, unauthorized use, software licensing, copyright compliance, company devices, system monitoring
+description: The Code of Business Conduct and Ethics outlines the principles and expectations that guide our work together, decision-making, and company representation.
+keywords: Ultralytics code of conduct, business ethics, anti-corruption, data protection, workplace inclusion, conflict of interest, financial responsibility, whistleblower reporting
 ---
 
 # Code of Business Conduct and Ethics (2025) 📖
