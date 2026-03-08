@@ -242,7 +242,6 @@ Feel free to reach out to team members for guidance:
 | Rick Hou                | [Bovey0809](https://github.com/Bovey0809)                             |
 | Sergiu Waxmann          | [sergiuwaxmann](https://github.com/sergiuwaxmann)                     |
 | Shuai (Louis) Lyu       | [ShuaiLYU](https://github.com/ShuaiLYU)                               |
-| Tigran Hakobyan         | [tthakz](https://github.com/tthakz)                                   |
 | Thomas Chuang           | [chuang091](https://github.com/chuang091)                             |
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)                   |
 | Tigran Hakobyan         | [t-hakobyan](https://github.com/t-hakobyan)                           |
