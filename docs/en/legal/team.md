@@ -73,13 +73,10 @@ keywords: Ultralytics legal team, corporate compliance, employment law, intellec
 
 </div>
 
-## Contact Information
-
 !!! question "Reach the Legal Team"
 
     | Channel | Details |
     | ------- | ------- |
-    | **Head of Legal** | William Beaven |
     | **Email** | [legal@ultralytics.com](mailto:legal@ultralytics.com) |
     | **Slack** | `#compliance` (tag `@legal-team` for same-day response) |
     | **Sales/Contracts** | `#sales` channel for contract reviews |
