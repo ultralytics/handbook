@@ -107,7 +107,7 @@ Employees traveling for business will receive a daily per diem allowance based o
 | **United States 🇺🇸**  | Denver        | $161.25 | $69.00 | $230.25        |
 |                       | Las Vegas     | $119.25 | $64.50 | $183.75        |
 |                       | Los Angeles   | $143.25 | $64.50 | $207.75        |
-|                       | Santa Clara   | $153.50 | $59.50 | $213.00       |
+|                       | Santa Clara   | $153.50 | $59.50 | $213.00        |
 |                       | New York      | $256.50 | $69.00 | $325.50        |
 |                       | San Francisco | $204.00 | $69.00 | $273.00        |
 |                       | San Jose      | $144.00 | $69.00 | $213.00        |
