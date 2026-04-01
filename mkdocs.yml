@@ -68,6 +68,7 @@ theme:
     - navigation.indexes
     - navigation.sections # navigation.expand or navigation.sections
     - content.tabs.link # all code tabs change simultaneously
+    - announce.dismiss
     # - search.highlight
     # - search.share
     # - search.suggest
