@@ -129,7 +129,3 @@ OKRs are managed through:
 - Weekly team standups
 - Progress tracking dashboards
 - Leadership review meetings
-
----
-
-_For questions about OKRs, contact your manager or see [Company Goals](company-goals.md) for strategic priorities._

@@ -144,7 +144,3 @@ We recognize outstanding community members through:
 ## Get Involved Today! 🚀
 
 The strength of Ultralytics comes from our community. Whether you're answering questions, contributing code, or sharing your projects, every contribution matters. Join us in advancing computer vision and AI for everyone.
-
----
-
-_Together, we're building the future of AI. Thank you for being part of the Ultralytics community! 🎯_

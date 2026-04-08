@@ -522,7 +522,3 @@ Create targeted growth plans:
 - **[Career Progression](../index.md)** - Complete framework, promotion process, track switching
 - **[People & Benefits](../../index.md)** - Comprehensive people policies and resources
 - **[Onboarding](../onboarding.md)** - Level expectations for new team members
-
----
-
-_These level descriptions are living documents that evolve as Ultralytics grows. Feedback and improvements welcome through PRs or discussions with your manager._

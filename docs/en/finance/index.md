@@ -103,7 +103,3 @@ Employees are encouraged to proactively manage departmental budgets responsibly:
     | **Budget Questions** | Your direct manager |
     | **Policy Clarification** | Finance team |
     | **Urgent Issues** | Contact your manager immediately |
-
----
-
-_Stay tuned as we continue to expand the Ultralytics Finance Handbook to support our growing organization effectively._ 🚀

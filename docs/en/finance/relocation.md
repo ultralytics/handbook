@@ -174,7 +174,3 @@ If you leave Ultralytics voluntarily within 24 months of your relocation/payment
     | **Eligibility/Commute Check** | HR Team |
     | **Payment Status** | Finance Team |
     | **Tax Questions** | External tax advisor |
-
----
-
-_This policy is designed to support the strategic growth of Ultralytics by helping our team live comfortably close to where we innovate._

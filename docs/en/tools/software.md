@@ -194,7 +194,3 @@ Our team prioritizes requests to ensure critical issues are handled swiftly.
 - **Critical (System-wide outage, security breach):** 1-hour response
 - **High (Individual unable to work):** 4-hour response
 - **Normal (Minor issue, software request):** 24-hour response
-
----
-
-_This policy helps us maintain a secure, compliant, and productive software environment. For any questions, please contact your manager or the Security team._

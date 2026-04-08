@@ -129,7 +129,3 @@ The automation is implemented in Python and utilizes the following:
 ## 7. Support and Maintenance 🛠️
 
 The email signature automation is maintained by Glenn Jocher. If you have any questions or encounter any issues with your email signature, please contact him for assistance.
-
----
-
-_Standardized email signatures ensure consistent professional communication across all Ultralytics correspondence. 🚀_

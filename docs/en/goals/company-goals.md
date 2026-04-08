@@ -98,7 +98,3 @@ graph LR
     | **Monthly Business Reviews** | Leadership | Monthly |
     | **Quarterly Board Updates** | Investors & advisors | Quarterly |
     | **Public Metrics** | Community | Ongoing |
-
----
-
-_Detailed goals and metrics are reviewed internally. See [OKRs](okrs.md) for our goal-setting framework._

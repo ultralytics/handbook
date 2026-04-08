@@ -206,7 +206,3 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 - **[Management Levels (M4-M10)](levels-management.md)** - Detailed Management expectations
 - **[People & Benefits](../index.md)** - Comprehensive people policies and resources
 - **[Onboarding](../onboarding.md)** - Level expectations for new team members
-
----
-
-_Your career at Ultralytics is a journey, not a destination. We're committed to supporting your growth whether you aspire to deep expertise or organizational leadership. Let's build amazing things together! 🚀_

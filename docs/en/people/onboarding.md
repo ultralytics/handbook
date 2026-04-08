@@ -386,7 +386,3 @@ Have onboarding feedback or questions?
 - **Email HR**: For sensitive or personal matters
 
 We're constantly improving onboarding based on new team member feedback. Your input makes the next person's experience better!
-
----
-
-_Welcome to the team! We're excited to have you here. Let's build something amazing together! 🚀_

@@ -221,7 +221,3 @@ Can't find what you're looking for?
 - **Ask your manager** for policy clarifications or personal matters
 - **Contact HR** for benefits, leave, or employee relations
 - **Submit a PR** to improve this handbook for everyone
-
----
-
-_We're committed to creating an environment where everyone can do their best work and grow their careers. Welcome to the team! 🌟_

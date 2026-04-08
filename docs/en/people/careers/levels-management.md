@@ -574,7 +574,3 @@ Strong promotion cases include:
 - **[Career Progression](index.md)** - Complete framework, promotion process, track switching
 - **[People & Benefits](../index.md)** - Comprehensive people policies and resources
 - **[Onboarding](../onboarding.md)** - Management expectations for new managers
-
----
-
-_Great management empowers teams to do their best work. These frameworks ensure we develop leaders who build high-performing, engaged, and growing teams. Leadership is a skill learned through practice, feedback, and continuous improvement._

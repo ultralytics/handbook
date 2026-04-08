@@ -397,7 +397,3 @@ graph TD
     - Include clear description of business purpose
     - For detailed procedures, see [Finance Handbook](../finance/index.md)
     - Reimbursements typically processed within 7 business days
-
----
-
-_This policy ensures consistent, secure, and cost-effective hardware provisioning, empowering our global team to achieve its best work. 🚀_

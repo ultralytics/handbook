@@ -473,7 +473,3 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     2. **Ask your manager**: First point of contact for most questions
     3. **Contact specialized teams**: IT, Finance, Legal, Security
     4. **Check documentation**: [YOLO Docs](https://docs.ultralytics.com/) for technical questions
-
----
-
-_This FAQ is continuously updated. Have a question that should be added? Contact your manager or submit a handbook improvement PR!_
