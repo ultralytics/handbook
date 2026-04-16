@@ -23,7 +23,7 @@ This policy applies to new hires or existing employees relocating to be near our
 
     ***
 
-    [Cra de S. Jerónimo, 15 Centro, 28014 Madrid](https://www.google.com/maps/place/Ultralytics/@40.4167127,-3.6991407,17z/data=!3m1!4b1!4m6!3m5!1s0xd4229d0dd320359:0xf3b7391380eb845d!8m2!3d40.4167127!4d-3.6991407!16s%2Fg%2F11yd0gzht3?entry=tts&g_ep=EgoyMDI1MTEwNC4xIPu8ASoASAFQAw%3D%3D&skid=36757a0d-c3e6-4595-95f7-739f47e903a7)
+    [Cra de S. Jerónimo, 15 Centro, 28014 Madrid](https://maps.app.goo.gl/nxB8YygRQeXSS9G18)
 
 - :flag_cn: **Shenzhen, China**
 
