@@ -15,7 +15,7 @@ Welcome to the **Ultralytics Handbook repository**! This repository houses the s
 
 This Handbook serves as a **living document**, evolving alongside Ultralytics' growth. It aims to align team members, contributors, and the wider community with the core principles guiding our work in [artificial intelligence (AI)](https://www.ultralytics.com/glossary/artificial-intelligence-ai) and [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv). Whether you're new to Ultralytics or a seasoned team member, this resource provides insights into everything from our company philosophy to detailed workflows and operational processes, including our approach to [machine learning operations (MLOps)](https://www.ultralytics.com/glossary/machine-learning-operations-mlops).
 
-**New team members?** Start with our [Onboarding Guide](https://handbook.ultralytics.com/people/onboarding/) for your first 90 days roadmap.
+**New team members?** Start with our [Onboarding Guide](https://handbook.ultralytics.com/people/onboarding) for your first 90 days roadmap.
 
 ## 🧰 Technology Stack
 
@@ -115,7 +115,7 @@ handbook/
 
 Ultralytics offers two licensing options:
 
-- **AGPL-3.0 License**: Ideal for students, researchers, and enthusiasts passionate about open collaboration. This [OSI-approved](https://opensource.org/license/agpl-v3) open-source license promotes transparency and community involvement. See the [LICENSE](LICENSE) file for details.
+- **AGPL-3.0 License**: Ideal for students, researchers, and enthusiasts passionate about open collaboration. This [OSI-approved](https://opensource.org/license/agpl-3.0) open-source license promotes transparency and community involvement. See the [LICENSE](LICENSE) file for details.
 - **Enterprise License**: For commercial applications, this license permits seamless integration of Ultralytics software into commercial products, bypassing AGPL-3.0 copyleft requirements. Inquire about an [Ultralytics Enterprise License](https://www.ultralytics.com/license).
 
 ## ✉️ Contact
@@ -130,7 +130,7 @@ For bug reports and feature requests related to the Ultralytics Handbook, please
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
   <a href="https://twitter.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-twitter.png" width="3%" alt="Ultralytics Twitter"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://youtube.com/ultralytics?sub_confirmation=1"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png" width="3%" alt="Ultralytics YouTube"></a>
+  <a href="https://www.youtube.com/ultralytics?sub_confirmation=1"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png" width="3%" alt="Ultralytics YouTube"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
   <a href="https://www.tiktok.com/@ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-tiktok.png" width="3%" alt="Ultralytics TikTok"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">

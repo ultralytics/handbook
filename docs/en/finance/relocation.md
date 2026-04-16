@@ -23,19 +23,19 @@ This policy applies to new hires or existing employees relocating to be near our
 
     ***
 
-    [Cra de S. Jerónimo, 15 Centro, 28014 Madrid](https://maps.app.goo.gl/nxB8YygRQeXSS9G18)
+    [Cra de S. Jerónimo, 15 Centro, 28014 Madrid](https://www.google.com/maps/place/Ultralytics/@40.4167127,-3.6991407,17z/data=!3m1!4b1!4m6!3m5!1s0xd4229d0dd320359:0xf3b7391380eb845d!8m2!3d40.4167127!4d-3.6991407!16s%2Fg%2F11yd0gzht3?entry=tts&g_ep=EgoyMDI1MTEwNC4xIPu8ASoASAFQAw%3D%3D&skid=36757a0d-c3e6-4595-95f7-739f47e903a7)
 
 - :flag_cn: **Shenzhen, China**
 
     ***
 
-    [Room 126, 6F, CR Land Tower D, 91 Kefa Road, Nanshan District](https://maps.google.com/?q=6F,+CR+Land+Tower+D,+91+Kefa+Road,+Nanshan+District,+Shenzhen,+China)
+    [Room 126, 6F, CR Land Tower D, 91 Kefa Road, Nanshan District](https://maps.google.com/maps?q=6F,+CR+Land+Tower+D,+91+Kefa+Road,+Nanshan+District,+Shenzhen,+China)
 
 - :flag_gb: **London, UK**
 
     ***
 
-    [50 York Way, London N1 9AB](https://maps.app.goo.gl/9sdE3KrQVwc2shb86)
+    [50 York Way, London N1 9AB](https://www.google.com/maps/place/Ultralytics/@51.5331398,-0.1222363,17z/data=!3m1!4b1!4m6!3m5!1s0x48761d93bbea1e7f:0xd61a9093249dabe4!8m2!3d51.5331398!4d-0.1222363!16s%2Fg%2F11ygzmrn7p?entry=tts&g_ep=EgoyMDI1MTEwNC4xIPu8ASoASAFQAw%3D%3D&skid=1a2c2904-fca0-43eb-a323-fda221369e43)
 
 </div>
 

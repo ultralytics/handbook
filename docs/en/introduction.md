@@ -48,7 +48,7 @@ We believe in transparency and open communication, and we encourage all employee
 Internal employees and contractors will find comprehensive guidance on:
 
 - **[Your First 90 Days](people/onboarding.md)** - Complete onboarding roadmap for new team members
-- **[Ultralytics Portal](https://portal.ultralytics.com)** - SSO-only internal hub for dashboards, onboarding checks, AI agent settings, and company tools
+- **[Ultralytics Portal](https://portal.ultralytics.com/signin)** - SSO-only internal hub for dashboards, onboarding checks, AI agent settings, and company tools
 - Company policies and procedures
 - Financial processes and reimbursements
 - Hardware and software provisioning

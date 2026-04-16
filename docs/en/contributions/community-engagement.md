@@ -54,7 +54,7 @@ Follow and engage with us on:
 - **GitHub**: [@ultralytics](https://github.com/ultralytics)
 - **LinkedIn**: [@ultralytics](https://www.linkedin.com/company/ultralytics/)
 - **X (Twitter)**: [@ultralytics](https://x.com/ultralytics)
-- **YouTube**: [@ultralytics](https://youtube.com/ultralytics)
+- **YouTube**: [@ultralytics](https://www.youtube.com/ultralytics)
 - **Discord**: [Join Server](https://discord.com/invite/ultralytics)
 - **Reddit**: [r/ultralytics](https://www.reddit.com/r/ultralytics/)
 

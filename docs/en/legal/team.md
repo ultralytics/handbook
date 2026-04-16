@@ -95,7 +95,7 @@ keywords: Ultralytics legal team, corporate compliance, employment law, intellec
 
 ### Company Policies
 
-- [Code of Business Conduct & Ethics](https://handbook.ultralytics.com/legal/code-of-business-conduct-and-ethics/)
+- [Code of Business Conduct & Ethics](https://handbook.ultralytics.com/legal/code-of-business-conduct-and-ethics)
 - [GDPR Compliance Policy](https://app.vanta.com/c/ultralytics/employee/onboarding)
 
 ### Legal Documents

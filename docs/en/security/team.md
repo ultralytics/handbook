@@ -111,9 +111,9 @@ Use the `#compliance` channel for:
 
 ### Employee Policies & Guidelines
 
-- [Hardware Policy](https://handbook.ultralytics.com/tools/hardware/)
-- [Software Policy](https://handbook.ultralytics.com/tools/software/)
-- [Code of Business Conduct](https://handbook.ultralytics.com/legal/code-of-business-conduct-and-ethics/)
+- [Hardware Policy](https://handbook.ultralytics.com/tools/hardware)
+- [Software Policy](https://handbook.ultralytics.com/tools/software)
+- [Code of Business Conduct](https://handbook.ultralytics.com/legal/code-of-business-conduct-and-ethics)
 
 ### Security & Training Tools
 

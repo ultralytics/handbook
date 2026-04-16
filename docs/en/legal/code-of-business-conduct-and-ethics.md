@@ -17,7 +17,7 @@ Our mission is to move the world forward by first moving ourselves, continuously
 
 We believe the way we work matters just as much as what we build. At Ultralytics, five core values guide everything we do: Relentless Progress, Strive for Excellence, Actions Not Words, Act with Urgency, and Open Access to All. These values shape our culture, inform our decisions, and define how we collaborate and innovate.
 
-By staying true to this [Mission and Values](https://handbook.ultralytics.com/mission-vision-values/), we ensure that our pursuit of technological advancement is grounded in integrity, inclusivity, and purpose.
+By staying true to this [Mission and Values](https://handbook.ultralytics.com/mission-vision-values), we ensure that our pursuit of technological advancement is grounded in integrity, inclusivity, and purpose.
 
 This Code establishes essential guidelines for ethical behavior and legal compliance. All team members, including employees (full-time or part-time), contractors, advisors, and partners worldwide, must adhere to this Code. While not comprehensive of all policies or laws, it provides minimum standards for conducting business responsibly. Everyone is expected to familiarize themselves with applicable laws and regulations in their area of operation.
 
@@ -155,7 +155,7 @@ Stakeholders depend on accurate financial information to make informed decisions
 
 ### Responsible Business Expenses
 
-Exercise good judgment when spending company money. All expenses must be reasonable, business-related, properly documented, and compliant with [Ultralytics Finance Handbook](https://handbook.ultralytics.com/finance/#employee-credit-cards). Submit expense reports promptly with clear business justification and complete details. When uncertain about expenditures, consult your manager first.
+Exercise good judgment when spending company money. All expenses must be reasonable, business-related, properly documented, and compliant with [Ultralytics Finance Handbook](https://handbook.ultralytics.com/finance). Submit expense reports promptly with clear business justification and complete details. When uncertain about expenditures, consult your manager first.
 
 Managers must review and approve all team member expenses, carefully examining both costs and supporting documentation before approval.
 
@@ -217,7 +217,7 @@ At Ultralytics, we respect your privacy, but it's important to understand that t
 
 To keep our systems secure, ensure productivity, and protect sensitive information, Ultralytics may, as permitted by applicable laws, monitor or access information created, stored, transmitted, or accessed through company tools and systems. This could include emails, files, internet activity, or messages exchanged via work platforms.
 
-Monitoring is done only when needed for legitimate business reasons such as security checks, compliance reviews, or to investigate potential misuse. We don’t monitor without cause, and we aim to be transparent about how we handle digital tools and data. To support these monitoring objectives, we deploy a mobile device management (MDM) solution to all devices that access company systems and data. For more details, refer to our approved [Hardware Policy](https://handbook.ultralytics.com/tools/hardware/).
+Monitoring is done only when needed for legitimate business reasons such as security checks, compliance reviews, or to investigate potential misuse. We don’t monitor without cause, and we aim to be transparent about how we handle digital tools and data. To support these monitoring objectives, we deploy a mobile device management (MDM) solution to all devices that access company systems and data. For more details, refer to our approved [Hardware Policy](https://handbook.ultralytics.com/tools/hardware).
 
 ## Raising Concerns and Getting Help
 

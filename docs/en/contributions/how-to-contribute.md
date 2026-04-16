@@ -172,7 +172,7 @@ Make complete source code publicly available under AGPL-3.0:
     - Use [Ultralytics template repository](https://github.com/ultralytics/template)
 
 2. **License your project**:
-    - Add `LICENSE` file with full [AGPL-3.0 text](https://opensource.org/license/agpl-v3)
+    - Add `LICENSE` file with full [AGPL-3.0 text](https://opensource.org/license/agpl-3.0)
     - Add license notice at top of source files
 
 3. **Publish source code** including:
