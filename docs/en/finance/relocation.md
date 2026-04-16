@@ -35,7 +35,7 @@ This policy applies to new hires or existing employees relocating to be near our
 
     ***
 
-    [50 York Way, London N1 9AB](https://www.google.com/maps/place/Ultralytics/@51.5331398,-0.1222363,17z/data=!3m1!4b1!4m6!3m5!1s0x48761d93bbea1e7f:0xd61a9093249dabe4!8m2!3d51.5331398!4d-0.1222363!16s%2Fg%2F11ygzmrn7p?entry=tts&g_ep=EgoyMDI1MTEwNC4xIPu8ASoASAFQAw%3D%3D&skid=1a2c2904-fca0-43eb-a323-fda221369e43)
+    [50 York Way, London N1 9AB](https://maps.app.goo.gl/9sdE3KrQVwc2shb86)
 
 </div>
 
