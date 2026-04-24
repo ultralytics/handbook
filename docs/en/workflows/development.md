@@ -19,39 +19,39 @@ Our engineering culture is built on a small set of practical principles:
 
 - :material-code-braces: **Code Quality**
 
-  ***
+    ***
 
-  Write clear, maintainable, well-tested code that future teammates can understand and extend.
+    Write clear, maintainable, well-tested code that future teammates can understand and extend.
 
 - :material-shield-check: **Security First**
 
-  ***
+    ***
 
-  Consider security, privacy, licensing, and abuse cases throughout design, implementation, review, and release.
+    Consider security, privacy, licensing, and abuse cases throughout design, implementation, review, and release.
 
 - :material-account-group: **Collaborative Development**
 
-  ***
+    ***
 
-  Use review, documentation, and shared ownership to improve quality and spread context.
+    Use review, documentation, and shared ownership to improve quality and spread context.
 
 - :material-school: **Continuous Learning**
 
-  ***
+    ***
 
-  Adopt better tools and practices when they improve reliability, velocity, or user outcomes.
+    Adopt better tools and practices when they improve reliability, velocity, or user outcomes.
 
 - :material-file-document-outline: **Transparency**
 
-  ***
+    ***
 
-  Capture important engineering decisions in issues, PRs, docs, runbooks, or decision records.
+    Capture important engineering decisions in issues, PRs, docs, runbooks, or decision records.
 
 - :material-clipboard-check: **Accountability**
 
-  ***
+    ***
 
-  Own the impact of your changes from implementation through rollout, support, and follow-up.
+    Own the impact of your changes from implementation through rollout, support, and follow-up.
 
 </div>
 
