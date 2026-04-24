@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 
 const { spawnSync } = require("child_process");
 
@@ -26,11 +27,7 @@ for (const candidate of candidates) {
   }
   tried.push(label);
 
-  const probe = spawnSync(
-    command,
-    [...prefixArgs, "-c", "import zensical, plugin"],
-    { stdio: "ignore" },
-  );
+  const probe = spawnSync(command, [...prefixArgs, "-c", "import zensical, plugin"], { stdio: "ignore" });
   if (probe.error || probe.status !== 0) {
     continue;
   }
@@ -45,10 +42,6 @@ for (const candidate of candidates) {
   process.exit(result.status ?? 1);
 }
 
-console.error(
-  `No usable Python interpreter found for ${script}. Tried: ${tried.join(", ")}`,
-);
-console.error(
-  "Install dependencies with: pip install -r requirements.txt mkdocs mkdocs-material",
-);
+console.error(`No usable Python interpreter found for ${script}. Tried: ${tried.join(", ")}`);
+console.error("Install dependencies with: pip install -r requirements.txt mkdocs mkdocs-material");
 process.exit(1);

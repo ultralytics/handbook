@@ -121,12 +121,12 @@ Main config in `mkdocs.yml`:
 ```yaml
 site_name: Ultralytics Docs
 theme:
-  name: material
-  palette:
-    - scheme: slate
+    name: material
+    palette:
+        - scheme: slate
 plugins:
-  - search
-  - ultralytics
+    - search
+    - ultralytics
 ```
 
 ## API Documentation 📖
@@ -176,9 +176,9 @@ Edit `mkdocs.yml`:
 
 ```yaml
 nav:
-  - Home: index.md
-  - Guides:
-      - New Guide: guides/new-guide.md
+    - Home: index.md
+    - Guides:
+          - New Guide: guides/new-guide.md
 ```
 
 ### 3. Write Content

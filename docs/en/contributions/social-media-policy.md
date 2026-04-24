@@ -30,8 +30,8 @@ This policy applies to any platform where you can share or comment publicly, inc
 - ✅ **Disclose that you work at Ultralytics** when relevant
 - ✅ **Clarify that your opinions are your own.** Example: "Views are my own, not those of my employer."
 - ✅ **Keep your professional profiles up to date**
-  - We **encourage** everyone to use the official **Ultralytics profile picture and LinkedIn banner** provided by the Marketing team
-  - While not mandatory, it helps maintain a unified and credible professional image
+    - We **encourage** everyone to use the official **Ultralytics profile picture and LinkedIn banner** provided by the Marketing team
+    - While not mandatory, it helps maintain a unified and credible professional image
 - ✅ **Act in line with Ultralytics' values:** [Relentless Progress, Strive for Excellence, Actions Not Words, Act with Urgency, and Open Access to All](../mission-vision-values/index.md)
 - ✅ **Be factual, clear, and positive** in all interactions
 

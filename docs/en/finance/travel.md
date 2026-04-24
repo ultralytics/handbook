@@ -133,35 +133,35 @@ Employees traveling for business will receive a daily per diem allowance based o
 
 - :material-airplane: **Flights**
 
-  ***
-  - Book **14 days in advance** (domestic)
-  - Book **21 days in advance** (international)
-  - **Economy class only** (no exceptions)
-  - Reimbursed separately from per diem
+    ***
+    - Book **14 days in advance** (domestic)
+    - Book **21 days in advance** (international)
+    - **Economy class only** (no exceptions)
+    - Reimbursed separately from per diem
 
 - :material-bed: **Accommodation**
 
-  ***
-  - Covered by per diem lodging allowance
-  - **Not reimbursed separately**
-  - Book within per diem budget
-  - Business-appropriate location
+    ***
+    - Covered by per diem lodging allowance
+    - **Not reimbursed separately**
+    - Book within per diem budget
+    - Business-appropriate location
 
 - :material-car: **Ground Transportation**
 
-  ***
-  - Covered by M&IE allowance
-  - Use most cost-effective option
-  - Taxi, metro, bus, rideshare OK
-  - Rental cars require pre-approval
+    ***
+    - Covered by M&IE allowance
+    - Use most cost-effective option
+    - Taxi, metro, bus, rideshare OK
+    - Rental cars require pre-approval
 
 - :material-cash-multiple: **Cost-Effectiveness**
 
-  ***
-  - Choose efficient and economical options
-  - Balance cost with convenience
-  - Employees arrange their own travel
-  - Manager approval required
+    ***
+    - Choose efficient and economical options
+    - Balance cost with convenience
+    - Employees arrange their own travel
+    - Manager approval required
 
 </div>
 
