@@ -1,544 +1,247 @@
 ---
-description: Ultralytics engineering workflow for employees covering planning, implementation, reviews, testing, security, AI model quality, releases, incidents, and knowledge sharing.
-keywords: Ultralytics, engineering workflow, software development, code review, SDLC, testing, security, releases, YOLO, AI engineering, incident response
+description: Ultralytics engineering workflow covering code review, secure SDLC, testing, documentation, CI/CD, incident response, and governance for employee engineering work.
+keywords: Ultralytics, engineering workflow, code review, secure SDLC, CI/CD, testing, security, documentation, incident response, software development
 ---
 
-# Engineering Workflow
+# Ultralytics Engineering Workflows
 
-This page defines how Ultralytics employees turn ideas, issues, customer needs, security requirements, and internal improvements into shipped work. It applies to software, documentation, infrastructure, AI models, datasets, demos, internal tools, public websites, automation, and production operations.
+## Our Mission
 
-The goal is not process for its own sake. The goal is faster, safer shipping: clear ownership, small changes, strong review, useful tests, simple rollback, and durable documentation.
+Ultralytics engineers, contributors, and maintainers build robust, secure, and useful systems that advance computer vision and artificial intelligence. Our engineering practices prioritize code quality, security, collaboration, and operational reliability so our products remain trustworthy for users, customers, and teammates.
 
-External contributors should use the [Ultralytics contributing guide](https://docs.ultralytics.com/help/contributing/), [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/), and [CLA instructions](https://docs.ultralytics.com/help/CLA/). Employees should use those public standards too, but this handbook page adds internal expectations for planning, ownership, security, release readiness, and operational follow-through.
+This page defines the engineering standards employees should use when planning, implementing, reviewing, testing, documenting, deploying, and maintaining changes across Ultralytics repositories and systems. External contributors should also follow the [Ultralytics contributing guide](https://docs.ultralytics.com/help/contributing/), [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/), and [CLA instructions](https://docs.ultralytics.com/help/CLA/).
 
-## What Good Looks Like
+## Core Engineering Principles
 
-A good engineering change at Ultralytics has these properties:
-
-- **Clear outcome:** The PR explains what user, customer, employee, reliability, compliance, or business problem it solves.
-- **Small review surface:** The diff is focused enough that reviewers can reason about correctness and risk.
-- **Visible risk:** Security, privacy, licensing, API compatibility, model behavior, production reliability, and docs impact are called out directly.
-- **Proof:** Tests, screenshots, previews, logs, benchmarks, model metrics, or manual validation steps are included.
-- **Ready to operate:** The owner knows how the change will be monitored, rolled back, documented, and supported after merge.
-- **Useful record:** Future teammates can understand why the change was made without reconstructing context from private chats.
+Our engineering culture is built on a small set of practical principles:
 
 <div class="grid cards" markdown>
 
-- :material-target: **Outcome**
+- :material-code-braces: **Code Quality**
 
-    ***
+  ***
 
-    Start with the user, customer, employee, or operational result.
+  Write clear, maintainable, well-tested code that future teammates can understand and extend.
 
-- :material-source-pull: **Focused Diff**
+- :material-shield-check: **Security First**
 
-    ***
+  ***
 
-    Keep the change small enough for real review.
+  Consider security, privacy, licensing, and abuse cases throughout design, implementation, review, and release.
 
-- :material-shield-check: **Risk Visible**
+- :material-account-group: **Collaborative Development**
 
-    ***
+  ***
 
-    Call out security, privacy, licensing, compatibility, and reliability impact.
+  Use review, documentation, and shared ownership to improve quality and spread context.
 
-- :material-test-tube: **Evidence**
+- :material-school: **Continuous Learning**
 
-    ***
+  ***
 
-    Attach tests, previews, screenshots, logs, or metrics.
+  Adopt better tools and practices when they improve reliability, velocity, or user outcomes.
 
-- :material-rocket-launch: **Release Ready**
+- :material-file-document-outline: **Transparency**
 
-    ***
+  ***
 
-    Know the rollout, monitor, support, and rollback path.
+  Capture important engineering decisions in issues, PRs, docs, runbooks, or decision records.
 
-- :material-book-open-page-variant: **Durable Context**
+- :material-clipboard-check: **Accountability**
 
-    ***
+  ***
 
-    Leave decisions where future teammates can find them.
+  Own the impact of your changes from implementation through rollout, support, and follow-up.
 
 </div>
 
-## Operating Principles
-
-- **Protect users first:** Reliability, privacy, security, licensing, and trust are product features.
-- **Prefer boring code:** Clear, conventional code is easier to review, debug, benchmark, and maintain.
-- **Ship in useful increments:** A small change that reaches users safely beats a large branch that stays private for weeks.
-- **Design for review:** Structure work so the right expert can review the right part without reading unrelated churn.
-- **Automate repeatable checks:** Formatting, linting, tests, link checks, dependency scans, builds, and deploy previews should catch routine failures.
-- **Make decisions durable:** Architectural choices, risk exceptions, rollout plans, and incident learnings belong in docs, issues, PRs, or runbooks.
-- **Leave the system easier to operate:** Each change should preserve or improve observability, testability, documentation, and ownership.
-
 ## Collaboration Cadence
 
-Ultralytics is fast-moving and distributed, so the workflow must support both async depth and high-bandwidth coordination.
-
-- **Anchor Days, Tuesday to Thursday:** Use these days for code reviews, design reviews, architecture debates, debugging sessions, launch readiness, and work that benefits from synchronous discussion.
-- **Monday and Friday:** Favor deep work, written updates, PR preparation, documentation, and async decision records.
-- **Standups and team syncs:** Keep status lightweight. Escalate blockers, ownership ambiguity, security questions, and cross-team dependencies.
-- **Design discussions:** Capture the conclusion in an issue, PR description, decision record, or handbook page. A Slack thread is not enough for durable engineering context.
-- **Reviews:** Required reviewers should respond within one business day or redirect quickly to someone better placed to review.
-
-## Workflow Overview
-
-```mermaid
-flowchart TD
-    A[Clarify outcome and owner] --> B[Classify risk]
-    B --> C[Design smallest useful change]
-    C --> D[Implement with tests and docs]
-    D --> E[Open focused PR]
-    E --> F{Risk review}
-    F -->|Standard| G[Code review]
-    F -->|Security, data, infra, model, release risk| H[Specialist review]
-    G --> I[CI, preview, and validation evidence]
-    H --> I
-    I --> J[Merge and release]
-    J --> K[Monitor and support]
-    K --> L[Document learnings]
-    L -. Feedback .-> A
-```
+Ultralytics moves quickly, so the development workflow should make it easy to combine deep work with fast review.
 
-## Work Classification
+- **Anchor Days (Tuesday to Thursday):** Use these days for design reviews, architecture discussions, debugging, release readiness, and code reviews that benefit from synchronous discussion.
+- **Monday and Friday:** Favor deep work, written updates, PR preparation, documentation, and async decision-making.
+- **Standups and reviews:** Keep status updates concise. Escalate blockers, ambiguous ownership, customer impact, and security-sensitive work early.
+- **Durable decisions:** Capture important decisions in the PR, issue, design note, runbook, or handbook. Do not leave critical engineering context only in chat.
 
-Classifying work early helps employees choose the right planning, review, and validation path.
+## Code Review Standards
 
-| Work Type              | Typical Examples                                            | Minimum Expectation                                        |
-| ---------------------- | ----------------------------------------------------------- | ---------------------------------------------------------- |
-| Documentation          | Handbook page, public docs, tutorial, changelog             | Preview build, link validation, clear owner                |
-| Product feature        | UI, API, CLI, workflow, integration                         | Product context, tests, docs, rollout plan                 |
-| Library change         | Python package, SDK, export path, config behavior           | Unit and integration tests, compatibility review           |
-| Model or AI behavior   | Training, validation, export, inference, benchmarks         | Reproducible metrics, dataset notes, model behavior review |
-| Infrastructure         | CI, deploys, cloud config, secrets, monitoring              | Staging or dry-run validation, rollback path, owner        |
-| Security or compliance | Auth, data handling, permissions, licensing, audit evidence | Security review, abuse cases, least-privilege check        |
-| Hotfix                 | Production issue, broken release, urgent customer blocker   | Smallest safe patch, expedited review, post-fix follow-up  |
+### Mandatory Code Review Policy
 
-## Planning
+All code changes to production branches must undergo review before merging. This policy protects users, improves quality, spreads knowledge, and reduces operational and security risk.
 
-Start with a short written plan when work is bigger than a routine fix. The plan can live in a GitHub issue, Linear task, PR description, design note, or project document.
+#### One Reviewer Requirement
 
-### Planning Questions
+**Policy:** Every production-bound pull request must receive approval from at least one qualified reviewer who is not the author.
 
-- **Owner:** Who is accountable from implementation through rollout?
-- **Outcome:** What changes for users, customers, employees, maintainers, or operations?
-- **Scope:** What is included, what is explicitly out of scope, and what can ship later?
-- **Interfaces:** Does this touch public APIs, CLI behavior, package metadata, docs URLs, model formats, datasets, configs, or integrations?
-- **Risk:** Could this affect security, privacy, licensing, production availability, model quality, billing, customer data, employee data, or compliance evidence?
-- **Validation:** What tests, previews, benchmarks, screenshots, logs, manual checks, or reviewers will prove it works?
-- **Rollout:** Will this be behind a feature flag, staged release, canary, preview, or immediate merge?
-- **Rollback:** How can the change be reverted, disabled, mitigated, or communicated if it fails?
+**Rationale:** Independent review mitigates undetected bugs, security vulnerabilities, compatibility issues, and architecture drift. No individual, regardless of experience or role, should routinely merge production changes without another qualified person reviewing the change.
 
-### Lightweight Planning Template
+**Implementation:**
 
-Use this structure for medium or high-risk work:
+- Configure GitHub branch protection rules to require approving review where appropriate.
+- Do not rely on PR authors to approve their own changes.
+- Choose reviewers with relevant context for the affected code, model, docs, infrastructure, or operational path.
+- Keep PRs focused enough that reviewers can reason about correctness and risk.
 
-```markdown
-## Outcome
+#### Multiple Reviewer Policy
 
-What problem are we solving, and for whom?
+**Policy:** Critical systems, security-sensitive changes, infrastructure changes, release automation, model behavior changes, and major feature implementations should receive at least two independent reviews when practical.
 
-## Scope
+**Rationale:** Multiple reviewers improve:
 
-Included:
-Deferred:
+- **Continuity:** Reduces dependency on a single person for review coverage.
+- **Quality assurance:** Different perspectives catch different classes of defects.
+- **Knowledge distribution:** Spreads understanding of systems and decisions.
+- **Risk mitigation:** Adds separation of duties for sensitive or high-impact changes.
+- **Delivery reliability:** Prevents releases from depending on one unavailable reviewer.
 
-## Risks
+**Implementation:**
 
-Security:
-Privacy or data:
-Compatibility:
-Reliability:
-Model or product behavior:
+- Require deeper review for core algorithms, security features, data-handling paths, deployment infrastructure, release tooling, and public API changes.
+- Include at least one reviewer with domain expertise for the affected system.
+- Establish a clear escalation path when the right reviewers are unavailable.
+- Document exceptions for urgent fixes and schedule follow-up review after stabilization.
 
-## Validation
+### Pull Request Preparation
 
-Automated:
-Manual:
-Benchmarks or metrics:
+Every meaningful PR should make review easier by explaining the problem, the solution, and the proof that the change works.
 
-## Rollout
+=== "Author Checklist"
 
-Owner:
-Release path:
-Monitoring:
-Rollback:
-```
+    - [ ] Explain what changed and why.
+    - [ ] Link relevant issues, incidents, customer reports, design notes, or discussion threads.
+    - [ ] Include tests, commands, screenshots, previews, logs, benchmark output, or manual validation notes.
+    - [ ] Call out security, privacy, licensing, model, compatibility, release, or rollback concerns.
+    - [ ] Update docs, examples, runbooks, or release notes when behavior changes.
 
-## Secure SDLC
+=== "Review Checklist"
 
-Ultralytics uses a lightweight secure software development life cycle. The same phases apply whether the work is a model change, public docs update, internal tool, cloud deployment, or package release. The amount of ceremony should match the risk.
+    - [ ] Confirm the change solves the stated problem.
+    - [ ] Check edge cases, failure modes, compatibility, and operational impact.
+    - [ ] Review tests and validation evidence.
+    - [ ] Check security, privacy, licensing, dependency, and data-handling risks.
+    - [ ] Verify docs or examples are updated when user-visible behavior changes.
 
-```mermaid
-flowchart LR
-    A[Discovery] --> B[Requirements]
-    B --> C[Design]
-    C --> D[Implementation]
-    D --> E[Validation]
-    E --> F[Release]
-    F --> G[Maintenance]
-    G -. Learnings .-> A
-```
+### Review Guidelines
 
-!!! tip "Scale the process to the risk"
+#### For Reviewers
 
-    A small docs correction may only need a preview build and one reviewer. A change to authentication, model export, production infrastructure, or license behavior needs earlier design review, stronger validation, and a clearer rollback plan.
+**Technical Review Focus:**
 
-### Phase 1: Discovery
+- Verify functionality, logic correctness, and edge cases.
+- Assess performance, memory, runtime, and dependency impact.
+- Check for security vulnerabilities and abuse paths.
+- Evaluate maintainability, readability, and fit with established patterns.
+- Ensure tests, documentation, and operational notes match the risk of the change.
+- Consider compatibility with public APIs, CLIs, model formats, configs, datasets, and user workflows.
 
-Define the problem, user impact, business value, and owner.
+**Review Process:**
 
-- Identify affected users, systems, repositories, data, and stakeholders.
-- Confirm whether the work is a bug fix, feature, policy requirement, incident follow-up, security improvement, or operational task.
-- Check existing issues, PRs, docs, and customer reports before creating duplicate work.
-- Decide whether the change needs product, security, legal, compliance, support, or infrastructure input.
+- Provide constructive, specific feedback with clear rationale.
+- Distinguish blockers from suggestions.
+- Ask for evidence when correctness depends on tests, logs, screenshots, benchmarks, or rollout checks.
+- Test critical changes locally when needed.
+- Approve only when the change meets the expected quality bar and is ready to operate.
 
-Deliverables for larger work:
+#### For Authors
 
-- Problem statement
-- Owner and reviewers
-- Success criteria
-- Initial risk classification
+**Pre-Review Preparation:**
 
-### Phase 2: Requirements
+- Write a clear PR description explaining purpose, scope, validation, and risks.
+- Include relevant tests and documentation updates.
+- Perform a self-review before requesting review.
+- Ensure relevant CI jobs pass or explain any known failures.
+- Break large changes into smaller, reviewable pieces when practical.
 
-Translate the problem into behavior that can be tested and reviewed.
+**During Review:**
 
-- Define functional requirements.
-- Define non-functional requirements: performance, latency, cost, accessibility, reliability, security, privacy, and maintainability.
-- Identify datasets, model checkpoints, external services, secrets, feature flags, environments, and user permissions.
-- Document compatibility expectations for APIs, CLIs, configs, model formats, docs links, and saved artifacts.
-
-Deliverables for larger work:
-
-- Acceptance criteria
-- Data and privacy notes
-- Test plan
-- Rollout assumptions
-
-### Phase 3: Design
-
-Choose the smallest design that solves the problem without creating hidden operational cost.
-
-- Prefer existing patterns and helpers in the repository.
-- Avoid new dependencies unless they reduce meaningful complexity or are standard for the domain.
-- Design for observability and rollback where production systems are involved.
-- Document tradeoffs for architecture, model behavior, API shape, storage, or security controls.
-- Ask for design review before implementation when the change affects multiple systems.
-
-Deliverables for larger work:
-
-- Architecture or data-flow notes
-- API or interface examples
-- Security and privacy considerations
-- Rollout and rollback plan
-
-### Phase 4: Implementation
-
-Implement in focused increments.
-
-- Keep PRs reviewable. Split mechanical refactors from behavior changes when practical.
-- Follow local code style and project conventions.
-- Add tests with the implementation, not as an afterthought.
-- Update docs, examples, configuration references, and runbooks in the same PR as behavior changes.
-- Avoid unrelated formatting, renames, dependency upgrades, and cleanup unless they directly reduce risk.
-
-### Phase 5: Validation
-
-Prove the change works at a level that matches its risk.
-
-- Run relevant local tests before requesting review.
-- Include CI results, screenshots, preview URLs, logs, benchmark output, or manual validation notes in the PR.
-- For model changes, include datasets, commands, hardware, seeds when relevant, and before/after metrics.
-- For infrastructure changes, include plan output, staging validation, smoke tests, or monitoring checks.
-- For documentation, verify the page builds and links resolve.
-
-### Phase 6: Release
-
-Merge only when the change is reviewed, validated, documented, and ready to operate.
-
-- Confirm required reviews are complete.
-- Confirm CI and previews are passing.
-- Confirm migrations, feature flags, secrets, config, and deployment steps are ready.
-- Confirm release notes, changelog entries, docs updates, or customer communications are ready if users will notice the change.
-- Confirm rollback or mitigation is known.
-
-### Phase 7: Maintenance
-
-Support the change after merge.
-
-- Watch the relevant dashboards, errors, support channels, issues, and usage signals.
-- Respond quickly to regressions.
-- Close follow-up tasks or document why they are deferred.
-- Update tests, alerts, docs, and runbooks based on what was learned.
-
-## Branches and Commits
-
-### Branches
-
-- Branch from current `main`.
-- Keep branches short-lived and rebase or merge from `main` when the branch drifts.
-- Use descriptive names: `fix-export-timeout`, `add-training-metrics`, `docs-release-runbook`, `ci-link-check`.
-- Delete branches after merge unless they are maintained release branches.
-
-### Commits
-
-- Use present tense: `Add export validation`, not `Added export validation`.
-- Keep commits logically grouped.
-- Reference issues when useful.
-- Avoid mixing formatting-only changes with behavior changes unless formatting is the entire purpose.
-- Do not rewrite shared branch history while others are actively working from it without coordinating.
-
-## Pull Requests
-
-PRs are the main engineering record. A strong PR lets reviewers understand the problem, inspect the solution, validate the risk, and support the release.
-
-```mermaid
-flowchart TD
-    A[Create branch from main] --> B[Implement focused change]
-    B --> C[Run relevant local checks]
-    C --> D[Open PR with context and validation]
-    D --> E[Required review]
-    E -->|Changes requested| F[Address feedback]
-    F --> C
-    E -->|Approved| G[CI and preview green]
-    G --> H[Merge]
-    H --> I[Monitor and follow up]
-```
-
-### PR Description
-
-Every meaningful PR should include:
-
-- **Summary:** What changed and why.
-- **Context:** Issue, customer report, incident, design discussion, or business driver.
-- **Validation:** Tests, commands, screenshots, preview URLs, benchmark output, logs, or manual checks.
-- **Risk:** Security, privacy, licensing, compatibility, performance, model quality, docs, or release concerns.
-- **Rollout:** Feature flags, migrations, release notes, monitoring, and rollback when relevant.
-
-Example:
-
-```markdown
-## Summary
-
-- Adds validation for exported ONNX metadata.
-- Updates docs with the new warning behavior.
-
-## Context
-
-Fixes customer reports where invalid metadata caused downstream runtime failures.
-
-## Validation
-
-- `pytest tests/export/test_metadata.py`
-- Manual export with YOLO11n on macOS and Linux
-
-## Risk
-
-Low. Validation is additive and only rejects malformed metadata.
-
-## Rollout
-
-Ships in the next package release. Revert this PR if downstream integrations fail unexpectedly.
-```
-
-### PR Size
-
-Use smaller PRs when:
-
-- The change touches multiple subsystems.
-- A refactor is needed before behavior changes.
-- Generated files or formatting obscure the important diff.
-- The work needs different reviewers for product, model, infrastructure, security, or docs.
-
-Larger PRs are acceptable when:
-
-- The change is mostly generated and easy to verify.
-- Splitting would create broken intermediate states.
-- The PR includes a migration that must stay atomic.
-- Reviewers have enough context and validation evidence to approve confidently.
-
-## Code Standards
-
-Ultralytics repositories may have different tooling, but these expectations are common across engineering work.
-
-### General Code Quality
-
-- Keep functions focused and names specific.
-- Prefer structured APIs and parsers over ad hoc string manipulation.
-- Use existing helpers before adding new abstractions.
-- Make errors actionable and avoid hiding failures behind broad exception handling.
-- Avoid logging secrets, tokens, credentials, customer data, personal data, or private model artifacts.
-- Keep dependencies minimal, maintained, and justified.
-- Preserve backward compatibility unless the breaking change is intentional, documented, and approved.
-
-### Python Guidelines
-
-| Standard   | Expectation                                                                |
-| ---------- | -------------------------------------------------------------------------- |
-| Formatting | Use the repository formatter and lint settings                             |
-| Line width | Follow the repository configuration, commonly 120 characters               |
-| Paths      | Prefer `pathlib` over manual path string handling                          |
-| Strings    | Prefer f-strings for interpolation                                         |
-| Types      | Use type hints where they improve readability, IDE support, or API clarity |
-| Imports    | Keep imports ordered, minimal, and free of unused symbols                  |
-| Comments   | Explain non-obvious decisions, not obvious syntax                          |
-
-### Google-Style Docstrings
-
-Public functions and classes should use Google-style docstrings where the repository expects them. Keep docstrings accurate, concise, and useful.
-
-```python
-def example_function(arg1: int, arg2: int = 4) -> bool:
-    """Return whether two integer arguments are equal.
-
-    Args:
-        arg1 (int): The first integer.
-        arg2 (int): The second integer.
-
-    Returns:
-        (bool): True when both arguments are equal.
-
-    Examples:
-        >>> example_function(4, 4)
-        True
-    """
-    return arg1 == arg2
-```
-
-For multiple return values, document each returned value separately when that is the local project convention:
-
-```python
-Returns:
-    masks (np.ndarray): Predicted masks with shape HxWxN.
-    scores (list[float]): Confidence scores for each instance.
-```
-
-## AI and Model Engineering Standards
-
-Ultralytics engineering often changes systems where correctness is not only pass or fail. Model behavior, training reproducibility, export compatibility, and benchmark quality require extra care.
-
-### Model Behavior Changes
-
-When changing training, validation, prediction, export, tracking, benchmarking, or model configuration:
-
-- State what behavior is expected to change.
-- Include before/after metrics when practical.
-- Name datasets, splits, model variants, hardware, runtime, seeds, and command lines used for validation.
-- Check impact on speed, memory, accuracy, exported formats, and downstream tooling.
-- Consider whether docs, examples, tutorials, release notes, or migration guidance need updates.
-
-### Dataset and Evaluation Changes
-
-- Document dataset source, version, license, and split assumptions.
-- Avoid leaking private, customer, or restricted data into public tests or examples.
-- Make evaluation commands reproducible.
-- Keep benchmark comparisons fair and clearly scoped.
-- Preserve historical comparability unless the metric definition intentionally changes.
-
-### Export and Compatibility
-
-Export changes can affect many downstream users. Validate the relevant formats before merge when touched:
-
-- ONNX
-- TensorRT
-- CoreML
-- OpenVINO
-- TensorFlow or TFLite
-- TorchScript
-- Edge or mobile runtime paths
-
-If full validation is expensive, document which formats were tested and why the remaining risk is acceptable.
-
-## Review Model
-
-### Standard Review
-
-All production-bound changes require at least one qualified reviewer who is not the author. The reviewer should evaluate:
-
-- Correctness and edge cases
-- Test coverage and validation evidence
-- Maintainability and fit with existing architecture
-- Security, privacy, and licensing risk
-- Performance, memory, dependency, and operational impact
-- Documentation and release readiness
-- Compatibility with public APIs, CLIs, configs, saved models, datasets, and user workflows
-
-### Higher-Risk Review
-
-Use additional review when a change touches:
-
-- Authentication, authorization, secrets, encryption, or access control
-- Customer data, employee data, telemetry, analytics, retention, or deletion
-- Payments, licensing, legal, compliance, or audit evidence
-- Deployment infrastructure, CI/CD, runners, release automation, or production config
-- Model training, evaluation, export, inference, benchmarks, or default model behavior
-- Public APIs, model formats, CLI behavior, package metadata, or breaking changes
-- High-traffic docs pages, installation paths, or onboarding-critical workflows
-
-For higher-risk changes, use at least two independent reviewers when practical. At least one reviewer should have domain expertise in the affected system.
-
-### Reviewer Expectations
-
-- Respond within one business day when tagged as required reviewer, or redirect quickly.
-- Separate blocking issues from suggestions.
-- Ask for evidence when correctness depends on tests, benchmarks, logs, screenshots, or rollout checks.
-- Check security, privacy, reliability, and user-impact risks directly.
-- Verify docs and examples when behavior changes.
-- Approve only when the change is understandable, validated, and ready to operate.
-
-### Author Expectations
-
-- Self-review before requesting review.
-- Explain non-obvious design choices in the PR description or comments.
-- Respond to every unresolved review thread.
-- Keep the PR description current when scope changes.
-- Avoid force-pushing during active review unless it is needed to resolve conflicts or clean up history.
-- Convert repeated review feedback into tests, docs, helpers, or automation where practical.
-
-## Security and Compliance
-
-Security-sensitive work needs early review, not late approval. Involve the relevant owner before implementation when a change introduces or modifies:
-
-!!! warning "Ask early for security-sensitive changes"
-
-    If a change touches authentication, authorization, secrets, customer data, employee data, license enforcement, file handling, shell execution, or third-party integrations, involve the right reviewer before the implementation is mostly finished.
-
-- Authentication, authorization, permissions, or account lifecycle behavior
-- Secrets, tokens, encryption keys, credentials, signing, or certificate workflows
-- Data collection, storage, deletion, sharing, export, retention, or anonymization
-- External integrations, webhooks, network boundaries, or third-party APIs
-- File upload, archive extraction, path handling, deserialization, shell execution, or dependency loading
+- Respond promptly to reviewer feedback and questions.
+- Provide additional context or evidence when requested.
+- Address unresolved feedback before requesting re-review.
+- Keep the PR description current if scope changes.
+- Maintain professional, direct communication focused on the quality of the work.
+
+## Security Standards
+
+### Security Review Requirements
+
+Code changes involving any of the following require additional security consideration and may require specialist review:
+
+- Authentication and authorization mechanisms
+- Permissions, roles, access control, and account lifecycle behavior
+- Secrets, credentials, tokens, signing keys, or certificates
+- Data encryption and decryption
+- Customer data, employee data, telemetry, analytics, retention, export, or deletion
+- External API integrations, webhooks, and data exchanges
+- Database queries and data access patterns
+- File upload, archive extraction, path handling, deserialization, and storage
+- Network communications and protocols
+- Input validation and sanitization
 - License enforcement, enterprise controls, compliance evidence, or audit trails
 
-Minimum expectations:
+!!! warning "Ask for security input early"
 
-- Validate and sanitize untrusted input.
-- Use safe SDK methods and parameterized queries for data access.
-- Apply least privilege for services, tokens, runners, and cloud resources.
-- Avoid exposing sensitive information in errors, logs, screenshots, artifacts, or telemetry.
-- Pin or constrain dependencies where supply-chain risk is meaningful.
-- Document accepted risk and follow-up owners when a vulnerability cannot be fixed immediately.
+    Security-sensitive changes should not wait until the end of implementation for review. Involve the relevant owner during planning or design when the change affects access control, data handling, secrets, file handling, shell execution, external integrations, licensing, or compliance evidence.
 
-## Testing and Quality Gates
+### Security Best Practices
 
-Testing should match the blast radius of the change. A copy edit does not need the same validation as an export-path change, but every PR needs enough evidence for reviewers to trust it.
+- Validate and sanitize all untrusted input.
+- Use parameterized queries and safe SDK methods for data access.
+- Apply least privilege for users, services, runners, tokens, and cloud resources.
+- Keep dependencies current and document temporary exceptions for vulnerable packages.
+- Avoid logging secrets, personal data, customer data, credentials, or sensitive model artifacts.
+- Implement error handling that helps operators debug without exposing sensitive information.
+- Use secure coding practices for cryptographic operations.
+- Make incident response easier with clear logs, alerts, ownership, and rollback paths.
 
-| Change Type        | Expected Validation                                                         |
-| ------------------ | --------------------------------------------------------------------------- |
-| Documentation      | Preview build, link checks when practical, screenshots for layout changes   |
-| UI or website      | Preview URL, responsive screenshots, accessibility and interaction checks   |
-| Python library     | Unit tests, integration tests for changed workflows, lint and format checks |
-| CLI or API         | Tests for success, failure, backward compatibility, and docs examples       |
-| Model behavior     | Before/after metrics, reproducible commands, dataset and hardware notes     |
-| Export path        | Format-specific smoke tests and downstream compatibility notes              |
-| Infrastructure     | Plan output, staging validation, rollback path, monitoring checks           |
-| Security-sensitive | Security review, abuse cases, dependency scan, auditability check           |
+## Documentation Standards
 
-### Local Validation
+Documentation is part of the engineering workflow. If behavior changes, the relevant documentation should usually change in the same PR.
 
-Run the checks that are relevant to the repository and change. Common examples:
+### Code Documentation
+
+- Include clear, concise docstrings for public functions, classes, and modules where the repository expects them.
+- Document complex algorithms, non-obvious business logic, and security-sensitive decisions with focused comments.
+- Maintain up-to-date README files for project components.
+- Document API endpoints, CLI behavior, configuration options, and examples where relevant.
+- Keep docs close to the code or workflow they explain when practical.
+
+### Architecture Documentation
+
+- Maintain system architecture diagrams and design documents for significant systems.
+- Document integration patterns and data flow between components.
+- Keep deployment, configuration, and rollback documentation current.
+- Create troubleshooting guides and runbooks for common operational issues.
+- Record material design tradeoffs where future maintainers can find them.
+
+### Public and Handbook Documentation
+
+- Use [Documentation](documentation.md) for handbook and docs contribution guidance.
+- Update public docs when users, customers, contributors, or integrations will notice a change.
+- Use screenshots or preview links for visual changes.
+- Verify links and navigation when moving or renaming pages.
+
+## Testing Requirements
+
+Testing should match the blast radius of the change. A typo fix does not need the same validation as a model export change, but every PR needs enough evidence for reviewers to trust it.
+
+### Automated Testing
+
+- Write unit tests for new functionality and regression tests for bug fixes.
+- Add integration tests for critical user workflows and cross-component behavior.
+- Maintain end-to-end tests for core product paths where practical.
+- Ensure relevant tests pass in CI before merging.
+- Prefer focused tests that clearly explain the behavior being protected.
+
+### Manual Testing
+
+- Perform manual testing for user interface and documentation layout changes.
+- Conduct security testing for authentication, authorization, file handling, and data access changes.
+- Test performance under expected load when performance could be affected.
+- Verify compatibility across supported platforms, runtimes, formats, and environments.
+- Capture screenshots, preview URLs, logs, commands, or metrics in the PR when useful.
+
+### Validation Examples
 
 === "Documentation"
 
@@ -546,7 +249,7 @@ Run the checks that are relevant to the repository and change. Common examples:
     python3 docs/build_docs.py
     ```
 
-    Use previews and screenshots for layout changes. Use link checks when editing navigation, resource lists, redirects, or public URLs.
+    Use preview builds and screenshots for layout changes. Check links when editing navigation, redirects, resource lists, or public URLs.
 
 === "Python"
 
@@ -556,7 +259,7 @@ Run the checks that are relevant to the repository and change. Common examples:
     pytest tests/
     ```
 
-    Add focused tests for new behavior and regression tests for bug fixes.
+    Use the repository's actual commands when they differ from these examples.
 
 === "Model Behavior"
 
@@ -565,138 +268,372 @@ Run the checks that are relevant to the repository and change. Common examples:
     yolo predict model=yolo11n.pt source=path/to/images
     ```
 
-    Include commands, datasets, hardware, and before/after metrics when model behavior, export, or runtime performance changes.
+    Include datasets, commands, model variants, hardware, and before/after metrics when training, validation, export, inference, or benchmark behavior changes.
 
-If a relevant check cannot be run locally, say why in the PR and provide another form of evidence.
+## Secure Software Development Life Cycle (SDLC)
 
-### CI Expectations
+Ultralytics follows a structured, security-focused SDLC that supports consistent quality across software, infrastructure, documentation, and AI model development. The process should scale with risk: simple changes can move quickly, while security-sensitive or production-critical changes need deeper planning, validation, and review.
 
-Before merge:
+### SDLC Framework Overview
 
-- Required CI jobs pass.
-- Failures are understood and fixed, not ignored.
-- Flaky failures are investigated when they affect confidence in the change.
-- New tests cover new behavior or the PR documents why manual validation is the right approach.
-- Build, link, and preview failures in documentation PRs are resolved.
+Our SDLC consists of seven phases, each with defined deliverables, security checkpoints, and quality gates:
 
-## Documentation and Knowledge Sharing
+```mermaid
+%%{init: {'theme': 'forest', 'themeVariables': {'primaryColor': '#01579b', 'edgeLabelBackground':'#ffffff', 'tertiaryColor': '#e1f5fe'}}}%%
 
-Documentation is part of the work when behavior changes.
+flowchart TD
+    A[Planning] --> B[Requirements]
+    B --> C[Design]
+    C --> D[Implementation]
+    D --> E[Testing]
+    E --> F[Deployment]
+    F --> G[Maintenance]
+    G -.->|Continuous Feedback Loop| A
+```
 
-Update docs when a change affects:
+### Phase 1: Planning
 
-- User behavior, APIs, CLIs, configs, installation, deployment, or troubleshooting
-- Employee workflows, runbooks, ownership, support, or incident response
-- Security, compliance, legal, licensing, or data handling
-- Model behavior, metrics, examples, training, validation, prediction, or export
-- Onboarding paths for customers, contributors, or employees
+**Objective:** Establish project scope, ownership, timeline, validation strategy, and security considerations from the outset.
 
-Knowledge should live where future teammates will look:
+**Key Activities:**
 
-- Code comments for local implementation choices
-- PR descriptions for change history
-- Issues or decision records for design tradeoffs
-- Runbooks for operational procedures
-- Handbook pages for employee workflows
-- Public docs for user-facing behavior
+- Define project objectives and success criteria.
+- Identify the owner, stakeholders, reviewers, and affected systems.
+- Conduct initial threat modeling and risk assessment when applicable.
+- Establish security, privacy, licensing, and compliance needs.
+- Create a project timeline with review and validation milestones.
+- Plan for model performance benchmarks and evaluation metrics when AI behavior is affected.
 
-## Release Readiness
+**Security Checkpoints:**
 
-Before merging or deploying, confirm:
+- Security impact assessment
+- Data privacy and compliance review
+- Infrastructure security planning
+- Third-party dependency evaluation
 
-- The PR is up to date with `main` or conflicts are intentionally resolved.
-- Required reviews are complete.
-- Unresolved comments are addressed or explicitly deferred with owner and rationale.
-- CI, preview, and validation evidence are passing.
-- Feature flags, migrations, config, secrets, and deploy steps are ready.
-- Backward compatibility has been considered for APIs, CLIs, model files, datasets, configs, and docs links.
-- Release notes, changelog entries, docs updates, or customer communications are prepared if users will notice the change.
-- The owner knows what to monitor after release and how to roll back.
+**Deliverables:**
 
-For risky rollouts, prefer:
+- Project brief or issue with owner and scope
+- Risk assessment notes
+- Resource and reviewer plan
+- Security or compliance checklist when needed
 
-- Feature flags
-- Staged deployment
-- Canary release
-- Limited beta
-- Preview environment
-- Fast rollback
+### Phase 2: Requirements Gathering
 
-## Hotfixes
+**Objective:** Define functional and non-functional requirements, including security, performance, reliability, and scalability.
 
-Hotfixes are for urgent issues where waiting for the normal path would create unacceptable user, customer, security, or operational impact.
+**Key Activities:**
 
-!!! danger "Hotfixes still need a paper trail"
+- Gather and document functional requirements.
+- Define non-functional requirements such as performance, scalability, reliability, accessibility, privacy, and security.
+- Establish data requirements, sources, retention, and access patterns.
+- Define model accuracy, latency, export, and performance benchmarks when applicable.
+- Create user stories, acceptance criteria, and rollback expectations.
+- Document regulatory, legal, licensing, and compliance requirements when relevant.
 
-    Urgency can compress review timelines, but it should not erase ownership, validation, rollback, or follow-up work. Keep the fix narrow and document the reason for the exception.
+**Security Checkpoints:**
 
-Hotfix rules:
+- Data classification and handling requirements
+- Authentication and authorization requirements
+- Input validation and sanitization requirements
+- Encryption and data protection standards
 
-- Keep the fix as small as possible.
-- Get at least one qualified reviewer unless the system is actively down and no reviewer is available.
-- Document the reason for urgency in the PR.
-- Prefer reversible mitigation over broad refactor.
-- Add follow-up tasks for tests, docs, cleanup, and root-cause work.
-- After stabilization, review whether the normal process needs better alerts, tests, runbooks, or ownership.
+**Deliverables:**
 
-## Incidents and Operational Learning
+- Requirements notes or specification
+- Security requirements matrix for sensitive changes
+- Data handling and privacy requirements
+- Performance and scalability criteria
 
-When something breaks, stabilize first, then learn without blame.
+### Phase 3: Design
 
-### During an Incident
+**Objective:** Create an architecture and implementation plan that incorporates security, maintainability, and operational readiness.
 
-- Assign an incident owner.
-- Assign a communication owner when users, customers, or multiple teams are affected.
-- Keep a concise timeline of symptoms, decisions, mitigations, deployments, and customer impact.
-- Capture commands, dashboards, logs, error IDs, deployment IDs, and links needed for analysis.
-- Prefer mitigation first, root-cause refactoring later.
+**Key Activities:**
 
-### After Stabilization
+- Design system architecture and component interactions.
+- Create model architecture, training, evaluation, or inference pipeline design when relevant.
+- Design data flow and processing workflows.
+- Plan API specifications and integration points.
+- Design security controls and access management.
+- Create database, storage, deployment, and rollback designs.
 
-- Document root causes and contributing factors.
-- Identify missing tests, alerts, runbooks, dashboards, review steps, or ownership.
-- Create follow-up tasks with owners and due dates.
-- Update docs and automation so the next responder starts with better context.
-- Share the learning with affected teams.
+**Security Checkpoints:**
 
-## Employee Checklists
+- Architecture security review
+- Threat modeling and attack surface analysis
+- Security control design validation
+- Data flow security assessment
 
-### Before Opening a PR
+**Deliverables:**
 
-- [ ] The outcome is clear.
-- [ ] The scope is focused.
-- [ ] The risk classification is understood.
-- [ ] Tests, docs, and validation evidence are planned.
-- [ ] Security, privacy, licensing, model, and compatibility risks are considered.
-- [ ] The PR description explains context and validation.
+- System architecture diagrams or notes
+- Model architecture or pipeline specifications
+- API design documentation
+- Security architecture notes
+- Database design or data model notes
 
-### Before Requesting Review
+### Phase 4: Implementation
 
-- [ ] The diff has been self-reviewed.
-- [ ] Local checks relevant to the change have been run.
-- [ ] Generated files and formatting changes are intentional.
-- [ ] Screenshots, previews, logs, metrics, or benchmark evidence are attached when useful.
-- [ ] Docs, examples, runbooks, or release notes are updated when behavior changes.
-- [ ] Required reviewers have the right domain context.
+**Objective:** Develop secure, high-quality changes following established coding standards and repository conventions.
 
-### Before Merge
+**Key Activities:**
 
-- [ ] Required reviews are complete.
-- [ ] CI and previews pass.
-- [ ] Unresolved review comments are addressed or explicitly deferred.
-- [ ] Rollout and rollback are clear.
-- [ ] Monitoring is clear for production-impacting changes.
-- [ ] Follow-up tasks have owners.
+- Implement features according to design specifications.
+- Develop model training, validation, export, or inference changes with reproducible validation.
+- Create automated tests for new behavior and regressions.
+- Implement security controls and validation.
+- Update documentation, examples, and code comments.
+- Conduct regular code reviews.
 
-## License and Contributor Requirements
+**Security Checkpoints:**
 
-Ultralytics repositories may combine open-source, commercial, employee-only, and customer-facing work. Employees are responsible for respecting the licensing and contributor requirements of the repository they are changing.
+- Secure coding practices enforcement
+- Security-focused code review
+- Static Application Security Testing (SAST) where available
+- Dependency vulnerability scanning
 
-- Public contributions should follow the [Ultralytics contributing guide](https://docs.ultralytics.com/help/contributing/).
-- External contributors must sign the [Contributor License Agreement](https://docs.ultralytics.com/help/CLA/) before merge.
-- Code distributed under the [AGPL-3.0 license](https://www.ultralytics.com/legal/agpl-3-0-software-license) has obligations that must be understood before reuse.
-- Commercial or closed-source use may require an [Ultralytics Enterprise License](https://www.ultralytics.com/license).
-- Ask the legal or security owner before changing license headers, package metadata, attribution, third-party dependency licensing, or enterprise controls.
+**Deliverables:**
+
+- Production-ready code with relevant documentation
+- Trained models or model behavior changes with performance metrics when applicable
+- Unit, integration, or end-to-end tests
+- Security implementation notes for sensitive changes
+
+### Phase 5: Testing
+
+**Objective:** Ensure comprehensive validation of functionality, performance, security, compatibility, and model quality.
+
+#### Automated Testing Protocols
+
+**Unit Testing:**
+
+- Focused tests for new functionality.
+- Regression tests for fixed bugs.
+- Automated test execution in CI/CD pipelines.
+- Performance regression tests for performance-sensitive paths.
+
+**Integration Testing:**
+
+- API endpoint testing with expected and unexpected inputs.
+- Database integration and data consistency testing.
+- Model inference and export pipeline testing.
+- Third-party service integration validation.
+
+**Security Testing:**
+
+- Dynamic Application Security Testing (DAST) where applicable.
+- Penetration testing for high-risk web interfaces.
+- Input validation and boundary testing.
+- Authentication and authorization testing.
+
+**Model Testing:**
+
+- Model accuracy and performance benchmarking.
+- Export compatibility checks for affected formats.
+- Robustness testing for representative edge cases.
+- Bias, fairness, interpretability, or privacy evaluation when relevant.
+
+**Security Checkpoints:**
+
+- Vulnerability assessment and remediation plan
+- Security test case execution
+- Compliance testing against security standards
+- Model security and privacy validation
+
+**Deliverables:**
+
+- Test execution results and metrics
+- Security testing results and remediation plan
+- Model performance and accuracy reports
+- Test automation updates and documentation
+
+### Phase 6: Deployment
+
+**Objective:** Deploy applications, models, documentation, or infrastructure safely with monitoring and rollback capability.
+
+**Key Activities:**
+
+- Prepare production environments with appropriate security hardening.
+- Execute deployment using repeatable processes or Infrastructure as Code when applicable.
+- Configure monitoring, logging, alerting, and ownership.
+- Implement model versioning, feature flags, staged rollout, or A/B testing when appropriate.
+- Validate deployment through automated health checks and smoke tests.
+- Create or update operational runbooks and procedures.
+
+**Security Checkpoints:**
+
+- Production environment security validation
+- Secrets management and credential rotation
+- Network security and firewall configuration
+- Monitoring and incident response setup
+
+**Deliverables:**
+
+- Production deployment with monitoring
+- Operational procedures and runbooks
+- Security configuration documentation
+- Rollback and disaster recovery procedures
+
+### Phase 7: Maintenance
+
+**Objective:** Ensure ongoing security, performance, and functionality through continuous monitoring, updates, and learning.
+
+#### Version Control and Change Management
+
+**Version Control Standards:**
+
+- Use Git with a feature branch workflow.
+- Keep branches focused and short-lived.
+- Maintain clear commit messages with issue references when useful.
+- Tag releases with useful release notes where applicable.
+- Use branch protection rules and merge policies for important branches.
+
+**Change Management Process:**
+
+- Route production-bound changes through the established review process.
+- Categorize changes by risk level: low, medium, high, or emergency.
+- Maintain approval workflows for sensitive or high-impact changes.
+- Document important changes in PRs, changelogs, runbooks, or release notes.
+- Implement automated change validation and testing where practical.
+
+**Ongoing Activities:**
+
+- Regular security updates and patch management.
+- Performance monitoring and optimization.
+- Model retraining and accuracy monitoring where applicable.
+- User feedback collection and analysis.
+- Incident response and issue resolution.
+- Documentation updates and maintenance.
+
+**Security Checkpoints:**
+
+- Regular security assessments and audits
+- Vulnerability scanning and remediation
+- Access review and privilege management
+- Compliance monitoring and reporting
+
+**Deliverables:**
+
+- Maintenance reports or issue updates
+- Security assessment results
+- Performance optimization recommendations
+- Updated documentation and procedures
+
+## Continuous Integration and Deployment
+
+### CI/CD Pipeline Standards
+
+Our CI/CD pipelines integrate security testing and quality assurance throughout development.
+
+**Automated Pipeline Stages:**
+
+1. **Source Code Analysis:** Static code analysis, formatting, linting, and security scanning.
+2. **Build and Test:** Automated build and test execution.
+3. **Security Scanning:** SAST, dependency scanning, and container scanning where applicable.
+4. **Quality Gates:** Code coverage, performance, link checks, and security thresholds.
+5. **Preview or Staging Deployment:** Automated preview, staging, or documentation deployment.
+6. **Integration Testing:** End-to-end validation in an environment close to production.
+7. **Security Validation:** DAST, penetration testing, or targeted checks for higher-risk changes.
+8. **Production Deployment:** Automated or reviewed deployment with monitoring.
+
+**Quality Gates:**
+
+- Relevant tests passing.
+- No unresolved high-severity security vulnerabilities.
+- Performance benchmarks within acceptable thresholds.
+- Documentation and changelog updates where needed.
+- Rollback or mitigation path understood for production-impacting changes.
+
+### Deployment Practices
+
+- Use feature flags for gradual rollout of risky or user-visible functionality.
+- Use staged, canary, or blue-green deployment when appropriate.
+- Maintain monitoring and alerting for production deployments.
+- Implement rollback procedures for quick recovery.
+- Document deployment procedures, owners, and emergency contacts.
+- Use Infrastructure as Code for consistent environment provisioning where practical.
+
+## Knowledge Sharing
+
+### Technical Communication
+
+- Share knowledge through documentation, demos, design reviews, and code review discussions.
+- Maintain decision logs for architectural and technical choices.
+- Move repeated chat answers into docs, examples, tests, or automation.
+- Contribute to engineering blog posts and external presentations when appropriate.
+- Keep onboarding-critical knowledge in durable, discoverable places.
+
+### Mentorship and Growth
+
+- Provide useful guidance during code reviews.
+- Share expertise through pair programming, walkthroughs, and design reviews.
+- Encourage experimentation with new technologies when it has a clear purpose.
+- Support professional development through conferences, training, writing, and internal knowledge sharing.
+
+## Incident Response
+
+### Bug Reporting and Resolution
+
+- Use standardized bug reports with clear reproduction steps.
+- Prioritize security vulnerabilities and production incidents for immediate attention.
+- Maintain incident response procedures for production issues.
+- Conduct post-incident reviews to prevent repeat failures.
+- Add tests, alerts, runbooks, or docs based on what the incident revealed.
+
+### Emergency Procedures
+
+- Establish a clear incident owner and communication owner.
+- Maintain escalation paths for critical issues.
+- Document rollback procedures for emergency deployments.
+- Implement monitoring and alerting for early issue detection.
+- Capture a timeline of symptoms, decisions, mitigations, deployments, and customer impact.
+
+## Compliance and Governance
+
+### Regulatory Compliance
+
+- Ensure changes comply with relevant industry standards and internal policies.
+- Maintain audit trails for security-sensitive modifications.
+- Implement data protection measures according to privacy requirements.
+- Document compliance procedures and review them regularly.
+- Ask legal, security, or compliance owners before changing license headers, attribution, data handling, or enterprise controls.
+
+### Change Management
+
+- Follow established change management processes for production systems.
+- Maintain version control and release documentation.
+- Implement approval workflows for significant architectural or security changes.
+- Regularly review and update engineering policies and procedures.
+
+## FAQ
+
+### Why do we require multiple reviewers for some code changes?
+
+Multiple reviewers improve quality by bringing different perspectives and expertise to the review process. This helps catch bugs, security vulnerabilities, design issues, compatibility problems, and operational risks that a single reviewer might miss. It also spreads knowledge and reduces bottlenecks when individual reviewers are unavailable.
+
+### How do we handle urgent hotfixes that need immediate deployment?
+
+Even urgent fixes should preserve the core review standard with an expedited timeline. Critical hotfixes should receive at least one qualified reviewer when possible. If an emergency requires a narrower path, document the reason, ship the smallest safe fix, and schedule follow-up review, tests, docs, or cleanup immediately after stabilization.
+
+### What happens if reviewers disagree on a code change?
+
+Reviewer disagreement should focus on technical merits, user impact, risk, and alignment with engineering principles. If consensus cannot be reached, escalate to the relevant owner, senior engineer, or architect for a final decision. Document the rationale so future teammates understand the tradeoff.
+
+### How do we ensure reviewer expertise matches the code being reviewed?
+
+Match reviewer selection to the affected system. Rotate reviewers to reduce knowledge silos, but ensure at least one reviewer has enough familiarity with the area to evaluate correctness and risk. For security, model behavior, infrastructure, legal, compliance, or public API changes, include the relevant domain owner.
+
+### What tools and resources support our engineering practices?
+
+Our practices are supported by:
+
+- GitHub branch protection rules and review requirements
+- Automated testing and CI/CD pipelines
+- Code quality analysis tools and security scanners
+- Documentation platforms and handbook pages
+- Monitoring and alerting systems for production environments
+- Internal runbooks, decision records, and team communication channels
 
 ## Resources
 
@@ -712,7 +649,9 @@ Ultralytics repositories may combine open-source, commercial, employee-only, and
 - [Minimum Reproducible Example Guide](https://docs.ultralytics.com/help/minimum-reproducible-example/)
 - [Model Validation](https://docs.ultralytics.com/modes/val/)
 - [CI Workflows](https://docs.ultralytics.com/help/CI/)
-- [GitHub Pull Request Documentation](https://docs.github.com/en/pull-requests)
-- [GitHub Branch Documentation](https://docs.github.com/en/desktop/making-changes-in-a-branch/managing-branches-in-github-desktop)
-- [Ultralytics Blog](https://www.ultralytics.com/blog)
-- [Ultralytics Events](https://www.ultralytics.com/events)
+- [Ultralytics AGPL-3.0 License](https://www.ultralytics.com/legal/agpl-3-0-software-license)
+- [Ultralytics Enterprise License](https://www.ultralytics.com/license)
+
+---
+
+This handbook is a living document that evolves with Ultralytics engineering practices. For suggestions or questions, open a PR or raise the topic with the relevant engineering owner.
