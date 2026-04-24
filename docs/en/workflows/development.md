@@ -92,21 +92,21 @@ git checkout -b fix-issue-123
 
 - :material-check-circle: **Follow Guidelines**
 
-  ***
+    ***
 
-  Follow the repository's existing patterns and style
+    Follow the repository's existing patterns and style
 
 - :material-alert-circle: **Avoid Errors**
 
-  ***
+    ***
 
-  Avoid new warnings, regressions, or unrelated churn
+    Avoid new warnings, regressions, or unrelated churn
 
 - :material-target: **Stay Focused**
 
-  ***
+    ***
 
-  Keep the PR scoped to one clear outcome
+    Keep the PR scoped to one clear outcome
 
 </div>
 
@@ -314,39 +314,39 @@ def example_small_function(arg1: int, arg2: int = 4) -> bool:
 
 - :material-content-copy: **Avoid Duplication**
 
-  ***
+    ***
 
-  Reuse existing helpers and patterns
+    Reuse existing helpers and patterns
 
 - :material-focus-field: **Smaller Changes**
 
-  ***
+    ***
 
-  Prefer focused PRs over broad mixed changes
+    Prefer focused PRs over broad mixed changes
 
 - :material-lightbulb-on: **Simplify**
 
-  ***
+    ***
 
-  Remove complexity when it improves clarity
+    Remove complexity when it improves clarity
 
 - :material-shield-check: **Compatibility**
 
-  ***
+    ***
 
-  Preserve public APIs and user workflows
+    Preserve public APIs and user workflows
 
 - :material-test-tube: **Add Tests**
 
-  ***
+    ***
 
-  Cover new behavior and regressions
+    Cover new behavior and regressions
 
 - :material-format-paint: **Consistent Format**
 
-  ***
+    ***
 
-  Follow repository formatting tools
+    Follow repository formatting tools
 
 </div>
 
@@ -358,12 +358,12 @@ Ultralytics engineering practices should align with recognized secure developmen
 
 Vulnerabilities may be identified through automated scans, dependency alerts, code review, penetration testing, vendor advisories, security research, responsible disclosure, customer reports, or internal testing. Each confirmed vulnerability should be tracked to closure with severity, owner, remediation plan, and evidence.
 
-| Severity | Triage Target | Expected Response |
-| -------- | ------------- | ----------------- |
-| Critical | Same day | Assign an owner immediately, mitigate as soon as practical, and communicate impact to relevant stakeholders. |
-| High | 1 business day | Prioritize ahead of routine work, define a remediation plan, and track progress to completion. |
-| Medium | 5 business days | Schedule remediation based on exploitability, exposure, and affected assets. |
-| Low | Next maintenance cycle | Remediate during normal maintenance or document accepted risk. |
+| Severity | Triage Target          | Expected Response                                                                                            |
+| -------- | ---------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Critical | Same day               | Assign an owner immediately, mitigate as soon as practical, and communicate impact to relevant stakeholders. |
+| High     | 1 business day         | Prioritize ahead of routine work, define a remediation plan, and track progress to completion.               |
+| Medium   | 5 business days        | Schedule remediation based on exploitability, exposure, and affected assets.                                 |
+| Low      | Next maintenance cycle | Remediate during normal maintenance or document accepted risk.                                               |
 
 Remediation timelines should be documented in the tracking item and adjusted for exploitability, exposure, affected assets, customer commitments, and compliance obligations. If immediate remediation is not practical, document the mitigation, accepted risk, owner, and review date.
 
