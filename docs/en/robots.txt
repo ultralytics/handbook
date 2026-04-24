@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: https://handbook.ultralytics.com/sitemap.xml
+Sitemap: https://handbook.ultralytics.com/zh/sitemap.xml
+Sitemap: https://handbook.ultralytics.com/es/sitemap.xml

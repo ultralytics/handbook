@@ -48,13 +48,31 @@ div.highlight {
 
 /* Banner ----------------------------------------------------------------------------------------------------------- */
 .md-banner {
-  background-image: url(https://github.com/ultralytics/docs/releases/download/0/announcement_bar_yolo11.avif);
+  background-image: url(https://cdn.prod.website-files.com/680a070c3b99253410dd3dcf/69ba5b087cc15ceeac92de7b_Banner%20Horizontal%201920x540.png);
   background-size: cover;
-  background-position: center;
+  background-position: 85%;
+  background-repeat: no-repeat;
 }
 .md-banner__inner {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  gap: 12px;
+}
+.md-banner__button {
+  cursor: pointer;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  transition: opacity 0.2s ease;
+}
+.md-banner__button svg {
+  stroke-width: 2;
+}
+.md-banner__button:hover {
+  opacity: 0.6;
 }
 .banner-wrapper,
 .banner-wrapper > .banner-content-wrapper {
@@ -62,32 +80,57 @@ div.highlight {
   align-items: center;
   justify-content: center;
 }
-.banner-wrapper,
+.banner-wrapper {
+  flex: 1;
+  padding: 40px 0;
+}
 .banner-wrapper > .banner-content-wrapper {
   flex-direction: column;
+  gap: 12px;
 }
-.banner-wrapper {
-  padding: 16px;
-}
-.banner-wrapper > .banner-content-wrapper {
-  gap: 4px;
+.banner-wrapper > .banner-content-wrapper > .banner-logo {
+  height: 30px;
 }
 .banner-wrapper > .banner-content-wrapper > p {
   margin: 0;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(93deg, #b8fff2, #e3fffa 24%, #eef1fe 70%, #a1b0f3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-wrapper > .banner-arrow {
+  display: none;
 }
 @media screen and (min-width: 768px) {
+  .md-banner {
+    background-position: center;
+  }
+  .md-banner__inner,
   .banner-wrapper,
+  .banner-wrapper > .banner-content-wrapper {
+    gap: 32px;
+  }
   .banner-wrapper > .banner-content-wrapper {
     flex-direction: row;
   }
   .banner-wrapper {
-    padding: 12px;
+    padding: 20px 0;
   }
-  .banner-wrapper > .banner-content-wrapper {
-    gap: 16px;
-    margin: 0 auto;
+  .banner-wrapper > .banner-content-wrapper > .banner-logo {
+    height: 28px;
+  }
+  .banner-wrapper > .banner-content-wrapper > p {
+    font-size: 18px;
+  }
+  .banner-wrapper > .banner-arrow {
+    display: revert;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
   }
 }
 /* Banner ----------------------------------------------------------------------------------------------------------- */
@@ -104,7 +147,7 @@ div.highlight {
 }
 .git-info {
   font-size: 0.8em;
-  color: grey;
+  color: gray;
   margin-bottom: 10px;
 }
 .dates-container,
@@ -181,12 +224,30 @@ div.highlight {
 }
 /* MkDocs Ultralytics Plugin ---------------------------------------------------------------------------------------- */
 
-/* Inkeep ----------------------------------------------------------------------------------------------------------- */
-#inkeepSearchBar {
-  transition: all 0.2s ease-in-out;
+/* Logo switching for light/dark mode ------------------------------------------------------------------------------- */
+[data-md-color-scheme="default"] .md-header__button.md-logo img {
+  content: url("https://cdn.prod.website-files.com/680a070c3b99253410dd3dcf/68e4eb1e9893320b26cc02c3_Ultralytics%20Logo.png.svg");
 }
-#inkeepSearchBar:hover {
-  transform: scale(1.1);
-  filter: brightness(1.2);
+[data-md-color-scheme="slate"] .md-header__button.md-logo img {
+  content: url("https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Reverse.svg");
 }
-/* Inkeep ----------------------------------------------------------------------------------------------------------- */
+/* Logo switching for light/dark mode ------------------------------------------------------------------------------- */
+
+/* Target second column in two-column tables only */
+table td:nth-child(2):last-child {
+  font-size: 0.85em;
+  line-height: 1.2;
+}
+
+/* Remove underlines from links */
+.md-typeset a {
+  text-decoration: none;
+}
+
+/* Global kill-switch for Weglot UI */
+.weglot-container,
+.weglot_switcher,
+[id^="weglot-switcher"],
+.weglot-container[id^="weglot-switcher"] {
+  display: none;
+}

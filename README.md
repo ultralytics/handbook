@@ -2,11 +2,12 @@
 
 # 📚 Ultralytics Handbook
 
-Welcome to the **Ultralytics Handbook repository**! This repository houses the source Markdown files for the official [Ultralytics Handbook](https://handbook.ultralytics.com/). It details our **mission, vision, values, and internal practices**, offering transparency into how [Ultralytics](https://www.ultralytics.com/) operates. Built using the excellent [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) framework, the Handbook is continuously updated and deployed via [GitHub Pages](https://pages.github.com/) to [handbook.ultralytics.com](https://handbook.ultralytics.com/).
+Welcome to the **Ultralytics Handbook repository**! This repository houses the source files for the official [Ultralytics Handbook](https://handbook.ultralytics.com/) - your comprehensive guide to our **mission, vision, values, and operational practices**. Built with [Zensical](https://zensical.org/) (a modern static site generator by the creators of Material for MkDocs), the Handbook is continuously deployed via [Vercel](https://vercel.com/) to [handbook.ultralytics.com](https://handbook.ultralytics.com/).
 
-[![pages-build-deployment](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/pages/pages-build-deployment)
 [![Check Broken links](https://github.com/ultralytics/handbook/actions/workflows/links.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/links.yml)
 [![Ultralytics Actions](https://github.com/ultralytics/handbook/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/format.yml)
+[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/handbook-ultralytics)](https://handbook-ultralytics.vercel.app/)
+[![jsDelivr hits](https://data.jsdelivr.com/v1/package/gh/ultralytics/llm/badge?style=rounded)](https://www.jsdelivr.com/package/gh/ultralytics/llm)
 
 [![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
 [![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com/)
@@ -14,70 +15,112 @@ Welcome to the **Ultralytics Handbook repository**! This repository houses the s
 
 This Handbook serves as a **living document**, evolving alongside Ultralytics' growth. It aims to align team members, contributors, and the wider community with the core principles guiding our work in [artificial intelligence (AI)](https://www.ultralytics.com/glossary/artificial-intelligence-ai) and [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv). Whether you're new to Ultralytics or a seasoned team member, this resource provides insights into everything from our company philosophy to detailed workflows and operational processes, including our approach to [machine learning operations (MLOps)](https://www.ultralytics.com/glossary/machine-learning-operations-mlops).
 
+**New team members?** Start with our [Onboarding Guide](https://handbook.ultralytics.com/people/onboarding) for your first 90 days roadmap.
+
+## 🧰 Technology Stack
+
+- **[Zensical](https://zensical.org/)** - Modern static site generator (by the creators of Material for MkDocs)
+- **[MkDocs Ultralytics Plugin](https://github.com/ultralytics/mkdocs)** - Custom features and integrations
+- **[Ultralytics Chat](https://github.com/ultralytics/llm)** - Realtime conversational AI with open-source [chat.js](https://github.com/ultralytics/llm) implementation
+- **[Vercel](https://vercel.com/)** - Hosting and deployment
+- **[GitHub Actions](https://github.com/features/actions)** - CI/CD automation
+
 ## 🛠️ Installation
 
 [![PyPI - Version](https://img.shields.io/pypi/v/ultralytics?logo=pypi&logoColor=white)](https://pypi.org/project/ultralytics/)
-[![Downloads](https://static.pepy.tech/badge/ultralytics)](https://www.pepy.tech/projects/ultralytics)
+[![Downloads](https://static.pepy.tech/badge/ultralytics)](https://clickpy.clickhouse.com/dashboard/ultralytics)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ultralytics?logo=python&logoColor=gold)](https://pypi.org/project/ultralytics/)
 
-To install [MkDocs](https://www.mkdocs.org/) and the necessary dependencies for building and developing the Handbook site locally, use the [pip package manager](https://pip.pypa.io/en/stable/):
+To build and develop the Handbook locally, install dependencies:
 
 ```bash
-pip install black mkdocs-material mkdocs-ultralytics-plugin
+pip install zensical mkdocs-ultralytics-plugin
 ```
 
-This command installs MkDocs, the [MkDocs Material theme](https://squidfunk.github.io/mkdocs-material/), our custom plugin, and the `black` code formatter, enabling local development and testing of the Handbook documentation.
+This installs [Zensical](https://zensical.org/) - a modern static site generator built by the creators of Material for MkDocs - and our custom plugin for enhanced documentation features.
 
-## 🚀 Building and Serving Locally
+## 🚀 Local Development
 
-Use the following command to build the Handbook site and serve it using a local development server:
+Build and serve the Handbook locally with live reload:
 
 ```bash
-mkdocs serve
+zensical serve
 ```
 
-This starts a local web server with live reloading enabled. Any changes you make to the Markdown source files will automatically trigger a rebuild, and your browser will refresh to show the updates.
+The site will be available at `http://127.0.0.1:8000`. Changes to source files trigger automatic rebuilds.
 
-### Key Details:
+### Development Commands
 
-- **`mkdocs`**: The primary command-line tool for interacting with MkDocs.
-- **`serve`**: Builds the site and runs a local server, watching for file changes.
+- **`zensical serve`** - Start development server with live reload
+- **`zensical build`** - Build static site to `site/` directory
 
-To stop the server, press `CTRL+C` in your terminal.
+## 📤 Deployment
 
-## 📤 Deploying Your Documentation Site
+The Handbook automatically deploys to [handbook.ultralytics.com](https://handbook.ultralytics.com/) via [Vercel](https://vercel.com/) when changes are pushed to the `main` branch.
 
-To deploy the Handbook to GitHub Pages or another hosting platform:
-
-1.  Ensure your `mkdocs.yml` file is configured correctly for deployment, including the `site_url`.
-2.  Run the deployment command:
-
-```bash
-mkdocs gh-deploy
-```
-
-This command builds the static site files and pushes them to the `gh-pages` branch of your repository, making them live on GitHub Pages. For a custom domain like `handbook.ultralytics.com`, configure the "Custom domain" settings in your GitHub repository's Pages section.
-
-![GitHub Pages Deployment Example](https://user-images.githubusercontent.com/26833433/210150206-9e86dcd7-10af-43e4-9eb2-9518b3799eac.png)
-
-For more detailed instructions, consult the official [MkDocs guide on deploying documentation](https://www.mkdocs.org/user-guide/deploying-your-docs/).
+<img alt="Vercel handbook deployment" src="https://github.com/user-attachments/assets/cd8809df-1ccd-4711-880e-f356c2b4fc4f" />
 
 ## 💡 Contributing
 
-We warmly welcome contributions to the Ultralytics Handbook! Your input, whether it's improving existing documentation, fixing typos, or suggesting new sections, is highly valuable to our [open-source](https://github.com/ultralytics) efforts. Please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) for detailed information on how to get started. We appreciate the support from our community!
+We welcome contributions to the Ultralytics Handbook! Your input helps keep our documentation accurate, comprehensive, and useful.
+
+### How to Contribute
+
+1. **Fork the repository** and create a feature branch
+2. **Make your changes** to Markdown files in `docs/en/`
+3. **Test locally** with `zensical serve`
+4. **Submit a pull request** with clear description of changes
+5. **Follow our style guide** (consistent with existing pages)
+
+### Contribution Guidelines
+
+- Use clear, concise language aligned with the handbook's professional tone
+- Follow the existing structure and formatting (120-character lines, emoji usage)
+- Include proper frontmatter (description and keywords) on all pages
+- Test all internal links and ensure proper navigation
+- Use tables, admonitions, and formatting consistently with other pages
+
+See our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) for detailed information.
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
 
-## 📜 License
+## 📂 Repository Structure
 
-The Ultralytics Handbook is distributed under two licenses to accommodate different use cases:
+```
+handbook/
+├── docs/
+│   ├── en/                          # English documentation
+│   │   ├── index.md                 # Homepage
+│   │   ├── introduction.md          # Handbook introduction
+│   │   ├── mission-vision-values/   # Company foundation
+│   │   ├── finance/                 # Financial policies
+│   │   ├── tools/                   # Hardware & software
+│   │   ├── people/                  # HR policies
+│   │   ├── workflows/               # Development processes
+│   │   ├── contributions/           # Community guidelines
+│   │   ├── goals/                   # OKRs and company goals
+│   │   ├── faq/                     # Common questions
+│   │   ├── legal/                   # Legal & compliance
+│   │   └── security/                # Security policies
+│   └── overrides/                   # Theme customizations
+├── .github/
+│   └── workflows/                   # CI/CD automation
+├── mkdocs.yml                       # MkDocs configuration
+├── pyproject.toml                   # Python project config
+├── requirements.txt                 # Python dependencies
+└── README.md                        # This file
+```
 
-- **AGPL-3.0 License**: Ideal for academic research and open-source projects. See the [LICENSE](https://github.com/ultralytics/handbook/blob/main/LICENSE) file for full details.
-- **Enterprise License**: Designed for commercial applications requiring integration of Ultralytics software and AI models. Visit [Ultralytics Licensing](https://www.ultralytics.com/license) to learn more.
+## 📄 License
+
+Ultralytics offers two licensing options:
+
+- **AGPL-3.0 License**: Ideal for students, researchers, and enthusiasts passionate about open collaboration. This [OSI-approved](https://opensource.org/license/agpl-3.0) open-source license promotes transparency and community involvement. See the [LICENSE](LICENSE) file for details.
+- **Enterprise License**: For commercial applications, this license permits seamless integration of Ultralytics software into commercial products, bypassing AGPL-3.0 copyleft requirements. Inquire about an [Ultralytics Enterprise License](https://www.ultralytics.com/license).
 
 ## ✉️ Contact
 
-For reporting issues, bugs, or suggesting features related to the Handbook, please use the [GitHub Issues](https://github.com/ultralytics/handbook/issues) tracker. For broader discussions, questions about Ultralytics projects like [Ultralytics YOLO](https://docs.ultralytics.com/models/yolov8/), or to connect with the team and community, join our [Discord server](https://discord.com/invite/ultralytics).
+For bug reports and feature requests related to the Ultralytics Handbook, please visit [GitHub Issues](https://github.com/ultralytics/handbook/issues). For questions, discussions, and community support, join our active communities on [Discord](https://discord.com/invite/ultralytics), [Reddit](https://www.reddit.com/r/ultralytics/), and the [Ultralytics Community Forums](https://community.ultralytics.com/). We're here to help with all things Ultralytics!
 
 <br>
 <div align="center">
@@ -87,7 +130,7 @@ For reporting issues, bugs, or suggesting features related to the Handbook, plea
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
   <a href="https://twitter.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-twitter.png" width="3%" alt="Ultralytics Twitter"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://youtube.com/ultralytics?sub_confirmation=1"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png" width="3%" alt="Ultralytics YouTube"></a>
+  <a href="https://www.youtube.com/ultralytics?sub_confirmation=1"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png" width="3%" alt="Ultralytics YouTube"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
   <a href="https://www.tiktok.com/@ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-tiktok.png" width="3%" alt="Ultralytics TikTok"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">

@@ -1,19 +1,22 @@
 # Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 
-# Configuration file for building the Ultralytics Handbook documentation site using MkDocs.
-# Provides settings to control site metadata, customize the appearance using the
-# Material theme, define the navigation structure, and enable various plugins.
+# Configuration file for building the Ultralytics Handbook using Zensical.
+# Zensical is a modern static site generator by the creators of Material for MkDocs.
+# This configuration is fully compatible with both Zensical and MkDocs.
+# Build with: zensical build
+# Serve locally: zensical serve
+# Deploy: Handled automatically by Vercel on push to main
 
 # Site metadata
 site_name: Ultralytics Handbook
-site_description: A guide to Ultralytics' mission, vision, values, and practices, providing key insights and resources for aligning with our goals.
+site_description: Comprehensive guide to Ultralytics' mission, values, and operational practices for team members, contributors, and the AI community.
 site_url: https://handbook.ultralytics.com
 site_author: Ultralytics
 repo_url: https://github.com/ultralytics/handbook
-edit_uri: https://github.com/ultralytics/handbook/tree/main/docs/
+edit_uri: https://github.com/ultralytics/handbook/tree/main/docs/en/
 repo_name: ultralytics/handbook
 remote_name: https://github.com/ultralytics/handbook
-docs_dir: "docs/" # where to find the markdown files
+docs_dir: "docs/en/" # where to find the Markdown files
 site_dir: "site/" # where to publish to
 use_directory_urls: true # don't display 'index.html' in slugs
 
@@ -23,10 +26,10 @@ theme:
   language: en
   custom_dir: docs/overrides/
   logo: https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Reverse.svg
-  favicon: https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/logo/favicon-yolo.png
+  favicon: https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/logo/favicon-h.ico
   icon:
     repo: fontawesome/brands/github
-  # font:  # disabled for faster page load times
+  # font: # disabled for faster page load times
   #  text: Helvetica
   #  code: Roboto Mono
   palette:
@@ -65,19 +68,20 @@ theme:
     - navigation.indexes
     - navigation.sections # navigation.expand or navigation.sections
     - content.tabs.link # all code tabs change simultaneously
+    - announce.dismiss
     # - search.highlight
     # - search.share
     # - search.suggest
 
 # Customization
-copyright: <a href="https://www.ultralytics.com/" target="_blank">© 2025 Ultralytics Inc.</a> All rights reserved.
+copyright: <a href="https://www.ultralytics.com/" target="_blank">© 2026 Ultralytics Inc.</a> All rights reserved.
 extra: # version:
   homepage: https://www.ultralytics.com/
-  #   provider: mike  #  version drop-down menu
+  #   provider: mike # version drop-down menu
   # robots: robots.txt
-  # analytics:
-  #   provider: google
-  #   property: G-2M5EHKC0BH
+  analytics:
+    provider: google
+    property: G-PKBJP4Z4GB
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ultralytics
@@ -112,6 +116,7 @@ extra_css:
   - stylesheets/style.css
 
 extra_javascript:
+  - https://cdn.jsdelivr.net/gh/ultralytics/llm@v0.2.8/js/chat.min.js
   - javascript/extra.js
   - javascript/giscus.js
 
@@ -127,7 +132,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
@@ -142,6 +147,8 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 # Validation settings https://www.mkdocs.org/user-guide/configuration/#validation
 validation:
@@ -162,47 +169,27 @@ not_in_nav: |
 nav:
   - Home:
       - Home: index.md
-      - Intro: introduction.md
-      - Mission & Values:
-          - mission-vision-values/index.md
-      - Finance:
-          - finance/index.md
-          - Travel: finance/travel.md
-      - Tools:
-          - Overview: tools/index.md
-          - Hardware: tools/hardware.md
-          - Software: tools/software.md
-      - Team Roles:
-          - Overview: team-roles/index.md
-          - Specific Roles: team-roles/specific-roles.md
-      - Workflows:
-          - Development: workflows/development.md
-          - Product Dev: workflows/product-development.md
-          - CI/Testing: workflows/ci-testing.md
-          - Documentation: workflows/documentation.md
-      - Community:
-          - How to Contribute: contributions/how-to-contribute.md
-          - Engagement: contributions/community-engagement.md
-      - Goals & OKRs:
-          - Company Goals: goals/company-goals.md
-          - OKRs: goals/okrs.md
-      - FAQ:
-          - faq/index.md
-      - Legal:
-          - Licenses: legal/licenses.md
-          - Privacy Policy: legal/privacy-policy.md
+      - Introduction: introduction.md
   - Mission & Values:
       - mission-vision-values/index.md
   - Finance:
       - finance/index.md
       - Travel: finance/travel.md
+      - Relocation: finance/relocation.md
+      - Referral Bonus: finance/referral-bonus.md
   - Tools:
       - Overview: tools/index.md
       - Hardware: tools/hardware.md
       - Software: tools/software.md
-  - Team Roles:
-      - Overview: team-roles/index.md
-      - Specific Roles: team-roles/specific-roles.md
+      - Email Signatures: tools/email-signatures.md
+  - People & Benefits:
+      - people/index.md
+      - Onboarding: people/onboarding.md
+      - PTO Policy: people/pto-policy.md
+      - Career Progression:
+          - people/careers/index.md
+          - IC Levels: people/careers/levels-ic.md
+          - Management Levels: people/careers/levels-management.md
   - Workflows:
       - Development: workflows/development.md
       - Product Dev: workflows/product-development.md
@@ -210,26 +197,28 @@ nav:
       - Documentation: workflows/documentation.md
   - Community:
       - How to Contribute: contributions/how-to-contribute.md
-      - Engagement: contributions/community-engagement.md
+      - Community Engagement: contributions/community-engagement.md
+      - Social Media Policy: contributions/social-media-policy.md
   - Goals & OKRs:
       - Company Goals: goals/company-goals.md
       - OKRs: goals/okrs.md
   - FAQ:
       - faq/index.md
   - Legal:
-      - Licenses: legal/licenses.md
-      - Privacy Policy: legal/privacy-policy.md
-
+      - Legal Team Overview: legal/team.md
+      - Code of Business Conduct and Ethics: legal/code-of-business-conduct-and-ethics.md
+  - Security:
+      - Security & Compliance Team: security/team.md
+      - Information Security Management System (ISMS): security/isms.md
+      - Employee Security & Compliance Requirements: security/employee-security-compliance-requirements.md
 # Plugins including 301 redirects navigation ---------------------------------------------------------------------------
-plugins:
-  # - search:
-  #     lang: en
-  - ultralytics:
-      add_desc: False
-      add_image: True
-      add_authors: True
-      add_json_ld: True
-      add_share_buttons: True
-      add_css: False
-      default_image: https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png
-      default_author: glenn.jocher@ultralytics.com
+#plugins:
+#  - ultralytics:
+#      add_desc: False
+#      add_image: True
+#      add_authors: True
+#      add_json_ld: True
+#      add_share_buttons: True
+#      add_css: False
+#      default_image: https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png
+#      default_author: glenn.jocher@ultralytics.com

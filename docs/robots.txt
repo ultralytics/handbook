@@ -1,4 +1,0 @@
-User-agent: *
-Sitemap: https://docs.ultralytics.com/sitemap.xml
-Sitemap: https://docs.ultralytics.com/zh/sitemap.xml
-Sitemap: https://docs.ultralytics.com/es/sitemap.xml
