@@ -26,39 +26,39 @@ A good engineering change at Ultralytics has these properties:
 
 - :material-target: **Outcome**
 
-  ***
+    ***
 
-  Start with the user, customer, employee, or operational result.
+    Start with the user, customer, employee, or operational result.
 
 - :material-source-pull: **Focused Diff**
 
-  ***
+    ***
 
-  Keep the change small enough for real review.
+    Keep the change small enough for real review.
 
 - :material-shield-check: **Risk Visible**
 
-  ***
+    ***
 
-  Call out security, privacy, licensing, compatibility, and reliability impact.
+    Call out security, privacy, licensing, compatibility, and reliability impact.
 
 - :material-test-tube: **Evidence**
 
-  ***
+    ***
 
-  Attach tests, previews, screenshots, logs, or metrics.
+    Attach tests, previews, screenshots, logs, or metrics.
 
 - :material-rocket-launch: **Release Ready**
 
-  ***
+    ***
 
-  Know the rollout, monitor, support, and rollback path.
+    Know the rollout, monitor, support, and rollback path.
 
 - :material-book-open-page-variant: **Durable Context**
 
-  ***
+    ***
 
-  Leave decisions where future teammates can find them.
+    Leave decisions where future teammates can find them.
 
 </div>
 
