@@ -396,14 +396,14 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
 ??? question "What are the company goals?"
 
-    **2025 strategic priorities:**
+    **Current strategic priorities:**
 
     | Focus Area | Goals |
     |-----------|-------|
-    | **Product Excellence** | YOLO11 leadership, best-in-class performance |
+    | **Product Excellence** | YOLO leadership, best-in-class performance |
     | **Community Growth** | 1M+ monthly downloads, 50K+ Discord members |
     | **Business Development** | Scale commercial licensing, expand customer base |
-    | **Technical Infrastructure** | Launch Platform v2.0, achieve 99.9% uptime |
+    | **Platform & Infrastructure** | Advance Platform capabilities, achieve 99.9% uptime |
     | **Security & Compliance** | Complete SOC 2 and ISO 27001 certifications |
 
     See [Company Goals](../goals/company-goals.md) for complete KPIs.

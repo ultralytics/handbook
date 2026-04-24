@@ -1,6 +1,6 @@
 ---
 description: Ultralytics career progression framework overview with IC and Management tracks, promotion process, and track switching guidance.
-keywords: Ultralytics careers, job levels, career progression, promotion criteria, IC levels, management levels, career ladder, YOLO11
+keywords: Ultralytics careers, job levels, career progression, promotion criteria, IC levels, management levels, career ladder, YOLO
 ---
 
 # Career Progression Framework

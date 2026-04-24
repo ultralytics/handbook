@@ -34,7 +34,7 @@ def main():
     # Build with Zensical
     print(f"Building docs from {DOCS}")
     try:
-        subprocess.run(["python3", "-m", "zensical", "build"], cwd=DOCS.parent, check=True)
+        subprocess.run([sys.executable, "-m", "zensical", "build"], cwd=DOCS.parent, check=True)
     except subprocess.CalledProcessError as e:
         print(f"❌ Zensical build failed with exit code {e.returncode}")
         sys.exit(1)
@@ -49,7 +49,7 @@ def main():
         site_dir=str(SITE),
         docs_dir=str(DOCS / "en"),
         site_url="https://handbook.ultralytics.com",
-        default_image="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png",
+        default_image="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg",
         default_author="glenn.jocher@ultralytics.com",
         add_desc=False,
         add_image=True,

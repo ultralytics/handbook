@@ -17,7 +17,7 @@ Ultralytics thrives on active community participation. Our open-source projects 
 
 **Use GitHub Discussions for:**
 
-- Technical questions about [YOLO11](https://docs.ultralytics.com/models/yolo11/) implementation
+- Technical questions about [YOLO](https://docs.ultralytics.com/models/) implementation
 - Feature requests and enhancement proposals
 - Sharing projects and use cases
 - General [YOLO](https://docs.ultralytics.com/models/)-related discussions
@@ -74,7 +74,7 @@ Help fellow community members by:
 
 ### Share Your Work
 
-Showcase projects built with [YOLO11](https://docs.ultralytics.com/models/yolo11/):
+Showcase projects built with [YOLO](https://docs.ultralytics.com/models/):
 
 - Post in `#showcase` on Discord
 - Create GitHub Discussions posts

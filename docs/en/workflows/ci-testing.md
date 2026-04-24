@@ -1,6 +1,6 @@
 ---
-description: Ultralytics CI/CD workflow covering GitHub Actions, automated tests, code coverage with Codecov, and quality checks for YOLO11 development.
-keywords: Ultralytics, CI/CD, continuous integration, testing, GitHub Actions, pytest, Codecov, code quality, YOLO11, Docker
+description: Ultralytics CI/CD workflow covering GitHub Actions, automated tests, code coverage with Codecov, and quality checks for YOLO development.
+keywords: Ultralytics, CI/CD, continuous integration, testing, GitHub Actions, pytest, Codecov, code quality, YOLO, Docker
 ---
 
 # CI/Testing Workflow 🧪
@@ -115,9 +115,9 @@ from ultralytics import YOLO
 
 def test_model_export():
     """Test ONNX model export."""
-    model = YOLO("yolo11n.pt")
+    model = YOLO("yolo26n.pt")
     model.export(format="onnx")
-    assert Path("yolo11n.onnx").exists()
+    assert Path("yolo26n.onnx").exists()
 ```
 
 ### Best Practices
@@ -148,7 +148,7 @@ import pytest
 @pytest.mark.slow
 def test_full_training():
     """Test full training run (slow)."""
-    model = YOLO("yolo11n.pt")
+    model = YOLO("yolo26n.pt")
     model.train(data="coco128.yaml", epochs=1)
 ```
 

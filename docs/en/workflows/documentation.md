@@ -1,6 +1,6 @@
 ---
-description: Ultralytics documentation workflow covering writing, building, and maintaining docs for YOLO11 and Ultralytics projects.
-keywords: Ultralytics, documentation, MkDocs, writing guides, YOLO11 docs, API documentation, tutorials
+description: Ultralytics documentation workflow covering writing, building, and maintaining docs for YOLO and Ultralytics projects.
+keywords: Ultralytics, documentation, MkDocs, writing guides, YOLO docs, API documentation, tutorials
 ---
 
 # Documentation Workflow 📚
@@ -11,7 +11,7 @@ This guide covers writing, building, and maintaining documentation for [Ultralyt
 
 ### Main Documentation Sites
 
-- **[docs.ultralytics.com](https://docs.ultralytics.com)** - YOLO11 technical documentation
+- **[docs.ultralytics.com](https://docs.ultralytics.com)** - YOLO technical documentation
 - **[handbook.ultralytics.com](https://handbook.ultralytics.com)** - Company handbook (this site)
 
 ### Repository Structure
@@ -58,7 +58,7 @@ Content with examples:
 from ultralytics import YOLO
 
 # Load pretrained model
-model = YOLO("yolo11n.pt")
+model = YOLO("yolo26n.pt")
 results = model("image.jpg")
 ```
 
@@ -71,7 +71,7 @@ results = model("image.jpg")
 ### Code Examples
 
 - **Minimal**: Show only relevant code
-- **Runnable**: Examples should work copy-paste (test with actual [YOLO models](https://docs.ultralytics.com/models/yolo11/))
+- **Runnable**: Examples should work copy-paste (test with actual [YOLO models](https://docs.ultralytics.com/models/))
 - **Commented**: Explain non-obvious parts
 - **Tested**: Verify examples work with current version
 
@@ -79,7 +79,7 @@ results = model("image.jpg")
 from ultralytics import YOLO
 
 # Load pretrained model
-model = YOLO("yolo11n.pt")
+model = YOLO("yolo26n.pt")
 
 # Train on custom data
 results = model.train(data="coco8.yaml", epochs=3)
@@ -121,12 +121,12 @@ Main config in `mkdocs.yml`:
 ```yaml
 site_name: Ultralytics Docs
 theme:
-    name: material
-    palette:
-        - scheme: slate
+  name: material
+  palette:
+    - scheme: slate
 plugins:
-    - search
-    - ultralytics
+  - search
+  - ultralytics
 ```
 
 ## API Documentation 📖
@@ -148,7 +148,7 @@ def train(self, data, epochs=100, batch=16):
 
     Examples:
         ```python
-        model = YOLO("yolo11n.pt")
+        model = YOLO("yolo26n.pt")
         results = model.train(data="coco8.yaml", epochs=100)
         ```
     """
@@ -176,9 +176,9 @@ Edit `mkdocs.yml`:
 
 ```yaml
 nav:
-    - Home: index.md
-    - Guides:
-          - New Guide: guides/new-guide.md
+  - Home: index.md
+  - Guides:
+      - New Guide: guides/new-guide.md
 ```
 
 ### 3. Write Content

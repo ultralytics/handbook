@@ -1,9 +1,9 @@
 ---
-description: Ultralytics Employee Travel Policy covering per diem rates, booking procedures, expense reporting, and sustainability guidelines for business travel in 2025.
+description: Ultralytics Employee Travel Policy covering per diem rates, booking procedures, expense reporting, and sustainability guidelines for business travel.
 keywords: Ultralytics, Employee Travel Policy, per diem rates, travel responsibilities, airfare, expense reporting, sustainability, business travel
 ---
 
-# Ultralytics Employee Travel Policy (2025) 🌐
+# Ultralytics Employee Travel Policy 🌐
 
 ## Scope 📌
 
@@ -81,7 +81,7 @@ graph TD
         :material-close-circle: Alcohol
         :material-close-circle: Entertainment
 
-Employees traveling for business will receive a daily per diem allowance based on their destination. The following rates apply for the full year of 2025 and will be updated on January 1st, 2026:
+Employees traveling for business will receive a daily per diem allowance based on their destination. The following rates are reviewed annually and updated when Finance publishes a new schedule:
 
 | Country               | City          | Lodging | M&IE   | Total Per Diem |
 | --------------------- | ------------- | ------- | ------ | -------------- |
@@ -133,35 +133,35 @@ Employees traveling for business will receive a daily per diem allowance based o
 
 - :material-airplane: **Flights**
 
-    ***
-    - Book **14 days in advance** (domestic)
-    - Book **21 days in advance** (international)
-    - **Economy class only** (no exceptions)
-    - Reimbursed separately from per diem
+  ***
+  - Book **14 days in advance** (domestic)
+  - Book **21 days in advance** (international)
+  - **Economy class only** (no exceptions)
+  - Reimbursed separately from per diem
 
 - :material-bed: **Accommodation**
 
-    ***
-    - Covered by per diem lodging allowance
-    - **Not reimbursed separately**
-    - Book within per diem budget
-    - Business-appropriate location
+  ***
+  - Covered by per diem lodging allowance
+  - **Not reimbursed separately**
+  - Book within per diem budget
+  - Business-appropriate location
 
 - :material-car: **Ground Transportation**
 
-    ***
-    - Covered by M&IE allowance
-    - Use most cost-effective option
-    - Taxi, metro, bus, rideshare OK
-    - Rental cars require pre-approval
+  ***
+  - Covered by M&IE allowance
+  - Use most cost-effective option
+  - Taxi, metro, bus, rideshare OK
+  - Rental cars require pre-approval
 
 - :material-cash-multiple: **Cost-Effectiveness**
 
-    ***
-    - Choose efficient and economical options
-    - Balance cost with convenience
-    - Employees arrange their own travel
-    - Manager approval required
+  ***
+  - Choose efficient and economical options
+  - Balance cost with convenience
+  - Employees arrange their own travel
+  - Manager approval required
 
 </div>
 

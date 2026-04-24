@@ -126,7 +126,7 @@ Help us improve by reporting bugs via [GitHub Issues](https://github.com/ultraly
 A Minimum Reproducible Example should:
 
 - **Isolate the problem**: Remove unnecessary code
-- **Use public models and datasets**: e.g., `yolov8n.pt` and `coco8.yaml`
+- **Use public models and datasets**: e.g., `yolo26n.pt` and `coco8.yaml`
 - **Include dependencies**: List with `yolo checks` or `pip list`
 - **Provide clear description**: Expected vs actual behavior
 - **Format properly**: Use code blocks with triple backticks
@@ -168,27 +168,27 @@ If you use [Ultralytics YOLO](https://www.ultralytics.com/yolo) models or code i
 Make complete source code publicly available under AGPL-3.0:
 
 1. **Choose starting point**:
-    - Fork [Ultralytics YOLO repository](https://github.com/ultralytics/ultralytics)
-    - Use [Ultralytics template repository](https://github.com/ultralytics/template)
+   - Fork [Ultralytics YOLO repository](https://github.com/ultralytics/ultralytics)
+   - Use [Ultralytics template repository](https://github.com/ultralytics/template)
 
 2. **License your project**:
-    - Add `LICENSE` file with full [AGPL-3.0 text](https://opensource.org/license/agpl-3.0)
-    - Add license notice at top of source files
+   - Add `LICENSE` file with full [AGPL-3.0 text](https://opensource.org/license/agpl-3.0)
+   - Add license notice at top of source files
 
 3. **Publish source code** including:
-    - Complete application/system
-    - Modifications to Ultralytics code
-    - [Training](https://docs.ultralytics.com/modes/train/)/[validation](https://docs.ultralytics.com/modes/val/)/[inference](https://docs.ultralytics.com/modes/predict/) scripts
-    - Model weights if modified
-    - Configuration files and [datasets](https://docs.ultralytics.com/datasets/) used
-    - Backend/frontend code
-    - Third-party libraries modified
-    - Training data if redistributable
+   - Complete application/system
+   - Modifications to Ultralytics code
+   - [Training](https://docs.ultralytics.com/modes/train/)/[validation](https://docs.ultralytics.com/modes/val/)/[inference](https://docs.ultralytics.com/modes/predict/) scripts
+   - Model weights if modified
+   - Configuration files and [datasets](https://docs.ultralytics.com/datasets/) used
+   - Backend/frontend code
+   - Third-party libraries modified
+   - Training data if redistributable
 
 4. **Document clearly**:
-    - State AGPL-3.0 license in `README.md`
-    - Include setup instructions
-    - Attribute Ultralytics YOLO appropriately
+   - State AGPL-3.0 license in `README.md`
+   - Include setup instructions
+   - Attribute Ultralytics YOLO appropriately
 
 See [Ultralytics Template Repository](https://github.com/ultralytics/template) for example structure.
 

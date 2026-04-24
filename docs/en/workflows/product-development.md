@@ -1,6 +1,6 @@
 ---
-description: Ultralytics product development workflow covering feature planning, development cycles, release process, and product management for YOLO11.
-keywords: Ultralytics, product development, feature planning, release process, YOLO11, product management, roadmap
+description: Ultralytics product development workflow covering feature planning, development cycles, release process, and product management for YOLO.
+keywords: Ultralytics, product development, feature planning, release process, YOLO, product management, roadmap
 ---
 
 # Product Development Workflow 🚀
@@ -41,7 +41,7 @@ This guide covers product planning, development cycles, and release processes fo
 
 - **User impact**: How many users affected? Pain level (1-10)? Revenue impact?
 - **Technical feasibility**: Engineering effort (S/M/L/XL)? Dependencies? Risks?
-- **Strategic alignment**: Advances YOLO11 leadership? Supports key verticals?
+- **Strategic alignment**: Advances YOLO leadership? Supports key verticals?
 - **Resource availability**: Team capacity? Competing priorities? Timeline?
 - **Competitive urgency**: Will competitors ship first? Lock-in risk?
 
@@ -264,7 +264,7 @@ Define before building:
 
 ### Current Focus
 
-- [YOLO11 model family](https://docs.ultralytics.com/models/yolo11/)
+- [YOLO26 model family](https://docs.ultralytics.com/models/yolo26/)
 - [Export format support](https://docs.ultralytics.com/modes/export/)
 - [Performance optimization](https://docs.ultralytics.com/guides/model-training-tips/)
 - [Documentation quality](https://docs.ultralytics.com/)
