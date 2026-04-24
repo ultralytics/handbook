@@ -220,5 +220,5 @@ nav:
 #      add_json_ld: True
 #      add_share_buttons: True
 #      add_css: False
-#      default_image: https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg
+#      default_image: https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png
 #      default_author: glenn.jocher@ultralytics.com

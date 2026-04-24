@@ -49,7 +49,7 @@ def main():
         site_dir=str(SITE),
         docs_dir=str(DOCS / "en"),
         site_url="https://handbook.ultralytics.com",
-        default_image="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg",
+        default_image="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png",
         default_author="glenn.jocher@ultralytics.com",
         add_desc=False,
         add_image=True,
