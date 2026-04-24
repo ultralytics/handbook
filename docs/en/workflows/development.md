@@ -3,24 +3,24 @@ description: Ultralytics development workflow covering PR process, CLA signing, 
 keywords: Ultralytics, development workflow, pull requests, code review, Git, GitHub, CLA, docstrings, YOLO11, Python, contributing
 ---
 
-# Development Workflow
+# Development Workflow 💻
 
 This guide covers how Ultralytics employees and contributors plan, implement, review, test, and merge changes across [Ultralytics](https://www.ultralytics.com/) projects, including YOLO11 and related repositories.
 
 The workflow is intentionally lightweight: keep changes focused, make review easy, run the right checks, and leave enough context for teammates to understand the decision later.
 
-## Code of Conduct
+## Code of Conduct 🤝
 
 All contributors must follow the [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/). Respect, clarity, and professionalism are expected in issues, PRs, reviews, internal discussions, and public community spaces. For public contribution requirements, see the [Official Contributing Guide](https://docs.ultralytics.com/help/contributing/).
 
-## Collaboration Cadence
+## Collaboration Cadence 🛰️
 
 - **Anchor Days (Tue/Wed/Thu):** Use these days for code reviews, design discussions, debugging sessions, and decisions that benefit from synchronous collaboration.
 - **Mon/Fri:** Favor deep work, written updates, PR preparation, and async review. Move critical blockers to the next Anchor Day when synchronous alignment is needed.
 - **Standups & Reviews:** Timebox standups to 15 minutes. Schedule design and architecture reviews on Anchor Days when possible.
 - **Decision Records:** Capture important decisions in PR descriptions, issues, docs, or runbooks so context does not disappear in chat.
 
-## Pull Request Process
+## Pull Request Process 🔄
 
 ```mermaid
 flowchart TD
@@ -154,7 +154,7 @@ The CLA bot will guide you through the process. For more details on licensing, s
 
 Respond to reviewer comments, push updates, and keep the PR description current if the scope changes. Resolve all blocking feedback before requesting re-review.
 
-## Google-Style Docstrings
+## Google-Style Docstrings 📝
 
 Public functions and classes should use [Google-style docstrings](https://google.github.io/styleguide/pyguide.html) where the repository expects them. Keep docstrings accurate, concise, and useful for future maintainers.
 
@@ -266,7 +266,7 @@ def example_small_function(arg1: int, arg2: int = 4) -> bool:
     return arg1 == arg2
 ```
 
-## Code Standards
+## Code Standards 📐
 
 ### Python Style
 
@@ -334,7 +334,7 @@ def example_small_function(arg1: int, arg2: int = 4) -> bool:
 
 </div>
 
-## Testing Requirements
+## Testing Requirements ✅
 
 All PRs should include validation that matches the risk of the change:
 
@@ -347,7 +347,7 @@ pytest --cov=ultralytics tests/
 
 For model behavior changes, include the dataset, model, command, hardware, and before/after metrics where practical. For documentation changes, build the docs locally and include screenshots or preview links for layout changes. See [CI/Testing](ci-testing.md) for CI details.
 
-## Code Review Guidelines
+## Code Review Guidelines 👀
 
 ### For Contributors
 
@@ -367,7 +367,7 @@ For model behavior changes, include the dataset, model, command, hardware, and b
 - Provide constructive, specific feedback.
 - Distinguish blocking issues from suggestions.
 
-## Git Best Practices
+## Git Best Practices 🌳
 
 ### Commits
 
@@ -382,7 +382,7 @@ For model behavior changes, include the dataset, model, command, hardware, and b
 - Rebase or merge `main` before final submission when the branch has drifted.
 - Delete branches after merge.
 
-## Reporting Bugs
+## Reporting Bugs 🐞
 
 Report bugs via [GitHub Issues](https://github.com/ultralytics/ultralytics/issues):
 
@@ -393,11 +393,11 @@ Report bugs via [GitHub Issues](https://github.com/ultralytics/ultralytics/issue
 
 For common issues and solutions, see our [troubleshooting guide](https://docs.ultralytics.com/guides/yolo-common-issues/).
 
-## License
+## License 📜
 
 Many Ultralytics repositories use the [AGPL-3.0 license](https://www.ultralytics.com/legal/agpl-3-0-software-license). If you use AGPL-licensed Ultralytics code in your project, your project may also need to be open-sourced under AGPL-3.0. If you need closed-source or commercial use, review the [Enterprise License](https://www.ultralytics.com/license).
 
-## Resources
+## Resources 📚
 
 - [Official Contributing Guide](https://docs.ultralytics.com/help/contributing/) - Complete contribution guidelines
 - [CI/Testing](ci-testing.md) - Continuous integration details
