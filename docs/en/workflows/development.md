@@ -143,14 +143,14 @@ Minimum expectations:
 
 Testing should match the blast radius of the change. A docs typo does not need the same validation as a model export change, but every PR needs enough evidence for reviewers to trust it.
 
-| Change Type | Expected Validation |
-| --- | --- |
-| Documentation | Preview build, link checks when practical, screenshots for layout changes |
-| UI or website | Preview URL, responsive screenshots, accessibility and interaction checks |
-| Python library | Unit tests, integration tests for changed workflows, lint and format checks |
-| Model behavior | Before/after metrics, reproducible eval commands, dataset and hardware notes |
-| Infrastructure | Plan output, staging validation, rollback path, monitoring checks |
-| Security-sensitive | Security review, abuse cases, dependency scan, auditability check |
+| Change Type        | Expected Validation                                                          |
+| ------------------ | ---------------------------------------------------------------------------- |
+| Documentation      | Preview build, link checks when practical, screenshots for layout changes    |
+| UI or website      | Preview URL, responsive screenshots, accessibility and interaction checks    |
+| Python library     | Unit tests, integration tests for changed workflows, lint and format checks  |
+| Model behavior     | Before/after metrics, reproducible eval commands, dataset and hardware notes |
+| Infrastructure     | Plan output, staging validation, rollback path, monitoring checks            |
+| Security-sensitive | Security review, abuse cases, dependency scan, auditability check            |
 
 Quality gates for production-bound work:
 
