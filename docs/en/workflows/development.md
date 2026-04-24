@@ -77,21 +77,21 @@ git checkout -b fix-issue-123
 
 - :material-check-circle: **Follow Guidelines**
 
-  ***
+    ***
 
-  Follow the repository's existing patterns and style
+    Follow the repository's existing patterns and style
 
 - :material-alert-circle: **Avoid Errors**
 
-  ***
+    ***
 
-  Avoid new warnings, regressions, or unrelated churn
+    Avoid new warnings, regressions, or unrelated churn
 
 - :material-target: **Stay Focused**
 
-  ***
+    ***
 
-  Keep the PR scoped to one clear outcome
+    Keep the PR scoped to one clear outcome
 
 </div>
 
@@ -298,39 +298,39 @@ def example_small_function(arg1: int, arg2: int = 4) -> bool:
 
 - :material-content-copy: **Avoid Duplication**
 
-  ***
+    ***
 
-  Reuse existing helpers and patterns
+    Reuse existing helpers and patterns
 
 - :material-focus-field: **Smaller Changes**
 
-  ***
+    ***
 
-  Prefer focused PRs over broad mixed changes
+    Prefer focused PRs over broad mixed changes
 
 - :material-lightbulb-on: **Simplify**
 
-  ***
+    ***
 
-  Remove complexity when it improves clarity
+    Remove complexity when it improves clarity
 
 - :material-shield-check: **Compatibility**
 
-  ***
+    ***
 
-  Preserve public APIs and user workflows
+    Preserve public APIs and user workflows
 
 - :material-test-tube: **Add Tests**
 
-  ***
+    ***
 
-  Cover new behavior and regressions
+    Cover new behavior and regressions
 
 - :material-format-paint: **Consistent Format**
 
-  ***
+    ***
 
-  Follow repository formatting tools
+    Follow repository formatting tools
 
 </div>
 
