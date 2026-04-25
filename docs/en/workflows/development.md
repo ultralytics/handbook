@@ -22,7 +22,7 @@ All contributors must follow the [Code of Conduct](https://docs.ultralytics.com/
 
 ## Scope and Ownership 🧭
 
-This workflow applies to Ultralytics engineering work across product, platform, YOLO, HUB, infrastructure, documentation, automation, and security-sensitive systems. Individual repositories may add stricter requirements, but they should not weaken the baseline expectations in this page.
+This workflow applies to Ultralytics engineering work across product, [Ultralytics Platform](https://platform.ultralytics.com), YOLO, infrastructure, documentation, automation, and security-sensitive systems. Individual repositories may add stricter requirements, but they should not weaken the baseline expectations in this page.
 
 Every work item should have a clear owner:
 
