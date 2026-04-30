@@ -22,14 +22,14 @@ Before submitting a paper, confirm it meets **all** of the following requirement
 
 If your paper meets all the eligibility criteria above, send the following details to the website team via Slack:
 
-| Field                    | Notes                                          |
-| ------------------------ | ---------------------------------------------- |
-| **Paper title**          | Full title of the paper                        |
-| **Authors**              | All authors listed on the paper                |
-| **Short description**    | Max 240 characters                             |
-| **Year**                 | Year of publication                            |
-| **Journal / Conference** | Name of the journal or conference              |
-| **Link**                 | URL to the published paper                     |
+| Field                    | Notes                             |
+| ------------------------ | --------------------------------- |
+| **Paper title**          | Full title of the paper           |
+| **Authors**              | All authors listed on the paper   |
+| **Short description**    | Max 240 characters                |
+| **Year**                 | Year of publication               |
+| **Journal / Conference** | Name of the journal or conference |
+| **Link**                 | URL to the published paper        |
 
 Papers will be reviewed before being added to [ultralytics.com/publications](https://www.ultralytics.com/publications).
 
