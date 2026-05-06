@@ -96,9 +96,9 @@ We work where the speed is. Our computer vision breakthroughs demand high-bandwi
 
 !!! tip "Why In-Person Wins"
 
-- **Speed:** Live decisions beat async threads when stakes are high.
-- **Clarity:** Whiteboards, labs, and shared context cut ambiguity.
-- **Growth:** Shoulder-to-shoulder mentoring accelerates skills and visibility.
+    - **Speed:** Live decisions beat async threads when stakes are high.
+    - **Clarity:** Whiteboards, labs, and shared context cut ambiguity.
+    - **Growth:** Shoulder-to-shoulder mentoring accelerates skills and visibility.
 
 ## Living Our Values 🤝
 
