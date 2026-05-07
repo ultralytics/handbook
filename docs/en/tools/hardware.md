@@ -46,7 +46,7 @@ timeline
 
     ***
 
-    [13", M4, 16GB RAM, 256GB Storage](https://www.apple.com/macbook-air/)
+    [13", M5, 16GB RAM, 512GB Storage](https://www.apple.com/macbook-air/)
 
     **Default for all employees**
 

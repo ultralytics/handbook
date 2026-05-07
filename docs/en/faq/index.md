@@ -140,7 +140,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
         ---
 
-        - **MacBook Air** (13", M4, 16GB RAM, 256GB)
+        - **MacBook Air** (13", M5, 16GB RAM, 512GB)
         - **MacBook Pro** (14", M5, 16GB RAM, 512GB) for technical roles
 
     -   :material-headphones: **Audio**
