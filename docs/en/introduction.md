@@ -117,7 +117,7 @@ Ultralytics is an AI-first company. We expect everyone to default to AI assistan
 
     ***
 
-    Develop [YOLO](https://www.ultralytics.com/yolo) and [computer vision](https://docs.ultralytics.com/tasks/) frameworks
+    Develop [YOLO](https://www.ultralytics.com/yolo) and [computer vision](https://docs.ultralytics.com/tasks) frameworks
 
 - :material-flask: **Research**
 
@@ -129,7 +129,7 @@ Ultralytics is an AI-first company. We expect everyone to default to AI assistan
 
     ***
 
-    Build tools for [training](https://docs.ultralytics.com/modes/train/), [deployment](https://docs.ultralytics.com/guides/model-deployment-options/), and production AI
+    Build tools for [training](https://docs.ultralytics.com/modes/train), [deployment](https://docs.ultralytics.com/guides/model-deployment-options), and production AI
 
 - :material-account-group: **Community**
 

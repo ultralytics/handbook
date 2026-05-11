@@ -17,7 +17,7 @@ To contribute to or preview the Handbook locally:
 2.  **Preview Handbook:** Navigate to the repository's root directory and run `zensical serve`. This starts a local development server at `http://127.0.0.1:8000/` with live reload for changes.
 3.  **Build Handbook:** To generate the static site, run `zensical build`. This creates a `site/` directory containing the complete handbook.
 
-Keeping the Handbook synchronized with Ultralytics' ongoing development is crucial. Clear, accurate, and up-to-date documentation benefits both team members and the wider community. For contribution details, see our [Contributing Guide](https://docs.ultralytics.com/help/contributing/).
+Keeping the Handbook synchronized with Ultralytics' ongoing development is crucial. Clear, accurate, and up-to-date documentation benefits both team members and the wider community. For contribution details, see our [Contributing Guide](https://docs.ultralytics.com/help/contributing).
 
 The Handbook is automatically deployed to [handbook.ultralytics.com](https://handbook.ultralytics.com/) via [Vercel](https://vercel.com/) when changes are pushed to the `main` branch.
 

@@ -11,7 +11,7 @@ Ultralytics operates globally with offices in London, Madrid, and Shenzhen. We r
 
 !!! info "Related Policies"
 
-    [Open-Source Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/), [Privacy Policy](https://docs.ultralytics.com/help/privacy/), [Environmental, Health and Safety Policy](https://docs.ultralytics.com/help/environmental-health-safety/), [Social Media Policy](../contributions/social-media-policy.md).
+    [Open-Source Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct), [Privacy Policy](https://docs.ultralytics.com/help/privacy), [Environmental, Health and Safety Policy](https://docs.ultralytics.com/help/environmental-health-safety), [Social Media Policy](../contributions/social-media-policy.md).
 
 Our mission is to move the world forward by first moving ourselves, continuously pushing the boundaries of AI through relentless execution, creating the world's best open-source solutions that benefit everyone equally, and empowering individuals to improve their lives and the lives of those around them.
 
@@ -33,7 +33,7 @@ Ultralytics is committed to fostering a culture where respect, fairness, and int
 
 We prohibit discrimination, harassment, or bullying in any form. Every team member should feel valued, empowered, and safe to perform their best work. Harassment can take many forms, including unwelcome verbal or physical conduct, or repeated behavior that creates an intimidating, hostile, or offensive work environment.
 
-Our commitment to inclusion extends to our open-source community. See our [Open-Source Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/) for community standards.
+Our commitment to inclusion extends to our open-source community. See our [Open-Source Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct) for community standards.
 
 ### Workplace Safety and Security
 

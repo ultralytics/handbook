@@ -433,19 +433,19 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
         Complete technical guides
 
-    -   :material-help-circle: **[YOLO FAQ](https://docs.ultralytics.com/help/FAQ/)**
+    -   :material-help-circle: **[YOLO FAQ](https://docs.ultralytics.com/help/FAQ)**
 
         ---
 
         Common technical questions
 
-    -   :material-school: **[Training Guide](https://docs.ultralytics.com/modes/train/)**
+    -   :material-school: **[Training Guide](https://docs.ultralytics.com/modes/train)**
 
         ---
 
         Model training
 
-    -   :material-rocket-launch: **[Deployment Options](https://docs.ultralytics.com/guides/model-deployment-options/)**
+    -   :material-rocket-launch: **[Deployment Options](https://docs.ultralytics.com/guides/model-deployment-options)**
 
         ---
 
@@ -457,7 +457,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
         Community support
 
-    -   :material-code-braces: **[Contributing Guide](https://docs.ultralytics.com/help/contributing/)**
+    -   :material-code-braces: **[Contributing Guide](https://docs.ultralytics.com/help/contributing)**
 
         ---
 

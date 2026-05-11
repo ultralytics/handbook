@@ -9,7 +9,7 @@ Welcome! We're thrilled you're considering contributing to [Ultralytics](https:/
 
 !!! tip "Complete Guidelines"
 
-    For comprehensive contribution guidelines, also see the [Official Ultralytics Contributing Guide](https://docs.ultralytics.com/help/contributing/) in our main documentation.
+    For comprehensive contribution guidelines, also see the [Official Ultralytics Contributing Guide](https://docs.ultralytics.com/help/contributing) in our main documentation.
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
 
@@ -21,7 +21,7 @@ Welcome! We're thrilled you're considering contributing to [Ultralytics](https:/
 
 Ready to contribute? Follow these steps:
 
-1. **Read our [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/)** - Respect, kindness, and professionalism
+1. **Read our [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct)** - Respect, kindness, and professionalism
 2. **Fork the repository** you want to contribute to
 3. **Create a feature branch** with descriptive name
 4. **Make your changes** following coding standards
@@ -36,11 +36,11 @@ See [Development Workflow](../workflows/development.md) for detailed PR process.
 
 ### Code of Conduct 🤝
 
-All contributors must adhere to our [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/), which is based on the [Contributor Covenant](https://www.contributor-covenant.org/). This ensures a welcoming and inclusive environment for everyone. **Respect**, **kindness**, and **professionalism** are at the heart of our community.
+All contributors must adhere to our [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct), which is based on the [Contributor Covenant](https://www.contributor-covenant.org/). This ensures a welcoming and inclusive environment for everyone. **Respect**, **kindness**, and **professionalism** are at the heart of our community.
 
 ### Contributor License Agreement (CLA) 📝
 
-Before we can merge your PR, you must sign our [CLA](https://docs.ultralytics.com/help/CLA/). This legal agreement ensures contributions are properly licensed under [AGPL-3.0](https://www.ultralytics.com/legal/agpl-3-0-software-license), protecting both you and the project.
+Before we can merge your PR, you must sign our [CLA](https://docs.ultralytics.com/help/CLA). This legal agreement ensures contributions are properly licensed under [AGPL-3.0](https://www.ultralytics.com/legal/agpl-3-0-software-license), protecting both you and the project.
 
 After submitting your PR, the CLA bot will guide you. To sign, comment:
 
@@ -55,7 +55,7 @@ The CLA covers:
 - Representations that you own the rights to your contributions
 - Disclaimer of warranties
 
-Review the full [CLA document](https://docs.ultralytics.com/help/CLA/) for complete terms.
+Review the full [CLA document](https://docs.ultralytics.com/help/CLA) for complete terms.
 
 ### Best Practices ✨
 
@@ -74,7 +74,7 @@ When contributing code:
 - **Docstrings**: Use [Google-style docstrings](https://google.github.io/styleguide/pyguide.html) with types in parentheses
 - **Line width**: 120 characters maximum
 - **Imports**: Use `pathlib` instead of `os`
-- **Testing**: All PRs must pass [CI tests](https://docs.ultralytics.com/help/CI/)
+- **Testing**: All PRs must pass [CI tests](https://docs.ultralytics.com/help/CI)
 - **Type hints**: Use where beneficial
 
 See [Development Workflow](../workflows/development.md) for complete coding standards.
@@ -83,25 +83,25 @@ See [Development Workflow](../workflows/development.md) for complete coding stan
 
 ### Code Contributions 💻
 
-- New features and enhancements for [YOLO models](https://docs.ultralytics.com/models/)
+- New features and enhancements for [YOLO models](https://docs.ultralytics.com/models)
 - Bug fixes and issue resolution
-- Performance optimizations for [training](https://docs.ultralytics.com/modes/train/) and [inference](https://docs.ultralytics.com/modes/predict/)
-- Export format support for various [deployment options](https://docs.ultralytics.com/guides/model-deployment-options/)
+- Performance optimizations for [training](https://docs.ultralytics.com/modes/train) and [inference](https://docs.ultralytics.com/modes/predict)
+- Export format support for various [deployment options](https://docs.ultralytics.com/guides/model-deployment-options)
 - Platform compatibility improvements
 
 ### Documentation 📚
 
 - Improve existing [documentation](https://docs.ultralytics.com/)
-- Add [tutorials and guides](https://docs.ultralytics.com/guides/) for specific use cases
+- Add [tutorials and guides](https://docs.ultralytics.com/guides) for specific use cases
 - Fix typos and errors
 - Translate documentation to other languages
 
 ### Testing 🧪
 
 - Write unit tests for new functionality
-- Test new features across different [models](https://docs.ultralytics.com/models/) and [tasks](https://docs.ultralytics.com/tasks/)
+- Test new features across different [models](https://docs.ultralytics.com/models) and [tasks](https://docs.ultralytics.com/tasks)
 - Report test coverage gaps
-- Performance [benchmarking](https://docs.ultralytics.com/modes/benchmark/) across platforms
+- Performance [benchmarking](https://docs.ultralytics.com/modes/benchmark) across platforms
 
 ### Community Support 💬
 
@@ -178,9 +178,9 @@ Make complete source code publicly available under AGPL-3.0:
 3. **Publish source code** including:
     - Complete application/system
     - Modifications to Ultralytics code
-    - [Training](https://docs.ultralytics.com/modes/train/)/[validation](https://docs.ultralytics.com/modes/val/)/[inference](https://docs.ultralytics.com/modes/predict/) scripts
+    - [Training](https://docs.ultralytics.com/modes/train)/[validation](https://docs.ultralytics.com/modes/val)/[inference](https://docs.ultralytics.com/modes/predict) scripts
     - Model weights if modified
-    - Configuration files and [datasets](https://docs.ultralytics.com/datasets/) used
+    - Configuration files and [datasets](https://docs.ultralytics.com/datasets) used
     - Backend/frontend code
     - Third-party libraries modified
     - Training data if redistributable
@@ -256,7 +256,7 @@ Questions or need help?
 - Join [GitHub Discussions](https://github.com/orgs/ultralytics/discussions)
 - Connect on [Discord](https://discord.com/invite/ultralytics)
 - Check [documentation](https://docs.ultralytics.com/)
-- Visit [Help Center](https://docs.ultralytics.com/help/)
+- Visit [Help Center](https://docs.ultralytics.com/help)
 - Browse [Ultralytics Blog](https://www.ultralytics.com/blog) for tutorials and guides
 - Explore [Solutions](https://www.ultralytics.com/solutions) for industry-specific applications
 
@@ -268,12 +268,12 @@ We're excited to see your ideas come to life and appreciate your commitment to a
 
 ## Resources 📚
 
-- [Official Contributing Guide](https://docs.ultralytics.com/help/contributing/) - Complete contribution guidelines
+- [Official Contributing Guide](https://docs.ultralytics.com/help/contributing) - Complete contribution guidelines
 - [Development Workflow](../workflows/development.md) - PR process and code standards
 - [CI/Testing](../workflows/ci-testing.md) - Testing and quality checks
 - [Documentation Workflow](../workflows/documentation.md) - Writing docs
-- [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/) - Community standards
-- [CLA Document](https://docs.ultralytics.com/help/CLA/) - Contributor License Agreement
+- [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct) - Community standards
+- [CLA Document](https://docs.ultralytics.com/help/CLA) - Contributor License Agreement
 - [MRE Guide](https://docs.ultralytics.com/help/minimum-reproducible-example/) - Bug reporting best practices
 - [Ultralytics Blog](https://www.ultralytics.com/blog) - Tutorials and case studies
 - [Community Events](https://www.ultralytics.com/events) - Webinars and conferences

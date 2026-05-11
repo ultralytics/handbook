@@ -80,7 +80,7 @@ We welcome contributions to the Ultralytics Handbook! Your input helps keep our 
 - Test all internal links and ensure proper navigation
 - Use tables, admonitions, and formatting consistently with other pages
 
-See our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) for detailed information.
+See our [Contributing Guide](https://docs.ultralytics.com/help/contributing) for detailed information.
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
 
