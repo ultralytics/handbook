@@ -17,10 +17,10 @@ Ultralytics thrives on active community participation. Our open-source projects 
 
 **Use GitHub Discussions for:**
 
-- Technical questions about [YOLO](https://docs.ultralytics.com/models/) implementation
+- Technical questions about [YOLO](https://docs.ultralytics.com/models) implementation
 - Feature requests and enhancement proposals
 - Sharing projects and use cases
-- General [YOLO](https://docs.ultralytics.com/models/)-related discussions
+- General [YOLO](https://docs.ultralytics.com/models)-related discussions
 
 **Best Practices:**
 
@@ -45,7 +45,7 @@ Ultralytics thrives on active community participation. Our open-source projects 
 - Be respectful and professional
 - Help others when you can
 - Keep conversations on-topic per channel
-- Follow our [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/)
+- Follow our [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct)
 
 ### Social Media
 
@@ -74,12 +74,12 @@ Help fellow community members by:
 
 ### Share Your Work
 
-Showcase projects built with [YOLO](https://docs.ultralytics.com/models/):
+Showcase projects built with [YOLO](https://docs.ultralytics.com/models):
 
 - Post in `#showcase` on Discord
 - Create GitHub Discussions posts
 - Tag us on social media
-- Write blog posts or [tutorials](https://docs.ultralytics.com/guides/)
+- Write blog posts or [tutorials](https://docs.ultralytics.com/guides)
 
 ### Report Issues
 
@@ -105,9 +105,9 @@ Annual conference bringing together the YOLO community for talks, workshops, and
 Regular online workshops covering:
 
 - [YOLO fundamentals](https://docs.ultralytics.com/)
-- Advanced [training techniques](https://docs.ultralytics.com/modes/train/)
-- [Deployment strategies](https://docs.ultralytics.com/guides/model-deployment-options/)
-- [Real-world applications](https://docs.ultralytics.com/guides/)
+- Advanced [training techniques](https://docs.ultralytics.com/modes/train)
+- [Deployment strategies](https://docs.ultralytics.com/guides/model-deployment-options)
+- [Real-world applications](https://docs.ultralytics.com/guides)
 
 ### Community Challenges
 

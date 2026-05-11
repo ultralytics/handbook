@@ -129,4 +129,4 @@ Our GRC platform (**[Vanta](https://app.vanta.com/)**) provides real-time compli
     | ------- | ------- |
     | **Email** | [security@ultralytics.com](mailto:security@ultralytics.com) |
     | **Trust Center** | [trust.ultralytics.com](https://trust.ultralytics.com/) |
-    | **Open-Source Security Policy** | [docs.ultralytics.com/help/security/](https://docs.ultralytics.com/help/security/) |
+    | **Open-Source Security Policy** | [docs.ultralytics.com/help/security/](https://docs.ultralytics.com/help/security) |

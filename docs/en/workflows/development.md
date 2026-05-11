@@ -11,7 +11,7 @@ The workflow is intentionally lightweight: keep changes focused, make review eas
 
 ## Code of Conduct 🤝
 
-All contributors must follow the [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/). Respect, clarity, and professionalism are expected in issues, PRs, reviews, internal discussions, and public community spaces. For public contribution requirements, see the [Official Contributing Guide](https://docs.ultralytics.com/help/contributing/).
+All contributors must follow the [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct). Respect, clarity, and professionalism are expected in issues, PRs, reviews, internal discussions, and public community spaces. For public contribution requirements, see the [Official Contributing Guide](https://docs.ultralytics.com/help/contributing).
 
 ## Collaboration Cadence 🛰️
 
@@ -122,7 +122,7 @@ git checkout -b fix-issue-123
 
     Add tests for new functionality and regression tests for bug fixes. If a relevant check cannot be run locally, explain why in the PR and include manual validation notes.
 
-Learn more: [Testing Requirements](ci-testing.md), [Model Validation](https://docs.ultralytics.com/modes/val/), [CI Workflows](https://docs.ultralytics.com/help/CI/)
+Learn more: [Testing Requirements](ci-testing.md), [Model Validation](https://docs.ultralytics.com/modes/val), [CI Workflows](https://docs.ultralytics.com/help/CI)
 
 ### 5. Commit Your Changes
 
@@ -156,7 +156,7 @@ git commit -m "Fix #123: Corrected calculation error"
 
 !!! warning "Required Before Merge"
 
-    External contributors must sign the [Contributor License Agreement (CLA)](https://docs.ultralytics.com/help/CLA/) so contributions are properly licensed under the [AGPL-3.0 license](https://www.ultralytics.com/legal/agpl-3-0-software-license).
+    External contributors must sign the [Contributor License Agreement (CLA)](https://docs.ultralytics.com/help/CLA) so contributions are properly licensed under the [AGPL-3.0 license](https://www.ultralytics.com/legal/agpl-3-0-software-license).
 
 After submitting your PR, add this comment:
 
@@ -164,7 +164,7 @@ After submitting your PR, add this comment:
 I have read the CLA Document and I sign the CLA
 ```
 
-The CLA bot will guide you through the process. For more details on licensing, see our [contributing guide](https://docs.ultralytics.com/help/contributing/).
+The CLA bot will guide you through the process. For more details on licensing, see our [contributing guide](https://docs.ultralytics.com/help/contributing).
 
 ### 8. Address Review Feedback
 
@@ -436,7 +436,7 @@ Report bugs via [GitHub Issues](https://github.com/ultralytics/ultralytics/issue
 3. **Describe environment**: OS, Python version, library versions, hardware (use `yolo checks` for diagnostics)
 4. **Explain expected vs actual behavior** with error messages
 
-For common issues and solutions, see our [troubleshooting guide](https://docs.ultralytics.com/guides/yolo-common-issues/).
+For common issues and solutions, see our [troubleshooting guide](https://docs.ultralytics.com/guides/yolo-common-issues).
 
 ## License 📜
 
@@ -444,11 +444,11 @@ Many Ultralytics repositories use the [AGPL-3.0 license](https://www.ultralytics
 
 ## Resources 📚
 
-- [Official Contributing Guide](https://docs.ultralytics.com/help/contributing/) - Complete contribution guidelines
+- [Official Contributing Guide](https://docs.ultralytics.com/help/contributing) - Complete contribution guidelines
 - [CI/Testing](ci-testing.md) - Continuous integration details
 - [Documentation](documentation.md) - Writing and maintaining docs
-- [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct/) - Community standards
-- [CLA Instructions](https://docs.ultralytics.com/help/CLA/) - Contributor License Agreement guidance
+- [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct) - Community standards
+- [CLA Instructions](https://docs.ultralytics.com/help/CLA) - Contributor License Agreement guidance
 - [Minimum Reproducible Example](https://docs.ultralytics.com/help/minimum-reproducible-example/) - Bug report examples
 - [Ultralytics Blog](https://www.ultralytics.com/blog) - Latest updates and tutorials
 - [Community Events](https://www.ultralytics.com/events) - Webinars and conferences

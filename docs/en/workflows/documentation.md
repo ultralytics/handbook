@@ -71,7 +71,7 @@ results = model("image.jpg")
 ### Code Examples
 
 - **Minimal**: Show only relevant code
-- **Runnable**: Examples should work copy-paste (test with actual [YOLO models](https://docs.ultralytics.com/models/))
+- **Runnable**: Examples should work copy-paste (test with actual [YOLO models](https://docs.ultralytics.com/models))
 - **Commented**: Explain non-obvious parts
 - **Tested**: Verify examples work with current version
 
@@ -131,7 +131,7 @@ plugins:
 
 ## API Documentation 📖
 
-API reference is auto-generated from docstrings. See the [complete API reference](https://docs.ultralytics.com/reference/__init__/) for all modules:
+API reference is auto-generated from docstrings. See the [complete API reference](https://docs.ultralytics.com/reference/__init__) for all modules:
 
 ````python
 def train(self, data, epochs=100, batch=16):

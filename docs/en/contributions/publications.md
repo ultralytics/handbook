@@ -7,13 +7,13 @@ keywords: Ultralytics publications, research papers, YOLO publications, publicat
 
 ## Overview
 
-The [Ultralytics Publications page](https://www.ultralytics.com/publications) showcases research papers authored by Ultralytics team members that are tied to our core work in computer vision and Ultralytics [YOLO](https://docs.ultralytics.com/models/) model development. This page is a reflection of the team's technical contributions to the field — the criteria below ensure the content remains relevant, high-quality, and aligned with our brand.
+The [Ultralytics Publications page](https://www.ultralytics.com/publications) showcases research papers authored by Ultralytics team members that are tied to our core work in computer vision and Ultralytics [YOLO](https://docs.ultralytics.com/models) model development. This page is a reflection of the team's technical contributions to the field — the criteria below ensure the content remains relevant, high-quality, and aligned with our brand.
 
 ## Eligibility Criteria
 
 Before submitting a paper, confirm it meets **all** of the following requirements:
 
-- ✅ **Ultralytics YOLO or computer vision focused** — the paper must be directly related to [YOLO](https://docs.ultralytics.com/models/) or computer vision more broadly
+- ✅ **Ultralytics YOLO or computer vision focused** — the paper must be directly related to [YOLO](https://docs.ultralytics.com/models) or computer vision more broadly
 - ✅ **References Ultralytics models** — the paper must reference YOLOv5, YOLOv8, YOLO11, YOLO26, or any future Ultralytics-developed models
 - ✅ **No competitor mentions** — the paper must not reference or promote competing models or companies
 - ✅ **Current full-time employee** — you must be a full-time Ultralytics employee at the time of submission

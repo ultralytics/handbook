@@ -233,7 +233,7 @@ Significant regressions block merging. If metrics change:
 
 ## CI Status 📋
 
-Check CI status for all Ultralytics repositories at [docs.ultralytics.com/help/CI](https://docs.ultralytics.com/help/CI/).
+Check CI status for all Ultralytics repositories at [docs.ultralytics.com/help/CI](https://docs.ultralytics.com/help/CI).
 
 ### Main Repository Badges
 
@@ -259,7 +259,7 @@ Only for:
 
 ## Resources 📚
 
-- [Official CI Guide](https://docs.ultralytics.com/help/CI/) - Complete CI documentation
+- [Official CI Guide](https://docs.ultralytics.com/help/CI) - Complete CI documentation
 - [Development Workflow](development.md) - PR process and code standards
 - [GitHub Actions Docs](https://docs.github.com/en/actions) - CI configuration
 - [pytest Documentation](https://docs.pytest.org/en/stable/) - Testing framework
