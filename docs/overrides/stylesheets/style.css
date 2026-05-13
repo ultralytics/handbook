@@ -243,11 +243,3 @@ table td:nth-child(2):last-child {
 .md-typeset a {
   text-decoration: none;
 }
-
-/* Global kill-switch for Weglot UI */
-.weglot-container,
-.weglot_switcher,
-[id^="weglot-switcher"],
-.weglot-container[id^="weglot-switcher"] {
-  display: none;
-}
