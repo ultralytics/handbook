@@ -84,8 +84,8 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     === "Under $3,000"
 
         1. Pay personally and keep receipts
-        2. Submit via company platform with business justification
-        3. Reimbursement processed within **7 business days**
+        2. Submit via company platform with receipts and business justification by the monthly cutoff
+        3. Receive approved expenses together in the next monthly reimbursement batch
 
     === "$3,000+"
 
@@ -97,20 +97,24 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
 ??? question "What's the typical reimbursement timeline?"
 
-    Reimbursements are processed within **7 business days** after submission and approval.
+    Finance processes one reimbursement batch per employee per month. The cutoff is the **25th calendar day** of the month, or the previous business day if the 25th falls on a weekend or company holiday. Approved expenses submitted after the cutoff roll into the following month's reimbursement batch.
+
+    Small expenses are not paid individually or immediately. For example, if two taxi receipts are approved before the May cutoff, both are paid together in the end-of-May reimbursement.
 
     !!! tip "Pro Tip"
 
-        Submit expenses within the same fiscal quarter for faster processing.
+        Submit receipts promptly with the business purpose and required documentation.
 
 ??? question "What does per diem cover when traveling?"
 
     === "Included in Per Diem"
+
         - [x] All meals (breakfast, lunch, dinner)
         - [x] Ground transportation (taxis, rideshares, public transit)
         - [x] Incidental expenses (tips, laundry, parking)
 
     === "Reimbursed Separately"
+
         - :material-airplane: Airfare (economy class only)
 
     See [Travel Policy](../finance/travel.md) for per diem rates by city.
@@ -160,9 +164,11 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 ??? question "How is equipment delivered?"
 
     === "Onsite Employees"
+
         Equipment ready at your office on **day one**.
 
     === "Remote Employees"
+
         For the rare approved-remote roles outside commutable distance:
         1. Order independently
         2. Submit receipts for reimbursement
@@ -336,11 +342,13 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     All employees complete annual mandatory training:
 
     === "General (All Employees)"
+
         - **CCPA** (California Consumer Privacy Act)
         - **GDPR** (General Data Protection Regulation)
         - **General Security Awareness**
 
     === "Engineering Teams"
+
         - **Secure Code Training** (YOLO and Platform teams only)
 
     Training delivered via [Vanta](https://app.vanta.com/c/ultralytics/employee/onboarding).

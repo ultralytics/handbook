@@ -150,6 +150,7 @@ Ultralytics is an AI-first company. We expect everyone to default to AI assistan
 !!! info "Our Work Culture"
 
     === "High-Resolution Hybrid"
+
         We work where the speed is. Tuesdays, Wednesdays, and Thursdays are **Anchor Days**—all team members within commutable distance are expected to be onsite to reduce latency, whiteboard in real time, and debug together.
 
         Badge data is reviewed to keep teams in sync and credit consistent attendance; Anchor Day presence is a core performance and promotion input for Ultralytics. Opting into **5 days onsite** unlocks richer in-office perks and faster feedback loops.
@@ -157,24 +158,29 @@ Ultralytics is an AI-first company. We expect everyone to default to AI assistan
         Mondays and Fridays are flex for deep work, but critical launches may call for full-week co-location. :material-dog: All our offices are dog-friendly!
 
     === "Ship Fast, Learn Faster"
+
         MVP-first development with 2-week iteration cycles.
 
         Bias toward action and rapid feedback loops.
 
     === "Open by Default"
+
         - Transparent decision-making
         - Public development
         - Open-source first approach
 
     === "Data-Driven"
+
         - Metrics guide decisions
         - User feedback drives roadmap
         - Evidence-based improvements
 
     === "High Autonomy"
+
         Freedom to own your work with clear expectations and accountability.
 
     === "Community-Powered"
+
         1M+ developers and contributors actively shape our direction.
 
 !!! tip "Why In-Person Wins"

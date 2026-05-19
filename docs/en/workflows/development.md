@@ -299,11 +299,13 @@ def example_small_function(arg1: int, arg2: int = 4) -> bool:
 !!! success "Quality Checklist"
 
     === "Clean Code"
+
         - [x] No unused imports or variables
         - [x] Consistent naming (`lowercase_with_underscores`)
         - [x] Clear variable names; avoid single letters except loop counters
 
     === "Formatting"
+
         - [x] Use f-strings for string formatting
         - [x] Comments explain non-obvious decisions, not obvious syntax
         - [x] Use [Ruff Formatter](https://github.com/astral-sh/ruff) where configured

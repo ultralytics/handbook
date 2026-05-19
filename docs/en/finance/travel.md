@@ -17,7 +17,7 @@ This policy applies to all employees of [Ultralytics](https://www.ultralytics.co
 
 - :material-cash-check: Travel must be business-critical, cost-effective, and approved by your manager prior to booking
 - :material-receipt-text: Expense claims must include a clear description of the business purpose
-- :material-clock-fast: Submit expenses promptly, ideally within the same fiscal quarter incurred
+- :material-clock-fast: Submit expenses promptly and before the monthly reimbursement cutoff when possible
 
 ## Reimbursement Procedures 💰
 
@@ -43,12 +43,12 @@ graph TD
     **Standard Reimbursement Process:**
 
     1. Pay expenses personally during travel
-    2. Submit receipts after travel for reimbursement
-    3. Receive payment within 7 business days
+    2. Submit receipts with business purpose by the monthly cutoff
+    3. Receive approved travel expenses together in the next monthly reimbursement batch
 
     !!! tip "Best Practice"
 
-        Use a personal credit card with travel benefits for better rewards and protection.
+        The monthly cutoff is the 25th calendar day, or the previous business day if the 25th falls on a weekend or company holiday.
 
 === "$3,000+"
 
@@ -69,17 +69,19 @@ graph TD
     **Total per diem = Lodging + M&IE (Meals, Incidentals & Expenses)**
 
     === "Included"
-        :material-check-circle: Accommodation
-        :material-check-circle: All meals (breakfast, lunch, dinner)
-        :material-check-circle: Tips and gratuities
-        :material-check-circle: Ground transportation (taxi, metro, bus)
-        :material-check-circle: Incidental costs (laundry, parking, etc.)
+
+        - Accommodation
+        - All meals (breakfast, lunch, dinner)
+        - Tips and gratuities
+        - Ground transportation (taxi, metro, bus)
+        - Incidental costs (laundry, parking, etc.)
 
     === "Not Included"
-        :material-close-circle: Airfare (reimbursed separately)
-        :material-close-circle: Personal expenses
-        :material-close-circle: Alcohol
-        :material-close-circle: Entertainment
+
+        - Airfare (reimbursed separately)
+        - Personal expenses
+        - Alcohol
+        - Entertainment
 
 Employees traveling for business will receive a daily per diem allowance based on their destination. The following rates are reviewed annually and updated when Finance publishes a new schedule:
 
@@ -191,7 +193,7 @@ Employees traveling for business will receive a daily per diem allowance based o
 
     - Upload clear photos or PDFs
     - Include itemized details
-    - Submit within same fiscal quarter
+    - Submit before the monthly reimbursement cutoff when possible
     - Use Rippling expense management system
 
 ## Exceptions ⚠️

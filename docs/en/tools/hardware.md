@@ -385,7 +385,7 @@ graph TD
     F -->|Yes| G[Reimbursement Processed]
     F -->|No| H[Request More Info]
     H --> C
-    G --> I[Payment in 7 Days]
+    G --> I[Month-End Payment]
 
     style A fill:#e1f5ff
     style I fill:#d4edda
@@ -396,4 +396,4 @@ graph TD
     - Submit all receipts to Finance team
     - Include clear description of business purpose
     - For detailed procedures, see [Finance Handbook](../finance/index.md)
-    - Reimbursements typically processed within 7 business days
+    - Approved expenses submitted by the monthly cutoff are paid together in the next reimbursement batch

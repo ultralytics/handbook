@@ -154,17 +154,21 @@ Employees earn additional PTO days based on length of service:
 !!! info "Country-Specific Holiday Calendars"
 
     === "🇬🇧 United Kingdom"
+
         [GOV.UK Bank Holidays](https://www.gov.uk/bank-holidays) - Official government bank holidays
 
     === "🇪🇸 Spain"
+
         [BOE Calendar](https://www.boe.es/diario_boe/calendarios.php) - Official State Gazette (Boletín Official del Estado)
 
         **Madrid:** [City Holidays](https://app.powerbi.com/view?r=eyJrIjoiMWE4ZGU0ZmMtNTI1NC00NWRjLTk3NWYtNTAyMzAwZTI3NDdmIiwidCI6ImI0NTMyYWE2LTE4OTUtNDk2NC1iOWMwLTIyYjE0NDQ0MjcxYiIsImMiOjl9) - Official Madrid city holidays
 
     === "🇨🇳 China"
+
         [State Council Public Holidays](https://english.www.gov.cn/policies/featured/202511/04/content_WS6909c915c6d00ca5f9a074f7.html) - Official government announcement
 
     === "🇺🇸 United States"
+
         [OPM Federal Holidays](https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/) - Office of Personnel Management
 
 ## Requesting Time Off 📝
