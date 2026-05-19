@@ -51,7 +51,13 @@ Ultralytics rewards employees who refer qualified candidates that successfully j
 
 ## Reimbursements 💸
 
-Approved employee expenses are reimbursed in a single monthly payment. Finance groups all approved expenses incurred in the same calendar month and pays them together at the end of that month. For example, if you have two approved expenses in May, both are reimbursed together in the end-of-May payment.
+Finance processes one employee reimbursement batch per month. To be included in the current month's batch, expenses must be submitted with receipts, business purpose, and any required approval by the **25th calendar day** of the month. If the 25th falls on a weekend or company holiday, the cutoff is the previous business day. Approved expenses submitted after the cutoff roll into the following month's reimbursement batch.
+
+Finance does not issue separate off-cycle payments for individual small expenses. For example, if two taxi receipts are approved before the May cutoff, both are reimbursed together in the end-of-May payment.
+
+!!! info "Accountable Plan Requirements"
+
+    Reimbursement requests must have a business connection, be substantiated with receipts or required documentation, and include a clear business purpose. Any duplicate, excess, or incorrect reimbursement must be returned promptly.
 
 !!! warning "Reimbursement Thresholds"
 
@@ -62,12 +68,12 @@ Approved employee expenses are reimbursed in a single monthly payment. Finance g
     **Standard Reimbursement Process:**
 
     1. Pay expenses personally
-    2. Submit receipts with business justification
-    3. Approved expenses from the same month are reimbursed together at the end of that month
+    2. Submit receipts with business justification by the monthly cutoff
+    3. Receive approved expenses together in the next monthly reimbursement batch
 
     !!! tip "Best Practice"
 
-        Submit receipts as soon as possible so Finance can approve and include them in the correct monthly reimbursement.
+        Submit receipts as soon as possible instead of waiting for the cutoff. Late, incomplete, or unapproved requests roll into the following month's reimbursement batch.
 
 === "$3,000+"
 

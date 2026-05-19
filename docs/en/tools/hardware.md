@@ -396,4 +396,4 @@ graph TD
     - Submit all receipts to Finance team
     - Include clear description of business purpose
     - For detailed procedures, see [Finance Handbook](../finance/index.md)
-    - Approved expenses from the same month are reimbursed together at the end of that month
+    - Approved expenses submitted by the monthly cutoff are paid together in the next reimbursement batch

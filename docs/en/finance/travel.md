@@ -17,7 +17,7 @@ This policy applies to all employees of [Ultralytics](https://www.ultralytics.co
 
 - :material-cash-check: Travel must be business-critical, cost-effective, and approved by your manager prior to booking
 - :material-receipt-text: Expense claims must include a clear description of the business purpose
-- :material-clock-fast: Submit expenses promptly, ideally within the same fiscal quarter incurred
+- :material-clock-fast: Submit expenses promptly and before the monthly reimbursement cutoff when possible
 
 ## Reimbursement Procedures 💰
 
@@ -43,12 +43,12 @@ graph TD
     **Standard Reimbursement Process:**
 
     1. Pay expenses personally during travel
-    2. Submit receipts after travel for reimbursement
-    3. Approved travel expenses from the same month are reimbursed together at the end of that month
+    2. Submit receipts with business purpose by the monthly cutoff
+    3. Receive approved travel expenses together in the next monthly reimbursement batch
 
     !!! tip "Best Practice"
 
-        Submit receipts promptly so Finance can approve them before the monthly reimbursement is processed.
+        The monthly cutoff is the 25th calendar day, or the previous business day if the 25th falls on a weekend or company holiday.
 
 === "$3,000+"
 
@@ -193,7 +193,7 @@ Employees traveling for business will receive a daily per diem allowance based o
 
     - Upload clear photos or PDFs
     - Include itemized details
-    - Submit within same fiscal quarter
+    - Submit before the monthly reimbursement cutoff when possible
     - Use Rippling expense management system
 
 ## Exceptions ⚠️

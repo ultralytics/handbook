@@ -84,8 +84,8 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     === "Under $3,000"
 
         1. Pay personally and keep receipts
-        2. Submit via company platform with business justification
-        3. Approved expenses from the same month are reimbursed together at the end of that month
+        2. Submit via company platform with receipts and business justification by the monthly cutoff
+        3. Receive approved expenses together in the next monthly reimbursement batch
 
     === "$3,000+"
 
@@ -97,11 +97,13 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
 ??? question "What's the typical reimbursement timeline?"
 
-    Approved expenses incurred in the same calendar month are reimbursed together at the end of that month. For example, if you have two approved expenses in May, both are paid together in the end-of-May reimbursement.
+    Finance processes one reimbursement batch per employee per month. The cutoff is the **25th calendar day** of the month, or the previous business day if the 25th falls on a weekend or company holiday. Approved expenses submitted after the cutoff roll into the following month's reimbursement batch.
+
+    Small expenses are not paid individually or immediately. For example, if two taxi receipts are approved before the May cutoff, both are paid together in the end-of-May reimbursement.
 
     !!! tip "Pro Tip"
 
-        Submit receipts promptly so Finance can approve them before the monthly reimbursement is processed.
+        Submit receipts promptly with the business purpose and required documentation.
 
 ??? question "What does per diem cover when traveling?"
 
