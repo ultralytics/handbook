@@ -85,7 +85,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
         1. Pay personally and keep receipts
         2. Submit via company platform with business justification
-        3. Reimbursement processed within **7 business days**
+        3. Approved expenses from the same month are reimbursed together at the end of that month
 
     === "$3,000+"
 
@@ -97,20 +97,22 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
 ??? question "What's the typical reimbursement timeline?"
 
-    Reimbursements are processed within **7 business days** after submission and approval.
+    Approved expenses incurred in the same calendar month are reimbursed together at the end of that month. For example, if you have two approved expenses in May, both are paid together in the end-of-May reimbursement.
 
     !!! tip "Pro Tip"
 
-        Submit expenses within the same fiscal quarter for faster processing.
+        Submit receipts promptly so Finance can approve them before the monthly reimbursement is processed.
 
 ??? question "What does per diem cover when traveling?"
 
     === "Included in Per Diem"
+
         - [x] All meals (breakfast, lunch, dinner)
         - [x] Ground transportation (taxis, rideshares, public transit)
         - [x] Incidental expenses (tips, laundry, parking)
 
     === "Reimbursed Separately"
+
         - :material-airplane: Airfare (economy class only)
 
     See [Travel Policy](../finance/travel.md) for per diem rates by city.
@@ -160,9 +162,11 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 ??? question "How is equipment delivered?"
 
     === "Onsite Employees"
+
         Equipment ready at your office on **day one**.
 
     === "Remote Employees"
+
         For the rare approved-remote roles outside commutable distance:
         1. Order independently
         2. Submit receipts for reimbursement
@@ -336,11 +340,13 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     All employees complete annual mandatory training:
 
     === "General (All Employees)"
+
         - **CCPA** (California Consumer Privacy Act)
         - **GDPR** (General Data Protection Regulation)
         - **General Security Awareness**
 
     === "Engineering Teams"
+
         - **Secure Code Training** (YOLO and Platform teams only)
 
     Training delivered via [Vanta](https://app.vanta.com/c/ultralytics/employee/onboarding).

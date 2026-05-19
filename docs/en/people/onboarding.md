@@ -349,21 +349,27 @@ Work with your manager to define specific, measurable goals:
 !!! tip "First 30 Days"
 
     === "Ask Questions"
+
         No question is too small - everyone was new once. Use Slack, schedule 1:1s, and ask during meetings.
 
     === "Take Notes"
+
         Document processes, shortcuts, and learnings. Create a personal wiki or notebook.
 
     === "Be Proactive"
+
         Don't wait to be told what to do - suggest ideas and volunteer for tasks.
 
     === "Ship Early, Ship Often"
+
         Bias toward action and rapid iteration. Perfect is the enemy of done.
 
     === "Build Relationships"
+
         Coffee chats are high-value. Schedule 3-5 per week in your first month.
 
     === "Seek Feedback"
+
         Ask manager and peers how you're doing weekly. Make adjustments quickly.
 
 !!! success "Long-Term Success"

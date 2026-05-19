@@ -26,10 +26,12 @@ We are constantly evolving and improving. Just as life is ever-changing, we neve
 !!! example "In Practice"
 
     === "Development"
+
         - Ship features quickly and iterate based on feedback
         - Learn from failures and adapt rapidly
 
     === "Culture"
+
         - Never settle for "good enough" when better is possible
         - Maintain momentum even during challenges
 
@@ -40,10 +42,12 @@ True excellence is achieved through perseverance. We believe that even the small
 !!! example "In Practice"
 
     === "Code Quality"
+
         - Obsess over code quality and performance
         - Review PRs thoroughly for correctness and clarity
 
     === "Documentation"
+
         - Write comprehensive tests and documentation
         - Take pride in craftsmanship at every level
 
@@ -54,10 +58,12 @@ We are defined by what we do, not what we say we will do. We focus on delivering
 !!! example "In Practice"
 
     === "Delivery"
+
         - Deliver working code over lengthy proposals
         - Measure impact by shipped features, not activity
 
     === "Communication"
+
         - Show progress through demos and metrics
         - Let our work speak for itself
 
@@ -68,10 +74,12 @@ Our time is finite, and we do not know how finite. Opportunities are fleeting, a
 !!! example "In Practice"
 
     === "Responsiveness"
+
         - Respond to issues and PRs within 24 hours
         - Make decisions quickly with available information
 
     === "Execution"
+
         - Ship MVPs to gather feedback early
         - Prioritize ruthlessly to focus on what matters most
 
@@ -82,10 +90,12 @@ We value open, honest, and transparent communication, where everyone's voice is 
 !!! example "In Practice"
 
     === "Open Source"
+
         - Open-source by default for maximum community benefit
         - Share knowledge freely through documentation and examples
 
     === "Collaboration"
+
         - Maintain transparent decision-making processes
         - Welcome contributions from all skill levels and backgrounds
         - Communicate clearly and proactively with stakeholders

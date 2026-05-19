@@ -44,11 +44,11 @@ graph TD
 
     1. Pay expenses personally during travel
     2. Submit receipts after travel for reimbursement
-    3. Receive payment within 7 business days
+    3. Approved travel expenses from the same month are reimbursed together at the end of that month
 
     !!! tip "Best Practice"
 
-        Use a personal credit card with travel benefits for better rewards and protection.
+        Submit receipts promptly so Finance can approve them before the monthly reimbursement is processed.
 
 === "$3,000+"
 
@@ -69,17 +69,19 @@ graph TD
     **Total per diem = Lodging + M&IE (Meals, Incidentals & Expenses)**
 
     === "Included"
-        :material-check-circle: Accommodation
-        :material-check-circle: All meals (breakfast, lunch, dinner)
-        :material-check-circle: Tips and gratuities
-        :material-check-circle: Ground transportation (taxi, metro, bus)
-        :material-check-circle: Incidental costs (laundry, parking, etc.)
+
+        - Accommodation
+        - All meals (breakfast, lunch, dinner)
+        - Tips and gratuities
+        - Ground transportation (taxi, metro, bus)
+        - Incidental costs (laundry, parking, etc.)
 
     === "Not Included"
-        :material-close-circle: Airfare (reimbursed separately)
-        :material-close-circle: Personal expenses
-        :material-close-circle: Alcohol
-        :material-close-circle: Entertainment
+
+        - Airfare (reimbursed separately)
+        - Personal expenses
+        - Alcohol
+        - Entertainment
 
 Employees traveling for business will receive a daily per diem allowance based on their destination. The following rates are reviewed annually and updated when Finance publishes a new schedule:
 

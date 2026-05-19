@@ -51,6 +51,8 @@ Ultralytics rewards employees who refer qualified candidates that successfully j
 
 ## Reimbursements 💸
 
+Approved employee expenses are reimbursed in a single monthly payment. Finance groups all approved expenses incurred in the same calendar month and pays them together at the end of that month. For example, if you have two approved expenses in May, both are reimbursed together in the end-of-May payment.
+
 !!! warning "Reimbursement Thresholds"
 
     **Two different processes based on expense amount:**
@@ -61,11 +63,11 @@ Ultralytics rewards employees who refer qualified candidates that successfully j
 
     1. Pay expenses personally
     2. Submit receipts with business justification
-    3. Reimbursement processed within **7 business days**
+    3. Approved expenses from the same month are reimbursed together at the end of that month
 
     !!! tip "Best Practice"
 
-        Submit reimbursement requests within the same fiscal quarter
+        Submit receipts as soon as possible so Finance can approve and include them in the correct monthly reimbursement.
 
 === "$3,000+"
 

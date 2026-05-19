@@ -146,7 +146,7 @@ Ultralytics offers competitive Series A-level compensation including:
 
 ### Expense Reimbursement
 
-- **Under $3,000**: Pay personally, submit for reimbursement within 7 business days
+- **Under $3,000**: Pay personally, submit receipts promptly, and receive approved expenses from the same month together at month end
 - **$3,000+**: Get pre-approval, then submit receipts after purchase
 
 See [Finance Handbook](../finance/index.md) for complete reimbursement procedures.
