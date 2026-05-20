@@ -206,7 +206,6 @@ Feel free to reach out to team members for guidance:
 | Anastasiia Khrapal      | [nastijakh](https://github.com/nastijakh)                             |
 | Andrei Banica           | [banica-ultralytics](https://github.com/banica-ultralytics)           |
 | Antonina Poludena       | [Antonina2111](https://github.com/Antonina2111)                       |
-| Burhan Qaddoumi         | [Burhan-Q](https://github.com/Burhan-Q)                               |
 | Craig Johnston          | [craigjohnston1](https://github.com/craigjohnston1)                   |
 | Craig Maxwell           | [craig-ships-it](https://github.com/craig-ships-it)                   |
 | Esat Kalfaoglu          | [artest08](https://github.com/artest08)                               |
@@ -238,7 +237,6 @@ Feel free to reach out to team members for guidance:
 | Onuralp Sezer           | [onuralpszr](https://github.com/onuralpszr)                           |
 | Pablo Karnbaum          | [pablokarnbaum](https://github.com/pablokarnbaum)                     |
 | Paula Derrenger         | [pderrenger](https://github.com/pderrenger)                           |
-| Prateek Bhatnagar       | [prateek-ultralytics](https://github.com/prateek-ultralytics)         |
 | Rick Hou                | [Bovey0809](https://github.com/Bovey0809)                             |
 | Sergiu Waxmann          | [sergiuwaxmann](https://github.com/sergiuwaxmann)                     |
 | Shuai (Louis) Lyu       | [ShuaiLYU](https://github.com/ShuaiLYU)                               |
