@@ -124,15 +124,15 @@ Use the `#compliance` channel for:
 
 ## Compliance Calendar & Audits
 
-| Activity                                         | Target   |
-| ------------------------------------------------ | -------- |
-| **ISO 27001 & SOC 2 Type I audit**               | Completed|
-| **ISO 27001 surveillance & SOC 2 Type II audit** | Q1 2027  |
-| **HIPAA Security Rule self-assessment**          | Q3 2026  |
-| **GDPR & EU AI Act compliance monitoring**       | Ongoing  |
-| **Ultralytics Platform Penetration Test**        | Completed|
-| Annual compliance metrics review                 | Annually |
-| Annual risk assessments                          | Annually |
-| Policy reviews                                   | Annually |
-| Continuous security monitoring                   | Ongoing  |
-| Annual information security audits               | Annually |
+| Activity                                         | Target    |
+| ------------------------------------------------ | --------- |
+| **ISO 27001 & SOC 2 Type I audit**               | Completed |
+| **ISO 27001 surveillance & SOC 2 Type II audit** | Q1 2027   |
+| **HIPAA Security Rule self-assessment**          | Q3 2026   |
+| **GDPR & EU AI Act compliance monitoring**       | Ongoing   |
+| **Ultralytics Platform Penetration Test**        | Completed |
+| Annual compliance metrics review                 | Annually  |
+| Annual risk assessments                          | Annually  |
+| Policy reviews                                   | Annually  |
+| Continuous security monitoring                   | Ongoing   |
+| Annual information security audits               | Annually  |
