@@ -1,6 +1,6 @@
 ---
 description: Ultralytics Security & Compliance Team overview covering responsibilities, contact information, mandatory training, and annual compliance calendar.
-keywords: Ultralytics security team, compliance, ISO 27001, SOC 2, GDPR, security training, Vanta, Rippling MDM
+keywords: Ultralytics security team, compliance, ISO 27001, SOC 2, GDPR, security training, Vanta, Rippling MDM, EU AI act, HIPAA
 ---
 
 # Ultralytics Security & Compliance Team
@@ -28,7 +28,8 @@ keywords: Ultralytics security team, compliance, ISO 27001, SOC 2, GDPR, securit
 
     ***
     - SOC 2 Type I and Type II compliance
-    - Regulatory compliance assessments
+    - Penetration testing
+    - Regulatory compliance assessments (GDPR, EU AI act, HIPAA)
     - Third-party audit coordination
     - Compliance monitoring and reporting
     - Gap analysis and remediation planning
@@ -94,9 +95,10 @@ Use the `#compliance` channel for:
 
 | Document                   | Status                    |
 | -------------------------- | ------------------------- |
-| SOC 2 Report               | Planned Q1 2026           |
-| ISO 27001 Certificate      | Planned Q1 2026           |
+| SOC 2 Report               | In progress Q2 2026       |
+| ISO 27001 Certificate      | Certified June 2026       |
 | Statement of Applicability | Available in Trust Center |
+| Platform Penetration Test  | Completed April 2026      |
 
 ## Employee Resources
 
@@ -122,12 +124,15 @@ Use the `#compliance` channel for:
 
 ## Compliance Calendar & Audits
 
-| Activity                                         | Target   |
-| ------------------------------------------------ | -------- |
-| **ISO 27001 & SOC 2 Type I audit**               | Q1 2026  |
-| **ISO 27001 surveillance & SOC 2 Type II audit** | Q1 2027  |
-| Annual compliance metrics review                 | Annually |
-| Annual risk assessments                          | Annually |
-| Policy reviews                                   | Annually |
-| Continuous security monitoring                   | Ongoing  |
-| Annual information security audits               | Annually |
+| Activity                                         | Target    |
+| ------------------------------------------------ | --------- |
+| **ISO 27001 & SOC 2 Type I audit**               | Completed |
+| **ISO 27001 surveillance & SOC 2 Type II audit** | Q1 2027   |
+| **HIPAA Security Rule self-assessment**          | Q3 2026   |
+| **GDPR & EU AI Act compliance monitoring**       | Ongoing   |
+| **Ultralytics Platform Penetration Test**        | Completed |
+| Annual compliance metrics review                 | Annually  |
+| Annual risk assessments                          | Annually  |
+| Policy reviews                                   | Annually  |
+| Continuous security monitoring                   | Ongoing   |
+| Annual information security audits               | Annually  |
