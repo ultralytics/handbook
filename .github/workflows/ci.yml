@@ -27,3 +27,30 @@ jobs:
           uv pip install --system -r requirements.txt mkdocs mkdocs-material
       - name: Build docs (warnings as errors)
         run: mkdocs build --strict
+      - name: Check handbook source changes
+        id: handbook_changes
+        if: github.event_name == 'push'
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          CURRENT_SHA: ${{ github.sha }}
+        run: |
+          if [[ "$BEFORE_SHA" =~ ^0+$ ]]; then
+            BEFORE_SHA="$(git rev-list --max-parents=0 "$CURRENT_SHA")"
+          fi
+
+          if git diff --quiet "$BEFORE_SHA" "$CURRENT_SHA" -- docs mkdocs.yml mkdocs.yaml; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Trigger Portal handbook redeploy
+        if: github.event_name == 'push' && steps.handbook_changes.outputs.changed == 'true'
+        env:
+          VERCEL_HANDBOOK_DEPLOY_HOOK: ${{ secrets.VERCEL_HANDBOOK_DEPLOY_HOOK }}
+        run: |
+          if [[ -z "$VERCEL_HANDBOOK_DEPLOY_HOOK" ]]; then
+            echo "::error::VERCEL_HANDBOOK_DEPLOY_HOOK is not configured"
+            exit 1
+          fi
+
+          curl --fail --silent --show-error --retry 3 --request POST "$VERCEL_HANDBOOK_DEPLOY_HOOK"
