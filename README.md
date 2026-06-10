@@ -25,6 +25,12 @@ This Handbook serves as a **living document**, evolving alongside Ultralytics' g
 - **[Vercel](https://vercel.com/)** - Hosting and deployment
 - **[GitHub Actions](https://github.com/features/actions)** - CI/CD automation
 
+The Handbook supports the broader Ultralytics ecosystem, including the core [Ultralytics Python package](https://pypi.org/project/ultralytics/):
+
+[![PyPI - Version](https://img.shields.io/pypi/v/ultralytics?logo=pypi&logoColor=white)](https://pypi.org/project/ultralytics/)
+[![Downloads](https://static.pepy.tech/badge/ultralytics)](https://clickpy.clickhouse.com/dashboard/ultralytics)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ultralytics?logo=python&logoColor=gold)](https://pypi.org/project/ultralytics/)
+
 ## 🛠️ Installation
 
 To build and develop the Handbook locally, install dependencies:
