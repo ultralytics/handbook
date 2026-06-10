@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
@@ -31,11 +33,17 @@ jobs:
         if: github.event_name == 'push'
         env:
           VERCEL_HANDBOOK_DEPLOY_HOOK: ${{ secrets.VERCEL_HANDBOOK_DEPLOY_HOOK }}
-          CHANGED_FILES: ${{ toJson(github.event.commits.*.added) }} ${{ toJson(github.event.commits.*.modified) }} ${{ toJson(github.event.commits.*.removed) }}
+          BEFORE_SHA: ${{ github.event.before }}
+          CURRENT_SHA: ${{ github.sha }}
         run: |
-          if ! grep -Eq 'docs/|mkdocs\.ya?ml' <<< "$CHANGED_FILES"; then
+          if [[ "$BEFORE_SHA" == "0000000000000000000000000000000000000000" ]]; then
+            BEFORE_SHA=$(git rev-list --max-parents=0 "$CURRENT_SHA")
+          fi
+          changed_files=$(git diff --name-only "$BEFORE_SHA" "$CURRENT_SHA" -- docs/ mkdocs.yml mkdocs.yaml)
+          if [[ -z "$changed_files" ]]; then
             echo "No handbook source changes."
             exit 0
           fi
+          echo "$changed_files"
 
           curl --fail --silent --show-error --retry 3 --request POST "$VERCEL_HANDBOOK_DEPLOY_HOOK"
