@@ -27,3 +27,15 @@ jobs:
           uv pip install --system -r requirements.txt mkdocs mkdocs-material
       - name: Build docs (warnings as errors)
         run: mkdocs build --strict
+      - name: Trigger Portal handbook redeploy
+        if: github.event_name == 'push'
+        env:
+          VERCEL_HANDBOOK_DEPLOY_HOOK: ${{ secrets.VERCEL_HANDBOOK_DEPLOY_HOOK }}
+          CHANGED_FILES: ${{ toJson(github.event.commits.*.added) }} ${{ toJson(github.event.commits.*.modified) }} ${{ toJson(github.event.commits.*.removed) }}
+        run: |
+          if ! grep -Eq 'docs/|mkdocs\.ya?ml' <<< "$CHANGED_FILES"; then
+            echo "No handbook source changes."
+            exit 0
+          fi
+
+          curl --fail --silent --show-error --retry 3 --request POST "$VERCEL_HANDBOOK_DEPLOY_HOOK"
