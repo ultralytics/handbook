@@ -59,7 +59,7 @@ Finance does not issue separate off-cycle payments for individual small expenses
 
     Reimbursement requests must have a business connection, be substantiated with receipts or required documentation, and include a clear business purpose. Any duplicate, excess, or incorrect reimbursement must be returned promptly.
 
-    This follows IRS accountable plan guidance for employee business expense reimbursements, including business connection, adequate accounting, and return of excess reimbursement requirements. See [IRS Publication 463](https://www.irs.gov/publications/p463/ch02.html) and [IRS Publication 15](https://www.irs.gov/publications/p15).
+    This follows IRS accountable plan guidance for employee business expense reimbursements, including business connection, adequate accounting, and return of excess reimbursement requirements. See [IRS Publication 463](https://www.irs.gov/publications/p463) and [IRS Publication 15](https://www.irs.gov/publications/p15).
 
 !!! warning "Reimbursement Thresholds"
 
