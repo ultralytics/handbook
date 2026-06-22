@@ -1,4 +1,5 @@
 ---
+title: Information Security (ISMS)
 description: Ultralytics Information Security Management System (ISMS) covering ISO 27001 alignment, SOC 2 compliance, security controls, and governance structure.
 keywords: Ultralytics ISMS, information security, ISO 27001, SOC 2, data protection, security controls, compliance, Vanta
 ---
