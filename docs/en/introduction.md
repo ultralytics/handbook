@@ -1,4 +1,5 @@
 ---
+title: Handbook Introduction
 description: Introduction to the Ultralytics Handbook covering company mission, values, workflows, and operational guidelines for team members and contributors.
 keywords: Ultralytics handbook, company introduction, AI handbook, employee guide, contributor guide, open source handbook
 ---

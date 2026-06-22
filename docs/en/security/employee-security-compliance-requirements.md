@@ -1,4 +1,5 @@
 ---
+title: Employee Security & Compliance
 description: Ultralytics employee security and compliance requirements covering background checks, mandatory training, performance reviews, and offboarding procedures.
 keywords: Ultralytics security compliance, employee security requirements, mandatory training, GDPR, CCPA, security awareness, Vanta, offboarding
 ---

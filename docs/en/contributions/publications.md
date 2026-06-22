@@ -1,4 +1,5 @@
 ---
+title: Publications Guidelines
 description: Ultralytics publications guidelines covering eligibility criteria and how to submit research papers to the official Ultralytics Publications page.
 keywords: Ultralytics publications, research papers, YOLO publications, publication guidelines, paper submission, computer vision research
 ---
