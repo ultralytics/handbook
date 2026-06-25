@@ -164,24 +164,21 @@ Our values directly support our mission to advance AI for everyone:
 
 ```mermaid
 graph TD
-    A[Mission: Advance AI for Everyone] --> B[Relentless Progress]
-    A --> C[Strive for Excellence]
-    A --> D[Actions Not Words]
-    A --> E[Act with Urgency]
-    A --> F[Open Access to All]
+    A[Mission: Advance AI for Everyone]:::start --> B[Relentless Progress]:::proc
+    A --> C[Strive for Excellence]:::proc
+    A --> D[Actions Not Words]:::proc
+    A --> E[Act with Urgency]:::proc
+    A --> F[Open Access to All]:::proc
 
-    B --> G[Pushing Boundaries]
-    C --> H[World's Best Solutions]
-    D --> I[Real Results]
-    E --> J[Democratize Before Opportunities Pass]
-    F --> K[Equal Access Through Open Source]
+    B --> G[Pushing Boundaries]:::out
+    C --> H[World's Best Solutions]:::out
+    D --> I[Real Results]:::out
+    E --> J[Democratize Before Opportunities Pass]:::out
+    F --> K[Equal Access Through Open Source]:::out
 
-    style A fill:#e1f5ff
-    style B fill:#d4edda
-    style C fill:#d4edda
-    style D fill:#d4edda
-    style E fill:#d4edda
-    style F fill:#d4edda
+    classDef start fill:#4CAF50,color:#fff
+    classDef proc fill:#2196F3,color:#fff
+    classDef out fill:#9C27B0,color:#fff
 ```
 
 | Value                     | Mission Alignment                                          |

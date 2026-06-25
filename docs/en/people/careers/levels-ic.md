@@ -19,24 +19,16 @@ Comprehensive career framework for Individual Contributors at Ultralytics, defin
 
 ```mermaid
 graph LR
-    IC1[IC1<br/>Entry<br/>Associate] --> IC2[IC2<br/>Mid 1<br/>Developing]
-    IC2 --> IC3[IC3<br/>Mid 2<br/>Proficient]
-    IC3 --> IC4[IC4<br/>Senior 1<br/>Skilled]
-    IC4 --> IC5[IC5<br/>Senior 2<br/>Advanced]
-    IC5 --> IC6[IC6<br/>Staff<br/>Expert]
-    IC6 --> IC7[IC7<br/>Senior Staff<br/>Advisor]
-    IC7 --> IC8[IC8<br/>Principal<br/>Strategist]
-    IC8 --> IC9[IC9<br/>Distinguished<br/>Thought Leader]
+    IC1[IC1<br/>Entry<br/>Associate]:::proc --> IC2[IC2<br/>Mid 1<br/>Developing]:::proc
+    IC2 --> IC3[IC3<br/>Mid 2<br/>Proficient]:::proc
+    IC3 --> IC4[IC4<br/>Senior 1<br/>Skilled]:::proc
+    IC4 --> IC5[IC5<br/>Senior 2<br/>Advanced]:::proc
+    IC5 --> IC6[IC6<br/>Staff<br/>Expert]:::proc
+    IC6 --> IC7[IC7<br/>Senior Staff<br/>Advisor]:::proc
+    IC7 --> IC8[IC8<br/>Principal<br/>Strategist]:::proc
+    IC8 --> IC9[IC9<br/>Distinguished<br/>Thought Leader]:::proc
 
-    style IC1 fill:#e1f5ff
-    style IC2 fill:#b3e5fc
-    style IC3 fill:#81d4fa
-    style IC4 fill:#4fc3f7
-    style IC5 fill:#29b6f6
-    style IC6 fill:#03a9f4
-    style IC7 fill:#039be5
-    style IC8 fill:#0288d1
-    style IC9 fill:#01579b
+    classDef proc fill:#2196F3,color:#fff
 ```
 
 ## Level Overview

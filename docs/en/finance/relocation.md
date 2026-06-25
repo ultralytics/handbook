@@ -57,15 +57,15 @@ To qualify for the Proximity Relocation Package, you must meet the following cri
 
 ```mermaid
 graph TD
-    A[Eligibility Confirmed] --> B[$10,000 One-Time Payment]
-    B --> C[Covers All Moving Expenses]
-    C --> D[Paid After Relocation Complete]
-    D --> E[New Address Confirmed]
-    E --> F[Payment in Next Payroll]
+    A[Eligibility Confirmed]:::start --> B[$10,000 One-Time Payment]:::proc
+    B --> C[Covers All Moving Expenses]:::proc
+    C --> D[Paid After Relocation Complete]:::proc
+    D --> E[New Address Confirmed]:::proc
+    E --> F[Payment in Next Payroll]:::out
 
-    style A fill:#e1f5ff
-    style B fill:#d4edda
-    style F fill:#d4edda
+    classDef start fill:#4CAF50,color:#fff
+    classDef proc fill:#2196F3,color:#fff
+    classDef out fill:#9C27B0,color:#fff
 ```
 
 ### Standard Flat Rate

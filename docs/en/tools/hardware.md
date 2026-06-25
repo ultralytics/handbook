@@ -126,25 +126,26 @@ This process applies when replacing an existing device with a new one (not for n
 
 ```mermaid
 flowchart TD
-    A[Need Replacement?] --> B{Within 2-Year Cycle?}
-    B -->|Yes| C[Automatic Approval]
-    B -->|No| D[Request Manager Approval]
-    D --> E{Approved?}
-    E -->|No| F[Continue with Current Device]
+    A[Need Replacement?]:::start --> B{Within 2-Year Cycle?}:::decide
+    B -->|Yes| C[Automatic Approval]:::proc
+    B -->|No| D[Request Manager Approval]:::proc
+    D --> E{Approved?}:::decide
+    E -->|No| F[Continue with Current Device]:::out
     E -->|Yes| C
-    C --> G[Select Eligible Device]
-    G --> H[Order from Apple]
-    H --> I[Select Trade-In Option]
-    I --> J[Provide Old Device Serial #]
-    J --> K[Receive New Device]
-    K --> L[Migrate Data]
-    L --> M[Ship Old Device to Apple]
-    M --> N[Submit for Reimbursement]
-    N --> O[Receive Net Cost Payment]
+    C --> G[Select Eligible Device]:::proc
+    G --> H[Order from Apple]:::proc
+    H --> I[Select Trade-In Option]:::proc
+    I --> J[Provide Old Device Serial #]:::proc
+    J --> K[Receive New Device]:::proc
+    K --> L[Migrate Data]:::proc
+    L --> M[Ship Old Device to Apple]:::proc
+    M --> N[Submit for Reimbursement]:::proc
+    N --> O[Receive Net Cost Payment]:::out
 
-    style A fill:#e1f5ff
-    style C fill:#d4edda
-    style O fill:#d4edda
+    classDef start fill:#4CAF50,color:#fff
+    classDef proc fill:#2196F3,color:#fff
+    classDef decide fill:#FF9800,color:#fff
+    classDef out fill:#9C27B0,color:#fff
 ```
 
 ### Replacement Process
@@ -195,16 +196,18 @@ Upon receiving your new device, migrate all data from your old device and test f
 
 ```mermaid
 graph LR
-    A[Need Mobile Device?] --> B[Write Business Justification]
-    B --> C[Submit to Manager]
-    C --> D{Approved?}
-    D -->|No| E[Use Personal Device]
-    D -->|Yes| F[Purchase Device]
-    F --> G[Submit Receipt to Finance]
-    G --> H[Receive Reimbursement]
+    A[Need Mobile Device?]:::start --> B[Write Business Justification]:::proc
+    B --> C[Submit to Manager]:::proc
+    C --> D{Approved?}:::decide
+    D -->|No| E[Use Personal Device]:::out
+    D -->|Yes| F[Purchase Device]:::proc
+    F --> G[Submit Receipt to Finance]:::proc
+    G --> H[Receive Reimbursement]:::out
 
-    style A fill:#e1f5ff
-    style H fill:#d4edda
+    classDef start fill:#4CAF50,color:#fff
+    classDef proc fill:#2196F3,color:#fff
+    classDef decide fill:#FF9800,color:#fff
+    classDef out fill:#9C27B0,color:#fff
 ```
 
 ## Device Management & Security 🔒
@@ -377,18 +380,20 @@ All hardware purchases must follow standard company reimbursement procedures:
 
 ```mermaid
 graph TD
-    A[Purchase Approved Hardware] --> B[Keep All Receipts]
-    B --> C[Submit to Finance Team]
-    C --> D[Include Business Justification]
-    D --> E[Finance Reviews]
-    E --> F{Approved?}
-    F -->|Yes| G[Reimbursement Processed]
-    F -->|No| H[Request More Info]
+    A[Purchase Approved Hardware]:::start --> B[Keep All Receipts]:::proc
+    B --> C[Submit to Finance Team]:::proc
+    C --> D[Include Business Justification]:::proc
+    D --> E[Finance Reviews]:::proc
+    E --> F{Approved?}:::decide
+    F -->|Yes| G[Reimbursement Processed]:::proc
+    F -->|No| H[Request More Info]:::proc
     H --> C
-    G --> I[Month-End Payment]
+    G --> I[Month-End Payment]:::out
 
-    style A fill:#e1f5ff
-    style I fill:#d4edda
+    classDef start fill:#4CAF50,color:#fff
+    classDef proc fill:#2196F3,color:#fff
+    classDef decide fill:#FF9800,color:#fff
+    classDef out fill:#9C27B0,color:#fff
 ```
 
 !!! tip "Reimbursement Tips"

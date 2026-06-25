@@ -66,16 +66,15 @@ keywords: Ultralytics goals, company objectives, strategic priorities, growth ta
 
 ```mermaid
 graph LR
-    A[Annual Strategy] --> B[Quarterly Planning]
-    B --> C[Sprint Execution]
-    C --> D[Monthly Check-ins]
-    D --> E[Quarterly Reviews]
-    E --> F[Annual Retrospective]
+    A[Annual Strategy]:::start --> B[Quarterly Planning]:::proc
+    B --> C[Sprint Execution]:::proc
+    C --> D[Monthly Check-ins]:::proc
+    D --> E[Quarterly Reviews]:::proc
+    E --> F[Annual Retrospective]:::proc
     F --> A
 
-    style A fill:#e1f5ff
-    style C fill:#d4edda
-    style F fill:#fff3cd
+    classDef start fill:#4CAF50,color:#fff
+    classDef proc fill:#2196F3,color:#fff
 ```
 
 | Step                     | Cadence        | Description                                                    |

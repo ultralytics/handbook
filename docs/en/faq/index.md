@@ -180,12 +180,13 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     ```mermaid
     graph LR
-        A[Get Manager Approval] --> B[Order New Device]
-        B --> C[Use Apple Trade-In]
-        C --> D[Submit for Reimbursement]
+        A[Get Manager Approval]:::start --> B[Order New Device]:::proc
+        B --> C[Use Apple Trade-In]:::proc
+        C --> D[Submit for Reimbursement]:::out
 
-        style A fill:#e1f5ff
-        style D fill:#d4edda
+        classDef start fill:#4CAF50,color:#fff
+        classDef proc fill:#2196F3,color:#fff
+        classDef out fill:#9C27B0,color:#fff
     ```
 
     Reimbursed amount = **net cost** (new device - trade-in credit)
@@ -231,16 +232,17 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     ```mermaid
     graph TD
-        A[Fork Repository] --> B[Install Package]
-        B --> C[Create Feature Branch]
-        C --> D[Follow Coding Standards]
-        D --> E[Submit PR]
-        E --> F[Sign CLA]
-        F --> G[Address Feedback]
-        G --> H[Merge!]
+        A[Fork Repository]:::start --> B[Install Package]:::proc
+        B --> C[Create Feature Branch]:::proc
+        C --> D[Follow Coding Standards]:::proc
+        D --> E[Submit PR]:::proc
+        E --> F[Sign CLA]:::proc
+        F --> G[Address Feedback]:::proc
+        G --> H[Merge!]:::out
 
-        style A fill:#e1f5ff
-        style H fill:#d4edda
+        classDef start fill:#4CAF50,color:#fff
+        classDef proc fill:#2196F3,color:#fff
+        classDef out fill:#9C27B0,color:#fff
     ```
 
     See [How to Contribute](../contributions/how-to-contribute.md) for complete guide.

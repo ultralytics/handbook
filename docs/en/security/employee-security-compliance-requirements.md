@@ -136,12 +136,13 @@ timeline
 
 ```mermaid
 graph LR
-    A[Security Updates] --> B[Email Notifications]
-    A --> C[Slack Announcements]
-    A --> D[Team Meetings]
-    A --> E[Training Updates]
+    A[Security Updates]:::start --> B[Email Notifications]:::out
+    A --> C[Slack Announcements]:::out
+    A --> D[Team Meetings]:::out
+    A --> E[Training Updates]:::out
 
-    style A fill:#e1f5ff
+    classDef start fill:#4CAF50,color:#fff
+    classDef out fill:#9C27B0,color:#fff
 ```
 
 Security regulations and threats evolve constantly. We'll keep you updated through multiple channels so you're always aware of new requirements and emerging risks.

@@ -15,26 +15,14 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ```mermaid
 flowchart LR
-    M4["M4<br/>Lead Manager<br/>80% Ops"] --> M5["M5<br/>Manager<br/>70% Ops"]
-    M5 --> M6["M6<br/>Senior Manager<br/>60% Ops"]
-    M6 --> M7["M7<br/>Head of<br/>50% Ops"]
-    M7 --> M8["M8<br/>Director<br/>40% Ops"]
-    M8 --> M9["M9<br/>VP<br/>30% Ops"]
-    M9 --> M10["M10<br/>Senior VP<br/>20% Ops"]
-    classDef m04 fill:#fff3e0,stroke:#f57c00,color:#000;
-    classDef m05 fill:#ffe0b2,stroke:#f57c00,color:#000;
-    classDef m06 fill:#ffcc80,stroke:#f57c00,color:#000;
-    classDef m07 fill:#ffb74d,stroke:#f57c00,color:#000;
-    classDef m08 fill:#ffa726,stroke:#f57c00,color:#000;
-    classDef m09 fill:#ff9800,stroke:#f57c00,color:#000;
-    classDef m10 fill:#f57c00,stroke:#e65100,color:#000;
-    class M4 m04;
-    class M5 m05;
-    class M6 m06;
-    class M7 m07;
-    class M8 m08;
-    class M9 m09;
-    class M10 m10;
+    M4["M4<br/>Lead Manager<br/>80% Ops"]:::decide --> M5["M5<br/>Manager<br/>70% Ops"]:::decide
+    M5 --> M6["M6<br/>Senior Manager<br/>60% Ops"]:::decide
+    M6 --> M7["M7<br/>Head of<br/>50% Ops"]:::decide
+    M7 --> M8["M8<br/>Director<br/>40% Ops"]:::decide
+    M8 --> M9["M9<br/>VP<br/>30% Ops"]:::decide
+    M9 --> M10["M10<br/>Senior VP<br/>20% Ops"]:::decide
+
+    classDef decide fill:#FF9800,color:#fff
 ```
 
 ## Level Overview

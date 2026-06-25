@@ -58,13 +58,15 @@ keywords: Ultralytics PTO, paid time off, 25 days vacation, vacation policy, sic
 
 ```mermaid
 graph LR
-    A[25 Days Annual] --> B{Year End}
-    B -->|Use It| C[Refresh to 25]
-    B -->|Save It| D[Rollover Up to 10 Days]
-    D --> E[Max Balance: 35 Days]
+    A[25 Days Annual]:::start --> B{Year End}:::decide
+    B -->|Use It| C[Refresh to 25]:::out
+    B -->|Save It| D[Rollover Up to 10 Days]:::proc
+    D --> E[Max Balance: 35 Days]:::out
 
-    style A fill:#e1f5ff
-    style E fill:#fff3cd
+    classDef start fill:#4CAF50,color:#fff
+    classDef proc fill:#2196F3,color:#fff
+    classDef decide fill:#FF9800,color:#fff
+    classDef out fill:#9C27B0,color:#fff
 ```
 
 | Limit Type                  | Amount                                |
@@ -175,17 +177,19 @@ Employees earn additional PTO days based on length of service:
 
 ```mermaid
 flowchart TD
-    A[Submit in Rippling] --> B[Manager Reviews]
-    B --> C{Approved?}
-    C -->|Yes| D[Notify Team]
-    D --> E[Update Calendar]
-    E --> F[Update Slack Status]
-    F --> G[Set Email Auto-Responder]
-    C -->|No| H[Discuss with Manager]
+    A[Submit in Rippling]:::start --> B[Manager Reviews]:::proc
+    B --> C{Approved?}:::decide
+    C -->|Yes| D[Notify Team]:::proc
+    D --> E[Update Calendar]:::proc
+    E --> F[Update Slack Status]:::proc
+    F --> G[Set Email Auto-Responder]:::out
+    C -->|No| H[Discuss with Manager]:::proc
     H --> A
 
-    style A fill:#e1f5ff
-    style G fill:#d4edda
+    classDef start fill:#4CAF50,color:#fff
+    classDef proc fill:#2196F3,color:#fff
+    classDef decide fill:#FF9800,color:#fff
+    classDef out fill:#9C27B0,color:#fff
 ```
 
 ### Request Process
