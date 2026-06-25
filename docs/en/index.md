@@ -303,16 +303,17 @@ This handbook is maintained as an open resource. If you find errors, have sugges
 
 ```mermaid
 graph LR
-    A[Find Issue/Improvement] --> B[Visit GitHub Repository]
-    B --> C[Fork & Create Branch]
-    C --> D[Make Changes]
-    D --> E[Submit Pull Request]
-    E --> F[Follow Contribution Guidelines]
-    F --> G[Changes Reviewed]
-    G --> H[Merged & Deployed]
+    A[Find Issue/Improvement]:::start --> B[Visit GitHub Repository]:::proc
+    B --> C[Fork & Create Branch]:::proc
+    C --> D[Make Changes]:::proc
+    D --> E[Submit Pull Request]:::proc
+    E --> F[Follow Contribution Guidelines]:::proc
+    F --> G[Changes Reviewed]:::proc
+    G --> H[Merged & Deployed]:::out
 
-    style A fill:#e1f5ff
-    style H fill:#d4edda
+    classDef start fill:#4CAF50,color:#fff
+    classDef proc fill:#2196F3,color:#fff
+    classDef out fill:#9C27B0,color:#fff
 ```
 
 1. Visit our [GitHub repository](https://github.com/ultralytics/handbook)

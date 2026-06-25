@@ -20,29 +20,29 @@ Ultralytics' career framework provides clear expectations for each level and gui
 
 ```mermaid
 flowchart TB
-    IC_TITLE["🔵 Individual Contributor Track"]
-    MGMT_TITLE["🟠 Management Track"]
+    IC_TITLE["🔵 Individual Contributor Track"]:::start
+    MGMT_TITLE["🟠 Management Track"]:::start
 
     subgraph IC [" "]
         direction LR
-        IC1["IC1<br/>Entry"] --> IC2["IC2<br/>Mid 1"]
-        IC2 --> IC3["IC3<br/>Mid 2"]
-        IC3 --> IC4["IC4<br/>Senior 1"]
-        IC4 --> IC5["IC5<br/>Senior 2"]
-        IC5 --> IC6["IC6<br/>Staff"]
-        IC6 --> IC7["IC7<br/>Senior Staff"]
-        IC7 --> IC8["IC8<br/>Principal"]
-        IC8 --> IC9["IC9<br/>Distinguished"]
+        IC1["IC1<br/>Entry"]:::proc --> IC2["IC2<br/>Mid 1"]:::proc
+        IC2 --> IC3["IC3<br/>Mid 2"]:::proc
+        IC3 --> IC4["IC4<br/>Senior 1"]:::proc
+        IC4 --> IC5["IC5<br/>Senior 2"]:::proc
+        IC5 --> IC6["IC6<br/>Staff"]:::proc
+        IC6 --> IC7["IC7<br/>Senior Staff"]:::proc
+        IC7 --> IC8["IC8<br/>Principal"]:::proc
+        IC8 --> IC9["IC9<br/>Distinguished"]:::proc
     end
 
     subgraph MGMT [" "]
         direction LR
-        M4["M4<br/>Lead Manager"] --> M5["M5<br/>Manager"]
-        M5 --> M6["M6<br/>Senior Manager"]
-        M6 --> M7["M7<br/>Head of"]
-        M7 --> M8["M8<br/>Director"]
-        M8 --> M9["M9<br/>VP"]
-        M9 --> M10["M10<br/>Senior VP"]
+        M4["M4<br/>Lead Manager"]:::decide --> M5["M5<br/>Manager"]:::decide
+        M5 --> M6["M6<br/>Senior Manager"]:::decide
+        M6 --> M7["M7<br/>Head of"]:::decide
+        M7 --> M8["M8<br/>Director"]:::decide
+        M8 --> M9["M9<br/>VP"]:::decide
+        M9 --> M10["M10<br/>Senior VP"]:::decide
     end
 
     IC_TITLE -.-> IC
@@ -55,38 +55,9 @@ flowchart TB
     IC6 <-.->|Switch| M6
     IC7 <-.->|Switch| M6
 
-    classDef ic1 fill:#e1f5ff,stroke:#01579b,color:#000;
-    classDef ic2 fill:#b3e5fc,stroke:#0288d1,color:#000;
-    classDef ic3 fill:#81d4fa,stroke:#0288d1,color:#000;
-    classDef ic4 fill:#4fc3f7,stroke:#0288d1,color:#000;
-    classDef ic5 fill:#29b6f6,stroke:#0288d1,color:#000;
-    classDef ic6 fill:#03a9f4,stroke:#0288d1,color:#000;
-    classDef ic7 fill:#039be5,stroke:#01579b,color:#000;
-    classDef ic8 fill:#0288d1,stroke:#01579b,color:#000;
-    classDef ic9 fill:#01579b,stroke:#013b70,color:#fff;
-    classDef m04 fill:#fff3e0,stroke:#ff9800,color:#000;
-    classDef m05 fill:#ffe0b2,stroke:#ff9800,color:#000;
-    classDef m06 fill:#ffcc80,stroke:#ff9800,color:#000;
-    classDef m07 fill:#ffb74d,stroke:#ff9800,color:#000;
-    classDef m08 fill:#ffa726,stroke:#ff9800,color:#000;
-    classDef m09 fill:#ff9800,stroke:#ff6f00,color:#000;
-    classDef m10 fill:#f57c00,stroke:#e65100,color:#000;
-    class IC1 ic1;
-    class IC2 ic2;
-    class IC3 ic3;
-    class IC4 ic4;
-    class IC5 ic5;
-    class IC6 ic6;
-    class IC7 ic7;
-    class IC8 ic8;
-    class IC9 ic9;
-    class M4 m04;
-    class M5 m05;
-    class M6 m06;
-    class M7 m07;
-    class M8 m08;
-    class M9 m09;
-    class M10 m10;
+    classDef start fill:#4CAF50,color:#fff
+    classDef proc fill:#2196F3,color:#fff
+    classDef decide fill:#FF9800,color:#fff
 ```
 
 ### Track Comparison

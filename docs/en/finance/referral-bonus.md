@@ -62,23 +62,23 @@ keywords: Ultralytics, Employee Referral, Referral Bonus, Hiring, Recruitment, T
 
 ```mermaid
 graph TD
-    A[Submit Referral to HR] --> B[HR Confirms Eligibility]
-    B --> C{Candidate in Pipeline?}
-    C -->|Yes| D[Referral Not Eligible]
-    C -->|No| E[Process Application]
-    E --> F{Candidate Hired?}
-    F -->|No| G[No Bonus]
-    F -->|Yes| H[Track 3-Month Period]
-    H --> I{Completes 3 Months?}
-    I -->|No| J[No Bonus]
-    I -->|Yes| K[Process $5,000 Bonus]
-    K --> L[Bonus Paid in Next Payroll]
+    A[Submit Referral to HR]:::start --> B[HR Confirms Eligibility]:::proc
+    B --> C{Candidate in Pipeline?}:::decide
+    C -->|Yes| D[Referral Not Eligible]:::error
+    C -->|No| E[Process Application]:::proc
+    E --> F{Candidate Hired?}:::decide
+    F -->|No| G[No Bonus]:::error
+    F -->|Yes| H[Track 3-Month Period]:::proc
+    H --> I{Completes 3 Months?}:::decide
+    I -->|No| J[No Bonus]:::error
+    I -->|Yes| K[Process $5,000 Bonus]:::proc
+    K --> L[Bonus Paid in Next Payroll]:::out
 
-    style A fill:#e1f5ff
-    style K fill:#d4edda
-    style D fill:#f8d7da
-    style G fill:#f8d7da
-    style J fill:#f8d7da
+    classDef start fill:#4CAF50,color:#fff
+    classDef proc fill:#2196F3,color:#fff
+    classDef decide fill:#FF9800,color:#fff
+    classDef out fill:#9C27B0,color:#fff
+    classDef error fill:#F44336,color:#fff
 ```
 
 ### Step-by-Step

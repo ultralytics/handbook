@@ -23,19 +23,20 @@ This policy applies to all employees of [Ultralytics](https://www.ultralytics.co
 
 ```mermaid
 graph TD
-    A[Travel Need] --> B{Cost Estimate}
-    B -->|Under $3,000| C[Pay Personally]
-    B -->|$3,000+| D[Request Upfront Approval]
-    C --> E[Travel]
-    D --> F[Receive Approval]
-    F --> G[Receive Payment]
+    A[Travel Need]:::start --> B{Cost Estimate}:::decide
+    B -->|Under $3,000| C[Pay Personally]:::proc
+    B -->|$3,000+| D[Request Upfront Approval]:::proc
+    C --> E[Travel]:::proc
+    D --> F[Receive Approval]:::proc
+    F --> G[Receive Payment]:::proc
     G --> E
-    E --> H[Submit Receipts]
-    H --> I[Reimbursement/Reconciliation]
+    E --> H[Submit Receipts]:::proc
+    H --> I[Reimbursement/Reconciliation]:::out
 
-    style B fill:#e1f5ff
-    style D fill:#fff3cd
-    style C fill:#d4edda
+    classDef start fill:#4CAF50,color:#fff
+    classDef proc fill:#2196F3,color:#fff
+    classDef decide fill:#FF9800,color:#fff
+    classDef out fill:#9C27B0,color:#fff
 ```
 
 === "Under $3,000"
