@@ -120,7 +120,7 @@ Use the `#compliance` channel for:
 ### Security & Training Tools
 
 - **[Vanta](https://app.vanta.com/c/ultralytics/employee/onboarding)**: Delivers mandatory training programs and employee-applicable policies
-- **[Rippling](https://app.rippling.com/enroll-device)**: Manages and secures all company devices
+- **Rippling MDM**: Manages and secures all company devices
 
 ## Compliance Calendar & Audits
 
