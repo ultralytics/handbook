@@ -229,7 +229,7 @@ graph LR
 
 **Installation Required:**
 
-- Install from **[app.rippling.com/enroll-device](https://app.rippling.com/enroll-device)**
+- Install from the device enrollment page in your Rippling account
 - Must be installed **before** accessing any company data
 - Failure to install blocks access to company resources
 

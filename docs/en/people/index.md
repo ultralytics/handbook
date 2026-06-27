@@ -207,7 +207,7 @@ Also review our [Social Media Policy](../contributions/social-media-policy.md) f
 
 ### Key Resources
 
-- **[Rippling](https://app.rippling.com/)**: HR portal for PTO requests, profile updates, and equipment
+- **Rippling**: HR portal for PTO requests, profile updates, and equipment
 - **[Vanta](https://app.vanta.com/)**: Compliance training and security policies
 - **[Ultralytics Portal](https://portal.ultralytics.com/signin)**: Your gateway to onboarding, real-time dashboards, powerful AI agent controls, and essential ops tools.
 - **[FAQ](../faq/index.md)**: Common questions and answers

@@ -199,7 +199,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
         **Yes**, Rippling MDM is **mandatory** on all devices used for work before accessing company data.
 
-    Install from: [app.rippling.com/enroll-device](https://app.rippling.com/enroll-device)
+    Install from the device enrollment page in your Rippling account.
 
 ??? question "What if my equipment breaks or gets lost?"
 
