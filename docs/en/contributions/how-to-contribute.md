@@ -244,7 +244,7 @@ Feel free to reach out to team members for guidance:
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)                   |
 | Tigran Hakobyan         | [t-hakobyan](https://github.com/t-hakobyan)                           |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                               |
-| Zuzana Kontrikova       | [zkontri](https://github.com/zkontri)                                 |
+| Darin Kabashi           | [darin-k](https://github.com/darin-k))                                |
 
 ## Get Support 💬
 
