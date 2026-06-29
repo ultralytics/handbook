@@ -206,7 +206,7 @@ Feel free to reach out to team members for guidance:
 | Anastasiia Khrapal      | [nastijakh](https://github.com/nastijakh)                             |
 | Andrei Banica           | [banica-ultralytics](https://github.com/banica-ultralytics)           |
 | Antonina Poludena       | [Antonina2111](https://github.com/Antonina2111)                       |
-| Craig Johnston          | [craigjohnston1](https://github.com/craigjohnston1)                   |            
+| Craig Johnston          | [craigjohnston1](https://github.com/craigjohnston1)                   |
 | Darin Kabashi           | [darin-k](https://github.com/darin-k))                                |
 | Esat Kalfaoglu          | [artest08](https://github.com/artest08)                               |
 | Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                                 |
@@ -215,7 +215,7 @@ Feel free to reach out to team members for guidance:
 | Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)                       |
 | Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)                       |
 | Jake Qian               | [fengqianjake](https://github.com/fengqianjake)                       |
-| Jianing Qi （Jalyn）     | [jianing-Jalyn](https://github.com/jianing-Jalyn)                     |
+| Jianing Qi （Jalyn）    | [jianing-Jalyn](https://github.com/jianing-Jalyn)                     |
 | Jin Xu                  | [laodouya](https://github.com/laodouya)                               |
 | Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                           |
 | Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                           |
