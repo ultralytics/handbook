@@ -206,8 +206,8 @@ Feel free to reach out to team members for guidance:
 | Anastasiia Khrapal      | [nastijakh](https://github.com/nastijakh)                             |
 | Andrei Banica           | [banica-ultralytics](https://github.com/banica-ultralytics)           |
 | Antonina Poludena       | [Antonina2111](https://github.com/Antonina2111)                       |
-| Craig Johnston          | [craigjohnston1](https://github.com/craigjohnston1)                   |
-| Craig Maxwell           | [craig-ships-it](https://github.com/craig-ships-it)                   |
+| Craig Johnston          | [craigjohnston1](https://github.com/craigjohnston1)                   |            
+| Darin Kabashi           | [darin-k](https://github.com/darin-k))                                |
 | Esat Kalfaoglu          | [artest08](https://github.com/artest08)                               |
 | Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                                 |
 | Francesco Mattioli      | [ambitious-octopus](https://github.com/ambitious-octopus)             |
@@ -215,12 +215,11 @@ Feel free to reach out to team members for guidance:
 | Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)                       |
 | Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)                       |
 | Jake Qian               | [fengqianjake](https://github.com/fengqianjake)                       |
-| Jianing Qi （Jalyn）    | [jianing-Jalyn](https://github.com/jianing-Jalyn)                     |
+| Jianing Qi （Jalyn）     | [jianing-Jalyn](https://github.com/jianing-Jalyn)                     |
 | Jin Xu                  | [laodouya](https://github.com/laodouya)                               |
 | Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                           |
 | Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                           |
 | Kasim Acikbas           | [kayselmecnun](https://github.com/kayselmecnun)                       |
-| Kirill Verbitsky        | [Kverbitski](https://github.com/Kverbitski)                           |
 | Kristian Sommer         | [sokrisba](https://github.com/sokrisba)                               |
 | Lakshantha Dissanayake  | [lakshanthad](https://github.com/lakshanthad)                         |
 | Leo Samsinger           | [lsamsinger](https://github.com/lsamsinger)                           |
