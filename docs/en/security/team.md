@@ -95,7 +95,7 @@ Use the `#compliance` channel for:
 
 | Document                   | Status                    |
 | -------------------------- | ------------------------- |
-| SOC 2 Report               | In progress Q2 2026       |
+| SOC 2 Report               | Attested June 2026        |
 | ISO 27001 Certificate      | Certified June 2026       |
 | Statement of Applicability | Available in Trust Center |
 | Platform Penetration Test  | Completed April 2026      |
