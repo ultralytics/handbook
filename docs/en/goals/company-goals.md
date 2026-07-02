@@ -56,10 +56,10 @@ keywords: Ultralytics goals, company objectives, strategic priorities, growth ta
 
     | Goal | Target | Status |
     | ---- | ------ | ------ |
-    | SOC 2 Type I certification | Q1 2026 | In progress |
-    | ISO 27001:2022 certification | Q1 2026 | In progress |
+    | SOC 2 Type I attestation | Q1 2026 | Completed |
+    | ISO 27001:2022 certification | Q1 2026 | Completed |
     | GDPR, CCPA & global privacy compliance | Ongoing | Active |
-    | Critical security incidents | Zero | Target |
+    | Critical security incidents | Zero | On Target |
     | Annual security audits & vulnerability assessments | Annually | Scheduled |
 
 ## Goal Setting Process
