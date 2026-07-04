@@ -33,13 +33,13 @@ After opening a PR:
 ## Commands
 
 ```bash
-uv pip install -r requirements.txt mkdocs mkdocs-material  # install deps as CI does (never bare pip install)
-zensical serve                                             # local dev server with live reload at http://127.0.0.1:8000
-zensical build                                             # build static site into site/ (git-ignored)
-mkdocs build --strict                                      # the CI check (ci.yml): warnings are errors
-npm run build                                              # Vercel production build: docs/build_docs.js -> docs/build_docs.py
-ruff format . && ruff check --fix .                        # Python format/lint (line-length 120 from pyproject.toml)
-codespell                                                  # spelling (ignore-list in pyproject.toml [tool.codespell])
+uv pip install -r requirements.txt mkdocs mkdocs-material # install deps as CI does (never bare pip install)
+zensical serve                                            # local dev server with live reload at http://127.0.0.1:8000
+zensical build                                            # build static site into site/ (git-ignored)
+mkdocs build --strict                                     # the CI check (ci.yml): warnings are errors
+npm run build                                             # Vercel production build: docs/build_docs.js -> docs/build_docs.py
+ruff format . && ruff check --fix .                       # Python format/lint (line-length 120 from pyproject.toml)
+codespell                                                 # spelling (ignore-list in pyproject.toml [tool.codespell])
 ```
 
 - CI (`ci.yml`) runs a single `build-docs` job on ubuntu-latest with Python 3.13 — no matrix; `pyproject.toml` declares `requires-python = ">=3.8"`.
