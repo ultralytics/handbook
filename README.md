@@ -104,12 +104,16 @@ handbook/
 │   │   ├── faq/                     # Common questions
 │   │   ├── legal/                   # Legal & compliance
 │   │   └── security/                # Security policies
-│   └── overrides/                   # Theme customizations
+│   ├── overrides/                   # Theme customizations
+│   ├── build_docs.js                # Vercel build entry point
+│   └── build_docs.py                # Production build & post-processing
 ├── .github/
 │   └── workflows/                   # CI/CD automation
-├── mkdocs.yml                       # MkDocs configuration
+├── mkdocs.yml                       # Zensical configuration (MkDocs-compatible)
 ├── pyproject.toml                   # Python project config
 ├── requirements.txt                 # Python dependencies
+├── package.json                     # npm build script for Vercel
+├── vercel.json                      # Vercel deployment config
 └── README.md                        # This file
 ```
 
