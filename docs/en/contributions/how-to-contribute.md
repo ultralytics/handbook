@@ -219,6 +219,7 @@ Feel free to reach out to team members for guidance:
 | Jin Xu                  | [laodouya](https://github.com/laodouya)                               |
 | Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                           |
 | Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                           |
+| Joey Cherisea           | [Cherisea](https://github.com/Cherisea)                               |
 | Kasim Acikbas           | [kayselmecnun](https://github.com/kayselmecnun)                       |
 | Kristian Sommer         | [sokrisba](https://github.com/sokrisba)                               |
 | Lakshantha Dissanayake  | [lakshanthad](https://github.com/lakshanthad)                         |
