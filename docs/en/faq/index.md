@@ -297,10 +297,10 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     2. Wait for manager approval
     3. Update team calendar and Slack status
 
-    !!! warning "Notice Guidelines"
+    !!! warning "Notice Requirements"
 
         - **1-4 vacation days**: 1 week
-        - **5+ vacation days**: Ideally at least 1 month
+        - **5+ vacation days**: At least 1 month
         - **Contractors**: 30-day waiting period
 
 ??? question "What's the relocation policy?"
