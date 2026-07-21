@@ -297,11 +297,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     2. Wait for manager approval
     3. Update team calendar and Slack status
 
-    !!! warning "Notice Requirements"
-
-        - **Vacation**: 2 weeks minimum
-        - **Short breaks**: 1 week minimum
-        - **Contractors**: 30-day waiting period
+    See the [PTO Policy](../people/pto-policy.md) for mandatory notice periods and counting rules.
 
 ??? question "What's the relocation policy?"
 
