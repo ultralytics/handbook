@@ -112,7 +112,7 @@ Employees earn additional PTO days based on length of service:
 
     **For planned time off**
 
-    - :material-calendar-clock: Submit requests **1 week in advance for shorter leave** (1-4 days), and **1 month in advance for longer leave** (5+ days)
+    - :material-calendar-clock: Submit requests **1 week in advance for shorter leave** (1-4 days), and **ideally 1 month in advance for longer leave** (5+ days)
     - :material-account-group: Coordinate with your team for coverage
     - :material-calendar-check: Update calendar and Slack status
     - :material-timer: Vacation available after **30 days of employment**
@@ -121,7 +121,7 @@ Employees earn additional PTO days based on length of service:
 
     !!! warning "Longer Trips"
 
-        Provide **1 month notice** for vacations exceeding 5+ days
+        Provide **ideally 1 month notice** for vacations lasting **5 days or more**
 
 === "Sick Leave"
 
@@ -203,7 +203,7 @@ flowchart TD
 | Leave Type         | Notice Required          | Example                                             |
 | ------------------ | ------------------------ | --------------------------------------------------- |
 | **1-4 days**       | 1 week                   | Submit by Monday for a request the following Monday |
-| **5+ days**        | Ideally at least 1 month | Submit by early July for an Ausut 1-14 trip         |
+| **5+ days**        | Ideally at least 1 month | Submit by early July for an August 1-14 trip        |
 | **Sick leave**     | ASAP                     | Same-day notification                               |
 | **Birthday leave** | 1 week                   | Casual team notification                            |
 
