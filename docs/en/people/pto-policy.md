@@ -112,7 +112,7 @@ Employees earn additional PTO days based on length of service:
 
     **For planned time off**
 
-    - :material-calendar-clock: Submit requests **1 week in advance for shorter leave** (1-4 days), and **30 calendar days in advance for longer leave** (5+ days)
+    - :material-calendar-clock: Submit requests **1 week in advance for shorter leave** (1-4 days), and **at least 1 month in advance for longer leave** (5+ days)
     - :material-account-group: Coordinate with your team for coverage
     - :material-calendar-check: Update calendar and Slack status
     - :material-timer: Vacation available after **30 days of employment**
@@ -199,19 +199,19 @@ flowchart TD
 | Leave Type                        | Notice Required  | Example                                             |
 | --------------------------------- | ---------------- | --------------------------------------------------- |
 | **1-4 planned flexible PTO days** | 1 week           | Submit by Monday for a request the following Monday |
-| **5+ planned flexible PTO days**  | 30 calendar days | Submit by July 2 for an August 1-14 trip            |
+| **5+ planned flexible PTO days**  | At least 1 month | Submit by early July for an August 1-14 trip        |
 | **Sick leave**                    | ASAP             | Same-day notification                               |
 | **Birthday leave**                | 1 week           | Submit in Rippling 1 week before                    |
 
-Planned flexible PTO length is the total requested workdays in one continuous absence. Requests are one absence when no scheduled workday falls between them. Modified or extended requests are reevaluated using the revised total and original first day of leave. Birthday leave is evaluated separately. One week means 7 calendar days, measured from the first day of leave.
+Count the total workdays in the planned flexible PTO request. Birthday leave is evaluated separately.
 
 !!! warning "Approval at manager's discretion"
 
-    Planned flexible PTO and birthday leave requests that do not meet the minimum notice requirements will be denied. Compliant requests remain subject to manager approval based on business continuity.
+    Requests must meet the minimum notice requirements. Managers review each request at their discretion, balancing employee needs with business continuity.
 
 !!! info "Take planned leave only once approved"
 
-    Employees request time off in our HRIS (Rippling). For planned flexible PTO and birthday leave, the manager will respond within 3 business days. If the deadline passes without a response, the employee must escalate to the HR team in `#hr`. HR may approve or deny the request within 2 business days or by the business day before leave begins, whichever is earlier. Planned flexible PTO and birthday leave can only be taken once approved in Rippling.
+    Employees request time off in our HRIS (Rippling). Managers will respond within 3-5 business days. If a response is time sensitive, follow up with your manager or the HR team in `#hr`. Planned flexible PTO and birthday leave can only be taken once approved in Rippling.
 
 ## Coordination and Coverage 🤝
 
