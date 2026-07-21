@@ -200,12 +200,12 @@ flowchart TD
 
 ### Minimum Notice Requirements
 
-| Leave Type         | Notice Required          | Example                                             |
-| ------------------ | ------------------------ | --------------------------------------------------- |
-| **1-4 days**       | 1 week                   | Submit by Monday for a request the following Monday |
-| **5+ days**        | At least 1 month         | Submit by early July for an August 1-14 trip        |
-| **Sick leave**     | ASAP                     | Same-day notification                               |
-| **Birthday leave** | 1 week                   | Casual team notification                            |
+| Leave Type         | Notice Required  | Example                                             |
+| ------------------ | ---------------- | --------------------------------------------------- |
+| **1-4 days**       | 1 week           | Submit by Monday for a request the following Monday |
+| **5+ days**        | At least 1 month | Submit by early July for an August 1-14 trip        |
+| **Sick leave**     | ASAP             | Same-day notification                               |
+| **Birthday leave** | 1 week           | Casual team notification                            |
 
 !!! warning "Approval at manager's discretion"
 
