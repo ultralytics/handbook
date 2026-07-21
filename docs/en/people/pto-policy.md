@@ -196,12 +196,12 @@ flowchart TD
 
 ### Minimum Notice Requirements
 
-| Leave Type         | Notice Required  | Example                                             |
-| ------------------ | ---------------- | --------------------------------------------------- |
+| Leave Type                 | Notice Required  | Example                                             |
+| -------------------------- | ---------------- | --------------------------------------------------- |
 | **1-4 planned leave days** | 1 week           | Submit by Monday for a request the following Monday |
 | **5+ planned leave days**  | 30 calendar days | Submit by July 2 for an August 1-14 trip            |
-| **Sick leave**     | ASAP             | Same-day notification                               |
-| **Birthday leave** | 1 week           | Submit in Rippling 1 week before                    |
+| **Sick leave**             | ASAP             | Same-day notification                               |
+| **Birthday leave**         | 1 week           | Submit in Rippling 1 week before                    |
 
 Planned flexible PTO length is the total number of requested workdays in one continuous absence, including adjacent requests. Birthday leave is evaluated separately. One week means 7 calendar days, measured from the first day of leave.
 
