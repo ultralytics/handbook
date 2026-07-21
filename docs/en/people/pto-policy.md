@@ -207,7 +207,7 @@ flowchart TD
 | **Sick leave**     | ASAP             | Same-day notification                               |
 | **Birthday leave** | 1 week           | Submit in Rippling 1 week before                    |
 
-Vacation length is the total number of requested workdays in one continuous absence, including adjacent requests. Notice is measured from the first day of leave.
+Vacation length is the total number of requested workdays in one continuous absence, including adjacent requests. One week means 7 calendar days, measured from the first day of leave.
 
 !!! warning "Approval at manager's discretion"
 
