@@ -200,16 +200,16 @@ flowchart TD
 
 ### Minimum Notice Requirements
 
-| Leave Type           | Notice Required | Example                          |
-| -------------------- | --------------- | -------------------------------- |
-| **1-4 days**         | 1 week          | Submit by Monday for a request the following Monday  |
-| **5+ days**     | Ideally at least 1 month          | Submit by early July for an Ausut 1-14 trip |
-| **Sick leave**       | ASAP            | Same-day notification            |
-| **Birthday leave**   | 1 week          | Casual team notification         |
+| Leave Type         | Notice Required          | Example                                             |
+| ------------------ | ------------------------ | --------------------------------------------------- |
+| **1-4 days**       | 1 week                   | Submit by Monday for a request the following Monday |
+| **5+ days**        | Ideally at least 1 month | Submit by early July for an Ausut 1-14 trip         |
+| **Sick leave**     | ASAP                     | Same-day notification                               |
+| **Birthday leave** | 1 week                   | Casual team notification                            |
 
 !!! warning "Approval at manager's discretion"
 
-    While we always try to accommodate where possible, we also need to balance business continuity. The more notice, the better.   
+    While we always try to accommodate where possible, we also need to balance business continuity. The more notice, the better.
 
 !!! info "Take PTO only once approved"
 
