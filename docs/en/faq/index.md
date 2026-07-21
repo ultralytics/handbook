@@ -299,8 +299,8 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     !!! warning "Notice Requirements"
 
-        - **Vacation**: 2 weeks minimum
-        - **Short breaks**: 1 week minimum
+        - **1-4 vacation days**: 1 week
+        - **5+ vacation days**: Ideally at least 1 month
         - **Contractors**: 30-day waiting period
 
 ??? question "What's the relocation policy?"

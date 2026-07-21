@@ -198,7 +198,7 @@ flowchart TD
 2. **Manager approval** - Your direct manager approves in Rippling
 3. **Update team** - Notify colleagues and update calendar/Slack
 
-### Minimum Notice Requirements
+### Notice Guidelines
 
 | Leave Type         | Notice Required          | Example                                             |
 | ------------------ | ------------------------ | --------------------------------------------------- |
