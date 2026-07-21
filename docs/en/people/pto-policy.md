@@ -112,7 +112,7 @@ Employees earn additional PTO days based on length of service:
 
     **For planned time off**
 
-    - :material-calendar-clock: Submit requests **1 week in advance for shorter leave** (1-4 days), and **1 month in advance for longer leave** (5+ days)
+    - :material-calendar-clock: Submit requests **1 week in advance for shorter leave** (1-4 days), and **30 calendar days in advance for longer leave** (5+ days)
     - :material-account-group: Coordinate with your team for coverage
     - :material-calendar-check: Update calendar and Slack status
     - :material-timer: Vacation available after **30 days of employment**
@@ -121,7 +121,7 @@ Employees earn additional PTO days based on length of service:
 
     !!! warning "Longer Trips"
 
-        Provide **1 month notice** for vacations lasting **5 days or more**
+        Provide **30 calendar days' notice** for vacations lasting **5 days or more**
 
 === "Sick Leave"
 
@@ -203,11 +203,11 @@ flowchart TD
 | Leave Type         | Notice Required  | Example                                             |
 | ------------------ | ---------------- | --------------------------------------------------- |
 | **1-4 days**       | 1 week           | Submit by Monday for a request the following Monday |
-| **5+ days**        | At least 1 month | Submit by early July for an August 1-14 trip        |
+| **5+ days**        | 30 calendar days | Submit by July 2 for an August 1-14 trip            |
 | **Sick leave**     | ASAP             | Same-day notification                               |
 | **Birthday leave** | 1 week           | Submit in Rippling 1 week before                    |
 
-Vacation length is the number of requested workdays. Notice periods are calendar periods measured from the first day of leave.
+Vacation length is the total number of requested workdays in one continuous absence, including adjacent requests. Notice is measured from the first day of leave.
 
 !!! warning "Approval at manager's discretion"
 
@@ -215,7 +215,7 @@ Vacation length is the number of requested workdays. Notice periods are calendar
 
 !!! info "Take PTO only once approved"
 
-    Employees request time off in our HRIS (Rippling). The manager will respond within 3-5 business days. It is the employee's responsibility to follow up with the manager if the response is time sensitive. Paid time off can only be taken once it has been approved by the manager in our HRIS (Rippling).
+    Employees request time off in our HRIS (Rippling). The manager will respond within 3-5 business days and no later than the business day before leave begins. It is the employee's responsibility to follow up with the manager if the response is time sensitive. Paid time off can only be taken once it has been approved by the manager in our HRIS (Rippling).
 
 ## Coordination and Coverage 🤝
 

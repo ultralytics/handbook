@@ -300,7 +300,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     !!! warning "Notice Requirements"
 
         - **1-4 vacation days**: 1 week
-        - **5+ vacation days**: At least 1 month
+        - **5+ vacation days**: 30 calendar days
         - **Contractors**: 30-day waiting period
 
 ??? question "What's the relocation policy?"
