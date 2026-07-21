@@ -297,7 +297,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     2. Wait for manager approval
     3. Update team calendar and Slack status
 
-    !!! warning "Notice Requirements"
+    !!! warning "Notice Guidelines"
 
         - **1-4 vacation days**: 1 week
         - **5+ vacation days**: Ideally at least 1 month

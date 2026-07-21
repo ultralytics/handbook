@@ -200,7 +200,7 @@ flowchart TD
 
 ### Notice Guidelines
 
-| Leave Type         | Notice Required          | Example                                             |
+| Leave Type         | Notice                   | Example                                             |
 | ------------------ | ------------------------ | --------------------------------------------------- |
 | **1-4 days**       | 1 week                   | Submit by Monday for a request the following Monday |
 | **5+ days**        | Ideally at least 1 month | Submit by early July for an August 1-14 trip        |
