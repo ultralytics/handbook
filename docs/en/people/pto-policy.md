@@ -198,12 +198,12 @@ flowchart TD
 
 | Leave Type                 | Notice Required  | Example                                             |
 | -------------------------- | ---------------- | --------------------------------------------------- |
-| **1-4 planned leave days** | 1 week           | Submit by Monday for a request the following Monday |
-| **5+ planned leave days**  | 30 calendar days | Submit by July 2 for an August 1-14 trip            |
+| **1-4 planned flexible PTO days** | 1 week           | Submit by Monday for a request the following Monday |
+| **5+ planned flexible PTO days**  | 30 calendar days | Submit by July 2 for an August 1-14 trip            |
 | **Sick leave**             | ASAP             | Same-day notification                               |
 | **Birthday leave**         | 1 week           | Submit in Rippling 1 week before                    |
 
-Planned flexible PTO length is the total number of requested workdays in one continuous absence, including adjacent requests. Birthday leave is evaluated separately. One week means 7 calendar days, measured from the first day of leave.
+Planned flexible PTO length is the total requested workdays in one continuous absence. Requests are one absence when no scheduled workday falls between them. Modified or extended requests are reevaluated using the revised total and original first day of leave. Birthday leave is evaluated separately. One week means 7 calendar days, measured from the first day of leave.
 
 !!! warning "Approval at manager's discretion"
 
@@ -211,7 +211,7 @@ Planned flexible PTO length is the total number of requested workdays in one con
 
 !!! info "Take planned leave only once approved"
 
-    Employees request time off in our HRIS (Rippling). For planned flexible PTO and birthday leave, the manager will respond within 5 business days or by the business day before leave begins, whichever is earlier. If the deadline passes without a response, the employee must escalate to the HR team in `#hr`. Planned flexible PTO and birthday leave can only be taken once approved by the manager in Rippling.
+    Employees request time off in our HRIS (Rippling). For planned flexible PTO and birthday leave, the manager will respond within 3 business days. If the deadline passes without a response, the employee must escalate to the HR team in `#hr`. HR may approve or deny the request within 2 business days or by the business day before leave begins, whichever is earlier. Planned flexible PTO and birthday leave can only be taken once approved in Rippling.
 
 ## Coordination and Coverage 🤝
 
