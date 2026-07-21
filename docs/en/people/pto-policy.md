@@ -207,15 +207,15 @@ flowchart TD
 | **Sick leave**     | ASAP             | Same-day notification                               |
 | **Birthday leave** | 1 week           | Submit in Rippling 1 week before                    |
 
-Vacation length is the total number of requested workdays in one continuous absence, including adjacent requests. One week means 7 calendar days, measured from the first day of leave.
+Vacation length is the total number of requested vacation workdays in one continuous absence, including adjacent requests. Birthday leave is evaluated separately. One week means 7 calendar days, measured from the first day of leave.
 
 !!! warning "Approval at manager's discretion"
 
     Vacation and birthday leave requests that do not meet the minimum notice requirements will be denied. Compliant requests remain subject to manager approval based on business continuity.
 
-!!! info "Take PTO only once approved"
+!!! info "Take planned leave only once approved"
 
-    Employees request time off in our HRIS (Rippling). The manager will respond within 3-5 business days and no later than the business day before leave begins. It is the employee's responsibility to follow up with the manager if the response is time sensitive. Paid time off can only be taken once it has been approved by the manager in our HRIS (Rippling).
+    Employees request time off in our HRIS (Rippling). For vacation and birthday leave, the manager will respond within 5 business days or by the business day before leave begins, whichever is earlier. It is the employee's responsibility to follow up with the manager if the response is time sensitive. Vacation and birthday leave can only be taken once approved by the manager in Rippling.
 
 ## Coordination and Coverage 🤝
 
