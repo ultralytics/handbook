@@ -211,7 +211,7 @@ Vacation length is the total number of requested workdays in one continuous abse
 
 !!! warning "Approval at manager's discretion"
 
-    Requests that meet the minimum notice requirements remain subject to manager approval based on business continuity.
+    Vacation and birthday leave requests that do not meet the minimum notice requirements will be denied. Compliant requests remain subject to manager approval based on business continuity.
 
 !!! info "Take PTO only once approved"
 

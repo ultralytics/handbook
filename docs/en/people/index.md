@@ -72,7 +72,7 @@ See complete [PTO Policy](pto-policy.md) for details on requesting time off, rol
 
 ### Requesting Time Off
 
-Provide 1 week's notice for 1-4 days of vacation and 30 calendar days' notice for 5 days or more, following these steps:
+Follow the mandatory notice requirements in the [PTO Policy](pto-policy.md), then:
 
 1. Submit request in [Rippling](https://www.rippling.com/)
 2. Wait for manager approval
