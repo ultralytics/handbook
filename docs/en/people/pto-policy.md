@@ -148,8 +148,8 @@ Employees earn additional PTO days based on length of service:
     **Celebrate your special day!**
 
     - :material-cake: Schedule on or near your birthday
-    - :material-check-circle: No formal approval needed
-    - :material-account-voice: Just inform your team
+    - :material-check-circle: Manager approval required through Rippling
+    - :material-account-voice: Inform your team after approval
 
 ### Official Holiday Calendars
 
@@ -205,11 +205,13 @@ flowchart TD
 | **1-4 days**       | 1 week           | Submit by Monday for a request the following Monday |
 | **5+ days**        | At least 1 month | Submit by early July for an August 1-14 trip        |
 | **Sick leave**     | ASAP             | Same-day notification                               |
-| **Birthday leave** | 1 week           | Casual team notification                            |
+| **Birthday leave** | 1 week           | Submit in Rippling 1 week before                    |
+
+Vacation length is the number of requested workdays. Notice periods are calendar periods measured from the first day of leave.
 
 !!! warning "Approval at manager's discretion"
 
-    While we always try to accommodate where possible, we also need to balance business continuity. The more notice, the better.
+    Requests that meet the minimum notice requirements remain subject to manager approval based on business continuity.
 
 !!! info "Take PTO only once approved"
 
@@ -324,8 +326,8 @@ Exceptions may be considered for:
     **Scenario:** Birthday on Thursday, July 10
 
     ```
-    1. July 3: Mention to team: "Taking July 10 off for birthday"
-    2. July 8: Submit in Rippling for July 10
+    1. July 3: Submit in Rippling for July 10
+    2. After approval: Notify the team
     3. July 9: Set auto-responder, update status
     4. July 10: Enjoy your day! 🎂
     ```
