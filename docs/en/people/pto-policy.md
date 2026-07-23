@@ -191,7 +191,7 @@ flowchart TD
 ### Request Process
 
 1. **Submit in Rippling** - All requests go through [Rippling](https://www.rippling.com/)
-2. **Manager approval** - Your direct manager approves in Rippling. It's your responsibility to follow up with them and get approval ahead of time.
+2. **Manager approval** - Your direct manager approves in Rippling. For planned PTO, it's your responsibility to follow up with them and get approval before taking leave.
 3. **Update team** - Notify colleagues and update calendar/Slack
 
 ### Minimum Notice Requirements
