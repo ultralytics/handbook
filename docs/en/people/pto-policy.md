@@ -191,7 +191,7 @@ flowchart TD
 ### Request Process
 
 1. **Submit in Rippling** - All requests go through [Rippling](https://www.rippling.com/)
-2. **Manager approval** - Your direct manager approves in Rippling
+2. **Manager approval** - Your direct manager approves in Rippling. For planned PTO, it's your responsibility to follow up with them and get approval before taking leave.
 3. **Update team** - Notify colleagues and update calendar/Slack
 
 ### Minimum Notice Requirements
@@ -223,25 +223,25 @@ Count the total workdays in the planned flexible PTO request. Birthday leave is 
 
     ***
 
-    Give advance notice and discuss coverage
+    Once approved, discuss coverage. Record ongoing tasks and handoffs.
 
-- :material-file-document: **Document Work**
-
-    ***
-
-    Record ongoing tasks and handoffs
-
-- :material-calendar-sync: **Update Systems**
+- :material-file-document: **Update your calendar**
 
     ***
 
-    Calendar, Slack status, email auto-responder
+    Block your PTO days, decline or reschedule meetings
 
-- :material-account-switch: **Identify Backup**
+- :material-calendar-sync: **Update Slack**
 
     ***
 
-    Designate backup contacts for urgent issues
+    Flag upcoming PTO in your Slack status. Specify PTO start/end dates.
+
+- :material-account-switch: **Update email**
+
+    ***
+
+    Set an out-of-office auto-responder. Designate backup contacts for urgent issues.
 
 </div>
 
