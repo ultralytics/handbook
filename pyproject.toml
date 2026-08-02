@@ -7,16 +7,14 @@
 # Key Sections:
 # - [build-system]: Specifies the build requirements and backend (e.g., setuptools, wheel).
 # - [project]: Includes details like name, version, description, authors, dependencies and more.
-# - [project.optional-dependencies]: Provides additional, optional packages for extended features.
-# - [tool.*]: Configures settings for various tools (pytest, yapf, etc.) used in the project.
+# - [tool.*]: Configures settings for the tools used in the project (Ruff).
 
-# Installation:
-# The Handbook can be installed from the repository with: 'pip install git+https://github.com/ultralytics/handbook.git@main'
-# For development purposes, you can install the package in editable mode with: 'pip install -e .'
-# This approach allows for real-time code modifications without the need for re-installation.
+# Site build:
+# This repository is documentation only and ships no importable package. Install the build dependencies with
+# 'pip install -r requirements.txt', then run 'zensical serve' for local preview or 'zensical build' for a static build.
 
 # Documentation:
-# For comprehensive documentation and usage instructions, visit: https://docs.ultralytics.com
+# The published site lives at https://handbook.ultralytics.com
 
 [build-system]
 requires = ["setuptools>=82.0.1", "wheel"]
@@ -61,27 +59,16 @@ classifiers = [# Optional, for a list of valid classifiers, see https://pypi.org
 
 # Required dependencies ------------------------------------------------------------------------------------------------
 dependencies = [
-    "pytest",
-    "pytest-cov",
-    "coverage[toml]",
     "zensical>=0.0.15",
     "mkdocs-ultralytics-plugin>=0.2.5", # for meta descriptions and images, dates and authors
 ]
 
-# Optional dependencies ------------------------------------------------------------------------------------------------
-[project.optional-dependencies] # Optional
-tests = ["pytest"]
-
 [project.urls]  # Optional
 "Homepage" = "https://ultralytics.com"
 "Source" = "https://github.com/ultralytics/handbook"
-"Documentation" = "https://docs.ultralytics.com"
-"Handbook" = "https://handbook.ultralytics.com"
+"Documentation" = "https://handbook.ultralytics.com"
 "Bug Reports" = "https://github.com/ultralytics/handbook/issues"
 "Changelog" = "https://github.com/ultralytics/handbook/releases"
-
-# [project.scripts]  # Optional
-# handbook = "handbook:main"  # executes the function `main` from this package when "handbook" is called.
 
 # Tools settings -------------------------------------------------------------------------------------------------------
 [tool.setuptools]  # configuration specific to the `setuptools` build backend.
@@ -90,7 +77,3 @@ package-data = {}
 
 [tool.ruff]
 line-length = 120
-
-[tool.codespell]
-ignore-words-list = "crate,nd,strack,dota,ane,segway,fo,gool,winn,commend"
-skip = '*.csv,*venv*,docs/??/,docs/mkdocs_??.yml'
