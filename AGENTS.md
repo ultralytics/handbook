@@ -37,11 +37,11 @@ zensical build                                            # build static site in
 mkdocs build --strict                                     # the CI check (ci.yml): warnings are errors
 npm run build                                             # Vercel production build: docs/build_docs.js -> docs/build_docs.py
 ruff format . && ruff check --fix .                       # Python format/lint (line-length 120 from pyproject.toml)
-codespell                                                 # spelling (ignore-list in pyproject.toml [tool.codespell])
+codespell                                                 # spelling (Ultralytics Actions passes its own flags in CI)
 ```
 
 - CI (`ci.yml`) runs a single `build-docs` job on ubuntu-latest with Python 3.13 — no matrix; `pyproject.toml` declares `requires-python = ">=3.8"`.
-- There is no test suite and no coverage run in CI — `mkdocs build --strict` is the only build gate (the pytest/coverage dependencies in `pyproject.toml` are unused).
+- There is no test suite and no coverage run in CI — `mkdocs build --strict` is the only build gate.
 
 ## Architecture
 
