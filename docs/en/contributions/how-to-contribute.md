@@ -215,6 +215,7 @@ Feel free to reach out to team members for guidance:
 | Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)                       |
 | Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)                       |
 | Jake Qian               | [fengqianjake](https://github.com/fengqianjake)                       |
+| Javier Chulvi           | [JaviChulvi](https://github.com/JaviChulvi)                           |
 | Jianing Qi （Jalyn）    | [jianing-Jalyn](https://github.com/jianing-Jalyn)                     |
 | Jin Xu                  | [laodouya](https://github.com/laodouya)                               |
 | Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                           |
