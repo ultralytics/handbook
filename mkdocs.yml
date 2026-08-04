@@ -190,6 +190,7 @@ nav:
           - people/careers/index.md
           - IC Levels: people/careers/levels-ic.md
           - Management Levels: people/careers/levels-management.md
+      - How We Meet: people/how_we_meet.md
   - Workflows:
       - Development: workflows/development.md
       - Product Dev: workflows/product-development.md
