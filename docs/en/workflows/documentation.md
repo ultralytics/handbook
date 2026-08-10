@@ -1,6 +1,6 @@
 ---
 description: Ultralytics documentation workflow covering writing, building, and maintaining docs for YOLO and Ultralytics projects.
-keywords: Ultralytics, documentation, MkDocs, writing guides, YOLO docs, API documentation, tutorials
+keywords: Ultralytics, documentation, Zensical, writing guides, YOLO docs, API documentation, tutorials
 ---
 
 # Documentation Workflow 📚
@@ -16,16 +16,11 @@ This guide covers writing, building, and maintaining documentation for [Ultralyt
 
 ### Repository Structure
 
+Content ownership and page families vary by repository. Follow the existing hierarchy and navigation manifest rather than assuming a fixed set of folders. A typical source tree starts with:
+
 ```
 docs/
-├── en/              # English docs
-│   ├── index.md     # Homepage
-│   ├── guides/      # User guides
-│   ├── tasks/       # Task-specific docs
-│   ├── models/      # Model documentation
-│   └── reference/   # API reference
-├── zh/              # Chinese translations
-└── overrides/       # Theme customizations
+└── en/              # Source content
 ```
 
 ## Writing Documentation ✍️
@@ -100,23 +95,23 @@ Keep image sizes reasonable (<500KB when possible).
 
 ### Local Development
 
-Install dependencies:
+Each repository documents its own environment setup. For this Handbook repository, install dependencies with:
 
 ```bash
-pip install -e ".[docs]"
+uv pip install -r requirements.txt
 ```
 
 Build and serve locally:
 
 ```bash
-mkdocs serve
+zensical serve
 ```
 
 Visit `http://127.0.0.1:8000` to preview.
 
-### MkDocs Configuration
+### Zensical Configuration
 
-Main config in `mkdocs.yml`:
+The repositories currently use a transitional, Zensical-compatible `mkdocs.yml` manifest:
 
 ```yaml
 site_name: Ultralytics Docs
@@ -188,7 +183,7 @@ Follow style guide and include examples.
 ### 4. Test Build
 
 ```bash
-mkdocs serve
+zensical build --strict
 ```
 
 ### 5. Submit PR
@@ -197,17 +192,7 @@ Follow [development workflow](development.md) for PR process.
 
 ## Translations 🌐
 
-### Adding Translations
-
-1. Copy English version to language directory:
-
-```bash
-cp docs/en/page.md docs/zh/page.md
-```
-
-2. Translate content, keep code examples in English
-
-3. Update `mkdocs.yml` alternate links
+Translations are generated from English content during the centralized production build. Do not add translated source directories manually.
 
 ### Translation Guidelines
 
@@ -220,10 +205,10 @@ cp docs/en/page.md docs/zh/page.md
 
 CI automatically:
 
-- Builds documentation on every PR
+- Runs `zensical build --strict` on every PR
 - Checks for broken links
 - Validates markdown formatting
-- Deploys to production on merge to main
+- Triggers the centralized production build after a merge to `main`
 
 ### Fixing Build Errors
 
@@ -232,7 +217,7 @@ Common issues:
 - **Broken links**: Fix or remove invalid links
 - **Missing images**: Add images or update paths
 - **Invalid YAML**: Fix frontmatter syntax
-- **Plugin errors**: Check plugin configuration
+- **Configuration errors**: Check the Zensical-compatible manifest
 
 ## Best Practices ✅
 
@@ -259,8 +244,7 @@ Common issues:
 
 ## Resources 📚
 
-- [MkDocs Documentation](https://www.mkdocs.org/) - Static site generator
-- [Material Theme](https://squidfunk.github.io/mkdocs-material/) - Theme documentation
+- [Zensical Documentation](https://zensical.org/docs/) - Preview and validation tooling
 - [Markdown Guide](https://www.markdownguide.org/) - Markdown syntax reference
 - [Ultralytics Blog](https://www.ultralytics.com/blog) - Documentation examples and tutorials
 - [Ultralytics Glossary](https://www.ultralytics.com/glossary) - AI and computer vision terminology

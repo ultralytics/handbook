@@ -1,11 +1,9 @@
 # Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 
-# Configuration file for building the Ultralytics Handbook using Zensical.
-# Zensical is a modern static site generator by the creators of Material for MkDocs.
-# This configuration is fully compatible with both Zensical and MkDocs.
-# Build with: zensical build
+# Transitional MkDocs-compatible configuration consumed by Zensical validation and the centralized publisher.
+# Build with: zensical build --strict
 # Serve locally: zensical serve
-# Deploy: Handled automatically by Vercel on push to main
+# Deploy: publisher rebuild hook on every main push, plus a daily backstop
 
 # Site metadata
 site_name: Ultralytics Handbook
@@ -24,7 +22,6 @@ use_directory_urls: true # don't display 'index.html' in slugs
 theme:
   name: material
   language: en
-  custom_dir: docs/overrides/
   logo: https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Reverse.svg
   favicon: https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/logo/favicon-h.ico
   icon:
@@ -111,14 +108,6 @@ extra: # version:
     - name: 🇪🇸 Español
       link: /es/
       lang: es
-
-extra_css:
-  - stylesheets/style.css
-
-extra_javascript:
-  - https://cdn.jsdelivr.net/gh/ultralytics/llm@v0.2.8/js/chat.min.js
-  - javascript/extra.js
-  - javascript/giscus.js
 
 markdown_extensions:
   - admonition
