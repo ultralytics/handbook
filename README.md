@@ -47,7 +47,7 @@ Build and serve the Handbook locally with live reload:
 zensical serve
 ```
 
-The site will be available at `http://127.0.0.1:8000`. Changes to source files trigger automatic rebuilds.
+The site will be available at `http://127.0.0.1:8000`. Changes to source files trigger automatic rebuilds. The local preview intentionally omits production-owned banners, analytics, and other site chrome.
 
 ### Development Commands
 
