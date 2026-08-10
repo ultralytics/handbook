@@ -1,12 +1,15 @@
 # Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 
-name: Docs CI
+name: Handbook CI
 
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -25,25 +28,11 @@ jobs:
           python-version: "3.13"
       - uses: ultralytics/actions/setup-uv@main
       - name: Install dependencies
-        run: |
-          uv pip install --system -r requirements.txt mkdocs mkdocs-material
-      - name: Build docs (warnings as errors)
-        run: mkdocs build --strict
-      - name: Trigger Portal handbook redeploy
-        if: github.event_name == 'push'
+        run: uv pip install --system -r requirements.txt
+      - name: Validate Handbook
+        run: zensical build --strict
+      - name: Trigger Handbook redeploy
+        if: github.event_name != 'pull_request'
         env:
           VERCEL_HANDBOOK_DEPLOY_HOOK: ${{ secrets.VERCEL_HANDBOOK_DEPLOY_HOOK }}
-          BEFORE_SHA: ${{ github.event.before }}
-          CURRENT_SHA: ${{ github.sha }}
-        run: |
-          if [[ "$BEFORE_SHA" == "0000000000000000000000000000000000000000" ]]; then
-            BEFORE_SHA=$(git rev-list --max-parents=0 "$CURRENT_SHA")
-          fi
-          changed_files=$(git diff --name-only "$BEFORE_SHA" "$CURRENT_SHA" -- docs/ mkdocs.yml mkdocs.yaml)
-          if [[ -z "$changed_files" ]]; then
-            echo "No handbook source changes."
-            exit 0
-          fi
-          echo "$changed_files"
-
-          curl --fail --silent --show-error --retry 3 --request POST "$VERCEL_HANDBOOK_DEPLOY_HOOK"
+        run: curl --fail --silent --show-error --retry 3 --request POST "$VERCEL_HANDBOOK_DEPLOY_HOOK"

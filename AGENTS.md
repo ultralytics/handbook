@@ -31,32 +31,29 @@ After opening a PR:
 ## Commands
 
 ```bash
-uv pip install -r requirements.txt mkdocs mkdocs-material # install deps as CI does (never bare pip install)
-zensical serve                                            # local dev server with live reload at http://127.0.0.1:8000
-zensical build                                            # build static site into site/ (git-ignored)
-mkdocs build --strict                                     # the CI check (ci.yml): warnings are errors
-npm run build                                             # Vercel production build: docs/build_docs.js -> docs/build_docs.py
-ruff format . && ruff check --fix .                       # Python format/lint (line-length 120 from pyproject.toml)
-codespell                                                 # spelling (Ultralytics Actions passes its own flags in CI)
+uv pip install -r requirements.txt # install Zensical as CI does (never bare pip install)
+zensical serve                     # local preview with live reload at http://127.0.0.1:8000
+zensical build --strict            # the CI validation gate; warnings fail the build
+codespell                          # spelling (Ultralytics Actions passes its own flags in CI)
 ```
 
-- CI (`ci.yml`) runs a single `build-docs` job on ubuntu-latest with Python 3.13 — no matrix; `pyproject.toml` declares `requires-python = ">=3.8"`.
-- There is no test suite and no coverage run in CI — `mkdocs build --strict` is the only build gate.
+- CI (`ci.yml`) runs a single `build-docs` job on Ubuntu with Python 3.13 and no matrix.
+- There is no test suite and no coverage run in CI — `zensical build --strict` is the build gate.
 
 ## Architecture
 
-This is a docs-only repository: the source for [handbook.ultralytics.com](https://handbook.ultralytics.com/), with all content as Markdown under `docs/en/` and no application code. The root `mkdocs.yml` is the single config (Zensical-compatible with MkDocs Material): `docs_dir: docs/en/`, `site_dir: site/`, plus nav, theme, and analytics.
+This is a docs-only repository: the source for [handbook.ultralytics.com](https://handbook.ultralytics.com/), with all content as Markdown under `docs/en/` and no application code. The root `mkdocs.yml` is the transitional Zensical-compatible manifest consumed by local validation and the centralized publisher: `docs_dir: docs/en/`, `site_dir: site/`, plus navigation and metadata.
 
-The production build path differs from local dev: Vercel runs `npm run build` (`vercel.json`), which runs `docs/build_docs.js` to locate a Python interpreter that can `import zensical, plugin`, then executes `docs/build_docs.py` — `zensical build` followed by HTML post-processing (`fix_md` rewrites `.md` links to slashes; `postprocess_site` from mkdocs-ultralytics-plugin adds images, authors, JSON-LD, and share buttons). CI instead validates with plain `mkdocs build --strict`.
+Production rendering does not run in this repository. The centralized publisher reads `mkdocs.yml` and `docs/en/` from `main`; Zensical provides the local preview and strict content-validation path.
 
-Deploys: Vercel deploys on push to `main`. Additionally, `ci.yml` POSTs the `VERCEL_HANDBOOK_DEPLOY_HOOK` secret to redeploy the Portal handbook, but only on pushes that changed `docs/` or `mkdocs.yml`. Releases: `tag.yml` is manual `workflow_dispatch` only, gated to the `ultralytics/handbook` repo and actor `glenn-jocher`; it publishes a git tag plus an AI-summarized GitHub release — nothing is published to a package registry.
+Deploys: after strict validation, `ci.yml` POSTs `VERCEL_HANDBOOK_DEPLOY_HOOK` on every push to `main`, on manual dispatch, and daily as a backstop. Releases: `tag.yml` is manual `workflow_dispatch` only, gated to the `ultralytics/handbook` repo and actor `glenn-jocher`; it publishes a git tag plus an AI-summarized GitHub release — nothing is published to a package registry.
 
-Note: `mkdocs.yml` lists `zh`/`es` language alternates and `vercel.json` redirects 12 language roots (`/zh`, `/ko`, ...), but only English content (`docs/en/`) exists in this repo.
+Source content currently lives under `docs/en/`; the centralized publisher generates localized bundles.
 
 ## Conventions
 
-- Ultralytics Actions (`format.yml`) auto-pushes commits to PRs: Ruff for Python, Prettier for YAML/JSON/Markdown/CSS, codespell for spelling, and the `# Ultralytics 🚀 AGPL-3.0 License` header — don't add or revert these manually.
+- Ultralytics Actions (`format.yml`) auto-pushes commits to PRs with Prettier and codespell and maintains license headers — don't add or revert those commits manually.
 - Every docs page starts with YAML frontmatter containing `description:` and `keywords:`.
-- 120-character line length (`[tool.ruff]` in `pyproject.toml`); match existing pages' tone, emoji usage, admonitions, and tables.
+- Match existing pages' concise tone, emoji usage, admonitions, and tables.
 - `links.yml` runs the lychee broken-link checker on push, PR, and a daily cron — it hits the live network, so external-site outages can fail it spuriously.
-- No version-bump automation: `version` in `pyproject.toml` is static; releases happen only via the manual `tag.yml` workflow.
+- Releases happen only through the manual `tag.yml` workflow.
