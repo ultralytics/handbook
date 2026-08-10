@@ -46,7 +46,7 @@ This is a docs-only repository: the source for [handbook.ultralytics.com](https:
 
 Production rendering does not run in this repository. The centralized publisher reads `mkdocs.yml` and `docs/en/` from `main`; Zensical provides the local preview and strict content-validation path.
 
-Deploys: after strict validation, `ci.yml` POSTs `VERCEL_HANDBOOK_DEPLOY_HOOK` on every push to `main`, on manual dispatch, and daily as a backstop. Releases: `tag.yml` is manual `workflow_dispatch` only, gated to the `ultralytics/handbook` repo and actor `glenn-jocher`; it publishes a git tag plus an AI-summarized GitHub release — nothing is published to a package registry.
+Deploys: after strict validation, `ci.yml` POSTs `VERCEL_HANDBOOK_DEPLOY_HOOK` on every push to `main` and daily as a backstop. Manual runs on other refs validate without deploying. Releases: `tag.yml` is manual `workflow_dispatch` only, gated to the `ultralytics/handbook` repo and actor `glenn-jocher`; it publishes a git tag plus an AI-summarized GitHub release — nothing is published to a package registry.
 
 Source content currently lives under `docs/en/`; the centralized publisher generates localized bundles.
 
