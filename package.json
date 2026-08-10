@@ -1,7 +1,0 @@
-{
-  "name": "handbook",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "node docs/build_docs.js"
-  }
-}

@@ -2,11 +2,10 @@
 
 # 📚 Ultralytics Handbook
 
-Welcome to the **Ultralytics Handbook repository**! This repository houses the source files for the official [Ultralytics Handbook](https://handbook.ultralytics.com/) - your comprehensive guide to our **mission, vision, values, and operational practices**. Built with [Zensical](https://zensical.org/) (a modern static site generator by the creators of Material for MkDocs), the Handbook is continuously deployed via [Vercel](https://vercel.com/) to [handbook.ultralytics.com](https://handbook.ultralytics.com/).
+Welcome to the **Ultralytics Handbook repository**! This repository houses the source files for the official [Ultralytics Handbook](https://handbook.ultralytics.com/) - your comprehensive guide to our **mission, vision, values, and operational practices**. [Zensical](https://zensical.org/) validates and previews the content locally; Ultralytics' centralized publishing service renders and deploys the production site.
 
 [![Check Broken links](https://github.com/ultralytics/handbook/actions/workflows/links.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/links.yml)
 [![Ultralytics Actions](https://github.com/ultralytics/handbook/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/format.yml)
-[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/handbook-ultralytics)](https://handbook-ultralytics.vercel.app/)
 [![jsDelivr hits](https://data.jsdelivr.com/v1/package/gh/ultralytics/llm/badge?style=rounded)](https://www.jsdelivr.com/package/gh/ultralytics/llm)
 
 [![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
@@ -20,9 +19,8 @@ This Handbook serves as a **living document**, evolving alongside Ultralytics' g
 ## 🧰 Technology Stack
 
 - **[Zensical](https://zensical.org/)** - Modern static site generator (by the creators of Material for MkDocs)
-- **[MkDocs Ultralytics Plugin](https://github.com/ultralytics/mkdocs)** - Custom features and integrations
 - **[Ultralytics Chat](https://github.com/ultralytics/llm)** - Realtime conversational AI with open-source [chat.js](https://github.com/ultralytics/llm) implementation
-- **[Vercel](https://vercel.com/)** - Hosting and deployment
+- **Ultralytics publishing service** - Production rendering and deployment
 - **[GitHub Actions](https://github.com/features/actions)** - CI/CD automation
 
 The Handbook supports the broader Ultralytics ecosystem, including the core [Ultralytics Python package](https://pypi.org/project/ultralytics/):
@@ -36,10 +34,10 @@ The Handbook supports the broader Ultralytics ecosystem, including the core [Ult
 To build and develop the Handbook locally, install dependencies:
 
 ```bash
-pip install zensical mkdocs-ultralytics-plugin
+uv pip install -r requirements.txt
 ```
 
-This installs [Zensical](https://zensical.org/) - a modern static site generator built by the creators of Material for MkDocs - and our custom plugin for enhanced documentation features.
+This installs [Zensical](https://zensical.org/), the local preview and validation tool used in CI.
 
 ## 🚀 Local Development
 
@@ -54,13 +52,11 @@ The site will be available at `http://127.0.0.1:8000`. Changes to source files t
 ### Development Commands
 
 - **`zensical serve`** - Start development server with live reload
-- **`zensical build`** - Build static site to `site/` directory
+- **`zensical build --strict`** - Validate all content and fail on warnings
 
 ## 📤 Deployment
 
-The Handbook automatically deploys to [handbook.ultralytics.com](https://handbook.ultralytics.com/) via [Vercel](https://vercel.com/) when changes are pushed to the `main` branch.
-
-<img alt="Vercel handbook deployment" src="https://github.com/user-attachments/assets/cd8809df-1ccd-4711-880e-f356c2b4fc4f" />
+After validation, every push to `main` triggers the production publisher through a deploy hook. A daily scheduled run provides a backstop.
 
 ## 💡 Contributing
 
@@ -91,29 +87,11 @@ See our [Contributing Guide](https://docs.ultralytics.com/help/contributing) for
 ```
 handbook/
 ├── docs/
-│   ├── en/                          # English documentation
-│   │   ├── index.md                 # Homepage
-│   │   ├── introduction.md          # Handbook introduction
-│   │   ├── mission-vision-values/   # Company foundation
-│   │   ├── finance/                 # Financial policies
-│   │   ├── tools/                   # Hardware & software
-│   │   ├── people/                  # HR policies
-│   │   ├── workflows/               # Development processes
-│   │   ├── contributions/           # Community guidelines
-│   │   ├── goals/                   # OKRs and company goals
-│   │   ├── faq/                     # Common questions
-│   │   ├── legal/                   # Legal & compliance
-│   │   └── security/                # Security policies
-│   ├── overrides/                   # Theme customizations
-│   ├── build_docs.js                # Vercel build entry point
-│   └── build_docs.py                # Production build & post-processing
+│   └── en/                          # Handbook source content
 ├── .github/
 │   └── workflows/                   # CI/CD automation
-├── mkdocs.yml                       # Zensical configuration (MkDocs-compatible)
-├── pyproject.toml                   # Python project config
-├── requirements.txt                 # Python dependencies
-├── package.json                     # npm build script for Vercel
-├── vercel.json                      # Vercel deployment config
+├── mkdocs.yml                       # Transitional Zensical-compatible content manifest
+├── requirements.txt                 # Zensical validation dependency
 └── README.md                        # This file
 ```
 
