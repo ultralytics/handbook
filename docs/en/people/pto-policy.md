@@ -204,6 +204,7 @@ flowchart TD
 | **Birthday leave**                | 1 week           | Submit in Rippling 1 week before                    |
 
 Count the total workdays in the planned flexible PTO request. Birthday leave is evaluated separately.
+<br/> **Note:** Multiple PTO requests which total 5+ days off within any 10 day window count as longer leave and require at least 1 month advance notice.
 
 !!! warning "Approval at manager's discretion"
 
