@@ -204,7 +204,7 @@ flowchart TD
 | **Birthday leave**                | 1 week           | Submit in Rippling 1 week before                    |
 
 Count the total workdays in the planned flexible PTO request. Birthday leave is evaluated separately.
-Plan related flexible PTO requests together. If they total 5 or more workdays within any 10-calendar-day period, submit all related requests at least 1 month before the first day off. A later request that raises the total to 5 or more days must meet the same deadline and does not change the status of previously approved leave.
+Related flexible PTO requests that total 5 or more workdays within any 10-calendar-day period must be submitted together at least 1 month before the first day off.
 
 !!! warning "Approval at manager's discretion"
 
