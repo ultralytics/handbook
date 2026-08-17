@@ -112,16 +112,12 @@ Employees earn additional PTO days based on length of service:
 
     **For planned time off**
 
-    - :material-calendar-clock: Submit requests **2 weeks in advance**
+    - :material-calendar-clock: Submit requests **1 week in advance for shorter leave** (1-4 days), and **at least 1 month in advance for longer leave** (5+ days)
     - :material-account-group: Coordinate with your team for coverage
     - :material-calendar-check: Update calendar and Slack status
     - :material-timer: Vacation available after **30 days of employment**
     - :material-airplane: Maximum single vacation: **35 days**
     - :material-handshake: Up to **5 days negative balance** allowed with manager approval
-
-    !!! warning "Longer Trips"
-
-        Provide **1 month notice** for vacations exceeding 2 weeks
 
 === "Sick Leave"
 
@@ -148,8 +144,8 @@ Employees earn additional PTO days based on length of service:
     **Celebrate your special day!**
 
     - :material-cake: Schedule on or near your birthday
-    - :material-check-circle: No formal approval needed
-    - :material-account-voice: Just inform your team
+    - :material-check-circle: Manager approval required through Rippling
+    - :material-account-voice: Inform your team after approval
 
 ### Official Holiday Calendars
 
@@ -195,21 +191,28 @@ flowchart TD
 ### Request Process
 
 1. **Submit in Rippling** - All requests go through [Rippling](https://www.rippling.com/)
-2. **Manager approval** - Your direct manager approves in Rippling
+2. **Manager approval** - Your direct manager approves in Rippling. For planned PTO, it's your responsibility to follow up with them and get approval before taking leave.
 3. **Update team** - Notify colleagues and update calendar/Slack
 
 ### Minimum Notice Requirements
 
-| Leave Type           | Notice Required | Example                          |
-| -------------------- | --------------- | -------------------------------- |
-| **Planned vacation** | 2 weeks         | Submit by May 1 for May 15 trip  |
-| **Short breaks**     | 1 week          | Submit by Monday for next Monday |
-| **Sick leave**       | ASAP            | Same-day notification            |
-| **Birthday leave**   | 1 week          | Casual team notification         |
+| Leave Type                        | Notice Required  | Example                                             |
+| --------------------------------- | ---------------- | --------------------------------------------------- |
+| **1-4 planned flexible PTO days** | 1 week           | Submit by Monday for a request the following Monday |
+| **5+ planned flexible PTO days**  | At least 1 month | Submit by early July for an August 1-14 trip        |
+| **Sick leave**                    | ASAP             | Same-day notification                               |
+| **Birthday leave**                | 1 week           | Submit in Rippling 1 week before                    |
 
-!!! warning "Longer Vacations"
+Count the total workdays in the planned flexible PTO request. Birthday leave is evaluated separately.
+**Note:** Multiple PTO requests submitted together that total 5 or more workdays within any 10-day period count as longer leave and require at least 1 month's advance notice.
 
-    **Provide 1 month notice** for vacations exceeding 2 weeks to ensure proper coverage planning.
+!!! warning "Approval at manager's discretion"
+
+    Requests must meet the minimum notice requirements. Managers review each request at their discretion, balancing employee needs with business continuity.
+
+!!! info "Take planned leave only once approved"
+
+    Employees request time off in our HRIS (Rippling). Managers will respond within 3-5 business days. If a response is time sensitive, follow up with your manager or the HR team in `#hr`. Planned flexible PTO and birthday leave can only be taken once approved in Rippling.
 
 ## Coordination and Coverage 🤝
 
@@ -221,25 +224,25 @@ flowchart TD
 
     ***
 
-    Give advance notice and discuss coverage
+    Once approved, discuss coverage. Record ongoing tasks and handoffs.
 
-- :material-file-document: **Document Work**
-
-    ***
-
-    Record ongoing tasks and handoffs
-
-- :material-calendar-sync: **Update Systems**
+- :material-file-document: **Update your calendar**
 
     ***
 
-    Calendar, Slack status, email auto-responder
+    Block your PTO days, decline or reschedule meetings
 
-- :material-account-switch: **Identify Backup**
+- :material-calendar-sync: **Update Slack**
 
     ***
 
-    Designate backup contacts for urgent issues
+    Flag upcoming PTO in your Slack status. Specify PTO start/end dates.
+
+- :material-account-switch: **Update email**
+
+    ***
+
+    Set an out-of-office auto-responder. Designate backup contacts for urgent issues.
 
 </div>
 
@@ -320,8 +323,8 @@ Exceptions may be considered for:
     **Scenario:** Birthday on Thursday, July 10
 
     ```
-    1. July 3: Mention to team: "Taking July 10 off for birthday"
-    2. July 8: Submit in Rippling for July 10
+    1. July 3: Submit in Rippling for July 10
+    2. After approval: Notify the team
     3. July 9: Set auto-responder, update status
     4. July 10: Enjoy your day! 🎂
     ```
