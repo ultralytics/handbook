@@ -207,7 +207,7 @@ Feel free to reach out to team members for guidance:
 | Anthony Evans           | [antevansultralytics](https://github.com/antevansultralytics)         |
 | Antonina Poludena       | [Antonina2111](https://github.com/Antonina2111)                       |
 | Craig Johnston          | [craigjohnston1](https://github.com/craigjohnston1)                   |
-| Darin Kabashi           | [darin-k](https://github.com/darin-k))                                |
+| Darin Kabashi           | [darin-k](https://github.com/darin-k)                                 |
 | Ed Crook                | [ed-yolo](https://github.com/ed-yolo)                                 |
 | Esat Kalfaoglu          | [artest08](https://github.com/artest08)                               |
 | Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                                 |
@@ -247,7 +247,7 @@ Feel free to reach out to team members for guidance:
 | Thomas Chuang           | [chuang091](https://github.com/chuang091)                             |
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)                   |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                               |
-| Darin Kabashi           | [darin-k](https://github.com/darin-k))                                |
+| Zuzana Kontrikova       | [zkontri](https://github.com/zkontri)                                 |
 
 ## Get Support 💬
 
