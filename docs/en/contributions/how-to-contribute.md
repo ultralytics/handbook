@@ -204,16 +204,18 @@ Feel free to reach out to team members for guidance:
 | Alexis Schutzger        | [picsalex](https://github.com/picsalex)                               |
 | Altaïr Kabunda-Margalet | [altair-jpg](https://github.com/altair-jpg)                           |
 | Anastasiia Khrapal      | [nastijakh](https://github.com/nastijakh)                             |
-| Andrei Banica           | [banica-ultralytics](https://github.com/banica-ultralytics)           |
+| Anthony Evans           | [antevansultralytics](https://github.com/antevansultralytics)         |
 | Antonina Poludena       | [Antonina2111](https://github.com/Antonina2111)                       |
 | Craig Johnston          | [craigjohnston1](https://github.com/craigjohnston1)                   |
 | Darin Kabashi           | [darin-k](https://github.com/darin-k))                                |
+| Ed Crook                | [ed-yolo](https://github.com/ed-yolo)                                 |
 | Esat Kalfaoglu          | [artest08](https://github.com/artest08)                               |
 | Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                                 |
 | Francesco Mattioli      | [ambitious-octopus](https://github.com/ambitious-octopus)             |
 | Giovanni Dal Zillio     | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)           |
 | Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)                       |
 | Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)                       |
+| Irene Calatrava         | [icalatrava](https://github.com/icalatrava)                           |
 | Jake Qian               | [fengqianjake](https://github.com/fengqianjake)                       |
 | Javier Chulvi           | [JaviChulvi](https://github.com/JaviChulvi)                           |
 | Jianing Qi （Jalyn）    | [jianing-Jalyn](https://github.com/jianing-Jalyn)                     |
@@ -227,11 +229,12 @@ Feel free to reach out to team members for guidance:
 | Leo Samsinger           | [lsamsinger](https://github.com/lsamsinger)                           |
 | Marius Keiser           | [Skillnoob](https://github.com/Skillnoob)                             |
 | Matt Bristow            | [matt-ultralytics](https://github.com/matt-ultralytics)               |
+| Maxim Sokolov           | [somal](https://github.com/somal)                                     |
 | Mengyu (Mason) Liu      | [lmycross](https://github.com/lmycross)                               |
 | Miles Deans             | [miles-deans-ultralytics](https://github.com/miles-deans-ultralytics) |
 | Mohammed Yasin          | [Y-T-G](https://github.com/Y-T-G)                                     |
 | Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar)                     |
-| Mykola Boiko            | [mykolaxboiko](https://github.com/mykolaxboiko)                       |
+| Murat Raimbekov         | [raimbekovm](https://github.com/raimbekovm)                           |
 | Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)                     |
 | Nuvola Ladi             | [NLadi](https://github.com/NLadi)                                     |
 | Olivia Wang             | [ziyue-olivia](https://github.com/ziyue-olivia)                       |
@@ -243,7 +246,6 @@ Feel free to reach out to team members for guidance:
 | Shuai (Louis) Lyu       | [ShuaiLYU](https://github.com/ShuaiLYU)                               |
 | Thomas Chuang           | [chuang091](https://github.com/chuang091)                             |
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)                   |
-| Tigran Hakobyan         | [t-hakobyan](https://github.com/t-hakobyan)                           |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                               |
 | Zuzana Kontrikova       | [zkontri](https://github.com/zkontri)                                 |
 
