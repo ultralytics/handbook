@@ -221,8 +221,8 @@ Feel free to reach out to team members for guidance:
 | Jianing Qi （Jalyn）    | [jianing-Jalyn](https://github.com/jianing-Jalyn)                     |
 | Jin Xu                  | [laodouya](https://github.com/laodouya)                               |
 | Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                           |
-| Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                           |
 | Joey Cherisea           | [Cherisea](https://github.com/Cherisea)                               |
+| Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                           |
 | Kasim Acikbas           | [kayselmecnun](https://github.com/kayselmecnun)                       |
 | Kristian Sommer         | [sokrisba](https://github.com/sokrisba)                               |
 | Lakshantha Dissanayake  | [lakshanthad](https://github.com/lakshanthad)                         |
@@ -247,7 +247,7 @@ Feel free to reach out to team members for guidance:
 | Thomas Chuang           | [chuang091](https://github.com/chuang091)                             |
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)                   |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                               |
-| Darin Kabashi           | [darin-k](https://github.com/darin-k))                                |
+| Zuzana Kontrikova       | [zkontri](https://github.com/zkontri)                                 |
 
 ## Get Support 💬
 
