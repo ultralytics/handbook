@@ -204,7 +204,6 @@ Feel free to reach out to team members for guidance:
 | Alexis Schutzger        | [picsalex](https://github.com/picsalex)                               |
 | Altaïr Kabunda-Margalet | [altair-jpg](https://github.com/altair-jpg)                           |
 | Anastasiia Khrapal      | [nastijakh](https://github.com/nastijakh)                             |
-| Andrei Banica           | [banica-ultralytics](https://github.com/banica-ultralytics)           |
 | Anthony Evans           | [antevansultralytics](https://github.com/antevansultralytics)         |
 | Antonina Poludena       | [Antonina2111](https://github.com/Antonina2111)                       |
 | Craig Johnston          | [craigjohnston1](https://github.com/craigjohnston1)                   |
@@ -236,7 +235,6 @@ Feel free to reach out to team members for guidance:
 | Mohammed Yasin          | [Y-T-G](https://github.com/Y-T-G)                                     |
 | Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar)                     |
 | Murat Raimbekov         | [raimbekovm](https://github.com/raimbekovm)                           |
-| Mykola Boiko            | [mykolaxboiko](https://github.com/mykolaxboiko)                       |
 | Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)                     |
 | Nuvola Ladi             | [NLadi](https://github.com/NLadi)                                     |
 | Olivia Wang             | [ziyue-olivia](https://github.com/ziyue-olivia)                       |
@@ -248,7 +246,6 @@ Feel free to reach out to team members for guidance:
 | Shuai (Louis) Lyu       | [ShuaiLYU](https://github.com/ShuaiLYU)                               |
 | Thomas Chuang           | [chuang091](https://github.com/chuang091)                             |
 | Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)                   |
-| Tigran Hakobyan         | [t-hakobyan](https://github.com/t-hakobyan)                           |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                               |
 | Zuzana Kontrikova       | [zkontri](https://github.com/zkontri)                                 |
 
