@@ -214,6 +214,7 @@ Feel free to reach out to team members for guidance:
 | Giovanni Dal Zillio     | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)           |
 | Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)                       |
 | Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)                       |
+| Irene Calatrava         | [IreneCG](https://github.com/IreneCG)                                 |
 | Jake Qian               | [fengqianjake](https://github.com/fengqianjake)                       |
 | Javier Chulvi           | [JaviChulvi](https://github.com/JaviChulvi)                           |
 | Jianing Qi （Jalyn）    | [jianing-Jalyn](https://github.com/jianing-Jalyn)                     |
@@ -227,10 +228,12 @@ Feel free to reach out to team members for guidance:
 | Leo Samsinger           | [lsamsinger](https://github.com/lsamsinger)                           |
 | Marius Keiser           | [Skillnoob](https://github.com/Skillnoob)                             |
 | Matt Bristow            | [matt-ultralytics](https://github.com/matt-ultralytics)               |
+| Max Sokolov             | [somal](https://github.com/somal)                                     |
 | Mengyu (Mason) Liu      | [lmycross](https://github.com/lmycross)                               |
 | Miles Deans             | [miles-deans-ultralytics](https://github.com/miles-deans-ultralytics) |
 | Mohammed Yasin          | [Y-T-G](https://github.com/Y-T-G)                                     |
 | Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar)                     |
+| Murat Raimbekov         | [raimbekovm](https://github.com/raimbekovm)                           |
 | Mykola Boiko            | [mykolaxboiko](https://github.com/mykolaxboiko)                       |
 | Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)                     |
 | Nuvola Ladi             | [NLadi](https://github.com/NLadi)                                     |
