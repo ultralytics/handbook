@@ -5,7 +5,7 @@ keywords: Ultralytics, documentation, Zensical, writing guides, YOLO docs, API d
 
 # Documentation Workflow 📚
 
-This guide covers writing, building, and maintaining documentation for [Ultralytics](https://www.ultralytics.com/) projects.
+This guide covers writing, building, and maintaining documentation for [Ultralytics](https://www.ultralytics.com) projects.
 
 ## Documentation Structure 🗂️
 

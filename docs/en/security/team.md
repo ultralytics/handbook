@@ -81,7 +81,7 @@ Use the `#compliance` channel for:
 
 !!! info "Trust Center"
 
-    **[trust.ultralytics.com](https://trust.ultralytics.com/)** is our centralized repository for all security policies, compliance certifications, and audit documentation.
+    **[trust.ultralytics.com](https://trust.ultralytics.com)** is our centralized repository for all security policies, compliance certifications, and audit documentation.
 
 ### Core Security Policies
 

@@ -85,7 +85,7 @@ Showcase projects built with [YOLO](https://docs.ultralytics.com/models):
 
 Help improve YOLO by reporting bugs with:
 
-- Clear [Minimum Reproducible Examples](https://docs.ultralytics.com/help/minimum-reproducible-example/)
+- Clear [Minimum Reproducible Examples](https://docs.ultralytics.com/help/minimum-reproducible-example)
 - Detailed environment information
 - Expected vs actual behavior
 - Error messages and logs
@@ -98,13 +98,13 @@ See [How to Contribute](how-to-contribute.md) for guidelines on submitting code 
 
 ### YOLO Vision Conference
 
-Annual conference bringing together the YOLO community for talks, workshops, and networking. Check [ultralytics.com](https://www.ultralytics.com/) for announcements.
+Annual conference bringing together the YOLO community for talks, workshops, and networking. Check [ultralytics.com](https://www.ultralytics.com) for announcements.
 
 ### Online Workshops
 
 Regular online workshops covering:
 
-- [YOLO fundamentals](https://docs.ultralytics.com/)
+- [YOLO fundamentals](https://docs.ultralytics.com)
 - Advanced [training techniques](https://docs.ultralytics.com/modes/train)
 - [Deployment strategies](https://docs.ultralytics.com/guides/model-deployment-options)
 - [Real-world applications](https://docs.ultralytics.com/guides)
@@ -126,7 +126,7 @@ We recognize outstanding community members through:
 
 ### Support Resources
 
-- [Documentation](https://docs.ultralytics.com/)
+- [Documentation](https://docs.ultralytics.com)
 - [GitHub Discussions](https://github.com/orgs/ultralytics/discussions)
 - [Discord Community](https://discord.com/invite/ultralytics)
 - [Development Team](how-to-contribute.md#our-development-team)

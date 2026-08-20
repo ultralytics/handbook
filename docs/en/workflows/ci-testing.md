@@ -5,7 +5,7 @@ keywords: Ultralytics, CI/CD, continuous integration, testing, GitHub Actions, p
 
 # CI/Testing Workflow 🧪
 
-Continuous Integration (CI) is essential for maintaining high-quality code by catching issues early. This guide covers CI testing and quality checks for [Ultralytics](https://www.ultralytics.com/) projects.
+Continuous Integration (CI) is essential for maintaining high-quality code by catching issues early. This guide covers CI testing and quality checks for [Ultralytics](https://www.ultralytics.com) projects.
 
 ## CI Actions 🔄
 

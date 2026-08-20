@@ -433,7 +433,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     <div class="grid cards" markdown>
 
-    -   :material-book: **[YOLO Documentation](https://docs.ultralytics.com/)**
+    -   :material-book: **[YOLO Documentation](https://docs.ultralytics.com)**
 
         ---
 
@@ -478,4 +478,4 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     1. **Browse the handbook**: Use search or navigation to find specific topics
     2. **Ask your manager**: First point of contact for most questions
     3. **Contact specialized teams**: IT, Finance, Legal, Security
-    4. **Check documentation**: [YOLO Docs](https://docs.ultralytics.com/) for technical questions
+    4. **Check documentation**: [YOLO Docs](https://docs.ultralytics.com) for technical questions

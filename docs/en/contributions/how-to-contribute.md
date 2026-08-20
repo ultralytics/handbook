@@ -5,7 +5,7 @@ keywords: Ultralytics, contributing, open source, pull requests, code of conduct
 
 # How to Contribute 🚀
 
-Welcome! We're thrilled you're considering contributing to [Ultralytics](https://www.ultralytics.com/) open-source projects. Your involvement helps enhance the quality of our repositories and benefits the entire computer vision community.
+Welcome! We're thrilled you're considering contributing to [Ultralytics](https://www.ultralytics.com) open-source projects. Your involvement helps enhance the quality of our repositories and benefits the entire computer vision community.
 
 !!! tip "Complete Guidelines"
 
@@ -67,7 +67,7 @@ When contributing code:
 - **Consider compatibility**: Avoid breaking existing code
 - **Use consistent formatting**: Follow [Ruff Formatter](https://github.com/astral-sh/ruff)
 - **Add tests**: Include tests for new features
-- **Update docs**: Keep [documentation](https://docs.ultralytics.com/) current
+- **Update docs**: Keep [documentation](https://docs.ultralytics.com) current
 
 ### Coding Standards 📐
 
@@ -91,7 +91,7 @@ See [Development Workflow](../workflows/development.md) for complete coding stan
 
 ### Documentation 📚
 
-- Improve existing [documentation](https://docs.ultralytics.com/)
+- Improve existing [documentation](https://docs.ultralytics.com)
 - Add [tutorials and guides](https://docs.ultralytics.com/guides) for specific use cases
 - Fix typos and errors
 - Translate documentation to other languages
@@ -117,7 +117,7 @@ Help us improve by reporting bugs via [GitHub Issues](https://github.com/ultraly
 ### Bug Report Requirements
 
 1. **Check existing issues** to avoid duplicates
-2. **Create [Minimum Reproducible Example (MRE)](https://docs.ultralytics.com/help/minimum-reproducible-example/)** - Small, self-contained code that reproduces the issue
+2. **Create [Minimum Reproducible Example (MRE)](https://docs.ultralytics.com/help/minimum-reproducible-example)** - Small, self-contained code that reproduces the issue
 3. **Describe environment**: OS, Python version, library versions, hardware (CPU/GPU)
 4. **Explain expected vs actual behavior** with error messages and tracebacks
 
@@ -132,7 +132,7 @@ A Minimum Reproducible Example should:
 - **Format properly**: Use code blocks with triple backticks
 - **Be testable**: Others can run it without modifications
 
-See the complete [MRE Guide](https://docs.ultralytics.com/help/minimum-reproducible-example/) for detailed instructions.
+See the complete [MRE Guide](https://docs.ultralytics.com/help/minimum-reproducible-example) for detailed instructions.
 
 ## Reviewing Pull Requests 👀
 
@@ -256,7 +256,7 @@ Questions or need help?
 - Open an issue on [GitHub](https://github.com/ultralytics/ultralytics/issues)
 - Join [GitHub Discussions](https://github.com/orgs/ultralytics/discussions)
 - Connect on [Discord](https://discord.com/invite/ultralytics)
-- Check [documentation](https://docs.ultralytics.com/)
+- Check [documentation](https://docs.ultralytics.com)
 - Visit [Help Center](https://docs.ultralytics.com/help)
 - Browse [Ultralytics Blog](https://www.ultralytics.com/blog) for tutorials and guides
 - Explore [Solutions](https://www.ultralytics.com/solutions) for industry-specific applications
@@ -275,7 +275,7 @@ We're excited to see your ideas come to life and appreciate your commitment to a
 - [Documentation Workflow](../workflows/documentation.md) - Writing docs
 - [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct) - Community standards
 - [CLA Document](https://docs.ultralytics.com/help/CLA) - Contributor License Agreement
-- [MRE Guide](https://docs.ultralytics.com/help/minimum-reproducible-example/) - Bug reporting best practices
+- [MRE Guide](https://docs.ultralytics.com/help/minimum-reproducible-example) - Bug reporting best practices
 - [Ultralytics Blog](https://www.ultralytics.com/blog) - Tutorials and case studies
 - [Community Events](https://www.ultralytics.com/events) - Webinars and conferences
 - [Customer Stories](https://www.ultralytics.com/customers) - Real-world applications

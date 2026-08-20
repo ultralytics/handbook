@@ -39,7 +39,7 @@ This policy applies to any platform where you can share or comment publicly, inc
 
 We encourage you to celebrate Ultralytics' work and community impact. You may share:
 
-- Official Ultralytics blogs, documentation, or updates **after** they've been published on our [website](https://www.ultralytics.com/) and/or social media channels
+- Official Ultralytics blogs, documentation, or updates **after** they've been published on our [website](https://www.ultralytics.com) and/or social media channels
 - Public press coverage or media mentions
 - Partner announcements or collaborations **after** Ultralytics has shared them
 - Open-source highlights, YOLO model releases, and event recaps already visible online
