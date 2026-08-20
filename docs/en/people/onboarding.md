@@ -206,7 +206,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 
 **Technical**:
 
-- [YOLO Documentation](https://docs.ultralytics.com/) - Complete technical guide
+- [YOLO Documentation](https://docs.ultralytics.com) - Complete technical guide
 - [Development Workflow](../workflows/development.md) - PR process and standards
 - [CI/Testing](../workflows/ci-testing.md) - Quality and testing practices
 - Internal tech talks (recordings in shared drive)

@@ -3,10 +3,10 @@
 blank_issues_enabled: true
 contact_links:
   - name: 📄 Handbook
-    url: https://handbook.ultralytics.com/
+    url: https://handbook.ultralytics.com
     about: Published Ultralytics Handbook and governance docs
   - name: 💬 Forum
-    url: https://community.ultralytics.com/
+    url: https://community.ultralytics.com
     about: Ask the Ultralytics community for workflow help
   - name: 🎧 Discord
     url: https://ultralytics.com/discord

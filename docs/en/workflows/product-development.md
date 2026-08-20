@@ -5,7 +5,7 @@ keywords: Ultralytics, product development, feature planning, release process, Y
 
 # Product Development Workflow 🚀
 
-This guide covers product planning, development cycles, and release processes for [Ultralytics](https://www.ultralytics.com/) products.
+This guide covers product planning, development cycles, and release processes for [Ultralytics](https://www.ultralytics.com) products.
 
 ## Product Philosophy 🎯
 
@@ -267,7 +267,7 @@ Define before building:
 - [YOLO26 model family](https://docs.ultralytics.com/models/yolo26)
 - [Export format support](https://docs.ultralytics.com/modes/export)
 - [Performance optimization](https://docs.ultralytics.com/guides/model-training-tips)
-- [Documentation quality](https://docs.ultralytics.com/)
+- [Documentation quality](https://docs.ultralytics.com)
 
 ### Upcoming Areas
 

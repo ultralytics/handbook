@@ -1,15 +1,15 @@
-<a href="https://www.ultralytics.com/"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
+<a href="https://www.ultralytics.com"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
 # 📚 Ultralytics Handbook
 
-Welcome to the **Ultralytics Handbook repository**! This repository houses the source files for the official [Ultralytics Handbook](https://handbook.ultralytics.com/) - your comprehensive guide to our **mission, vision, values, and operational practices**. [Zensical](https://zensical.org/) validates and previews the content locally; Ultralytics' centralized publishing service renders and deploys the production site.
+Welcome to the **Ultralytics Handbook repository**! This repository houses the source files for the official [Ultralytics Handbook](https://handbook.ultralytics.com) - your comprehensive guide to our **mission, vision, values, and operational practices**. [Zensical](https://zensical.org/) validates and previews the content locally; Ultralytics' centralized publishing service renders and deploys the production site.
 
 [![Check Broken links](https://github.com/ultralytics/handbook/actions/workflows/links.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/links.yml)
 [![Ultralytics Actions](https://github.com/ultralytics/handbook/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/handbook/actions/workflows/format.yml)
 [![jsDelivr hits](https://data.jsdelivr.com/v1/package/gh/ultralytics/llm/badge?style=rounded)](https://www.jsdelivr.com/package/gh/ultralytics/llm)
 
 [![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
-[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com/)
+[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com)
 [![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://reddit.com/r/ultralytics)
 
 This Handbook serves as a **living document**, evolving alongside Ultralytics' growth. It aims to align team members, contributors, and the wider community with the core principles guiding our work in [artificial intelligence (AI)](https://www.ultralytics.com/glossary/artificial-intelligence-ai) and [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv). Whether you're new to Ultralytics or a seasoned team member, this resource provides insights into everything from our company philosophy to detailed workflows and operational processes, including our approach to [machine learning operations (MLOps)](https://www.ultralytics.com/glossary/machine-learning-operations-mlops).
@@ -104,7 +104,7 @@ Ultralytics offers two licensing options:
 
 ## ✉️ Contact
 
-For bug reports and feature requests related to the Ultralytics Handbook, please visit [GitHub Issues](https://github.com/ultralytics/handbook/issues). For questions, discussions, and community support, join our active communities on [Discord](https://discord.com/invite/ultralytics), [Reddit](https://www.reddit.com/r/ultralytics/), and the [Ultralytics Community Forums](https://community.ultralytics.com/). We're here to help with all things Ultralytics!
+For bug reports and feature requests related to the Ultralytics Handbook, please visit [GitHub Issues](https://github.com/ultralytics/handbook/issues). For questions, discussions, and community support, join our active communities on [Discord](https://discord.com/invite/ultralytics), [Reddit](https://www.reddit.com/r/ultralytics/), and the [Ultralytics Community Forums](https://community.ultralytics.com). We're here to help with all things Ultralytics!
 
 <br>
 <div align="center">

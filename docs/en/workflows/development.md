@@ -5,7 +5,7 @@ keywords: Ultralytics, development workflow, pull requests, code review, Git, Gi
 
 # Development Workflow 💻
 
-This guide covers how Ultralytics employees and contributors plan, implement, review, test, and merge changes across [Ultralytics](https://www.ultralytics.com/) projects, including YOLO and related repositories.
+This guide covers how Ultralytics employees and contributors plan, implement, review, test, and merge changes across [Ultralytics](https://www.ultralytics.com) projects, including YOLO and related repositories.
 
 The workflow is intentionally lightweight: keep changes focused, make review easy, run the right checks, and leave enough context for teammates to understand the decision later.
 
@@ -435,7 +435,7 @@ For model behavior changes, include the dataset, model, command, hardware, and b
 Report bugs via [GitHub Issues](https://github.com/ultralytics/ultralytics/issues):
 
 1. **Check existing issues** first
-2. **Provide [Minimum Reproducible Example](https://docs.ultralytics.com/help/minimum-reproducible-example/)**
+2. **Provide [Minimum Reproducible Example](https://docs.ultralytics.com/help/minimum-reproducible-example)**
 3. **Describe environment**: OS, Python version, library versions, hardware (use `yolo checks` for diagnostics)
 4. **Explain expected vs actual behavior** with error messages
 
@@ -452,6 +452,6 @@ Many Ultralytics repositories use the [AGPL-3.0 license](https://www.ultralytics
 - [Documentation](documentation.md) - Writing and maintaining docs
 - [Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct) - Community standards
 - [CLA Instructions](https://docs.ultralytics.com/help/CLA) - Contributor License Agreement guidance
-- [Minimum Reproducible Example](https://docs.ultralytics.com/help/minimum-reproducible-example/) - Bug report examples
+- [Minimum Reproducible Example](https://docs.ultralytics.com/help/minimum-reproducible-example) - Bug report examples
 - [Ultralytics Blog](https://www.ultralytics.com/blog) - Latest updates and tutorials
 - [Community Events](https://www.ultralytics.com/events) - Webinars and conferences

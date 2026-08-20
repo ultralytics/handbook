@@ -2,7 +2,7 @@
 
 This file provides guidance to AI coding agents (Claude Code, etc.) when working with code in this repository. CLAUDE.md is a symlink to this file.
 
-This repository (AGPL-3.0) is the Markdown source for the Ultralytics company handbook published at https://handbook.ultralytics.com/, covering our mission, values, onboarding, people, policies, security, and operations. It is documentation only — there is no application code.
+This repository (AGPL-3.0) is the Markdown source for the Ultralytics company handbook published at https://handbook.ultralytics.com, covering our mission, values, onboarding, people, policies, security, and operations. It is documentation only — there is no application code.
 
 ## Core Principles (CRITICAL)
 
@@ -42,7 +42,7 @@ codespell                          # spelling (Ultralytics Actions passes its ow
 
 ## Architecture
 
-This is a docs-only repository: the source for [handbook.ultralytics.com](https://handbook.ultralytics.com/), with all content as Markdown under `docs/en/` and no application code. The root `mkdocs.yml` is the transitional Zensical-compatible manifest consumed by local validation and the centralized publisher: `docs_dir: docs/en/`, `site_dir: site/`, plus navigation and metadata.
+This is a docs-only repository: the source for [handbook.ultralytics.com](https://handbook.ultralytics.com), with all content as Markdown under `docs/en/` and no application code. The root `mkdocs.yml` is the transitional Zensical-compatible manifest consumed by local validation and the centralized publisher: `docs_dir: docs/en/`, `site_dir: site/`, plus navigation and metadata.
 
 Production rendering does not run in this repository. The centralized publisher reads `mkdocs.yml` and `docs/en/` from `main`; Zensical provides a minimal local preview and strict content-validation path without production-owned site chrome.
 

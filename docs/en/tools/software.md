@@ -91,7 +91,7 @@ Once the **System Approver** approves your request, the **System Admin** will pr
 flowchart TD
 A@{ label: "Log into Vanta and navigate to <a href='https://app.vanta.com/c/ultralytics/access/systems/request'>My access requests</a> dashboard, or look up Vanta app in Slack, and Submit access request" } --> B{"Did you find the tool you need?"}:::decide
     B -- Yes --> C["Select the tool you need and request access"]:::proc
-    B -- No --> D["Follow <a href='https://handbook.ultralytics.com/tools/software/#3-software-approval-vendor-lifecycle'>New Software Approval Process</a>"]:::proc
+    B -- No --> D["Follow <a href='https://handbook.ultralytics.com/tools/software#3-software-approval-vendor-lifecycle'>New Software Approval Process</a>"]:::proc
     n3["Need access to a tool?"]:::start --> A
     C --> n4["Did the Approver approve your request?"]:::decide
     n4 -- Yes --> n1["Admin will provision you access or inform you how to gain access if the tool relies on shared credentials."]:::out

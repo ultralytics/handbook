@@ -7,7 +7,7 @@ keywords: Ultralytics handbook, employee handbook, company guide, AI handbook, Y
 
 [![Ultralytics Team](https://cdn.ul.run/i/6021a1da5cf0971632f17e25379b8a9e.avif)](https://www.ultralytics.com/blog/ultralytics-morocco-offsite-team-highlights-2026)
 
-Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your comprehensive guide to our company's mission, vision, values, and operational practices. This handbook provides essential insights and resources for team members, collaborators, and our global community.
+Welcome to the [Ultralytics](https://www.ultralytics.com) Handbook - your comprehensive guide to our company's mission, vision, values, and operational practices. This handbook provides essential insights and resources for team members, collaborators, and our global community.
 
 !!! info "Living Document"
 
@@ -195,7 +195,7 @@ Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your compr
 
     Quarterly objectives framework
 
-- :material-map: **[Product Roadmap](https://docs.ultralytics.com/)**
+- :material-map: **[Product Roadmap](https://docs.ultralytics.com)**
 
     ***
 
@@ -271,19 +271,19 @@ Welcome to the [Ultralytics](https://www.ultralytics.com/) Handbook - your compr
 
 <div class="grid cards" markdown>
 
-- :material-shield-star: **[Trust Center](https://trust.ultralytics.com/)**
+- :material-shield-star: **[Trust Center](https://trust.ultralytics.com)**
 
     ***
 
     Security documentation and certifications
 
-- :material-web: **[Ultralytics Website](https://www.ultralytics.com/)**
+- :material-web: **[Ultralytics Website](https://www.ultralytics.com)**
 
     ***
 
     Company information
 
-- :material-book: **[YOLO Documentation](https://docs.ultralytics.com/)**
+- :material-book: **[YOLO Documentation](https://docs.ultralytics.com)**
 
     ***
 

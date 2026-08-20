@@ -7,7 +7,7 @@ keywords: Ultralytics, Employee Referral, Referral Bonus, Hiring, Recruitment, T
 
 ## Overview 📌
 
-[Ultralytics](https://www.ultralytics.com/) offers a $5,000 bonus to employees who refer qualified candidates that join our team. This program helps us grow with talented individuals from employee networks.
+[Ultralytics](https://www.ultralytics.com) offers a $5,000 bonus to employees who refer qualified candidates that join our team. This program helps us grow with talented individuals from employee networks.
 
 !!! success "Referral Bonus"
 

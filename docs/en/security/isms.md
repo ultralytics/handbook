@@ -117,7 +117,7 @@ Our GRC platform (**[Vanta](https://app.vanta.com/)**) provides real-time compli
 
 !!! success "Public Commitment"
 
-    - **[Trust Center](https://trust.ultralytics.com/)**: Key security policies and procedures publicly available
+    - **[Trust Center](https://trust.ultralytics.com)**: Key security policies and procedures publicly available
     - **Compliance Attestations**: Certifications and audit reports published post-Q1 2026 audits
     - **Customer Security Reviews**: Detailed security information provided for customer due diligence
 
@@ -128,5 +128,5 @@ Our GRC platform (**[Vanta](https://app.vanta.com/)**) provides real-time compli
     | Channel | Details |
     | ------- | ------- |
     | **Email** | [security@ultralytics.com](mailto:security@ultralytics.com) |
-    | **Trust Center** | [trust.ultralytics.com](https://trust.ultralytics.com/) |
-    | **Open-Source Security Policy** | [docs.ultralytics.com/help/security/](https://docs.ultralytics.com/help/security) |
+    | **Trust Center** | [trust.ultralytics.com](https://trust.ultralytics.com) |
+    | **Open-Source Security Policy** | [docs.ultralytics.com/help/security](https://docs.ultralytics.com/help/security) |
