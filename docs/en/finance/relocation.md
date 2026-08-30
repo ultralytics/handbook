@@ -23,7 +23,7 @@ This policy applies to new hires or existing employees relocating to be near our
 
     ***
 
-    [Cra de S. Jerónimo, 15 Centro, 28014 Madrid](https://maps.app.goo.gl/nxB8YygRQeXSS9G18)
+    [Calle de las Huertas, 11, Centro, 28012 Madrid](https://maps.google.com/?q=Calle+de+las+Huertas,+11,+Centro,+28012+Madrid,+Spain)
 
 - :flag_cn: **Shenzhen, China**
 
