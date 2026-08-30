@@ -23,7 +23,7 @@ This policy applies to new hires or existing employees relocating to be near our
 
     ***
 
-    [Calle de las Huertas, 11, Centro, 28012 Madrid](https://maps.google.com/?q=Calle+de+las+Huertas,+11,+Centro,+28012+Madrid,+Spain)
+    [Calle de las Huertas, 11, Centro, 28012 Madrid](https://maps.app.goo.gl/31jgUEqTkaDBhAQx6)
 
 - :flag_cn: **Shenzhen, China**
 
