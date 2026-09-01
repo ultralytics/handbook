@@ -245,11 +245,11 @@ Welcome to the [Ultralytics](https://www.ultralytics.com) Handbook - your compre
 
     === "Technical Support"
 
-        - **Slack:** `#it-support`
+        - **Slack:** `#help-it`
 
     === "Finance"
 
-        - **Slack:** `#finance`
+        - **Slack:** `#help-finance`
         - **Questions:** Contact Finance team
 
     === "Legal"
@@ -260,12 +260,12 @@ Welcome to the [Ultralytics](https://www.ultralytics.com) Handbook - your compre
     === "Security"
 
         - **Email:** [security@ultralytics.com](mailto:security@ultralytics.com)
-        - **Slack:** `#security`
+        - **Slack:** `#compliance`
 
     === "HR"
 
         - **Contact:** Your manager or HR team
-        - **Slack:** `#hr`
+        - **Slack:** `#help-people`
 
 ### Important Resources
 

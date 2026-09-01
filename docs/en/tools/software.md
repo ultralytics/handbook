@@ -131,7 +131,7 @@ System Admins are responsible for provisioning tool access once approved. Provis
 - **Verify approval:** Confirm approval details before granting access
 - **Grant lowest privilege:** Assign the minimum necessary access unless a higher level is explicitly approved
 - **Document in Vanta:** Mark the request as ‘Provisioned’ once access is granted
-  For assistance, contact the Security & Compliance team in the **#it-support** or **#compliance** Slack channels.
+  For assistance, contact the Security & Compliance team in the **#help-it** or **#compliance** Slack channels.
 
 ## 5. Acceptable Use Policy 🛡️
 
@@ -179,7 +179,7 @@ Every employee shares the responsibility for protecting our digital assets.
 
 ### How to Get Help
 
-If you have any software-related issues, please reach out in the #it-support Slack channel.
+If you have any software-related issues, please reach out in the #help-it Slack channel.
 
 ### Service Level Agreements (SLAs)
 

@@ -70,8 +70,8 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     | Question Type | Contact |
     |--------------|---------|
-    | **IT/Technical** | `#it-support` on Slack |
-    | **Finance/Expenses** | `#finance` on Slack |
+    | **IT/Technical** | `#help-it` on Slack |
+    | **Finance/Expenses** | `#help-finance` on Slack |
     | **Legal/Compliance** | [legal@ultralytics.com](mailto:legal@ultralytics.com) or `#compliance` |
     | **Security** | [security@ultralytics.com](mailto:security@ultralytics.com) |
     | **HR/Policies** | Your manager or HR team |
@@ -205,7 +205,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     Contact **IT Support immediately**:
 
-    - **Slack**: `#it-support` channel
+    - **Slack**: `#help-it` channel
 
     Report:
 

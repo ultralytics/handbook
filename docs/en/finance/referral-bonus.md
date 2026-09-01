@@ -195,4 +195,4 @@ graph TD
     - Candidate pipeline status
 
     **Email:** Contact your HR representative
-    **Slack:** `#hr` channel
+    **Slack:** `#help-people` channel

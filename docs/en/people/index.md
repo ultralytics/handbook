@@ -199,9 +199,9 @@ Also review our [Social Media Policy](../contributions/social-media-policy.md) f
 
 ### Who to Contact
 
-- **HR Questions**: Contact your manager or the HR team in `#hr`
-- **IT/Technical**: Use the `#it-support` Slack channel
-- **Finance**: Ask in `#finance` for expenses, reimbursements, or benefits
+- **HR Questions**: Contact your manager or the HR team in `#help-people`
+- **IT/Technical**: Use the `#help-it` Slack channel
+- **Finance**: Ask in `#help-finance` for expenses, reimbursements, or benefits
 - **Legal**: [legal@ultralytics.com](mailto:legal@ultralytics.com) for contracts and compliance
 - **Security**: [security@ultralytics.com](mailto:security@ultralytics.com) for incidents
 

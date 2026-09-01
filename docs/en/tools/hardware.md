@@ -339,7 +339,7 @@ All devices must adhere to these security requirements enforced via Rippling MDM
 
 !!! danger "Report Immediately to IT Support"
 
-    **Slack:** `#it-support` channel
+    **Slack:** `#help-it` channel
 
     Report any of the following immediately:
 

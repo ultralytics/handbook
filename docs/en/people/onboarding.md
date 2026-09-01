@@ -85,7 +85,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
     - Sign up to the [Ultralytics Portal](https://portal.ultralytics.com/signin) post-Slack setup. This is your central operational hub, featuring real-time dashboards, vital onboarding steps, and critical tools.
     - Configure email signature (automated)
 
-    Need help? Post in the `#it-support` Slack channel for fastest response.
+    Need help? Post in the `#help-it` Slack channel for fastest response.
 
 === "HR Onboarding (45 min)"
 
@@ -164,7 +164,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 - [x] Read handbook: Introduction, Mission & Values, Hardware/Software policies, Development workflow
 - [x] Set up development environment and run tests successfully
 - [x] Meet your immediate team (5-10 people)
-- [x] Join key Slack channels: #general, #it-support, #your-team
+- [x] Join key Slack channels: #announcements, #help-it, and your team channel (e.g. #platform)
 - [x] Submit first PR (even if just fixing a typo in docs)
 - [x] Schedule coffee chats with 3-5 people from other teams
 - [x] Complete your Ultralytics Portal onboarding tasks (e.g., bio/social verification, AI agent enablement if applicable) and bookmark the dashboard
@@ -327,20 +327,20 @@ Work with your manager to define specific, measurable goals:
 
 ### Key Slack Channels
 
-- **#general**: Company-wide announcements and updates
-- **#it-support**: Technical issues and hardware requests
+- **#announcements**: Company-wide announcements (must-read)
+- **#help-it**: Technical issues and hardware requests
 - **#compliance**: Security and legal questions
-- **#hr**: Benefits, payroll, and people questions
-- **#finance**: Expenses, reimbursements, and budgets
+- **#help-people**: Benefits, payroll, and people questions
+- **#help-finance**: Expenses, reimbursements, and budgets
 - **#community** / **#yolo**: Product and community chatter
-- **#engineering** or **#your-team**: Your team's channel
+- **#platform** / **#design** / **#marketing**: Team channels, join the ones matching your role
 - **#random**: Casual conversation and team building
 
 ### Who to Contact
 
 - **Manager**: Day-to-day questions, project guidance, career development
-- **HR Team**: Benefits, PTO, policies, personal matters (`#hr` on Slack)
-- **IT Support**: `#it-support` on Slack
+- **HR Team**: Benefits, PTO, policies, personal matters (`#help-people` on Slack)
+- **IT Support**: `#help-it` on Slack
 - **Legal**: [legal@ultralytics.com](mailto:legal@ultralytics.com) for contracts and compliance
 - **Security**: [security@ultralytics.com](mailto:security@ultralytics.com) for incidents
 

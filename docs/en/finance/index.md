@@ -109,7 +109,7 @@ Employees are encouraged to proactively manage departmental budgets responsibly:
 
     | Question Type | Contact |
     |--------------|---------|
-    | **Reimbursement Questions** | Finance team via Slack `#finance` |
+    | **Reimbursement Questions** | Finance team via Slack `#help-finance` |
     | **Budget Questions** | Your direct manager |
     | **Policy Clarification** | Finance team |
     | **Urgent Issues** | Contact your manager immediately |

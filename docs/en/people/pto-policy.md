@@ -212,7 +212,7 @@ Count the total workdays in the planned flexible PTO request. Birthday leave is 
 
 !!! info "Take planned leave only once approved"
 
-    Employees request time off in our HRIS (Rippling). Managers will respond within 3-5 business days. If a response is time sensitive, follow up with your manager or the HR team in `#hr`. Planned flexible PTO and birthday leave can only be taken once approved in Rippling.
+    Employees request time off in our HRIS (Rippling). Managers will respond within 3-5 business days. If a response is time sensitive, follow up with your manager or the HR team in `#help-people`. Planned flexible PTO and birthday leave can only be taken once approved in Rippling.
 
 ## Coordination and Coverage 🤝
 
@@ -351,7 +351,7 @@ Exceptions may be considered for:
 
     | Question Type | Contact |
     |--------------|---------|
-    | **Policy questions** | Your manager or HR team (`#hr` on Slack) |
-    | **Rippling issues** | Post in `#it-support` on Slack |
+    | **Policy questions** | Your manager or HR team (`#help-people` on Slack) |
+    | **Rippling issues** | Post in `#help-it` on Slack |
     | **Special requests** | Your direct manager |
-    | **Country-specific rules** | HR team in `#hr` |
+    | **Country-specific rules** | HR team in `#help-people` |

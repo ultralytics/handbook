@@ -63,9 +63,9 @@ This is a summary of the most common procedures. For full details, please refer 
 
     | Question Type | Contact |
     | ------------- | ------- |
-    | **Technical issues, device setup, or security** | `#it-support` on Slack |
-    | **Purchases, reimbursements, or budgets** | Finance Team in `#finance` |
+    | **Technical issues, device setup, or security** | `#help-it` on Slack |
+    | **Purchases, reimbursements, or budgets** | Finance Team in `#help-finance` |
     | **Policy exceptions or hardware approvals** | Your direct manager |
-    | **People-related approvals** | `#hr` on Slack |
+    | **People-related approvals** | `#help-people` on Slack |
 
 This framework ensures our technology resources are managed consistently, securely, and effectively across our global organization. 🚀

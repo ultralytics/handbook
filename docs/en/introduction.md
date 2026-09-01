@@ -292,10 +292,10 @@ This handbook is never finished. As Ultralytics evolves, our processes and polic
 Questions about handbook content?
 
 - **Policy questions**: Contact your manager
-- **Finance/reimbursements**: Reach out to the Finance team in `#finance`
-- **IT/security**: Use the `#it-support` or `#security` Slack channels
+- **Finance/reimbursements**: Reach out to the Finance team in `#help-finance`
+- **IT/security**: Use the `#help-it` or `#compliance` Slack channels
 - **Legal matters**: Email [legal@ultralytics.com](mailto:legal@ultralytics.com)
-- **HR questions**: Contact the HR team in `#hr`
+- **HR questions**: Contact the HR team in `#help-people`
 
 ## Welcome! 🌟
 

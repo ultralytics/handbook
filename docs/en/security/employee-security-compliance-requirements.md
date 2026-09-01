@@ -149,7 +149,7 @@ Security regulations and threats evolve constantly. We'll keep you updated throu
 
 !!! success "Stay Alert"
 
-    Follow our `#security` and `#compliance` Slack channels for real-time updates.
+    Follow our `#compliance` Slack channel for real-time updates.
 
 ## When Employment Ends
 
@@ -203,7 +203,7 @@ Security regulations and threats evolve constantly. We'll keep you updated throu
 
         ---
 
-        `#it-support` on Slack
+        `#help-it` on Slack
 
     -   :material-scale-balance: **Legal/Compliance**
 
@@ -216,7 +216,7 @@ Security regulations and threats evolve constantly. We'll keep you updated throu
 
         ---
 
-        Contact your manager or HR team in `#hr`
+        Contact your manager or HR team in `#help-people`
 
     </div>
 
