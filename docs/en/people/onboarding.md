@@ -333,7 +333,7 @@ Work with your manager to define specific, measurable goals:
 - **#help-people**: Benefits, payroll, and people questions
 - **#help-finance**: Expenses, reimbursements, and budgets
 - **#community**: Community chatter and user questions
-- **#yolo** / **#design** / **#marketing**: Team channels — join the ones matching your role
+- **Your team channel** (e.g. **#yolo**, **#design**, **#marketing**): Ask your manager which to join
 - **#random**: Casual conversation and team building
 
 ### Who to Contact
