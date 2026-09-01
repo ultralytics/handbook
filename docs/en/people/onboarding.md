@@ -164,7 +164,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 - [x] Read handbook: Introduction, Mission & Values, Hardware/Software policies, Development workflow
 - [x] Set up development environment and run tests successfully
 - [x] Meet your immediate team (5-10 people)
-- [x] Join key Slack channels: #announcements, #help-it, and your team channel (e.g. #platform)
+- [x] Join key Slack channels: #announcements, #help-it, and your team channel (e.g. #yolo)
 - [x] Submit first PR (even if just fixing a typo in docs)
 - [x] Schedule coffee chats with 3-5 people from other teams
 - [x] Complete your Ultralytics Portal onboarding tasks (e.g., bio/social verification, AI agent enablement if applicable) and bookmark the dashboard
@@ -332,8 +332,8 @@ Work with your manager to define specific, measurable goals:
 - **#compliance**: Security and legal questions
 - **#help-people**: Benefits, payroll, and people questions
 - **#help-finance**: Expenses, reimbursements, and budgets
-- **#community** / **#yolo**: Product and community chatter
-- **#platform** / **#design** / **#marketing**: Team channels, join the ones matching your role
+- **#community**: Community chatter and user questions
+- **#yolo** / **#design** / **#marketing**: Team channels, join the ones matching your role
 - **#random**: Casual conversation and team building
 
 ### Who to Contact
