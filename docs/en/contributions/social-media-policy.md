@@ -107,7 +107,7 @@ We encourage you to connect with colleagues on social media respectfully. Always
 
 ## If You're Contacted by the Press
 
-If journalists, influencers, or media outlets contact you about Ultralytics, do **not** respond directly. Forward all requests to the **Marketing team** or message **#PR** in Slack.
+If journalists, influencers, or media outlets contact you about Ultralytics, do **not** respond directly. Forward all requests to the **Marketing team** or message **#marketing** in Slack.
 
 ## Our Shared Responsibility
 
