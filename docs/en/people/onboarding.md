@@ -374,14 +374,14 @@ Work with your manager to define specific, measurable goals:
 
 !!! success "Long-Term Success"
 
-    | Principle | Practice |
-    |-----------|----------|
-    | **Own Outcomes** | Focus on impact, not just activity |
-    | **Communicate Clearly** | Over-communicate early, especially async |
-    | **Embrace Feedback** | View critiques as growth opportunities |
-    | **Stay Curious** | Always be learning and experimenting |
-    | **Help Others** | Best way to learn is teaching |
-    | **Have Fun** | We're building the future of AI - enjoy the journey! |
+    | Principle               | Practice                                             |
+    | ----------------------- | ---------------------------------------------------- |
+    | **Own Outcomes**        | Focus on impact, not just activity                   |
+    | **Communicate Clearly** | Over-communicate early, especially async             |
+    | **Embrace Feedback**    | View critiques as growth opportunities               |
+    | **Stay Curious**        | Always be learning and experimenting                 |
+    | **Help Others**         | Best way to learn is teaching                        |
+    | **Have Fun**            | We're building the future of AI - enjoy the journey! |
 
 ## Feedback & Questions
 

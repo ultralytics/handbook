@@ -121,9 +121,9 @@ Employees traveling for business will receive a daily per diem allowance based o
 
     Ultralytics bases daily per diem rates on official U.S. government sources, adjusted to reflect our company's size and budget considerations.
 
-    | Region | Source | Ultralytics Rate |
-    |--------|--------|------------------|
-    | 🇺🇸 **CONUS** | [GSA Per Diem Rates](https://www.gsa.gov/travel/plan-book/per-diem-rates) | **75%** of official |
+    | Region        | Source                                                                       | Ultralytics Rate    |
+    | ------------- | ---------------------------------------------------------------------------- | ------------------- |
+    | 🇺🇸 **CONUS**  | [GSA Per Diem Rates](https://www.gsa.gov/travel/plan-book/per-diem-rates)    | **75%** of official |
     | 🌍 **OCONUS** | [U.S. Department of State](https://allowances.state.gov/web920/per_diem.asp) | **50%** of official |
 
     - **CONUS** = Continental United States

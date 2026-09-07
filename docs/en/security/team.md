@@ -63,11 +63,11 @@ keywords: Ultralytics security team, compliance, ISO 27001, SOC 2, GDPR, securit
 
 !!! question "Need Help?"
 
-    | Contact Type | Details |
-    | ------------ | ------- |
-    | **Security Compliance Engineers** | Kristian Sommer, Zuzana Kontrikova |
-    | **Email** | [security@ultralytics.com](mailto:security@ultralytics.com) |
-    | **Slack** | `#compliance` (internal team members only) |
+    | Contact Type                      | Details                                                     |
+    | --------------------------------- | ----------------------------------------------------------- |
+    | **Security Compliance Engineers** | Kristian Sommer, Zuzana Kontrikova                          |
+    | **Email**                         | [security@ultralytics.com](mailto:security@ultralytics.com) |
+    | **Slack**                         | `#compliance` (internal team members only)                  |
 
 ### Slack Guidelines
 

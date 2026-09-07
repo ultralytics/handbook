@@ -61,11 +61,11 @@ This is a summary of the most common procedures. For full details, please refer 
 
 !!! question "Need Help?"
 
-    | Question Type | Contact |
-    | ------------- | ------- |
-    | **Technical issues, device setup, or security** | `#help-it` on Slack |
-    | **Purchases, reimbursements, or budgets** | Finance Team in `#help-finance` |
-    | **Policy exceptions or hardware approvals** | Your direct manager |
-    | **People-related approvals** | `#help-people` on Slack |
+    | Question Type                                   | Contact                         |
+    | ----------------------------------------------- | ------------------------------- |
+    | **Technical issues, device setup, or security** | `#help-it` on Slack             |
+    | **Purchases, reimbursements, or budgets**       | Finance Team in `#help-finance` |
+    | **Policy exceptions or hardware approvals**     | Your direct manager             |
+    | **People-related approvals**                    | `#help-people` on Slack         |
 
 This framework ensures our technology resources are managed consistently, securely, and effectively across our global organization. 🚀
