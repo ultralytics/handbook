@@ -169,8 +169,8 @@ If you leave Ultralytics voluntarily within 24 months of your relocation/payment
 
     Contact the appropriate team:
 
-    | Question Type | Contact |
-    |--------------|---------|
-    | **Eligibility/Commute Check** | HR Team |
-    | **Payment Status** | Finance Team |
-    | **Tax Questions** | External tax advisor |
+    | Question Type                 | Contact              |
+    | ----------------------------- | -------------------- |
+    | **Eligibility/Commute Check** | HR Team              |
+    | **Payment Status**            | Finance Team         |
+    | **Tax Questions**             | External tax advisor |

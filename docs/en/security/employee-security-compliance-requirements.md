@@ -75,19 +75,19 @@ timeline
 
 === "General (All Employees)"
 
-    | Training Module | Duration | Platform |
-    |----------------|----------|----------|
-    | **CCPA Training** | 30 min | Vanta |
-    | **GDPR Training** | 30 min | Vanta |
-    | **General Security Awareness** | 45 min | Vanta |
+    | Training Module                | Duration | Platform |
+    | ------------------------------ | -------- | -------- |
+    | **CCPA Training**              | 30 min   | Vanta    |
+    | **GDPR Training**              | 30 min   | Vanta    |
+    | **General Security Awareness** | 45 min   | Vanta    |
 
     *California privacy law basics and European data protection requirements*
 
 === "Engineering Teams"
 
-    | Training Module | Duration | Platform |
-    |----------------|----------|----------|
-    | **Secure Code Training** | 60 min | Vanta |
+    | Training Module          | Duration | Platform |
+    | ------------------------ | -------- | -------- |
+    | **Secure Code Training** | 60 min   | Vanta    |
 
     *YOLO and Platform teams only: Identifying and preventing security vulnerabilities using OWASP standards*
 

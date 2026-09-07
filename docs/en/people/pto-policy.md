@@ -349,9 +349,9 @@ Exceptions may be considered for:
 
 !!! question "Need Help with PTO?"
 
-    | Question Type | Contact |
-    |--------------|---------|
-    | **Policy questions** | Your manager or HR team (`#help-people` on Slack) |
-    | **Rippling issues** | Post in `#help-it` on Slack |
-    | **Special requests** | Your direct manager |
-    | **Country-specific rules** | HR team in `#help-people` |
+    | Question Type              | Contact                                           |
+    | -------------------------- | ------------------------------------------------- |
+    | **Policy questions**       | Your manager or HR team (`#help-people` on Slack) |
+    | **Rippling issues**        | Post in `#help-it` on Slack                       |
+    | **Special requests**       | Your direct manager                               |
+    | **Country-specific rules** | HR team in `#help-people`                         |

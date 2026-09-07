@@ -105,9 +105,9 @@ graph TD
 
 !!! info "Audit Schedule"
 
-    | Activity | Target |
-    | -------- | ------ |
-    | Regular risk assessments & internal reviews | Ongoing |
+    | Activity                                     | Target  |
+    | -------------------------------------------- | ------- |
+    | Regular risk assessments & internal reviews  | Ongoing |
     | SOC 2 Type I & ISO 27001 audit (independent) | Q1 2026 |
     | SOC 2 Type II & ISO 27001 surveillance audit | Q1 2027 |
 
@@ -125,8 +125,8 @@ Our GRC platform (**[Vanta](https://app.vanta.com/)**) provides real-time compli
 
 !!! question "Security Inquiries"
 
-    | Channel | Details |
-    | ------- | ------- |
-    | **Email** | [security@ultralytics.com](mailto:security@ultralytics.com) |
-    | **Trust Center** | [trust.ultralytics.com](https://trust.ultralytics.com) |
+    | Channel                         | Details                                                                          |
+    | ------------------------------- | -------------------------------------------------------------------------------- |
+    | **Email**                       | [security@ultralytics.com](mailto:security@ultralytics.com)                      |
+    | **Trust Center**                | [trust.ultralytics.com](https://trust.ultralytics.com)                           |
     | **Open-Source Security Policy** | [docs.ultralytics.com/help/security](https://docs.ultralytics.com/help/security) |

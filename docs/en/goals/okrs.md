@@ -11,11 +11,11 @@ keywords: Ultralytics OKRs, objectives and key results, goal setting, performanc
 
     OKRs (Objectives and Key Results) are our framework for aligning teams and measuring progress. Used by Google, Intel, and leading startups, OKRs keep everyone focused on what matters most.
 
-    | Component | Description |
-    | --------- | ----------- |
-    | **Objectives** | Qualitative, ambitious goals describing *what* we want to achieve |
+    | Component       | Description                                                               |
+    | --------------- | ------------------------------------------------------------------------- |
+    | **Objectives**  | Qualitative, ambitious goals describing *what* we want to achieve         |
     | **Key Results** | 3–5 quantitative, time-bound metrics measuring progress toward objectives |
-    | **Initiatives** | The specific projects and tasks executed to achieve key results |
+    | **Initiatives** | The specific projects and tasks executed to achieve key results           |
 
 ## OKR Structure
 
@@ -69,15 +69,15 @@ graph LR
 
 !!! tip "OKR Design Principles"
 
-    | Principle | Guidance |
-    | --------- | -------- |
-    | **Ambitious but Achievable** | Target 70–80% achievement — hitting 100% means targets weren't bold enough |
-    | **Measurable** | Clear numeric targets (e.g., "Increase PyPI downloads from 500K to 1M/month") or binary outcomes |
-    | **Time-bound** | Specific deadlines within the quarter (typically 13 weeks) |
-    | **Aligned** | Cascade from company → team → individual goals |
-    | **Focused** | 3–5 objectives per level maximum, with 3–5 key results each |
-    | **Inspiring** | Everyone should understand *why* the OKR matters |
-    | **Transparent** | All OKRs visible company-wide for cross-functional alignment |
+    | Principle                    | Guidance                                                                                         |
+    | ---------------------------- | ------------------------------------------------------------------------------------------------ |
+    | **Ambitious but Achievable** | Target 70–80% achievement — hitting 100% means targets weren't bold enough                       |
+    | **Measurable**               | Clear numeric targets (e.g., "Increase PyPI downloads from 500K to 1M/month") or binary outcomes |
+    | **Time-bound**               | Specific deadlines within the quarter (typically 13 weeks)                                       |
+    | **Aligned**                  | Cascade from company → team → individual goals                                                   |
+    | **Focused**                  | 3–5 objectives per level maximum, with 3–5 key results each                                      |
+    | **Inspiring**                | Everyone should understand *why* the OKR matters                                                 |
+    | **Transparent**              | All OKRs visible company-wide for cross-functional alignment                                     |
 
 ### Grading Scale
 
@@ -96,27 +96,27 @@ graph LR
 
 !!! warning "OKR Anti-Patterns"
 
-    | Pitfall | Why It Fails |
-    | ------- | ------------ |
-    | **Too Many OKRs** | More than 5 objectives dilutes focus — prioritize ruthlessly |
-    | **Sandbagging** | Setting easily achievable targets to guarantee success |
-    | **Task Lists** | Confusing OKRs with project plans ("Launch feature X" vs. "Increase user engagement by 50%") |
-    | **Infrequent Check-ins** | Waiting until quarter-end to review progress |
-    | **Lack of Ownership** | OKRs without clear owners and accountability |
-    | **No Mid-Quarter Adjustments** | Being too rigid when priorities shift |
-    | **OKRs as Performance Reviews** | OKRs measure team progress, not individual performance |
+    | Pitfall                         | Why It Fails                                                                                 |
+    | ------------------------------- | -------------------------------------------------------------------------------------------- |
+    | **Too Many OKRs**               | More than 5 objectives dilutes focus — prioritize ruthlessly                                 |
+    | **Sandbagging**                 | Setting easily achievable targets to guarantee success                                       |
+    | **Task Lists**                  | Confusing OKRs with project plans ("Launch feature X" vs. "Increase user engagement by 50%") |
+    | **Infrequent Check-ins**        | Waiting until quarter-end to review progress                                                 |
+    | **Lack of Ownership**           | OKRs without clear owners and accountability                                                 |
+    | **No Mid-Quarter Adjustments**  | Being too rigid when priorities shift                                                        |
+    | **OKRs as Performance Reviews** | OKRs measure team progress, not individual performance                                       |
 
 ## Transparency & Visibility
 
 !!! success "OKRs Are Visible Company-Wide"
 
-    | Level | Where | Cadence |
-    | ----- | ----- | ------- |
-    | **Company OKRs** | All-hands, Slack | Monthly review |
-    | **Team OKRs** | Notion/Linear workspace | Standups |
-    | **Individual OKRs** | 1:1s with manager | Weekly |
-    | **Real-Time Progress** | Live dashboards | Continuous |
-    | **Public Metrics** | GitHub stars, PyPI downloads | Ongoing |
+    | Level                  | Where                        | Cadence        |
+    | ---------------------- | ---------------------------- | -------------- |
+    | **Company OKRs**       | All-hands, Slack             | Monthly review |
+    | **Team OKRs**          | Notion/Linear workspace      | Standups       |
+    | **Individual OKRs**    | 1:1s with manager            | Weekly         |
+    | **Real-Time Progress** | Live dashboards              | Continuous     |
+    | **Public Metrics**     | GitHub stars, PyPI downloads | Ongoing        |
 
     Transparency drives accountability and enables cross-functional collaboration.
 

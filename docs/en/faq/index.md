@@ -68,14 +68,14 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
 ??? question "Who do I contact for different types of questions?"
 
-    | Question Type | Contact |
-    |--------------|---------|
-    | **IT/Technical** | `#help-it` on Slack |
-    | **Finance/Expenses** | `#help-finance` on Slack |
-    | **Legal/Compliance** | [legal@ultralytics.com](mailto:legal@ultralytics.com) or `#compliance` |
-    | **Security** | [security@ultralytics.com](mailto:security@ultralytics.com) |
-    | **HR/Policies** | Your manager or HR team |
-    | **General Questions** | Your direct manager |
+    | Question Type         | Contact                                                                |
+    | --------------------- | ---------------------------------------------------------------------- |
+    | **IT/Technical**      | `#help-it` on Slack                                                    |
+    | **Finance/Expenses**  | `#help-finance` on Slack                                               |
+    | **Legal/Compliance**  | [legal@ultralytics.com](mailto:legal@ultralytics.com) or `#compliance` |
+    | **Security**          | [security@ultralytics.com](mailto:security@ultralytics.com)            |
+    | **HR/Policies**       | Your manager or HR team                                                |
+    | **General Questions** | Your direct manager                                                    |
 
 ## Finance & Expenses 💰
 
@@ -249,13 +249,13 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
 ??? question "What are the coding standards?"
 
-    | Standard | Requirement |
-    |----------|-------------|
-    | **Line Width** | 120 characters maximum |
-    | **Docstrings** | Google-style with types |
-    | **Imports** | Use `pathlib` over `os` |
-    | **Functions** | Keep short and focused |
-    | **Testing** | All PRs must pass CI tests |
+    | Standard       | Requirement                |
+    | -------------- | -------------------------- |
+    | **Line Width** | 120 characters maximum     |
+    | **Docstrings** | Google-style with types    |
+    | **Imports**    | Use `pathlib` over `os`    |
+    | **Functions**  | Keep short and focused     |
+    | **Testing**    | All PRs must pass CI tests |
 
     See [Development Workflow](../workflows/development.md) for complete standards.
 
@@ -283,10 +283,10 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     - :material-calendar: All official public holidays in your country
     - :material-medical-bag: Unlimited sick leave as needed
 
-    | Benefit | Details |
-    |---------|---------|
-    | **Allocation** | Full from day one |
-    | **Rollover** | Up to 10 days (35 day max balance) |
+    | Benefit          | Details                                    |
+    | ---------------- | ------------------------------------------ |
+    | **Allocation**   | Full from day one                          |
+    | **Rollover**     | Up to 10 days (35 day max balance)         |
     | **Tenure Bonus** | +1 day every 2 years (up to 30 days total) |
 
     See [PTO Policy](../people/pto-policy.md).
@@ -303,10 +303,10 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     Eligible employees relocating to hub cities receive:
 
-    | Benefit | Amount | Requirements |
-    |---------|--------|--------------|
-    | **Payment** | $10,000 flat one-time | 30-min commute to hub |
-    | **Cities** | Madrid, London, Shenzhen | Pre-approval required |
+    | Benefit      | Amount                          | Requirements                   |
+    | ------------ | ------------------------------- | ------------------------------ |
+    | **Payment**  | $10,000 flat one-time           | 30-min commute to hub          |
+    | **Cities**   | Madrid, London, Shenzhen        | Pre-approval required          |
     | **Clawback** | 100% (0–12 mo) / 50% (12–24 mo) | Applies on voluntary departure |
 
     See [Relocation Policy](../finance/relocation.md) for eligibility.
@@ -404,13 +404,13 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     **Current strategic priorities:**
 
-    | Focus Area | Goals |
-    |-----------|-------|
-    | **Product Excellence** | YOLO leadership, best-in-class performance |
-    | **Community Growth** | 1M+ monthly downloads, 50K+ Discord members |
-    | **Business Development** | Scale commercial licensing, expand customer base |
+    | Focus Area                    | Goals                                               |
+    | ----------------------------- | --------------------------------------------------- |
+    | **Product Excellence**        | YOLO leadership, best-in-class performance          |
+    | **Community Growth**          | 1M+ monthly downloads, 50K+ Discord members         |
+    | **Business Development**      | Scale commercial licensing, expand customer base    |
     | **Platform & Infrastructure** | Advance Platform capabilities, achieve 99.9% uptime |
-    | **Security & Compliance** | Complete SOC 2 and ISO 27001 certifications |
+    | **Security & Compliance**     | Complete SOC 2 and ISO 27001 certifications         |
 
     See [Company Goals](../goals/company-goals.md) for complete KPIs.
 

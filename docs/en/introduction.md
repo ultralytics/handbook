@@ -217,13 +217,13 @@ Ultralytics is an AI-first company. We expect everyone to default to AI assistan
 
     Grow faster at Ultralytics than anywhere else:
 
-    | Opportunity | Details |
-    |-------------|----------|
-    | **Direct Access** | Work with founders and technical leaders |
-    | **Ownership** | Significant projects with high visibility |
-    | **Learning Budget** | Courses, books, conference attendance |
-    | **Mentorship** | World-class AI researchers and engineers |
-    | **Career Path** | Clear paths to senior and leadership roles |
+    | Opportunity         | Details                                    |
+    | ------------------- | ------------------------------------------ |
+    | **Direct Access**   | Work with founders and technical leaders   |
+    | **Ownership**       | Significant projects with high visibility  |
+    | **Learning Budget** | Courses, books, conference attendance      |
+    | **Mentorship**      | World-class AI researchers and engineers   |
+    | **Career Path**     | Clear paths to senior and leadership roles |
 
 === "Compensation"
 

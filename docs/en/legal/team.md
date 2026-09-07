@@ -75,11 +75,11 @@ keywords: Ultralytics legal team, corporate compliance, employment law, intellec
 
 !!! question "Reach the Legal Team"
 
-    | Channel | Details |
-    | ------- | ------- |
-    | **Email** | [legal@ultralytics.com](mailto:legal@ultralytics.com) |
-    | **Slack** | `#compliance` (tag `@legal-team` for same-day response) |
-    | **Sales/Contracts** | `#sales` channel for contract reviews |
+    | Channel             | Details                                                 |
+    | ------------------- | ------------------------------------------------------- |
+    | **Email**           | [legal@ultralytics.com](mailto:legal@ultralytics.com)   |
+    | **Slack**           | `#compliance` (tag `@legal-team` for same-day response) |
+    | **Sales/Contracts** | `#sales` channel for contract reviews                   |
 
 ### Priority Response (Same-Day)
 
@@ -110,9 +110,9 @@ keywords: Ultralytics legal team, corporate compliance, employment law, intellec
 
     We encourage open communication. If you need to raise a sensitive issue confidentially:
 
-    | Channel | Details |
-    | ------- | ------- |
+    | Channel            | Details                                                                                                                      |
+    | ------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
     | **Anonymous Form** | [Google Form Reporting](https://docs.google.com/forms/d/e/1FAIpQLSdXE24kB5975eZZBJ_0t1E-w7TKlTCUFYpm_MvccXi9qvwJtQ/viewform) |
-    | **By Post** | Judicial Way, Frederick, MD 21703, United States |
+    | **By Post**        | Judicial Way, Frederick, MD 21703, United States                                                                             |
 
     All reports are confidential and **protected from retaliation**.
