@@ -355,7 +355,7 @@ def example_small_function(arg1: int, arg2: int = 4) -> bool:
 
 ## Security Frameworks 🛡️
 
-Ultralytics engineering practices should align with recognized secure development guidance, including [OWASP Secure Software Development Lifecycle](https://owasp.org/www-project-samm/), [OWASP Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/), and [OWASP Top 10](https://owasp.org/www-project-top-ten/). Teams should use these references when planning secure design, review, testing, and remediation work.
+Ultralytics engineering practices should align with recognized secure development guidance, including [OWASP Secure Software Development Lifecycle](https://owasp.org/projects/samm), [OWASP Application Security Verification Standard](https://owasp.org/projects/asvs), and [OWASP Top 10](https://owasp.org/projects/top-ten). Teams should use these references when planning secure design, review, testing, and remediation work.
 
 ## Asset Management 🗂️
 
