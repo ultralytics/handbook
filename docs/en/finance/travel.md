@@ -195,7 +195,7 @@ Employees traveling for business will receive a daily per diem allowance based o
     - Upload clear photos or PDFs
     - Include itemized details
     - Submit before the monthly reimbursement cutoff when possible
-    - Use Rippling expense management system
+    - Once manager-approved, submit by email to the finance team
 
 ## Exceptions ⚠️
 
