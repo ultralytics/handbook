@@ -161,7 +161,7 @@ See [Travel Policy](../finance/travel.md) for per diem rates by city.
 
 ### Relocation
 
-Eligible employees relocating to hub cities (Madrid, London, Shenzhen):
+Eligible employees relocating to hub cities (Madrid, London, Shenzhen, New York):
 
 - **$10,000 flat one-time payment**
 - Pre-approval required; 30-minute commute to hub required

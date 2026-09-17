@@ -9,7 +9,7 @@ keywords: Ultralytics, Employee Relocation, Relocation Policy, Proximity Package
 
 We want you to love where you live and work. Long commutes drain energy that could be spent on innovation (or life!). To keep our High-Resolution Hybrid model humming, we need you close enough to collaborate at full bandwidth on Anchor Days (Tue/Wed/Thu). To encourage you to live near our vibrant hubs, we offer a **Proximity Relocation Package**.
 
-This policy applies to new hires or existing employees relocating to be near our London, Madrid, or Shenzhen offices.
+This policy applies to new hires or existing employees relocating to be near our London, Madrid, Shenzhen, or New York offices.
 
 !!! info "Quick Summary"
 
@@ -36,6 +36,12 @@ This policy applies to new hires or existing employees relocating to be near our
     ***
 
     [50 York Way, London N1 9AB](https://maps.app.goo.gl/9sdE3KrQVwc2shb86)
+
+- :flag_us: **New York, USA**
+
+    ***
+
+    [Industrious, 386 Park Ave S, Units 1818 + 1819, New York, NY 10016, USA](https://maps.google.com/?q=Industrious,+386+Park+Ave+S,+New+York,+NY+10016,+USA)
 
 </div>
 

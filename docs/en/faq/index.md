@@ -51,7 +51,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
 ??? question "Are all positions onsite?"
 
-    We operate a **High-Resolution Hybrid** model. If you live within commutable distance of our London, Madrid, or Shenzhen hubs, you are expected to be **onsite every Tuesday, Wednesday, and Thursday**.
+    We operate a **High-Resolution Hybrid** model. If you live within commutable distance of our London, Madrid, Shenzhen, or New York hubs, you are expected to be **onsite every Tuesday, Wednesday, and Thursday**.
 
     :material-dog: **All our offices are dog-friendly!**
 
@@ -306,7 +306,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     | Benefit      | Amount                          | Requirements                   |
     | ------------ | ------------------------------- | ------------------------------ |
     | **Payment**  | $10,000 flat one-time           | 30-min commute to hub          |
-    | **Cities**   | Madrid, London, Shenzhen        | Pre-approval required          |
+    | **Cities**   | Madrid, London, Shenzhen, New York | Pre-approval required          |
     | **Clawback** | 100% (0–12 mo) / 50% (12–24 mo) | Applies on voluntary departure |
 
     See [Relocation Policy](../finance/relocation.md) for eligibility.

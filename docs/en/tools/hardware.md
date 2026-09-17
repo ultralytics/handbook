@@ -84,7 +84,7 @@ timeline
 
 !!! info "Standard Process - High-Resolution Hybrid"
 
-    Ultralytics runs on **Anchor Days (Tue/Wed/Thu)** for anyone within commutable distance of our London, Madrid, or Shenzhen offices. Plan to badge in and collaborate in person on those days; Mondays/Fridays flex around focused execution.
+    Ultralytics runs on **Anchor Days (Tue/Wed/Thu)** for anyone within commutable distance of our London, Madrid, Shenzhen, or New York offices. Plan to badge in and collaborate in person on those days; Mondays/Fridays flex around focused execution.
 
 **Your manager will coordinate with IT to have equipment ready at your office on your first day.** Equipment includes your computer, all accessories, and a fully set up workspace ready when you arrive - just plug in and start working!
 
