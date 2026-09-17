@@ -192,7 +192,7 @@ Ultralytics is an AI-first company. We expect everyone to default to AI assistan
 
 ## Daily Operations ⚙️
 
-- **Anchor Days (Tue/Wed/Thu):** Mandatory in-office presence for anyone within commutable distance of our London, Madrid, or Shenzhen hubs. We expect synchronous, in-person collaboration during local business hours on these days.
+- **Anchor Days (Tue/Wed/Thu):** Mandatory in-office presence for anyone within commutable distance of our London, Madrid, Shenzhen, or New York hubs. We expect synchronous, in-person collaboration during local business hours on these days.
 - **Commutable Distance:** If you can reliably travel to and from a hub on Anchor Days, you are considered commutable and must be onsite; managers escalate edge cases but default to in-office attendance.
 - **Working Rhythm:** Anchor Days prioritize high-bandwidth sessions—design reviews, pair debugging, roadmap alignment—while Mondays/Fridays optimize for heads-down execution and async coordination.
 - **Verification & Performance:** Badge swipes are monitored for consistency; sustained Anchor Day participation is a prerequisite for meeting expectations and promotion eligibility.

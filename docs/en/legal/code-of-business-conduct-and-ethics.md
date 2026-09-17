@@ -7,7 +7,7 @@ keywords: Ultralytics code of conduct, business ethics, anti-corruption, data pr
 
 ## About This Code 📌
 
-Ultralytics operates globally with offices in London, Madrid, and Shenzhen. We run a **High-Resolution Hybrid** model: team members within commutable distance badge in on **Anchor Days (Tue/Wed/Thu)** to collaborate at full bandwidth, with badge data reviewed to keep workplaces safe, recognize consistent presence, and always handled per our Employee Privacy Policy and applicable labor laws. This Code of Business Conduct and Ethics ensures everyone understands their responsibilities and maintains our high standards, regardless of location.
+Ultralytics operates globally with offices in London, Madrid, Shenzhen, and New York. We run a **High-Resolution Hybrid** model: team members within commutable distance badge in on **Anchor Days (Tue/Wed/Thu)** to collaborate at full bandwidth, with badge data reviewed to keep workplaces safe, recognize consistent presence, and always handled per our Employee Privacy Policy and applicable labor laws. This Code of Business Conduct and Ethics ensures everyone understands their responsibilities and maintains our high standards, regardless of location.
 
 !!! info "Related Policies"
 
