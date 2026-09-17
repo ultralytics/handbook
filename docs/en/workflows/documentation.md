@@ -62,6 +62,7 @@ results = model("image.jpg")
 - Use bullet points for lists
 - Keep paragraphs short
 - Include links to related pages
+````
 
 ### Code Examples
 
@@ -79,7 +80,6 @@ model = YOLO("yolo26n.pt")
 # Train on custom data
 results = model.train(data="coco8.yaml", epochs=3)
 ```
-````
 
 ### Images and Media
 
@@ -111,18 +111,7 @@ Visit `http://127.0.0.1:8000` to preview.
 
 ### Zensical Configuration
 
-The repositories currently use a transitional, Zensical-compatible `mkdocs.yml` manifest:
-
-```yaml
-site_name: Ultralytics Docs
-theme:
-    name: material
-    palette:
-        - scheme: slate
-plugins:
-    - search
-    - ultralytics
-```
+The repositories use a transitional, Zensical-compatible `mkdocs.yml` manifest. For this repository's current configuration, see the root [`mkdocs.yml`](https://github.com/ultralytics/handbook/blob/main/mkdocs.yml).
 
 ## API Documentation 📖
 
