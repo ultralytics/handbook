@@ -142,7 +142,7 @@ import pytest
 def test_full_training():
     """Test full training run (slow)."""
     model = YOLO("yolo26n.pt")
-    model.train(data="coco8.yaml", epochs=1)
+    model.train(data="coco128.yaml", epochs=1)
 ```
 
 ## Code Quality Checks 🎯
