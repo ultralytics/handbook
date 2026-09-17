@@ -157,7 +157,7 @@ Employees earn additional PTO days based on length of service:
 
     === "🇪🇸 Spain"
 
-        [BOE Calendar](https://www.boe.es/diario_boe/calendarios.php) - Official State Gazette (Boletín Official del Estado)
+        [BOE Calendar](https://www.boe.es/diario_boe/calendarios.php) - Official State Gazette (Boletín Oficial del Estado)
 
         **Madrid:** [City Holidays](https://app.powerbi.com/view?r=eyJrIjoiMWE4ZGU0ZmMtNTI1NC00NWRjLTk3NWYtNTAyMzAwZTI3NDdmIiwidCI6ImI0NTMyYWE2LTE4OTUtNDk2NC1iOWMwLTIyYjE0NDQ0MjcxYiIsImMiOjl9) - Official Madrid city holidays
 

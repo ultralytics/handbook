@@ -205,14 +205,14 @@ Feel free to reach out to team members for guidance:
 | Altaïr Kabunda-Margalet | [altair-jpg](https://github.com/altair-jpg)                           |
 | Anastasiia Khrapal      | [nastijakh](https://github.com/nastijakh)                             |
 | Anthony Evans           | [antevansultralytics](https://github.com/antevansultralytics)         |
-| Antonina Poludena       | [Antonina2111](https://github.com/Antonina2111)                       |
+| Antonina Poludenna      | [Antonina2111](https://github.com/Antonina2111)                       |
 | Craig Johnston          | [craigjohnston1](https://github.com/craigjohnston1)                   |
 | Darin Kabashi           | [darin-k](https://github.com/darin-k)                                 |
 | Ed Crook                | [ed-yolo](https://github.com/ed-yolo)                                 |
 | Esat Kalfaoglu          | [artest08](https://github.com/artest08)                               |
 | Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                                 |
 | Francesco Mattioli      | [ambitious-octopus](https://github.com/ambitious-octopus)             |
-| Giovanni Dal Zillio     | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)           |
+| Giovanni Dal Zilio      | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)           |
 | Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)                       |
 | Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)                       |
 | Irene Calatrava         | [icalatrava](https://github.com/icalatrava)                           |

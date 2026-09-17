@@ -113,6 +113,6 @@ keywords: Ultralytics legal team, corporate compliance, employment law, intellec
     | Channel            | Details                                                                                                                      |
     | ------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
     | **Anonymous Form** | [Google Form Reporting](https://docs.google.com/forms/d/e/1FAIpQLSdXE24kB5975eZZBJ_0t1E-w7TKlTCUFYpm_MvccXi9qvwJtQ/viewform) |
-    | **By Post**        | Judicial Way, Frederick, MD 21703, United States                                                                             |
+    | **By Post**        | 5001 Judicial Way, Frederick, MD 21703, United States                                                                        |
 
     All reports are confidential and **protected from retaliation**.
