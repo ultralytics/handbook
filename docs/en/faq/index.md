@@ -303,11 +303,11 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     Eligible employees relocating to hub cities receive:
 
-    | Benefit      | Amount                          | Requirements                   |
-    | ------------ | ------------------------------- | ------------------------------ |
-    | **Payment**  | $10,000 flat one-time           | 30-min commute to hub          |
+    | Benefit      | Amount                             | Requirements                   |
+    | ------------ | ---------------------------------- | ------------------------------ |
+    | **Payment**  | $10,000 flat one-time              | 30-min commute to hub          |
     | **Cities**   | Madrid, London, Shenzhen, New York | Pre-approval required          |
-    | **Clawback** | 100% (0–12 mo) / 50% (12–24 mo) | Applies on voluntary departure |
+    | **Clawback** | 100% (0–12 mo) / 50% (12–24 mo)    | Applies on voluntary departure |
 
     See [Relocation Policy](../finance/relocation.md) for eligibility.
 
