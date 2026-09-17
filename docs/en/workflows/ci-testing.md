@@ -23,7 +23,7 @@ Validates deployment using Docker, ensuring Dockerfile and related scripts work 
 
 Scans codebase for broken or dead links in markdown and HTML files.
 
-### [CodeQL Analysis](https://github.com/ultralytics/ultralytics/actions/workflows/codeql.yaml)
+### [CodeQL Analysis](https://github.com/ultralytics/ultralytics/actions/workflows/github-code-scanning/codeql)
 
 GitHub's semantic analysis tool for finding potential security vulnerabilities and maintaining code quality.
 
@@ -36,7 +36,7 @@ Validates project can be packaged and published to PyPI without errors.
 Tests run on multiple environments:
 
 - **OS**: Ubuntu, Windows, macOS
-- **Python**: 3.8, 3.9, 3.10, 3.11, 3.12
+- **Python**: 3.13 for the primary matrix, plus 3.8-3.12 compatibility jobs
 
 ## Code Coverage 📊
 
@@ -78,13 +78,13 @@ pytest tests/
 pytest tests/test_engine.py
 
 # Single test function
-pytest tests/test_engine.py::test_train
+pytest tests/test_engine.py::test_export
 
 # Tests matching pattern
 pytest -k "export"
 
 # Slow tests only
-pytest -m slow
+pytest --slow -m slow
 ```
 
 ### Run with Coverage
@@ -130,14 +130,7 @@ def test_model_export():
 
 ### Test Organization
 
-```
-tests/
-├── test_engine.py      # Training, validation, prediction
-├── test_nn.py          # Model architecture
-├── test_data.py        # Dataset handling
-├── test_utils.py       # Utility functions
-└── test_exports.py     # Export formats
-```
+See the upstream [tests directory](https://github.com/ultralytics/ultralytics/tree/main/tests) for the current test organization.
 
 ### Test Markers
 
