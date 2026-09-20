@@ -105,11 +105,11 @@ graph TD
 
 !!! info "Audit Schedule"
 
-    | Activity                                     | Status               |
-    | -------------------------------------------- | -------------------- |
-    | Regular risk assessments & internal reviews  | Ongoing              |
-    | SOC 2 Type I & ISO 27001 audit (independent) | Completed            |
-    | SOC 2 Type II & ISO 27001 surveillance audit | Targeted for Q1 2027 |
+    | Activity                                     | Status / Target |
+    | -------------------------------------------- | --------------- |
+    | Regular risk assessments & internal reviews  | Ongoing         |
+    | SOC 2 Type I & ISO 27001 audit (independent) | Completed       |
+    | SOC 2 Type II & ISO 27001 surveillance audit | Q1 2027         |
 
 Our GRC platform (**[Vanta](https://app.vanta.com/)**) provides real-time compliance monitoring and evidence collection across all security controls.
 
