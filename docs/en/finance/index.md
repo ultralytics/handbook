@@ -36,7 +36,7 @@ High-value employees approved for relocation to designated hub cities may be eli
 !!! success "Relocation Benefits"
 
     - **Compensation:** $10,000 flat one-time payment
-    - **Eligible Cities:** Madrid, London, or Shenzhen
+    - **Eligible Cities:** Madrid, London, Shenzhen, or New York
     - **Clawback:** 24-month repayment schedule applies
 
 ## Referral Bonus 🤝
