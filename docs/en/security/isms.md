@@ -26,7 +26,7 @@ keywords: Ultralytics ISMS, information security, ISO 27001, SOC 2, data protect
 
     ***
 
-    Working toward SOC 2 Type I (Q1 2026) and Type II (Q1 2027) compliance, providing independent verification of our security controls for service organizations.
+    SOC 2 Type I attested and ISO/IEC 27001:2022 certified, providing independent verification of our security controls. SOC 2 Type II and the ISO 27001 surveillance audit are targeted for Q1 2027.
 
 - :material-refresh: **Continuous Improvement**
 
@@ -105,11 +105,11 @@ graph TD
 
 !!! info "Audit Schedule"
 
-    | Activity                                     | Target  |
-    | -------------------------------------------- | ------- |
-    | Regular risk assessments & internal reviews  | Ongoing |
-    | SOC 2 Type I & ISO 27001 audit (independent) | Q1 2026 |
-    | SOC 2 Type II & ISO 27001 surveillance audit | Q1 2027 |
+    | Activity                                     | Status / Target |
+    | -------------------------------------------- | --------------- |
+    | Regular risk assessments & internal reviews  | Ongoing         |
+    | SOC 2 Type I & ISO 27001 audit (independent) | Completed       |
+    | SOC 2 Type II & ISO 27001 surveillance audit | Q1 2027         |
 
 Our GRC platform (**[Vanta](https://app.vanta.com/)**) provides real-time compliance monitoring and evidence collection across all security controls.
 
@@ -118,7 +118,7 @@ Our GRC platform (**[Vanta](https://app.vanta.com/)**) provides real-time compli
 !!! success "Public Commitment"
 
     - **[Trust Center](https://trust.ultralytics.com)**: Key security policies and procedures publicly available
-    - **Compliance Attestations**: Certifications and audit reports published post-Q1 2026 audits
+    - **Compliance Attestations**: SOC 2 report and ISO 27001 certificate available through the Trust Center
     - **Customer Security Reviews**: Detailed security information provided for customer due diligence
 
 ## Contact & Resources

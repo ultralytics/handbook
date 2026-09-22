@@ -404,13 +404,13 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     **Current strategic priorities:**
 
-    | Focus Area                    | Goals                                               |
-    | ----------------------------- | --------------------------------------------------- |
-    | **Product Excellence**        | YOLO leadership, best-in-class performance          |
-    | **Community Growth**          | 1M+ monthly downloads, 50K+ Discord members         |
-    | **Business Development**      | Scale commercial licensing, expand customer base    |
-    | **Platform & Infrastructure** | Advance Platform capabilities, achieve 99.9% uptime |
-    | **Security & Compliance**     | Complete SOC 2 and ISO 27001 certifications         |
+    | Focus Area                    | Goals                                                                       |
+    | ----------------------------- | --------------------------------------------------------------------------- |
+    | **Product Excellence**        | YOLO leadership, best-in-class performance                                  |
+    | **Community Growth**          | 1M+ monthly downloads, 50K+ Discord members                                 |
+    | **Business Development**      | Scale commercial licensing, expand customer base                            |
+    | **Platform & Infrastructure** | Advance Platform capabilities, achieve 99.9% uptime                         |
+    | **Security & Compliance**     | Maintain SOC 2 and ISO 27001; complete SOC 2 Type II and surveillance audit |
 
     See [Company Goals](../goals/company-goals.md) for complete KPIs.
 
