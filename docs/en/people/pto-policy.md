@@ -267,9 +267,10 @@ Count the total workdays in the planned flexible PTO request. Birthday leave is 
 
     === "No Payout"
 
-        - PTO does **not pay out** upon termination
+        - We do not offer buy back or pay out of unused PTO
         - Unused PTO is **forfeited** at year-end beyond rollover limits
         - Plan to use your time throughout the year!
+        - Unused, accrued PTO will be paid out on termination as required by local regulations
 
 ### Exceptions to Rollover Limits
 
