@@ -84,36 +84,41 @@ graph TD
         - Alcohol
         - Entertainment
 
-Employees traveling for business will receive a daily per diem allowance based on their destination. The following rates are reviewed annually and updated when Finance publishes a new schedule:
+Employees traveling for business will receive a daily per diem allowance based on their destination. All amounts below are in USD, verified on September 24, 2026 against the September 1, 2026 [U.S. Department of State schedule](https://allowances.state.gov/web920/per_diem.asp) and [GSA FY 2026 rates](https://www.gsa.gov/system/files/FY2026_PerDiemMasterRatesFile.xlsx) (October 1, 2025–September 30, 2026). The company adjustments below are already applied. U.S. lodging allowances use the rates applicable in September 2026; Finance reviews and updates this schedule annually.
 
 | Country               | City          | Lodging | M&IE   | Total Per Diem |
 | --------------------- | ------------- | ------- | ------ | -------------- |
-| **China 🇨🇳**          | Beijing       | $123.50 | $69.00 | $192.50        |
-|                       | Shanghai      | $187.50 | $80.00 | $267.50        |
-|                       | Shenzhen      | $115.00 | $71.00 | $186.00        |
+| **China 🇨🇳**          | Beijing       | $127.50 | $71.00 | $198.50        |
+|                       | Shanghai      | $200.50 | $85.50 | $286.00        |
+|                       | Shenzhen      | $129.50 | $73.50 | $203.00        |
 |                       | Hong Kong     | $177.50 | $90.00 | $267.50        |
 | **France 🇫🇷**         | Paris         | $255.50 | $86.50 | $342.00        |
 | **Germany 🇩🇪**        | Berlin        | $135.50 | $72.50 | $208.00        |
 |                       | Dusseldorf    | $159.00 | $75.50 | $234.50        |
-|                       | Nuremberg     | $147.50 | $75.50 | $223.00        |
+|                       | Nuremberg     | $114.50 | $66.50 | $181.00        |
 |                       | Munich        | $156.00 | $77.00 | $233.00        |
+|                       | Stuttgart     | $129.50 | $68.00 | $197.50        |
 | **Italy 🇮🇹**          | Rome          | $244.50 | $89.50 | $334.00        |
-| **Japan 🇯🇵**          | Tokyo         | $187.50 | $65.00 | $252.50        |
+| **Japan 🇯🇵**          | Tokyo         | $173.00 | $61.00 | $234.00        |
+| **Kenya 🇰🇪**          | Nairobi       | $125.00 | $38.50 | $163.50        |
 | **Netherlands 🇳🇱**    | Amsterdam     | $226.50 | $96.00 | $322.50        |
 |                       | Eindhoven     | $117.00 | $70.50 | $187.50        |
 | **Portugal 🇵🇹**       | Lisbon        | $140.00 | $56.00 | $196.00        |
-| **Singapore 🇸🇬**      | Singapore     | $152.00 | $75.00 | $227.00        |
+| **Singapore 🇸🇬**      | Singapore     | $151.00 | $81.00 | $232.00        |
 | **Spain 🇪🇸**          | Barcelona     | $153.50 | $67.00 | $220.50        |
-|                       | Madrid        | $187.50 | $68.50 | $256.00        |
+|                       | Madrid        | $199.50 | $69.50 | $269.00        |
 |                       | Malaga        | $139.00 | $73.50 | $212.50        |
 | **United Kingdom 🇬🇧** | London        | $212.00 | $87.00 | $299.00        |
+|                       | Windsor       | $126.00 | $54.00 | $180.00        |
 | **United States 🇺🇸**  | Denver        | $161.25 | $69.00 | $230.25        |
-|                       | Las Vegas     | $119.25 | $64.50 | $183.75        |
+|                       | Las Vegas     | $94.50  | $64.50 | $159.00        |
 |                       | Los Angeles   | $143.25 | $64.50 | $207.75        |
-|                       | Santa Clara   | $153.50 | $59.50 | $213.00        |
+|                       | Santa Clara   | $144.00 | $69.00 | $213.00        |
 |                       | New York      | $256.50 | $69.00 | $325.50        |
 |                       | San Francisco | $204.00 | $69.00 | $273.00        |
 |                       | San Jose      | $144.00 | $69.00 | $213.00        |
+
+Nuremberg and Windsor use their countries’ “Other” rates. Tokyo uses the “Tokyo City” rate.
 
 ### Methodology 📚
 
