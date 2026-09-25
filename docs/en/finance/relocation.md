@@ -49,13 +49,13 @@ This policy applies to new hires or existing employees relocating to be near our
 
 To qualify for the Proximity Relocation Package, you must meet the following criteria:
 
-| Requirement         | Details                                                                                                                                                |
-| :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Employee Status** | New hires or existing employees.                                                                                                                       |
-| **Proximity Rule**  | You must move to a commutable location of a Hub Office. This means you commit to working regular hours from an Ultralytics Office on our anchor days. It typically means the ‘place of work’ in your contract will change from remote to a Hub Office, or change from one Hub Office to another.|
-| **Definitions**     | This policy is meant for long-distance moves that bring you within commuting distance of a hub, so you can work in the office on anchor days. It doesn't cover local or short-distance moves. |
-| **Approval**     | All relocation bonuses must have manager approval and are considered discretionary. Please discuss with your manager before signing a lease. |
-| **Usage**     | Multiple voluntary relocation requests are not guaranteed eligibility. Each request will be reviewed on a case by case basis.  |
+| Requirement         | Details                                                                                                                                                                                                                                                                                          |
+| :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Employee Status** | New hires or existing employees.                                                                                                                                                                                                                                                                 |
+| **Proximity Rule**  | You must move to a commutable location of a Hub Office. This means you commit to working regular hours from an Ultralytics Office on our anchor days. It typically means the ‘place of work’ in your contract will change from remote to a Hub Office, or change from one Hub Office to another. |
+| **Definitions**     | This policy is meant for long-distance moves that bring you within commuting distance of a hub, so you can work in the office on anchor days. It doesn't cover local or short-distance moves.                                                                                                    |
+| **Approval**        | All relocation bonuses must have manager approval and are considered discretionary. Please discuss with your manager before signing a lease.                                                                                                                                                     |
+| **Usage**           | Multiple voluntary relocation requests are not guaranteed eligibility. Each request will be reviewed on a case by case basis.                                                                                                                                                                    |
 
 ## Relocation Compensation 💰
 
@@ -175,6 +175,6 @@ If you leave Ultralytics voluntarily within 24 months of your relocation/payment
 
     | Question Type                 | Contact              |
     | ----------------------------- | -------------------- |
-    | **Eligibility/Commute Check** | People Team              |
+    | **Eligibility/Commute Check** | People Team          |
     | **Payment Status**            | Finance Team         |
     | **Tax Questions**             | External tax advisor |
