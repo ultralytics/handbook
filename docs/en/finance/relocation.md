@@ -13,7 +13,7 @@ This policy applies to new hires or existing employees relocating to be near our
 
 !!! info "Quick Summary"
 
-    **$10,000 one-time payment** for employees moving within a **30-minute commute** of a Hub Office.
+    **$10,000 one-time payment** for employees moving within a **commutable distance** of a Hub Office.
 
 ## Approved Office Locations 🌎
 
@@ -49,15 +49,13 @@ This policy applies to new hires or existing employees relocating to be near our
 
 To qualify for the Proximity Relocation Package, you must meet the following criteria:
 
-| Requirement         | Details                                                                                                                                                |
-| :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Employee Status** | New hires or existing employees.                                                                                                                       |
-| **Proximity Rule**  | You must move to a location within a **30-minute commute** of a Hub Office.                                                                            |
-| **Measurement**     | Commute time is measured door-to-door via **walking, cycling, public transit, or driving** as calculated by Google Maps during standard commute hours. |
-
-!!! tip "Check Your Commute"
-
-    Before signing a lease, use Google Maps to verify the commute time to the office address matches the eligibility criteria.
+| Requirement         | Details                                                                                                                                                                                                                                                                                          |
+| :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Employee Status** | New hires or existing employees.                                                                                                                                                                                                                                                                 |
+| **Proximity Rule**  | You must move to a commutable location of a Hub Office. This means you commit to working regular hours from an Ultralytics Office on our anchor days. It typically means the ‘place of work’ in your contract will change from remote to a Hub Office, or change from one Hub Office to another. |
+| **Definitions**     | This policy is meant for long-distance moves that bring you within commuting distance of a hub, so you can work in the office on anchor days. It doesn't cover local or short-distance moves.                                                                                                    |
+| **Approval**        | All relocation bonuses must have manager approval and are considered discretionary. Please discuss with your manager before signing a lease.                                                                                                                                                     |
+| **Usage**           | Multiple voluntary relocation requests are not guaranteed eligibility. Each request will be reviewed on a case by case basis.                                                                                                                                                                    |
 
 ## Relocation Compensation 💰
 
@@ -108,10 +106,10 @@ For employees relocating to the **London** office: The first **£8,000** of qual
 
 1.  **Request Submission**
     - Inform your manager of your intent to utilize the Proximity Package.
-    - Provide the proposed new address and Google Maps commute verification.
+    - Provide the proposed new address and commuting journey using Google Maps, based on weekday regular commuting times.
 
 2.  **Confirmation**
-    - HR verifies the distance eligibility.
+    - People team verifies the location eligibility.
     - Relocation agreement issued detailing the clawback terms.
 
 3.  **Agreement**
@@ -145,7 +143,7 @@ If you leave Ultralytics voluntarily within 24 months of your relocation/payment
 
     ***
 
-    Google Maps screenshot showing <30 min commute to office.
+    Google Maps screenshot showing a commutable distance to the local office.
 
 - :material-home-city: **Proof of Residence**
 
@@ -177,6 +175,6 @@ If you leave Ultralytics voluntarily within 24 months of your relocation/payment
 
     | Question Type                 | Contact              |
     | ----------------------------- | -------------------- |
-    | **Eligibility/Commute Check** | HR Team              |
+    | **Eligibility/Commute Check** | People Team          |
     | **Payment Status**            | Finance Team         |
     | **Tax Questions**             | External tax advisor |
