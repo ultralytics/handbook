@@ -31,10 +31,11 @@ After opening a PR:
 ## Commands
 
 ```bash
-uv pip install -r requirements.txt                                        # install Zensical as CI does (never bare pip install)
-zensical serve                                                            # local preview with live reload at http://127.0.0.1:8000
-zensical build --strict                                                   # the CI validation gate; warnings fail the build
-npx prettier@3.8.5 --tab-width 4 --print-width 120 --write "docs/**/*.md" # match the Actions bot
+uv pip install -r requirements.txt # install Zensical as CI does (never bare pip install)
+zensical serve                     # local preview with live reload at http://127.0.0.1:8000
+zensical build --strict            # the CI validation gate; warnings fail the build
+# Format docs/ Markdown exactly as the Actions bot does
+npx prettier@3.8.5 --tab-width 4 --print-width 120 --write "docs/**/*.md"
 ```
 
 - CI (`ci.yml`) runs one `build-docs` job; `zensical build --strict` is the only gate (no tests). It fails on broken internal links and anchors but not on pages missing from `nav`, so add every new page to `nav` in `mkdocs.yml`.
