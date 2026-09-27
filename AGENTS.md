@@ -34,21 +34,21 @@ After opening a PR:
 uv pip install -r requirements.txt # install Zensical as CI does (never bare pip install)
 zensical serve                     # local preview with live reload at http://127.0.0.1:8000
 zensical build --strict            # the CI validation gate; warnings fail the build
-codespell                          # spelling (Ultralytics Actions passes its own flags in CI)
+# Format docs/ Markdown exactly as the Actions bot does
+npx prettier@3.8.5 --tab-width 4 --print-width 120 --write "docs/**/*.md"
 ```
 
-- CI (`ci.yml`) runs a single `build-docs` job on Ubuntu with Python 3.13 and no matrix.
-- There is no test suite and no coverage run in CI — `zensical build --strict` is the build gate.
+- CI (`ci.yml`) runs one `build-docs` job; `zensical build --strict` is the only gate (no tests). It fails on broken internal links and anchors but not on pages missing from `nav`, so add every new page to `nav` in `mkdocs.yml`.
 
 ## Architecture
 
-This is a docs-only repository: the source for [handbook.ultralytics.com](https://handbook.ultralytics.com), with all content as Markdown under `docs/en/` and no application code. The root `mkdocs.yml` is the transitional Zensical-compatible manifest consumed by local validation and the centralized publisher: `docs_dir: docs/en/`, `site_dir: site/`, plus navigation and metadata.
+The root `mkdocs.yml` is the transitional Zensical-compatible manifest consumed by local validation and the centralized publisher: `docs_dir: docs/en/`, `site_dir: site/`, plus navigation and metadata.
 
 Production rendering does not run in this repository. The centralized publisher reads `mkdocs.yml` and `docs/en/` from `main`; Zensical provides a minimal local preview and strict content-validation path without production-owned site chrome.
 
-Deploys: after strict validation, `ci.yml` POSTs `VERCEL_HANDBOOK_DEPLOY_HOOK` on every push to `main` and daily as a backstop. Manual runs on other refs validate without deploying. Releases: `tag.yml` is manual `workflow_dispatch` only, gated to the `ultralytics/handbook` repo and actor `glenn-jocher`; it publishes a git tag plus an AI-summarized GitHub release — nothing is published to a package registry.
+Deploys: after strict validation, `ci.yml` POSTs `VERCEL_HANDBOOK_DEPLOY_HOOK` on every non-PR run on `main` (push, daily schedule, manual); PRs and other refs only validate. Releases: `tag.yml` is manual `workflow_dispatch` only, gated to the `ultralytics/handbook` repo and actor `glenn-jocher`; it publishes a git tag plus an AI-summarized GitHub release — nothing is published to a package registry.
 
-Source content currently lives under `docs/en/`; the centralized publisher generates localized bundles.
+The publisher generates translations from `docs/en/`; never add translated source directories.
 
 ## Conventions
 
@@ -56,4 +56,3 @@ Source content currently lives under `docs/en/`; the centralized publisher gener
 - Every docs page starts with YAML frontmatter containing `description:` and `keywords:`.
 - Match existing pages' concise tone, emoji usage, admonitions, and tables.
 - `links.yml` runs the lychee broken-link checker on push, PR, and a daily cron — it hits the live network, so external-site outages can fail it spuriously.
-- Releases happen only through the manual `tag.yml` workflow.
