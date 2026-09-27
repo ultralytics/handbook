@@ -31,9 +31,9 @@ After opening a PR:
 ## Commands
 
 ```bash
-uv pip install -r requirements.txt # install Zensical as CI does (never bare pip install)
-zensical serve                     # local preview with live reload at http://127.0.0.1:8000
-zensical build --strict            # the CI validation gate; warnings fail the build
+uv pip install -r requirements.txt                                        # install Zensical as CI does (never bare pip install)
+zensical serve                                                            # local preview with live reload at http://127.0.0.1:8000
+zensical build --strict                                                   # the CI validation gate; warnings fail the build
 npx prettier@3.8.5 --tab-width 4 --print-width 120 --write "docs/**/*.md" # match the Actions bot
 ```
 
