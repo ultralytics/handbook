@@ -305,7 +305,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 
     | Benefit      | Amount                             | Requirements                        |
     | ------------ | ---------------------------------- | ----------------------------------- |
-    | **Payment**  | $10,000 flat one-time              | Commutable location to a hub office |
+    | **Payment**  | $10,000 flat one-time              | Within commutable distance of a hub |
     | **Cities**   | Madrid, London, Shenzhen, New York | Pre-approval required               |
     | **Clawback** | 100% (0–12 mo) / 50% (12–24 mo)    | Applies on voluntary departure      |
 
