@@ -164,7 +164,7 @@ See [Travel Policy](../finance/travel.md) for per diem rates by city.
 Eligible employees relocating to hub cities (Madrid, London, Shenzhen, New York):
 
 - **$10,000 flat one-time payment**
-- Pre-approval required; Commutable to a hub office, with regular in-office presence on our anchor days requiered
+- Pre-approval required; must move within commutable distance of a hub and work onsite on Anchor Days
 - 24-month clawback schedule applies
 
 See [Relocation Policy](../finance/relocation.md) for eligibility criteria.
