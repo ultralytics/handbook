@@ -1,5 +1,5 @@
 ---
-description: Ultralytics Employee Relocation Policy covering the $10K Proximity Package, 30-minute commute eligibility, flat-rate payment, and clawback terms.
+description: Ultralytics Employee Relocation Policy covering the $10K Proximity Package, commutable-distance eligibility, flat-rate payment, and clawback terms.
 keywords: Ultralytics, Employee Relocation, Relocation Policy, Proximity Package, office locations, relocation compensation, flat rate, commute
 ---
 
@@ -49,13 +49,14 @@ This policy applies to new hires or existing employees relocating to be near our
 
 To qualify for the Proximity Relocation Package, you must meet the following criteria:
 
-| Requirement         | Details                                                                                                                                                                                                                                                                                          |
-| :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Employee Status** | New hires or existing employees.                                                                                                                                                                                                                                                                 |
-| **Proximity Rule**  | You must move to a commutable location of a Hub Office. This means you commit to working regular hours from an Ultralytics Office on our anchor days. It typically means the ‘place of work’ in your contract will change from remote to a Hub Office, or change from one Hub Office to another. |
-| **Definitions**     | This policy is meant for long-distance moves that bring you within commuting distance of a hub, so you can work in the office on anchor days. It doesn't cover local or short-distance moves.                                                                                                    |
-| **Approval**        | All relocation bonuses must have manager approval and are considered discretionary. Please discuss with your manager before signing a lease.                                                                                                                                                     |
-| **Usage**           | Multiple voluntary relocation requests are not guaranteed eligibility. Each request will be reviewed on a case by case basis.                                                                                                                                                                    |
+| Requirement         | Details                                                                                                                       |
+| :------------------ | :---------------------------------------------------------------------------------------------------------------------------- |
+| **Employee Status** | New hires or existing employees.                                                                                              |
+| **Proximity Rule**  | You must move within **commutable distance** of a Hub Office and work onsite on Anchor Days (Tue/Wed/Thu).                    |
+| **Place of Work**   | Your contractual place of work typically changes from remote to a Hub Office, or from one Hub Office to another.              |
+| **Scope**           | Long-distance moves that bring you within commutable distance of a Hub Office. Local or short-distance moves are not covered. |
+| **Approval**        | Relocation payments are discretionary and require manager approval. Discuss with your manager **before signing a lease**.     |
+| **Repeat Requests** | Repeat voluntary relocation requests are not guaranteed and are reviewed case by case.                                        |
 
 ## Relocation Compensation 💰
 
@@ -106,10 +107,10 @@ For employees relocating to the **London** office: The first **£8,000** of qual
 
 1.  **Request Submission**
     - Inform your manager of your intent to utilize the Proximity Package.
-    - Provide the proposed new address and commuting journey using Google Maps, based on weekday regular commuting times.
+    - Provide the proposed new address and a Google Maps weekday commute to the Hub Office.
 
 2.  **Confirmation**
-    - People team verifies the location eligibility.
+    - People team verifies eligibility.
     - Relocation agreement issued detailing the clawback terms.
 
 3.  **Agreement**
@@ -143,7 +144,7 @@ If you leave Ultralytics voluntarily within 24 months of your relocation/payment
 
     ***
 
-    Google Maps screenshot showing a commutable distance to the local office.
+    Google Maps screenshot of your weekday commute to the Hub Office.
 
 - :material-home-city: **Proof of Residence**
 
