@@ -40,7 +40,7 @@ Our High-Resolution Hybrid model makes the office a performance advantage: compa
     - [IC Levels (IC1-IC9)](careers/levels-ic.md) - Individual Contributor expectations
     - [Management Levels (M4-M10)](careers/levels-management.md) - Management expectations
 - **Performance Reviews** - Quarterly reviews in Rippling with growth planning; compensation is reviewed annually
-- **Learning Budget** - Annual budget for courses, books, and conferences (contact HR for current amounts)
+- **Learning Budget** - Annual budget for courses, books, and conferences (contact the People team for current amounts)
 
 ### Rewards & Recognition
 
@@ -113,7 +113,7 @@ Both tracks are valued equally and offer equivalent compensation and growth pote
 - **Mentorship Program**: Pairing with senior team members
 - **Side Projects**: 10% time for exploring new ideas (with manager approval)
 
-Contact HR for current learning budget amounts and policies.
+Contact the People team for current learning budget amounts and policies.
 
 ### Performance Reviews
 
@@ -199,7 +199,7 @@ Also review our [Social Media Policy](../contributions/social-media-policy.md) f
 
 ### Who to Contact
 
-- **HR Questions**: Contact your manager or the HR team in `#help-people`
+- **People Questions**: Contact your manager or the People team in `#help-people`
 - **IT/Technical**: Use the `#help-it` Slack channel
 - **Finance**: Ask in `#help-finance` for expenses, reimbursements, or benefits
 - **Legal**: [legal@ultralytics.com](mailto:legal@ultralytics.com) for contracts and compliance
@@ -219,5 +219,5 @@ Can't find what you're looking for?
 
 - **Search the handbook** using the search bar at the top
 - **Ask your manager** for policy clarifications or personal matters
-- **Contact HR** for benefits, leave, or employee relations
+- **Contact the People team** for benefits, leave, or employee relations
 - **Submit a PR** to improve this handbook for everyone

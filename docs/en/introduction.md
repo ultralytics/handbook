@@ -236,7 +236,7 @@ Ultralytics is an AI-first company. We expect everyone to default to AI assistan
 
     !!! info "Details"
 
-        Discuss compensation with your manager or HR.
+        Discuss compensation with your manager or the People team.
 
 === "Transparency"
 
@@ -295,7 +295,7 @@ Questions about handbook content?
 - **Finance/reimbursements**: Reach out to the Finance team in `#help-finance`
 - **IT/security**: Use the `#help-it` or `#compliance` Slack channels
 - **Legal matters**: Email [legal@ultralytics.com](mailto:legal@ultralytics.com)
-- **HR questions**: Contact the HR team in `#help-people`
+- **People questions**: Contact the People team in `#help-people`
 
 ## Welcome! 🌟
 

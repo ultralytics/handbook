@@ -179,13 +179,13 @@ Security regulations and threats evolve constantly. We'll keep you updated throu
 
 ### Offboarding Checklist
 
-| Task                       | When          | Owner |
-| -------------------------- | ------------- | ----- |
-| Sign termination agreement | Last day      | You   |
-| Return equipment           | Within 3 days | You   |
-| System access revoked      | Last day      | IT    |
-| Final expense submission   | Within 7 days | You   |
-| Exit interview             | Last week     | HR    |
+| Task                       | When          | Owner  |
+| -------------------------- | ------------- | ------ |
+| Sign termination agreement | Last day      | You    |
+| Return equipment           | Within 3 days | You    |
+| System access revoked      | Last day      | IT     |
+| Final expense submission   | Within 7 days | You    |
+| Exit interview             | Last week     | People |
 
 ## Contact & Support
 
@@ -212,11 +212,11 @@ Security regulations and threats evolve constantly. We'll keep you updated throu
         [legal@ultralytics.com](mailto:legal@ultralytics.com)
         `#compliance` on Slack
 
-    -   :material-account-group: **HR Questions**
+    -   :material-account-group: **People Questions**
 
         ---
 
-        Contact your manager or HR team in `#help-people`
+        Contact your manager or People team in `#help-people`
 
     </div>
 

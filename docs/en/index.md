@@ -262,9 +262,9 @@ Welcome to the [Ultralytics](https://www.ultralytics.com) Handbook - your compre
         - **Email:** [security@ultralytics.com](mailto:security@ultralytics.com)
         - **Slack:** `#compliance`
 
-    === "HR"
+    === "People"
 
-        - **Contact:** Your manager or HR team
+        - **Contact:** Your manager or People team
         - **Slack:** `#help-people`
 
 ### Important Resources

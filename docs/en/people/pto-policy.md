@@ -212,7 +212,7 @@ Count the total workdays in the planned flexible PTO request. Birthday leave is 
 
 !!! info "Take planned leave only once approved"
 
-    Employees request time off in our HRIS (Rippling). Managers will respond within 3-5 business days. If a response is time sensitive, follow up with your manager or the HR team in `#help-people`. Planned flexible PTO and birthday leave can only be taken once approved in Rippling.
+    Employees request time off in our HRIS (Rippling). Managers will respond within 3-5 business days. If a response is time sensitive, follow up with your manager or the People team in `#help-people`. Planned flexible PTO and birthday leave can only be taken once approved in Rippling.
 
 ## Coordination and Coverage 🤝
 
@@ -291,7 +291,7 @@ Exceptions may be considered for:
 
     **When local law provides greater benefits, those requirements apply.**
 
-    Contact HR if you have questions about your specific location.
+    Contact the People team if you have questions about your specific location.
 
 ## PTO Examples 💡
 
@@ -349,9 +349,9 @@ Exceptions may be considered for:
 
 !!! question "Need Help with PTO?"
 
-    | Question Type              | Contact                                           |
-    | -------------------------- | ------------------------------------------------- |
-    | **Policy questions**       | Your manager or HR team (`#help-people` on Slack) |
-    | **Rippling issues**        | Post in `#help-it` on Slack                       |
-    | **Special requests**       | Your direct manager                               |
-    | **Country-specific rules** | HR team in `#help-people`                         |
+    | Question Type              | Contact                                               |
+    | -------------------------- | ----------------------------------------------------- |
+    | **Policy questions**       | Your manager or People team (`#help-people` on Slack) |
+    | **Rippling issues**        | Post in `#help-it` on Slack                           |
+    | **Special requests**       | Your direct manager                                   |
+    | **Country-specific rules** | People team in `#help-people`                         |

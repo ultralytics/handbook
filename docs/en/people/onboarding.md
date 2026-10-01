@@ -11,7 +11,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 
 !!! info "Pre-Start Timeline"
 
-    Expect to receive your onboarding materials **5-7 business days** before your start date. Contact HR immediately if you haven't received everything by this time.
+    Expect to receive your onboarding materials **5-7 business days** before your start date. Contact the People team immediately if you haven't received everything by this time.
 
 !!! tip "High-Resolution Hybrid Reminder"
 
@@ -87,7 +87,7 @@ Welcome to Ultralytics! This guide will help you navigate your first 90 days and
 
     Need help? Post in the `#help-it` Slack channel for fastest response.
 
-=== "HR Onboarding (45 min)"
+=== "People Onboarding (45 min)"
 
     **Administrative setup:**
 
@@ -339,7 +339,7 @@ Work with your manager to define specific, measurable goals:
 ### Who to Contact
 
 - **Manager**: Day-to-day questions, project guidance, career development
-- **HR Team**: Benefits, PTO, policies, personal matters (`#help-people` on Slack)
+- **People Team**: Benefits, PTO, policies, personal matters (`#help-people` on Slack)
 - **IT Support**: `#help-it` on Slack
 - **Legal**: [legal@ultralytics.com](mailto:legal@ultralytics.com) for contracts and compliance
 - **Security**: [security@ultralytics.com](mailto:security@ultralytics.com) for incidents
@@ -389,6 +389,6 @@ Have onboarding feedback or questions?
 
 - **Slack DM your manager**: For immediate questions or concerns
 - **Submit PR to handbook**: Help us improve onboarding for future team members
-- **Email HR**: For sensitive or personal matters
+- **Email the People team**: For sensitive or personal matters
 
 We're constantly improving onboarding based on new team member feedback. Your input makes the next person's experience better!
