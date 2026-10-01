@@ -121,7 +121,7 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 
 ## Growth & Development
 
-**Learning Budget**: Annual allocation for courses, books, conferences, certifications (contact HR for amounts)
+**Learning Budget**: Annual allocation for courses, books, conferences, certifications (contact the People team for amounts)
 
 **Resources**: Quarterly 1:1s for career planning • Mentorship programs • Internal workshops • 10% time for exploration • Conference attendance • Online courses • Certifications • Publications
 
@@ -167,7 +167,7 @@ Compensation reflects scope, impact, and market rates—not tenure. Both tracks 
 ### Career Development Questions
 
 - **Manager**: Primary resource for career discussions and promotion readiness
-- **HR Team**: Questions about levels, compensation, or promotion process
+- **People Team**: Questions about levels, compensation, or promotion process
 - **Senior ICs/Managers**: Seek mentorship from those in roles you aspire to
 - **Skip-Level**: Discuss career with manager's manager for additional perspective
 

@@ -62,7 +62,7 @@ keywords: Ultralytics, Employee Referral, Referral Bonus, Hiring, Recruitment, T
 
 ```mermaid
 graph TD
-    A[Submit Referral to HR]:::start --> B[HR Confirms Eligibility]:::proc
+    A[Submit Referral to People Team]:::start --> B[People Team Confirms Eligibility]:::proc
     B --> C{Candidate in Pipeline?}:::decide
     C -->|Yes| D[Referral Not Eligible]:::error
     C -->|No| E[Process Application]:::proc
@@ -83,8 +83,8 @@ graph TD
 
 ### Step-by-Step
 
-1. **Submit Referral** - Send candidate information to HR with your referral
-2. **Eligibility Check** - HR confirms eligibility and processes application
+1. **Submit Referral** - Send candidate information to the People team with your referral
+2. **Eligibility Check** - People team confirms eligibility and processes application
 3. **Hiring Decision** - Candidate goes through standard interview process
 4. **3-Month Tracking** - If hired, track completion of probationary period
 5. **Bonus Payment** - After 3 months, bonus paid in next payroll cycle
@@ -118,7 +118,7 @@ graph TD
 
     **Scenario:** You refer a friend for a Software Engineer position in January.
 
-    - ✅ January 15: You submit referral to HR
+    - ✅ January 15: You submit referral to the People team
     - ✅ February 1: Candidate hired, starts work
     - ✅ May 1: Candidate completes 3 months
     - ✅ May 15: You receive $5,000 bonus in payroll
@@ -167,7 +167,7 @@ graph TD
 
         ---
 
-        Give HR detailed information about candidate's background
+        Give the People team detailed information about candidate's background
 
     -   :material-speedometer: **Act Quickly**
 
@@ -187,12 +187,12 @@ graph TD
 
 !!! question "Need Clarification?"
 
-    Contact HR for any questions about:
+    Contact the People team for any questions about:
 
     - Specific eligibility cases
     - Referral program details
     - Bonus payment status
     - Candidate pipeline status
 
-    **Email:** Contact your HR representative
+    **Email:** Contact the People team
     **Slack:** `#help-people` channel

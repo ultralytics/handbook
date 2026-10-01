@@ -209,6 +209,7 @@ Feel free to reach out to team members for guidance:
 | Craig Johnston          | [craigjohnston1](https://github.com/craigjohnston1)                   |
 | Darin Kabashi           | [darin-k](https://github.com/darin-k)                                 |
 | Ed Crook                | [ed-yolo](https://github.com/ed-yolo)                                 |
+| Emilia Farifteh         | [emilia-fari](https://github.com/emilia-fari)                         |
 | Esat Kalfaoglu          | [artest08](https://github.com/artest08)                               |
 | Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                                 |
 | Francesco Mattioli      | [ambitious-octopus](https://github.com/ambitious-octopus)             |

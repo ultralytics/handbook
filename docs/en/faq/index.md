@@ -74,7 +74,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     | **Finance/Expenses**  | `#help-finance` on Slack                                               |
     | **Legal/Compliance**  | [legal@ultralytics.com](mailto:legal@ultralytics.com) or `#compliance` |
     | **Security**          | [security@ultralytics.com](mailto:security@ultralytics.com)            |
-    | **HR/Policies**       | Your manager or HR team                                                |
+    | **People/Policies**   | Your manager or People team                                            |
     | **General Questions** | Your direct manager                                                    |
 
 ## Finance & Expenses 💰
