@@ -248,6 +248,7 @@ Feel free to reach out to team members for guidance:
 | Shuai (Louis) Lyu       | [ShuaiLYU](https://github.com/ShuaiLYU)                               |
 | Thomas Chuang           | [chuang091](https://github.com/chuang091)                             |
 | Tianshu Li              | [tianshu-Li715](https://github.com/tianshu-Li715)                     |
+| Yogendra Singh          | [yogendrasinghx](https://github.com/yogendrasinghx)                   |
 | Zinnia Pourdad          | [zinnialp](https://github.com/zinnialp)                               |
 | Zuzana Kontrikova       | [zkontri](https://github.com/zkontri)                                 |
 
