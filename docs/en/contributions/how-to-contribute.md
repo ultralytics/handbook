@@ -223,6 +223,7 @@ Feel free to reach out to team members for guidance:
 | Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                           |
 | Joey Cherisea           | [Cherisea](https://github.com/Cherisea)                               |
 | Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                           |
+| Josh Goldenberg         | [JoshyG-Ultralytics](https://github.com/JoshyG-Ultralytics)           |
 | Kasim Acikbas           | [kayselmecnun](https://github.com/kayselmecnun)                       |
 | Kristian Sommer         | [sokrisba](https://github.com/sokrisba)                               |
 | Lakshantha Dissanayake  | [lakshanthad](https://github.com/lakshanthad)                         |
