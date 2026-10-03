@@ -199,7 +199,6 @@ Feel free to reach out to team members for guidance:
 | Name                    | GitHub Profile                                                        |
 | ----------------------- | --------------------------------------------------------------------- |
 | Abi Anderson            | [UltralyticsAbi](https://github.com/UltralyticsAbi)                   |
-| Abirami Vina            | [abirami-vina](https://github.com/abirami-vina)                       |
 | Alex Wong               | [UltraAlex118](https://github.com/UltraAlex118)                       |
 | Alexis Schutzger        | [picsalex](https://github.com/picsalex)                               |
 | Altaïr Kabunda-Margalet | [altair-jpg](https://github.com/altair-jpg)                           |
@@ -212,7 +211,6 @@ Feel free to reach out to team members for guidance:
 | Emilia Farifteh         | [emilia-fari](https://github.com/emilia-fari)                         |
 | Esat Kalfaoglu          | [artest08](https://github.com/artest08)                               |
 | Fatih Akyon             | [fcakyon](https://github.com/fcakyon)                                 |
-| Francesco Mattioli      | [ambitious-octopus](https://github.com/ambitious-octopus)             |
 | Giovanni Dal Zilio      | [ggg-dz-ultralytics](https://github.com/ggg-dz-ultralytics)           |
 | Glenn Jocher            | [glenn-jocher](https://github.com/glenn-jocher)                       |
 | Hannah Streif           | [HannahStreif](https://github.com/HannahStreif)                       |
@@ -220,23 +218,26 @@ Feel free to reach out to team members for guidance:
 | Jake Qian               | [fengqianjake](https://github.com/fengqianjake)                       |
 | Javier Chulvi           | [JaviChulvi](https://github.com/JaviChulvi)                           |
 | Jianing Qi （Jalyn）    | [jianing-Jalyn](https://github.com/jianing-Jalyn)                     |
+| Jillian Rubenoff        | [jillian-rubenoff](https://github.com/jillian-rubenoff)               |
 | Jin Xu                  | [laodouya](https://github.com/laodouya)                               |
 | Jing Qiu                | [Laughing-q](https://github.com/Laughing-q)                           |
 | Joey Cherisea           | [Cherisea](https://github.com/Cherisea)                               |
 | Joey Tjon               | [NoCodeJoey](https://github.com/NoCodeJoey)                           |
+| Josh Goldenberg         | [JoshyG-Ultralytics](https://github.com/JoshyG-Ultralytics)           |
 | Kasim Acikbas           | [kayselmecnun](https://github.com/kayselmecnun)                       |
 | Kristian Sommer         | [sokrisba](https://github.com/sokrisba)                               |
 | Lakshantha Dissanayake  | [lakshanthad](https://github.com/lakshanthad)                         |
 | Leo Samsinger           | [lsamsinger](https://github.com/lsamsinger)                           |
+| Manuel Calve            | [ManuelCalve96](https://github.com/ManuelCalve96)                     |
 | Marius Keiser           | [Skillnoob](https://github.com/Skillnoob)                             |
 | Matt Bristow            | [matt-ultralytics](https://github.com/matt-ultralytics)               |
 | Maxim Sokolov           | [somal](https://github.com/somal)                                     |
 | Mengyu (Mason) Liu      | [lmycross](https://github.com/lmycross)                               |
+| Mihai Pricochi          | [mihai-ultralytics](https://github.com/mihai-ultralytics)             |
 | Miles Deans             | [miles-deans-ultralytics](https://github.com/miles-deans-ultralytics) |
 | Mohammed Yasin          | [Y-T-G](https://github.com/Y-T-G)                                     |
 | Muhammad Rizwan Munawar | [RizwanMunawar](https://github.com/RizwanMunawar)                     |
 | Murat Raimbekov         | [raimbekovm](https://github.com/raimbekovm)                           |
-| Nicolai Nielsen         | [niconielsen32](https://github.com/niconielsen32)                     |
 | Nuvola Ladi             | [NLadi](https://github.com/NLadi)                                     |
 | Olivia Wang             | [ziyue-olivia](https://github.com/ziyue-olivia)                       |
 | Onuralp Sezer           | [onuralpszr](https://github.com/onuralpszr)                           |
