@@ -20,13 +20,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
-      - name: Set up Python
-        uses: actions/setup-python@v7
+      - uses: ultralytics/actions/setup-uv@main
         with:
           python-version: "3.13"
-      - uses: ultralytics/actions/setup-uv@main
       - name: Install dependencies
-        run: uv pip install --system -r requirements.txt
+        run: uv pip install -r requirements.txt
       - name: Validate Handbook
         run: zensical build --strict
       - name: Trigger Handbook redeploy
