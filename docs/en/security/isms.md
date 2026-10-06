@@ -109,6 +109,7 @@ graph TD
     | -------------------------------------------- | --------------- |
     | Regular risk assessments & internal reviews  | Ongoing         |
     | SOC 2 Type I & ISO 27001 audit (independent) | Completed       |
+    | HIPAA Security Rule self-assessment          | Completed       |
     | SOC 2 Type II & ISO 27001 surveillance audit | Q1 2027         |
 
 Our GRC platform (**[Vanta](https://app.vanta.com/)**) provides real-time compliance monitoring and evidence collection across all security controls.
@@ -117,8 +118,8 @@ Our GRC platform (**[Vanta](https://app.vanta.com/)**) provides real-time compli
 
 !!! success "Public Commitment"
 
-    - **[Trust Center](https://trust.ultralytics.com)**: Key security policies and procedures publicly available
-    - **Compliance Attestations**: SOC 2 report and ISO 27001 certificate available through the Trust Center
+    - **[Trust Center](https://trust.ultralytics.com)**: Key security policies publicly available, with other policies and reports shared on request
+    - **Compliance Attestations**: SOC 2 Type I report, ISO 27001 certificate, penetration test attestation, and HIPAA self-assessment available through the Trust Center
     - **Customer Security Reviews**: Detailed security information provided for customer due diligence
 
 ## Contact & Resources
