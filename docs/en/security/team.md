@@ -81,24 +81,37 @@ Use the `#compliance` channel for:
 
 !!! info "Trust Center"
 
-    **[trust.ultralytics.com](https://trust.ultralytics.com)** is our centralized repository for all security policies, compliance certifications, and audit documentation.
+    **[trust.ultralytics.com](https://trust.ultralytics.com)** is our centralized repository for key security policies, compliance certifications, and audit documentation.
 
 ### Core Security Policies
 
+Approved in Vanta. Key policies are published on the Trust Center; others are shared on request.
+
 - Information Security Policy
+- Information Security Management System (ISMS) Policy
 - Information Security & Privacy Risk Assessment and Treatment Policy
+- Access Control Policy
+- Asset Management Policy
+- Cryptography Policy
+- Data Management Policy
 - Secure Development Policy
 - Third-Party Management Policy
-- Business Continuity and Disaster Recovery Policy
+- Personnel Security and Awareness Policy
+- Incident Response Plan
+- Business Continuity and Disaster Recovery Plan
+- Code of Conduct
+- GDPR Compliance Policy
+- HIPAA Compliance Policy
 
 ### Compliance Attestations
 
-| Document                   | Status                    |
-| -------------------------- | ------------------------- |
-| SOC 2 Report               | Attested June 2026        |
-| ISO 27001 Certificate      | Certified June 2026       |
-| Statement of Applicability | Available in Trust Center |
-| Platform Penetration Test  | Completed April 2026      |
+| Document                            | Status                    |
+| ----------------------------------- | ------------------------- |
+| SOC 2 Type I Report                 | Attested June 2026        |
+| ISO 27001 Certificate               | Certified June 2026       |
+| Statement of Applicability          | Available in Trust Center |
+| Platform Penetration Test           | Completed April 2026      |
+| HIPAA Security Rule Self-Assessment | Completed October 2026    |
 
 ## Employee Resources
 
@@ -128,7 +141,7 @@ Use the `#compliance` channel for:
 | ------------------------------------------------ | --------- |
 | **ISO 27001 & SOC 2 Type I audit**               | Completed |
 | **ISO 27001 surveillance & SOC 2 Type II audit** | Q1 2027   |
-| **HIPAA Security Rule self-assessment**          | Q3 2026   |
+| **HIPAA Security Rule self-assessment**          | Completed |
 | **GDPR & EU AI Act compliance monitoring**       | Ongoing   |
 | **Ultralytics Platform Penetration Test**        | Completed |
 | Annual compliance metrics review                 | Annually  |
