@@ -81,9 +81,11 @@ Use the `#compliance` channel for:
 
 !!! info "Trust Center"
 
-    **[trust.ultralytics.com](https://trust.ultralytics.com)** is our centralized repository for all security policies, compliance certifications, and audit documentation.
+    **[trust.ultralytics.com](https://trust.ultralytics.com)** is our centralized repository for key security policies, compliance certifications, and audit documentation.
 
 ### Core Security Policies
+
+Approved in Vanta. Key policies are published on the Trust Center; others are shared on request.
 
 - Information Security Policy
 - Information Security Management System (ISMS) Policy
