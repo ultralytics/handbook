@@ -89,25 +89,15 @@ Once the **System Approver** approves your request, the **System Admin** will pr
 
 ```mermaid
 flowchart TD
-A@{ label: "Log into Vanta and navigate to <a href='https://app.vanta.com/c/ultralytics/access/systems/request'>My access requests</a> dashboard, or look up Vanta app in Slack, and Submit access request" } --> B{"Did you find the tool you need?"}:::decide
-    B -- Yes --> C["Select the tool you need and request access"]:::proc
-    B -- No --> D["Follow <a href='https://handbook.ultralytics.com/tools/software#3-software-approval-vendor-lifecycle'>New Software Approval Process</a>"]:::proc
-    n3["Need access to a tool?"]:::start --> A
-    C --> n4["Did the Approver approve your request?"]:::decide
-    n4 -- Yes --> n1["Admin will provision you access or inform you how to gain access if the tool relies on shared credentials."]:::out
-    n4 -- No --> n5["The Approver will provide you with the rejection reason."]:::error
-
-    A@{ shape: rect}
-    n3@{ shape: rect}
-    n4@{ shape: diam}
-    n5@{ shape: rect}
-
-    A:::proc
-    classDef start fill:#4CAF50,color:#fff
-    classDef proc fill:#2196F3,color:#fff
-    classDef decide fill:#FF9800,color:#fff
-    classDef out fill:#9C27B0,color:#fff
-    classDef error fill:#F44336,color:#fff
+    A([Need access to a tool]) --> B[Open Vanta]
+    B --> C{Tool listed?}
+    C -->|yes| E[Request access]
+    C -->|no| D[New software approval]
+    E --> F{Approved?}
+    F -->|yes| G([Access granted])
+    F -->|no| H([Rejected with reason]):::error
+    D ~~~ H
+    click D "#3-software-approval-vendor-lifecycle"
 ```
 
 ### Best Practice for System Approvers

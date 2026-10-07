@@ -11,21 +11,20 @@ Welcome to Ultralytics! This guide explains what you can expect regarding securi
 ## Overview
 
 ```mermaid
-timeline
-    title Your Security & Compliance Journey
-    section Pre-Start
-        Background Checks : Security verification
-        Sign Agreements : NDA and employment contracts
-    section Day 1
-        Complete Training : CCPA, GDPR, Security Awareness
-        Policy Acknowledgment : Formal security responsibilities via Vanta
-    section Ongoing
-        Annual Training : Refresher courses
-        Performance Reviews : Policy adherence assessment
-    section Offboarding
-        Access Revoked : System access removed
-        Equipment Return : Company property returned
-        Termination Agreement : Ongoing obligations clarified
+flowchart TD
+    subgraph onboarding["Onboarding"]
+        A([Background check]) --> B[Sign NDA and contract]
+        B --> C[Training and policies]
+    end
+    subgraph ongoing["Ongoing"]
+        D[Annual refresher training] --> E[Performance reviews]
+    end
+    subgraph offboarding["Offboarding"]
+        F[Access revoked] --> G[Equipment returned]
+        G --> H([Termination agreement])
+    end
+    onboarding --> ongoing
+    ongoing --> offboarding
 ```
 
 !!! tip "Badge Discipline"
@@ -135,14 +134,13 @@ timeline
 ### Staying Informed
 
 ```mermaid
-graph LR
-    A[Security Updates]:::start --> B[Email Notifications]:::out
-    A --> C[Slack Announcements]:::out
-    A --> D[Team Meetings]:::out
-    A --> E[Training Updates]:::out
-
-    classDef start fill:#4CAF50,color:#fff
-    classDef out fill:#9C27B0,color:#fff
+flowchart TD
+    A([Security updates]) --> channels
+    subgraph channels["Channels"]
+        B[Email notifications] ~~~ C[Slack announcements]
+        C ~~~ D[Team meetings]
+        D ~~~ E[Training updates]
+    end
 ```
 
 Security regulations and threats evolve constantly. We'll keep you updated through multiple channels so you're always aware of new requirements and emerging risks.

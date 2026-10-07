@@ -19,45 +19,21 @@ Ultralytics' career framework provides clear expectations for each level and gui
 **Track switching**: IC4/IC5 ↔ M4 | M4/M5 ↔ IC5/IC6 | M6 ↔ IC6/IC7
 
 ```mermaid
-flowchart TB
-    IC_TITLE["🔵 Individual Contributor Track"]:::start
-    MGMT_TITLE["🟠 Management Track"]:::start
-
-    subgraph IC [" "]
-        direction LR
-        IC1["IC1<br/>Entry"]:::proc --> IC2["IC2<br/>Mid 1"]:::proc
-        IC2 --> IC3["IC3<br/>Mid 2"]:::proc
-        IC3 --> IC4["IC4<br/>Senior 1"]:::proc
-        IC4 --> IC5["IC5<br/>Senior 2"]:::proc
-        IC5 --> IC6["IC6<br/>Staff"]:::proc
-        IC6 --> IC7["IC7<br/>Senior Staff"]:::proc
-        IC7 --> IC8["IC8<br/>Principal"]:::proc
-        IC8 --> IC9["IC9<br/>Distinguished"]:::proc
-    end
-
-    subgraph MGMT [" "]
-        direction LR
-        M4["M4<br/>Lead Manager"]:::decide --> M5["M5<br/>Manager"]:::decide
-        M5 --> M6["M6<br/>Senior Manager"]:::decide
-        M6 --> M7["M7<br/>Head of"]:::decide
-        M7 --> M8["M8<br/>Director"]:::decide
-        M8 --> M9["M9<br/>VP"]:::decide
-        M9 --> M10["M10<br/>Senior VP"]:::decide
-    end
-
-    IC_TITLE -.-> IC
-    MGMT_TITLE -.-> MGMT
-
-    IC4 <-.->|Switch| M4
-    IC5 <-.->|Switch| M4
-    IC5 <-.->|Switch| M5
-    IC6 <-.->|Switch| M5
-    IC6 <-.->|Switch| M6
-    IC7 <-.->|Switch| M6
-
-    classDef start fill:#4CAF50,color:#fff
-    classDef proc fill:#2196F3,color:#fff
-    classDef decide fill:#FF9800,color:#fff
+flowchart TD
+    IC1[IC1–IC3] --> IC4[IC4]
+    IC4 --> IC5[IC5]
+    IC5 --> IC6[IC6]
+    IC6 --> IC7[IC7]
+    IC7 --> IC8[IC8–IC9]
+    M4[M4] --> M5[M5]
+    M5 --> M6[M6]
+    M6 --> M7[M7–M10]
+    IC4 <-.-> M4
+    M4 <-.-> IC5
+    IC5 <-.-> M5
+    M5 <-.-> IC6
+    IC6 <-.-> M6
+    M6 <-.-> IC7
 ```
 
 ### Track Comparison

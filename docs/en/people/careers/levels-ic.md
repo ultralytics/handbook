@@ -18,17 +18,15 @@ Comprehensive career framework for Individual Contributors at Ultralytics, defin
 ## Career Progression
 
 ```mermaid
-graph LR
-    IC1[IC1<br/>Entry<br/>Associate]:::proc --> IC2[IC2<br/>Mid 1<br/>Developing]:::proc
-    IC2 --> IC3[IC3<br/>Mid 2<br/>Proficient]:::proc
-    IC3 --> IC4[IC4<br/>Senior 1<br/>Skilled]:::proc
-    IC4 --> IC5[IC5<br/>Senior 2<br/>Advanced]:::proc
-    IC5 --> IC6[IC6<br/>Staff<br/>Expert]:::proc
-    IC6 --> IC7[IC7<br/>Senior Staff<br/>Advisor]:::proc
-    IC7 --> IC8[IC8<br/>Principal<br/>Strategist]:::proc
-    IC8 --> IC9[IC9<br/>Distinguished<br/>Thought Leader]:::proc
-
-    classDef proc fill:#2196F3,color:#fff
+flowchart TD
+    IC1[IC1 Entry] --> IC2[IC2 Mid 1]
+    IC2 --> IC3[IC3 Mid 2]
+    IC3 --> IC4[IC4 Senior 1]
+    IC4 --> IC5[IC5 Senior 2]
+    IC5 --> IC6[IC6 Staff]
+    IC6 --> IC7[IC7 Senior staff]
+    IC7 --> IC8[IC8 Principal]
+    IC8 --> IC9[IC9 Distinguished]
 ```
 
 ## Level Overview

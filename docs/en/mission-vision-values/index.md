@@ -163,22 +163,14 @@ We work where the speed is. Our computer vision breakthroughs demand high-bandwi
 Our values directly support our mission to advance AI for everyone:
 
 ```mermaid
-graph TD
-    A[Mission: Advance AI for Everyone]:::start --> B[Relentless Progress]:::proc
-    A --> C[Strive for Excellence]:::proc
-    A --> D[Actions Not Words]:::proc
-    A --> E[Act with Urgency]:::proc
-    A --> F[Open Access to All]:::proc
-
-    B --> G[Pushing Boundaries]:::out
-    C --> H[World's Best Solutions]:::out
-    D --> I[Real Results]:::out
-    E --> J[Democratize Before Opportunities Pass]:::out
-    F --> K[Equal Access Through Open Source]:::out
-
-    classDef start fill:#4CAF50,color:#fff
-    classDef proc fill:#2196F3,color:#fff
-    classDef out fill:#9C27B0,color:#fff
+flowchart TD
+    subgraph values["Our values"]
+        A[Relentless progress] ~~~ B[Strive for excellence]
+        B ~~~ C["Actions, not words"]
+        C ~~~ D[Act with urgency]
+        D ~~~ E[Open access to all]
+    end
+    values --> M([Advance AI for everyone])
 ```
 
 | Value                     | Mission Alignment                                          |

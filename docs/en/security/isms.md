@@ -47,21 +47,18 @@ keywords: Ultralytics ISMS, information security, ISO 27001, SOC 2, data protect
 ## Security Program Coverage
 
 ```mermaid
-graph TD
-    ISMS[ISMS]:::start --> A[Platform SaaS Services]:::proc
-    ISMS --> B[YOLO AI Model Development]:::proc
-    ISMS --> C[Corporate Infrastructure]:::proc
-
-    A --> A1[Customer data protection]:::out
-    A --> A2[Service reliability]:::out
-    B --> B1[Secure development lifecycle]:::out
-    B --> B2[Model integrity controls]:::out
-    C --> C1[Systems & process safeguards]:::out
-    C --> C2[Employee data protection]:::out
-
-    classDef start fill:#4CAF50,color:#fff
-    classDef proc fill:#2196F3,color:#fff
-    classDef out fill:#9C27B0,color:#fff
+flowchart TD
+    subgraph saas["Platform SaaS services"]
+        A1[Customer data protection] ~~~ A2[Service reliability]
+    end
+    subgraph yolo["YOLO model development"]
+        B1[Secure development lifecycle] ~~~ B2[Model integrity controls]
+    end
+    subgraph corp["Corporate infrastructure"]
+        C1["Systems & process safeguards"] ~~~ C2[Employee data protection]
+    end
+    A2 ~~~ B1
+    B2 ~~~ C1
 ```
 
 ## Governance Structure

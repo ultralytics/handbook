@@ -44,14 +44,11 @@ keywords: Ultralytics OKRs, objectives and key results, goal setting, performanc
 ## OKR Cycle
 
 ```mermaid
-graph LR
-    A["Planning\n(Week 1)"]:::start --> B["Execution\n(Weeks 2–12)"]:::proc
-    B --> C["Review\n(Week 13)"]:::proc
-    C --> D[Retrospective]:::proc
-    D --> A
-
-    classDef start fill:#4CAF50,color:#fff
-    classDef proc fill:#2196F3,color:#fff
+flowchart TD
+    A([Planning in week 1]) --> B["Execution in weeks 2–12"]
+    B --> C[Review in week 13]
+    C --> D[Retrospective]
+    D -.->|next quarter| A
 ```
 
 | Phase             | Timing       | Actions                                   |

@@ -22,21 +22,15 @@ This policy applies to all employees of [Ultralytics](https://www.ultralytics.co
 ## Reimbursement Procedures 💰
 
 ```mermaid
-graph TD
-    A[Travel Need]:::start --> B{Cost Estimate}:::decide
-    B -->|Under $3,000| C[Pay Personally]:::proc
-    B -->|$3,000+| D[Request Upfront Approval]:::proc
-    C --> E[Travel]:::proc
-    D --> F[Receive Approval]:::proc
-    F --> G[Receive Payment]:::proc
-    G --> E
-    E --> H[Submit Receipts]:::proc
-    H --> I[Reimbursement/Reconciliation]:::out
-
-    classDef start fill:#4CAF50,color:#fff
-    classDef proc fill:#2196F3,color:#fff
-    classDef decide fill:#FF9800,color:#fff
-    classDef out fill:#9C27B0,color:#fff
+flowchart TD
+    A([Travel need]) --> B{"Under $3,000?"}
+    B -->|yes| C[Pay personally]
+    B -->|no| D[Request approval]
+    D --> E[Get paid upfront]
+    C --> F[Travel]
+    E --> F
+    F --> G[Submit receipts]
+    G --> H([Reimbursed or reconciled])
 ```
 
 === "Under $3,000"
