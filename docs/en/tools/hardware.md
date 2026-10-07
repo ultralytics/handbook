@@ -20,18 +20,22 @@ This policy outlines the provisioning, management, and security of all hardware 
     This ensures our team is equipped with modern and efficient tools.
 
 ```mermaid
-timeline
-    title Hardware Lifecycle
-    section Year 1
-        New Device : Issued to employee
-        Peak Performance : Optimal productivity
-    section Year 2
-        Continued Use : Maintained performance
-        Refresh Eligible : Can request replacement
-    section Refresh
-        Manager Approval : Automatic within cycle
-        Order New : Trade in old device
-        Receive New : Continue productivity
+flowchart TD
+    subgraph y1["Year 1"]
+        direction TB
+        A([New device issued]) --> B[Peak performance]
+    end
+    subgraph y2["Year 2"]
+        direction TB
+        C[Continued use] --> D[Refresh eligible]
+    end
+    subgraph refresh["Refresh"]
+        direction TB
+        E[Automatic approval] --> F[Order with trade-in]
+        F --> G([Receive new device])
+    end
+    y1 --> y2
+    y2 --> refresh
 ```
 
 !!! warning "Outside Standard Cycle"
@@ -126,26 +130,16 @@ This process applies when replacing an existing device with a new one (not for n
 
 ```mermaid
 flowchart TD
-    A[Need Replacement?]:::start --> B{Within 2-Year Cycle?}:::decide
-    B -->|Yes| C[Automatic Approval]:::proc
-    B -->|No| D[Request Manager Approval]:::proc
-    D --> E{Approved?}:::decide
-    E -->|No| F[Continue with Current Device]:::out
-    E -->|Yes| C
-    C --> G[Select Eligible Device]:::proc
-    G --> H[Order from Apple]:::proc
-    H --> I[Select Trade-In Option]:::proc
-    I --> J[Provide Old Device Serial #]:::proc
-    J --> K[Receive New Device]:::proc
-    K --> L[Migrate Data]:::proc
-    L --> M[Ship Old Device to Apple]:::proc
-    M --> N[Submit for Reimbursement]:::proc
-    N --> O[Receive Net Cost Payment]:::out
-
-    classDef start fill:#4CAF50,color:#fff
-    classDef proc fill:#2196F3,color:#fff
-    classDef decide fill:#FF9800,color:#fff
-    classDef out fill:#9C27B0,color:#fff
+    A([Need a replacement]) --> B{Within 2-year cycle?}
+    B -->|yes| D[Select eligible device]
+    B -->|no| C{Manager approves?}
+    C -->|yes| D
+    C -->|no| E([Keep old device])
+    D --> F[Order with trade-in]
+    F --> G["Receive device, migrate data"]
+    G --> H[Ship old device to Apple]
+    H --> I[Submit for reimbursement]
+    I --> J([Net cost reimbursed])
 ```
 
 ### Replacement Process
@@ -195,19 +189,14 @@ Upon receiving your new device, migrate all data from your old device and test f
 ### Approval Process
 
 ```mermaid
-graph LR
-    A[Need Mobile Device?]:::start --> B[Write Business Justification]:::proc
-    B --> C[Submit to Manager]:::proc
-    C --> D{Approved?}:::decide
-    D -->|No| E[Use Personal Device]:::out
-    D -->|Yes| F[Purchase Device]:::proc
-    F --> G[Submit Receipt to Finance]:::proc
-    G --> H[Receive Reimbursement]:::out
-
-    classDef start fill:#4CAF50,color:#fff
-    classDef proc fill:#2196F3,color:#fff
-    classDef decide fill:#FF9800,color:#fff
-    classDef out fill:#9C27B0,color:#fff
+flowchart TD
+    A([Need a mobile device]) --> B[Write a justification]
+    B --> C[Submit to manager]
+    C --> D{Approved?}
+    D -->|no| E([Use own device])
+    D -->|yes| F[Purchase device]
+    F --> G[Submit receipt to Finance]
+    G --> H([Receive reimbursement])
 ```
 
 ## Device Management & Security 🔒
@@ -379,21 +368,14 @@ All devices must adhere to these security requirements enforced via Rippling MDM
 All hardware purchases must follow standard company reimbursement procedures:
 
 ```mermaid
-graph TD
-    A[Purchase Approved Hardware]:::start --> B[Keep All Receipts]:::proc
-    B --> C[Submit to Finance Team]:::proc
-    C --> D[Include Business Justification]:::proc
-    D --> E[Finance Reviews]:::proc
-    E --> F{Approved?}:::decide
-    F -->|Yes| G[Reimbursement Processed]:::proc
-    F -->|No| H[Request More Info]:::proc
-    H --> C
-    G --> I[Month-End Payment]:::out
-
-    classDef start fill:#4CAF50,color:#fff
-    classDef proc fill:#2196F3,color:#fff
-    classDef decide fill:#FF9800,color:#fff
-    classDef out fill:#9C27B0,color:#fff
+flowchart TD
+    A([Purchase approved hardware]) --> B[Keep all receipts]
+    B --> C[Submit with justification]
+    C --> D[Finance reviews]
+    D --> E{Approved?}
+    E -->|yes| F([Month-end payment])
+    E -->|no| G[Provide more info]
+    G -.-> C
 ```
 
 !!! tip "Reimbursement Tips"

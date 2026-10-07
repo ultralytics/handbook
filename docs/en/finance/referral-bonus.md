@@ -61,24 +61,16 @@ keywords: Ultralytics, Employee Referral, Referral Bonus, Hiring, Recruitment, T
 ## Process 📋
 
 ```mermaid
-graph TD
-    A[Submit Referral to People Team]:::start --> B[People Team Confirms Eligibility]:::proc
-    B --> C{Candidate in Pipeline?}:::decide
-    C -->|Yes| D[Referral Not Eligible]:::error
-    C -->|No| E[Process Application]:::proc
-    E --> F{Candidate Hired?}:::decide
-    F -->|No| G[No Bonus]:::error
-    F -->|Yes| H[Track 3-Month Period]:::proc
-    H --> I{Completes 3 Months?}:::decide
-    I -->|No| J[No Bonus]:::error
-    I -->|Yes| K[Process $5,000 Bonus]:::proc
-    K --> L[Bonus Paid in Next Payroll]:::out
-
-    classDef start fill:#4CAF50,color:#fff
-    classDef proc fill:#2196F3,color:#fff
-    classDef decide fill:#FF9800,color:#fff
-    classDef out fill:#9C27B0,color:#fff
-    classDef error fill:#F44336,color:#fff
+flowchart TD
+    A([Submit referral]) --> B[Eligibility check]
+    B --> C{In pipeline?}
+    C -->|yes| D([Not eligible]):::error
+    C -->|no| E[Interviews]
+    E --> F{Hired?}
+    F -->|no| G([No bonus]):::error
+    F -->|yes| H{Stays 3 months?}
+    H -->|no| G
+    H -->|yes| I(["$5,000 in next payroll"])
 ```
 
 ### Step-by-Step

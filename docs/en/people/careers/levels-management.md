@@ -14,15 +14,13 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 ## Career Progression
 
 ```mermaid
-flowchart LR
-    M4["M4<br/>Lead Manager<br/>80% Ops"]:::decide --> M5["M5<br/>Manager<br/>70% Ops"]:::decide
-    M5 --> M6["M6<br/>Senior Manager<br/>60% Ops"]:::decide
-    M6 --> M7["M7<br/>Head of<br/>50% Ops"]:::decide
-    M7 --> M8["M8<br/>Director<br/>40% Ops"]:::decide
-    M8 --> M9["M9<br/>VP<br/>30% Ops"]:::decide
-    M9 --> M10["M10<br/>Senior VP<br/>20% Ops"]:::decide
-
-    classDef decide fill:#FF9800,color:#fff
+flowchart TD
+    M4[M4 Lead Manager] --> M5[M5 Manager]
+    M5 --> M6[M6 Senior Manager]
+    M6 --> M7[M7 Head of]
+    M7 --> M8[M8 Director]
+    M8 --> M9[M9 VP]
+    M9 --> M10[M10 Senior VP]
 ```
 
 ## Level Overview

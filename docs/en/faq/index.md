@@ -179,14 +179,10 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     **Hardware refresh cycle: Every 2 years**
 
     ```mermaid
-    graph LR
-        A[Get Manager Approval]:::start --> B[Order New Device]:::proc
-        B --> C[Use Apple Trade-In]:::proc
-        C --> D[Submit for Reimbursement]:::out
-
-        classDef start fill:#4CAF50,color:#fff
-        classDef proc fill:#2196F3,color:#fff
-        classDef out fill:#9C27B0,color:#fff
+    flowchart TD
+        A([Get manager approval]) --> B[Order new device]
+        B --> C[Use Apple trade-in]
+        C --> D([Submit for reimbursement])
     ```
 
     Reimbursed amount = **net cost** (new device - trade-in credit)
@@ -231,18 +227,14 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
 ??? question "How do I start contributing to the codebase?"
 
     ```mermaid
-    graph TD
-        A[Fork Repository]:::start --> B[Install Package]:::proc
-        B --> C[Create Feature Branch]:::proc
-        C --> D[Follow Coding Standards]:::proc
-        D --> E[Submit PR]:::proc
-        E --> F[Sign CLA]:::proc
-        F --> G[Address Feedback]:::proc
-        G --> H[Merge!]:::out
-
-        classDef start fill:#4CAF50,color:#fff
-        classDef proc fill:#2196F3,color:#fff
-        classDef out fill:#9C27B0,color:#fff
+    flowchart TD
+        A([Fork repository]) --> B[Install package]
+        B --> C[Create feature branch]
+        C --> D[Follow coding standards]
+        D --> E[Submit PR]
+        E --> F[Sign CLA]
+        F --> G[Address feedback]
+        G --> H([Merge])
     ```
 
     See [How to Contribute](../contributions/how-to-contribute.md) for complete guide.

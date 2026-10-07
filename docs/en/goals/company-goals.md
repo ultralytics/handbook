@@ -65,16 +65,13 @@ keywords: Ultralytics goals, company objectives, strategic priorities, growth ta
 ## Goal Setting Process
 
 ```mermaid
-graph LR
-    A[Annual Strategy]:::start --> B[Quarterly Planning]:::proc
-    B --> C[Sprint Execution]:::proc
-    C --> D[Monthly Check-ins]:::proc
-    D --> E[Quarterly Reviews]:::proc
-    E --> F[Annual Retrospective]:::proc
-    F --> A
-
-    classDef start fill:#4CAF50,color:#fff
-    classDef proc fill:#2196F3,color:#fff
+flowchart TD
+    A([Annual strategy]) --> B[Quarterly planning]
+    B --> C[Sprint execution]
+    C --> D[Monthly check-ins]
+    D --> E[Quarterly reviews]
+    E --> F[Annual retrospective]
+    F -.->|next year| A
 ```
 
 | Step                     | Cadence        | Description                                                    |

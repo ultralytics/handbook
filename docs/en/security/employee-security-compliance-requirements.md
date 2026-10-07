@@ -11,21 +11,23 @@ Welcome to Ultralytics! This guide explains what you can expect regarding securi
 ## Overview
 
 ```mermaid
-timeline
-    title Your Security & Compliance Journey
-    section Pre-Start
-        Background Checks : Security verification
-        Sign Agreements : NDA and employment contracts
-    section Day 1
-        Complete Training : CCPA, GDPR, Security Awareness
-        Policy Acknowledgment : Formal security responsibilities via Vanta
-    section Ongoing
-        Annual Training : Refresher courses
-        Performance Reviews : Policy adherence assessment
-    section Offboarding
-        Access Revoked : System access removed
-        Equipment Return : Company property returned
-        Termination Agreement : Ongoing obligations clarified
+flowchart TD
+    subgraph start["Before you start"]
+        direction TB
+        A([Background check]) --> B[Sign NDA and contract]
+    end
+    B --> C[Training and policies]
+    subgraph ongoing["Ongoing"]
+        direction TB
+        D[Annual refresher training] ~~~ E[Performance reviews]
+    end
+    C --> ongoing
+    subgraph offboarding["Offboarding"]
+        direction TB
+        F[Access revoked] --> G[Termination agreement]
+        G --> H([Equipment returned])
+    end
+    ongoing --> offboarding
 ```
 
 !!! tip "Badge Discipline"
@@ -135,14 +137,14 @@ timeline
 ### Staying Informed
 
 ```mermaid
-graph LR
-    A[Security Updates]:::start --> B[Email Notifications]:::out
-    A --> C[Slack Announcements]:::out
-    A --> D[Team Meetings]:::out
-    A --> E[Training Updates]:::out
-
-    classDef start fill:#4CAF50,color:#fff
-    classDef out fill:#9C27B0,color:#fff
+flowchart TD
+    A([Security updates]) --> channels
+    subgraph channels["Channels"]
+        direction TB
+        B[Email notifications] ~~~ C[Slack announcements]
+        C ~~~ D[Team meetings]
+        D ~~~ E[Training updates]
+    end
 ```
 
 Security regulations and threats evolve constantly. We'll keep you updated through multiple channels so you're always aware of new requirements and emerging risks.

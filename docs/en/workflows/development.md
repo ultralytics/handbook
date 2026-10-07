@@ -39,21 +39,16 @@ Every work item should have a clear owner:
 
 ```mermaid
 flowchart TD
-    A[Fork or Sync Repository]:::start --> B[Create Feature Branch]:::proc
-    B --> C[Make Changes]:::proc
-    C --> D[Run Tests Locally]:::proc
-    D --> E[Commit Changes]:::proc
-    E --> F[Create Pull Request]:::proc
-    F --> G[Sign CLA]:::proc
-    G --> H{Review}:::decide
-    H -->|Changes Requested| I[Address Feedback]:::proc
-    I --> H
-    H -->|Approved| J[Merge!]:::out
-
-    classDef start fill:#4CAF50,color:#fff
-    classDef proc fill:#2196F3,color:#fff
-    classDef decide fill:#FF9800,color:#fff
-    classDef out fill:#9C27B0,color:#fff
+    A([Fork or sync repository]) --> B[Create feature branch]
+    B --> C[Make changes]
+    C --> D[Run tests locally]
+    D --> E[Commit changes]
+    E --> F[Create pull request]
+    F --> G[Sign CLA]
+    G --> H{Review approved?}
+    H -->|no| I[Address feedback]
+    I -.-> H
+    H -->|yes| J([Merge])
 ```
 
 ### 1. Fork or Sync the Repository
