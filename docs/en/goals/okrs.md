@@ -45,8 +45,8 @@ keywords: Ultralytics OKRs, objectives and key results, goal setting, performanc
 
 ```mermaid
 flowchart TD
-    A([Planning in week 1]) --> B["Execution in weeks 2–12"]
-    B --> C[Review in week 13]
+    A(["Planning, week 1"]) --> B["Execution, weeks 2–12"]
+    B --> C["Review, week 13"]
     C --> D[Retrospective]
     D -.->|next quarter| A
 ```

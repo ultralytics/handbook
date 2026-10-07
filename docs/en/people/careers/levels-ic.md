@@ -24,7 +24,7 @@ flowchart TD
     IC3 --> IC4[IC4 Senior 1]
     IC4 --> IC5[IC5 Senior 2]
     IC5 --> IC6[IC6 Staff]
-    IC6 --> IC7[IC7 Senior staff]
+    IC6 --> IC7[IC7 Senior Staff]
     IC7 --> IC8[IC8 Principal]
     IC8 --> IC9[IC9 Distinguished]
 ```

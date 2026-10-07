@@ -49,12 +49,15 @@ keywords: Ultralytics ISMS, information security, ISO 27001, SOC 2, data protect
 ```mermaid
 flowchart TD
     subgraph saas["Platform SaaS services"]
+        direction TB
         A1[Customer data protection] ~~~ A2[Service reliability]
     end
     subgraph yolo["YOLO model development"]
+        direction TB
         B1[Secure development lifecycle] ~~~ B2[Model integrity controls]
     end
     subgraph corp["Corporate infrastructure"]
+        direction TB
         C1["Systems & process safeguards"] ~~~ C2[Employee data protection]
     end
     A2 ~~~ B1

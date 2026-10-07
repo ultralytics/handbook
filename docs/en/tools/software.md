@@ -92,10 +92,10 @@ flowchart TD
     A([Need access to a tool]) --> B[Open Vanta]
     B --> C{Tool listed?}
     C -->|yes| E[Request access]
-    C -->|no| D[New software approval]
+    C -->|no| D[Software approval]
     E --> F{Approved?}
     F -->|yes| G([Access granted])
-    F -->|no| H([Rejected with reason]):::error
+    F -->|no| H([Rejected]):::error
     D ~~~ H
     click D "#3-software-approval-vendor-lifecycle"
 ```

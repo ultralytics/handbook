@@ -165,6 +165,7 @@ Our values directly support our mission to advance AI for everyone:
 ```mermaid
 flowchart TD
     subgraph values["Our values"]
+        direction TB
         A[Relentless progress] ~~~ B[Strive for excellence]
         B ~~~ C["Actions, not words"]
         C ~~~ D[Act with urgency]

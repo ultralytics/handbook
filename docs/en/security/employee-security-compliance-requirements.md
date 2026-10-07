@@ -12,18 +12,21 @@ Welcome to Ultralytics! This guide explains what you can expect regarding securi
 
 ```mermaid
 flowchart TD
-    subgraph onboarding["Onboarding"]
+    subgraph start["Before you start"]
+        direction TB
         A([Background check]) --> B[Sign NDA and contract]
-        B --> C[Training and policies]
     end
+    B --> C[Training and policies]
     subgraph ongoing["Ongoing"]
-        D[Annual refresher training] --> E[Performance reviews]
+        direction TB
+        D[Annual refresher training] ~~~ E[Performance reviews]
     end
+    C --> ongoing
     subgraph offboarding["Offboarding"]
-        F[Access revoked] --> G[Equipment returned]
-        G --> H([Termination agreement])
+        direction TB
+        F[Access revoked] --> G[Termination agreement]
+        G --> H([Equipment returned])
     end
-    onboarding --> ongoing
     ongoing --> offboarding
 ```
 
@@ -137,6 +140,7 @@ flowchart TD
 flowchart TD
     A([Security updates]) --> channels
     subgraph channels["Channels"]
+        direction TB
         B[Email notifications] ~~~ C[Slack announcements]
         C ~~~ D[Team meetings]
         D ~~~ E[Training updates]

@@ -22,12 +22,15 @@ This policy outlines the provisioning, management, and security of all hardware 
 ```mermaid
 flowchart TD
     subgraph y1["Year 1"]
+        direction TB
         A([New device issued]) --> B[Peak performance]
     end
     subgraph y2["Year 2"]
+        direction TB
         C[Continued use] --> D[Refresh eligible]
     end
     subgraph refresh["Refresh"]
+        direction TB
         E[Automatic approval] --> F[Order with trade-in]
         F --> G([Receive new device])
     end
@@ -190,7 +193,7 @@ flowchart TD
     A([Need a mobile device]) --> B[Write a justification]
     B --> C[Submit to manager]
     C --> D{Approved?}
-    D -->|no| E([Use personal device])
+    D -->|no| E([Use own device])
     D -->|yes| F[Purchase device]
     F --> G[Submit receipt to Finance]
     G --> H([Receive reimbursement])

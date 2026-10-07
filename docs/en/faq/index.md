@@ -181,7 +181,7 @@ keywords: Ultralytics FAQ, employee questions, company policies, expense reimbur
     ```mermaid
     flowchart TD
         A([Get manager approval]) --> B[Order new device]
-        B --> C[Trade in old device]
+        B --> C[Use Apple trade-in]
         C --> D([Submit for reimbursement])
     ```
 

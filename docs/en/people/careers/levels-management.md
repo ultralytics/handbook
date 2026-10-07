@@ -15,12 +15,12 @@ Comprehensive career framework for Management roles at Ultralytics, defining exp
 
 ```mermaid
 flowchart TD
-    M4[M4 Lead manager] --> M5[M5 Manager]
-    M5 --> M6[M6 Senior manager]
+    M4[M4 Lead Manager] --> M5[M5 Manager]
+    M5 --> M6[M6 Senior Manager]
     M6 --> M7[M7 Head of]
     M7 --> M8[M8 Director]
     M8 --> M9[M9 VP]
-    M9 --> M10[M10 Senior vice president]
+    M9 --> M10[M10 Senior VP]
 ```
 
 ## Level Overview
