@@ -95,7 +95,7 @@ flowchart TD
     C -->|no| D[Software approval]
     E --> F{Approved?}
     F -->|yes| G([Access granted])
-    F -->|no| H([Rejected]):::error
+    F -->|no| H([Given a reason]):::error
     D ~~~ H
     click D "#3-software-approval-vendor-lifecycle"
 ```
