@@ -5,7 +5,7 @@ keywords: Ultralytics handbook, employee handbook, company guide, AI handbook, Y
 
 # Welcome to the Ultralytics Handbook 🚀
 
-[![Ultralytics Team](https://cdn.ul.run/i/c3eb8954f8efd87f42512638f4397417.avif)](https://www.ultralytics.com/blog/ultralytics-morocco-offsite-team-highlights-2026)
+[![Ultralytics Team](https://cdn.ul.run/i/f1c96912713f7c03708dd64ae9bc4340.avif)](https://www.ultralytics.com/blog/ultralytics-morocco-offsite-team-highlights-2026)
 
 Welcome to the [Ultralytics](https://www.ultralytics.com) Handbook - your comprehensive guide to our company's mission, vision, values, and operational practices. This handbook provides essential insights and resources for team members, collaborators, and our global community.
 
