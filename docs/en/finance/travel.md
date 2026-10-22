@@ -115,8 +115,8 @@ Employees traveling for business will receive a daily per diem allowance based o
 |                       | San Francisco | $204.00 | $69.00 | $273.00        |
 |                       | San Jose      | $144.00 | $69.00 | $213.00        |
 |                       | San Diego     | $149.25 | $64.50 | $213.75        |
-| **Latvia  **          | Riga          | $108.50 | $66.00 | $174.50        |
-| **Kenya  **           | Nairobi       | $125.00 | $38.50 | $163.50        |
+| **Latvia **           | Riga          | $108.50 | $66.00 | $174.50        |
+| **Kenya **            | Nairobi       | $125.00 | $38.50 | $163.50        |
 
 Nuremberg and Windsor use their countries’ “Other” rates. Tokyo uses the “Tokyo City” rate.
 
