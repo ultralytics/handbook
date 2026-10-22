@@ -114,7 +114,7 @@ Employees traveling for business will receive a daily per diem allowance based o
 |                       | New York      | $256.50 | $69.00 | $325.50        |
 |                       | San Francisco | $204.00 | $69.00 | $273.00        |
 |                       | San Jose      | $144.00 | $69.00 | $213.00        |
-|                       | San Diego     | $149.25 | $64.50 | $213.75        |
+|                       | San Diego     | $156.00 | $64.50 | $220.50        |
 | **Latvia **           | Riga          | $108.50 | $66.00 | $174.50        |
 | **Kenya **            | Nairobi       | $125.00 | $38.50 | $163.50        |
 
