@@ -104,6 +104,9 @@ Employees traveling for business will receive a daily per diem allowance based o
 |                       | Malaga        | $139.00 | $73.50 | $212.50        |
 | **United Kingdom 🇬🇧** | London        | $212.00 | $87.00 | $299.00        |
 |                       | Windsor       | $126.00 | $54.00 | $180.00        |
+|                       | Cambridge     | $138.00 | $71.50 | $209.50        |
+|                       | Birmingham    | $87.00  | $38.50 | $125.50        |
+| **Ireland **          | Dublin        | $178.00 | $77.50 | $255.50        |
 | **United States 🇺🇸**  | Denver        | $161.25 | $69.00 | $230.25        |
 |                       | Las Vegas     | $94.50  | $64.50 | $159.00        |
 |                       | Los Angeles   | $143.25 | $64.50 | $207.75        |
@@ -111,6 +114,9 @@ Employees traveling for business will receive a daily per diem allowance based o
 |                       | New York      | $256.50 | $69.00 | $325.50        |
 |                       | San Francisco | $204.00 | $69.00 | $273.00        |
 |                       | San Jose      | $144.00 | $69.00 | $213.00        |
+|                       | San Diego     | $149.25 | $64.50 | $213.75        |
+| **Latvia  **          | Riga          | $108.50 | $66.00 | $174.50        |
+| **Kenya  **           | Nairobi       | $125.00 | $38.50 | $163.50        |
 
 Nuremberg and Windsor use their countries’ “Other” rates. Tokyo uses the “Tokyo City” rate.
 
