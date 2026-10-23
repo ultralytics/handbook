@@ -78,7 +78,9 @@ flowchart TD
         - Alcohol
         - Entertainment
 
-Employees traveling for business will receive a daily per diem allowance based on their destination. All amounts below are in USD, verified on September 24, 2026 against the September 1, 2026 [U.S. Department of State schedule (via DTMO)](https://www.travel.dod.mil/Travel-Transportation-Rates/Per-Diem/Per-Diem-Rate-Lookup/) and [GSA FY 2026 rates](https://www.gsa.gov/system/files/FY2026_PerDiemMasterRatesFile.xlsx) (October 1, 2025–September 30, 2026). The company adjustments below are already applied. U.S. lodging allowances use the rates applicable in September 2026; Finance reviews and updates this schedule annually.
+Employees traveling for business will receive a daily per diem allowance based on their destination. All amounts below are in USD, with the company adjustments already applied. Except for the five destinations noted below, rates were verified on September 24, 2026 against the September 1, 2026 [U.S. Department of State schedule (via DTMO)](https://www.travel.dod.mil/Travel-Transportation-Rates/Per-Diem/Per-Diem-Rate-Lookup/) and [GSA FY 2026 rates](https://www.gsa.gov/system/files/FY2026_PerDiemMasterRatesFile.xlsx) (October 1, 2025–September 30, 2026), using September 2026 U.S. lodging allowances. Finance reviews and updates this schedule annually.
+
+Cambridge, Birmingham, Dublin, Riga, and San Diego were verified on October 23, 2026. The four foreign destinations use the [October 1, 2026 DTMO schedule](https://www.travel.dod.mil/Portals/119/Documents/Allowances/Per_Diem/OCONUS/Current_OCONUS_Rates.pdf); San Diego uses [GSA FY 2027 rates](https://www.gsa.gov/system/files/FY2027_PerDiemRates_Validated090126.xlsx) (October 1, 2026–September 30, 2027), with the lodging allowance applicable in October 2026.
 
 | Country               | City          | Lodging | M&IE   | Total Per Diem |
 | --------------------- | ------------- | ------- | ------ | -------------- |
@@ -92,9 +94,11 @@ Employees traveling for business will receive a daily per diem allowance based o
 |                       | Nuremberg     | $114.50 | $66.50 | $181.00        |
 |                       | Munich        | $156.00 | $77.00 | $233.00        |
 |                       | Stuttgart     | $129.50 | $68.00 | $197.50        |
+| **Ireland 🇮🇪**        | Dublin        | $178.00 | $77.50 | $255.50        |
 | **Italy 🇮🇹**          | Rome          | $244.50 | $89.50 | $334.00        |
 | **Japan 🇯🇵**          | Tokyo         | $173.00 | $61.00 | $234.00        |
 | **Kenya 🇰🇪**          | Nairobi       | $125.00 | $38.50 | $163.50        |
+| **Latvia 🇱🇻**         | Riga          | $108.50 | $66.00 | $174.50        |
 | **Netherlands 🇳🇱**    | Amsterdam     | $226.50 | $96.00 | $322.50        |
 |                       | Eindhoven     | $117.00 | $70.50 | $187.50        |
 | **Portugal 🇵🇹**       | Lisbon        | $140.00 | $56.00 | $196.00        |
@@ -102,21 +106,18 @@ Employees traveling for business will receive a daily per diem allowance based o
 | **Spain 🇪🇸**          | Barcelona     | $153.50 | $67.00 | $220.50        |
 |                       | Madrid        | $199.50 | $69.50 | $269.00        |
 |                       | Malaga        | $139.00 | $73.50 | $212.50        |
-| **United Kingdom 🇬🇧** | London        | $212.00 | $87.00 | $299.00        |
-|                       | Windsor       | $126.00 | $54.00 | $180.00        |
+| **United Kingdom 🇬🇧** | Birmingham    | $87.00  | $38.50 | $125.50        |
 |                       | Cambridge     | $138.00 | $71.50 | $209.50        |
-|                       | Birmingham    | $87.00  | $38.50 | $125.50        |
-| **Ireland **          | Dublin        | $178.00 | $77.50 | $255.50        |
+|                       | London        | $212.00 | $87.00 | $299.00        |
+|                       | Windsor       | $126.00 | $54.00 | $180.00        |
 | **United States 🇺🇸**  | Denver        | $161.25 | $69.00 | $230.25        |
 |                       | Las Vegas     | $94.50  | $64.50 | $159.00        |
 |                       | Los Angeles   | $143.25 | $64.50 | $207.75        |
 |                       | Santa Clara   | $144.00 | $69.00 | $213.00        |
 |                       | New York      | $256.50 | $69.00 | $325.50        |
+|                       | San Diego     | $156.00 | $64.50 | $220.50        |
 |                       | San Francisco | $204.00 | $69.00 | $273.00        |
 |                       | San Jose      | $144.00 | $69.00 | $213.00        |
-|                       | San Diego     | $156.00 | $64.50 | $220.50        |
-| **Latvia **           | Riga          | $108.50 | $66.00 | $174.50        |
-| **Kenya **            | Nairobi       | $125.00 | $38.50 | $163.50        |
 
 Nuremberg and Windsor use their countries’ “Other” rates. Tokyo uses the “Tokyo City” rate.
 
