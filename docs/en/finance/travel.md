@@ -78,7 +78,7 @@ flowchart TD
         - Alcohol
         - Entertainment
 
-Employees traveling for business will receive a daily per diem allowance based on their destination. All amounts below are in USD, verified on September 24, 2026 against the September 1, 2026 [U.S. Department of State schedule](https://allowances.state.gov/web920/per_diem.asp) and [GSA FY 2026 rates](https://www.gsa.gov/system/files/FY2026_PerDiemMasterRatesFile.xlsx) (October 1, 2025–September 30, 2026). The company adjustments below are already applied. U.S. lodging allowances use the rates applicable in September 2026; Finance reviews and updates this schedule annually.
+Employees traveling for business will receive a daily per diem allowance based on their destination. All amounts below are in USD, verified on September 24, 2026 against the September 1, 2026 [U.S. Department of State schedule (via DTMO)](https://www.travel.dod.mil/Travel-Transportation-Rates/Per-Diem/Per-Diem-Rate-Lookup/) and [GSA FY 2026 rates](https://www.gsa.gov/system/files/FY2026_PerDiemMasterRatesFile.xlsx) (October 1, 2025–September 30, 2026). The company adjustments below are already applied. U.S. lodging allowances use the rates applicable in September 2026; Finance reviews and updates this schedule annually.
 
 | Country               | City          | Lodging | M&IE   | Total Per Diem |
 | --------------------- | ------------- | ------- | ------ | -------------- |
@@ -126,10 +126,10 @@ Nuremberg and Windsor use their countries’ “Other” rates. Tokyo uses the �
 
     Ultralytics bases daily per diem rates on official U.S. government sources, adjusted to reflect our company's size and budget considerations.
 
-    | Region        | Source                                                                       | Ultralytics Rate    |
-    | ------------- | ---------------------------------------------------------------------------- | ------------------- |
-    | 🇺🇸 **CONUS**  | [GSA Per Diem Rates](https://www.gsa.gov/travel/plan-book/per-diem-rates)    | **75%** of official |
-    | 🌍 **OCONUS** | [U.S. Department of State](https://allowances.state.gov/web920/per_diem.asp) | **50%** of official |
+    | Region        | Source                                                                                                                       | Ultralytics Rate    |
+    | ------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+    | 🇺🇸 **CONUS**  | [GSA Per Diem Rates](https://www.gsa.gov/travel/plan-book/per-diem-rates)                                                    | **75%** of official |
+    | 🌍 **OCONUS** | [U.S. Department of State (via DTMO)](https://www.travel.dod.mil/Travel-Transportation-Rates/Per-Diem/Per-Diem-Rate-Lookup/) | **50%** of official |
 
     - **CONUS** = Continental United States
     - **OCONUS** = Outside Continental United States
