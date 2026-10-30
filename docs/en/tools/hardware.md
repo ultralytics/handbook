@@ -60,7 +60,7 @@ flowchart TD
 
     ***
 
-    [14", M5, 16GB RAM, 512GB Storage](https://www.apple.com/macbook-pro/)
+    [14", M6, 16GB RAM, 1TB Storage](https://www.apple.com/macbook-pro/)
 
     **For technical/developer roles**
 
@@ -106,11 +106,11 @@ flowchart TD
 
 <div class="grid cards" markdown>
 
-- :material-headphones: **AirPods Pro**
+- :material-headphones: **AirPods Pro 3**
 
     ***
 
-    [Apple AirPods Pro](https://www.apple.com/airpods-pro/)
+    [Apple AirPods Pro 3](https://www.apple.com/airpods-pro/)
 
     For all employees
 
