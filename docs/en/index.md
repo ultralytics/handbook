@@ -195,7 +195,7 @@ Welcome to the [Ultralytics](https://www.ultralytics.com) Handbook - your compre
 
     Quarterly objectives framework
 
-- :material-map: **[Product Roadmap](https://docs.ultralytics.com)**
+- :material-map: **[Product Roadmap](https://www.ultralytics.com/roadmap)**
 
     ***
 
