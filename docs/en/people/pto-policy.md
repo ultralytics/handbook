@@ -158,7 +158,7 @@ Employees earn additional PTO days based on length of service:
 
     === "🇨🇳 China"
 
-        [State Council Public Holidays](https://english.www.gov.cn/policies/featured/202511/04/content_WS6909c915c6d00ca5f9a074f7.html) - Official government announcement
+        [State Council Public Holidays](https://www.gov.cn/zhengce/content/202611/content_7085101.htm) - Official government announcement
 
     === "🇺🇸 United States"
 
