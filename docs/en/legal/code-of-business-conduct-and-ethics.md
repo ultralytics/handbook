@@ -9,7 +9,7 @@ keywords: Ultralytics code of conduct, business ethics, anti-corruption, data pr
 
 Ultralytics operates globally with offices in London, Madrid, Shenzhen, and New York. We run a **High-Resolution Hybrid** model: team members within commutable distance badge in on **Anchor Days (Tue/Wed/Thu)** to collaborate at full bandwidth, with badge data reviewed to keep workplaces safe, recognize consistent presence, and always handled per our Employee Privacy Policy and applicable labor laws. This Code of Business Conduct and Ethics ensures everyone understands their responsibilities and maintains our high standards, regardless of location.
 
-!!! info "Related Policies"
+!!! info "Related Documents"
 
     [Open-Source Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct), [Privacy Policy](https://docs.ultralytics.com/help/privacy), [Environmental, Health and Safety Policy](https://docs.ultralytics.com/help/environmental-health-safety), [Social Media Policy](../contributions/social-media-policy.md), [Responsible Use Policy (RUP)](https://www.ultralytics.com/legal/responsible-responsible-use-policy), [Terms of Service](https://www.ultralytics.com/legal/terms-of-service).
 
@@ -261,10 +261,3 @@ Once a concern is reported, it will be logged and tracked to closure. If you hav
 ### Consequences of Violations
 
 Violations of our Code or any laws or regulations can lead to disciplinary actions. These will depend on the nature and seriousness of the situation and may include formal warnings, demotion, or dismissal. In some cases, legal consequences may also apply.
-
-## Revision History & Approvals
-
-- **Document owner:** Edward Crook
-- **Last revision:** 26 November 2026
-- **Next review:** 26 November 2027
-- Version history and approvals are [available in GitHub](https://github.com/ultralytics/handbook/pulls?q=is%3Apr+is%3Aclosed).
