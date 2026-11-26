@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write # Push new contributors to docs/mkdocs_github_authors.yaml on PRs
 
 jobs:
   build-docs:
@@ -20,11 +20,61 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
+        with:
+          # Full history to find every page author
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          token: ${{ secrets._GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
       - uses: ultralytics/actions/setup-uv@main
         with:
           python-version: "3.13"
       - name: Install dependencies
         run: uv pip install -r requirements.txt
+      - name: Update Handbook Authors
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          python - <<'EOF'
+          import json, os, subprocess, urllib.request, yaml
+          # Add each new handbook author to the YAML once, from GitHub's own commit attribution (null: no account)
+          path = "docs/mkdocs_github_authors.yaml"
+          authors = yaml.safe_load(open(path))
+          known = {email.lower() for email in authors}
+          new = {}
+          for line in subprocess.check_output(["git", "log", "--format=%H %ae", "--", "docs/en"], text=True).splitlines():
+              sha, email = line.split(" ", 1)
+              email = email.lower()
+              if email not in known:
+                  new.setdefault(email, sha)
+          for email, sha in new.items():
+              # GraphQL, not REST: REST still names suspended or deleted accounts, whose profiles 404
+              owner, name = os.environ["REPO"].split("/")
+              query = f'{{repository(owner:"{owner}",name:"{name}"){{object(oid:"{sha}"){{...on Commit{{author{{user{{login databaseId}}}}}}}}}}}}'
+              request = urllib.request.Request(
+                  "https://api.github.com/graphql",
+                  json.dumps({"query": query}).encode(),
+                  {"Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}"},
+              )
+              user = json.load(urllib.request.urlopen(request))["data"]["repository"]["object"]["author"]["user"] or {}
+              avatar = f"https://avatars.githubusercontent.com/u/{user['databaseId']}?v=4" if user else None
+              authors[email] = {"avatar": avatar, "username": user.get("login")}
+              print(f"{email}: {user.get('login') or 'no GitHub account, omitted from handbook pages'}")
+          if new:  # prettier's quote style, so the format bot doesn't rewrite it
+              open(path, "w").write(yaml.safe_dump(authors, sort_keys=True, allow_unicode=True).replace("'", '"'))
+          EOF
+      - name: Commit and Push Handbook Authors
+        if: github.event_name == 'pull_request'
+        continue-on-error: true
+        run: |
+          if ! git diff --quiet -- docs/mkdocs_github_authors.yaml; then
+            git config user.name "UltralyticsAssistant"
+            git config user.email "web@ultralytics.com"
+            git commit -m "Auto-update handbook authors by https://ultralytics.com/actions" -- docs/mkdocs_github_authors.yaml
+            git push
+          fi
       - name: Validate Handbook
         run: zensical build --strict
       - name: Trigger Handbook redeploy
