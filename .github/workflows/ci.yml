@@ -32,6 +32,9 @@ jobs:
       - name: Install dependencies
         run: uv pip install -r requirements.txt
       - name: Update Handbook Authors
+        # Same-repo PRs only: fork PRs get a read-only token, so the YAML could never be pushed back. A fork author
+        # is added by the next same-repo PR, which scans all of main's history; noreply addresses need no entry.
+        if: github.event.pull_request.head.repo.full_name == github.repository
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -66,7 +69,7 @@ jobs:
               open(path, "w").write(yaml.safe_dump(authors, sort_keys=True, allow_unicode=True).replace("'", '"'))
           EOF
       - name: Commit and Push Handbook Authors
-        if: github.event_name == 'pull_request'
+        if: github.event.pull_request.head.repo.full_name == github.repository
         continue-on-error: true
         run: |
           if ! git diff --quiet -- docs/mkdocs_github_authors.yaml; then
