@@ -227,7 +227,7 @@ Ultralytics is an AI-first company. We expect everyone to default to AI assistan
 
 === "Compensation"
 
-    Competitive Series A-level compensation:
+    Competitive compensation:
 
     - :material-cash: Market-rate salaries benchmarked against top tech companies
     - :material-chart-line: Meaningful equity grants with long exercise windows
