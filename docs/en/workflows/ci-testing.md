@@ -36,7 +36,7 @@ Validates project can be packaged and published to PyPI without errors.
 Tests run on multiple environments:
 
 - **OS**: Ubuntu, Windows, macOS
-- **Python**: every supported version, from the package minimum to the newest release
+- **Python**: a current release on every OS, plus the oldest version the package supports
 
 ## Code Coverage 📊
 

@@ -57,7 +57,6 @@ keywords: Ultralytics goals, company objectives, strategic priorities, growth ta
     | Goal                                               | Target   | Status    |
     | -------------------------------------------------- | -------- | --------- |
     | Maintain SOC 2 & ISO 27001:2022 certification      | Ongoing  | Active    |
-    | SOC 2 Type II & ISO 27001 surveillance audit       | Q1 2027  | Scheduled |
     | GDPR, CCPA & global privacy compliance             | Ongoing  | Active    |
     | Critical security incidents                        | Zero     | On Target |
     | Annual security audits & vulnerability assessments | Annually | Scheduled |
