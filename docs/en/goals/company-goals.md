@@ -44,7 +44,7 @@ keywords: Ultralytics goals, company objectives, strategic priorities, growth ta
 - :material-cloud: **Platform & Infrastructure**
 
     ***
-    - Launch Platform with enhanced training and deployment capabilities
+    - Enhance Platform training and deployment capabilities
     - Achieve 99.9% uptime SLA for production services
     - Support inference across CPU, GPU, NPU, and specialized AI accelerators
     - Deliver <100ms API response times at scale
@@ -56,8 +56,7 @@ keywords: Ultralytics goals, company objectives, strategic priorities, growth ta
 
     | Goal                                               | Target   | Status    |
     | -------------------------------------------------- | -------- | --------- |
-    | SOC 2 Type I attestation                           | Q1 2026  | Completed |
-    | ISO 27001:2022 certification                       | Q1 2026  | Completed |
+    | Maintain SOC 2 & ISO 27001:2022 certification      | Ongoing  | Active    |
     | GDPR, CCPA & global privacy compliance             | Ongoing  | Active    |
     | Critical security incidents                        | Zero     | On Target |
     | Annual security audits & vulnerability assessments | Annually | Scheduled |

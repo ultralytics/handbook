@@ -135,7 +135,7 @@ We encourage internal transfers and role changes:
 
 ## Compensation & Equity 💰
 
-Ultralytics offers competitive Series A-level compensation including:
+Ultralytics offers competitive compensation including:
 
 - Market-rate salaries benchmarked against top tech companies
 - Meaningful equity grants with a 90-day post-termination exercise window
@@ -182,7 +182,7 @@ All employees complete annual mandatory training via [Vanta](https://app.vanta.c
 - **CCPA** (California Consumer Privacy Act)
 - **GDPR** (General Data Protection Regulation)
 - **General Security Awareness**
-- **Secure Development Training** (for technical roles)
+- **Secure Code Training** (for technical roles)
 
 ### Code of Conduct
 

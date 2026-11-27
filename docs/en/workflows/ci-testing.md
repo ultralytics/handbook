@@ -36,7 +36,7 @@ Validates project can be packaged and published to PyPI without errors.
 Tests run on multiple environments:
 
 - **OS**: Ubuntu, Windows, macOS
-- **Python**: 3.13 for the primary matrix, plus 3.8-3.12 compatibility jobs
+- **Python**: a current release on every OS, plus the oldest version the package supports
 
 ## Code Coverage 📊
 
