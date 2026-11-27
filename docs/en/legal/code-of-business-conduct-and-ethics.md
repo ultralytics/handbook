@@ -3,15 +3,15 @@ description: The Code of Business Conduct and Ethics outlines the principles and
 keywords: Ultralytics code of conduct, business ethics, anti-corruption, data protection, workplace inclusion, conflict of interest, financial responsibility, whistleblower reporting
 ---
 
-# Code of Business Conduct and Ethics (2025) 📖
+# Code of Business Conduct and Ethics 📖
 
 ## About This Code 📌
 
 Ultralytics operates globally with offices in London, Madrid, Shenzhen, and New York. We run a **High-Resolution Hybrid** model: team members within commutable distance badge in on **Anchor Days (Tue/Wed/Thu)** to collaborate at full bandwidth, with badge data reviewed to keep workplaces safe, recognize consistent presence, and always handled per our Employee Privacy Policy and applicable labor laws. This Code of Business Conduct and Ethics ensures everyone understands their responsibilities and maintains our high standards, regardless of location.
 
-!!! info "Related Policies"
+!!! info "Related Documents"
 
-    [Open-Source Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct), [Privacy Policy](https://docs.ultralytics.com/help/privacy), [Environmental, Health and Safety Policy](https://docs.ultralytics.com/help/environmental-health-safety), [Social Media Policy](../contributions/social-media-policy.md).
+    [Open-Source Code of Conduct](https://docs.ultralytics.com/help/code-of-conduct), [Privacy Policy](https://docs.ultralytics.com/help/privacy), [Environmental, Health and Safety Policy](https://docs.ultralytics.com/help/environmental-health-safety), [Social Media Policy](../contributions/social-media-policy.md), [Responsible Use Policy (RUP)](https://www.ultralytics.com/legal/responsible-responsible-use-policy), [Terms of Service](https://www.ultralytics.com/legal/terms-of-service).
 
 Our mission is to move the world forward by first moving ourselves, continuously pushing the boundaries of AI through relentless execution, creating the world's best open-source solutions that benefit everyone equally, and empowering individuals to improve their lives and the lives of those around them.
 
@@ -20,6 +20,8 @@ We believe the way we work matters just as much as what we build. At Ultralytics
 By staying true to this [Mission and Values](https://handbook.ultralytics.com/mission-vision-values), we ensure that our pursuit of technological advancement is grounded in integrity, inclusivity, and purpose.
 
 This Code establishes essential guidelines for ethical behavior and legal compliance. All team members, including employees (full-time or part-time), contractors, advisors, and partners worldwide, must adhere to this Code. While not comprehensive of all policies or laws, it provides minimum standards for conducting business responsibly. Everyone is expected to familiarize themselves with applicable laws and regulations in their area of operation.
+
+**Acknowledging this Code:** All employees must read and acknowledge this Code through Vanta when they join Ultralytics, annually thereafter, and whenever it is materially updated. Contractor, advisor, and temporary worker agreements reference this Code, and contractors and temporary workers acknowledge it before starting work.
 
 Violations of applicable laws, company policies, or this Code can result in serious individual consequences, including disciplinary actions and dismissal. These violations also create significant risks for Ultralytics as a whole, potentially exposing the company to legal liability, reputational damage, and threats to our operational continuity.
 
@@ -69,13 +71,13 @@ Competition laws worldwide ensure healthy markets by preventing practices that h
 
 Ultralytics competes solely on the quality and value of our products and services, never through anticompetitive behavior or misleading practices. We maintain strict compliance with competition laws in all markets where we operate.
 
-Contact Legal Team immediately if you have questions about competition law requirements or suspect any violations by Ultralytics, partners, suppliers, or competitors.
+Contact the Legal Team immediately if you have questions about competition law requirements or suspect any violations by Ultralytics, partners, suppliers, or competitors.
 
 ### Business Partner Selection
 
 When engaging business partners, consider how they align with our values and conduct their businesses. Who we do business with directly impacts our reputation and may have legal and business implications.
 
-Conduct appropriate due diligence and only select parties you trust to represent Ultralytics well and share our commitment to ethical conduct. Be alert to red flags such as vague service descriptions, unusual payment requests, reluctance to provide compliance certifications, or a history of illegal or questionable conduct.
+Conduct appropriate due diligence and only select parties you trust to represent Ultralytics well and share our commitment to ethical conduct. Be alert to red flags such as vague service descriptions, unusual payment requests, reluctance to provide compliance certifications, or a history of illegal or questionable conduct. Screen prospective partners and customers against restricted regions and restricted-party lists (see our [Responsible Use Policy](https://www.ultralytics.com/legal/responsible-responsible-use-policy)) before signing any agreement.
 
 ### Government and Public Sector Dealings
 
@@ -85,7 +87,7 @@ Government officials include elected officials, candidates for public office, em
 
 In limited circumstances, with proper pre-approval, modest expenditures may be permissible when directly related to legitimate product demonstrations or service presentations. For example, a reasonable meal during a day-long product demonstration may be acceptable with advance authorization.
 
-Before offering any form of hospitality or benefit to government officials, consult with the Legal Team and your supervisor to ensure full compliance.
+Before offering any form of hospitality or benefit to government officials, consult with the Legal Team and your supervisor to ensure full compliance. Opportunities with military, defense or other government end users must also go through the enhanced-governance review described in our [Responsible Use Policy](https://www.ultralytics.com/legal/responsible-responsible-use-policy).
 
 ### Insider Trading Prevention
 
@@ -131,13 +133,13 @@ At a minimum, this information includes technical or scientific information abou
 
 You are expected to protect Ultralytics' Confidential Information and any trade secrets to which you may have access during your work, as outlined in your employment agreement and/or non-disclosure agreement. This responsibility applies while you work at Ultralytics and continues even after you leave the company.
 
-Read our [Data Classification Policy](https://app.vanta.com/c/ultralytics/employee/onboarding) to learn more about how different types of information should be handled.
+Read our [Data Management Policy](https://app.vanta.com/c/ultralytics/employee/onboarding) to learn more about how different types of information should be handled.
 
 ### Handling Confidential Information
 
 Confidential Information should be used solely for legitimate company purposes and shared only with authorized personnel who have a business need to know. You may not disclose or distribute Ultralytics' Confidential Information, except when disclosure is authorized by the company or required by applicable law, regulation, or legal orders (such as court orders, subpoenas, or government investigations).
 
-All team members must complete mandatory security and privacy training through Vanta upon joining the company and then annually thereafter. When your engagement with Ultralytics ends, you must return all company Confidential Information and proprietary materials.
+All team members must complete mandatory security and privacy training through Vanta within 14 days of joining the company and annually thereafter. Additional role-based training (for example, Secure Code or HIPAA Security Awareness training) is required where it applies to your role. When your engagement with Ultralytics ends, you must return all company Confidential Information and proprietary materials.
 
 ### Third Party Confidential Information
 
@@ -147,7 +149,7 @@ You may, under an authorized non-disclosure agreement, become aware of another c
 
 ### Incident Reporting and Support
 
-All security incidents must be reported immediately to security@ultralytics.com or [#compliance](https://ultralytics-work.slack.com/archives/C08EBUT9UCR) Slack channel. An incident includes any situation where protected data can be lost, stolen, compromised, or otherwise improperly handled, including attempts to gain unauthorized access to systems or data.
+All security incidents must be reported immediately to security@ultralytics.com or the [#compliance](https://ultralytics-work.slack.com/archives/C08EBUT9UCR) Slack channel. An incident includes any situation where protected data can be lost, stolen, compromised, or otherwise improperly handled, including attempts to gain unauthorized access to systems or data.
 
 ## Financial Responsibility at Ultralytics 💳
 
@@ -193,7 +195,7 @@ Ultralytics provides a range of tools and resources, such as office space, compu
 
 ### Equipment Protection and Accountability
 
-If you're using Ultralytics equipment at home or while traveling, take steps to keep it safe from damage, theft, or unauthorized use. Please treat it with the same care you'd give your personal belongings. When your time with Ultralytics ends, you must return all company resources in good working order. If anything gets damaged beyond regular wear and tear, let your manager know as soon as possible.
+If you're using Ultralytics equipment at home or while traveling, take steps to keep it safe from damage, theft, or unauthorized use. Please treat it with the same care you'd give your personal belongings. When your time with Ultralytics ends, you must return all company resources in good working order within 3 business days of your last day, as set out in the [Hardware Policy](https://handbook.ultralytics.com/tools/hardware). If anything gets damaged beyond regular wear and tear, let your manager know as soon as possible.
 
 ### Personal Use Guidelines
 
@@ -211,6 +213,10 @@ Ultralytics respects intellectual property rights and software licensing serious
 
 Photos, videos, music, articles, white papers, and websites are usually protected by copyright, even if they’re online and easy to access. If you want to include this kind of content in a presentation, event, or marketing material, make sure you have the right permissions. If you're unsure, contact the [#help-it](https://ultralytics-work.slack.com/archives/C099NHUEHD1) channel for help. Our team can guide you to approved visual asset libraries within our authorized tools.
 
+### Responsible Use of AI Tools at Work
+
+AI tools can make us faster, but you remain responsible for your work. Only use AI tools that have been approved under our [Software Policy](https://handbook.ultralytics.com/tools/software), and do not enter Confidential Information, customer data, personal data, or ePHI into any AI tool that is not approved for that type of data. Review AI-generated output, including code, text, and images, for accuracy, security, licensing and brand compliance before you use or publish it. Ultralytics supports the AI literacy of all team members through training and guidance appropriate to their role.
+
 ### Privacy and Monitoring
 
 At Ultralytics, we respect your privacy, but it's important to understand that the resources we provide for work, such as email, messaging platforms, devices, and network access, are company property. This includes personal devices if you use them for work purposes.
@@ -221,7 +227,7 @@ Monitoring is done only when needed for legitimate business reasons such as secu
 
 ## Raising Concerns and Getting Help
 
-Living up to our Code of Conduct is something we all share. If something doesn’t seem right, you’re encouraged and expected to speak up. Whether it’s a potential breach of our values, a legal concern, or just something that feels ethically questionable, raising it early helps prevent bigger issues and shows our commitment to integrity and trust.
+Living up to this Code is something we all share. If something doesn’t seem right, you’re encouraged and expected to speak up. Whether it’s a potential breach of our values, a legal concern, or just something that feels ethically questionable, raising it early helps prevent bigger issues and shows our commitment to integrity and trust.
 
 ### Safe to Raise a Concern
 
@@ -250,7 +256,7 @@ Please keep in mind that the more detail you can share in your report, the bette
 
 ### What Happens After You Report
 
-Once a concern is reported, it will be reviewed and investigated by trained team members. To keep things fair and unbiased, we ask that you don’t conduct your own investigation. Our goal is to handle every issue respectfully, professionally, and with the seriousness it deserves.
+Once a concern is reported, it will be logged and tracked to closure. If you have provided contact details, we will acknowledge receipt within 7 days and aim to give you feedback within 3 months. To keep things fair and unbiased, we ask that you don’t conduct your own investigation. Our goal is to handle every issue respectfully, professionally, and with the seriousness it deserves.
 
 ### Consequences of Violations
 
